@@ -1,0 +1,44 @@
+name: Build Medhar Lorai APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Prepare project files
+        run: |
+          mkdir -p app/src/main/assets
+          mkdir -p app/src/main/java/com/medhar/lorai
+          cp AndroidManifest.xml app/src/main/AndroidManifest.xml
+          cp MainActivity.kt app/src/main/java/com/medhar/lorai/MainActivity.kt
+          cp index.html app/src/main/assets/index.html
+
+      - name: Build APK
+        uses: gradle/gradle-build-action@v3
+        with:
+          gradle-version: 8.9
+          arguments: assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Medhar-Lorai-APK
+          path: app/build/outputs/apk/debug/*.apk
