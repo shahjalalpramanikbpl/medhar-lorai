@@ -1,0 +1,13 @@
+মেধার লড়াই — GitHub ও Codemagic আপলোড নির্দেশনা
+
+এই ZIP-এর ভেতরের medhar_lorai_android ফোল্ডারের ভেতরের সব ফাইল GitHub-এর medhar-lorai repository-র মূল জায়গায় (root) আপলোড করতে হবে।
+
+গুরুত্বপূর্ণ:
+- ZIP ফাইলটিকে ZIP হিসেবেই repository-তে আপলোড করলে Codemagic সোর্স কোড পাবে না।
+- ZIP extract করে ভেতরের ফাইল/ফোল্ডারগুলো repository-তে দিতে হবে।
+- codemagic.yaml অবশ্যই repository-র একেবারে root-এ থাকবে, medhar_lorai_android নামে অতিরিক্ত ফোল্ডারের ভেতরে নয়।
+- app, settings.gradle.kts, build.gradle.kts, gradle.properties, codemagic.yaml এবং README_BN.txt একই root-এ থাকবে।
+
+আপলোডের পর Codemagic-এ ফিরে configuration file পুনরায় scan/check করে Android debug build চালাতে হবে।
+
+নোট: এই YAML-এ ক্লাউডে আগে থেকে থাকা Gradle কমান্ড ব্যবহার করা হয়েছে; স্থানীয় ZIP-এ Gradle Wrapper না থাকলেও build চেষ্টা করা যাবে। Build সফল হবে কি না তা Codemagic-এর build log-ই নিশ্চিত করবে।
