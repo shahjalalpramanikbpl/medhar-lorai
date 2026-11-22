@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>মেধার লড়াই | Battle of Brains</title>
+<style>
+:root{--bg:#0d1729;--panel:#192943;--panel2:#101d32;--accent:#67e0bd;--text:#f4f7ff;--muted:#b4c1d7;--line:#3a506f}*{box-sizing:border-box}body{margin:0;padding:18px;background:linear-gradient(145deg,#0d1729,#1b3558);color:var(--text);font-family:system-ui,'Noto Sans Bengali',sans-serif}.wrap{max-width:780px;margin:auto}header,.row{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.brand{font-size:25px;font-weight:850}.tag,small,.muted{color:var(--muted)}.card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:20px;margin:14px 0;box-shadow:0 14px 40px #0004}button{border:0;border-radius:11px;padding:11px 15px;background:var(--accent);color:#102238;font-weight:750;cursor:pointer}.secondary{background:#344b6b;color:white}.danger{background:#a83d50;color:white}.tiny{padding:7px 10px;font-size:12px}.hidden{display:none!important}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:15px 0}.stat{text-align:center;background:var(--panel2);padding:12px;border-radius:13px}.stat b{display:block;font-size:23px;color:var(--accent)}.progress{height:7px;background:#344b6b;border-radius:9px;overflow:hidden;margin:12px 0 20px}.bar{height:100%;background:var(--accent);width:0;transition:.2s}.question{font-size:21px;line-height:1.5;margin:15px 0}.answers{display:grid;gap:9px}.answer{background:#2b405f;color:white;text-align:left;border:1px solid #4a6183}.answer:disabled{opacity:.95}.feedback{min-height:28px;color:var(--accent);font-weight:750;margin:12px 0}input,textarea,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:10px;background:#0e1a2d;color:white;font:inherit;margin:5px 0 12px}label{font-size:13px;color:var(--muted)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.notice{background:#203b55;border-left:4px solid var(--accent);padding:12px;border-radius:8px;line-height:1.5}.qitem{background:var(--panel2);padding:12px;border-radius:12px;margin:9px 0}.footer{text-align:center;color:var(--muted);font-size:12px;padding:14px}@media(max-width:540px){.grid{grid-template-columns:1fr}.brand{font-size:21px}.card{padding:16px}}
+
+/* Premium 3D home screen */
+body{background:radial-gradient(ellipse at 50% -10%,#254b79 0%,#101d35 48%,#080f1e 100%);padding:15px 14px 24px}
+.home-screen{position:relative;overflow:hidden;padding:8px 0 4px}
+.hero3d{position:relative;display:flex;align-items:center;gap:18px;min-height:190px;padding:23px 20px;border-radius:26px;background:linear-gradient(135deg,#203e65,#142640 65%,#0d1a2e);border:1px solid #52739b;box-shadow:0 15px 0 #091426,0 22px 38px #0008,inset 0 1px 0 #ffffff30;overflow:hidden}
+.hero3d:after{content:"";position:absolute;width:210px;height:210px;border-radius:50%;right:-70px;top:-100px;background:#67e0bd18;box-shadow:0 0 0 22px #67e0bd0a,0 0 0 48px #67e0bd08}
+.hero-orb{flex:0 0 88px;width:88px;height:88px;display:grid;place-items:center;font-size:48px;border-radius:26px;background:linear-gradient(145deg,#ffe9a0,#d79b35);box-shadow:0 8px 0 #94621f,0 14px 24px #0008,inset 0 3px 8px #fff9;transform:rotate(-7deg);z-index:1}
+.hero-copy{min-width:0;z-index:1}.eyebrow{font-size:10px;letter-spacing:2px;color:#9debd8;font-weight:900}.hero-copy h1{font-size:clamp(25px,7vw,36px);line-height:1.2;margin:7px 0;color:#fff;text-shadow:0 3px 0 #14243a}.hero-copy p{font-size:13px;color:#c6d7ed;margin:0 0 12px}.hero-pills{display:flex;gap:7px;flex-wrap:wrap}.hero-pills span{font-size:10px;padding:6px 9px;border-radius:20px;background:#ffffff12;border:1px solid #ffffff20;color:#dceaff}
+.home-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:20px 1px 18px}.home-stat{min-width:0;text-align:center;padding:13px 5px 12px;border-radius:17px;background:linear-gradient(155deg,#233c5d,#14243c);border:1px solid #405d80;box-shadow:0 6px 0 #0a1526,0 10px 18px #0005,inset 0 1px 0 #ffffff20}.home-stat span{display:block;font-size:20px;margin-bottom:5px}.home-stat small{display:block;font-size:10px;color:#b9cbe2}.home-stat b{display:block;font-size:24px;color:#ffe29a;margin-top:3px;text-shadow:0 2px 0 #7a5522}
+.start-3d{width:100%;min-height:65px;display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;border-radius:18px;background:linear-gradient(180deg,#8af2d4,#42c7a6);color:#092b2c;font-size:19px;box-shadow:0 7px 0 #21866f,0 13px 22px #0006,inset 0 2px 0 #ffffffaa;transition:transform .12s,box-shadow .12s}.start-3d:active{transform:translateY(5px);box-shadow:0 2px 0 #21866f,0 5px 10px #0005}.start-3d span{font-size:17px}.start-3d small{flex-basis:100%;margin-top:-8px;color:#155348;font-size:10px;font-weight:600}
+.home-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin-top:20px}.home-action{min-width:0;min-height:100px;padding:12px 5px;border-radius:17px;background:linear-gradient(150deg,#1e3554,#122239);color:#f3f7ff;border:1px solid #3b5678;box-shadow:0 5px 0 #091426,0 9px 15px #0005;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px}.home-action span{font-size:23px}.home-action b{font-size:12px}.home-action small{font-size:9px;color:#aebfd6}.home-bottom{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;padding:17px 4px 4px;color:#9eb2cc;font-size:10px}.home-bottom span:last-child{letter-spacing:1px;color:#6fd9bb;font-weight:800}
+@media(max-width:380px){.hero3d{padding:18px 14px;gap:12px}.hero-orb{width:70px;height:70px;flex-basis:70px;font-size:38px;border-radius:21px}.home-actions{gap:6px}.home-action b{font-size:11px}}
+
+</style></head><body><main class="wrap">
+<header><div><div class="brand">🧠 মেধার লড়াই</div><div class="tag">BATTLE OF BRAINS · QUIZ CHALLENGE</div></div><div class="row"><button class="secondary tiny" id="langBtn">English</button><button class="secondary tiny" id="adminBtn">অ্যাডমিন প্যানেল</button></div></header>
+<section id="home" class="home-screen">
+<div class="hero3d"><div class="hero-orb">🧠</div><div class="hero-copy"><div class="eyebrow">✦ BATTLE OF BRAINS ✦</div><h1>মেধার লড়াই</h1><p id="intro">জ্ঞান যাচাই করুন, নিজের রেকর্ড গড়ুন!</p><div class="hero-pills"><span>⚡ ১০ প্রশ্ন / লেভেল</span><span>🏅 পয়েন্ট অর্জন</span></div></div></div>
+<div class="home-stats"><div class="home-stat"><span>⭐</span><small>মোট পয়েন্ট</small><b id="homePoints">0</b></div><div class="home-stat"><span>🏆</span><small>বর্তমান লেভেল</small><b id="homeLevel">1</b></div><div class="home-stat"><span>📚</span><small>প্রশ্নের ভান্ডার</small><b id="homeQuestions">10</b></div></div>
+<button id="startBtn" class="start-3d"><span>▶</span> খেলা শুরু করুন <small>চ্যালেঞ্জ গ্রহণ করুন</small></button>
+<div class="home-actions"><button type="button" class="home-action" id="rulesBtn"><span>📖</span><b>খেলার নিয়ম</b><small>কীভাবে খেলবেন</small></button><button type="button" class="home-action" id="leaderBtn"><span>🥇</span><b>লিডারবোর্ড</b><small>শীঘ্রই আসছে</small></button><button type="button" class="home-action" id="progressBtn"><span>📈</span><b>আমার অগ্রগতি</b><small>পয়েন্ট ও লেভেল</small></button></div>
+<div class="home-bottom"><span>💡 প্রতিটি সঠিক উত্তরই এক ধাপ এগিয়ে</span><span>OFFLINE EDITION</span></div>
+</section>
+<section class="card hidden" id="game"><div class="stats"><div class="stat"><b id="points">0</b><small id="pointsLabel">মোট পয়েন্ট</small></div><div class="stat"><b id="level">1</b><small id="levelLabel">লেভেল</small></div><div class="stat"><b id="streak">0</b><small id="streakLabel">ধারাবাহিক সঠিক</small></div></div><div class="progress"><div class="bar" id="bar"></div></div><div class="muted" id="category"></div><div class="question" id="question"></div><div class="answers" id="answers"></div><div class="feedback" id="feedback" aria-live="polite"></div><div class="row"><small id="counter"></small><button id="next" class="hidden">পরের প্রশ্ন</button></div></section>
+<section class="card hidden" id="result"><h2 id="resultHeading">রাউন্ড শেষ!</h2><p id="resultText"></p><div class="row"><button id="again">আবার খেলুন</button><button class="secondary" id="backHome">হোমে ফিরুন</button></div></section>
+<section class="card hidden" id="admin"><div class="row"><h2>অ্যাডমিন প্যানেল</h2><button class="secondary tiny" id="closeAdmin">বন্ধ করুন</button></div><div class="notice">এটি প্রথম অফলাইন প্রোটোটাইপ। প্রশ্ন ও পয়েন্ট এই ডিভাইসের ব্রাউজারে থাকবে। অনলাইন অ্যাকাউন্ট, কেন্দ্রীয় ডেটাবেস ও সবার জন্য লিডারবোর্ড পরের ধাপে যুক্ত করতে হবে।</div><h3 id="formHeading">নতুন প্রশ্ন যোগ করুন</h3>
+<form id="questionForm"><input type="hidden" id="editIndex" value="-1"><label>বিষয়</label><input id="cat" required placeholder="যেমন: বিজ্ঞান"><label>প্রশ্ন</label><textarea id="qtext" rows="2" required></textarea><div class="grid"><div><label>উত্তর ১</label><input class="opt" required></div><div><label>উত্তর ২</label><input class="opt" required></div><div><label>উত্তর ৩</label><input class="opt" required></div><div><label>উত্তর ৪</label><input class="opt" required></div></div><label>সঠিক উত্তরের নম্বর</label><select id="correct"><option value="0">১</option><option value="1">২</option><option value="2">৩</option><option value="3">৪</option></select><div class="row"><button type="submit" id="saveQuestion">প্রশ্ন সংরক্ষণ</button><button type="button" class="secondary" id="clearForm">ফর্ম পরিষ্কার</button></div></form><h3>প্রশ্নের তালিকা</h3><div id="questionList"></div><hr style="border-color:var(--line);margin:20px 0"><h3>ডেটা ব্যবস্থাপনা</h3><div class="row"><button class="secondary" id="exportBtn">প্রশ্ন ব্যাকআপ ডাউনলোড</button><button type="button" class="secondary" id="importBtn">ব্যাকআপ ফিরিয়ে আনুন</button><button class="danger" id="resetPoints">পয়েন্ট শূন্য করুন</button></div></section>
+<div class="footer">প্রোটোটাইপ v3 · অফলাইন পরীক্ষামূলক সংস্করণ; Play Store-এ প্রকাশিত নয়।</div></main>
+<script>
+const defaults=[
+  {
+    "c": "সাধারণ জ্ঞান",
+    "q": "বাংলাদেশের জাতীয় ফুল কোনটি?",
+    "o": [
+      "শাপলা",
+      "গোলাপ",
+      "জবা",
+      "বেলি"
+    ],
+    "a": 0
+  },
+  {
+    "c": "বিজ্ঞান",
+    "q": "পানির রাসায়নিক সংকেত কী?",
+    "o": [
+      "CO₂",
+      "H₂O",
+      "O₂",
+      "NaCl"
+    ],
+    "a": 1
+  },
+  {
+    "c": "গণিত",
+    "q": "১২ × ৮ = কত?",
+    "o": [
+      "৮৬",
+      "৯২",
+      "৯৬",
+      "১০৮"
+    ],
+    "a": 2
+  },
+  {
+    "c": "ইতিহাস",
+    "q": "বাংলাদেশের স্বাধীনতা দিবস কবে?",
+    "o": [
+      "২১ ফেব্রুয়ারি",
+      "২৬ মার্চ",
+      "১৬ ডিসেম্বর",
+      "৭ মার্চ"
+    ],
+    "a": 1
+  },
+  {
+    "c": "যুক্তি",
+    "q": "ধারাটি পূরণ করুন: ২, ৪, ৮, ১৬, ...",
+    "o": [
+      "১৮",
+      "২৪",
+      "৩০",
+      "৩২"
+    ],
+    "a": 3
+  },
+  {
+    "c": "প্রযুক্তি",
+    "q": "কম্পিউটারের মস্তিষ্ক বলা হয় কোনটিকে?",
+    "o": [
+      "মনিটর",
+      "CPU",
+      "মাউস",
+      "কিবোর্ড"
+    ],
+    "a": 1
+  },
+  {
+    "c": "বিজ্ঞান",
+    "q": "উদ্ভিদ কোন প্রক্রিয়ায় সূর্যের আলোর সাহায্যে নিজের খাদ্য তৈরি করে?",
+    "o": [
+      "বাষ্পমোচন",
+      "সালোকসংশ্লেষণ",
+      "শ্বসন",
+      "অভিস্রবণ"
+    ],
+    "a": 1
+  },
+  {
+    "c": "বিজ্ঞান",
+    "q": "একজন সুস্থ প্রাপ্তবয়স্ক মানুষের কঙ্কালে মোট কয়টি হাড় থাকে?",
+    "o": [
+      "১৮০টি",
+      "২০৬টি",
+      "২১০টি",
+      "২০৮টি"
+    ],
+    "a": 1
+  },
+  {
+    "c": "বিজ্ঞান",
+    "q": "সৌরজগতের সবচেয়ে বড় গ্রহ কোনটি?",
+    "o": [
+      "বৃহস্পতি",
+      "শনি",
+      "পৃথিবী",
+      "মঙ্গল"
+    ],
+    "a": 0
+  },
+  {
+    "c": "গণিত",
+    "q": "একটি ত্রিভুজের তিনটি কোণের সমষ্টি কত ডিগ্রি?",
+    "o": [
+      "৪৫",
+      "৯০",
+      "১৮০",
+      "৩৬০"
+    ],
+    "a": 2
+  }
+];
+const $=id=>document.getElementById(id);const read=(k,f)=>{try{return JSON.parse(localStorage.getItem(k))??f}catch{return f}};let questions=read('ml_questions',defaults),points=Number(localStorage.getItem('ml_points')||0),lang=localStorage.getItem('ml_lang')||'bn',index=0,roundScore=0,streak=0,locked=false,level=Number(localStorage.getItem('ml_level')||1),roundQuestions=[];
+const tr=(bn,en)=>lang==='bn'?bn:en;function persist(){localStorage.setItem('ml_questions',JSON.stringify(questions))}function show(id){['home','game','result','admin'].forEach(x=>$(x).classList.toggle('hidden',x!==id))}function stats(){$('points').textContent=Number(points.toFixed(2));$('level').textContent=level;$('streak').textContent=streak}
+function start(){if(questions.length<10){alert(tr('একটি লেভেল খেলতে অন্তত ১০টি প্রশ্ন প্রয়োজন। অ্যাডমিন প্যানেল থেকে প্রশ্ন যোগ করুন।','At least 10 questions are required for a level. Add questions in Admin Panel.'));return}roundQuestions=[...questions].sort(()=>Math.random()-.5).slice(0,10);index=0;roundScore=0;streak=0;locked=false;show('game');render()}
+function render(){const q=roundQuestions[index];$('category').textContent=q.c;$('question').textContent=q.q;$('answers').innerHTML='';q.o.forEach((v,n)=>{const b=document.createElement('button');b.className='answer';b.textContent=(n+1)+'. '+v;b.onclick=()=>answer(n);$('answers').append(b)});$('feedback').textContent='';$('next').classList.add('hidden');$('counter').textContent=tr(`লেভেল ${level} · প্রশ্ন ${index+1} / ১০`,`Level ${level} · Question ${index+1} / 10`);$('bar').style.width=(index/10*100)+'%';stats()}
+function answer(n){if(locked)return;locked=true;const correct=roundQuestions[index].a;[...$('answers').children].forEach((b,k)=>{b.disabled=true;if(k===correct)b.style.borderColor='var(--accent)'});if(n===correct){points+=1;roundScore+=1;streak++;localStorage.setItem('ml_points',points);$('feedback').textContent=tr('সঠিক উত্তর! +১ পয়েন্ট','Correct! +1 point')}else{points-=0.25;roundScore-=0.25;streak=0;localStorage.setItem('ml_points',points);$('feedback').textContent=tr('ভুল উত্তর। −০.২৫ পয়েন্ট','Incorrect. −0.25 points')}stats();$('next').classList.remove('hidden');$('next').textContent=index===9?tr('ফলাফল দেখুন','See results'):tr('পরের প্রশ্ন','Next question')}
+function next(){if(!locked)return;index++;locked=false;if(index>=10){level++;localStorage.setItem('ml_level',level);$('resultText').textContent=tr(`লেভেল সম্পন্ন! এই লেভেলে ${roundScore.toFixed(2)} পয়েন্ট। মোট পয়েন্ট ${points.toFixed(2)}। পরবর্তী লেভেল ${level} আনলক হয়েছে।`,`Level completed! This level: ${roundScore.toFixed(2)} points. Total: ${points.toFixed(2)}. Level ${level} unlocked.`);$('bar').style.width='100%';stats();show('result')}else render()}
+function clearForm(){$('questionForm').reset();$('editIndex').value='-1';$('formHeading').textContent='নতুন প্রশ্ন যোগ করুন';$('saveQuestion').textContent='প্রশ্ন সংরক্ষণ'}
+function listQuestions(){$('questionList').innerHTML='';questions.forEach((q,i)=>{const box=document.createElement('div');box.className='qitem';const p=document.createElement('p');p.textContent=`${i+1}. ${q.q} — ${q.c}`;const row=document.createElement('div');row.className='row';const edit=document.createElement('button');edit.className='secondary tiny';edit.textContent='সম্পাদনা';edit.onclick=()=>editQuestion(i);const del=document.createElement('button');del.className='danger tiny';del.textContent='মুছুন';del.onclick=()=>{if(confirm('এই প্রশ্নটি মুছে ফেলবেন?')){questions.splice(i,1);persist();listQuestions()}};row.append(edit,del);box.append(p,row);$('questionList').append(box)})}
+function editQuestion(i){const q=questions[i];$('editIndex').value=i;$('cat').value=q.c;$('qtext').value=q.q;document.querySelectorAll('.opt').forEach((el,n)=>el.value=q.o[n]);$('correct').value=q.a;$('formHeading').textContent='প্রশ্ন সম্পাদনা';$('saveQuestion').textContent='পরিবর্তন সংরক্ষণ';$('questionForm').scrollIntoView({behavior:'smooth'})}
+$('questionForm').onsubmit=e=>{e.preventDefault();const q={c:$('cat').value.trim(),q:$('qtext').value.trim(),o:[...document.querySelectorAll('.opt')].map(x=>x.value.trim()),a:Number($('correct').value)};const i=Number($('editIndex').value);if(i<0)questions.push(q);else questions[i]=q;persist();clearForm();listQuestions();alert('প্রশ্ন সংরক্ষণ হয়েছে।')};
+$('startBtn').onclick=start;$('next').onclick=next;$('again').onclick=start;$('backHome').onclick=()=>show('home');$('adminBtn').onclick=()=>{show('admin');listQuestions()};$('closeAdmin').onclick=()=>show('home');$('clearForm').onclick=clearForm;
+$('resetPoints').onclick=()=>{if(confirm('সব পয়েন্ট শূন্য করবেন?')){points=0;level=1;localStorage.setItem('ml_points','0');localStorage.setItem('ml_level','1');stats();alert('পয়েন্ট শূন্য করা হয়েছে।')}};
+function makeBackup(){return {format:'medhar-lorai-backup',version:1,createdAt:new Date().toISOString(),questions,points,level,lang};}
+function applyBackup(data){const qs=Array.isArray(data)?data:data?.questions;if(!Array.isArray(qs)||!qs.length||qs.some(q=>typeof q.c!=='string'||typeof q.q!=='string'||!Array.isArray(q.o)||q.o.length!==4||![0,1,2,3].includes(Number(q.a))))throw Error('invalid backup');questions=qs.map(q=>({...q,a:Number(q.a)}));if(!Array.isArray(data)){points=Number(data.points)||0;level=Math.max(1,Number(data.level)||1);lang=data.lang==='en'?'en':'bn';}persist();localStorage.setItem('ml_points',String(points));localStorage.setItem('ml_level',String(level));localStorage.setItem('ml_lang',lang);listQuestions();stats();updateHome();alert('ব্যাকআপ ফিরিয়ে আনা হয়েছে। প্রশ্ন, পয়েন্ট ও লেভেল পুনরুদ্ধার হয়েছে।');}
+window.importBackupJson=function(jsonText){try{applyBackup(JSON.parse(jsonText));}catch(e){alert('ব্যাকআপ ফাইলটি সঠিক নয় বা নষ্ট হয়েছে।');}};
+$('exportBtn').onclick=()=>{const json=JSON.stringify(makeBackup(),null,2);if(window.AndroidBridge&&window.AndroidBridge.saveBackup){try{window.AndroidBridge.saveBackup(btoa(unescape(encodeURIComponent(json))),'medhar-lorai-backup.json');}catch(e){alert('ব্যাকআপ তৈরি করা যায়নি। আবার চেষ্টা করুন।');}return;}const blob=new Blob([json],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='medhar-lorai-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);};
+$('importBtn').onclick=()=>{if(window.AndroidBridge&&window.AndroidBridge.pickBackup){window.AndroidBridge.pickBackup();}else{const input=document.createElement('input');input.type='file';input.accept='application/json';input.onchange=async()=>{const file=input.files[0];if(file)window.importBackupJson(await file.text());};input.click();}};
+$('langBtn').onclick=()=>{lang=lang==='bn'?'en':'bn';localStorage.setItem('ml_lang',lang);$('langBtn').textContent=tr('English','বাংলা');$('welcome').textContent=tr('জ্ঞান যাচাই করুন, পয়েন্ট অর্জন করুন!','Test your knowledge, earn points!');$('intro').textContent=tr('প্রতি লেভেলে ১০টি প্রশ্ন। সঠিক উত্তরে +১, ভুল উত্তরে −০.২৫ পয়েন্ট।','Earn 10 points per correct answer. Points are saved on this device.');$('startBtn').textContent=tr('খেলা শুরু করুন','Start Quiz');$('adminBtn').textContent=tr('অ্যাডমিন প্যানেল','Admin Panel');$('pointsLabel').textContent=tr('মোট পয়েন্ট','Total points');$('levelLabel').textContent=tr('লেভেল','Level');$('streakLabel').textContent=tr('ধারাবাহিক সঠিক','Correct streak');if(!$('game').classList.contains('hidden'))render()};$('langBtn').textContent=tr('English','বাংলা');
+function updateHome(){ $('homePoints').textContent=Number(points.toFixed(2)); $('homeLevel').textContent=level; $('homeQuestions').textContent=questions.length; }
+$('rulesBtn').onclick=()=>alert('প্রতি লেভেলে ১০টি প্রশ্ন থাকবে। সঠিক উত্তরে +১ পয়েন্ট, ভুল উত্তরে −০.২৫ পয়েন্ট। প্রতিটি প্রশ্নের উত্তর বেছে নিয়ে পরের প্রশ্নে যান।');
+$('leaderBtn').onclick=()=>alert('অনলাইন লিডারবোর্ড পরবর্তী আপডেটে যুক্ত হবে। বর্তমানে আপনার পয়েন্ট এই ডিভাইসে সংরক্ষিত থাকে।');
+$('progressBtn').onclick=()=>alert('আপনার অগ্রগতি\nমোট পয়েন্ট: '+Number(points.toFixed(2))+'\nবর্তমান লেভেল: '+level+'\nপ্রশ্নের ভান্ডার: '+questions.length);
+const oldShow=show; show=function(id){oldShow(id);if(id==='home')updateHome()}; updateHome(); stats();
+</script></body></html>
