@@ -1,54 +1,40 @@
-name: Build Medhar Lorai APK
+name: Build Android APK
 
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Setup Java
-        uses: actions/setup-java@v5
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '17'
+          java-version: "17"
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v4
-      - name: Generate launcher icons
-        run: |
-          python3 -m pip install --quiet Pillow
-          python3 - <<'PY'
-          from PIL import Image
-          import os
-          source = Image.open('app_icon.png').convert('RGBA')
-          for folder, size in [('mipmap-mdpi',48),('mipmap-hdpi',72),('mipmap-xhdpi',96),('mipmap-xxhdpi',144),('mipmap-xxxhdpi',192)]:
-              os.makedirs(f'app/src/main/res/{folder}', exist_ok=True)
-              source.resize((size,size), Image.Resampling.LANCZOS).save(f'app/src/main/res/{folder}/ic_launcher.png')
-          PY
-      - name: Prepare project files
-        run: |
-          mkdir -p app/src/main/assets
-          mkdir -p app/src/main/java/com/medhar/lorai
-          cp AndroidManifest.xml app/src/main/AndroidManifest.xml
-          cp MainActivity.kt app/src/main/java/com/medhar/lorai/MainActivity.kt
-          cp index.html app/src/main/assets/index.html
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
 
-      - name: Build APK
-        uses: gradle/gradle-build-action@v3
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: 8.9
-          arguments: assembleDebug
+          gradle-version: "8.9"
+
+      - name: Build debug APK
+        run: gradle --no-daemon assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: Medhar-Lorai-APK
+          name: medhar-lorai-debug-apk
           path: app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
