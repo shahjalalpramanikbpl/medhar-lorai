@@ -13,8 +13,8 @@
   questions.push(mk('গণিত',bn(a)+' − '+bn(b)+' = কত?',bn(v),[v+3,v-4,v+7].map(bn),i<45?'সহজ':i<90?'মাঝারি':'কঠিন'));
  }
  for(let i=1;i<=125;i++){
-  let a=6+(i*3)%39,b=4+(i*7)%26,v=a*b;
-  questions.push(mk('গণিত',bn(a)+' × '+bn(b)+' = কত?',bn(v),[v+a,v-b,v+11].map(bn),i<35?'সহজ':i<85?'মাঝারি':'কঠিন'));
+  let a=6+i,b=4+(i*7)%26,v=a*b;
+  questions.push(mk('গণিত',bn(a)+' × '+bn(b)+' = কত?',bn(v),[v+101,v-17,v+43].map(bn),i<35?'সহজ':i<85?'মাঝারি':'কঠিন'));
  }
  for(let i=1;i<=125;i++){
   let b=3+(i*5)%27,a=b*(4+(i*7)%35),v=a/b;
