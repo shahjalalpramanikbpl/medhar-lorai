@@ -1,0 +1,20 @@
+মেধার লড়াই — GitHub Actions দিয়ে APK তৈরি
+
+এই ZIP-এ Codemagic ব্যবহার করা হবে না। APK তৈরি হবে GitHub Actions দিয়ে।
+
+গুরুত্বপূর্ণ: ZIP ফাইলটি GitHub-এ ZIP হিসেবেই আপলোড করবেন না। ZIP Extract করলে যে ফোল্ডার ও ফাইলগুলো পাবেন, সেগুলোর ভেতরের সবকিছু একই কাঠামো রেখে GitHub repository-র মূল জায়গায় আপলোড করতে হবে।
+
+মূল ফাইলের অবস্থান:
+- settings.gradle.kts
+- build.gradle.kts
+- gradle.properties
+- .github/workflows/android-apk.yml
+- app/build.gradle.kts
+- app/src/main/AndroidManifest.xml
+- app/src/main/java/com/medhar/lorai/MainActivity.kt
+- app/src/main/assets/index.html
+- app/src/main/assets/medhar_features.js
+
+GitHub-এ ফাইল আপলোডের পর Actions ট্যাবে গিয়ে “Build Android APK” workflow-এর run সফল হলে Artifacts অংশে “medhar-lorai-debug-apk” পাওয়া যাবে। সেটি ডাউনলোড করলে APK পাওয়া যাবে।
+
+এটি সোর্স প্রজেক্ট, APK নয়। এই পরিবেশে Android SDK দিয়ে compile/install পরীক্ষা করা হয়নি।
