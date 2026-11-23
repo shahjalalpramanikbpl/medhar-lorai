@@ -5,7 +5,7 @@ service cloud.firestore {
       // Public leaderboard rows: only the signed-in owner can create or update their own row.
       // This validates data shape, but does NOT prove that the submitted score was earned fairly.
       allow read: if true;
-      allow create, update: if request.auth != null
+      allow create: if request.auth != null
         && request.auth.uid == uid
         && request.resource.data.keys().hasAll([
           'uid', 'displayName', 'email', 'points', 'level',
