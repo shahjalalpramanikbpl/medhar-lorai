@@ -1,7 +1,7 @@
 /* মেধার লড়াই — বিষয়ভিত্তিক চাকরি প্রস্তুতি ও মডেল টেস্ট */
 (()=>{'use strict';
 const B='০১২৩৪৫৬৭৮৯',bn=n=>String(n).replace(/\d/g,d=>B[+d]);
-const Q=(c,q,o,a,e,source,sourceUrl)=>({c,q,o,a,e,source:source||'',sourceUrl:sourceUrl||''});
+const Q=(c,q,o,a,e,source,sourceUrl,d)=>({id:'job_'+c+'_'+q.slice(0,24),c,q,o,a,e,source:source||'',sourceUrl:sourceUrl||'',...(d?{d}:{})});
 const bank=[
 Q('বাংলা ভাষা ও সাহিত্য','বাংলা ভাষার আদি নিদর্শন কোনটি?',['শ্রীকৃষ্ণকীর্তন','চর্যাপদ','মঙ্গলকাব্য','গীতাঞ্জলি'],1,'চর্যাপদ বাংলা ভাষার প্রাচীনতম লিখিত নিদর্শন হিসেবে স্বীকৃত।'),
 Q('বাংলা ভাষা ও সাহিত্য','চর্যাপদ আবিষ্কার করেন কে?',['সুনীতিকুমার চট্টোপাধ্যায়','হরপ্রসাদ শাস্ত্রী','দীনেশচন্দ্র সেন','মুহম্মদ শহীদুল্লাহ'],1,'১৯০৭ সালে নেপালের রাজদরবারের পুঁথিশালা থেকে হরপ্রসাদ শাস্ত্রী চর্যাপদ আবিষ্কার করেন।'),
@@ -113,6 +113,79 @@ Q('English Literature',"Who wrote Jane Eyre?",["Emily Brontë","Anne Brontë","C
 Q('English Literature',"Who wrote The Importance of Being Earnest?",["Oscar Wilde","George Bernard Shaw","J. M. Synge","John Galsworthy"],0,"The comedy is by Oscar Wilde."),
 Q('English Literature',"Who wrote The Iliad?",["Virgil","Homer","Sophocles","Aristotle"],1,"The Iliad is an ancient Greek epic attributed to Homer."),
 Q('English Literature',"Who wrote The Second Coming?",["T. S. Eliot","W. B. Yeats","W. H. Auden","Dylan Thomas"],1,"The Second Coming is a poem by W. B. Yeats.")];
+
+bank.push(
+Q('English','Every morning, she ___ tea.',['drink','drinks','drinking','drank'],1,'The third-person singular subject “she” takes “drinks” in the simple present tense.','','','সহজ'),
+Q('English','They ___ playing football now.',['is','are','am','be'],1,'The plural subject “they” takes “are” in the present continuous tense.','','','সহজ'),
+Q('English','I have lived here ___ five years.',['for','since','from','by'],0,'Use “for” with a period of time; use “since” with a starting point.','','','সহজ'),
+Q('English','He is ___ honest officer.',['a','an','the','no article'],1,'“Honest” begins with a vowel sound, so use “an”.','','','সহজ'),
+Q('English','What is the plural of “child”?',['childs','childes','children','childrens'],2,'The irregular plural of child is children.','','','সহজ'),
+Q('English','Choose the synonym of “Rapid”.',['Slow','Quick','Weak','Late'],1,'Rapid means quick or fast.','','','সহজ'),
+Q('English','Choose the antonym of “Ancient”.',['Old','Historic','Modern','Antique'],2,'Modern is the opposite of ancient.','','','সহজ'),
+Q('English','Choose the correctly spelt word.',['Necesary','Necessary','Neccessary','Necessery'],1,'The correct spelling is necessary: one c and two s letters.','','','সহজ'),
+Q('English','“Look after” means—',['Take care of','Search for','Look at','Avoid'],0,'The phrasal verb “look after” means to take care of someone or something.','','','সহজ'),
+Q('English','The phrase “at present” means—',['In the past','In future','Now','Rarely'],2,'“At present” means at this time or now.','','','সহজ'),
+Q('English','Neither of the answers ___ correct.',['are','is','were','have'],1,'“Neither” is treated as singular in this construction, so use “is”.','','','মাঝারি'),
+Q('English','A number of students ___ absent today.',['were','was','is','has'],0,'“A number of” takes a plural verb: were.','','','মাঝারি'),
+Q('English','The number of applicants ___ increasing.',['are','were','is','have'],2,'“The number of” takes a singular verb: is.','','','মাঝারি'),
+Q('English','She is interested ___ music.',['in','at','on','for'],0,'The correct collocation is “interested in”.','','','মাঝারি'),
+Q('English','He insisted ___ paying the bill.',['at','on','for','to'],1,'The verb “insist” is followed by the preposition “on”.','','','মাঝারি'),
+Q('English','If I ___ you, I would apologize.',['was','were','am','be'],1,'In a hypothetical condition, the subjunctive “were” is used.','','','মাঝারি'),
+Q('English','No sooner had he arrived ___ it started raining.',['than','when','then','while'],0,'The correlative structure is “no sooner … than”.','','','মাঝারি'),
+Q('English','I look forward to ___ from you.',['hear','hearing','heard','have heard'],1,'In “look forward to”, “to” is a preposition and is followed by a gerund.','','','মাঝারি'),
+Q('English','The work ___ by tomorrow.',['will complete','will have completing','will be completed','is completing'],2,'The passive future form is “will be + past participle”.','','','মাঝারি'),
+Q('English','Despite ___ tired, she continued working.',['being','be','was','been'],0,'The preposition “despite” is followed by a noun or gerund phrase.','','','মাঝারি'),
+Q('English','He denied ___ the document.',['sign','to sign','signing','signed'],2,'“Deny” is normally followed by a gerund.','','','মাঝারি'),
+Q('English','Had they left earlier, they ___ the train.',['will catch','would catch','would have caught','had caught'],2,'This is a third conditional inversion: would have + past participle.','','','মাঝারি'),
+Q('English','The teacher asked where I ___.',['live','lived','am living','will live'],1,'Reported speech commonly backshifts “live” to “lived” after “asked”.','','','মাঝারি'),
+Q('English','She is senior ___ me.',['to','than','from','with'],0,'The adjective “senior” takes “to”, not “than”.','','','মাঝারি'),
+Q('English','The furniture ___ expensive.',['are','is','were','have'],1,'“Furniture” is an uncountable noun and takes a singular verb.','','','মাঝারি'),
+Q('English','Choose the synonym of “Meticulous”.',['Careless','Hasty','Very careful','Ordinary'],2,'Meticulous means showing great attention to detail.','','','কঠিন'),
+Q('English','Choose the synonym of “Concise”.',['Brief','Confusing','Lengthy','Unclear'],0,'Concise means brief but clear.','','','কঠিন'),
+Q('English','“Ambiguous” means—',['Certain','Unclear','Obvious','Accurate'],1,'Ambiguous means open to more than one interpretation or unclear.','','','কঠিন'),
+Q('English','Choose the antonym of “Hostile”.',['Aggressive','Unfriendly','Friendly','Harsh'],2,'Friendly is the opposite of hostile.','','','কঠিন'),
+Q('English','Choose the antonym of “Scarce”.',['Rare','Abundant','Limited','Insufficient'],1,'Abundant means plentiful, the opposite of scarce.','','','কঠিন'),
+Q('English','The idiom “spill the beans” means—',['Reveal a secret','Waste food','Make a mistake','Become angry'],0,'“Spill the beans” means to reveal secret information.','','','কঠিন'),
+Q('English','“Once in a blue moon” means—',['Every day','Very often','Very rarely','At night'],2,'The idiom means something happens very rarely.','','','কঠিন'),
+Q('English','“Break the ice” means—',['End a friendship','Start a friendly conversation','Break an object','Create trouble'],1,'The idiom means to ease tension and begin social interaction.','','','কঠিন'),
+Q('English','The phrasal verb “put off” means—',['Wear','Continue','Postpone','Accept'],2,'“Put off” means to postpone or delay.','','','কঠিন'),
+Q('English','The phrasal verb “carry out” means—',['Cancel','Perform','Reject','Delay'],1,'“Carry out” means to perform or execute a task.','','','কঠিন'),
+Q('English','The phrasal verb “look into” means—',['Investigate','Ignore','Admire','Postpone'],0,'“Look into” means to investigate or examine.','','','কঠিন'),
+Q('English','Choose the correctly spelt word.',['Accomodation','Acommodation','Accommodation','Acommodetion'],2,'The correct spelling is accommodation, with double c and double m.','','','কঠিন'),
+Q('English','Choose the correctly spelt word.',['Priviledge','Privilege','Privilage','Privelege'],1,'The correct spelling is privilege.','','','কঠিন'),
+Q('English','Choose the correctly spelt word.',['Consciencious','Conscientous','Conscientious','Conscienctious'],2,'The correct spelling is conscientious.','','','কঠিন'),
+Q('English','Choose the correctly spelt word.',['Embarass','Embarrass','Embaras','Embarras'],1,'The correct spelling is embarrass, with double r and double s.','','','কঠিন'),
+Q('English','What is the plural form of “phenomenon”?',['Phenomena','Phenomenons','Phenomenas','Phenomenae'],0,'The standard plural of phenomenon is phenomena.','','','কঠিন'),
+Q('English','What is the plural form of “criterion”?',['Criterions','Criterion','Criteria','Criterias'],2,'The plural of criterion is criteria.','','','কঠিন'),
+Q('English','She has been working here ___ 8 a.m.',['for','since','from','during'],1,'Use “since” with a specific starting time.','','','কঠিন'),
+Q('English','By the time we reached the cinema, the movie ___.',['had started','has started','starts','will start'],0,'The earlier past action takes past perfect: had started.','','','কঠিন'),
+Q('English','Hardly had I entered the room ___ the phone rang.',['than','when','then','while'],1,'The standard correlative structure is “hardly … when”.','','','কঠিন')
+);
+const mappedCategory={
+ 'বাংলাদেশ বিষয়াবলি':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'আন্তর্জাতিক বিষয়াবলি':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'আন্তর্জাতিক':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'সাধারণ জ্ঞান':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'ভূগোল':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'ইতিহাস':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'বিজ্ঞান':'সাধারণ বিজ্ঞান',
+ 'পরিবেশ':'সাধারণ বিজ্ঞান',
+ 'প্রযুক্তি':'কম্পিউটার ও ICT',
+ 'সাহিত্য':'বাংলা ভাষা ও সাহিত্য'
+};
+const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
+const existingKeys=new Set(bank.map(q=>norm(q.c)+'|'+norm(q.q)));
+(window.ML_CONTENT?.questions||[]).forEach((q,i)=>{
+ const c=mappedCategory[q.c];if(!c||!Array.isArray(q.o)||q.o.length!==4)return;
+ const key=norm(c)+'|'+norm(q.q);if(existingKeys.has(key))return;existingKeys.add(key);
+ bank.push(Q(c,q.q,q.o,q.a,'সঠিক উত্তর: '+q.o[q.a]+'.','','',q.d||'সহজ'));
+});
+const englishQuizQuestions=bank.filter(q=>q.c==='English');
+if(window.ML_CONTENT?.questions){
+ const seenEnglish=new Set(window.ML_CONTENT.questions.filter(q=>q.c==='English').map(q=>norm(q.q)));
+ englishQuizQuestions.forEach((q,i)=>{if(!seenEnglish.has(norm(q.q))){window.ML_CONTENT.questions.push({...q,id:'job_english_'+i,d:q.d||'সহজ'});seenEnglish.add(norm(q.q));}});
+}
+
 const exams=[
 {id:'bcs',name:'বিসিএস প্রিলিমিনারি অনুশীলন',minutes:25,negative:.5,dist:{'বাংলা ভাষা ও সাহিত্য':4,'English':4,'গণিত':4,'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান':2,'সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান':1,'সাধারণ বিজ্ঞান':2,'কম্পিউটার ও ICT':1,'মানসিক দক্ষতা ও IQ':1,'যুক্তি ও বিশ্লেষণ':1}},
 {id:'primary',name:'প্রাথমিক শিক্ষক নিয়োগ অনুশীলন',minutes:20,negative:.25,dist:{'বাংলা ভাষা ও সাহিত্য':4,'English':3,'গণিত':5,'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান':2,'সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান':1,'সাধারণ বিজ্ঞান':2,'মানসিক দক্ষতা ও IQ':2,'যুক্তি ও বিশ্লেষণ':1}},
@@ -124,7 +197,7 @@ let active=null,timer=null,answers=[],remaining=0,started=0;
 const HISTORY_KEY='ml_job_exam_history';
 function saveHistory(item){try{const old=JSON.parse(localStorage.getItem(HISTORY_KEY)||'[]');old.unshift(item);localStorage.setItem(HISTORY_KEY,JSON.stringify(old.slice(0,30)))}catch(e){console.warn('পরীক্ষার ইতিহাস সংরক্ষণ করা যায়নি',e)}}
 const panel=()=>document.getElementById('featureBody');
-function showHome(){const b=panel(),t=document.getElementById('featureTitle');if(!b||!t)return;t.textContent='চাকরি প্রস্তুতি কেন্দ্র';b.innerHTML='<div class="notice">৯টি বিষয়ভিত্তিক প্রস্তুতি · আলাদা চাকরির মডেল টেস্ট · সময় ও ফলাফল বিশ্লেষণ।</div><button id="examHistory" class="secondary">আগের পরীক্ষার ফলাফল</button><h3>বিষয়ভিত্তিক অনুশীলন</h3><div class="home-actions">'+['বাংলা ভাষা ও সাহিত্য','English','English Literature','গণিত','বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান','সাধারণ বিজ্ঞান','কম্পিউটার ও ICT','মানসিক দক্ষতা ও IQ','যুক্তি ও বিশ্লেষণ','সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান'].map(c=>'<button class="home-action" data-sub="'+c+'"><b>'+c+'</b><small>'+(c==='গণিত'?'৩০ লেভেল · ৩০০ প্রশ্ন':bn(bank.filter(q=>q.c===c).length)+'টি অনুশীলনী')+(c.includes('সাম্প্রতিক')?' · হালনাগাদ ২৩-১১-২০২৬':'')+'</small></button>').join('')+'</div><h3>চাকরির মডেল টেস্ট</h3><div class="home-actions">'+exams.map(e=>'<button class="home-action" data-exam="'+e.id+'"><b>'+e.name+'</b><small>'+e.minutes+' মিনিট · ২০ প্রশ্ন · অনুশীলনী · ভুলে −'+e.negative+'</small></button>').join('')+'</div><button class="secondary" id="jobBack">হোমে ফিরুন</button>';
+function showHome(){const b=panel(),t=document.getElementById('featureTitle');if(!b||!t)return;t.textContent='চাকরি প্রস্তুতি কেন্দ্র';b.innerHTML='<div class="notice">১০টি বিষয়ভিত্তিক প্রস্তুতি · ৩০০টি গণিত প্রশ্ন · বিষয়ভিত্তিক অনুশীলন ও চাকরির মডেল টেস্ট।</div><button id="examHistory" class="secondary">আগের পরীক্ষার ফলাফল</button><h3>বিষয়ভিত্তিক অনুশীলন</h3><div class="home-actions">'+['বাংলা ভাষা ও সাহিত্য','English','English Literature','গণিত','বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান','সাধারণ বিজ্ঞান','কম্পিউটার ও ICT','মানসিক দক্ষতা ও IQ','যুক্তি ও বিশ্লেষণ','সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান'].map(c=>'<button class="home-action" data-sub="'+c+'"><b>'+c+'</b><small>'+(c==='গণিত'?'৩০ লেভেল · ৩০০ প্রশ্ন':bn(bank.filter(q=>q.c===c).length)+'টি অনুশীলনী')+(c.includes('সাম্প্রতিক')?' · হালনাগাদ ২৩-১১-২০২৬':'')+'</small></button>').join('')+'</div><h3>চাকরির মডেল টেস্ট</h3><div class="home-actions">'+exams.map(e=>'<button class="home-action" data-exam="'+e.id+'"><b>'+e.name+'</b><small>'+e.minutes+' মিনিট · ২০ প্রশ্ন · অনুশীলনী · ভুলে −'+e.negative+'</small></button>').join('')+'</div><button class="secondary" id="jobBack">হোমে ফিরুন</button>';
 b.querySelectorAll('[data-sub]').forEach(x=>x.onclick=()=>x.dataset.sub==='গণিত'?window.openMathLevelHome&&window.openMathLevelHome():practice(x.dataset.sub));b.querySelectorAll('[data-exam]').forEach(x=>x.onclick=()=>beginExam(x.dataset.exam));document.getElementById('jobBack').onclick=()=>window.show('home');document.getElementById('examHistory').onclick=historyView}
 function practice(cat){const b=panel(),arr=bank.filter(q=>q.c===cat).slice().sort(()=>Math.random()-.5);let i=0,score=0,locked=false;function draw(){if(i>=arr.length){b.innerHTML='<div class="card"><h3>'+cat+' অনুশীলন সম্পন্ন</h3><p>স্কোর: '+bn(score.toFixed(2))+' / '+bn(arr.length)+'</p><button id="subAgain" class="start-3d">আবার অনুশীলন</button><button id="subBack" class="secondary">বিষয় তালিকা</button></div>';document.getElementById('subAgain').onclick=()=>{i=0;score=0;arr.sort(()=>Math.random()-.5);draw()};document.getElementById('subBack').onclick=showHome;return}locked=false;const q=arr[i];b.innerHTML='<div class="row"><b>'+cat+'</b><small>প্রশ্ন '+bn(i+1)+'/'+bn(arr.length)+'</small></div><div class="question">'+q.q+'</div><div class="answers">'+q.o.map((v,j)=>'<button class="answer" data-opt="'+j+'">'+['ক','খ','গ','ঘ'][j]+'. '+v+'</button>').join('')+'</div><div id="subFeedback" class="notice hidden"></div><div class="row"><b>স্কোর: '+bn(score.toFixed(2))+'</b><button id="subNext" class="hidden">পরের প্রশ্ন</button></div><button id="subBack" class="secondary">বিষয় তালিকা</button>';b.querySelectorAll('[data-opt]').forEach(x=>x.onclick=()=>{if(locked)return;locked=true;const ok=+x.dataset.opt===q.a;score=Number((score+(ok?1:-.25)).toFixed(2));b.querySelectorAll('[data-opt]').forEach((z,j)=>{z.disabled=true;if(j===q.a)z.style.border='2px solid #67e0bd'});const f=document.getElementById('subFeedback');f.classList.remove('hidden');f.innerHTML='<b>'+(ok?'সঠিক উত্তর · +১':'ভুল উত্তর · −০.২৫ · সঠিক উত্তর: '+q.o[q.a])+'</b><br>'+q.e+(q.source?'<br><b>তথ্যসূত্র:</b> '+q.source+(q.sourceUrl?' · <a href="'+q.sourceUrl+'" target="_blank" rel="noopener">মূল প্রতিবেদন</a>':''):'');document.getElementById('subNext').classList.remove('hidden')});document.getElementById('subNext').onclick=()=>{i++;draw()};document.getElementById('subBack').onclick=showHome}draw()}
 function historyView(){const b=panel();let h=[];try{h=JSON.parse(localStorage.getItem(HISTORY_KEY)||'[]')}catch(e){};if(!h.length){b.innerHTML='<div class="notice">এখনো কোনো মডেল টেস্টের ফলাফল সংরক্ষিত হয়নি।</div><button id="historyBack" class="secondary">ফিরে যান</button>'}else{const avg=Math.round(h.reduce((a,x)=>a+(x.accuracy||0),0)/h.length);b.innerHTML='<div class="card"><h3>পরীক্ষার ইতিহাস</h3><p>সংরক্ষিত পরীক্ষা: '+bn(h.length)+' · গড় সঠিকতার হার: '+bn(avg)+'%</p></div>'+h.map(x=>'<article class="card"><b>'+x.examName+'</b><p>স্কোর '+bn(x.score)+' · সঠিকতার হার '+bn(x.accuracy)+'% · সঠিক '+bn(x.correct)+' · ভুল '+bn(x.wrong)+' · ফাঁকা '+bn(x.blank)+'</p><small>'+new Date(x.at).toLocaleString('bn-BD')+'</small></article>').join('')+'<button id="historyBack" class="secondary">ফিরে যান</button>'}document.getElementById('historyBack').onclick=showHome}
@@ -136,5 +209,5 @@ function finishExam(timeout){if(!active)return;clearInterval(timer);timer=null;c
 window.openJobPrep=()=>{const p=document.getElementById('featurePanel');if(!p)return;showHome();window.show('featurePanel')};
 window.openMathLevels=()=>{if(typeof window.openMathLevelHome==='function')window.openMathLevelHome();else alert('গণিত মডিউল লোড হয়নি।')};
 window.JOB_PREP_BANK=bank;window.JOB_PREP_EXAMS=exams;window.JOB_PREP_CURRENT_AFFAIRS_UPDATED='2026-11-23';
-const addMainMenuEntry=()=>{const home=document.querySelector('#home .home-actions');if(home&&!document.getElementById('jobPrepBtn')){const btn=document.createElement('button');btn.className='home-action';btn.id='jobPrepBtn';btn.innerHTML='<span>🎓</span><b>চাকরির প্রস্তুতি</b><small>৯ বিষয় · English Literature · ৩০ গণিত লেভেল · ৫ মডেল টেস্ট</small>';btn.onclick=window.openJobPrep;home.prepend(btn)}};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',addMainMenuEntry);else addMainMenuEntry();setTimeout(addMainMenuEntry,500);
+const addMainMenuEntry=()=>{const home=document.getElementById('homeFeatured');if(home&&!document.getElementById('jobPrepBtn')){const btn=document.createElement('button');btn.className='job-prep-hero';btn.id='jobPrepBtn';btn.innerHTML='<span class="job-prep-icon">🎓</span><span class="job-prep-copy"><b>চাকরির প্রস্তুতি</b><small>বিষয়ভিত্তিক অনুশীলন · ৩০০ গণিত প্রশ্ন · মডেল টেস্ট</small></span><span class="job-prep-arrow">➜</span>';btn.onclick=window.openJobPrep;home.append(btn)}};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',addMainMenuEntry);else addMainMenuEntry();setTimeout(addMainMenuEntry,500);
 })();
