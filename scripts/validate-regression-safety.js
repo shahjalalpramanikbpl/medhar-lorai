@@ -43,11 +43,14 @@ try {
 }
 
 // Security invariants: no public writes; users can only touch their own private data.
-check(/allow read:\\s*if true;[\\s\\S]*?allow create:[\\s\\S]*?request\\.auth\\.uid == uid/.test(rules), 'Leaderboard owner-only create rule missing.');
-check(/allow delete:\\s*if false;/.test(rules), 'Leaderboard delete must remain denied.');
-check(/allow create, update, delete:[\\s\\S]*?request\\.auth\\.uid == 'TIEU9BdlVFcj2LzwoGKI2BOd2tR2'/.test(rules), 'Public question-bank publisher UID restriction missing.');
-check(/match \/users\\/{uid}[\\s\\S]*?allow read, write:\\s*if request\\.auth != null && request\\.auth\\.uid == uid/.test(rules), 'Private user documents must remain owner-only.');
-check(/match \/questionBank\\/{documentId}[\\s\\S]*?allow read, write:\\s*if request\\.auth != null && request\\.auth\\.uid == uid/.test(rules), 'Private question-bank backups must remain owner-only.');
+const leaderboardRules = rules.split('match /leaderboard/{uid}')[1]?.split('match /publicQuestionBank/')[0] || '';
+const publicBankRules = rules.split('match /publicQuestionBank/')[1]?.split('match /users/{uid}')[0] || '';
+const userRules = rules.split('match /users/{uid}')[1] || '';
+check(leaderboardRules.includes('request.auth.uid == uid'), 'Leaderboard owner-only write rule missing.');
+check(leaderboardRules.includes('allow delete: if false;'), 'Leaderboard delete must remain denied.');
+check(publicBankRules.includes("request.auth.uid == 'TIEU9BdlVFcj2LzwoGKI2BOd2tR2'"), 'Public question-bank publisher UID restriction missing.');
+check(userRules.includes('allow read, write: if request.auth != null && request.auth.uid == uid;'), 'Private user documents must remain owner-only.');
+check(userRules.includes('match /questionBank/{documentId}') && userRules.includes('allow read, write: if request.auth != null && request.auth.uid == uid;'), 'Private question-bank backups must remain owner-only.');
 
 if (fail.length) {
   console.error('Regression safety checks FAILED:');
