@@ -59,6 +59,9 @@ if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank mus
 if (new Set(englishGrammar.map(x => normalize(x.q))).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains duplicate questions.");
 if (new Set(subjectBank.map(x => normalize(x.c) + "|" + normalize(x.q))).size !== subjectBank.length) errors.push("Subject bank contains duplicate questions.");
 if (subjectBank.length < 480 || subjectNames.size < 9) errors.push("Subject bank must contain at least 480 questions across 9 non-math sections.");
+// Release gate: every non-math job-preparation subject must reach 300 verified questions.
+for (const name of subjectNames) { const count = subjectBank.filter(x => x.c === name).length; if (count < 300) errors.push("Release target: subject " + name + " has " + count + "/300 questions."); }
+if (math.length !== 300) errors.push("Release target: math must contain exactly 300 questions.");
 console.log("Job-preparation questions:", subjectBank.length, "| English grammar/vocabulary:", englishGrammar.length);
 const mathUiSource = fs.readFileSync("app/src/main/assets/math-levels.js", "utf8");
 if (!mathUiSource.includes("const getNextLevel=") || !mathUiSource.includes("পরবর্তী লেভেল শুরু করুন")) errors.push("Math levels must use sequential progression instead of a level-button grid.");
