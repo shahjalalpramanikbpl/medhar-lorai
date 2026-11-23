@@ -44,6 +44,7 @@ const sandbox = {
   console,
   localStorage: { getItem() { return null; }, setItem() {} }
 };
+vm.runInNewContext(fs.readFileSync("app/src/main/assets/content-bank.js", "utf8"), sandbox);
 vm.runInNewContext(fs.readFileSync("app/src/main/assets/math-levels.js", "utf8"), sandbox);
 const jobSource = fs.readFileSync("app/src/main/assets/job-prep-suite.js", "utf8").replace("window.openJobPrep=()=>", "window.__pickJobPrepQuestions=pickQuestions;window.openJobPrep=()=>");
 vm.runInNewContext(jobSource, sandbox);
@@ -56,6 +57,8 @@ const subjectNames = new Set(subjectBank.map(x => x.c));
 const englishGrammar = subjectBank.filter(x => x.c === "English");
 if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank must contain at least 50 questions.");
 if (new Set(englishGrammar.map(x => normalize(x.q))).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains duplicate questions.");
+if (new Set(subjectBank.map(x => normalize(x.c) + "|" + normalize(x.q))).size !== subjectBank.length) errors.push("Subject bank contains duplicate questions.");
+if (subjectBank.length < 480 || subjectNames.size < 9) errors.push("Subject bank must contain at least 480 questions across 9 non-math sections.");
 console.log("Job-preparation questions:", subjectBank.length, "| English grammar/vocabulary:", englishGrammar.length);
 const mathUiSource = fs.readFileSync("app/src/main/assets/math-levels.js", "utf8");
 if (!mathUiSource.includes("const getNextLevel=") || !mathUiSource.includes("পরবর্তী লেভেল শুরু করুন")) errors.push("Math levels must use sequential progression instead of a level-button grid.");
@@ -104,7 +107,7 @@ for (const x of math) {
   if(expected===null || !Number.isFinite(expected)) errors.push("Math "+x.id+": could not independently verify question wording.");
   else if(Math.abs(expected-Number(x.expected))>0.011) errors.push("Math "+x.id+": independently calculated answer "+expected+" differs from expected "+x.expected+".");
 }
-if (subjectBank.length !== 110 || subjectNames.size !== 9) errors.push("Subject bank must contain 110 questions across 9 non-math sections, including English Literature.");
+
 const literature = subjectBank.filter(x => x.c === "English Literature");
 if (literature.length !== 30) errors.push("English Literature must contain exactly 30 dedicated questions.");
 for (const name of subjectNames) if (subjectBank.filter(x => x.c === name).length < 10) errors.push("Subject " + name + " has fewer than 10 practice questions.");
