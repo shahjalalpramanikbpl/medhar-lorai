@@ -24,7 +24,7 @@ body{background:radial-gradient(ellipse at 50% -10%,#254b79 0%,#101d35 48%,#080f
 <div class="home-actions"><button type="button" class="home-action" id="rulesBtn"><span>📖</span><b>খেলার নিয়ম</b><small>কীভাবে খেলবেন</small></button><button type="button" class="home-action" id="leaderBtn"><span>🥇</span><b>লিডারবোর্ড</b><small>শীঘ্রই আসছে</small></button><button type="button" class="home-action" id="progressBtn"><span>📈</span><b>আমার অগ্রগতি</b><small>পয়েন্ট ও লেভেল</small></button></div>
 <div class="home-actions" style="margin-top:10px">
 <button class="home-action" id="profileBtn"><span>👤</span><b>আমার প্রোফাইল</b><small>নাম ও খেলার ইতিহাস</small></button>
-<button class="home-action" id="dailyBtn"><span>⚡</span><b>ডেইলি চ্যালেঞ্জ</b><small>প্রতিদিন ৫ প্রশ্ন</small></button>
+<button type="button" class="home-action" id="accountBtn"><span>☁️</span><b>অনলাইন অ্যাকাউন্ট</b><small>নিবন্ধন ও লগইন</small></button><button class="home-action" id="dailyBtn"><span>⚡</span><b>ডেইলি চ্যালেঞ্জ</b><small>প্রতিদিন ৫ প্রশ্ন</small></button>
 <button class="home-action" id="iqBtn"><span>🧠</span><b>IQ চ্যালেঞ্জ</b><small>ধাঁধা ও যুক্তি</small></button>
 <button class="home-action" id="vaultBtn"><span>📚</span><b>জ্ঞানভাণ্ডার</b><small>জানুন ও শিখুন</small></button>
 <button class="home-action" id="badgeBtn"><span>🏅</span><b>ব্যাজ ও অর্জন</b><small>আপনার স্বীকৃতি</small></button>
@@ -166,7 +166,7 @@ const tr=(bn,en)=>lang==='bn'?bn:en;function persist(){localStorage.setItem('ml_
 function start(){window.dailyMode=false;if(questions.length<10){alert(tr('একটি লেভেল খেলতে অন্তত ১০টি প্রশ্ন প্রয়োজন। অ্যাডমিন প্যানেল থেকে প্রশ্ন যোগ করুন।','At least 10 questions are required for a level. Add questions in Admin Panel.'));return}roundQuestions=chooseLevelQuestions();index=0;roundScore=0;streak=0;locked=false;selectedAnswer=null;show('game');render()}
 function render(){const q=roundQuestions[index];selectedAnswer=null;$('category').textContent=q.c;$('question').textContent=q.q;$('answers').innerHTML='';q.o.forEach((v,n)=>{const b=document.createElement('button');b.className='answer';b.textContent=bnDigits(n+1)+'. '+v;b.onclick=()=>selectAnswer(n);$('answers').append(b)});$('feedback').textContent='';$('confirmAnswer').classList.add('hidden');$('next').classList.add('hidden');$('counter').textContent=window.dailyMode?`ডেইলি চ্যালেঞ্জ · প্রশ্ন ${bnDigits(index+1)} / ৫`:`লেভেল ${bnDigits(level)} · ${difficultyForLevel(level).join(' / ')} · প্রশ্ন ${bnDigits(index+1)} / ১০`;$('bar').style.width=(index/10*100)+'%';stats()}
 function selectAnswer(n){if(locked)return;selectedAnswer=n;[...$('answers').children].forEach((b,k)=>b.classList.toggle('selected',k===n));$('confirmAnswer').classList.remove('hidden');$('feedback').textContent=tr('আপনার উত্তরটি দেখে “উত্তর নিশ্চিত করুন” চাপুন।','Review your choice, then tap Confirm Answer.')}function answer(){if(locked||selectedAnswer===null)return;locked=true;const n=selectedAnswer,correct=roundQuestions[index].a;if(!window.dailyMode){seenQuestionIds.add(roundQuestions[index].id||questionId(roundQuestions[index]));localStorage.setItem('ml_seen_questions',JSON.stringify([...seenQuestionIds]));}[...$('answers').children].forEach((b,k)=>{b.disabled=true;b.classList.remove('selected');if(k===correct)b.style.borderColor='var(--accent)'});$('confirmAnswer').classList.add('hidden');if(n===correct){progress.correct++;progress.category[roundQuestions[index].c]=(progress.category[roundQuestions[index].c]||0)+1;points+=1;roundScore+=1;streak++;localStorage.setItem('ml_points',points);$('feedback').textContent=tr('সঠিক উত্তর! +১ পয়েন্ট','Correct! +1 point')}else{progress.wrong++;points-=0.25;roundScore-=0.25;streak=0;localStorage.setItem('ml_points',points);$('feedback').textContent=tr('ভুল উত্তর। −০.২৫ পয়েন্ট','Incorrect. −0.25 points')}localStorage.setItem('ml_progress',JSON.stringify(progress));checkBadges();stats();$('next').classList.remove('hidden');$('next').textContent=index===9?tr('ফলাফল দেখুন','See results'):tr('পরের প্রশ্ন','Next question')}
-function next(){if(!locked)return;index++;locked=false;if(window.dailyMode&&index>=5){window.dailyMode=false;localStorage.setItem('ml_daily_done_'+new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Dhaka',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()),'1');progress.rounds++;progress.history.unshift({date:new Date().toLocaleDateString('bn-BD'),score:roundScore,level,mode:'daily'});progress.history=progress.history.slice(0,30);localStorage.setItem('ml_progress',JSON.stringify(progress));checkBadges();show('result');$('resultHeading').textContent='ডেইলি চ্যালেঞ্জ সম্পন্ন!';$('resultText').textContent='আজকের চ্যালেঞ্জের পয়েন্ট: '+bnDigits(roundScore.toFixed(2));return}if(index>=10){progress.rounds++;progress.history.unshift({date:new Date().toLocaleDateString('bn-BD'),score:roundScore,level});progress.history=progress.history.slice(0,30);localStorage.setItem('ml_progress',JSON.stringify(progress));level++;localStorage.setItem('ml_level',level);$('resultText').textContent=tr(`লেভেল সম্পন্ন! এই লেভেলে ${roundScore.toFixed(2)} পয়েন্ট। মোট পয়েন্ট ${points.toFixed(2)}। পরবর্তী লেভেল ${level} আনলক হয়েছে।`,`Level completed! This level: ${roundScore.toFixed(2)} points. Total: ${points.toFixed(2)}. Level ${level} unlocked.`);$('bar').style.width='100%';stats();show('result')}else render()}
+function next(){if(!locked)return;index++;locked=false;if(window.dailyMode&&index>=5){window.dailyMode=false;localStorage.setItem('ml_daily_done_'+new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Dhaka',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()),'1');progress.rounds++;progress.history.unshift({date:new Date().toLocaleDateString('bn-BD'),score:roundScore,level,mode:'daily'});progress.history=progress.history.slice(0,30);localStorage.setItem('ml_progress',JSON.stringify(progress));checkBadges();show('result');$('resultHeading').textContent='ডেইলি চ্যালেঞ্জ সম্পন্ন!';$('resultText').textContent='আজকের চ্যালেঞ্জের পয়েন্ট: '+bnDigits(roundScore.toFixed(2));return}if(index>=10){progress.rounds++;progress.history.unshift({date:new Date().toLocaleDateString('bn-BD'),score:roundScore,level});progress.history=progress.history.slice(0,30);localStorage.setItem('ml_progress',JSON.stringify(progress));level++;localStorage.setItem('ml_level',level);$('resultText').textContent=tr(`লেভেল সম্পন্ন! এই লেভেলে ${roundScore.toFixed(2)} পয়েন্ট। মোট পয়েন্ট ${points.toFixed(2)}। পরবর্তী লেভেল ${level} আনলক হয়েছে।`,`Level completed! This level: ${roundScore.toFixed(2)} points. Total: ${points.toFixed(2)}. Level ${level} unlocked.`);$('bar').style.width='100%';stats();show('result');syncCloudProgress()}else render()}
 function clearForm(){$('questionForm').reset();$('editIndex').value='-1';$('formHeading').textContent='নতুন প্রশ্ন যোগ করুন';$('saveQuestion').textContent='প্রশ্ন সংরক্ষণ'}
 function listQuestions(){$('questionList').innerHTML='';questions.forEach((q,i)=>{const box=document.createElement('div');box.className='qitem';const p=document.createElement('p');p.textContent=`${bnDigits(i+1)}. ${q.q} — ${q.c}`;const row=document.createElement('div');row.className='row';const edit=document.createElement('button');edit.className='secondary tiny';edit.textContent='সম্পাদনা';edit.onclick=()=>editQuestion(i);const del=document.createElement('button');del.className='danger tiny';del.textContent='মুছুন';del.onclick=()=>{if(confirm('এই প্রশ্নটি মুছে ফেলবেন?')){const removed=questions[i];questions.splice(i,1);persist();adminLog('প্রশ্ন মুছে ফেলা: '+(removed?.c||'বিষয় অজানা'));listQuestions()}};row.append(edit,del);box.append(p,row);$('questionList').append(box)})}
 function editQuestion(i){const q=questions[i];$('editIndex').value=i;$('cat').value=q.c;$('qtext').value=q.q;document.querySelectorAll('.opt').forEach((el,n)=>el.value=q.o[n]);$('correct').value=q.a;$('questionDifficulty').value=q.d||'মাঝারি';$('formHeading').textContent='প্রশ্ন সম্পাদনা';$('saveQuestion').textContent='পরিবর্তন সংরক্ষণ';$('questionForm').scrollIntoView({behavior:'smooth'})}
@@ -206,6 +206,86 @@ function openBadges(){checkBadges();panel('অর্জন ও ব্যাজ',
 function openIq(){const qs=window.ML_CONTENT?.iq||[];if(!qs.length)return panel('IQ Challenge','প্রশ্নভান্ডার প্রস্তুত হচ্ছে।');const seen=read('ml_iq_seen',[]);let pool=qs.filter(q=>!seen.includes(q.id));if(!pool.length){localStorage.setItem('ml_iq_seen','[]');pool=qs.slice()}const q=pool[Math.floor(Math.random()*pool.length)];panel('IQ Challenge','<p>যুক্তি, ধারা ও সমস্যা সমাধানের অনুশীলন। প্রতিটি প্রশ্নের উত্তর দেওয়ার পর ব্যাখ্যা ও পরবর্তী প্রশ্ন পাবেন।</p><p>'+q.c+' · '+q.q+'</p>'+q.o.map((v,i)=>'<button class="answer iqopt" data-i="'+i+'">'+bnDigits(i+1)+'. '+v+'</button>').join(''));document.querySelectorAll('.iqopt').forEach(b=>b.onclick=()=>{const ok=Number(b.dataset.i)===q.a;localStorage.setItem('ml_iq_seen',JSON.stringify([...seen,q.id]));if(ok){points++;localStorage.setItem('ml_points',points);updateHome()}$('featureBody').innerHTML='<h3>'+(ok?'সঠিক উত্তর! +১ পয়েন্ট':'সঠিক উত্তরটি ছিল: '+q.o[q.a])+'</h3><button id="iqAgain">আরেকটি প্রশ্ন</button>';checkBadges();$('iqAgain').onclick=openIq})}
 function openWord(){const words=window.ML_CONTENT?.words||['বাংলাদেশ','বিজ্ঞান','প্রযুক্তি'];const word=words[Math.floor(Math.random()*words.length)];const seg=typeof Intl.Segmenter==='function'?Array.from(new Intl.Segmenter('bn',{granularity:'grapheme'}).segment(word),x=>x.segment):Array.from(word.normalize('NFC').matchAll(/\P{M}\p{M}*/gu),m=>m[0]);let scr=word;for(let t=0;t<8&&scr===word;t++){const a=[...seg];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}scr=a.join('')}panel('শব্দ ও স্মৃতি','<p>এলোমেলো অক্ষর থেকে শব্দটি সাজান: <b style="font-size:25px">'+scr+'</b></p><input id="wordGuess" placeholder="সঠিক শব্দ লিখুন"><button id="checkWord">যাচাই করুন</button><p id="wordResult"></p><hr><p>স্মৃতি খেলা: নিচের ক্রমটি ৩ সেকেন্ড দেখুন, তারপর মনে করে লিখুন।</p><button id="memoryStart">স্মৃতি পরীক্ষা</button><p id="memorySeq"></p><input id="memoryGuess" placeholder="দেখানো সংখ্যা লিখুন"><button id="memoryCheck">যাচাই</button><p id="memoryResult"></p>');$('checkWord').onclick=()=>{const ok=$('wordGuess').value.trim()===word;if(ok){points++;localStorage.setItem('ml_points',points);updateHome()}$('wordResult').textContent=ok?'সঠিক! +১ পয়েন্ট':'আবার চেষ্টা করুন।'};let seq='';$('memoryStart').onclick=()=>{seq=Array.from({length:4},()=>Math.floor(Math.random()*10)).join('');$('memorySeq').textContent=seq;setTimeout(()=>$('memorySeq').textContent='এবার লিখুন!',3000)};$('memoryCheck').onclick=()=>{const ok=$('memoryGuess').value===seq;if(ok){points++;localStorage.setItem('ml_points',points);updateHome()}$('memoryResult').textContent=ok?'দারুণ স্মৃতিশক্তি! +১ পয়েন্ট':'মিলেনি, আবার চেষ্টা করুন।'}}
 $('featureBack').onclick=()=>show('home');$('profileBtn').onclick=openProfile;$('dailyBtn').onclick=openDaily;$('iqBtn').onclick=openIq;$('vaultBtn').onclick=openVault;$('badgeBtn').onclick=openBadges;$('wordBtn').onclick=openWord;
+
+
+/* Firebase Authentication + Firestore REST integration.
+   Configure app/src/main/assets/firebase-config.js before enabling cloud services. */
+const cloudSessionKey='ml_cloud_session_v1';
+let cloudSession=read(cloudSessionKey,null);
+const cloudConfig=window.ML_FIREBASE_CONFIG||{};
+const cloudReady=!!(cloudConfig.apiKey&&cloudConfig.projectId);
+function cloudEsc(s){return String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));}
+function cloudPanel(message=''){
+ const signed=!!cloudSession?.idToken;
+ panel('অনলাইন অ্যাকাউন্ট',signed
+ ? '<div class="notice">লগইন করা আছে: <b>'+cloudEsc(cloudSession.email)+'</b></div><p>আপনার পয়েন্ট ও লেভেল অনলাইন লিডারবোর্ডে সংরক্ষণ করা যাবে।</p><button id="cloudSync">অগ্রগতি সিঙ্ক করুন</button> <button class="secondary" id="cloudLogout">লগআউট</button><p id="cloudMessage" class="muted">'+cloudEsc(message)+'</p>'
+ : '<div class="notice">'+(cloudReady?'ইমেইল ও পাসওয়ার্ড দিয়ে অ্যাকাউন্ট খুলুন অথবা লগইন করুন।':'Firebase সংযোগের কনফিগারেশন এখনো যোগ করা হয়নি।')+'</div><label>আপনার নাম</label><input id="cloudName" maxlength="40" placeholder="নাম (নতুন অ্যাকাউন্টের জন্য)"><label>ইমেইল</label><input id="cloudEmail" type="email" autocomplete="email" placeholder="name@example.com"><label>পাসওয়ার্ড (কমপক্ষে ৬ অক্ষর)</label><input id="cloudPassword" type="password" autocomplete="current-password" minlength="6" placeholder="পাসওয়ার্ড"><div class="row"><button id="cloudRegister" '+(!cloudReady?'disabled':'')+'>নতুন অ্যাকাউন্ট</button><button class="secondary" id="cloudLogin" '+(!cloudReady?'disabled':'')+'>লগইন</button></div><p id="cloudMessage" class="muted">'+cloudEsc(message)+'</p><small>পাসওয়ার্ড অ্যাপে সংরক্ষণ করা হয় না; Firebase Authentication যাচাই করে।</small>');
+ if(signed){
+  $('cloudSync').onclick=async()=>{const el=$('cloudMessage');el.textContent='সিঙ্ক হচ্ছে…';try{await syncCloudProgress(true);el.textContent='সফলভাবে সিঙ্ক হয়েছে।'}catch(e){el.textContent=cloudError(e)}};
+  $('cloudLogout').onclick=()=>{cloudSession=null;localStorage.removeItem(cloudSessionKey);cloudPanel('আপনি লগআউট করেছেন।');};
+ }else if(cloudReady){
+  $('cloudRegister').onclick=()=>cloudAuth(true);
+  $('cloudLogin').onclick=()=>cloudAuth(false);
+ }
+}
+function cloudError(e){
+ const m=String(e?.message||e);
+ if(m.includes('EMAIL_EXISTS'))return 'এই ইমেইলে অ্যাকাউন্ট আছে। লগইন করুন।';
+ if(m.includes('INVALID_PASSWORD')||m.includes('INVALID_LOGIN_CREDENTIALS')||m.includes('EMAIL_NOT_FOUND'))return 'ইমেইল বা পাসওয়ার্ড সঠিক নয়।';
+ if(m.includes('WEAK_PASSWORD'))return 'পাসওয়ার্ড কমপক্ষে ৬ অক্ষরের হতে হবে।';
+ if(m.includes('TOO_MANY_ATTEMPTS'))return 'অনেকবার চেষ্টা হয়েছে। কিছুক্ষণ পর আবার চেষ্টা করুন।';
+ if(m.includes('CONFIGURATION_NOT_FOUND')||m.includes('OPERATION_NOT_ALLOWED'))return 'Firebase Console-এ Email/Password sign-in চালু করুন।';
+ return m.slice(0,220);
+}
+async function cloudAuth(register){
+ const name=$('cloudName').value.trim(),email=$('cloudEmail').value.trim(),password=$('cloudPassword').value;
+ const msg=$('cloudMessage');
+ if(!email||password.length<6||(register&&!name)){msg.textContent='নাম, সঠিক ইমেইল এবং কমপক্ষে ৬ অক্ষরের পাসওয়ার্ড দিন।';return}
+ msg.textContent='যাচাই হচ্ছে…';
+ const endpoint=register?'accounts:signUp':'accounts:signInWithPassword';
+ try{
+  const res=await fetch('https://identitytoolkit.googleapis.com/v1/'+endpoint+'?key='+encodeURIComponent(cloudConfig.apiKey),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,password,returnSecureToken:true})});
+  const data=await res.json();if(!res.ok)throw Error(data.error?.message||'AUTH_FAILED');
+  cloudSession={uid:data.localId,email:data.email,idToken:data.idToken,refreshToken:data.refreshToken,expiresAt:Date.now()+Number(data.expiresIn||3600)*1000,displayName:register?name:(profile.name||data.displayName||'খেলোয়াড়')};
+  localStorage.setItem(cloudSessionKey,JSON.stringify(cloudSession));
+  if(register){
+   await fetch('https://identitytoolkit.googleapis.com/v1/accounts:update?key='+encodeURIComponent(cloudConfig.apiKey),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({idToken:cloudSession.idToken,displayName:name,returnSecureToken:true})});
+   profile.name=name;localStorage.setItem('ml_profile',JSON.stringify(profile));
+  }
+  cloudPanel('অ্যাকাউন্ট সংযুক্ত হয়েছে।');await syncCloudProgress();
+ }catch(e){msg.textContent=cloudError(e)}
+}
+async function cloudToken(){
+ if(!cloudSession?.idToken)throw Error('প্রথমে লগইন করুন।');
+ if(cloudSession.expiresAt>Date.now()+60000)return cloudSession.idToken;
+ const res=await fetch('https://securetoken.googleapis.com/v1/token?key='+encodeURIComponent(cloudConfig.apiKey),{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'grant_type=refresh_token&refresh_token='+encodeURIComponent(cloudSession.refreshToken)});
+ const data=await res.json();if(!res.ok)throw Error(data.error?.message||'TOKEN_REFRESH_FAILED');
+ cloudSession.idToken=data.id_token;cloudSession.refreshToken=data.refresh_token;cloudSession.expiresAt=Date.now()+Number(data.expires_in||3600)*1000;localStorage.setItem(cloudSessionKey,JSON.stringify(cloudSession));return cloudSession.idToken;
+}
+async function firestoreRequest(path,options={}){
+ const token=await cloudToken();
+ const res=await fetch('https://firestore.googleapis.com/v1/projects/'+encodeURIComponent(cloudConfig.projectId)+'/databases/(default)/documents/'+path,{...options,headers:{'Content-Type':'application/json','Authorization':'Bearer '+token,...(options.headers||{})}});
+ const data=await res.json();if(!res.ok)throw Error(data.error?.message||'FIRESTORE_ERROR');return data;
+}
+async function syncCloudProgress(showMessage=false){
+ if(!cloudReady||!cloudSession)return;
+ const name=profile.name||cloudSession.displayName||'খেলোয়াড়';
+ const fields={uid:{stringValue:cloudSession.uid},displayName:{stringValue:name.slice(0,40)},email:{stringValue:cloudSession.email},points:{doubleValue:Number(points.toFixed(2))},level:{integerValue:String(level)},correct:{integerValue:String(progress.correct||0)},wrong:{integerValue:String(progress.wrong||0)},updatedAt:{timestampValue:new Date().toISOString()}};
+ await firestoreRequest('leaderboard/'+encodeURIComponent(cloudSession.uid),{method:'PATCH',body:JSON.stringify({fields})});
+ if(showMessage)updateHome();
+}
+async function showCloudLeaderboard(){
+ panel('অনলাইন লিডারবোর্ড','<div class="notice">সর্বোচ্চ পয়েন্ট অনুযায়ী শীর্ষ খেলোয়াড়। তালিকা দেখতে ইন্টারনেট ও Firebase অ্যাকাউন্ট প্রয়োজন।</div><p id="cloudBoardStatus">তালিকা লোড হচ্ছে…</p><div id="cloudBoardRows"></div>');
+ if(!cloudReady){$('cloudBoardStatus').textContent='Firebase কনফিগারেশন যোগ করা হয়নি।';return}
+ if(!cloudSession){$('cloudBoardStatus').textContent='অনলাইন লিডারবোর্ড দেখতে আগে লগইন করুন।';const b=document.createElement('button');b.textContent='লগইন / নিবন্ধন';b.onclick=()=>cloudPanel();$('cloudBoardRows').append(b);return}
+ try{
+  const data=await firestoreRequest('leaderboard?pageSize=50&orderBy=points%20desc');
+  const docs=data.documents||[];$('cloudBoardStatus').textContent=docs.length?'শীর্ষ '+bnDigits(docs.length)+' জন খেলোয়াড়':'এখনো কোনো স্কোর পাওয়া যায়নি।';
+  $('cloudBoardRows').innerHTML=docs.map((d,i)=>{const f=d.fields||{},nm=cloudEsc(f.displayName?.stringValue||'খেলোয়াড়'),pt=Number(f.points?.doubleValue??f.points?.integerValue??0),lv=f.level?.integerValue||'১';return '<div class="qitem">'+bnDigits(i+1)+'. <b>'+nm+'</b><br>⭐ '+bnDigits(pt.toFixed(2))+' পয়েন্ট · লেভেল '+cloudEsc(lv)+'</div>'}).join('');
+ }catch(e){$('cloudBoardStatus').textContent='লিডারবোর্ড লোড হয়নি: '+cloudEsc(cloudError(e));}
+}
+$('accountBtn').onclick=()=>cloudPanel();
+$('leaderBtn').onclick=showCloudLeaderboard;
 
 const oldShow=show; show=function(id){oldShow(id);if(id==='home')updateHome()}; updateHome(); stats();
 </script></body></html>
