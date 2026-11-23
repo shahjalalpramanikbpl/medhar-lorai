@@ -44,6 +44,7 @@ const sandbox = {
   console,
   localStorage: { getItem() { return null; }, setItem() {} }
 };
+vm.runInNewContext(fs.readFileSync("app/src/main/assets/content-bank.js", "utf8"), sandbox);
 vm.runInNewContext(fs.readFileSync("app/src/main/assets/math-levels.js", "utf8"), sandbox);
 const jobSource = fs.readFileSync("app/src/main/assets/job-prep-suite.js", "utf8").replace("window.openJobPrep=()=>", "window.__pickJobPrepQuestions=pickQuestions;window.openJobPrep=()=>");
 vm.runInNewContext(jobSource, sandbox);
@@ -53,6 +54,21 @@ const subjectBank = sandbox.window.JOB_PREP_BANK || [];
 const exams = sandbox.window.JOB_PREP_EXAMS || [];
 const mathUnique = new Set(math.map(x => normalize(x.q)));
 const subjectNames = new Set(subjectBank.map(x => x.c));
+const englishGrammar = subjectBank.filter(x => x.c === "English");
+if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank must contain at least 50 questions.");
+if (new Set(englishGrammar.map(x => normalize(x.q))).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains duplicate questions.");
+if (new Set(subjectBank.map(x => normalize(x.c) + "|" + normalize(x.q))).size !== subjectBank.length) errors.push("Subject bank contains duplicate questions.");
+if (subjectBank.length < 480 || subjectNames.size < 9) errors.push("Subject bank must contain at least 480 questions across 9 non-math sections.");
+// Release gate: every non-math job-preparation subject must reach 300 verified questions.
+for (const name of subjectNames) { const count = subjectBank.filter(x => x.c === name).length; if (count < 300) errors.push("Release target: subject " + name + " has " + count + "/300 questions."); }
+if (math.length !== 300) errors.push("Release target: math must contain exactly 300 questions.");
+console.log("Job-preparation questions:", subjectBank.length, "| English grammar/vocabulary:", englishGrammar.length);
+const mathUiSource = fs.readFileSync("app/src/main/assets/math-levels.js", "utf8");
+if (!mathUiSource.includes("const getNextLevel=") || !mathUiSource.includes("পরবর্তী লেভেল শুরু করুন")) errors.push("Math levels must use sequential progression instead of a level-button grid.");
+const homeUiSource = fs.readFileSync("app/src/main/assets/index.html", "utf8");
+if (!homeUiSource.includes("homeFeatured") || !homeUiSource.includes("job-prep-hero")) errors.push("Highlighted career-preparation home entry is missing.");
+if (!homeUiSource.includes("enFresh") || !homeUiSource.includes("Math.min(3,10-selected.length)") || !homeUiSource.includes("q.c!=='গণিত'")) errors.push("Main quiz must reserve English questions and cap math share.");
+
 if (math.length !== 300) errors.push("Math bank must contain exactly 300 questions.");
 if (levels.length !== 30 || levels.some((x, i) => x.level !== i + 1 || x.questions.length !== 10)) errors.push("Math bank must contain 30 levels with exactly 10 questions each.");
 if (mathUnique.size !== 300) errors.push("Math questions must be unique.");
@@ -94,7 +110,7 @@ for (const x of math) {
   if(expected===null || !Number.isFinite(expected)) errors.push("Math "+x.id+": could not independently verify question wording.");
   else if(Math.abs(expected-Number(x.expected))>0.011) errors.push("Math "+x.id+": independently calculated answer "+expected+" differs from expected "+x.expected+".");
 }
-if (subjectBank.length !== 110 || subjectNames.size !== 9) errors.push("Subject bank must contain 110 questions across 9 non-math sections, including English Literature.");
+
 const literature = subjectBank.filter(x => x.c === "English Literature");
 if (literature.length !== 30) errors.push("English Literature must contain exactly 30 dedicated questions.");
 for (const name of subjectNames) if (subjectBank.filter(x => x.c === name).length < 10) errors.push("Subject " + name + " has fewer than 10 practice questions.");
@@ -123,5 +139,12 @@ const averageExample = math.find(x => x.level === 1 && x.q.includes("৭টি �
 if (!averageExample || Number(averageExample.expected) !== 84 || Number(String(averageExample.o[averageExample.a]).replace(/[০-৯]/g, d => String("০১২৩৪৫৬৭৮৯".indexOf(d)))) !== 84) errors.push("Math level 1: average of 7 numbers with mean 12 must equal 84 and be present as the keyed option.");
 if (math.some(x => x.q.includes("ক একজন"))) errors.push("Math bank: malformed wording 'ক একজন' must be corrected.");
 console.log("Math questions:", math.length, "| Levels:", levels.length, "| Subject questions:", subjectBank.length, "| Model tests:", exams.length);
+
+
+const homeButtonCheck = fs.readFileSync("app/src/main/assets/index.html", "utf8");
+if (!homeButtonCheck.includes("কুইজ খেলা শুরু করুন")) errors.push("Main quiz start button must use the requested Bengali label.");
+if (!homeButtonCheck.includes("appPresence") || !homeButtonCheck.includes("showUsageStats") || !homeButtonCheck.includes("presenceTimer")) errors.push("Authenticated live-presence tracking and admin usage analytics are missing.");
+const rulesCheck = fs.readFileSync("firestore.rules", "utf8");
+if (!rulesCheck.includes("match /appPresence/{uid}") || !rulesCheck.includes("request.auth.uid == 'TIEU9BdlVFcj2LzwoGKI2BOd2tR2'")) errors.push("Firestore presence rules must restrict cross-user reads to the app owner.");
 
 if (errors.length) { console.error(errors.slice(0, 50).join("\n")); process.exit(1); }

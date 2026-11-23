@@ -60,12 +60,39 @@ body{background:radial-gradient(ellipse at 50% -10%,#254b79 0%,#101d35 48%,#080f
  .certificate-copy{font-size:11pt!important}.certificate-bottom{font-size:9pt!important}
  .certificate-actions,.certificate-actions~.muted{display:none!important}
 }
+
+/* Featured career-preparation entry and compact dashboard stats */
+.home-featured{margin:15px 0 16px}
+.job-prep-hero{position:relative;width:100%;min-height:94px;padding:16px 20px;display:flex;align-items:center;gap:15px;text-align:left;overflow:hidden;border-radius:22px;color:#17243a;background:linear-gradient(112deg,#ffe7a0 0%,#f5c85e 38%,#e8a83e 70%,#ffe7a0 100%);border:1px solid #fff0b8;box-shadow:0 8px 0 #9b641e,0 15px 26px #0008,inset 0 2px 0 #fff9;transition:transform .15s,box-shadow .15s}
+.job-prep-hero:before{content:"";position:absolute;inset:-50% auto -50% -35%;width:32%;transform:rotate(22deg);background:linear-gradient(90deg,transparent,#ffffff70,transparent);animation:careerShine 5s ease-in-out infinite}
+@keyframes careerShine{0%,65%{left:-35%}100%{left:125%}}
+.job-prep-hero:active{transform:translateY(5px);box-shadow:0 3px 0 #9b641e,0 8px 14px #0006}
+.job-prep-icon{width:58px;height:58px;flex:0 0 58px;display:grid;place-items:center;border-radius:18px;background:linear-gradient(145deg,#fff7d5,#e4a83e);font-size:34px;box-shadow:0 5px 0 #b67b27,inset 0 2px 5px #fff}
+.job-prep-copy{display:flex;flex:1;min-width:0;flex-direction:column;gap:5px;position:relative;z-index:1}
+.job-prep-copy b{font-size:clamp(17px,4.5vw,21px);font-weight:950;line-height:1.25}
+.job-prep-copy small{font-size:11px;line-height:1.45;color:#51401e;font-weight:700}
+.job-prep-arrow{font-size:27px;font-weight:900;color:#604016;position:relative;z-index:1}
+.home-stats{gap:7px;margin:13px 1px 14px}
+.home-stat{padding:8px 4px 8px;border-radius:13px;box-shadow:0 4px 0 #0a1526,0 7px 13px #0004,inset 0 1px 0 #ffffff20}
+.home-stat span{font-size:16px;margin-bottom:2px}
+.home-stat small{font-size:9px}
+.home-stat b{font-size:18px;margin-top:1px}
+.home-actions{gap:8px;margin-top:14px}
+.home-action{min-height:86px;padding:9px 5px;border-radius:15px;box-shadow:0 4px 0 #091426,0 7px 12px #0004}
+.home-action span{font-size:21px}
+.home-action b{font-size:11px}
+.home-action small{font-size:9px;line-height:1.3}
+.home-screen{padding-top:10px}
+.hero3d{border-color:#6489b4;box-shadow:0 12px 0 #091426,0 20px 38px #0008,inset 0 1px 0 #ffffff40}
+@media(max-width:380px){.job-prep-hero{min-height:84px;padding:13px 12px;gap:10px}.job-prep-icon{width:49px;height:49px;flex-basis:49px;font-size:29px}.job-prep-copy b{font-size:16px}.job-prep-copy small{font-size:10px}.home-stat b{font-size:16px}.home-action{min-height:80px}}
+
 </style></head><body><main class="wrap">
 <header><div><div class="brand-lockup"><div class="brand-mark"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M13 17h38l-4 25H17z" fill="#e6b84f" stroke="#fff0b8" stroke-width="2"/><path d="M9 13h46v7H9z" fill="#fff0b8"/><path d="M20 43h24v6H20zM16 52h32v5H16z" fill="#d99b32"/><path d="M32 5l3.5 6 7 1-5 5 1.2 7-6.7-3.3-6.7 3.3 1.2-7-5-5 7-1z" fill="#fff4c9"/><path d="M23 27l9 8 9-8" fill="none" stroke="#6c4513" stroke-width="2.5" stroke-linecap="round"/></svg></div><div><div class="brand">মেধার লড়াই</div><div class="tag">BATTLE OF BRAINS · QUIZ CHALLENGE</div></div></div></div><div class="row"><button class="secondary tiny" id="langBtn">English</button><button class="secondary tiny" id="adminBtn">অ্যাডমিন প্যানেল</button></div></header>
 <section id="home" class="home-screen">
 <div class="hero3d"><div class="hero-orb">🧠</div><div class="hero-copy"><div class="eyebrow">✦ BATTLE OF BRAINS ✦</div><h1>মেধার লড়াই</h1><p id="intro">জ্ঞান যাচাই করুন, নিজের রেকর্ড গড়ুন!</p><div class="hero-pills"><span>⚡ ১০ প্রশ্ন / লেভেল</span><span>🏅 পয়েন্ট অর্জন</span></div></div></div>
 <div class="home-stats"><div class="home-stat"><span>⭐</span><small>মোট পয়েন্ট</small><b id="homePoints">0</b></div><div class="home-stat"><span>🏆</span><small>বর্তমান লেভেল</small><b id="homeLevel">1</b></div><div class="home-stat"><span>📚</span><small>প্রশ্নের ভান্ডার</small><b id="homeQuestions">10</b></div></div>
-<button id="startBtn" class="start-3d"><span>▶</span> খেলা শুরু করুন <small>চ্যালেঞ্জ গ্রহণ করুন</small></button>
+<button id="startBtn" class="start-3d"><span>▶</span> কুইজ খেলা শুরু করুন <small>চ্যালেঞ্জ গ্রহণ করুন</small></button>
+<div class="home-featured" id="homeFeatured"></div>
 <div class="home-actions"><button type="button" class="home-action" id="rulesBtn"><span>📖</span><b>খেলার নিয়ম</b><small>কীভাবে খেলবেন</small></button><button type="button" class="home-action" id="leaderBtn"><span>🥇</span><b>লিডারবোর্ড</b><small>শীঘ্রই আসছে</small></button><button type="button" class="home-action" id="progressBtn"><span>📈</span><b>আমার অগ্রগতি</b><small>পয়েন্ট ও লেভেল</small></button></div>
 <div class="home-actions" style="margin-top:10px">
 <button class="home-action" id="profileBtn"><span>👤</span><b>আমার প্রোফাইল</b><small>নাম ও খেলার ইতিহাস</small></button>
@@ -90,7 +117,7 @@ body{background:radial-gradient(ellipse at 50% -10%,#254b79 0%,#101d35 48%,#080f
 <p id="questionListSummary" class="muted" aria-live="polite">প্রশ্নের তালিকা প্রস্তুত হচ্ছে…</p>
 <p id="questionSubjectSummary" class="muted" aria-live="polite">বিষয়ভিত্তিক প্রশ্নের হিসাব প্রস্তুত হচ্ছে…</p>
 <div id="questionList"></div>
-<div class="row"><button type="button" class="secondary tiny" id="questionPagePrev">আগের ৪০টি</button><button type="button" class="secondary tiny" id="questionPageNext">পরের ৪০টি</button></div><hr style="border-color:var(--line);margin:20px 0"><h3>প্রশ্নের কঠিনতা</h3><p class="muted">প্রশ্নের কঠিনতা অনুযায়ী লেভেল ১–১০ সহজ, ১১–২০ সহজ ও মাঝারি, ২১–৩০ মাঝারি, ৩১–৪০ মাঝারি ও কঠিন এবং ৪১+ কঠিন প্রশ্ন থেকে বাছাই হয়।</p><label>ডিফল্ট কঠিনতা</label><select id="difficultySetting"><option value="সহজ">সহজ</option><option value="মাঝারি">মাঝারি</option><option value="কঠিন">কঠিন</option></select><h3>অ্যাপ সেটিংস</h3><label>খেলোয়াড়ের নাম পরিবর্তন</label><input id="adminPlayerName" placeholder="নতুন নাম"><button id="adminSaveName">নাম সংরক্ষণ</button><button class="secondary" id="adminSettings">সেটিংসের অবস্থা</button><hr style="border-color:var(--line);margin:20px 0"><h3>নিরাপত্তা ও কার্যকলাপ</h3><p class="muted">সাম্প্রতিক ৩০টি অ্যাডমিন কার্যক্রমের লগ এই ডিভাইসেই থাকে; অন্য ডিভাইসে দেখা যায় না।</p><div id="adminAuditLog" class="admin-audit">এখনো কোনো কার্যকলাপ নেই।</div><button type="button" class="secondary tiny" id="refreshAdminAudit">লগ রিফ্রেশ</button><h3>ডেটা ব্যবস্থাপনা</h3><div class="row"><button class="secondary" id="exportBtn">প্রশ্ন ব্যাকআপ ডাউনলোড</button><button type="button" class="secondary" id="importBtn">ব্যাকআপ ফিরিয়ে আনুন</button><button class="danger" id="resetPoints">পয়েন্ট শূন্য করুন</button></div><hr style="border-color:var(--line);margin:20px 0"><h3>🔐 ব্যক্তিগত অনলাইন প্রশ্ন ব্যাকআপ</h3><p class="muted">লগইন করা Firebase অ্যাকাউন্টে আপনার প্রশ্নের তালিকা ব্যক্তিগতভাবে সংরক্ষণ বা ফিরিয়ে আনুন। এটি অন্য খেলোয়াড়দের প্রশ্নে প্রকাশ করে না।</p><div class="row"><button type="button" id="cloudQuestionsUpload">☁️ অনলাইনে সংরক্ষণ</button><button type="button" class="secondary" id="cloudQuestionsDownload">⬇️ অনলাইন থেকে ফিরিয়ে আনুন</button></div><p id="cloudQuestionsStatus" class="muted" aria-live="polite">অবস্থা: অনলাইন অ্যাকাউন্টের সংযোগ পরীক্ষা করুন।</p>
+<div class="row"><button type="button" class="secondary tiny" id="questionPagePrev">আগের ৪০টি</button><button type="button" class="secondary tiny" id="questionPageNext">পরের ৪০টি</button></div><hr style="border-color:var(--line);margin:20px 0"><h3>প্রশ্নের কঠিনতা</h3><p class="muted">প্রশ্নের কঠিনতা অনুযায়ী লেভেল ১–১০ সহজ, ১১–২০ সহজ ও মাঝারি, ২১–৩০ মাঝারি, ৩১–৪০ মাঝারি ও কঠিন এবং ৪১+ কঠিন প্রশ্ন থেকে বাছাই হয়।</p><label>ডিফল্ট কঠিনতা</label><select id="difficultySetting"><option value="সহজ">সহজ</option><option value="মাঝারি">মাঝারি</option><option value="কঠিন">কঠিন</option></select><h3>অ্যাপ সেটিংস</h3><label>খেলোয়াড়ের নাম পরিবর্তন</label><input id="adminPlayerName" placeholder="নতুন নাম"><button id="adminSaveName">নাম সংরক্ষণ</button><button class="secondary" id="adminSettings">সেটিংসের অবস্থা</button><hr style="border-color:var(--line);margin:20px 0"><h3>নিরাপত্তা ও কার্যকলাপ</h3><p class="muted">সাম্প্রতিক ৩০টি অ্যাডমিন কার্যক্রমের লগ এই ডিভাইসেই থাকে; অন্য ডিভাইসে দেখা যায় না।</p><div id="adminAuditLog" class="admin-audit">এখনো কোনো কার্যকলাপ নেই।</div><button type="button" class="secondary tiny" id="refreshAdminAudit">লগ রিফ্রেশ</button><h3>ডেটা ব্যবস্থাপনা</h3><div class="row"><button class="secondary" id="exportBtn">প্রশ্ন ব্যাকআপ ডাউনলোড</button><button type="button" class="secondary" id="importBtn">ব্যাকআপ ফিরিয়ে আনুন</button><button class="danger" id="resetPoints">পয়েন্ট শূন্য করুন</button></div><hr style="border-color:var(--line);margin:20px 0"><h3>📊 ব্যবহারকারী পরিসংখ্যান</h3><p class="muted">মোট নিবন্ধিত/সিঙ্ক করা খেলোয়াড় এবং বর্তমানে অনলাইন অ্যাকাউন্টের হিসাব দেখুন। অনলাইন গণনা শুধু লগইন করা ব্যবহারকারীর উপস্থিতি ধরে; সর্বশেষ হার্টবিট ২ মিনিটের মধ্যে হলে অনলাইন ধরা হবে।</p><button type="button" id="openUsageStats">📈 ব্যবহারকারীর হিসাব দেখুন</button><p id="usageStatsStatus" class="muted" aria-live="polite"></p><div id="usageStatsResult"></div><h3>🔐 ব্যক্তিগত অনলাইন প্রশ্ন ব্যাকআপ</h3><p class="muted">লগইন করা Firebase অ্যাকাউন্টে আপনার প্রশ্নের তালিকা ব্যক্তিগতভাবে সংরক্ষণ বা ফিরিয়ে আনুন। এটি অন্য খেলোয়াড়দের প্রশ্নে প্রকাশ করে না।</p><div class="row"><button type="button" id="cloudQuestionsUpload">☁️ অনলাইনে সংরক্ষণ</button><button type="button" class="secondary" id="cloudQuestionsDownload">⬇️ অনলাইন থেকে ফিরিয়ে আনুন</button></div><p id="cloudQuestionsStatus" class="muted" aria-live="polite">অবস্থা: অনলাইন অ্যাকাউন্টের সংযোগ পরীক্ষা করুন।</p>
 <hr style="border-color:var(--line);margin:20px 0"><h3>🌐 কেন্দ্রীয় অনলাইন প্রশ্নব্যাংক</h3>
 <p class="muted">এখানে প্রকাশিত প্রশ্ন সব খেলোয়াড়ের অ্যাপে পৌঁছাবে। প্রকাশিত প্রশ্ন সব খেলোয়াড়ের জন্য উন্মুক্ত। প্রশ্ন প্রকাশের অনুমতি আপনার নির্দিষ্ট Firebase অ্যাকাউন্টে সীমাবদ্ধ।</p>
 <div class="row"><button type="button" id="publishCentralQuestions">⬆️ সবার জন্য প্রশ্ন প্রকাশ</button><button type="button" class="secondary" id="refreshCentralQuestions">↻ কেন্দ্রীয় প্রশ্ন আনুন</button></div>
@@ -217,6 +244,7 @@ const defaults=[
   }
 ];
 defaults.push(...(window.ML_CONTENT?.questions||[]));
+defaults.push(...(window.JOB_PREP_BANK||[]).filter(q=>q.c==='English').map((q,i)=>({...q,id:q.id||'job_english_'+i,d:q.d||'সহজ'})));
 const bnDigits=value=>String(value).replace(/[0-9]/g,d=>'০১২৩৪৫৬৭৮৯'[Number(d)]);const $=id=>document.getElementById(id);const read=(k,f)=>{try{return JSON.parse(localStorage.getItem(k))??f}catch{return f}};let profile=read('ml_profile',{name:'খেলোয়াড়',photo:''}),progress=read('ml_progress',{correct:0,wrong:0,rounds:0,history:[],category:{}});let earned=read('ml_badges',[]);let questions=read('ml_questions',defaults),points=Number(localStorage.getItem('ml_points')||0),lang=localStorage.getItem('ml_lang')||'bn',index=0,roundScore=0,streak=0,locked=false,selectedAnswer=null,level=Number(localStorage.getItem('ml_level')||1),roundQuestions=[];
 const questionId=q=>'q_'+Array.from(String(q.q||'')).reduce((h,c)=>((h*31+c.charCodeAt(0))>>>0),7).toString(36);
 function normalizeQuestion(q){return {...q,d:['সহজ','মাঝারি','কঠিন'].includes(q.d)?q.d:'সহজ',id:q.id||questionId(q)}}
@@ -224,7 +252,31 @@ function mergeQuestionBank(saved,base){const merged=[],seen=new Set();[...(Array
 questions=mergeQuestionBank(questions,defaults);localStorage.setItem('ml_questions',JSON.stringify(questions));
 let seenQuestionIds=new Set(read('ml_seen_questions',[]));
 function difficultyForLevel(n){if(n<=10)return ['সহজ'];if(n<=20)return ['সহজ','মাঝারি'];if(n<=30)return ['মাঝারি'];if(n<=40)return ['মাঝারি','কঠিন'];return ['কঠিন']}
-function chooseLevelQuestions(){const preferred=difficultyForLevel(level),eligible=questions.filter(q=>preferred.includes(q.d));if(eligible.length<10)return null;let pool=eligible.filter(q=>!seenQuestionIds.has(q.id||questionId(q)));if(pool.length<10){seenQuestionIds.clear();localStorage.setItem('ml_seen_questions','[]');pool=eligible.slice()}for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}return pool.slice(0,10)}
+function chooseLevelQuestions(){
+ const preferred=difficultyForLevel(level),eligible=questions.filter(q=>preferred.includes(q.d));
+ if(eligible.length<10)return null;
+ const idOf=q=>q.id||questionId(q),shuffle=a=>{const x=a.slice();for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]]}return x};
+ const english=eligible.filter(q=>/^(English|ইংরেজি)$/i.test(q.c));
+ const math=eligible.filter(q=>q.c==='গণিত');
+ const other=eligible.filter(q=>q.c!=='গণিত'&&!/^(English|ইংরেজি)$/i.test(q.c));
+ let enFresh=english.filter(q=>!seenQuestionIds.has(idOf(q)));
+ if(enFresh.length<2&&english.length>=2){english.forEach(q=>seenQuestionIds.delete(idOf(q)));enFresh=english.slice()}
+ let selected=shuffle(enFresh).slice(0,Math.min(2,enFresh.length));
+ const mathFresh=math.filter(q=>!seenQuestionIds.has(idOf(q)));
+ selected.push(...shuffle(mathFresh).slice(0,Math.min(3,10-selected.length)));
+ const otherFresh=other.filter(q=>!seenQuestionIds.has(idOf(q)));
+ selected.push(...shuffle(otherFresh).slice(0,10-selected.length));
+ if(selected.length<10){
+  const fallback=shuffle(eligible.filter(q=>!selected.includes(q)&&!seenQuestionIds.has(idOf(q))));
+  selected.push(...fallback.slice(0,10-selected.length));
+ }
+ if(selected.length<10){
+  seenQuestionIds.clear();selected=shuffle(eligible).slice(0,10);
+ }
+ selected.forEach(q=>seenQuestionIds.add(idOf(q)));
+ localStorage.setItem('ml_seen_questions',JSON.stringify([...seenQuestionIds]));
+ return shuffle(selected);
+}
 const tr=(bn,en)=>lang==='bn'?bn:en;function persist(){localStorage.setItem('ml_questions',JSON.stringify(questions))}function show(id){['home','game','result','admin','adminLock','featurePanel'].forEach(x=>$(x).classList.toggle('hidden',x!==id))}function stats(){$('points').textContent=bnDigits(Number(points.toFixed(2)));$('level').textContent=bnDigits(level);$('streak').textContent=bnDigits(streak)}
 function start(){window.dailyMode=false;const preferred=difficultyForLevel(level),eligibleCount=questions.filter(q=>preferred.includes(q.d)).length;if(eligibleCount<10){alert(tr('এই লেভেলের জন্য নির্ধারিত কঠিনতার অন্তত ১০টি প্রশ্ন নেই। অ্যাডমিন প্যানেল থেকে '+preferred.join(' ও ')+' ধরনের প্রশ্ন যোগ করুন।','This level needs at least 10 questions of the required difficulty: '+preferred.join(' / ')+'. Please add them in Admin Panel.'));return}roundQuestions=chooseLevelQuestions();if(!roundQuestions||roundQuestions.length!==10){alert(tr('এই লেভেলের জন্য পর্যাপ্ত প্রশ্ন পাওয়া যায়নি।','Not enough eligible questions for this level.'));return}index=0;roundScore=0;streak=0;locked=false;selectedAnswer=null;show('game');render()}
 function render(){const q=roundQuestions[index];selectedAnswer=null;$('category').textContent=q.c;$('question').textContent=q.q;$('answers').innerHTML='';q.o.forEach((v,n)=>{const b=document.createElement('button');b.className='answer';b.textContent=bnDigits(n+1)+'. '+v;b.onclick=()=>selectAnswer(n);$('answers').append(b)});$('feedback').textContent='';$('confirmAnswer').classList.add('hidden');$('next').classList.add('hidden');$('counter').textContent=window.dailyMode?`ডেইলি চ্যালেঞ্জ · প্রশ্ন ${bnDigits(index+1)} / ৫`:`লেভেল ${bnDigits(level)} · ${difficultyForLevel(level).join(' / ')} · প্রশ্ন ${bnDigits(index+1)} / ১০`;$('bar').style.width=(index/10*100)+'%';stats()}
@@ -291,7 +343,7 @@ function applyBackup(data){const qs=Array.isArray(data)?data:data?.questions;if(
 window.importBackupJson=function(jsonText){try{if(typeof jsonText!=='string'||jsonText.length>5*1024*1024)throw Error('file too large');applyBackup(JSON.parse(jsonText))}catch(e){alert('ব্যাকআপ ফাইলটি সঠিক নয়, অতিরিক্ত বড় বা নষ্ট হয়েছে।')}};
 $('exportBtn').onclick=()=>{const json=JSON.stringify(makeBackup(),null,2);if(window.AndroidBridge&&window.AndroidBridge.saveBackup){try{window.AndroidBridge.saveBackup(btoa(unescape(encodeURIComponent(json))),'medhar-lorai-backup.json');}catch(e){alert('ব্যাকআপ তৈরি করা যায়নি। আবার চেষ্টা করুন।');}return;}const blob=new Blob([json],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='medhar-lorai-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);};
 $('importBtn').onclick=()=>{if(window.AndroidBridge&&window.AndroidBridge.pickBackup){window.AndroidBridge.pickBackup();}else{const input=document.createElement('input');input.type='file';input.accept='application/json';input.onchange=async()=>{const file=input.files[0];if(file)window.importBackupJson(await file.text());};input.click();}};
-$('langBtn').onclick=()=>{lang=lang==='bn'?'en':'bn';localStorage.setItem('ml_lang',lang);$('langBtn').textContent=tr('English','বাংলা');$('intro').textContent=tr('জ্ঞান যাচাই করুন, নিজের রেকর্ড গড়ুন!','Test your knowledge and set a new record!');$('intro').textContent=tr('প্রতি লেভেলে ১০টি প্রশ্ন। সঠিক উত্তরে +১, ভুল উত্তরে −০.২৫ পয়েন্ট।','Earn 10 points per correct answer. Points are saved on this device.');$('startBtn').textContent=tr('খেলা শুরু করুন','Start Quiz');$('adminBtn').textContent=tr('অ্যাডমিন প্যানেল','Admin Panel');$('pointsLabel').textContent=tr('মোট পয়েন্ট','Total points');$('levelLabel').textContent=tr('লেভেল','Level');$('streakLabel').textContent=tr('ধারাবাহিক সঠিক','Correct streak');if(!$('game').classList.contains('hidden'))render()};$('langBtn').textContent=tr('English','বাংলা');
+$('langBtn').onclick=()=>{lang=lang==='bn'?'en':'bn';localStorage.setItem('ml_lang',lang);$('langBtn').textContent=tr('English','বাংলা');$('intro').textContent=tr('জ্ঞান যাচাই করুন, নিজের রেকর্ড গড়ুন!','Test your knowledge and set a new record!');$('intro').textContent=tr('প্রতি লেভেলে ১০টি প্রশ্ন। সঠিক উত্তরে +১, ভুল উত্তরে −০.২৫ পয়েন্ট।','Earn 10 points per correct answer. Points are saved on this device.');$('startBtn').innerHTML='<span>▶</span> '+tr('কুইজ খেলা শুরু করুন','Start Quiz')+' <small>'+tr('চ্যালেঞ্জ গ্রহণ করুন','Accept the challenge')+'</small>';$('adminBtn').textContent=tr('অ্যাডমিন প্যানেল','Admin Panel');$('pointsLabel').textContent=tr('মোট পয়েন্ট','Total points');$('levelLabel').textContent=tr('লেভেল','Level');$('streakLabel').textContent=tr('ধারাবাহিক সঠিক','Correct streak');if(!$('game').classList.contains('hidden'))render()};$('langBtn').textContent=tr('English','বাংলা');
 function updateHome(){ $('homePoints').textContent=bnDigits(Number(points.toFixed(2))); $('homeLevel').textContent=bnDigits(level); $('homeQuestions').textContent=bnDigits(questions.length); }
 $('rulesBtn').onclick=()=>alert('প্রতি লেভেলে ১০টি প্রশ্ন থাকবে। সঠিক উত্তরে +১ পয়েন্ট, ভুল উত্তরে −০.২৫ পয়েন্ট। প্রতিটি প্রশ্নের উত্তর বেছে নিয়ে পরের প্রশ্নে যান।');
 $('leaderBtn').onclick=()=>panel('লিডারবোর্ড','<div class="notice">এটি এই ডিভাইসের স্থানীয় র‍্যাংকিং। সব খেলোয়াড়ের অনলাইন র‍্যাংকিংয়ের জন্য কেন্দ্রীয় সার্ভার সংযোগ প্রয়োজন।</div><h3>বর্তমান খেলোয়াড়</h3><div class="qitem">১. '+profile.name+' — '+bnDigits(points.toFixed(2))+' পয়েন্ট</div><p>দৈনিক / সাপ্তাহিক / মাসিক বৈশ্বিক র‍্যাংকিং সার্ভার যুক্ত হলে সক্রিয় হবে।</p>');
@@ -322,7 +374,7 @@ function cloudPanel(message=''){
  : '<div class="notice">'+(cloudReady?'ইমেইল ও পাসওয়ার্ড দিয়ে অ্যাকাউন্ট খুলুন অথবা লগইন করুন।':'Firebase সংযোগের কনফিগারেশন এখনো যোগ করা হয়নি।')+'</div><label>আপনার নাম</label><input id="cloudName" maxlength="40" placeholder="নাম (নতুন অ্যাকাউন্টের জন্য)"><label>ইমেইল</label><input id="cloudEmail" type="email" autocomplete="email" placeholder="name@example.com"><label>পাসওয়ার্ড (কমপক্ষে ৬ অক্ষর)</label><input id="cloudPassword" type="password" autocomplete="current-password" minlength="6" placeholder="পাসওয়ার্ড"><div class="row"><button id="cloudRegister" '+(!cloudReady?'disabled':'')+'>নতুন অ্যাকাউন্ট</button><button class="secondary" id="cloudLogin" '+(!cloudReady?'disabled':'')+'>লগইন</button></div><p id="cloudMessage" class="muted">'+cloudEsc(message)+'</p><small>পাসওয়ার্ড অ্যাপে সংরক্ষণ করা হয় না; Firebase Authentication যাচাই করে।</small>');
  if(signed){
   $('cloudSync').onclick=async()=>{const el=$('cloudMessage');el.textContent='সিঙ্ক হচ্ছে…';try{await syncCloudProgress(true);el.textContent='সফলভাবে সিঙ্ক হয়েছে।'}catch(e){el.textContent=cloudError(e)}};
-  $('cloudLogout').onclick=()=>{cloudSession=null;localStorage.removeItem(cloudSessionKey);cloudPanel('আপনি লগআউট করেছেন।');};
+  $('cloudLogout').onclick=async()=>{await stopPresence();cloudSession=null;localStorage.removeItem(cloudSessionKey);cloudPanel('আপনি লগআউট করেছেন।');};
  }else if(cloudReady){
   $('cloudRegister').onclick=()=>cloudAuth(true);
   $('cloudLogin').onclick=()=>cloudAuth(false);
@@ -348,6 +400,7 @@ async function cloudAuth(register){
   const data=await res.json();if(!res.ok)throw Error(data.error?.message||'AUTH_FAILED');
   cloudSession={uid:data.localId,email:data.email,idToken:data.idToken,refreshToken:data.refreshToken,expiresAt:Date.now()+Number(data.expiresIn||3600)*1000,displayName:register?name:(profile.name||data.displayName||'খেলোয়াড়')};
   localStorage.setItem(cloudSessionKey,JSON.stringify(cloudSession));
+   startPresence();
   if(register){
    await fetch('https://identitytoolkit.googleapis.com/v1/accounts:update?key='+encodeURIComponent(cloudConfig.apiKey),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({idToken:cloudSession.idToken,displayName:name,returnSecureToken:true})});
    profile.name=name;localStorage.setItem('ml_profile',JSON.stringify(profile));
@@ -465,6 +518,31 @@ function wireCloudQuestionBackup(){
  down.onclick=async()=>{up.disabled=true;down.disabled=true;status.textContent='অনলাইন ব্যাকআপ আনা হচ্ছে…';try{const bank=await loadQuestionBankCloud();if(!confirm('অনলাইন ব্যাকআপের '+bnDigits(bank.length)+'টি প্রশ্ন দিয়ে এই ডিভাইসের প্রশ্ন তালিকা প্রতিস্থাপন করবেন? আগে বর্তমান ব্যাকআপ ডাউনলোড করে নিন।'))return;questions=mergeQuestionBank(bank,defaults);persist();listQuestions();updateHome();adminLog('অনলাইন প্রশ্ন ব্যাকআপ ফিরিয়ে আনা: '+questions.length+'টি');status.textContent='সফল! '+bnDigits(questions.length)+'টি প্রশ্ন ফিরিয়ে আনা হয়েছে।';}catch(e){status.textContent='ফিরিয়ে আনা যায়নি: '+cloudError(e)}finally{up.disabled=false;down.disabled=false}};
 }
 
+
+let presenceTimer=null;
+const presencePath=uid=>'appPresence/'+encodeURIComponent(uid);
+async function writePresence(){if(!cloudReady||!cloudSession?.uid)return;const fields={uid:{stringValue:cloudSession.uid},displayName:{stringValue:String(profile.name||cloudSession.displayName||'খেলোয়াড়').slice(0,40)},lastSeen:{timestampValue:new Date().toISOString()}};await firestoreRequest(presencePath(cloudSession.uid),{method:'PATCH',body:JSON.stringify({fields})});}
+function startPresence(){if(!cloudSession?.uid||!cloudReady)return;clearInterval(presenceTimer);writePresence().catch(()=>{});presenceTimer=setInterval(()=>{if(document.visibilityState!=='hidden')writePresence().catch(()=>{});},60000);}
+async function stopPresence(){clearInterval(presenceTimer);presenceTimer=null;if(cloudSession?.uid&&cloudReady){try{await firestoreRequest(presencePath(cloudSession.uid),{method:'DELETE'});}catch(e){}}}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')writePresence().catch(()=>{});});
+async function readAllPublicDocuments(collection){let token='',docs=[];do{const data=await publicFirestoreGet(collection+'?pageSize=1000'+(token?'&pageToken='+encodeURIComponent(token):''));docs.push(...(data.documents||[]));token=data.nextPageToken||'';}while(token&&docs.length<50000);return docs;}
+async function showUsageStats(){
+ const status=$('usageStatsStatus'),result=$('usageStatsResult');
+ if(!adminUnlocked){status.textContent='প্রথমে অ্যাডমিন প্যানেল আনলক করুন।';return}
+ if(!cloudSession?.uid){status.textContent='ব্যবহারকারীর হিসাব দেখতে অ্যাডমিন Firebase অ্যাকাউন্টে লগইন করুন।';return}
+ if(cloudSession.uid!=='TIEU9BdlVFcj2LzwoGKI2BOd2tR2'){status.textContent='এই Firebase অ্যাকাউন্টে পরিসংখ্যান দেখার অনুমতি নেই।';return}
+ status.textContent='ব্যবহারকারীর তথ্য সংগ্রহ হচ্ছে…';result.innerHTML='';
+ try{
+  const [users,presence]=await Promise.all([readAllPublicDocuments('leaderboard'),firestoreRequest('appPresence?pageSize=1000')]);
+  const cutoff=Date.now()-120000,online=(presence.documents||[]).filter(d=>{const t=d.fields?.lastSeen?.timestampValue;return t&&Date.parse(t)>=cutoff;});
+  const total=new Set(users.map(d=>d.fields?.uid?.stringValue).filter(Boolean)).size;
+  status.textContent='সর্বশেষ আপডেট: '+new Date().toLocaleString('bn-BD',{timeZone:'Asia/Dhaka'});
+  result.innerHTML='<div class="stats"><div class="stat"><b>'+bnDigits(total)+'</b><small>মোট লিডারবোর্ডে সিঙ্ক করা খেলোয়াড়*</small></div><div class="stat"><b>'+bnDigits(online.length)+'</b><small>এই মুহূর্তে অনলাইন**</small></div><div class="stat"><b>'+bnDigits(Math.max(0,total-online.length))+'</b><small>বর্তমানে অফলাইন (আনুমানিক)</small></div></div><p class="muted">* যেসব অ্যাকাউন্ট অন্তত একবার লিডারবোর্ডে সিঙ্ক হয়েছে। ** গত ২ মিনিটে উপস্থিতি পাঠানো লগইন করা অ্যাকাউন্ট।</p><button type="button" class="secondary" id="refreshUsageStats">↻ আবার হিসাব করুন</button>';
+  $('refreshUsageStats').onclick=showUsageStats;
+ }catch(e){status.textContent='হিসাব আনা যায়নি: '+cloudEsc(cloudError(e))+'। Firestore Rules-এ appPresence-এর অ্যাডমিন পাঠ-অনুমতি প্রকাশিত হয়েছে কি না দেখুন।'}
+}
+$('openUsageStats').onclick=showUsageStats;
+
 async function syncCloudProgress(showMessage=false){
  if(!cloudReady||!cloudSession)return;
  const name=profile.name||cloudSession.displayName||'খেলোয়াড়';
@@ -482,6 +560,7 @@ async function showCloudLeaderboard(){
   $('cloudBoardRows').innerHTML=docs.map((d,i)=>{const f=d.fields||{},nm=cloudEsc(f.displayName?.stringValue||'খেলোয়াড়'),pt=Number(f.points?.doubleValue??f.points?.integerValue??0),lv=f.level?.integerValue||'১';return '<div class="qitem">'+bnDigits(i+1)+'. <b>'+nm+'</b><br>⭐ '+bnDigits(pt.toFixed(2))+' পয়েন্ট · লেভেল '+cloudEsc(lv)+'</div>'}).join('');
  }catch(e){$('cloudBoardStatus').textContent='লিডারবোর্ড লোড হয়নি: '+cloudEsc(cloudError(e));}
 }
+if(cloudSession?.uid)startPresence();
 wireCloudQuestionBackup();
 wireCentralQuestionBank();
 $('accountBtn').onclick=()=>cloudPanel();

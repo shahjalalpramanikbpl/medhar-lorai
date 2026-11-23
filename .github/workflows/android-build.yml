@@ -56,7 +56,7 @@ jobs:
           test -n "$ANDROID_KEYSTORE_PASSWORD"
           test -n "$ANDROID_KEY_ALIAS"
           test -n "$ANDROID_KEY_PASSWORD"
-          gradle --no-daemon :app:assembleDebug :app:assembleRelease
+          gradle --no-daemon :app:assembleDebug :app:assembleRelease :app:bundleRelease
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
@@ -71,5 +71,13 @@ jobs:
         with:
           name: medhar-lorai-signed-release-apk
           path: app/build/outputs/apk/release/*.apk
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload Play Store Android App Bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: medhar-lorai-play-store-aab
+          path: app/build/outputs/bundle/release/*.aab
           if-no-files-found: error
           retention-days: 30
