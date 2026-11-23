@@ -61,7 +61,7 @@ body{background:radial-gradient(ellipse at 50% -10%,#254b79 0%,#101d35 48%,#080f
 <section class="card hidden" id="result"><h2 id="resultHeading">রাউন্ড শেষ!</h2><p id="resultText"></p><div class="row"><button id="again">আবার খেলুন</button><button class="secondary" id="backHome">হোমে ফিরুন</button></div></section>
 <section class="card hidden admin-lock-card" id="adminLock"><div class="admin-lock-icon">🔐</div><h2 id="adminLockTitle">অ্যাডমিন নিরাপত্তা</h2><p id="adminLockMessage" class="notice">অ্যাডমিন প্যানেল খুলতে PIN দিন।</p><form id="adminLockForm"><label id="adminPinLabel">৬–১২ সংখ্যার অ্যাডমিন PIN</label><input id="adminPin" type="password" inputmode="numeric" maxlength="12" autocomplete="off" required placeholder="••••••"><div id="adminPinConfirmWrap" class="hidden"><label>PIN আবার লিখুন</label><input id="adminPinConfirm" type="password" inputmode="numeric" maxlength="12" autocomplete="off" pattern="[0-9]{6,12}" placeholder="••••••"></div><button id="adminLockSubmit" type="submit">প্রবেশ করুন</button> <button id="adminLockCancel" type="button" class="secondary">ফিরে যান</button></form><p class="admin-security-note">এই PIN একই ডিভাইসে অননুমোদিত প্রবেশ কমায়। এটি সার্ভারভিত্তিক নিরাপত্তা নয়; Firebase যুক্ত হলে অনলাইন অ্যাডমিন ভূমিকা আলাদাভাবে সুরক্ষিত হবে।</p></section>
 <section class="card hidden" id="admin"><div class="row"><h2>অ্যাডমিন প্যানেল</h2><div class="admin-toolbar"><small id="adminSessionStatus">সুরক্ষিত সেশন</small><button class="danger tiny" id="adminLogout">লক করুন</button><button class="secondary tiny" id="closeAdmin">বন্ধ করুন</button></div></div><div class="notice">প্রশাসনিক নিয়ন্ত্রণ: প্রশ্ন যোগ, সম্পাদনা, মুছে ফেলা ও ব্যাকআপ এই ডিভাইসে সংরক্ষিত হয়। Firebase ইমেইল অ্যাকাউন্ট ও অনলাইন লিডারবোর্ড চালু আছে। সতর্কতা: বর্তমান স্কোর ক্লায়েন্ট থেকে জমা হয়—সার্ভার-যাচাইকৃত প্রতিযোগিতামূলক স্কোর এখনো চালু হয়নি।</div><h3 id="formHeading">নতুন প্রশ্ন যোগ করুন</h3>
-<form id="questionForm"><input type="hidden" id="editIndex" value="-1"><label>বিষয়</label><input id="cat" required placeholder="যেমন: বিজ্ঞান"><label>কঠিনতা</label><select id="questionDifficulty"><option value="সহজ">সহজ</option><option value="মাঝারি" selected>মাঝারি</option><option value="কঠিন">কঠিন</option></select><label>প্রশ্ন</label><textarea id="qtext" rows="2" required></textarea><div class="grid"><div><label>উত্তর ১</label><input class="opt" required></div><div><label>উত্তর ২</label><input class="opt" required></div><div><label>উত্তর ৩</label><input class="opt" required></div><div><label>উত্তর ৪</label><input class="opt" required></div></div><label>সঠিক উত্তরের নম্বর</label><select id="correct"><option value="0">১</option><option value="1">২</option><option value="2">৩</option><option value="3">৪</option></select><div class="row"><button type="submit" id="saveQuestion">প্রশ্ন সংরক্ষণ</button><button type="button" class="secondary" id="clearForm">ফর্ম পরিষ্কার</button></div></form><h3>প্রশ্নের তালিকা</h3><div id="questionList"></div><hr style="border-color:var(--line);margin:20px 0"><h3>প্রশ্নের কঠিনতা</h3><p class="muted">প্রশ্নে কঠিনতা নির্ধারণ করুন; লেভেল অনুযায়ী প্রশ্ন বাছাই পরবর্তী অংশে আরও উন্নত করা হবে।</p><label>ডিফল্ট কঠিনতা</label><select id="difficultySetting"><option value="সহজ">সহজ</option><option value="মাঝারি">মাঝারি</option><option value="কঠিন">কঠিন</option></select><h3>অ্যাপ সেটিংস</h3><label>খেলোয়াড়ের নাম পরিবর্তন</label><input id="adminPlayerName" placeholder="নতুন নাম"><button id="adminSaveName">নাম সংরক্ষণ</button><button class="secondary" id="adminSettings">সেটিংসের অবস্থা</button><hr style="border-color:var(--line);margin:20px 0"><h3>নিরাপত্তা ও কার্যকলাপ</h3><p class="muted">সাম্প্রতিক ৩০টি অ্যাডমিন কার্যক্রমের লগ এই ডিভাইসেই থাকে; অন্য ডিভাইসে দেখা যায় না।</p><div id="adminAuditLog" class="admin-audit">এখনো কোনো কার্যকলাপ নেই।</div><button type="button" class="secondary tiny" id="refreshAdminAudit">লগ রিফ্রেশ</button><h3>ডেটা ব্যবস্থাপনা</h3><div class="row"><button class="secondary" id="exportBtn">প্রশ্ন ব্যাকআপ ডাউনলোড</button><button type="button" class="secondary" id="importBtn">ব্যাকআপ ফিরিয়ে আনুন</button><button class="danger" id="resetPoints">পয়েন্ট শূন্য করুন</button></div></section>
+<form id="questionForm"><input type="hidden" id="editIndex" value="-1"><label>বিষয়</label><input id="cat" required placeholder="যেমন: বিজ্ঞান"><label>কঠিনতা</label><select id="questionDifficulty"><option value="সহজ">সহজ</option><option value="মাঝারি" selected>মাঝারি</option><option value="কঠিন">কঠিন</option></select><label>প্রশ্ন</label><textarea id="qtext" rows="2" required></textarea><div class="grid"><div><label>উত্তর ১</label><input class="opt" required></div><div><label>উত্তর ২</label><input class="opt" required></div><div><label>উত্তর ৩</label><input class="opt" required></div><div><label>উত্তর ৪</label><input class="opt" required></div></div><label>সঠিক উত্তরের নম্বর</label><select id="correct"><option value="0">১</option><option value="1">২</option><option value="2">৩</option><option value="3">৪</option></select><div class="row"><button type="submit" id="saveQuestion">প্রশ্ন সংরক্ষণ</button><button type="button" class="secondary" id="clearForm">ফর্ম পরিষ্কার</button></div></form><h3>প্রশ্নের তালিকা</h3><div id="questionList"></div><hr style="border-color:var(--line);margin:20px 0"><h3>প্রশ্নের কঠিনতা</h3><p class="muted">প্রশ্নে কঠিনতা নির্ধারণ করুন; লেভেল অনুযায়ী প্রশ্ন বাছাই পরবর্তী অংশে আরও উন্নত করা হবে।</p><label>ডিফল্ট কঠিনতা</label><select id="difficultySetting"><option value="সহজ">সহজ</option><option value="মাঝারি">মাঝারি</option><option value="কঠিন">কঠিন</option></select><h3>অ্যাপ সেটিংস</h3><label>খেলোয়াড়ের নাম পরিবর্তন</label><input id="adminPlayerName" placeholder="নতুন নাম"><button id="adminSaveName">নাম সংরক্ষণ</button><button class="secondary" id="adminSettings">সেটিংসের অবস্থা</button><hr style="border-color:var(--line);margin:20px 0"><h3>নিরাপত্তা ও কার্যকলাপ</h3><p class="muted">সাম্প্রতিক ৩০টি অ্যাডমিন কার্যক্রমের লগ এই ডিভাইসেই থাকে; অন্য ডিভাইসে দেখা যায় না।</p><div id="adminAuditLog" class="admin-audit">এখনো কোনো কার্যকলাপ নেই।</div><button type="button" class="secondary tiny" id="refreshAdminAudit">লগ রিফ্রেশ</button><h3>ডেটা ব্যবস্থাপনা</h3><div class="row"><button class="secondary" id="exportBtn">প্রশ্ন ব্যাকআপ ডাউনলোড</button><button type="button" class="secondary" id="importBtn">ব্যাকআপ ফিরিয়ে আনুন</button><button class="danger" id="resetPoints">পয়েন্ট শূন্য করুন</button></div><hr style="border-color:var(--line);margin:20px 0"><h3>🔐 ব্যক্তিগত অনলাইন প্রশ্ন ব্যাকআপ</h3><p class="muted">লগইন করা Firebase অ্যাকাউন্টে আপনার প্রশ্নের তালিকা ব্যক্তিগতভাবে সংরক্ষণ বা ফিরিয়ে আনুন। এটি অন্য খেলোয়াড়দের প্রশ্নে প্রকাশ করে না।</p><div class="row"><button type="button" id="cloudQuestionsUpload">☁️ অনলাইনে সংরক্ষণ</button><button type="button" class="secondary" id="cloudQuestionsDownload">⬇️ অনলাইন থেকে ফিরিয়ে আনুন</button></div><p id="cloudQuestionsStatus" class="muted" aria-live="polite">অবস্থা: অনলাইন অ্যাকাউন্টের সংযোগ পরীক্ষা করুন।</p></section>
 <div class="footer">প্রোটোটাইপ v3 · অফলাইন পরীক্ষামূলক সংস্করণ; Play Store-এ প্রকাশিত নয়।</div></main>
 <script src="content-bank.js"></script><script src="firebase-config.js"></script>
 <script>
@@ -292,6 +292,55 @@ async function firestoreRequest(path,options={}){
  const res=await fetch('https://firestore.googleapis.com/v1/projects/'+encodeURIComponent(cloudConfig.projectId)+'/databases/(default)/documents/'+path,{...options,headers:{'Content-Type':'application/json','Authorization':'Bearer '+token,...(options.headers||{})}});
  const data=await res.json();if(!res.ok)throw Error(data.error?.message||'FIRESTORE_ERROR');return data;
 }
+
+ // Private, per-account question-bank backup. This is NOT a public/shared question publisher.
+const CLOUD_QBANK_CHUNK_SIZE=80;
+function cloudQuestionPath(docId){if(!cloudSession?.uid)throw Error('প্রথমে অনলাইন অ্যাকাউন্টে লগইন করুন।');return 'users/'+encodeURIComponent(cloudSession.uid)+'/questionBank/'+encodeURIComponent(docId)}
+function validateCloudQuestionBank(list){
+ if(!Array.isArray(list)||!list.length||list.length>2000)throw Error('প্রশ্নের তালিকা সঠিক নয় বা সীমা অতিক্রম করেছে।');
+ const norm=v=>String(v).normalize('NFC').toLocaleLowerCase('bn').replace(/\s+/g,' ').trim(),seen=new Set();
+ for(const q of list){
+  if(!q||typeof q.c!=='string'||!q.c.trim()||q.c.length>80||typeof q.q!=='string'||!q.q.trim()||q.q.length>1200||!Array.isArray(q.o)||q.o.length!==4||q.o.some(v=>typeof v!=='string'||!v.trim()||v.length>300)||!Number.isInteger(Number(q.a))||![0,1,2,3].includes(Number(q.a)))throw Error('প্রশ্নের কোনো তথ্য অসম্পূর্ণ বা ভুল।');
+  const key=norm(q.q);if(seen.has(key))throw Error('প্রশ্নের তালিকায় একই প্রশ্ন একাধিকবার আছে।');seen.add(key);
+ }
+ return list.map(normalizeQuestion);
+}
+async function saveQuestionBankCloud(){
+ if(!adminUnlocked)throw Error('অ্যাডমিন প্যানেল আনলক করুন।');
+ if(!cloudSession?.idToken)throw Error('প্রথমে অনলাইন অ্যাকাউন্টে লগইন করুন।');
+ const bank=validateCloudQuestionBank(questions),chunks=[];
+ for(let i=0;i<bank.length;i+=CLOUD_QBANK_CHUNK_SIZE)chunks.push(bank.slice(i,i+CLOUD_QBANK_CHUNK_SIZE));
+ for(let i=0;i<chunks.length;i++){
+  const payload=JSON.stringify(chunks[i]);
+  await firestoreRequest(cloudQuestionPath('chunk_'+String(i).padStart(3,'0')),{method:'PATCH',body:JSON.stringify({fields:{index:{integerValue:String(i)},payload:{stringValue:payload},updatedAt:{timestampValue:new Date().toISOString()}}})});
+ }
+ await firestoreRequest(cloudQuestionPath('meta'),{method:'PATCH',body:JSON.stringify({fields:{format:{stringValue:'medhar-lorai-question-bank-v1'},count:{integerValue:String(bank.length)},chunks:{integerValue:String(chunks.length)},updatedAt:{timestampValue:new Date().toISOString()}}})});
+ adminLog('ব্যক্তিগত প্রশ্নভান্ডার অনলাইনে সংরক্ষণ: '+bank.length+'টি');
+ return bank.length;
+}
+async function loadQuestionBankCloud(){
+ if(!adminUnlocked)throw Error('অ্যাডমিন প্যানেল আনলক করুন।');
+ if(!cloudSession?.idToken)throw Error('প্রথমে অনলাইন অ্যাকাউন্টে লগইন করুন।');
+ const meta=await firestoreRequest(cloudQuestionPath('meta')),fields=meta.fields||{};
+ if(fields.format?.stringValue!=='medhar-lorai-question-bank-v1')throw Error('অনলাইনে কোনো বৈধ প্রশ্ন ব্যাকআপ পাওয়া যায়নি।');
+ const count=Number(fields.count?.integerValue||0),chunks=Number(fields.chunks?.integerValue||0);
+ if(!count||count>2000||!chunks||chunks>25||chunks!==Math.ceil(count/CLOUD_QBANK_CHUNK_SIZE))throw Error('অনলাইন ব্যাকআপের তথ্য অসম্পূর্ণ।');
+ const bank=[];
+ for(let i=0;i<chunks;i++){
+  const doc=await firestoreRequest(cloudQuestionPath('chunk_'+String(i).padStart(3,'0'))),payload=doc.fields?.payload?.stringValue;
+  if(typeof payload!=='string')throw Error('প্রশ্ন ব্যাকআপের একটি অংশ পাওয়া যায়নি।');
+  const part=JSON.parse(payload);if(!Array.isArray(part))throw Error('প্রশ্ন ব্যাকআপের অংশটি সঠিক নয়।');bank.push(...part);
+ }
+ if(bank.length!==count)throw Error('প্রশ্নের সংখ্যা মেলেনি; বর্তমান তালিকা অপরিবর্তিত রাখা হয়েছে।');
+ return validateCloudQuestionBank(bank);
+}
+function wireCloudQuestionBackup(){
+ const up=$('cloudQuestionsUpload'),down=$('cloudQuestionsDownload'),status=$('cloudQuestionsStatus');
+ if(!up||!down||!status)return;
+ up.onclick=async()=>{up.disabled=true;down.disabled=true;status.textContent='অনলাইনে সংরক্ষণ হচ্ছে…';try{const n=await saveQuestionBankCloud();status.textContent='সফল! '+bnDigits(n)+'টি প্রশ্ন আপনার ব্যক্তিগত Firebase ব্যাকআপে সংরক্ষিত হয়েছে।';}catch(e){status.textContent='সংরক্ষণ হয়নি: '+cloudError(e)}finally{up.disabled=false;down.disabled=false}};
+ down.onclick=async()=>{up.disabled=true;down.disabled=true;status.textContent='অনলাইন ব্যাকআপ আনা হচ্ছে…';try{const bank=await loadQuestionBankCloud();if(!confirm('অনলাইন ব্যাকআপের '+bnDigits(bank.length)+'টি প্রশ্ন দিয়ে এই ডিভাইসের প্রশ্ন তালিকা প্রতিস্থাপন করবেন? আগে বর্তমান ব্যাকআপ ডাউনলোড করে নিন।'))return;questions=mergeQuestionBank(bank,defaults);persist();listQuestions();updateHome();adminLog('অনলাইন প্রশ্ন ব্যাকআপ ফিরিয়ে আনা: '+questions.length+'টি');status.textContent='সফল! '+bnDigits(questions.length)+'টি প্রশ্ন ফিরিয়ে আনা হয়েছে।';}catch(e){status.textContent='ফিরিয়ে আনা যায়নি: '+cloudError(e)}finally{up.disabled=false;down.disabled=false}};
+}
+
 async function syncCloudProgress(showMessage=false){
  if(!cloudReady||!cloudSession)return;
  const name=profile.name||cloudSession.displayName||'খেলোয়াড়';
@@ -309,6 +358,7 @@ async function showCloudLeaderboard(){
   $('cloudBoardRows').innerHTML=docs.map((d,i)=>{const f=d.fields||{},nm=cloudEsc(f.displayName?.stringValue||'খেলোয়াড়'),pt=Number(f.points?.doubleValue??f.points?.integerValue??0),lv=f.level?.integerValue||'১';return '<div class="qitem">'+bnDigits(i+1)+'. <b>'+nm+'</b><br>⭐ '+bnDigits(pt.toFixed(2))+' পয়েন্ট · লেভেল '+cloudEsc(lv)+'</div>'}).join('');
  }catch(e){$('cloudBoardStatus').textContent='লিডারবোর্ড লোড হয়নি: '+cloudEsc(cloudError(e));}
 }
+wireCloudQuestionBackup();
 $('accountBtn').onclick=()=>cloudPanel();
 $('leaderBtn').onclick=showCloudLeaderboard;
 
