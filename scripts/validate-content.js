@@ -73,7 +73,7 @@ for (const x of exams) {
   if (count !== 20 || !x.minutes || x.minutes < 1 || x.negative < 0) errors.push("Model test " + x.id + ": invalid question count, time limit or marking scheme.");
 }
 const current = subjectBank.filter(x => x.c === "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান");
-if (current.length !== 10 || current.some(x => !x.source)) errors.push("Current affairs questions need dated source labels.");
+if (current.length !== 10 || current.some(x => !x.source || !x.sourceUrl)) errors.push("Current affairs questions need dated source labels.");
 if (sandbox.window.JOB_PREP_CURRENT_AFFAIRS_UPDATED !== "2026-11-23") errors.push("Current affairs update date is missing or stale.");
 console.log("Math questions:", math.length, "| Levels:", levels.length, "| Subject questions:", subjectBank.length, "| Model tests:", exams.length);
 
