@@ -44,6 +44,5 @@
  body.querySelectorAll('[data-i]').forEach(b=>b.onclick=()=>{if(done)return;done=true;const ok=+b.dataset.i===q.a;score=Number((score+(ok?1:-.25)).toFixed(2));body.querySelectorAll('[data-i]').forEach((x,i)=>{x.disabled=true;if(i===q.a)x.style.border='2px solid #67e0bd'});const f=document.getElementById('mathFeedback');f.classList.remove('hidden');f.innerHTML='<b>'+(ok?'সঠিক উত্তর! +১':'ভুল উত্তর। −০.২৫ · সঠিক উত্তর: '+q.o[q.a])+'</b><br><b>সূত্র:</b> '+q.formula+'<br><b>সমাধান:</b> '+q.e+'<br><b>দ্রুত কৌশল:</b> '+q.shortcut;document.getElementById('mathContinue').classList.remove('hidden')});document.getElementById('mathContinue').onclick=()=>{pos++;done=false;drawQuestion()};};
  drawHome();window.show('featurePanel');}
  window.openMathLevelHome=openMath;
- function add(){const host=document.querySelector('#home .home-actions');if(!host||document.getElementById('mathLevelsBtn'))return;const b=document.createElement('button');b.className='home-action';b.id='mathLevelsBtn';b.innerHTML='<b>গণিত · ৩০ লেভেল</b><small>৩০০ প্রশ্ন · সূত্র ও সমাধানসহ</small>';b.onclick=openMath;host.prepend(b)}
- if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',add);else add();setTimeout(add,700);
+ // গণিতের প্রবেশপথ চাকরির প্রস্তুতি ড্যাশবোর্ডের বিষয় তালিকায় রয়েছে।
 })();
