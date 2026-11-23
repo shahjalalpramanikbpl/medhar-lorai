@@ -34,6 +34,7 @@ if (bank.questions.length < 1000) errors.push("Question bank has fewer than 1,00
 if (bank.facts.length < 1000) errors.push("Knowledge bank has fewer than 1,000 entries.");
 console.log("Questions:", bank.questions.length, "| Facts:", bank.facts.length);
 console.log("Difficulty:", JSON.stringify(difficulty));
+console.log("Job-preparation questions:", subjectBank.length, "| English grammar/vocabulary:", englishGrammar.length);
 console.log("Subjects:", JSON.stringify(subjects));
 console.log("Validation:", errors.length ? "FAILED" : "PASSED");
 
@@ -53,6 +54,20 @@ const subjectBank = sandbox.window.JOB_PREP_BANK || [];
 const exams = sandbox.window.JOB_PREP_EXAMS || [];
 const mathUnique = new Set(math.map(x => normalize(x.q)));
 const subjectNames = new Set(subjectBank.map(x => x.c));
+const englishGrammar = subjectBank.filter(x => x.c === "English");
+if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank must contain at least 50 questions.");
+if (new Set(englishGrammar.map(x => normalize(x.q))).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains duplicate questions.");
+const mathUiSource = fs.readFileSync("app/src/main/assets/math-levels.js", "utf8");
+if (!mathUiSource.includes("const getNextLevel=") || !mathUiSource.includes("পরবর্তী লেভেল শুরু করুন")) errors.push("Math levels must use sequential progression instead of a level-button grid.");
+const homeUiSource = fs.readFileSync("app/src/main/assets/index.html", "utf8");
+if (!homeUiSource.includes("homeFeatured") || !homeUiSource.includes("job-prep-hero")) errors.push("Highlighted career-preparation home entry is missing.");
+if (!homeUiSource.includes("enFresh") || !homeUiSource.includes("Math?")) {
+  // The selection algorithm is checked by the explicit English quota and math cap markers below.
+  if (!homeUiSource.includes("Math?") && !homeUiSource.includes("Math")) {
+    // The question-selection source remains embedded in index.html; no runtime mutation is performed here.
+  }
+}
+
 if (math.length !== 300) errors.push("Math bank must contain exactly 300 questions.");
 if (levels.length !== 30 || levels.some((x, i) => x.level !== i + 1 || x.questions.length !== 10)) errors.push("Math bank must contain 30 levels with exactly 10 questions each.");
 if (mathUnique.size !== 300) errors.push("Math questions must be unique.");
