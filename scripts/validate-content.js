@@ -61,7 +61,7 @@ const mathUiSource = fs.readFileSync("app/src/main/assets/math-levels.js", "utf8
 if (!mathUiSource.includes("const getNextLevel=") || !mathUiSource.includes("পরবর্তী লেভেল শুরু করুন")) errors.push("Math levels must use sequential progression instead of a level-button grid.");
 const homeUiSource = fs.readFileSync("app/src/main/assets/index.html", "utf8");
 if (!homeUiSource.includes("homeFeatured") || !homeUiSource.includes("job-prep-hero")) errors.push("Highlighted career-preparation home entry is missing.");
-if (!homeUiSource.includes("enFresh") || !homeUiSource.includes("Math")) errors.push("Main quiz must reserve English questions and cap math share.");
+if (!homeUiSource.includes("enFresh") || !homeUiSource.includes("Math.min(3,10-selected.length)") || !homeUiSource.includes("q.c!=='গণিত'")) errors.push("Main quiz must reserve English questions and cap math share.");
 
 if (math.length !== 300) errors.push("Math bank must contain exactly 300 questions.");
 if (levels.length !== 30 || levels.some((x, i) => x.level !== i + 1 || x.questions.length !== 10)) errors.push("Math bank must contain 30 levels with exactly 10 questions each.");
