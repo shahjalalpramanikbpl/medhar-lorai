@@ -61,7 +61,6 @@
   }
   shell();window.show('featurePanel');
  }
- function addButton(){const host=document.querySelector('#home .home-actions');if(!host||document.getElementById('careerPrepBtn'))return;const b=document.createElement('button');b.className='home-action';b.id='careerPrepBtn';b.innerHTML='<span>🎯</span><b>চাকরির প্রস্তুতি</b><small>বিষয়ভিত্তিক অনুশীলন ও মডেল টেস্ট</small>';b.onclick=launch;host.prepend(b)}
- if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',addButton);else addButton();
- setTimeout(addButton,500);
+ // এই মডিউলটি পুরোনো প্রশ্নব্যাংকের সঙ্গে সামঞ্জস্য রাখে; প্রবেশপথটি একীভূত চাকরির প্রস্তুতি ড্যাশবোর্ডে রাখা হয়েছে।
+
 })();
