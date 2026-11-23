@@ -34,7 +34,6 @@ if (bank.questions.length < 1000) errors.push("Question bank has fewer than 1,00
 if (bank.facts.length < 1000) errors.push("Knowledge bank has fewer than 1,000 entries.");
 console.log("Questions:", bank.questions.length, "| Facts:", bank.facts.length);
 console.log("Difficulty:", JSON.stringify(difficulty));
-console.log("Job-preparation questions:", subjectBank.length, "| English grammar/vocabulary:", englishGrammar.length);
 console.log("Subjects:", JSON.stringify(subjects));
 console.log("Validation:", errors.length ? "FAILED" : "PASSED");
 
@@ -57,6 +56,7 @@ const subjectNames = new Set(subjectBank.map(x => x.c));
 const englishGrammar = subjectBank.filter(x => x.c === "English");
 if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank must contain at least 50 questions.");
 if (new Set(englishGrammar.map(x => normalize(x.q))).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains duplicate questions.");
+console.log("Job-preparation questions:", subjectBank.length, "| English grammar/vocabulary:", englishGrammar.length);
 const mathUiSource = fs.readFileSync("app/src/main/assets/math-levels.js", "utf8");
 if (!mathUiSource.includes("const getNextLevel=") || !mathUiSource.includes("পরবর্তী লেভেল শুরু করুন")) errors.push("Math levels must use sequential progression instead of a level-button grid.");
 const homeUiSource = fs.readFileSync("app/src/main/assets/index.html", "utf8");
