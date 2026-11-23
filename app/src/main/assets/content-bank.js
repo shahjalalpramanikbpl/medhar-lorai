@@ -210,7 +210,7 @@ const facts=[["বিজ্ঞান","পৃথিবীর বায়ুমণ�
  ];
  facts.push(...expansionFactsBatch1);
  // প্রশ্ন ও জ্ঞানভাণ্ডারে হুবহু পুনরাবৃত্তি বাদ: স্বাভাবিকীকৃত বাংলা টেক্সট ধরে ইউনিক রাখা হয়।
- const normalizeContentText=s=>String(s??'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
+ const normalizeContentText=s=>String(s??'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
  const seenQuestionText=new Set();
  const uniqueQuestions=questions.filter(item=>{const key=normalizeContentText(item.c)+'|'+normalizeContentText(item.q);if(seenQuestionText.has(key))return false;seenQuestionText.add(key);return true;});
  questions.splice(0,questions.length,...uniqueQuestions);
