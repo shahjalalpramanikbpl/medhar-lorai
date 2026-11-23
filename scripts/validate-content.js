@@ -137,4 +137,11 @@ if (!averageExample || Number(averageExample.expected) !== 84 || Number(String(a
 if (math.some(x => x.q.includes("ক একজন"))) errors.push("Math bank: malformed wording 'ক একজন' must be corrected.");
 console.log("Math questions:", math.length, "| Levels:", levels.length, "| Subject questions:", subjectBank.length, "| Model tests:", exams.length);
 
+
+const homeButtonCheck = fs.readFileSync("app/src/main/assets/index.html", "utf8");
+if (!homeButtonCheck.includes("কুইজ খেলা শুরু করুন")) errors.push("Main quiz start button must use the requested Bengali label.");
+if (!homeButtonCheck.includes("appPresence") || !homeButtonCheck.includes("showUsageStats") || !homeButtonCheck.includes("presenceTimer")) errors.push("Authenticated live-presence tracking and admin usage analytics are missing.");
+const rulesCheck = fs.readFileSync("firestore.rules", "utf8");
+if (!rulesCheck.includes("match /appPresence/{uid}") || !rulesCheck.includes("request.auth.uid == 'TIEU9BdlVFcj2LzwoGKI2BOd2tR2'")) errors.push("Firestore presence rules must restrict cross-user reads to the app owner.");
+
 if (errors.length) { console.error(errors.slice(0, 50).join("\n")); process.exit(1); }
