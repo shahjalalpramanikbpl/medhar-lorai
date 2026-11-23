@@ -300,7 +300,7 @@ async function syncCloudProgress(showMessage=false){
  if(showMessage)updateHome();
 }
 async function showCloudLeaderboard(){
- panel('অনলাইন লিডারবোর্ড','<div class="notice">সর্বোচ্চ পয়েন্ট অনুযায়ী শীর্ষ খেলোয়াড়। তালিকা দেখতে ইন্টারনেট ও Firebase অ্যাকাউন্ট প্রয়োজন।</div><p id="cloudBoardStatus">তালিকা লোড হচ্ছে…</p><div id="cloudBoardRows"></div>');
+ panel('অনলাইন লিডারবোর্ড','<div class="notice">সর্বোচ্চ পয়েন্ট অনুযায়ী শীর্ষ খেলোয়াড়। তালিকা দেখতে ইন্টারনেট ও Firebase অ্যাকাউন্ট প্রয়োজন। সতর্কতা: স্কোর এখনো সার্ভার-যাচাইকৃত নয়; এটি আনুষ্ঠানিক প্রতিযোগিতা বা পুরস্কার নির্ধারণে ব্যবহার করবেন না।</div><p id="cloudBoardStatus">তালিকা লোড হচ্ছে…</p><div id="cloudBoardRows"></div>');
  if(!cloudReady){$('cloudBoardStatus').textContent='Firebase কনফিগারেশন যোগ করা হয়নি।';return}
  if(!cloudSession){$('cloudBoardStatus').textContent='অনলাইন লিডারবোর্ড দেখতে আগে লগইন করুন।';const b=document.createElement('button');b.textContent='লগইন / নিবন্ধন';b.onclick=()=>cloudPanel();$('cloudBoardRows').append(b);return}
  try{
