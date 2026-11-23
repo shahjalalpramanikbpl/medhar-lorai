@@ -62,7 +62,7 @@ for (let i = 0; i < math.length; i++) {
   if (x.o && x.o.length === 4 && new Set(x.o.map(normalize)).size !== 4) errors.push("Math question #" + (i+1) + ": repeated answer options.");
   if (x.expected !== undefined) { const answerNumber = Number(String(x.o[x.a]).replace(/[০-৯]/g, d => String("০১২৩৪৫৬৭৮৯".indexOf(d)))); if (answerNumber !== Number(x.expected)) errors.push("Math question #" + (i+1) + ": answer key does not match expected numeric answer."); } else errors.push("Math question #" + (i+1) + ": expected numeric answer is missing.");
 }
-if (subjectBank.length !== 80 || subjectNames.size !== 8) errors.push("Subject bank must contain 80 questions across 8 non-math sections.");
+if (subjectBank.length !== 110 || subjectNames.size !== 9) errors.push("Subject bank must contain 110 questions across 9 non-math sections, including English Literature.");
 for (const name of subjectNames) if (subjectBank.filter(x => x.c === name).length < 10) errors.push("Subject " + name + " has fewer than 10 practice questions.");
 for (let i = 0; i < subjectBank.length; i++) {
   const x = subjectBank[i];
