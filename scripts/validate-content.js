@@ -45,7 +45,8 @@ const sandbox = {
   localStorage: { getItem() { return null; }, setItem() {} }
 };
 vm.runInNewContext(fs.readFileSync("app/src/main/assets/math-levels.js", "utf8"), sandbox);
-vm.runInNewContext(fs.readFileSync("app/src/main/assets/job-prep-suite.js", "utf8"), sandbox);
+const jobSource = fs.readFileSync("app/src/main/assets/job-prep-suite.js", "utf8").replace("window.openJobPrep=()=>", "window.__pickJobPrepQuestions=pickQuestions;window.openJobPrep=()=>");
+vm.runInNewContext(jobSource, sandbox);
 const math = sandbox.window.ML_MATH_BANK || [];
 const levels = sandbox.window.ML_MATH_LEVELS || [];
 const subjectBank = sandbox.window.JOB_PREP_BANK || [];
@@ -63,6 +64,8 @@ for (let i = 0; i < math.length; i++) {
   if (x.expected !== undefined) { const answerNumber = Number(String(x.o[x.a]).replace(/[০-৯]/g, d => String("০১২৩৪৫৬৭৮৯".indexOf(d)))); if (answerNumber !== Number(x.expected)) errors.push("Math question #" + (i+1) + ": answer key does not match expected numeric answer."); } else errors.push("Math question #" + (i+1) + ": expected numeric answer is missing.");
 }
 if (subjectBank.length !== 110 || subjectNames.size !== 9) errors.push("Subject bank must contain 110 questions across 9 non-math sections, including English Literature.");
+const literature = subjectBank.filter(x => x.c === "English Literature");
+if (literature.length !== 30) errors.push("English Literature must contain exactly 30 dedicated questions.");
 for (const name of subjectNames) if (subjectBank.filter(x => x.c === name).length < 10) errors.push("Subject " + name + " has fewer than 10 practice questions.");
 for (let i = 0; i < subjectBank.length; i++) {
   const x = subjectBank[i];
@@ -70,6 +73,10 @@ for (let i = 0; i < subjectBank.length; i++) {
 }
 if (exams.length !== 5 || new Set(exams.map(x => x.id)).size !== 5) errors.push("Exactly five distinct job model tests are required.");
 for (const x of exams) {
+  try {
+    const picked = sandbox.window.__pickJobPrepQuestions(x);
+    if (picked.length !== 20 || new Set(picked.map(q => q.q)).size !== 20) errors.push("Model test " + x.id + ": runtime selection did not produce 20 unique questions.");
+  } catch (e) { errors.push("Model test " + x.id + ": runtime selection failed: " + e.message); }
   const count = Object.values(x.dist || {}).reduce((a, b) => a + b, 0);
   if (count !== 20 || !x.minutes || x.minutes < 1 || x.negative < 0) errors.push("Model test " + x.id + ": invalid question count, time limit or marking scheme.");
   for (const [category, required] of Object.entries(x.dist || {})) {
