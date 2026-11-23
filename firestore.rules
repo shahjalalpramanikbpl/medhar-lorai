@@ -74,7 +74,7 @@ service cloud.firestore {
       // Replace the placeholder with the owner's Firebase Authentication UID before publishing.
       allow read: if true;
       allow create, update, delete: if request.auth != null
-        && request.auth.uid == 'REPLACE_WITH_FIREBASE_ADMIN_UID';
+        && request.auth.uid == 'TIEU9BdlVFcj2LzwoGKI2BOd2tR2';
     }
 
     match /users/{uid} {
