@@ -38,6 +38,8 @@ check(content.includes('window.ML_CONTENT={questions,daily,iq,words,facts}'), 'O
 try {
   const baseRules = cp.execFileSync('git', ['show', 'origin/main:' + rulesPath], {encoding:'utf8'});
   check(baseRules === rules, 'firestore.rules differs from origin/main; require a separate security review.');
+  const baseContent = cp.execFileSync('git', ['show', 'origin/main:' + contentPath], {encoding:'utf8'});
+  check(baseContent === content, 'Original content-bank.js differs from origin/main; require a data review.');
 } catch (e) {
   fail.push('Could not compare Firestore rules with origin/main: ' + e.message);
 }
