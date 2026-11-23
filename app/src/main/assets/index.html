@@ -537,7 +537,7 @@ async function showUsageStats(){
   const cutoff=Date.now()-120000,online=(presence.documents||[]).filter(d=>{const t=d.fields?.lastSeen?.timestampValue;return t&&Date.parse(t)>=cutoff;});
   const total=new Set(users.map(d=>d.fields?.uid?.stringValue).filter(Boolean)).size;
   status.textContent='সর্বশেষ আপডেট: '+new Date().toLocaleString('bn-BD',{timeZone:'Asia/Dhaka'});
-  result.innerHTML='<div class="stats"><div class="stat"><b>'+bnDigits(total)+'</b><small>মোট নিবন্ধিত খেলোয়াড়*</small></div><div class="stat"><b>'+bnDigits(online.length)+'</b><small>এই মুহূর্তে অনলাইন**</small></div><div class="stat"><b>'+bnDigits(Math.max(0,total-online.length))+'</b><small>বর্তমানে অফলাইন (আনুমানিক)</small></div></div><p class="muted">* যেসব অ্যাকাউন্ট অন্তত একবার লিডারবোর্ডে সিঙ্ক হয়েছে। ** গত ২ মিনিটে উপস্থিতি পাঠানো লগইন করা অ্যাকাউন্ট।</p><button type="button" class="secondary" id="refreshUsageStats">↻ আবার হিসাব করুন</button>';
+  result.innerHTML='<div class="stats"><div class="stat"><b>'+bnDigits(total)+'</b><small>মোট লিডারবোর্ডে সিঙ্ক করা খেলোয়াড়*</small></div><div class="stat"><b>'+bnDigits(online.length)+'</b><small>এই মুহূর্তে অনলাইন**</small></div><div class="stat"><b>'+bnDigits(Math.max(0,total-online.length))+'</b><small>বর্তমানে অফলাইন (আনুমানিক)</small></div></div><p class="muted">* যেসব অ্যাকাউন্ট অন্তত একবার লিডারবোর্ডে সিঙ্ক হয়েছে। ** গত ২ মিনিটে উপস্থিতি পাঠানো লগইন করা অ্যাকাউন্ট।</p><button type="button" class="secondary" id="refreshUsageStats">↻ আবার হিসাব করুন</button>';
   $('refreshUsageStats').onclick=showUsageStats;
  }catch(e){status.textContent='হিসাব আনা যায়নি: '+cloudEsc(cloudError(e))+'। Firestore Rules-এ appPresence-এর অ্যাডমিন পাঠ-অনুমতি প্রকাশিত হয়েছে কি না দেখুন।'}
 }
