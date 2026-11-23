@@ -391,7 +391,7 @@ Q('বাংলা ভাষা ও সাহিত্য','‘রক্তা�
 Q('English','Choose the correct preposition: She is afraid ___ snakes.',['of','from','with','by'],0,'সঠিক phrase হলো ‘afraid of’।'),
 Q('English','What is the antonym of ‘Optimistic’?',['Pessimistic','Hopeful','Positive','Confident'],0,'‘Pessimistic’ হলো ‘Optimistic’-এর বিপরীতার্থক শব্দ।'),
 Q('English','Choose the correct form: Each of the students ___ a book.',['has','have','are having','were'],0,'‘Each’ singular; তাই singular verb ‘has’ বসে।'),
-Q('English','The past participle of ‘写’—',['written','wrote','writing','writes'],0,'‘Write’-এর past participle হলো ‘written’।'),
+Q('English','The past participle of ‘Write’ is—',['written','wrote','writing','writes'],0,'‘Write’-এর past participle হলো ‘written’।'),
 Q('English','‘At sixes and sevens’ means—',['In disorder','In agreement','Very happy','Exactly six'],0,'বাগধারাটির অর্থ বিশৃঙ্খল বা এলোমেলো অবস্থায়।'),
 Q('English','Choose the correct article: The Ganges is ___ holy river.',['a','an','the','no article'],0,'এখানে একবচন গণনাযোগ্য noun ‘river’-এর আগে ‘a’ বসেছে।'),
 Q('English','The verb form of ‘Strength’ is—',['Strengthen','Strong','Strongly','Strengthening'],0,'‘Strength’-এর verb form হলো ‘strengthen’।'),
