@@ -30,7 +30,7 @@
   const opts=[...new Set(candidates.map(v=>Number(v.toFixed(2))))];while(opts.length<4)opts.push(Number((val+opts.length*3.17+1).toFixed(2)));
   const ordered=[val,...opts.filter(v=>v!==val).slice(0,3)].sort((a,b)=>((level*13+k*7+Math.round(a))%11)-((level*13+k*7+Math.round(b))%11));
   const a=ordered.indexOf(val);
-  return {id:'math_L'+level+'_Q'+(k+1),c:'গণিত · '+topic,q,o:ordered.map(v=>bn(v)),a,level,d:level<=10?'সহজ':level<=20?'মাঝারি':'কঠিন',topic,e:solution,formula,shortcut};
+  return {id:'math_L'+level+'_Q'+(k+1),c:'গণিত · '+topic,q,o:ordered.map(v=>bn(v)),a,level,d:level<=10?'সহজ':level<=20?'মাঝারি':'কঠিন',topic,e:solution,formula,shortcut,expected:val};
  };
  const bank=Array.from({length:30},(_,i)=>Array.from({length:10},(_,k)=>make(i+1,k))).flat();
  window.ML_MATH_LEVELS=Array.from({length:30},(_,i)=>({level:i+1,title:'লেভেল '+bn(i+1),band:bands(i+1),questions:bank.filter(q=>q.level===i+1)}));
