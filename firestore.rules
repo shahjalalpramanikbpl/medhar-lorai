@@ -34,9 +34,9 @@ service cloud.firestore {
         && request.resource.data.wrong >= 0
         && request.resource.data.wrong <= 100000000
         && request.resource.data.updatedAt is timestamp;
-      // Updates must be monotonic and score deltas must match the published game rules.
-      // This blocks score rollback and inconsistent point/stat edits, but is NOT server-side
-      // proof that answers were genuinely earned (a modified client can still fake a round).
+      // Updates are monotonic. Exact point-delta matching was removed because older
+      // installs may have legacy totals that do not reconcile with answer counters.
+      // This prevents score rollback, but client-submitted scores are not cheat-proof.
       allow update: if request.auth != null
         && request.auth.uid == uid
         && request.resource.data.keys().hasAll([
@@ -49,27 +49,21 @@ service cloud.firestore {
         ])
         && request.resource.data.uid == resource.data.uid
         && request.resource.data.email == resource.data.email
+        && request.resource.data.points is number
+        && request.resource.data.points >= resource.data.points
+        && request.resource.data.points <= 100000000
+        && request.resource.data.level is int
         && request.resource.data.level >= resource.data.level
+        && request.resource.data.level <= 1000000
+        && request.resource.data.correct is int
         && request.resource.data.correct >= resource.data.correct
+        && request.resource.data.correct <= 100000000
+        && request.resource.data.wrong is int
         && request.resource.data.wrong >= resource.data.wrong
-        && request.resource.data.points - resource.data.points
-          == (request.resource.data.correct - resource.data.correct)
-             - ((request.resource.data.wrong - resource.data.wrong) * 0.25)
+        && request.resource.data.wrong <= 100000000
         && request.resource.data.displayName is string
         && request.resource.data.displayName.size() > 0
         && request.resource.data.displayName.size() <= 40
-        && request.resource.data.points is number
-        && request.resource.data.points >= -1000000
-        && request.resource.data.points <= 100000000
-        && request.resource.data.level is int
-        && request.resource.data.level >= 1
-        && request.resource.data.level <= 1000000
-        && request.resource.data.correct is int
-        && request.resource.data.correct >= 0
-        && request.resource.data.correct <= 100000000
-        && request.resource.data.wrong is int
-        && request.resource.data.wrong >= 0
-        && request.resource.data.wrong <= 100000000
         && request.resource.data.updatedAt is timestamp;
       // A client must not be able to erase leaderboard history.
       allow delete: if false;
