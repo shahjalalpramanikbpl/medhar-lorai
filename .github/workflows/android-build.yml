@@ -2,7 +2,7 @@ name: Android build check
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, job-preparation-suite-v1 ]
   pull_request:
     branches: [ main, master ]
   workflow_dispatch:
