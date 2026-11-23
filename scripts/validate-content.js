@@ -72,6 +72,10 @@ if (exams.length !== 5 || new Set(exams.map(x => x.id)).size !== 5) errors.push(
 for (const x of exams) {
   const count = Object.values(x.dist || {}).reduce((a, b) => a + b, 0);
   if (count !== 20 || !x.minutes || x.minutes < 1 || x.negative < 0) errors.push("Model test " + x.id + ": invalid question count, time limit or marking scheme.");
+  for (const [category, required] of Object.entries(x.dist || {})) {
+    const available = category === "গণিত" ? math.length : subjectBank.filter(q => q.c === category).length;
+    if (available < required) errors.push("Model test " + x.id + ": category " + category + " needs " + required + " questions but only " + available + " exist.");
+  }
 }
 const current = subjectBank.filter(x => x.c === "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান");
 if (current.length !== 10 || current.some(x => !x.source || !x.sourceUrl)) errors.push("Current affairs questions need dated source labels.");
