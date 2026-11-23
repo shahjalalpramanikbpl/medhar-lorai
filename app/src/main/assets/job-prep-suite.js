@@ -151,7 +151,7 @@ Q('English','“Break the ice” means—',['End a friendship','Start a friendly
 Q('English','The phrasal verb “put off” means—',['Wear','Continue','Postpone','Accept'],2,'“Put off” means to postpone or delay.','','','কঠিন'),
 Q('English','The phrasal verb “carry out” means—',['Cancel','Perform','Reject','Delay'],1,'“Carry out” means to perform or execute a task.','','','কঠিন'),
 Q('English','The phrasal verb “look into” means—',['Investigate','Ignore','Admire','Postpone'],0,'“Look into” means to investigate or examine.','','','কঠিন'),
-Q('English','Choose the correct spelling of the noun meaning lodging.',['Accomodation','Acommodation','Accommodation','Acommodetion'],2,'The correct spelling is accommodation, with double c and double m.','','','কঠিন'),
+Q('English','Which spelling is correct for a person you know but do not know very well?',['Acquaintence','Acquaintance','Aquantance','Acquaintanse'],1,'Acquaintance is the correct spelling for someone known but not necessarily a close friend.','','','কঠিন'),
 Q('English','Which spelling is correct for a special right or advantage?',['Priviledge','Privilege','Privilage','Privelege'],1,'The correct spelling is privilege.','','','কঠিন'),
 Q('English','Choose the correct spelling of the word meaning careful and responsible.',['Consciencious','Conscientous','Conscientious','Conscienctious'],2,'The correct spelling is conscientious.','','','কঠিন'),
 Q('English','Choose the correct spelling of the verb meaning to make someone feel awkward.',['Embarass','Embarrass','Embaras','Embarras'],1,'The correct spelling is embarrass, with double r and double s.','','','কঠিন'),
