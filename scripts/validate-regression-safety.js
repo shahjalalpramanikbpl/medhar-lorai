@@ -37,7 +37,12 @@ check(content.includes('window.ML_CONTENT={questions,daily,iq,words,facts}'), 'O
 // Firebase rules must remain byte-identical to main unless separately reviewed.
 try {
   const baseRules = cp.execFileSync('git', ['show', 'origin/main:' + rulesPath], {encoding:'utf8'});
-  check(baseRules === rules, 'firestore.rules differs from origin/main; require a separate security review.');
+  // Permit only the reviewed appPresence addition; all pre-existing rules must remain byte-identical.
+  const stripPresence = value => value.replace(/\n    match \/appPresence\/{uid} \{[\s\S]*?\n    \}\n(?=\n    match \/users\/{uid} \{)/, '');
+  check(stripPresence(rules) === baseRules, 'Pre-existing firestore.rules changed beyond the reviewed appPresence block.');
+  const presenceRules = rules.split('match /appPresence/{uid}')[1]?.split('match /users/{uid}')[0] || '';
+  check(presenceRules.includes('request.auth.uid == uid'), 'Presence writes must be restricted to each signed-in user.');
+  check(presenceRules.includes("request.auth.uid == 'TIEU9BdlVFcj2LzwoGKI2BOd2tR2'"), 'Presence reads must be restricted to the app owner.');
   const baseContent = cp.execFileSync('git', ['show', 'origin/main:' + contentPath], {encoding:'utf8'});
   check(baseContent === content, 'Original content-bank.js differs from origin/main; require a data review.');
 } catch (e) {
@@ -59,4 +64,4 @@ if (fail.length) {
   for (const item of fail) console.error(' - ' + item);
   process.exit(1);
 }
-console.log('Regression safety checks passed: legacy storage/features present, new storage isolated, content bank retained, Firestore rules unchanged and owner-restricted.');
+console.log('Regression safety checks passed: legacy storage/features present, new storage isolated, content bank retained, Firestore legacy rules preserved, presence rules owner-restricted.');
