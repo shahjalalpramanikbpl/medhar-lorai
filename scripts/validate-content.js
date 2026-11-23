@@ -65,7 +65,7 @@ for (let i = 0; i < math.length; i++) {
 }
 // Independently recompute every generated math answer from its question wording.
 const toAscii = s => String(s).replace(/[০-৯]/g, d => String("০১২৩৪৫৬৭৮৯".indexOf(d)));
-const getNums = s => (toAscii(s).match(/\\d+(?:\\.\\d+)?/g) || []).map(Number);
+const getNums = s => (toAscii(s).match(/\d+(?:\.\d+)?/g) || []).map(Number);
 const gcdAudit = (a,b) => b ? gcdAudit(b,a%b) : a;
 const isPrimeAudit = n => { if (n < 2) return false; for (let d=2; d*d<=n; d++) if (n%d===0) return false; return true; };
 for (const x of math) {
@@ -73,7 +73,7 @@ for (const x of math) {
   switch (x.topic) {
     case "শতকরা": if(n.length>=2) expected=n[0]*n[1]/100; break;
     case "লাভ-ক্ষতি ও ছাড়": if(n.length>=2) expected=n[0]*(s.includes("লাভে")?100+n[1]:100-n[1])/100; break;
-    case "অনুপাত-সমানুপাত": { const m=toAscii(s).match(/অনুপাত (\\d+):(\\d+) এবং যোগফল (\\d+)/); if(m) expected=+m[3]*+m[2]/(+m[1]+ +m[2]); break; }
+    case "অনুপাত-সমানুপাত": { const m=toAscii(s).match(/অনুপাত (\d+):(\d+) এবং যোগফল (\d+)/); if(m) expected=+m[3]*+m[2]/(+m[1]+ +m[2]); break; }
     case "গড়": if(n.length>=2) expected=n[0]*n[1]; break;
     case "সরল ও চক্রবৃদ্ধি সুদ": if(n.length>=3) expected=s.includes("চক্রবৃদ্ধি")?n[0]*Math.pow(1+n[1]/100,n[2])-n[0]:n[0]*n[1]*n[2]/100; break;
     case "ঐকিক নিয়ম": if(n.length>=2) expected=n[0]*n[1]; break;
@@ -88,7 +88,7 @@ for (const x of math) {
     case "জ্যামিতি ও ক্ষেত্রফল": if(s.includes("ঘনকের")) expected=n[0]**3; else if(s.includes("ত্রিভুজের")) expected=n[0]*n[1]/2; else if(s.includes("আয়তক্ষেত্রের")) expected=n[0]*n[1]; break;
     case "ধারা": if(n.length>=3) expected=n[0]+(n[2]-1)*n[1]; break;
     case "মিশ্রণ": if(n.length>=4) expected=(n[0]*n[1]+n[2]*n[3])/(n[0]+n[2]); break;
-    case "পরিমিতি": { const m=toAscii(s).match(/ব্যাসার্ধ (\\d+)/); if(m) expected=2*22/7*(+m[1]); break; }
+    case "পরিমিতি": { const m=toAscii(s).match(/ব্যাসার্ধ (\d+)/); if(m) expected=2*22/7*(+m[1]); break; }
     case "ছাড় ও মূল্য নির্ণয়": if(n.length>=2) expected=n[0]*(100-n[1])/100; break;
   }
   if(expected===null || !Number.isFinite(expected)) errors.push("Math "+x.id+": could not independently verify question wording.");
