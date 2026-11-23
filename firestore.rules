@@ -1,0 +1,25 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Players may read the public leaderboard. Each account may update only its own row.
+    match /leaderboard/{uid} {
+      allow read: if true;
+      allow create, update: if request.auth != null
+        && request.auth.uid == uid
+        && request.resource.data.uid == uid
+        && request.resource.data.displayName is string
+        && request.resource.data.displayName.size() <= 40
+        && request.resource.data.points is number
+        && request.resource.data.points >= -1000000
+        && request.resource.data.points <= 100000000
+        && request.resource.data.level is int
+        && request.resource.data.level >= 1
+        && request.resource.data.level <= 1000000;
+      allow delete: if request.auth != null && request.auth.uid == uid;
+    }
+    // Private player profile/progress documents.
+    match /users/{uid} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+  }
+}
