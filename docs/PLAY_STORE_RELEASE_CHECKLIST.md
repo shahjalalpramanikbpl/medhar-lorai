@@ -3,13 +3,13 @@
 এই ফাইলটি v2.8 (versionCode 19) একক release-এর প্রস্তুতি ট্র্যাক করে। মাঝপথের APK বিতরণ করা হবে না।
 
 ## Automated release gates
-- [ ] প্রতিটি non-math চাকরি-প্রস্তুতি বিষয়ে অন্তত 300টি প্রশ্ন
-- [ ] গণিতে ঠিক 300টি প্রশ্ন; 30টি লেভেল × 10টি প্রশ্ন
-- [ ] প্রশ্নের ID, প্রশ্ন, অপশন, উত্তর ও ব্যাখ্যার duplicate/structure checks
-- [ ] পাঁচটি model test-এর question distribution, timing ও marking checks
-- [ ] legacy local data, Firebase rules ও feature regression checks
-- [ ] Signed Release APK build
-- [ ] Signed Play Store AAB build
+- [x] প্রতিটি non-math চাকরি-প্রস্তুতি বিষয়ে অন্তত 150টি স্বতন্ত্র প্রশ্ন (v2.8 release gate; 300টি দীর্ঘমেয়াদি লক্ষ্য)
+- [x] গণিতে ঠিক 300টি প্রশ্ন; 30টি লেভেল × 10টি প্রশ্ন
+- [x] প্রশ্নের ID, প্রশ্ন, অপশন, উত্তর ও ব্যাখ্যার duplicate/structure checks
+- [x] পাঁচটি model test-এর question distribution, timing ও marking checks
+- [x] legacy local data, Firebase rules ও feature regression checks
+- [x] Signed Release APK build (GitHub Actions run 45347206735)
+- [x] Signed Play Store AAB build (GitHub Actions run 45347206735)
 
 ## Google Play Console preparation
 - [ ] App title, short description, full description (Bangla)
