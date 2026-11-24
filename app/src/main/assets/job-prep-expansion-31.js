@@ -485,8 +485,8 @@ const additions=[
 const bank=window.JOB_PREP_BANK;
 if(!Array.isArray(bank)) throw new Error('JOB_PREP_BANK পাওয়া যায়নি।');
 const norm=s=>String(s||'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
-const seen=new Set(bank.map(q=>norm(q.q)+'|'+norm(q.o&&q.o[q.a]))),ids=new Set(bank.map(q=>q.id));
+const seen=new Set(bank.map(q=>norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):''))),ids=new Set(bank.map(q=>q.id));
 let added=0,duplicates=0;
-for(const q of additions){if(seen.has(norm(q.q)+'|'+norm(q.o&&q.o[q.a]))||ids.has(q.id)){duplicates++;continue;}bank.push(q);seen.add(norm(q.q)+'|'+norm(q.o&&q.o[q.a]));ids.add(q.id);added++;}
+for(const q of additions){if(seen.has(norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):''))||ids.has(q.id)){duplicates++;continue;}bank.push(q);seen.add(norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):''));ids.add(q.id);added++;}
 window.JOB_PREP_EXPANSION_BATCH_31={candidates:additions.length,added,duplicates};
 })();
