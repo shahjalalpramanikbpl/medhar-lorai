@@ -6,6 +6,7 @@ const html = read('app/src/main/assets/index.html');
 const suite = read('app/src/main/assets/job-prep-suite.js');
 const manifest = read('app/src/main/AndroidManifest.xml');
 const gradle = read('app/build.gradle.kts');
+const workflow = read('.github/workflows/android-build.yml');
 const checks = [
   ['launch splash title', html.includes('মেধার লড়াই') && html.includes('খেলুন-শিখুন-এগিয়ে যান')],
   ['quiz primary action', /<button[^>]*id="startBtn"[^>]*class="[^"]*start-3d/.test(html) && html.includes('কুইজ খেলা শুরু করুন')],
@@ -23,6 +24,8 @@ const checks = [
   ['manifest launcher icon mapping', manifest.includes('android:icon="@mipmap/ic_launcher"') && manifest.includes('android:roundIcon="@mipmap/ic_launcher"')],
   ['package id unchanged', gradle.includes('applicationId = "com.medhar.lorai"')],
   ['release version defined', /versionCode\s*=\s*19/.test(gradle) && /versionName\s*=\s*"2\.8"/.test(gradle)]
+,
+  ['approved commit build trigger', workflow.includes("startsWith(github.event.head_commit.message, 'BUILD:')") && workflow.includes(':assembleRelease')]
 ];
 let failed = false;
 for (const [name,ok] of checks) { console.log((ok?'PASS':'FAIL')+' '+name); if(!ok) failed=true; }
