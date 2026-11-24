@@ -646,7 +646,7 @@ const additions=[
 const bank=window.JOB_PREP_BANK;
 if(!Array.isArray(bank)) throw new Error('JOB_PREP_BANK পাওয়া যায়নি।');
 const norm=s=>String(s||'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
-const seen=new Set(bank.map(q=>norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):'')));
-for(const q of additions){if(seen.has(norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):'')))continue;bank.push(q);seen.add(norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):''));}
+const seen=new Set(bank.map(q=>(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q):norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):''))));
+for(const q of additions){if(seen.has((window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q):norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):''))))continue;bank.push(q);seen.add((window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q):norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):'')));}
 window.JOB_PREP_EXPANSION_BATCH_1=additions.length;
 })();
