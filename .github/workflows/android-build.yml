@@ -25,6 +25,9 @@ jobs:
       - name: Run legacy data and Firebase safety regression checks
         run: node scripts/validate-regression-safety.js
 
+      - name: Run release UI and launcher smoke checks
+        run: node scripts/validate-release-ui.js
+
       - name: Set up Java 17
         uses: actions/setup-java@v4
         with:
