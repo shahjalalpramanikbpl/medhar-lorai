@@ -1400,18 +1400,18 @@ const mappedCategory={
 };
 const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
 const uniqueBankKeys=new Set(),uniqueBank=[];
-for(const q of bank){const k=norm(q.c)+'|'+norm(q.q);if(!uniqueBankKeys.has(k)){uniqueBankKeys.add(k);uniqueBank.push(q)}}
+for(const q of bank){const k=norm(q.c)+'|'+norm(q.q)+'|'+norm(q.o&&q.o[q.a]);if(!uniqueBankKeys.has(k)){uniqueBankKeys.add(k);uniqueBank.push(q)}}
 bank.length=0;bank.push(...uniqueBank);
-const existingKeys=new Set(bank.map(q=>norm(q.c)+'|'+norm(q.q)));
+const existingKeys=new Set(bank.map(q=>norm(q.c)+'|'+norm(q.q)+'|'+norm(q.o&&q.o[q.a])));
 (window.ML_CONTENT?.questions||[]).forEach((q,i)=>{
  const c=mappedCategory[q.c];if(!c||!Array.isArray(q.o)||q.o.length!==4)return;
- const key=norm(c)+'|'+norm(q.q);if(existingKeys.has(key))return;existingKeys.add(key);
+ const key=norm(c)+'|'+norm(q.q)+'|'+norm(q.o&&q.o[q.a]);if(existingKeys.has(key))return;existingKeys.add(key);
  bank.push(Q(c,q.q,q.o,q.a,'সঠিক উত্তর: '+q.o[q.a]+'.','','',q.d||'সহজ'));
 });
 const englishQuizQuestions=bank.filter(q=>q.c==='English');
 if(window.ML_CONTENT?.questions){
- const seenEnglish=new Set(window.ML_CONTENT.questions.filter(q=>q.c==='English').map(q=>norm(q.q)));
- englishQuizQuestions.forEach((q,i)=>{if(!seenEnglish.has(norm(q.q))){window.ML_CONTENT.questions.push({...q,id:'job_english_'+i,d:q.d||'সহজ'});seenEnglish.add(norm(q.q));}});
+ const seenEnglish=new Set(window.ML_CONTENT.questions.filter(q=>q.c==='English').map(q=>norm(q.q)+'|'+norm(q.o&&q.o[q.a])));
+ englishQuizQuestions.forEach((q,i)=>{if(!seenEnglish.has(norm(q.q)+'|'+norm(q.o&&q.o[q.a]))){window.ML_CONTENT.questions.push({...q,id:'job_english_'+i,d:q.d||'সহজ'});seenEnglish.add(norm(q.q)+'|'+norm(q.o&&q.o[q.a]));}});
 }
 
 const exams=[
