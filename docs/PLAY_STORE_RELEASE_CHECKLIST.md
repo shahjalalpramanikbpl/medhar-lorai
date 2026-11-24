@@ -8,11 +8,12 @@
 - [x] প্রশ্নের ID, প্রশ্ন, অপশন, উত্তর ও ব্যাখ্যার duplicate/structure checks
 - [x] পাঁচটি model test-এর question distribution, timing ও marking checks
 - [x] legacy local data, Firebase rules ও feature regression checks
-- [x] Signed Release APK build (GitHub Actions run 45347206735)
-- [x] Signed Play Store AAB build (GitHub Actions run 45347206735)
+- [x] Splash/home UI, career-preparation entry, app scripts ও launcher icon static smoke checks (10/10)
+- [x] Signed Release APK build (GitHub Actions run 45348295701)
+- [x] Signed Play Store AAB build (GitHub Actions run 45348295701)
 
 ## Google Play Console preparation
-- [ ] App title, short description, full description (Bangla)
+- [x] App title, short description, full description drafted in `docs/PLAY_STORE_LISTING_BN_DRAFT.md` (owner review pending)
 - [ ] 512×512 high-resolution app icon
 - [ ] 1024×500 feature graphic
 - [ ] Phone screenshots showing real app screens and core features
@@ -23,6 +24,8 @@
 - [ ] Content rating questionnaire
 - [ ] Target audience and Families policy declarations, as applicable
 - [ ] App category, contact email and support details
+- [x] v2.7 → v2.8 signing-certificate fingerprint match verified: SHA-256 `34:25:10:30:BD:9C:1E:64:4E:AF:7E:F2:66:3A:9B:8B:C7:55:28:24:B2:DA:DA:AA:4D:F7:9F:77:1D:DC:B3:B3`
+- [ ] On-device v2.7 → v2.8 install/update test and local-data retention check
 - [ ] Internal testing track: install/update test using existing signing identity
 - [ ] Closed testing requirements and tester feedback reviewed
 - [ ] Final Play Console pre-launch report and policy status reviewed
