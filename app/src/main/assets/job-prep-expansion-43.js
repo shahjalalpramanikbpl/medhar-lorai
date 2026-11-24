@@ -31,6 +31,9 @@ const additions=[
 {id:"extra_1483",c:"English Literature",q:"Which Shakespeare play features the characters Rosencrantz and Guildenstern?",o:["Macbeth","Hamlet","Othello","King Lear"],a:1,e:"Rosencrantz and Guildenstern are courtiers in Shakespeare’s Hamlet.",source:"English Literature — Shakespeare",d:"সহজ"},
 {id:"extra_1484",c:"English Literature",q:"Who wrote the novel “Jane Eyre”?",o:["Emily Brontë","Anne Brontë","Charlotte Brontë","Elizabeth Gaskell"],a:2,e:"Charlotte Brontë published Jane Eyre in 1847 under the pen name Currer Bell.",source:"English Literature — Victorian Novel",d:"সহজ"}
 ];
+
+// Additional English item to complete the 30-question batch.
+additions.push({id:"extra_1485",c:"English",q:"Choose the correct antonym of “Meticulous”.",o:["Careful","Precise","Careless","Thorough"],a:2,e:"Meticulous means very careful and precise; careless is its opposite.",source:"English Vocabulary — Antonym",d:"মাঝারি"});
 const bank=window.JOB_PREP_BANK||(window.JOB_PREP_BANK=[]);
 const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
 const seen=new Set(bank.map(q=>norm(q.q))),ids=new Set(bank.map(q=>q.id));
