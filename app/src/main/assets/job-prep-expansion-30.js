@@ -466,6 +466,7 @@ const additions=[
     "sourceUrl": ""
   }
 ];
+additions.push({"id":"extra_1095","c":"সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান","q":"২০২৫ সালে জাতিসংঘের জলবায়ু পরিবর্তন সম্মেলন COP30 কোন দেশে অনুষ্ঠিত হয়?","o":["ব্রাজিল","আজারবাইজান","সংযুক্ত আরব আমিরাত","মিশর"],"a":0,"e":"COP30 ২০২৫ সালের ১০–২১ নভেম্বর ব্রাজিলের বেলেম শহরে অনুষ্ঠিত হয়।","source":"UNFCCC, COP30","sourceUrl":"https://unfccc.int/cop30/about-cop30","d":"সহজ"});
 const bank=window.JOB_PREP_BANK;
 if(!Array.isArray(bank)) throw new Error('JOB_PREP_BANK পাওয়া যায়নি।');
 const norm=s=>String(s||'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
