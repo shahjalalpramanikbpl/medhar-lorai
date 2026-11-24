@@ -1399,13 +1399,24 @@ const mappedCategory={
  'সাহিত্য':'বাংলা ভাষা ও সাহিত্য'
 };
 const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
+const questionKey=(q,c=q.c)=>{
+ const category=c||q.c,raw=String(q.q||''),answer=norm(q.o&&q.o[q.a]);
+ if(category==='মানসিক দক্ষতা ও IQ'&&/(ধারা|পরবর্তী সংখ্যা|পরের সংখ্যা|ধারাটির|ধারা পূরণ|পরবর্তী পদ|অনুপস্থিত সংখ্যা|বর্ণধারা|পরবর্তী অক্ষর|পরের অক্ষর)/i.test(raw)){
+  const digits=raw.match(/[০-৯0-9]+/g)||[];
+  if(digits.length>=4)return 'series:'+digits.join(',')+'|'+answer;
+  const letters=raw.match(/(?:[A-Z](?:\\s*[,،]\\s*[A-Z]){2,})/i);
+  if(letters)return 'letter-series:'+letters[0].replace(/[^A-Z]/gi,'').toUpperCase()+'|'+answer;
+ }
+ return norm(raw)+(category==='English'?'|'+answer:'');
+};
+window.JOB_PREP_QUESTION_KEY=questionKey;
 const uniqueBankKeys=new Set(),uniqueBank=[];
-for(const q of bank){const k=norm(q.c)+'|'+norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):'');if(!uniqueBankKeys.has(k)){uniqueBankKeys.add(k);uniqueBank.push(q)}}
+for(const q of bank){const k=norm(q.c)+'|'+questionKey(q,q.c);if(!uniqueBankKeys.has(k)){uniqueBankKeys.add(k);uniqueBank.push(q)}}
 bank.length=0;bank.push(...uniqueBank);
-const existingKeys=new Set(bank.map(q=>norm(q.c)+'|'+norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):'')));
+const existingKeys=new Set(bank.map(q=>norm(q.c)+'|'+questionKey(q,q.c)));
 (window.ML_CONTENT?.questions||[]).forEach((q,i)=>{
  const c=mappedCategory[q.c];if(!c||!Array.isArray(q.o)||q.o.length!==4)return;
- const key=norm(c)+'|'+norm(q.q)+(c==='English'?'|'+norm(q.o&&q.o[q.a]):'');if(existingKeys.has(key))return;existingKeys.add(key);
+ const key=norm(c)+'|'+questionKey(q,c);if(existingKeys.has(key))return;existingKeys.add(key);
  bank.push(Q(c,q.q,q.o,q.a,'সঠিক উত্তর: '+q.o[q.a]+'.','','',q.d||'সহজ'));
 });
 const englishQuizQuestions=bank.filter(q=>q.c==='English');
