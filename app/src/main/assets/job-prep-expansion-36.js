@@ -1,0 +1,46 @@
+/* মেধার লড়াই — চাকরি প্রস্তুতি প্রশ্নব্যাংক সম্প্রসারণ ব্যাচ ৩৬ */
+(()=>{'use strict';
+const additions=[
+{id:"extra_1246",c:"বাংলা ভাষা ও সাহিত্য",q:"‘যে উপকারীর উপকার স্বীকার করে’—এক কথায় কী?",o:["কৃতঘ্ন","কৃতজ্ঞ","পরোপকারী","উদার"],a:1,e:"যে উপকারীর উপকার স্বীকার করে, তাকে কৃতজ্ঞ বলা হয়।",source:"বাংলা এক কথায় প্রকাশ",d:"সহজ"},
+{id:"extra_1247",c:"বাংলা ভাষা ও সাহিত্য",q:"‘অরণ্যে রোদন’ বাগধারাটির অর্থ কী?",o:["বনে আগুন লাগা","নিষ্ফল আবেদন","বিপদে পড়া","অকারণে আনন্দ"],a:1,e:"অরণ্যে রোদন অর্থ এমন স্থানে বা ব্যক্তির কাছে আবেদন করা, যেখানে তার কোনো ফল হয় না।",source:"বাংলা বাগধারা",d:"মাঝারি"},
+{id:"extra_1248",c:"বাংলা ভাষা ও সাহিত্য",q:"‘রাজপুত্র’ কোন সমাসের উদাহরণ?",o:["দ্বন্দ্ব","কর্মধারয়","ষষ্ঠী তৎপুরুষ","বহুব্রীহি"],a:2,e:"রাজার পুত্র—এখানে ষষ্ঠী বিভক্তির লোপ হয়েছে; তাই ষষ্ঠী তৎপুরুষ সমাস।",source:"বাংলা ব্যাকরণ — সমাস",d:"মাঝারি"},
+{id:"extra_1249",c:"বাংলা ভাষা ও সাহিত্য",q:"‘অগ্নি’ শব্দের সমার্থক শব্দ কোনটি?",o:["অনল","অনিল","অম্বর","অর্ণব"],a:0,e:"অনল অগ্নির সমার্থক শব্দ; অনিল অর্থ বায়ু এবং অর্ণব অর্থ সমুদ্র।",source:"বাংলা শব্দার্থ",d:"সহজ"},
+{id:"extra_1250",c:"বাংলা ভাষা ও সাহিত্য",q:"‘চাঁদের হাট’ বাগধারাটির অর্থ কী?",o:["নির্জন স্থান","প্রিয়জনের সমাবেশ","রাত্রির বাজার","অলৌকিক ঘটনা"],a:1,e:"চাঁদের হাট বলতে প্রিয় ও পছন্দের মানুষের আনন্দময় সমাবেশ বোঝায়।",source:"বাংলা বাগধারা",d:"সহজ"},
+{id:"extra_1251",c:"বাংলা ভাষা ও সাহিত্য",q:"‘বিদ্রোহী’ কবিতাটি প্রথম কোন পত্রিকায় প্রকাশিত হয়?",o:["ধূমকেতু","বিজলী","সওগাত","মোসলেম ভারত"],a:1,e:"কাজী নজরুল ইসলামের ‘বিদ্রোহী’ কবিতা ১৯২২ সালের জানুয়ারিতে ‘বিজলী’ পত্রিকায় প্রকাশিত হয়।",source:"বাংলা কবিতা",d:"মাঝারি"},
+
+{id:"extra_1252",c:"English",q:"Choose the correct passive form: 'They are building a bridge.'",o:["A bridge is built by them.","A bridge was being built by them.","A bridge is being built by them.","A bridge has been built by them."],a:2,e:"The present continuous passive is formed with is/am/are + being + past participle.",source:"English Grammar — Voice",d:"মাঝারি"},
+{id:"extra_1253",c:"English",q:"Choose the correct sentence.",o:["Neither of the answers are correct.","Neither of the answers is correct.","Neither answers is correct.","Neither of answers are correct."],a:1,e:"In formal exam grammar, 'neither' is treated as singular and takes 'is'.",source:"English Grammar — Subject-Verb Agreement",d:"মাঝারি"},
+{id:"extra_1254",c:"English",q:"What is the noun form of the adjective 'accurate'?",o:["Accurately","Accuracy","Accurateful","Accuration"],a:1,e:"The noun form of 'accurate' is 'accuracy'.",source:"English Vocabulary — Word Formation",d:"সহজ"},
+{id:"extra_1255",c:"English",q:"Choose the correct preposition: 'She is proficient ___ mathematics.'",o:["at","in","on","for"],a:1,e:"The standard collocation is 'proficient in' a subject or skill.",source:"English Grammar — Prepositions",d:"মাঝারি"},
+{id:"extra_1256",c:"English",q:"Identify the correctly spelled word.",o:["Accomodation","Acommodation","Accommodation","Accommudation"],a:2,e:"The correct spelling is 'accommodation', with double c and double m.",source:"English Spelling",d:"সহজ"},
+{id:"extra_1257",c:"English",q:"Choose the correct indirect speech: He said, 'I have finished my work.'",o:["He said that he has finished his work.","He said that he had finished his work.","He said that I had finished my work.","He says that he had finished his work."],a:1,e:"With a past reporting verb, the present perfect commonly changes to past perfect in reported speech.",source:"English Grammar — Narration",d:"মাঝারি"},
+
+{id:"extra_1258",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বাংলাদেশের জাতীয় সংসদের সাধারণ আসন সংখ্যা কত?",o:["২০০","২৫০","৩০০","৩৫০"],a:2,e:"জাতীয় সংসদে সরাসরি নির্বাচিত সাধারণ আসন ৩০০টি; সংরক্ষিত নারী আসন আলাদা।",source:"বাংলাদেশের সংবিধান ও সংসদ",d:"সহজ"},
+{id:"extra_1259",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বাংলাদেশের জাতীয় স্মৃতিসৌধ কোথায় অবস্থিত?",o:["মিরপুর","সাভার","গাজীপুর","মুজিবনগর"],a:1,e:"মুক্তিযুদ্ধে শহীদদের স্মরণে নির্মিত জাতীয় স্মৃতিসৌধ ঢাকার সাভারে অবস্থিত।",source:"বাংলাদেশের জাতীয় স্থাপনা",d:"সহজ"},
+{id:"extra_1260",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বিশ্ব স্বাস্থ্য সংস্থা (WHO) প্রতিষ্ঠিত হয় কত সালে?",o:["১৯৪৫","১৯৪৮","১৯৫০","১৯৫৫"],a:1,e:"WHO-এর সংবিধান ৭ এপ্রিল ১৯৪৮ কার্যকর হয়; দিনটি বিশ্ব স্বাস্থ্য দিবস হিসেবে পালিত হয়।",source:"WHO — About",sourceUrl:"https://www.who.int/about",d:"সহজ"},
+{id:"extra_1261",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"জাতিসংঘের নিরাপত্তা পরিষদের স্থায়ী সদস্য কয়টি দেশ?",o:["৪টি","৫টি","৬টি","১০টি"],a:1,e:"নিরাপত্তা পরিষদের পাঁচ স্থায়ী সদস্য হলো চীন, ফ্রান্স, রাশিয়া, যুক্তরাজ্য ও যুক্তরাষ্ট্র।",source:"United Nations — Security Council",sourceUrl:"https://www.un.org/securitycouncil/content/current-members",d:"সহজ"},
+{id:"extra_1262",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বাংলাদেশের একমাত্র প্রবাল দ্বীপ কোনটি?",o:["সন্দ্বীপ","মহেশখালী","সেন্ট মার্টিন","কুতুবদিয়া"],a:2,e:"সেন্ট মার্টিন বাংলাদেশের একমাত্র প্রবাল দ্বীপ হিসেবে পরিচিত।",source:"বাংলাদেশের ভূগোল",d:"সহজ"},
+{id:"extra_1263",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"আন্তর্জাতিক বিচার আদালত (ICJ) কোথায় অবস্থিত?",o:["জেনেভা","নিউইয়র্ক","দ্য হেগ","ভিয়েনা"],a:2,e:"International Court of Justice নেদারল্যান্ডসের দ্য হেগ শহরে অবস্থিত।",source:"ICJ — The Court",sourceUrl:"https://www.icj-cij.org/court",d:"সহজ"},
+
+{id:"extra_1264",c:"English Literature",q:"Who wrote 'The Rime of the Ancient Mariner'?",o:["William Wordsworth","S. T. Coleridge","John Keats","Lord Byron"],a:1,e:"Samuel Taylor Coleridge wrote this major poem of the English Romantic period.",source:"Romantic Poetry",d:"মাঝারি"},
+{id:"extra_1265",c:"English Literature",q:"Who is known as the 'Father of English Poetry'?",o:["William Shakespeare","Geoffrey Chaucer","John Milton","Edmund Spenser"],a:1,e:"Geoffrey Chaucer is traditionally known as the Father of English Poetry.",source:"History of English Literature",d:"সহজ"},
+{id:"extra_1266",c:"English Literature",q:"Which novel begins with the famous line 'Call me Ishmael'?",o:["Moby-Dick","Robinson Crusoe","Treasure Island","The Great Gatsby"],a:0,e:"'Call me Ishmael' is the opening line of Herman Melville's Moby-Dick.",source:"American Literature",d:"মাঝারি"},
+{id:"extra_1267",c:"English Literature",q:"Who wrote 'A Tale of Two Cities'?",o:["Thomas Hardy","Charles Dickens","William Thackeray","George Eliot"],a:1,e:"Charles Dickens published A Tale of Two Cities in 1859.",source:"Victorian Novel",d:"সহজ"},
+{id:"extra_1268",c:"English Literature",q:"'Waiting for Godot' is a play by which writer?",o:["Harold Pinter","Samuel Beckett","Oscar Wilde","George Bernard Shaw"],a:1,e:"Samuel Beckett wrote the influential absurdist play Waiting for Godot.",source:"Modern Drama",d:"মাঝারি"},
+{id:"extra_1269",c:"English Literature",q:"Who wrote the poem 'The Raven'?",o:["Walt Whitman","Robert Frost","Edgar Allan Poe","Emily Dickinson"],a:2,e:"Edgar Allan Poe's narrative poem The Raven was published in 1845.",source:"American Poetry",d:"সহজ"},
+
+{id:"extra_1270",c:"মানসিক দক্ষতা ও IQ",q:"ধারাটির পরের সংখ্যা কত: ২, ৫, ১১, ২৩, ৪৭, ...?",o:["৮৯","৯৩","৯৫","৯৭"],a:2,e:"প্রতিটি পদ আগের পদের দ্বিগুণের সঙ্গে ১ যোগ করে: ৪৭×২+১ = ৯৫।",source:"সংখ্যার ধারা",d:"মাঝারি"},
+{id:"extra_1271",c:"মানসিক দক্ষতা ও IQ",q:"যদি SOUTH-কে TPVUI লেখা হয়, তবে NORTH কীভাবে লেখা হবে?",o:["OPSUI","OPSTI","MPSUI","OPRUI"],a:0,e:"প্রতিটি অক্ষরের পরের অক্ষর নেওয়া হয়েছে: N→O, O→P, R→S, T→U, H→I; ফলে OPSUI।",source:"কোডিং-ডিকোডিং",d:"মাঝারি"},
+{id:"extra_1272",c:"মানসিক দক্ষতা ও IQ",q:"একটি পরিবারে বাবা, মা ও তিন সন্তানের বয়সের গড় ২৪ বছর। পরিবারের মোট বয়স কত?",o:["১০০ বছর","১১০ বছর","১২০ বছর","১৩০ বছর"],a:2,e:"পরিবারে সদস্য ৫ জন; মোট বয়স = গড়×সংখ্যা = ২৪×৫ = ১২০ বছর।",source:"গাণিতিক যুক্তি",d:"সহজ"},
+{id:"extra_1273",c:"মানসিক দক্ষতা ও IQ",q:"আজ শুক্রবার হলে ৪৫ দিন পর কী বার হবে?",o:["রবিবার","সোমবার","মঙ্গলবার","বুধবার"],a:1,e:"৪৫÷৭ করলে ভাগশেষ ৩; শুক্রবারের তিন দিন পর সোমবার।",source:"বার নির্ণয়",d:"মাঝারি"},
+{id:"extra_1274",c:"মানসিক দক্ষতা ও IQ",q:"একটি ঘড়ি প্রতি ঘণ্টায় ৫ মিনিট এগিয়ে যায়। সকাল ৮টায় সঠিক সময় মিলিয়ে দিলে প্রকৃত দুপুর ১২টায় ঘড়িটি কত দেখাবে?",o:["১২টা ১০ মিনিট","১২টা ১৫ মিনিট","১২টা ২০ মিনিট","১২টা ২৫ মিনিট"],a:2,e:"৪ ঘণ্টায় ঘড়ি এগোয় ৪×৫ = ২০ মিনিট; তাই ঘড়িতে ১২টা ২০ মিনিট দেখাবে।",source:"ঘড়ি ও সময়",d:"মাঝারি"},
+{id:"extra_1275",c:"মানসিক দক্ষতা ও IQ",q:"একটি দলে ১২ জন একে অপরের সঙ্গে একবার করে করমর্দন করলে মোট করমর্দন কতটি হবে?",o:["৫৪","৬০","৬৬","৭২"],a:2,e:"প্রতিটি করমর্দন দুইজনের একটি জোড়া; মোট জোড়া = ১২×১১÷২ = ৬৬।",source:"সমাবেশ ও গণনা",d:"মাঝারি"}
+];
+const bank=window.JOB_PREP_BANK;
+if(!Array.isArray(bank)) throw new Error('JOB_PREP_BANK পাওয়া যায়নি।');
+const norm=s=>String(s||'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
+const seen=new Set(bank.map(q=>norm(q.q))),ids=new Set(bank.map(q=>q.id));
+let added=0,duplicates=0;
+for(const q of additions){if(seen.has(norm(q.q))||ids.has(q.id)){duplicates++;continue;}bank.push(q);seen.add(norm(q.q));ids.add(q.id);added++;}
+window.JOB_PREP_EXPANSION_BATCH_36={candidates:additions.length,added,duplicates};
+})();
