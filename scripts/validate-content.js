@@ -132,8 +132,8 @@ for (const x of exams) {
   }
 }
 const current = subjectBank.filter(x => x.c === "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান");
-if (current.length !== 10 || current.some(x => !x.source || !x.sourceUrl)) errors.push("Current affairs questions need dated source labels.");
-if (sandbox.window.JOB_PREP_CURRENT_AFFAIRS_UPDATED !== "2026-11-23") errors.push("Current affairs update date is missing or stale.");
+if (current.length < 10 || current.some(x => !x.source || !x.sourceUrl || !/^2026-\d{2}-\d{2}$/.test(x.d || ""))) errors.push("Current affairs questions need dated source labels.");
+if (sandbox.window.JOB_PREP_CURRENT_AFFAIRS_UPDATED !== "2026-11-24") errors.push("Current affairs update date is missing or stale.");
 // Semantic regression checks for previously reported math-content errors.
 const averageExample = math.find(x => x.level === 1 && x.q.includes("৭টি সংখ্যার গড় ১২"));
 if (!averageExample || Number(averageExample.expected) !== 84 || Number(String(averageExample.o[averageExample.a]).replace(/[০-৯]/g, d => String("০১২৩৪৫৬৭৮৯".indexOf(d)))) !== 84) errors.push("Math level 1: average of 7 numbers with mean 12 must equal 84 and be present as the keyed option.");
