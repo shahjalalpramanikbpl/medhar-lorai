@@ -406,10 +406,10 @@ body{
  const bank=window.JOB_PREP_BANK, extra=window.EXTRA_JOB_QUESTIONS;
  if(!Array.isArray(bank)||!Array.isArray(extra))return;
  const norm=s=>String(s||'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
- const seen=new Set(bank.map(q=>norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):''))),ids=new Set(bank.map(q=>q.id).filter(Boolean));
+ const seen=new Set(bank.map(q=>(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q):norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):'')))),ids=new Set(bank.map(q=>q.id).filter(Boolean));
  for(const q of extra){
   if(!q||typeof q.q!=='string')continue;
-  const key=norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):'');
+  const key=(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q):norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):''));
   if(!key||seen.has(key)||(q.id&&ids.has(q.id)))continue;
   bank.push(q);seen.add(key);if(q.id)ids.add(q.id);
  }
@@ -621,7 +621,7 @@ $('questionCategoryFilter').addEventListener('change',()=>{questionPage=0;listQu
 $('questionPagePrev').onclick=()=>{questionPage=Math.max(0,questionPage-1);listQuestions()};
 $('questionPageNext').onclick=()=>{questionPage++;listQuestions()};
 $('admin').addEventListener('pointerdown',adminSessionTouch);$('admin').addEventListener('keydown',adminSessionTouch);
-$('questionForm').onsubmit=e=>{e.preventDefault();const q={c:$('cat').value.trim(),d:$('questionDifficulty')?.value||'মাঝারি',q:$('qtext').value.trim(),o:[...document.querySelectorAll('.opt')].map(x=>x.value.trim()),a:Number($('correct').value)};const i=Number($('editIndex').value);if(!q.c||!q.q||q.o.some(x=>!x)){alert('সব ঘর পূরণ করুন।');return}const norm=v=>String(v).normalize('NFC').toLocaleLowerCase('bn').replace(/\s+/g,' ').trim();if(new Set(q.o.map(norm)).size!==4){alert('চারটি উত্তর বিকল্প আলাদা হতে হবে।');return}const duplicate=questions.findIndex((x,n)=>n!==i&&norm(x.q)===norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):''));if(duplicate!==-1){alert('এই প্রশ্নটি আগে থেকেই আছে। পুনরাবৃত্ত প্রশ্ন যোগ করা যাবে না।');return}if(i<0){questions.push(q);adminLog('নতুন প্রশ্ন যোগ: '+q.c)}else{questions[i]=q;adminLog('প্রশ্ন সম্পাদনা: '+q.c)}persist();clearForm();listQuestions();alert('প্রশ্ন সংরক্ষণ হয়েছে।')};
+$('questionForm').onsubmit=e=>{e.preventDefault();const q={c:$('cat').value.trim(),d:$('questionDifficulty')?.value||'মাঝারি',q:$('qtext').value.trim(),o:[...document.querySelectorAll('.opt')].map(x=>x.value.trim()),a:Number($('correct').value)};const i=Number($('editIndex').value);if(!q.c||!q.q||q.o.some(x=>!x)){alert('সব ঘর পূরণ করুন।');return}const norm=v=>String(v).normalize('NFC').toLocaleLowerCase('bn').replace(/\s+/g,' ').trim();if(new Set(q.o.map(norm)).size!==4){alert('চারটি উত্তর বিকল্প আলাদা হতে হবে।');return}const duplicate=questions.findIndex((x,n)=>n!==i&&norm(x.q)===(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q):norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):'')));if(duplicate!==-1){alert('এই প্রশ্নটি আগে থেকেই আছে। পুনরাবৃত্ত প্রশ্ন যোগ করা যাবে না।');return}if(i<0){questions.push(q);adminLog('নতুন প্রশ্ন যোগ: '+q.c)}else{questions[i]=q;adminLog('প্রশ্ন সম্পাদনা: '+q.c)}persist();clearForm();listQuestions();alert('প্রশ্ন সংরক্ষণ হয়েছে।')};
 $('startBtn').onclick=start;$('confirmAnswer').onclick=answer;$('next').onclick=next;$('again').onclick=start;$('backHome').onclick=()=>show('home');$('adminBtn').onclick=openAdminGate;$('closeAdmin').onclick=()=>lockAdmin('অ্যাডমিন প্যানেল বন্ধ করা হয়েছে।');$('adminLogout').onclick=()=>lockAdmin('আপনি নিরাপদে লগআউট করেছেন।');$('clearForm').onclick=clearForm;$('adminSaveName').onclick=()=>{profile.name=$('adminPlayerName').value.trim()||profile.name;localStorage.setItem('ml_profile',JSON.stringify(profile));adminLog('খেলোয়াড়ের নাম পরিবর্তন');alert('খেলোয়াড়ের নাম সংরক্ষিত হয়েছে।')};$('adminSettings').onclick=adminSettingsSummary;
 $('resetPoints').onclick=()=>{if(confirm('সব পয়েন্ট শূন্য করবেন?')){points=0;level=1;localStorage.setItem('ml_points','0');localStorage.setItem('ml_level','1');stats();adminLog('পয়েন্ট ও লেভেল রিসেট');alert('পয়েন্ট শূন্য করা হয়েছে।')}};
 function makeBackup(){return {format:'medhar-lorai-backup',version:2,createdAt:new Date().toISOString(),questions,points,level,lang,profile,progress,earned};}
@@ -805,7 +805,7 @@ function validateCloudQuestionBank(list){
  const norm=v=>String(v).normalize('NFC').toLocaleLowerCase('bn').replace(/\s+/g,' ').trim(),seen=new Set();
  for(const q of list){
   if(!q||typeof q.c!=='string'||!q.c.trim()||q.c.length>80||typeof q.q!=='string'||!q.q.trim()||q.q.length>1200||!Array.isArray(q.o)||q.o.length!==4||q.o.some(v=>typeof v!=='string'||!v.trim()||v.length>300)||!Number.isInteger(Number(q.a))||![0,1,2,3].includes(Number(q.a)))throw Error('প্রশ্নের কোনো তথ্য অসম্পূর্ণ বা ভুল।');
-  const key=norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):'');if(seen.has(key))throw Error('প্রশ্নের তালিকায় একই প্রশ্ন একাধিকবার আছে।');seen.add(key);
+  const key=(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q):norm(q.q)+(q.c==='English'?'|'+norm(q.o&&q.o[q.a]):''));if(seen.has(key))throw Error('প্রশ্নের তালিকায় একই প্রশ্ন একাধিকবার আছে।');seen.add(key);
  }
  return list.map(normalizeQuestion);
 }
