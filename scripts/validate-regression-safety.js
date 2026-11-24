@@ -39,7 +39,7 @@ try {
   const baseRules = cp.execFileSync('git', ['show', 'origin/main:' + rulesPath], {encoding:'utf8'});
   // Permit only the reviewed appPresence addition; all pre-existing rules must remain byte-identical.
   const stripPresence = value => value.replace(/\n    match \/appPresence\/{uid} \{[\s\S]*?\n    \}\n(?=\n    match \/users\/{uid} \{)/, '');
-  check(stripPresence(rules) === baseRules, 'Pre-existing firestore.rules changed beyond the reviewed appPresence block.');
+  check(stripPresence(rules) === stripPresence(baseRules), 'Pre-existing firestore.rules changed beyond the reviewed appPresence block.');
   const presenceRules = rules.split('match /appPresence/{uid}')[1]?.split('match /users/{uid}')[0] || '';
   check(presenceRules.includes('request.auth.uid == uid'), 'Presence writes must be restricted to each signed-in user.');
   check(presenceRules.includes("request.auth.uid == 'TIEU9BdlVFcj2LzwoGKI2BOd2tR2'"), 'Presence reads must be restricted to the app owner.');
