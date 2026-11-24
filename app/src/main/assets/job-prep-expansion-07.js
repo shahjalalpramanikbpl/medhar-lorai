@@ -115,7 +115,7 @@
   {
     "id": "extra_254",
     "c": "English",
-    "q": "Choose the correct phrase: “The committee ___ divided in their opinions.”",
+    "q": "In British English, choose the correct verb: “The committee ___ divided in their opinions.”",
     "o": [
       "is",
       "are",
