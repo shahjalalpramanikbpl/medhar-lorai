@@ -154,7 +154,7 @@ body{background:radial-gradient(ellipse at 50% -10%,#254b79 0%,#101d35 48%,#080f
 <p id="questionListSummary" class="muted" aria-live="polite">প্রশ্নের তালিকা প্রস্তুত হচ্ছে…</p>
 <p id="questionSubjectSummary" class="muted" aria-live="polite">বিষয়ভিত্তিক প্রশ্নের হিসাব প্রস্তুত হচ্ছে…</p>
 <div id="questionList"></div>
-<div class="row"><button type="button" class="secondary tiny" id="questionPagePrev">আগের ৪০টি</button><button type="button" class="secondary tiny" id="questionPageNext">পরের ৪০টি</button></div><hr style="border-color:var(--line);margin:20px 0"><h3>প্রশ্নের কঠিনতা</h3><p class="muted">প্রশ্নের কঠিনতা অনুযায়ী লেভেল ১–১০ সহজ, ১১–২০ সহজ ও মাঝারি, ২১–৩০ মাঝারি, ৩১–৪০ মাঝারি ও কঠিন এবং ৪১+ কঠিন প্রশ্ন থেকে বাছাই হয়।</p><label>ডিফল্ট কঠিনতা</label><select id="difficultySetting"><option value="সহজ">সহজ</option><option value="মাঝারি">মাঝারি</option><option value="কঠিন">কঠিন</option></select><h3>অ্যাপ সেটিংস</h3><label>খেলোয়াড়ের নাম পরিবর্তন</label><input id="adminPlayerName" placeholder="নতুন নাম"><button id="adminSaveName">নাম সংরক্ষণ</button><button class="secondary" id="adminSettings">সেটিংসের অবস্থা</button><hr style="border-color:var(--line);margin:20px 0"><h3>নিরাপত্তা ও কার্যকলাপ</h3><p class="muted">সাম্প্রতিক ৩০টি অ্যাডমিন কার্যক্রমের লগ এই ডিভাইসেই থাকে; অন্য ডিভাইসে দেখা যায় না।</p><div id="adminAuditLog" class="admin-audit">এখনো কোনো কার্যকলাপ নেই।</div><button type="button" class="secondary tiny" id="refreshAdminAudit">লগ রিফ্রেশ</button><h3>ডেটা ব্যবস্থাপনা</h3><div class="row"><button class="secondary" id="exportBtn">প্রশ্ন ব্যাকআপ ডাউনলোড</button><button type="button" class="secondary" id="importBtn">ব্যাকআপ ফিরিয়ে আনুন</button><button class="danger" id="resetPoints">পয়েন্ট শূন্য করুন</button></div><hr style="border-color:var(--line);margin:20px 0"><h3>📊 ব্যবহারকারী পরিসংখ্যান</h3><p class="muted">মোট নিবন্ধিত/সিঙ্ক করা খেলোয়াড় এবং বর্তমানে অনলাইন অ্যাকাউন্টের হিসাব দেখুন। অনলাইন গণনা শুধু লগইন করা ব্যবহারকারীর উপস্থিতি ধরে; সর্বশেষ হার্টবিট ২ মিনিটের মধ্যে হলে অনলাইন ধরা হবে।</p><button type="button" id="openUsageStats">📈 ব্যবহারকারীর হিসাব দেখুন</button><p id="usageStatsStatus" class="muted" aria-live="polite"></p><div id="usageStatsResult"></div><h3>🔐 ব্যক্তিগত অনলাইন প্রশ্ন ব্যাকআপ</h3><p class="muted">লগইন করা Firebase অ্যাকাউন্টে আপনার প্রশ্নের তালিকা ব্যক্তিগতভাবে সংরক্ষণ বা ফিরিয়ে আনুন। এটি অন্য খেলোয়াড়দের প্রশ্নে প্রকাশ করে না।</p><div class="row"><button type="button" id="cloudQuestionsUpload">☁️ অনলাইনে সংরক্ষণ</button><button type="button" class="secondary" id="cloudQuestionsDownload">⬇️ অনলাইন থেকে ফিরিয়ে আনুন</button></div><p id="cloudQuestionsStatus" class="muted" aria-live="polite">অবস্থা: অনলাইন অ্যাকাউন্টের সংযোগ পরীক্ষা করুন।</p>
+<div class="row"><button type="button" class="secondary tiny" id="questionPagePrev">আগের ৪০টি</button><button type="button" class="secondary tiny" id="questionPageNext">পরের ৪০টি</button></div><hr style="border-color:var(--line);margin:20px 0"><h3>প্রশ্নের কঠিনতা</h3><p class="muted">প্রশ্নের কঠিনতা অনুযায়ী লেভেল ১–১০ সহজ, ১১–২০ সহজ ও মাঝারি, ২১–৩০ মাঝারি, ৩১–৪০ মাঝারি ও কঠিন এবং ৪১+ কঠিন প্রশ্ন থেকে বাছাই হয়।</p><label>ডিফল্ট কঠিনতা</label><select id="difficultySetting"><option value="সহজ">সহজ</option><option value="মাঝারি">মাঝারি</option><option value="কঠিন">কঠিন</option></select><h3>অ্যাপ সেটিংস</h3><label>খেলোয়াড়ের নাম পরিবর্তন</label><input id="adminPlayerName" placeholder="নতুন নাম"><button id="adminSaveName">নাম সংরক্ষণ</button><button class="secondary" id="adminSettings">সেটিংসের অবস্থা</button><hr style="border-color:var(--line);margin:20px 0"><h3>নিরাপত্তা ও কার্যকলাপ</h3><p class="muted">সাম্প্রতিক ৩০টি অ্যাডমিন কার্যক্রমের লগ এই ডিভাইসেই থাকে; অন্য ডিভাইসে দেখা যায় না।</p><div id="adminAuditLog" class="admin-audit">এখনো কোনো কার্যকলাপ নেই।</div><button type="button" class="secondary tiny" id="refreshAdminAudit">লগ রিফ্রেশ</button><h3>ডেটা ব্যবস্থাপনা</h3><div class="row"><button class="secondary" id="exportBtn">প্রশ্ন ব্যাকআপ ডাউনলোড</button><button type="button" class="secondary" id="importBtn">ব্যাকআপ ফিরিয়ে আনুন</button><button class="danger" id="resetPoints">পয়েন্ট শূন্য করুন</button></div><hr style="border-color:var(--line);margin:20px 0"><h3>📊 ব্যবহারকারী পরিসংখ্যান</h3><p class="muted">প্রথমবার অ্যাপ চালু করা ডিভাইস, নিবন্ধিত Firebase অ্যাকাউন্ট এবং বর্তমানে অনলাইন খেলোয়াড়ের পৃথক হিসাব। ইনস্টল গণনা অ্যাপের প্রথম চালু ও Firebase anonymous sign-in সক্রিয় হওয়ার পর থেকে; Play Store ডাউনলোডের সরাসরি সংখ্যা নয়।</p><button type="button" id="openUsageStats">📈 ব্যবহারকারীর হিসাব দেখুন</button><p id="usageStatsStatus" class="muted" aria-live="polite"></p><div id="usageStatsResult"></div><h3>🔐 ব্যক্তিগত অনলাইন প্রশ্ন ব্যাকআপ</h3><p class="muted">লগইন করা Firebase অ্যাকাউন্টে আপনার প্রশ্নের তালিকা ব্যক্তিগতভাবে সংরক্ষণ বা ফিরিয়ে আনুন। এটি অন্য খেলোয়াড়দের প্রশ্নে প্রকাশ করে না।</p><div class="row"><button type="button" id="cloudQuestionsUpload">☁️ অনলাইনে সংরক্ষণ</button><button type="button" class="secondary" id="cloudQuestionsDownload">⬇️ অনলাইন থেকে ফিরিয়ে আনুন</button></div><p id="cloudQuestionsStatus" class="muted" aria-live="polite">অবস্থা: অনলাইন অ্যাকাউন্টের সংযোগ পরীক্ষা করুন।</p>
 <hr style="border-color:var(--line);margin:20px 0"><h3>🌐 কেন্দ্রীয় অনলাইন প্রশ্নব্যাংক</h3>
 <p class="muted">এখানে প্রকাশিত প্রশ্ন সব খেলোয়াড়ের অ্যাপে পৌঁছাবে। প্রকাশিত প্রশ্ন সব খেলোয়াড়ের জন্য উন্মুক্ত। প্রশ্ন প্রকাশের অনুমতি আপনার নির্দিষ্ট Firebase অ্যাকাউন্টে সীমাবদ্ধ।</p>
 <div class="row"><button type="button" id="publishCentralQuestions">⬆️ সবার জন্য প্রশ্ন প্রকাশ</button><button type="button" class="secondary" id="refreshCentralQuestions">↻ কেন্দ্রীয় প্রশ্ন আনুন</button></div>
@@ -426,6 +426,45 @@ function cloudError(e){
  if(m.includes('CONFIGURATION_NOT_FOUND')||m.includes('OPERATION_NOT_ALLOWED'))return 'Firebase Console-এ Email/Password sign-in চালু করুন।';
  return m.slice(0,220);
 }
+// Anonymous Firebase identity records one first-launch per app data install, without requiring player sign-in.
+const installSessionKey='ml_anonymous_install_v1';
+async function getInstallSession(){
+ let session=read(installSessionKey,null);
+ if(session?.idToken&&session.expiresAt>Date.now()+60000)return session;
+ if(session?.refreshToken){
+  try{
+   const refresh=await fetch('https://securetoken.googleapis.com/v1/token?key='+encodeURIComponent(cloudConfig.apiKey),{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'grant_type=refresh_token&refresh_token='+encodeURIComponent(session.refreshToken)});
+   const data=await refresh.json();if(!refresh.ok)throw Error(data.error?.message||'ANON_REFRESH_FAILED');
+   session={uid:data.user_id,idToken:data.id_token,refreshToken:data.refresh_token,expiresAt:Date.now()+Number(data.expires_in||3600)*1000};
+   localStorage.setItem(installSessionKey,JSON.stringify(session));return session;
+  }catch(e){localStorage.removeItem(installSessionKey);}
+ }
+ const res=await fetch('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key='+encodeURIComponent(cloudConfig.apiKey),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({returnSecureToken:true})});
+ const data=await res.json();if(!res.ok)throw Error(data.error?.message||'ANONYMOUS_SIGN_IN_FAILED');
+ session={uid:data.localId,idToken:data.idToken,refreshToken:data.refreshToken,expiresAt:Date.now()+Number(data.expiresIn||3600)*1000};
+ localStorage.setItem(installSessionKey,JSON.stringify(session));return session;
+}
+async function trackAppInstall(){
+ if(!cloudReady)return;
+ try{
+  const session=await getInstallSession(),url='https://firestore.googleapis.com/v1/projects/'+encodeURIComponent(cloudConfig.projectId)+'/databases/(default)/documents/appInstalls/'+encodeURIComponent(session.uid);
+  const headers={Authorization:'Bearer '+session.idToken,'Content-Type':'application/json'};
+  const existing=await fetch(url,{headers}),prior=existing.ok?await existing.json():null;
+  const now=new Date().toISOString(),firstSeen=prior?.fields?.firstSeen?.timestampValue||now;
+  const body={fields:{uid:{stringValue:session.uid},firstSeen:{timestampValue:firstSeen},lastSeen:{timestampValue:now},appVersion:{stringValue:'2.8'}}};
+  const saved=await fetch(url,{method:'PATCH',headers,body:JSON.stringify(body)});if(!saved.ok){const e=await saved.json();throw Error(e.error?.message||'INSTALL_RECORD_FAILED');}
+ }catch(e){console.warn('Install analytics:',e);}
+}
+async function trackRegisteredAccount(){
+ if(!cloudSession?.uid||!cloudReady)return;
+ const path='registeredUsers/'+encodeURIComponent(cloudSession.uid);
+ try{
+  let prior=null;try{prior=await firestoreRequest(path);}catch(e){if(!String(e.message).includes('NOT_FOUND'))throw e;}
+  const now=new Date().toISOString(),firstSeen=prior?.fields?.firstSeen?.timestampValue||now;
+  const fields={uid:{stringValue:cloudSession.uid},email:{stringValue:String(cloudSession.email||'').slice(0,254)},displayName:{stringValue:String(profile.name||cloudSession.displayName||'খেলোয়াড়').slice(0,40)},firstSeen:{timestampValue:firstSeen},lastSeen:{timestampValue:now}};
+  await firestoreRequest(path,{method:'PATCH',body:JSON.stringify({fields})});
+ }catch(e){console.warn('Registered account analytics:',e);}
+}
 async function cloudAuth(register){
  const name=$('cloudName').value.trim(),email=$('cloudEmail').value.trim(),password=$('cloudPassword').value;
  const msg=$('cloudMessage');
@@ -437,6 +476,7 @@ async function cloudAuth(register){
   const data=await res.json();if(!res.ok)throw Error(data.error?.message||'AUTH_FAILED');
   cloudSession={uid:data.localId,email:data.email,idToken:data.idToken,refreshToken:data.refreshToken,expiresAt:Date.now()+Number(data.expiresIn||3600)*1000,displayName:register?name:(profile.name||data.displayName||'খেলোয়াড়')};
   localStorage.setItem(cloudSessionKey,JSON.stringify(cloudSession));
+   await trackRegisteredAccount();
    startPresence();
   if(register){
    await fetch('https://identitytoolkit.googleapis.com/v1/accounts:update?key='+encodeURIComponent(cloudConfig.apiKey),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({idToken:cloudSession.idToken,displayName:name,returnSecureToken:true})});
@@ -562,6 +602,14 @@ async function writePresence(){if(!cloudReady||!cloudSession?.uid)return;const f
 function startPresence(){if(!cloudSession?.uid||!cloudReady)return;clearInterval(presenceTimer);writePresence().catch(()=>{});presenceTimer=setInterval(()=>{if(document.visibilityState!=='hidden')writePresence().catch(()=>{});},60000);}
 async function stopPresence(){clearInterval(presenceTimer);presenceTimer=null;if(cloudSession?.uid&&cloudReady){try{await firestoreRequest(presencePath(cloudSession.uid),{method:'DELETE'});}catch(e){}}}
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')writePresence().catch(()=>{});});
+async function readAllPrivateDocuments(collection){
+ let token='',docs=[];
+ do{
+  const data=await firestoreRequest(collection+'?pageSize=1000'+(token?'&pageToken='+encodeURIComponent(token):''));
+  docs.push(...(data.documents||[]));token=data.nextPageToken||'';
+ }while(token&&docs.length<50000);
+ return docs;
+}
 async function readAllPublicDocuments(collection){let token='',docs=[];do{const data=await publicFirestoreGet(collection+'?pageSize=1000'+(token?'&pageToken='+encodeURIComponent(token):''));docs.push(...(data.documents||[]));token=data.nextPageToken||'';}while(token&&docs.length<50000);return docs;}
 async function showUsageStats(){
  const status=$('usageStatsStatus'),result=$('usageStatsResult');
@@ -570,13 +618,20 @@ async function showUsageStats(){
  if(cloudSession.uid!=='TIEU9BdlVFcj2LzwoGKI2BOd2tR2'){status.textContent='এই Firebase অ্যাকাউন্টে পরিসংখ্যান দেখার অনুমতি নেই।';return}
  status.textContent='ব্যবহারকারীর তথ্য সংগ্রহ হচ্ছে…';result.innerHTML='';
  try{
-  const [users,presence]=await Promise.all([readAllPublicDocuments('leaderboard'),firestoreRequest('appPresence?pageSize=1000')]);
-  const cutoff=Date.now()-120000,online=(presence.documents||[]).filter(d=>{const t=d.fields?.lastSeen?.timestampValue;return t&&Date.parse(t)>=cutoff;});
-  const total=new Set(users.map(d=>d.fields?.uid?.stringValue).filter(Boolean)).size;
+  const [installs,users,presence]=await Promise.all([
+   readAllPrivateDocuments('appInstalls'),
+   readAllPrivateDocuments('registeredUsers'),
+   readAllPrivateDocuments('appPresence')
+  ]);
+  const cutoff=Date.now()-120000;
+  const onlineDocs=presence.filter(d=>{const t=d.fields?.lastSeen?.timestampValue;return t&&Date.parse(t)>=cutoff;});
+  const installTotal=new Set(installs.map(d=>d.fields?.uid?.stringValue).filter(Boolean)).size;
+  const registeredTotal=new Set(users.map(d=>d.fields?.uid?.stringValue).filter(Boolean)).size;
+  const onlineTotal=new Set(onlineDocs.map(d=>d.fields?.uid?.stringValue).filter(Boolean)).size;
   status.textContent='সর্বশেষ আপডেট: '+new Date().toLocaleString('bn-BD',{timeZone:'Asia/Dhaka'});
-  result.innerHTML='<div class="stats"><div class="stat"><b>'+bnDigits(total)+'</b><small>মোট লিডারবোর্ডে সিঙ্ক করা খেলোয়াড়*</small></div><div class="stat"><b>'+bnDigits(online.length)+'</b><small>এই মুহূর্তে অনলাইন**</small></div><div class="stat"><b>'+bnDigits(Math.max(0,total-online.length))+'</b><small>বর্তমানে অফলাইন (আনুমানিক)</small></div></div><p class="muted">* যেসব অ্যাকাউন্ট অন্তত একবার লিডারবোর্ডে সিঙ্ক হয়েছে। ** গত ২ মিনিটে উপস্থিতি পাঠানো লগইন করা অ্যাকাউন্ট।</p><button type="button" class="secondary" id="refreshUsageStats">↻ আবার হিসাব করুন</button>';
+  result.innerHTML='<div class="stats"><div class="stat"><b>'+bnDigits(installTotal)+'</b><small>প্রথমবার চালু হওয়া ইনস্টল</small></div><div class="stat"><b>'+bnDigits(registeredTotal)+'</b><small>নিবন্ধিত Firebase অ্যাকাউন্ট</small></div><div class="stat"><b>'+bnDigits(onlineTotal)+'</b><small>বর্তমানে অনলাইন</small></div></div><p class="muted">ইনস্টল = অনন্য anonymous Firebase ইনস্টল রেকর্ড। নিবন্ধিত = এই সংস্করণে অন্তত একবার লগইন করা অ্যাকাউন্ট; পুরোনো ব্যবহারকারী পরেরবার লগইন করলে তালিকায় যুক্ত হবে। অনলাইন = গত ২ মিনিটে উপস্থিতি পাঠানো লগইন করা অ্যাকাউন্ট।</p><button type="button" class="secondary" id="refreshUsageStats">↻ আবার হিসাব করুন</button>';
   $('refreshUsageStats').onclick=showUsageStats;
- }catch(e){status.textContent='হিসাব আনা যায়নি: '+cloudEsc(cloudError(e))+'। Firestore Rules-এ appPresence-এর অ্যাডমিন পাঠ-অনুমতি প্রকাশিত হয়েছে কি না দেখুন।'}
+ }catch(e){status.textContent='হিসাব আনা যায়নি: '+cloudEsc(cloudError(e))+'। Firestore Rules-এ appInstalls, registeredUsers ও appPresence-এর অ্যাডমিন পাঠ-অনুমতি প্রকাশিত হয়েছে কি না দেখুন।'}
 }
 $('openUsageStats').onclick=showUsageStats;
 
@@ -597,7 +652,8 @@ async function showCloudLeaderboard(){
   $('cloudBoardRows').innerHTML=docs.map((d,i)=>{const f=d.fields||{},nm=cloudEsc(f.displayName?.stringValue||'খেলোয়াড়'),pt=Number(f.points?.doubleValue??f.points?.integerValue??0),lv=f.level?.integerValue||'১';return '<div class="qitem">'+bnDigits(i+1)+'. <b>'+nm+'</b><br>⭐ '+bnDigits(pt.toFixed(2))+' পয়েন্ট · লেভেল '+cloudEsc(lv)+'</div>'}).join('');
  }catch(e){$('cloudBoardStatus').textContent='লিডারবোর্ড লোড হয়নি: '+cloudEsc(cloudError(e));}
 }
-if(cloudSession?.uid)startPresence();
+if(cloudSession?.uid){trackRegisteredAccount().catch(()=>{});startPresence();}
+trackAppInstall().catch(()=>{});
 wireCloudQuestionBackup();
 wireCentralQuestionBank();
 $('accountBtn').onclick=()=>cloudPanel();
