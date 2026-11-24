@@ -1404,7 +1404,7 @@ const questionKey=(q,c=q.c)=>{
  if(category==='মানসিক দক্ষতা ও IQ'&&/(ধারা|পরবর্তী সংখ্যা|পরের সংখ্যা|ধারাটির|ধারা পূরণ|পরবর্তী পদ|অনুপস্থিত সংখ্যা|বর্ণধারা|পরবর্তী অক্ষর|পরের অক্ষর)/i.test(raw)){
   const digits=raw.match(/[০-৯0-9]+/g)||[];
   if(digits.length>=4)return 'series:'+digits.join(',')+'|'+answer;
-  const letters=raw.match(/(?:[A-Z](?:\\s*[,،]\\s*[A-Z]){2,})/i);
+  const letters=raw.match(/(?:[A-Z](?:\s*[,،]\s*[A-Z]){2,})/i);
   if(letters)return 'letter-series:'+letters[0].replace(/[^A-Z]/gi,'').toUpperCase()+'|'+answer;
  }
  return norm(raw)+(category==='English'?'|'+answer:'');
