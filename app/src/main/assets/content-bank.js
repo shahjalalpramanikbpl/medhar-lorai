@@ -32,10 +32,7 @@
  for(const [c,q,a,w,d] of expandedQuestions) questions.push(mk(c,q,a,w,d));
  for(const [c,q,a,w,d] of regionalQuestions) questions.push(mk(c,q,a,w,d));
  const daily=[];
- for(let i=1;i<=210;i++){
-  const a=21+i*2,b=13+(i*11)%91,v=a+b;
-  daily.push(mk('ডেইলি চ্যালেঞ্জ','আজকের হিসাব: '+bn(a)+' + '+bn(b)+' = কত?',bn(v),[v+1,v-2,v+4].map(bn),i<70?'সহজ':i<150?'মাঝারি':'কঠিন'));
- }
+ // ডেইলি কুইজে এখন কেবল বিষয়ভিত্তিক মিশ্র প্রশ্ন থাকবে; একঘেয়ে যোগের সেট বাদ।
 
  // ডেইলি চ্যালেঞ্জে একই বিষয়ভিত্তিক প্রশ্নের পৃথক সংস্করণ।
  for(const [c,q,a,w,d] of regionalQuestions) daily.push(mk(c,'আজকের প্রশ্ন: '+q,a,w,d));
