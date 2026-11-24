@@ -3,20 +3,20 @@
  const bn=n=>String(n).replace(/[0-9]/g,d=>'০১২৩৪৫৬৭৮৯'[+d]);
  const mk=(c,q,ans,wrong,d)=>{const opts=[ans,...wrong].map(String);for(let i=opts.length-1;i>0;i--){const j=(i*7+3)% (i+1);[opts[i],opts[j]]=[opts[j],opts[i]]}return {id:'bank_'+c+'_'+q, c, q, o:opts, a:opts.indexOf(String(ans)), d};};
  const questions=[];
- // ৫০০টি স্বতন্ত্র গাণিতিক অনুশীলন: যোগ, বিয়োগ, গুণ, ভাগ — ক্রমশ কঠিন।
- for(let i=1;i<=90;i++){
+ // চাকরি প্রস্তুতির বাইরে সাধারণ চার প্রক্রিয়ার মাত্র ২টি করে নমুনা প্রশ্ন রাখা হয়েছে।
+ for(let i=1;i<=2;i++){
   let a=17+i*3,b=9+(i*7)%83,v=a+b;
   questions.push(mk('গণিত',bn(a)+' + '+bn(b)+' = কত?',bn(v),[v+2,v-3,v+5].map(bn),i<45?'সহজ':i<90?'মাঝারি':'কঠিন'));
  }
- for(let i=1;i<=90;i++){
+ for(let i=1;i<=2;i++){
   let a=160+i*4,b=11+(i*5)%97;if(b>=a)b=Math.floor(a/3);let v=a-b;
   questions.push(mk('গণিত',bn(a)+' − '+bn(b)+' = কত?',bn(v),[v+3,v-4,v+7].map(bn),i<45?'সহজ':i<90?'মাঝারি':'কঠিন'));
  }
- for(let i=1;i<=90;i++){
+ for(let i=1;i<=2;i++){
   let a=6+i,b=4+(i*7)%26,v=a*b;
   questions.push(mk('গণিত',bn(a)+' × '+bn(b)+' = কত?',bn(v),[v+101,v-17,v+43].map(bn),i<35?'সহজ':i<85?'মাঝারি':'কঠিন'));
  }
- for(let i=1;i<=90;i++){
+ for(let i=1;i<=2;i++){
   let b=3+(i*5)%27,a=b*(4+(i*7)%35),v=a/b;
   questions.push(mk('গণিত',bn(a)+' ÷ '+bn(b)+' = কত?',bn(v),[v+2,v-1,v+4].map(bn),i<35?'সহজ':i<85?'মাঝারি':'কঠিন'));
  }
