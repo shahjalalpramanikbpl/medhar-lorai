@@ -978,6 +978,22 @@ Q('মানসিক দক্ষতা ও IQ','একটি বাক্স�
 Q('মানসিক দক্ষতা ও IQ','একটি শ্রেণিতে ৩০ জনের মধ্যে ১৮ জন ফুটবল পছন্দ করে। ফুটবল পছন্দ করে না কতজন?',['১০','১১','১২','১৩'],2,'ফুটবল পছন্দ করে না = ৩০−১৮ = ১২ জন।'),
 Q('মানসিক দক্ষতা ও IQ','ধারাটির পরের অক্ষর কোনটি: B, E, H, K, ...?',['L','M','N','O'],2,'প্রতিবার তিন অক্ষর এগিয়েছে: B, E, H, K, N।')
 
+Q('বাংলা ভাষা ও সাহিত্য','‘পদ্মাবতী’ কাব্যের রচয়িতা কে?',['আলাওল','ভারতচন্দ্র','মুকুন্দরাম চক্রবর্তী','দৌলত কাজী'],0,'মধ্যযুগের কবি আলাওল ‘পদ্মাবতী’ কাব্য রচনা করেন।'),
+Q('বাংলা ভাষা ও সাহিত্য','‘চাঁদের অমাবস্যা’ উপন্যাসের রচয়িতা কে?',['শওকত ওসমান','সৈয়দ ওয়ালীউল্লাহ','আবু ইসহাক','আখতারুজ্জামান ইলিয়াস'],1,'সৈয়দ ওয়ালীউল্লাহর ‘চাঁদের অমাবস্যা’ ১৯৬৪ সালে প্রকাশিত হয়।'),
+Q('বাংলা ভাষা ও সাহিত্য','‘একুশে ফেব্রুয়ারি’ কবিতার কবি কে?',['শামসুর রাহমান','আল মাহমুদ','মাহবুব উল আলম চৌধুরী','সুকান্ত ভট্টাচার্য'],2,'মাহবুব উল আলম চৌধুরী ভাষা আন্দোলনের প্রেক্ষাপটে ‘একুশে ফেব্রুয়ারি’ কবিতা রচনা করেন।'),
+Q('English','Choose the correct article: “He is ___ honest man.”',['a','an','the','no article'],1,'Honest begins with a vowel sound, so the correct article is “an”.'),
+Q('English','The idiom “to hit the nail on the head” means—',['To cause an accident','To say exactly the right thing','To work very hard','To make a careless mistake'],1,'The idiom means to identify or describe exactly the central point.'),
+Q('English','Choose the correct comparative form of “good”.',['Gooder','More good','Best','Better'],3,'The comparative form of good is better; best is the superlative.'),
+Q('English Literature','Who wrote “Jane Eyre”?',['Emily Brontë','Anne Brontë','Charlotte Brontë','Virginia Woolf'],2,'Charlotte Brontë published Jane Eyre in 1847.'),
+Q('English Literature','“The Divine Comedy” was written by—',['Dante Alighieri','Petrarch','Boccaccio','Ariosto'],0,'Dante Alighieri composed the epic poem The Divine Comedy in the early 14th century.'),
+Q('English Literature','Who wrote “A Tale of Two Cities”?',['Charles Dickens','Thomas Hardy','William Thackeray','George Eliot'],0,'Charles Dickens’s historical novel A Tale of Two Cities was published in 1859.'),
+Q('সাধারণ বিজ্ঞান','উদ্ভিদের পানি পরিবহনে প্রধান ভূমিকা রাখে কোন টিস্যু?',['ফ্লোয়েম','জাইলেম','এপিডার্মিস','ক্যাম্বিয়াম'],1,'জাইলেম মূল থেকে পানি ও খনিজ লবণ উদ্ভিদের অন্যান্য অংশে পরিবহন করে।'),
+Q('কম্পিউটার ও ICT','ই-মেইলে BCC-এর পূর্ণরূপ কী?',['Basic Carbon Copy','Blind Carbon Copy','Backup Carbon Copy','Binary Copy Code'],1,'BCC-এর পূর্ণরূপ Blind Carbon Copy; এতে প্রাপকদের ঠিকানা অন্য প্রাপকেরা দেখতে পান না।'),
+Q('কম্পিউটার ও ICT','কোন প্রোটোকল ওয়েব পেজ স্থানান্তরে ব্যবহৃত হয়?',['FTP','SMTP','HTTP','SNMP'],2,'HTTP (Hypertext Transfer Protocol) ওয়েব ক্লায়েন্ট ও সার্ভারের মধ্যে তথ্য আদান-প্রদান করে।'),
+Q('বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান','বাংলাদেশের প্রথম আদমশুমারি স্বাধীনতার পর কোন সালে অনুষ্ঠিত হয়?',['১৯৭২','১৯৭৪','১৯৮১','১৯৯১'],1,'স্বাধীন বাংলাদেশে প্রথম আদমশুমারি অনুষ্ঠিত হয় ১৯৭৪ সালে।'),
+Q('যুক্তি ও বিশ্লেষণ','ধারাটি সম্পূর্ণ করুন: ১, ৪, ৯, ১৬, ২৫, ?',['৩০','৩৪','৩৬','৪৯'],2,'এগুলো যথাক্রমে ১², ২², ৩², ৪², ৫²; পরেরটি ৬²=৩৬।'),
+Q('যুক্তি ও বিশ্লেষণ','একটি কোডে SUN-কে TVO লেখা হলে MOON কী হবে?',['NPPO','NPPM','LPPO','NQPO'],0,'প্রতিটি অক্ষরের পরের অক্ষর বসালে M→N, O→P, O→P, N→O; অর্থাৎ NPPO।'),
+Q('মানসিক দক্ষতা ও IQ','৮০-এর ১২.৫% কত?',['৮','১০','১২','১৫'],1,'১২.৫%=১/৮; ৮০÷৮=১০।'),
 ];
 let active=null,timer=null,answers=[],remaining=0,started=0;
 const HISTORY_KEY='ml_job_exam_history';
