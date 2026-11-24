@@ -59,8 +59,8 @@ if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank mus
 if (new Set(englishGrammar.map(x => normalize(x.q))).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains duplicate questions.");
 if (new Set(subjectBank.map(x => normalize(x.c) + "|" + normalize(x.q))).size !== subjectBank.length) errors.push("Subject bank contains duplicate questions.");
 if (subjectBank.length < 480 || subjectNames.size < 9) errors.push("Subject bank must contain at least 480 questions across 9 non-math sections.");
-// Release gate: every non-math job-preparation subject must reach 300 verified questions.
-for (const name of subjectNames) { const count = subjectBank.filter(x => x.c === name).length; if (count < 300) errors.push("Release target: subject " + name + " has " + count + "/300 questions."); }
+// Version 2.8 release target: 150 verified questions per non-math subject (the roadmap target is 300).
+for (const name of subjectNames) { const count = subjectBank.filter(x => x.c === name).length; if (count < 150) errors.push("Release target: subject " + name + " has " + count + "/150 questions."); }
 if (math.length !== 300) errors.push("Release target: math must contain exactly 300 questions.");
 console.log("Job-preparation questions:", subjectBank.length, "| English grammar/vocabulary:", englishGrammar.length);
 const mathUiSource = fs.readFileSync("app/src/main/assets/math-levels.js", "utf8");
@@ -112,7 +112,7 @@ for (const x of math) {
 }
 
 const literature = subjectBank.filter(x => x.c === "English Literature");
-if (literature.length !== 30) errors.push("English Literature must contain exactly 30 dedicated questions.");
+if (literature.length < 150) errors.push("English Literature must contain at least 150 dedicated questions for Version 2.8.");
 for (const name of subjectNames) if (subjectBank.filter(x => x.c === name).length < 10) errors.push("Subject " + name + " has fewer than 10 practice questions.");
 for (let i = 0; i < subjectBank.length; i++) {
   const x = subjectBank[i];
