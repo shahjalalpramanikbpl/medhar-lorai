@@ -645,7 +645,7 @@ const additions=[
 const bank=window.JOB_PREP_BANK;
 if(!Array.isArray(bank)) throw new Error('JOB_PREP_BANK পাওয়া যায়নি।');
 const norm=s=>String(s||'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
-const seen=new Set(bank.map(q=>norm(q.q)));
-for(const q of additions){if(seen.has(norm(q.q)))continue;bank.push(q);seen.add(norm(q.q));}
+const seen=new Set(bank.map(q=>norm(q.q)+'|'+norm(q.o&&q.o[q.a])));
+for(const q of additions){if(seen.has(norm(q.q)+'|'+norm(q.o&&q.o[q.a])))continue;bank.push(q);seen.add(norm(q.q)+'|'+norm(q.o&&q.o[q.a]));}
 window.JOB_PREP_EXPANSION_BATCH_2=additions.length;
 })();
