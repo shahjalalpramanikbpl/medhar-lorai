@@ -419,8 +419,8 @@
 ];
   const bank = window.JOB_PREP_BANK || (window.JOB_PREP_BANK=[]);
   const norm = s => String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
-  const seen = new Set(bank.map(item => norm(item.q)+'|'+norm(item.o&&item.o[item.a])));
+  const seen = new Set(bank.map(item => norm(item.q)+(item.c==='English'?'|'+norm(item.o&&item.o[item.a]):'')));
   const ids = new Set(bank.map(item => item.id));
-  for (const item of additions) { if (seen.has(norm(item.q)+'|'+norm(item.o&&item.o[item.a])) || ids.has(item.id)) continue; bank.push(item); seen.add(norm(item.q)+'|'+norm(item.o&&item.o[item.a])); ids.add(item.id); }
+  for (const item of additions) { if (seen.has(norm(item.q)+(item.c==='English'?'|'+norm(item.o&&item.o[item.a]):'')) || ids.has(item.id)) continue; bank.push(item); seen.add(norm(item.q)+(item.c==='English'?'|'+norm(item.o&&item.o[item.a]):'')); ids.add(item.id); }
   window.JOB_PREP_BANK = bank;
 })();
