@@ -1,0 +1,45 @@
+/* মেধার লড়াই — চাকরি প্রস্তুতি প্রশ্নব্যাংক সম্প্রসারণ ব্যাচ ৩৪ */
+(()=>{'use strict';
+const additions=[
+{id:"extra_1186",c:"বাংলা ভাষা ও সাহিত্য",q:"‘লালসালু’ উপন্যাসের রচয়িতা কে?",o:["আবু ইসহাক","সৈয়দ ওয়ালীউল্লাহ","শওকত ওসমান","জহির রায়হান"],a:1,e:"সৈয়দ ওয়ালীউল্লাহ রচিত ‘লালসালু’ ১৯৪৮ সালে প্রকাশিত হয়।",source:"Banglapedia — Novel",sourceUrl:"https://en.banglapedia.org/index.php?title=Novel",d:"সহজ"},
+{id:"extra_1187",c:"বাংলা ভাষা ও সাহিত্য",q:"‘সুলতানার স্বপ্ন’ গ্রন্থের লেখক কে?",o:["বেগম রোকেয়া","সুফিয়া কামাল","স্বর্ণকুমারী দেবী","সরলা দেবী"],a:0,e:"বেগম রোকেয়া রচিত ইংরেজি কল্পকাহিনি ‘Sultana’s Dream’ ১৯০৫ সালে প্রকাশিত হয়।",source:"Banglapedia — Women",sourceUrl:"https://en.banglapedia.org/index.php?title=Women",d:"সহজ"},
+{id:"extra_1188",c:"বাংলা ভাষা ও সাহিত্য",q:"‘কপালকুণ্ডলা’ উপন্যাসের রচয়িতা কে?",o:["মীর মশাররফ হোসেন","বঙ্কিমচন্দ্র চট্টোপাধ্যায়","রবীন্দ্রনাথ ঠাকুর","শরৎচন্দ্র চট্টোপাধ্যায়"],a:1,e:"বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের ‘কপালকুণ্ডলা’ ১৮৬৬ সালে প্রকাশিত হয়।",source:"Banglapedia — Novel",sourceUrl:"https://en.banglapedia.org/index.php?title=Novel",d:"মাঝারি"},
+{id:"extra_1189",c:"বাংলা ভাষা ও সাহিত্য",q:"‘হাজার বছর ধরে’ উপন্যাসের লেখক কে?",o:["জহির রায়হান","শহীদুল্লা কায়সার","আবু ইসহাক","সৈয়দ শামসুল হক"],a:0,e:"জহির রায়হানের ‘হাজার বছর ধরে’ গ্রামীণ সমাজজীবনভিত্তিক উপন্যাস।",source:"বাংলাদেশের উপন্যাস",sourceUrl:"https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651re/novel.pdf",d:"সহজ"},
+{id:"extra_1190",c:"বাংলা ভাষা ও সাহিত্য",q:"‘কবর’ নাটকের রচয়িতা কে?",o:["মুনীর চৌধুরী","সেলিম আল দীন","নুরুল মোমেন","আবদুল্লাহ আল মামুন"],a:0,e:"ভাষা আন্দোলনের প্রেক্ষাপটে মুনীর চৌধুরী ‘কবর’ নাটক রচনা করেন।",source:"বাংলা নাটক",d:"সহজ"},
+{id:"extra_1191",c:"বাংলা ভাষা ও সাহিত্য",q:"‘একাত্তরের দিনগুলি’ কার লেখা?",o:["জাহানারা ইমাম","সুফিয়া কামাল","নীলিমা ইব্রাহিম","সেলিনা হোসেন"],a:0,e:"জাহানারা ইমামের দিনলিপিভিত্তিক গ্রন্থ ‘একাত্তরের দিনগুলি’ মুক্তিযুদ্ধের গুরুত্বপূর্ণ দলিল।",source:"মুক্তিযুদ্ধভিত্তিক সাহিত্য",d:"সহজ"},
+{id:"extra_1192",c:"বাংলা ভাষা ও সাহিত্য",q:"‘চোখের বালি’ উপন্যাসের কেন্দ্রীয় নারী চরিত্রের নাম কী?",o:["বিনোদিনী","কিরণময়ী","রাজলক্ষ্মী","কমল"],a:0,e:"রবীন্দ্রনাথ ঠাকুরের ‘চোখের বালি’ উপন্যাসের অন্যতম কেন্দ্রীয় চরিত্র বিনোদিনী।",source:"Banglapedia — Novel",sourceUrl:"https://en.banglapedia.org/index.php?title=Novel",d:"মাঝারি"},
+{id:"extra_1193",c:"বাংলা ভাষা ও সাহিত্য",q:"‘পথের পাঁচালী’ উপন্যাসের লেখক কে?",o:["তারাশঙ্কর বন্দ্যোপাধ্যায়","বিভূতিভূষণ বন্দ্যোপাধ্যায়","মানিক বন্দ্যোপাধ্যায়","প্রমথনাথ বিশী"],a:1,e:"বিভূতিভূষণ বন্দ্যোপাধ্যায়ের ‘পথের পাঁচালী’ উপন্যাসে অপু-দুর্গার জীবনচিত্র উঠে এসেছে।",source:"Banglapedia — Novel",sourceUrl:"https://en.banglapedia.org/index.php?title=Novel",d:"সহজ"},
+{id:"extra_1194",c:"বাংলা ভাষা ও সাহিত্য",q:"‘মৈমনসিংহ গীতিকা’ সংগ্রহ ও সম্পাদনার সঙ্গে কার নাম বিশেষভাবে যুক্ত?",o:["দীনেশচন্দ্র সেন","সুকুমার সেন","মুহম্মদ শহীদুল্লাহ","চন্দ্রকুমার দে"],a:0,e:"দীনেশচন্দ্র সেন মৈমনসিংহ গীতিকা সংগ্রহ, সম্পাদনা ও প্রকাশনায় গুরুত্বপূর্ণ ভূমিকা রাখেন।",source:"Banglapedia — Sen, Dineshchandra",sourceUrl:"https://en.banglapedia.org/index.php?title=Sen%2C_Raibahadur_Dineshchandra",d:"কঠিন"},
+{id:"extra_1195",c:"বাংলা ভাষা ও সাহিত্য",q:"‘সংশপ্তক’ উপন্যাসের রচয়িতা কে?",o:["শহীদুল্লা কায়সার","জহির রায়হান","আলাউদ্দিন আল আজাদ","আখতারুজ্জামান ইলিয়াস"],a:0,e:"শহীদুল্লা কায়সার রচিত ‘সংশপ্তক’ বাংলাদেশের কথাসাহিত্যের উল্লেখযোগ্য উপন্যাস।",source:"বাংলাদেশের উপন্যাস",sourceUrl:"https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651re/novel.pdf",d:"মাঝারি"},
+
+{id:"extra_1196",c:"English Literature",q:"Who wrote 'Paradise Lost'?",o:["John Donne","John Milton","Alexander Pope","William Blake"],a:1,e:"John Milton published the epic poem Paradise Lost in its first edition in 1667.",source:"English Poetry",d:"সহজ"},
+{id:"extra_1197",c:"English Literature",q:"Who is the author of 'Gulliver's Travels'?",o:["Daniel Defoe","Jonathan Swift","Henry Fielding","Samuel Richardson"],a:1,e:"Jonathan Swift's satirical prose work Gulliver's Travels was published in 1726.",source:"English Prose",d:"সহজ"},
+{id:"extra_1198",c:"English Literature",q:"Who wrote the novel 'Jane Eyre'?",o:["Emily Brontë","Anne Brontë","Charlotte Brontë","Elizabeth Gaskell"],a:2,e:"Charlotte Brontë published Jane Eyre in 1847.",source:"Victorian Novel",d:"সহজ"},
+{id:"extra_1199",c:"English Literature",q:"'Wuthering Heights' was written by whom?",o:["Charlotte Brontë","Emily Brontë","George Eliot","Mary Shelley"],a:1,e:"Emily Brontë's only novel, Wuthering Heights, was published in 1847.",source:"Victorian Novel",d:"সহজ"},
+{id:"extra_1200",c:"English Literature",q:"Who wrote 'Great Expectations'?",o:["Charles Dickens","Thomas Hardy","William Thackeray","George Eliot"],a:0,e:"Charles Dickens's novel Great Expectations was first published in serial form in 1860–61.",source:"Victorian Novel",d:"সহজ"},
+{id:"extra_1201",c:"English Literature",q:"Who wrote 'The Old Man and the Sea'?",o:["John Steinbeck","Ernest Hemingway","William Faulkner","F. Scott Fitzgerald"],a:1,e:"Ernest Hemingway published The Old Man and the Sea in 1952.",source:"Modern American Fiction",d:"সহজ"},
+{id:"extra_1202",c:"English Literature",q:"'Ode to a Nightingale' is a poem by which Romantic poet?",o:["William Wordsworth","Lord Byron","John Keats","P. B. Shelley"],a:2,e:"John Keats wrote the celebrated ode in 1819.",source:"Romantic Poetry",d:"মাঝারি"},
+{id:"extra_1203",c:"English Literature",q:"Who wrote the play 'Doctor Faustus'?",o:["Ben Jonson","Christopher Marlowe","John Webster","Thomas Kyd"],a:1,e:"Christopher Marlowe wrote The Tragical History of Doctor Faustus.",source:"Elizabethan Drama",d:"মাঝারি"},
+
+{id:"extra_1204",c:"মানসিক দক্ষতা ও IQ",q:"ধারাটির পরের সংখ্যা কত: ৪, ৯, ১৯, ৩৯, ৭৯, ...?",o:["১৫৭","১৫৮","১৫৯","১৬১"],a:2,e:"প্রতিটি পদ আগের পদের দ্বিগুণের সঙ্গে ১ যোগ করে: ৭৯×২+১ = ১৫৯।",source:"সংখ্যার ধারা",d:"মাঝারি"},
+{id:"extra_1205",c:"মানসিক দক্ষতা ও IQ",q:"একটি কোডে BOOK লেখা হয় CPPL। একই নিয়মে PEN কীভাবে লেখা হবে?",o:["QFO","QEN","PFM","RFO"],a:0,e:"প্রতিটি অক্ষরের পরের অক্ষর নেওয়া হয়েছে: P→Q, E→F, N→O; উত্তর QFO।",source:"কোডিং-ডিকোডিং",d:"সহজ"},
+{id:"extra_1206",c:"মানসিক দক্ষতা ও IQ",q:"আজ বুধবার হলে ১০০ দিন পর কী বার হবে?",o:["বৃহস্পতিবার","শুক্রবার","শনিবার","রবিবার"],a:1,e:"১০০÷৭ করলে ভাগশেষ ২; বুধবারের দুই দিন পর শুক্রবার।",source:"বার নির্ণয়",d:"মাঝারি"},
+{id:"extra_1207",c:"মানসিক দক্ষতা ও IQ",q:"একটি সারিতে করিম বাম দিক থেকে ৯ম এবং ডান দিক থেকে ১২তম। সারিতে মোট কতজন?",o:["১৯","২০","২১","২২"],a:1,e:"মোট সংখ্যা = বাম দিকের অবস্থান + ডান দিকের অবস্থান − ১ = ৯+১২−১ = ২০।",source:"ক্রম নির্ণয়",d:"মাঝারি"},
+{id:"extra_1208",c:"মানসিক দক্ষতা ও IQ",q:"বেমানান সংখ্যাটি চিহ্নিত করুন: ১৬, ২৫, ৩৬, ৪৮, ৬৪।",o:["১৬","২৫","৪৮","৬৪"],a:2,e:"১৬, ২৫, ৩৬ ও ৬৪ পূর্ণবর্গ সংখ্যা; ৪৮ পূর্ণবর্গ নয়।",source:"বেমানান উপাদান",d:"সহজ"},
+{id:"extra_1209",c:"মানসিক দক্ষতা ও IQ",q:"A হলো B-এর ভাই। B হলো C-এর মা। A-এর সঙ্গে C-এর সম্পর্ক কী?",o:["মামা","চাচা","ভাই","দাদা"],a:0,e:"B-এর ভাই A; তাই C-এর মাতুল বা মামা হলেন A।",source:"রক্তের সম্পর্ক",d:"মাঝারি"},
+{id:"extra_1210",c:"মানসিক দক্ষতা ও IQ",q:"একটি ঘনকের সব পৃষ্ঠ রং করে ২৭টি সমান ছোট ঘনকে কাটা হলো। ঠিক দুটি পৃষ্ঠ রঙিন এমন ছোট ঘনক কয়টি?",o:["৮","১০","১২","১৬"],a:2,e:"প্রতিটি প্রান্তে কোণ বাদে ১টি করে ছোট ঘনক থাকে; ১২টি প্রান্তে মোট ১২টি।",source:"স্থানিক যুক্তি",d:"কঠিন"},
+
+{id:"extra_1211",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"সার্কের সচিবালয় কোথায় অবস্থিত?",o:["ঢাকা","কাঠমান্ডু","নয়াদিল্লি","কলম্বো"],a:1,e:"সার্ক সচিবালয় নেপালের রাজধানী কাঠমান্ডুতে অবস্থিত।",source:"SAARC",d:"সহজ"},
+{id:"extra_1212",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"OIC-এর সদর দপ্তর কোথায়?",o:["রিয়াদ","জেদ্দা","কায়রো","আঙ্কারা"],a:1,e:"ইসলামী সহযোগিতা সংস্থার (OIC) সদর দপ্তর সৌদি আরবের জেদ্দায় অবস্থিত।",source:"OIC",d:"সহজ"},
+{id:"extra_1213",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বাংলাদেশের সংবিধান কার্যকর হয় কবে?",o:["২৬ মার্চ ১৯৭১","১৬ ডিসেম্বর ১৯৭২","৪ নভেম্বর ১৯৭২","১০ জানুয়ারি ১৯৭২"],a:1,e:"গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান ৪ নভেম্বর ১৯৭২ গৃহীত হয় এবং ১৬ ডিসেম্বর ১৯৭২ কার্যকর হয়।",source:"বাংলাদেশের সংবিধান",d:"সহজ"},
+{id:"extra_1214",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"ইউনেস্কোর সদর দপ্তর কোন শহরে?",o:["জেনেভা","নিউইয়র্ক","প্যারিস","রোম"],a:2,e:"জাতিসংঘের শিক্ষা, বিজ্ঞান ও সংস্কৃতি সংস্থার সদর দপ্তর ফ্রান্সের প্যারিসে।",source:"UNESCO",d:"সহজ"},
+{id:"extra_1215",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"সুন্দরবন কোন দুই দেশে বিস্তৃত?",o:["বাংলাদেশ ও ভারত","বাংলাদেশ ও মিয়ানমার","ভারত ও নেপাল","ভারত ও ভুটান"],a:0,e:"বিশ্বের বৃহত্তম ম্যানগ্রোভ বন সুন্দরবন বাংলাদেশ ও ভারতের পশ্চিমবঙ্গজুড়ে বিস্তৃত।",source:"সুন্দরবন",d:"সহজ"}
+];
+const bank=window.JOB_PREP_BANK;
+if(!Array.isArray(bank)) throw new Error('JOB_PREP_BANK পাওয়া যায়নি।');
+const norm=s=>String(s||'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
+const seen=new Set(bank.map(q=>norm(q.q))),ids=new Set(bank.map(q=>q.id));
+let added=0,duplicates=0;
+for(const q of additions){if(seen.has(norm(q.q))||ids.has(q.id)){duplicates++;continue;}bank.push(q);seen.add(norm(q.q));ids.add(q.id);added++;}
+window.JOB_PREP_EXPANSION_BATCH_34={candidates:additions.length,added,duplicates};
+})();
