@@ -196,7 +196,7 @@ button.answer.selected{background:linear-gradient(155deg,#398b83,#205e62)!import
 @media(max-width:380px){.start-brand{min-height:86px!important;padding:11px 12px!important;gap:10px!important}.start-brand-mark{width:55px;height:55px;flex-basis:55px;border-radius:16px}.start-brand-mark svg{width:43px;height:43px}.start-brand-copy b{font-size:19px}.start-brand-copy small{font-size:10px}}
 
 /* Compact premium trio: rules, leaderboard, progress */
-.home-actions:first-of-type{gap:8px;margin-top:15px}
+.home-primary-actions{gap:8px;margin-top:15px}
 .home-actions:first-of-type .home-action{min-height:82px;padding:9px 4px 8px;border-radius:15px;gap:3px;background:linear-gradient(145deg,#243f62 0%,#142943 72%,#102137 100%);border:1px solid #4b6b91;box-shadow:0 4px 0 #081426,0 7px 12px #0005,inset 0 1px 0 #ffffff20;transition:transform .14s,box-shadow .14s}
 .home-actions:first-of-type .home-action span{font-size:20px;line-height:1.1;filter:drop-shadow(0 2px 2px #0006)}
 .home-actions:first-of-type .home-action b{font-size:11px;line-height:1.2;font-weight:850;white-space:nowrap}
@@ -210,7 +210,7 @@ button.answer.selected{background:linear-gradient(155deg,#398b83,#205e62)!import
 <div class="home-stats"><div class="home-stat"><span>⭐</span><small>মোট পয়েন্ট</small><b id="homePoints">0</b></div><div class="home-stat"><span>🏆</span><small>বর্তমান লেভেল</small><b id="homeLevel">1</b></div><div class="home-stat"><span>📚</span><small>প্রশ্নের ভান্ডার</small><b id="homeQuestions">10</b></div></div>
 <button id="startBtn" class="start-3d start-brand"><span class="start-brand-mark"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M13 17h38l-4 25H17z" fill="#e6b84f" stroke="#fff0b8" stroke-width="2"/><path d="M9 13h46v7H9z" fill="#fff0b8"/><path d="M20 43h24v6H20zM16 52h32v5H16z" fill="#d99b32"/><path d="M32 5l3.5 6 7 1-5 5 1.2 7-6.7-3.3-6.7 3.3 1.2-7-5-5 7-1z" fill="#fff4c9"/><path d="M23 27l9 8 9-8" fill="none" stroke="#6c4513" stroke-width="2.5" stroke-linecap="round"/></svg></span><span class="start-brand-copy"><b>মেধার লড়াই</b><small>কুইজ খেলা শুরু করুন · চ্যালেঞ্জ গ্রহণ করুন</small></span><span class="start-brand-arrow">➜</span></button>
 <div class="home-featured" id="homeFeatured"></div>
-<div class="home-actions"><button type="button" class="home-action" id="rulesBtn"><span>📖</span><b>খেলার নিয়ম</b><small>কীভাবে খেলবেন</small></button><button type="button" class="home-action" id="leaderBtn"><span>🥇</span><b>লিডারবোর্ড</b><small>শীঘ্রই আসছে</small></button><button type="button" class="home-action" id="progressBtn"><span>📈</span><b>আমার অগ্রগতি</b><small>পয়েন্ট ও লেভেল</small></button></div>
+<div class="home-actions home-primary-actions"><button type="button" class="home-action" id="rulesBtn"><span>📖</span><b>খেলার নিয়ম</b><small>কীভাবে খেলবেন</small></button><button type="button" class="home-action" id="leaderBtn"><span>🥇</span><b>লিডারবোর্ড</b><small>শীঘ্রই আসছে</small></button><button type="button" class="home-action" id="progressBtn"><span>📈</span><b>আমার অগ্রগতি</b><small>পয়েন্ট ও লেভেল</small></button></div>
 <div class="home-actions" style="margin-top:10px">
 <button class="home-action" id="profileBtn"><span>👤</span><b>আমার প্রোফাইল</b><small>নাম ও খেলার ইতিহাস</small></button>
 <button type="button" class="home-action" id="accountBtn"><span>☁️</span><b>অনলাইন অ্যাকাউন্ট</b><small>নিবন্ধন ও লগইন</small></button><button class="home-action" id="dailyBtn"><span>⚡</span><b>ডেইলি চ্যালেঞ্জ</b><small>প্রতিদিন ৫ প্রশ্ন</small></button>
