@@ -952,7 +952,7 @@ Q('মানসিক দক্ষতা ও IQ','ধারাটির পর�
 
 Q('বাংলা ভাষা ও সাহিত্য','‘পদ্মাবতী’ কাব্যের রচয়িতা কে?',['আলাওল','ভারতচন্দ্র','মুকুন্দরাম চক্রবর্তী','দৌলত কাজী'],0,'মধ্যযুগের কবি আলাওল ‘পদ্মাবতী’ কাব্য রচনা করেন।'),
 Q('বাংলা ভাষা ও সাহিত্য','‘চাঁদের অমাবস্যা’ উপন্যাসের রচয়িতা কে?',['শওকত ওসমান','সৈয়দ ওয়ালীউল্লাহ','আবু ইসহাক','আখতারুজ্জামান ইলিয়াস'],1,'সৈয়দ ওয়ালীউল্লাহর ‘চাঁদের অমাবস্যা’ ১৯৬৪ সালে প্রকাশিত হয়।'),
-Q('বাংলা ভাষা ও সাহিত্য','‘একুশে ফেব্রুয়ারি’ কবিতার কবি কে?',['শামসুর রাহমান','আল মাহমুদ','মাহবুব উল আলম চৌধুরী','সুকান্ত ভট্টাচার্য'],2,'মাহবুব উল আলম চৌধুরী ভাষা আন্দোলনের প্রেক্ষাপটে ‘একুশে ফেব্রুয়ারি’ কবিতা রচনা করেন।'),
+Q('বাংলা ভাষা ও সাহিত্য','ভাষা আন্দোলনের প্রেক্ষাপটে রচিত প্রথম কবিতার নাম কী?',['কাঁদতে আসিনি, ফাঁসির দাবি নিয়ে এসেছি','একুশের গান','বর্ণমালা আমার দুঃখিনী বর্ণমালা','ফেব্রুয়ারি ১৯৬৯'],0,'ভাষা আন্দোলনের প্রেক্ষাপটে প্রথম রচিত কবিতা হিসেবে মাহবুব উল আলম চৌধুরীর ‘কাঁদতে আসিনি, ফাঁসির দাবি নিয়ে এসেছি’ স্বীকৃত।'),
 Q('English','Choose the correct article: “He is ___ honest man.”',['a','an','the','no article'],1,'Honest begins with a vowel sound, so the correct article is “an”.'),
 Q('English','The idiom “to hit the nail on the head” means—',['To cause an accident','To say exactly the right thing','To work very hard','To make a careless mistake'],1,'The idiom means to identify or describe exactly the central point.'),
 Q('English','Choose the correct comparative form of “good”.',['Gooder','More good','Best','Better'],3,'The comparative form of good is better; best is the superlative.'),
