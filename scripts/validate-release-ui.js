@@ -16,7 +16,7 @@ const checks = [
   ['launcher icon resource', fs.existsSync('app/src/main/res/mipmap-anydpi/ic_launcher.xml')],
   ['manifest launcher icon mapping', manifest.includes('android:icon="@mipmap/ic_launcher"') && manifest.includes('android:roundIcon="@mipmap/ic_launcher"')],
   ['package id unchanged', gradle.includes('applicationId = "com.medhar.lorai"')],
-  ['release version defined', /versionCode\s*=\s*19/.test(gradle) && /versionName\s*=\s*"2\.8"/.test(gradle))
+  ['release version defined', /versionCode\s*=\s*19/.test(gradle) && /versionName\s*=\s*"2\.8"/.test(gradle)]
 ];
 let failed = false;
 for (const [name,ok] of checks) { console.log((ok?'PASS':'FAIL')+' '+name); if(!ok) failed=true; }
