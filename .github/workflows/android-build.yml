@@ -29,7 +29,7 @@ jobs:
         run: node scripts/validate-release-ui.js
 
       - name: Set up Java 17
-        if: github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'BUILD:')
         uses: actions/setup-java@v4
         with:
           distribution: temurin
