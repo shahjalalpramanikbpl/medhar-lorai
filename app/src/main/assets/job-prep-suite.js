@@ -159,7 +159,7 @@ Q('English','What is the plural form of “phenomenon”?',['Phenomena','Phenome
 Q('English','What is the plural form of “criterion”?',['Criterions','Criterion','Criteria','Criterias'],2,'The plural of criterion is criteria.','','','কঠিন'),
 Q('English','She has been working here ___ 8 a.m.',['for','since','from','during'],1,'Use “since” with a specific starting time.','','','কঠিন'),
 Q('English','By the time we reached the cinema, the movie ___.',['had started','has started','starts','will start'],0,'The earlier past action takes past perfect: had started.','','','কঠিন'),
-Q('English','Hardly had I entered the room ___ the phone rang.',['than','when','then','while'],1,'The standard correlative structure is “hardly … when”.','','','কঠিন')
+Q('English','Hardly had I entered the room ___ the phone rang.',['than','when','then','while'],1,'The standard correlative structure is “hardly … when”.','','','কঠিন'),
 
 Q('মানসিক দক্ষতা ও IQ','ধারা: ৫, ১১, ১৯, ২৯, ৪১, পরের সংখ্যা কত?',['৫৩','৫৫','৫৭','৫৯'],1,'পার্থক্য ৬, ৮, ১০, ১২; পরের পার্থক্য ১৪। তাই ৪১+১৪=৫৫।'),
 Q('মানসিক দক্ষতা ও IQ','ধারা: ১, ৪, ৯, ১৬, ২৫, পরের সংখ্যা কত?',['৩০','৩২','৩৬','৪৯'],2,'সংখ্যাগুলো ১², ২², ৩², ৪², ৫²; পরেরটি ৬²=৩৬।'),
