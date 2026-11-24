@@ -132,7 +132,7 @@ const additions=[
   {
     "id": "extra_447",
     "c": "English",
-    "q": "Which word is an adverb in the sentence: “He spoke quite softly.”?",
+    "q": "Which word is the adverb of manner in the sentence: “He spoke quite softly.”?",
     "o": [
       "He",
       "spoke",
