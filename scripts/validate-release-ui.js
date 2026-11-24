@@ -8,7 +8,7 @@ const manifest = read('app/src/main/AndroidManifest.xml');
 const gradle = read('app/build.gradle.kts');
 const checks = [
   ['launch splash title', html.includes('মেধার লড়াই') && html.includes('খেলুন-শিখুন-এগিয়ে যান')],
-  ['quiz primary action', /id="startBtn"[^>]*class="start-3d"/.test(html) && html.includes('কুইজ খেলা শুরু করুন')],
+  ['quiz primary action', /<button[^>]*id="startBtn"[^>]*class="[^"]*start-3d/.test(html) && html.includes('কুইজ খেলা শুরু করুন')],
   ['career-preparation mount point', html.includes('id="homeFeatured"')],
   ['career-preparation button wiring', suite.includes("btn.id='jobPrepBtn'") && suite.includes('window.openJobPrep')],
   ['all app scripts loaded', ['content-bank.js','career-prep.js','math-levels.js','job-prep-suite.js','firebase-config.js'].every(x => html.includes('src="'+x+'"'))],
