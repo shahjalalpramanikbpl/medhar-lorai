@@ -413,6 +413,7 @@ body{
   if(!key||seen.has(key)||(q.id&&ids.has(q.id)))continue;
   bank.push(q);seen.add(key);if(q.id)ids.add(q.id);
  }
+ for(const q of bank){if(!['সহজ','মাঝারি','কঠিন'].includes(q.d))q.d='সহজ';}
 })();
 </script>
 <script>
