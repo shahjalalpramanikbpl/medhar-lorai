@@ -100,7 +100,7 @@ service cloud.firestore {
         && request.resource.data.lastSeen is timestamp
         && request.resource.data.appVersion is string;
       allow read: if request.auth != null
-        && request.auth.uid == 'TIEU9BdlVFcj2LzwoGKI2BOd2tR2';
+        && (request.auth.uid == uid || request.auth.uid == 'TIEU9BdlVFcj2LzwoGKI2BOd2tR2');
       allow delete: if false;
     }
 
