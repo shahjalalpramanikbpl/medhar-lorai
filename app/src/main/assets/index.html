@@ -123,6 +123,62 @@ body{background:radial-gradient(ellipse at 50% -10%,#254b79 0%,#101d35 48%,#080f
  .start-3d{min-height:68px;font-size:18px}
 }
 
+
+/* Unified premium 3D controls: home and every in-app panel */
+button{
+ position:relative;isolation:isolate;overflow:hidden;
+ border:1px solid #83a7cb!important;border-radius:14px!important;
+ background:linear-gradient(155deg,#35577e 0%,#203b60 48%,#142944 100%)!important;
+ color:#f7fbff!important;font-weight:800;
+ box-shadow:0 5px 0 #09182b,0 9px 17px #0006,inset 0 1px 0 #ffffff45,inset 0 -2px 0 #07172b!important;
+ transition:transform .14s ease,filter .14s ease,box-shadow .14s ease;
+ text-shadow:0 1px 2px #07172b80;
+}
+button:before{
+ content:"";position:absolute;inset:0 0 auto;height:48%;pointer-events:none;z-index:-1;
+ background:linear-gradient(180deg,#ffffff20,transparent);border-radius:inherit;
+}
+button:active{transform:translateY(4px)!important;filter:brightness(1.12);box-shadow:0 1px 0 #09182b,0 3px 7px #0006,inset 0 1px 0 #ffffff30!important}
+button:focus-visible{outline:2px solid #ffe29a;outline-offset:3px}
+button.secondary{background:linear-gradient(155deg,#506b8d,#263f61 58%,#172b45)!important;border-color:#8ca9c9!important}
+button.danger{background:linear-gradient(155deg,#d56a78,#9c354c 60%,#642238)!important;border-color:#f0a0a8!important}
+button.tiny{border-radius:10px!important;box-shadow:0 3px 0 #09182b,0 5px 10px #0005,inset 0 1px 0 #ffffff35!important}
+button.answer{background:linear-gradient(155deg,#3a587d,#263e60 60%,#172b45)!important;border:1px solid #6e8bad!important;box-shadow:0 4px 0 #0a1728,0 7px 12px #0005,inset 0 1px 0 #ffffff30!important}
+button.answer.selected{background:linear-gradient(155deg,#398b83,#205e62)!important;border-color:#8af2d4!important}
+.home-action{
+ min-height:91px;padding:11px 5px!important;gap:6px;
+ border:1px solid #7898bc!important;border-radius:17px!important;
+ background:linear-gradient(155deg,#3a5b82 0%,#203b60 48%,#12243d 100%)!important;
+ box-shadow:0 6px 0 #081629,0 11px 18px #0007,inset 0 1px 0 #ffffff50,inset 0 -2px 0 #09182b!important;
+}
+.home-action span{font-size:25px;filter:drop-shadow(0 3px 2px #0007)}
+.home-action b{font-size:12px;letter-spacing:.1px}
+.home-action small{font-size:9px;color:#d2e1f3}
+.home-action:active{transform:translateY(5px)!important;box-shadow:0 1px 0 #081629,0 4px 8px #0006!important}
+.start-3d{border:1px solid #b8ffe9!important;background:linear-gradient(180deg,#a4ffe3 0%,#61dfbd 48%,#36b795 100%)!important;color:#082d2c!important;text-shadow:0 1px #ffffff80;box-shadow:0 8px 0 #176f60,0 14px 24px #0007,inset 0 2px 0 #ffffffc9!important}
+.start-3d:active{box-shadow:0 2px 0 #176f60,0 5px 10px #0005!important}
+.job-prep-hero{filter:drop-shadow(0 3px 0 #714813)}
+/* Smaller, cleaner score / level / question-bank tiles */
+.home-stats{gap:6px!important;margin:9px 1px 10px!important}
+.home-stat{
+ display:grid;grid-template-columns:24px 1fr;grid-template-rows:auto auto;
+ align-items:center;justify-items:start;column-gap:5px;
+ min-height:53px;padding:7px 8px!important;border-radius:12px!important;
+ background:linear-gradient(145deg,#294767,#172b46)!important;
+ border:1px solid #49698c!important;
+ box-shadow:0 3px 0 #081629,0 6px 11px #0005,inset 0 1px 0 #ffffff25!important;
+}
+.home-stat span{grid-row:1/3;grid-column:1;font-size:17px!important;margin:0!important;filter:drop-shadow(0 2px 2px #0006)}
+.home-stat small{grid-column:2;grid-row:1;font-size:9px!important;line-height:1.15;text-align:left;white-space:nowrap;color:#c5d7eb!important}
+.home-stat b{grid-column:2;grid-row:2;font-size:16px!important;line-height:1.15;margin:2px 0 0!important;color:#ffe6a5!important;text-shadow:0 1px 0 #785524!important}
+@media(max-width:380px){
+ .home-stat{grid-template-columns:19px 1fr;column-gap:3px;padding:6px 5px!important;min-height:49px}
+ .home-stat span{font-size:15px!important}
+ .home-stat small{font-size:8px!important}
+ .home-stat b{font-size:14px!important}
+ .home-action{min-height:82px}
+}
+
 </style></head><body><section id="launchSplash" aria-label="মেধার লড়াই"><div class="splash-inner"><div class="splash-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M13 30 50 13 87 30 50 47Z" fill="#f6c85f" stroke="#fff0b5" stroke-width="3" stroke-linejoin="round"/><path d="M27 43v21c13 11 33 11 46 0V43L50 54Z" fill="#fff" stroke="#b8d8ff" stroke-width="3" stroke-linejoin="round"/><path d="M87 31v28" stroke="#ffd875" stroke-width="4" stroke-linecap="round"/><circle cx="87" cy="63" r="5" fill="#ffd875"/><path d="M50 55 27 44" stroke="#d69a31" stroke-width="2"/></svg></div><div class="splash-name">মেধার লড়াই</div><div class="splash-tagline">খেলুন-শিখুন-এগিয়ে যান</div><div class="splash-loader" aria-hidden="true"></div></div></section><script>(function(){var splash=document.getElementById('launchSplash');if(splash){setTimeout(function(){splash.classList.add('is-hidden');setTimeout(function(){splash.remove();},600);},2300);}})();</script><main class="wrap">
 <header><div><div class="brand-lockup"><div class="brand-mark"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M13 17h38l-4 25H17z" fill="#e6b84f" stroke="#fff0b8" stroke-width="2"/><path d="M9 13h46v7H9z" fill="#fff0b8"/><path d="M20 43h24v6H20zM16 52h32v5H16z" fill="#d99b32"/><path d="M32 5l3.5 6 7 1-5 5 1.2 7-6.7-3.3-6.7 3.3 1.2-7-5-5 7-1z" fill="#fff4c9"/><path d="M23 27l9 8 9-8" fill="none" stroke="#6c4513" stroke-width="2.5" stroke-linecap="round"/></svg></div><div><div class="brand">মেধার লড়াই</div><div class="tag">BATTLE OF BRAINS · QUIZ CHALLENGE</div></div></div></div><div class="row"><button class="secondary tiny" id="langBtn">English</button><button class="secondary tiny" id="adminBtn">অ্যাডমিন প্যানেল</button></div></header>
 <section id="home" class="home-screen">
