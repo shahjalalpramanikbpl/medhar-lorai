@@ -400,6 +400,22 @@ body{
 <script src="job-prep-expansion-53.js"></script>
 <script src="firebase-config.js"></script>
 <script>
+// Merge expansion batches 33+ into the job-preparation bank.
+// Earlier expansion batches already append directly to JOB_PREP_BANK.
+(()=>{
+ const bank=window.JOB_PREP_BANK, extra=window.EXTRA_JOB_QUESTIONS;
+ if(!Array.isArray(bank)||!Array.isArray(extra))return;
+ const norm=s=>String(s||'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
+ const seen=new Set(bank.map(q=>norm(q.q))),ids=new Set(bank.map(q=>q.id).filter(Boolean));
+ for(const q of extra){
+  if(!q||typeof q.q!=='string')continue;
+  const key=norm(q.q);
+  if(!key||seen.has(key)||(q.id&&ids.has(q.id)))continue;
+  bank.push(q);seen.add(key);if(q.id)ids.add(q.id);
+ }
+})();
+</script>
+<script>
 const defaults=[
   {
     "c": "সাধারণ জ্ঞান",
