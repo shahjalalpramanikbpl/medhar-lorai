@@ -260,3 +260,13 @@
 - বিস্তারিত: `SCIENCE_REAUDIT_BATCH_11_15.md`; master-এ দুই প্রশ্নের re-audit marker এবং progress সংরক্ষিত।
 - পরবর্তী ধাপ: Batch ১৬–২০ যাচাই করে Batch ১–১৫-এর সমন্বিত set-এর সঙ্গে তুলনা।
 - Baseline ১৩০টির পূর্ণ factual re-audit বাকি; সাধারণ বিজ্ঞান এখনো **IN PROGRESS — NOT LOCKED**।
+
+
+## সাধারণ বিজ্ঞান — প্রকৃত পুনঃযাচাই (২৫ নভেম্বর ২০২৬)
+- Expansion Batch ১–৫: ১৪টি retained প্রশ্ন পুনঃযাচাইকৃত।
+- Expansion Batch ৬–১০: ১৩টি retained প্রশ্ন পুনঃযাচাইকৃত।
+- Expansion Batch ১১–১৫: ২টি retained প্রশ্ন পুনঃযাচাইকৃত।
+- Expansion Batch ১৬–২০: ৭টি retained প্রশ্ন পুনঃযাচাইকৃত; এই গ্রুপে আগের set-এর সঙ্গে নতুন exact duplicate ০টি; নতুন correction ০।
+- Expansion ১–২০-এ পুনঃযাচাইকৃত retained প্রশ্ন মোট ৩৬টি।
+- Master status: REVALIDATION_IN_PROGRESS_NOT_LOCKED; baseline ১৩০টির প্রকৃত substantive re-audit ও পরবর্তী expansion group বাকি।
+- বিস্তারিত: SCIENCE_REAUDIT_BATCH_16_20.md
