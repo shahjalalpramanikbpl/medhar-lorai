@@ -1,6 +1,6 @@
 /* মেধার লড়াই — সম্প্রসারণ ব্যাচ ২১: ২০টি প্রশ্ন */
 (()=>{'use strict';
-const additions=[
+const additions = [
   {
     "id": "extra_769",
     "c": "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",
@@ -33,7 +33,7 @@ const additions=[
     "sourceUrl": "",
     "d": "মাঝারি"
   },
-    {
+  {
     "id": "extra_772",
     "c": "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",
     "q": "বাংলাদেশের বৃহত্তম হাওর কোনটি?",
@@ -158,10 +158,11 @@ const additions=[
     "a": 1,
     "e": "লোহিত রক্তকণিকার হিমোগ্লোবিন অক্সিজেন পরিবহন করে।",
     "source": "মানবদেহবিদ্যা",
-    "sourceUrl": "",
-    "d": "সহজ"
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279392/",
+    "d": "সহজ",
+    "auditStatus": "content_checked_batches_21_25"
   },
-    {
+  {
     "id": "extra_781",
     "c": "সাধারণ বিজ্ঞান",
     "q": "ভিটামিন ডি-এর ঘাটতিতে শিশুদের কোন রোগ হতে পারে?",
@@ -174,40 +175,43 @@ const additions=[
     "a": 1,
     "e": "শিশুদের ভিটামিন ডি-এর ঘাটতিতে রিকেটস হতে পারে।",
     "source": "পুষ্টিবিজ্ঞান",
-    "sourceUrl": "",
-    "d": "সহজ"
+    "sourceUrl": "https://medlineplus.gov/rickets.html",
+    "d": "সহজ",
+    "auditStatus": "content_checked_batches_21_25"
   },
   {
     "id": "extra_782",
     "c": "সাধারণ বিজ্ঞান",
-    "q": "শব্দ কোন মাধ্যমে সবচেয়ে দ্রুত চলে?",
+    "q": "নিচের কোন মাধ্যমে শব্দের বেগ সবচেয়ে বেশি?",
     "o": [
-      "বায়ু",
+      "বায়ু",
       "পানি",
-      "কঠিন পদার্থ",
+      "ইস্পাত",
       "শূন্যস্থান"
     ],
     "a": 2,
-    "e": "শব্দ সাধারণত কঠিন পদার্থে দ্রুত চলে; শূন্যস্থানে চলে না।",
+    "e": "এই বিকল্পগুলোর মধ্যে ইস্পাতে শব্দের বেগ পানির ও বায়ুর চেয়ে বেশি; শূন্যস্থানে শব্দ চলতে পারে না।",
     "source": "পদার্থবিজ্ঞান",
-    "sourceUrl": "",
-    "d": "সহজ"
+    "sourceUrl": "https://openstax.org/books/university-physics-volume-1/pages/17-2-speed-of-sound",
+    "d": "সহজ",
+    "auditStatus": "content_checked_batches_21_25"
   },
   {
     "id": "extra_783",
     "c": "সাধারণ বিজ্ঞান",
     "q": "শূন্যস্থানে আলোর বেগ প্রায় কত?",
     "o": [
-      "৩×১০⁶",
-      "৩×১০⁷",
-      "৩×১০⁸",
+      "৩×১০⁶ মিটার/সেকেন্ড",
+      "৩×১০⁷ মিটার/সেকেন্ড",
+      "৩×১০⁸ মিটার/সেকেন্ড",
       "৩×১০⁹ মিটার/সেকেন্ড"
     ],
     "a": 2,
     "e": "শূন্যস্থানে আলোর বেগ প্রায় ৩×১০⁸ মিটার/সেকেন্ড।",
     "source": "পদার্থবিজ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://physics.nist.gov/cuu/Constants/Value/c.html",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_21_25"
   },
   {
     "id": "extra_784",
@@ -222,8 +226,9 @@ const additions=[
     "a": 3,
     "e": "বিদ্যুৎ রোধের SI একক ওহম।",
     "source": "পদার্থবিজ্ঞান",
-    "sourceUrl": "",
-    "d": "সহজ"
+    "sourceUrl": "https://www.nist.gov/pml/owm/si-units-electric-current",
+    "d": "সহজ",
+    "auditStatus": "content_checked_batches_21_25"
   },
   {
     "id": "extra_785",
@@ -238,8 +243,9 @@ const additions=[
     "a": 1,
     "e": "লেবুতে প্রধানত সাইট্রিক অ্যাসিড থাকে।",
     "source": "রসায়ন",
-    "sourceUrl": "",
-    "d": "সহজ"
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24874375/",
+    "d": "সহজ",
+    "auditStatus": "content_checked_batches_21_25"
   },
   {
     "id": "extra_786",
@@ -254,8 +260,9 @@ const additions=[
     "a": 2,
     "e": "২৫° সেলসিয়াসে pH ৭-এর কম হলে দ্রবণ অম্লীয়।",
     "source": "রসায়ন",
-    "sourceUrl": "",
-    "d": "সহজ"
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/ph-and-water",
+    "d": "সহজ",
+    "auditStatus": "content_checked_batches_21_25"
   },
   {
     "id": "extra_787",
@@ -270,8 +277,9 @@ const additions=[
     "a": 1,
     "e": "পারমাণবিক সংখ্যা হলো নিউক্লিয়াসে প্রোটনের সংখ্যা।",
     "source": "রসায়ন",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://goldbook.iupac.org/terms/view/A00499",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_21_25"
   },
   {
     "id": "extra_788",
@@ -286,8 +294,9 @@ const additions=[
     "a": 1,
     "e": "ওজোন স্তরের অধিকাংশ স্ট্রাটোস্ফিয়ারে অবস্থিত।",
     "source": "বায়ুমণ্ডল বিজ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://csl.noaa.gov/assessments/ozone/2022/downloads/twentyquestions.pdf",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_21_25"
   }
 ];
 const bank=window.JOB_PREP_BANK;if(!Array.isArray(bank))throw new Error('JOB_PREP_BANK পাওয়া যায়নি।');
