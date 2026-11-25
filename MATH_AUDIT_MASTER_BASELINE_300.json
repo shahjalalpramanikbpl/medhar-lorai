@@ -9864,6 +9864,17 @@
       "outcome": "COMPARISON_COMPLETE"
     },
     "exclusionLedger": [
+      "math_L1_Q5",
+      "math_L2_Q4",
+      "math_L2_Q6",
+      "math_L3_Q3",
+      "math_L4_Q2",
+      "math_L5_Q1",
+      "math_L5_Q3",
+      "math_L7_Q10",
+      "math_L8_Q9",
+      "math_L9_Q8",
+      "math_L10_Q7",
       "math_L11_Q6",
       "math_L11_Q9",
       "math_L12_Q5",
