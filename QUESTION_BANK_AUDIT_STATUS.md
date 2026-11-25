@@ -16,7 +16,7 @@
 - সম্প্রসারণ ব্যাচ ১-এ ৪০টি প্রশ্ন শনাক্ত; বাংলা ৩৫টি। মূল suite-এর সঙ্গে তুলনায় **৫টি বাংলা exact duplicate** মুছে দেওয়া হয়েছে। একটি ইংরেজি overlap অপরিবর্তিত রাখা হয়েছে।
 - সম্প্রসারণ ব্যাচ ২–৫৬ এবং মূল suite-এর তুলনায় আরও **৫৩টি বাংলা exact duplicate copy** মুছে দেওয়া হয়েছে।
 - সম্প্রসারণ ব্যাচগুলোর নির্বাচিত cross-batch তুলনায় আরও **৭৪টি বাংলা exact duplicate copy** মুছে দেওয়া হয়েছে।
-- এই পর্যায়ে মোট **১৩২টি বাংলা exact duplicate copy** GitHub-এর main branch থেকে মুছে দেওয়া হয়েছে। এটি বর্তমান cleanup পর্যায়ের নিশ্চিত deletion count; চূড়ান্ত বাংলা unique count নয়।
+- এই পর্যায়ে মোট **১৭০টি বাংলা exact duplicate copy** GitHub-এর main branch থেকে মুছে দেওয়া হয়েছে। ১–৫০ ব্যাচের পারস্পরিক তুলনায় এবং মূল suite-এর সঙ্গে cross-check-এ নতুন duplicate পাওয়া গেলে সেগুলোও বাদ দেওয়া হয়েছে। এটি source থেকে নিশ্চিত deletion count; চূড়ান্ত runtime unique count নয়।
 - পরিবর্তনগুলো GitHub commit-এ সংরক্ষিত। প্রতিটি deletion-এ duplicate signature-এর চারটি উপাদান মিলিয়ে দেখা হয়েছে; একই বিষয়/টপিকের ভিন্ন উদাহরণ ইচ্ছাকৃতভাবে বাদ দেওয়া হয়নি।
 - ব্যাচ ৪১–৪৫-এ ১২৫টি রেকর্ড parser-এ শনাক্ত; বাংলা প্রশ্ন ৯৪টি। ওই পাঁচ ব্যাচের ভেতরে, মূল suite-এর সঙ্গে, ৩৬–৪০ এবং ৪৬–৫০ ব্যাচের সঙ্গে পূর্ণ signature-এ তুলনায় কোনো অবশিষ্ট exact duplicate পাওয়া যায়নি। এটি ওই নির্দিষ্ট তুলনার ফল; সব ব্যাচের all-pairs সম্পন্ন হওয়ার দাবি নয়।
 - বাংলা unique count এখনো চূড়ান্ত নয়: সব expansion batch-এর মধ্যে পূর্ণ all-pairs cross-check, runtime parsing এবং final reconciliation বাকি।
@@ -27,6 +27,7 @@
 - expansion batch ৩৩–৫০-এর local duplicate filter-ও canonical full signature ব্যবহার করে; একই stem কিন্তু আলাদা options/answer থাকলে প্রশ্ন আর অকারণে বাদ পড়বে না।
 - batch ৫৬-এর final dedup pass এখন শুধু English/বাংলা সাহিত্য নয়, সব subject-এ একই full signature প্রয়োগ করে।
 - `scripts/validate-content.js`-এর subject-bank duplicate checks ও model-test uniqueness checks-ও একই full signature নীতি অনুসরণ করে।
+- `scripts/validate-content.js` এখন `job-prep-expansion.js` এবং ০২–৫৬ সব expansion file মূল app load-order-এ চালিয়ে পূর্ণ expanded bank যাচাই করবে; script syntax যাচাই PASS, কিন্তু পূর্ণ runtime validation এখনো চালানো হয়নি।
 - সংশোধন commits: `4d145e0`, `3dd86af`, `947abeb`, `90cd3ff`, `563dc00`, `234150b`, `54ce283`, `a98c592`, `c59c377`, `3fa1054`, `a0b56b5`, `58ff16e`, `76613b5`, `2fed9aa`, `7ceaece`, `afe1e42`, `175fbac`, `255e624`, `ba88a26`, `8be965d`, `4186388`.
 
 ## স্থির অডিট নীতি
@@ -39,7 +40,7 @@
 - Build ফলাফল ও artifact যাচাই না হওয়া পর্যন্ত APK প্রস্তুত বলে দাবি করা যাবে না।
 
 ## পরবর্তী কাজ
-১. expansion batch-গুলোর অবশিষ্ট all-pairs duplicate cross-check শেষ করা।
+১. expansion batch-গুলোর অবশিষ্ট all-pairs duplicate cross-check সম্পন্ন করা; ১–৫০-এর মূল suite-সংযোগসহ বহু cross-group তুলনা সম্পন্ন, তবে পূর্ণ runtime reconciliation বাকি।
 ২. বাংলা প্রশ্নের উত্তর, option, ব্যাখ্যা, বানান, ambiguity ও factual accuracy audit করা।
 ৩. বাংলা unique final count runtime-এ যাচাই করে স্থির করা।
 ৪. বাংলা + ইংরেজির চূড়ান্ত audit report তৈরি করা; English ৪৬৩ অপরিবর্তিত থাকবে।
