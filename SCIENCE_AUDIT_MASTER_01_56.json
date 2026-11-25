@@ -61,7 +61,7 @@
     "integrated_exact_duplicate_signatures": 0,
     "integrated_missing_source_urls": 0,
     "integrated_invalid_answer_indices": 0,
-    "final_content_audit_status": "REVALIDATION_COMPLETE_PENDING_FINAL_SOURCE_AND_RUNTIME_INTEGRATION_VERIFICATION_NOT_LOCKED",
+    "final_content_audit_status": "LOCKED_CONTENT_AUDIT_SOURCE_RECONCILED_CI_VALIDATED_DEVICE_SMOKE_PENDING",
     "reaudited_expansion_questions_through_batch_20": 36,
     "reaudit_content_verified_through_batch_20": 36,
     "reaudit_exact_duplicates_found_batch_16_20_vs_prior": 0,
@@ -6261,7 +6261,7 @@
   ],
   "source_sequence_note": "Expansion batches 1–56 checked sequentially in five-batch groups; batch 56 contained no General Science items. Repository currently has no expansion batch 57–60. The 130 questions in the original job-prep-suite.js baseline are included for duplicate comparison but still require their own factual/content audit.",
   "reaudit_progress": {
-    "status": "REVALIDATION_COMPLETE_PENDING_FINAL_SOURCE_AND_RUNTIME_INTEGRATION_VERIFICATION_NOT_LOCKED",
+    "status": "LOCKED_CONTENT_AUDIT_SOURCE_RECONCILED_CI_VALIDATED_DEVICE_SMOKE_PENDING",
     "started_on": "2026-11-25",
     "completed_expansion_batches": [
       1,
@@ -6324,8 +6324,8 @@
     "exact_duplicate_crosscheck_against_baseline": 0,
     "exact_duplicates_previously_removed_in_batches_01_05": 3,
     "baseline_questions_factual_reaudit_pending": 0,
-    "next_step": "Verify the baseline and expansion source asset files against the 231-question master, then inspect app/runtime loading and run available validation/CI; only then decide LOCK.",
-    "lock_suspended_until_full_reaudit": true,
+    "next_step": "Science content audit is locked at 248 records. Any content/source edit must reopen the audit. Physical device/emulator smoke test remains a separate pre-release QA item.",
+    "lock_suspended_until_full_reaudit": false,
     "checkpoint": "SCIENCE_BASELINE_REAUDIT_105_130.md",
     "last_comparison": {
       "new_exact_duplicates_between_batches_51_55_and_prior_01_50": 0,
@@ -6375,8 +6375,26 @@
       "missing_source_urls": 0,
       "invalid_answer_indices": 0,
       "source_file_to_master_consistency": "VERIFIED_CORE_QUIZ_FIELDS: 150/150 baseline source entries have matching full signatures and explanations; 17 source variants added as suite_131–suite_147. Expansion: 101/101 retained records match source after seven explanation sync fixes; one excluded duplicate remains in ledger.",
-      "app_runtime_integration": "SCRIPT_ORDER_AND_FULL_SIGNATURE_MERGE_REVIEWED; LATEST_ANDROID_CI_VALIDATION_PASSED; PHYSICAL_DEVICE_OR_EMULATOR_SMOKE_TEST_PENDING",
-      "note": "Baseline source contains 150 science Q() entries. All 150 have exact category/stem/options/keyed-answer signatures represented in the 248-record master, with explanations synchronized (11 baseline source explanations updated). 17 additional active baseline variants were added as suite_131–suite_147. Expansion batches 1–55 contain 102 science candidates: 101 retained master records match source after seven explanation sync fixes; one historical duplicate is documented in duplicate_removals. index.html loads suite and expansion batches 1–56; batches 33+ are merged using full-signature JOB_PREP_QUESTION_KEY. Latest Android CI validation passed; physical device/emulator smoke test remains pending."
+      "app_runtime_integration": "STATIC_RUNTIME_REVIEW_COMPLETE: MainActivity WebView loads index.html with JavaScript and DOM storage enabled; script order and full-signature NFKC dedup reviewed; 15×10 practice level flow, category filter, answer index and +1/−0.25 scoring reviewed; latest CI validation PASSED. Physical device/emulator smoke test not performed.",
+      "note": "Baseline source contains 150 science Q() entries. All 150 have exact category/stem/options/keyed-answer signatures represented in the 248-record master, with explanations synchronized (11 baseline source explanations updated). 17 additional active baseline variants were added as suite_131–suite_147. Expansion batches 1–55 contain 102 science candidates: 101 retained master records match source after seven explanation sync fixes; one historical duplicate is documented in duplicate_removals. index.html loads suite and expansion batches 1–56; batches 33+ are merged using full-signature JOB_PREP_QUESTION_KEY. Latest Android CI validation passed; physical device/emulator smoke test remains pending. Runtime code review confirmed MainActivity loads file:///android_asset/index.html with JavaScript and DOM storage enabled. Practice filters the category bank, orders questions by difficulty, uses 15 levels × 10 questions, reads the keyed answer index, and applies +1/−0.25 scoring. Runtime signature normalization was aligned to NFKC in job-prep-suite.js and index.html fallback. Latest CI run 45680201874 passed all three validation steps. Content audit is locked; manual physical-device smoke test remains a separate pre-release check."
+    },
+    "lock_decision": {
+      "date": "2026-11-26",
+      "scope": "সাধারণ বিজ্ঞান content bank: 248 master records, source-to-master reconciliation, app static runtime review and automated CI validation",
+      "decision": "LOCKED",
+      "evidence": [
+        "248 records: 147 baseline + 101 expansion",
+        "full-set exact duplicate signatures 0",
+        "malformed records 0; missing/invalid source URLs 0; invalid answer indices 0",
+        "150/150 baseline source entries matched full signatures and explanations",
+        "101/101 retained expansion records matched source after 7 explanation syncs",
+        "11 baseline source explanations synchronized",
+        "Android CI run 45680201874: success; content validation, regression safety and release UI/launcher smoke checks all passed",
+        "runtime dedupe normalization aligned with NFKC audit policy"
+      ],
+      "limitations": [
+        "Physical Android device/emulator manual smoke test not performed; this lock is for content audit and automated/static integration, not a final Play Store release sign-off."
+      ]
     }
   }
 }
