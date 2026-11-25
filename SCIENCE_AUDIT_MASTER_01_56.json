@@ -61,7 +61,7 @@
     "integrated_exact_duplicate_signatures": 0,
     "integrated_missing_source_urls": 0,
     "integrated_invalid_answer_indices": 0,
-    "final_content_audit_status": "REVALIDATION_IN_PROGRESS_NOT_LOCKED",
+    "final_content_audit_status": "REVALIDATION_COMPLETE_PENDING_FINAL_INTEGRATED_RECONCILIATION_NOT_LOCKED",
     "reaudited_expansion_questions_through_batch_20": 36,
     "reaudit_content_verified_through_batch_20": 36,
     "reaudit_exact_duplicates_found_batch_16_20_vs_prior": 0,
@@ -73,7 +73,7 @@
     "reaudit_content_verified_through_batch_30": 52,
     "reaudit_exact_duplicates_found_batch_26_30_vs_prior": 0,
     "reaudit_candidate_questions_through_batch_30": 64,
-    "baseline_questions_factual_reaudit_pending": 26,
+    "baseline_questions_factual_reaudit_pending": 0,
     "reaudited_expansion_questions_through_batch_35": 63,
     "reaudit_content_verified_through_batch_35": 63,
     "reaudit_candidate_questions_through_batch_35": 77,
@@ -94,14 +94,15 @@
     "reaudit_content_verified_through_batch_55": 101,
     "reaudit_candidate_questions_through_batch_55": 118,
     "reaudit_exact_duplicates_found_batch_51_55_vs_prior": 0,
-    "baseline_substantive_reaudit_groups_completed": 4,
-    "baseline_substantive_reaudit_questions_verified": 104,
-    "baseline_substantive_reaudit_questions_pending": 26,
-    "reaudit_total_questions_substantively_verified": 205,
+    "baseline_substantive_reaudit_groups_completed": 5,
+    "baseline_substantive_reaudit_questions_verified": 130,
+    "baseline_substantive_reaudit_questions_pending": 0,
+    "reaudit_total_questions_substantively_verified": 231,
     "baseline_reaudit_exact_duplicates_group_01_26": 0,
     "baseline_reaudit_exact_duplicates_group_27_52": 0,
     "baseline_reaudit_exact_duplicates_group_53_78": 0,
-    "baseline_reaudit_exact_duplicates_group_79_104": 0
+    "baseline_reaudit_exact_duplicates_group_79_104": 0,
+    "baseline_reaudit_exact_duplicates_group_105_130": 0
   },
   "duplicate_removals": [
     {
@@ -2933,7 +2934,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2637791/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_106",
@@ -2950,7 +2960,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK421/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_107",
@@ -2967,7 +2986,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminC-Consumer/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_108",
@@ -2984,7 +3012,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://ods.od.nih.gov/factsheets/iron-healthprofessional/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_109",
@@ -3001,7 +3038,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-chloride",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_110",
@@ -3018,7 +3064,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://periodic-table.rsc.org/element/80/Mercury",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_111",
@@ -3035,7 +3090,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_112",
@@ -3052,7 +3116,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_113",
@@ -3069,7 +3142,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK542254/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_114",
@@ -3086,7 +3168,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK542251/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_115",
@@ -3103,7 +3194,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK613070/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_116",
@@ -3120,7 +3220,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279249/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_117",
@@ -3137,7 +3246,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482510/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_118",
@@ -3154,7 +3272,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.noaa.gov/jetstream/atmosphere",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_119",
@@ -3171,7 +3298,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.noaa.gov/jetstream/atmosphere",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_120",
@@ -3188,7 +3324,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://science.nasa.gov/venus/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_121",
@@ -3205,7 +3350,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://science.nasa.gov/sun/facts/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_122",
@@ -3222,7 +3376,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://spark.iop.org/conductivity-electrical",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_123",
@@ -3239,7 +3402,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/dry-ice",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_124",
@@ -3256,7 +3428,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.usgs.gov/water-science-school/science/ph-and-water",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_125",
@@ -3273,7 +3454,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK542172/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_126",
@@ -3290,7 +3480,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459261/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_127",
@@ -3307,7 +3506,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK470328/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_128",
@@ -3324,7 +3532,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK482338/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_129",
@@ -3341,7 +3558,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://medlineplus.gov/lab-tests/thyroxine-t4-test/",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_130",
@@ -3358,7 +3584,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
       "audit_status": "content_checked_baseline_group_105_130",
-      "audit_group": "baseline_105_130"
+      "audit_group": "baseline_105_130",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_105_130",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_016",
@@ -5584,7 +5819,7 @@
   ],
   "source_sequence_note": "Expansion batches 1–56 checked sequentially in five-batch groups; batch 56 contained no General Science items. Repository currently has no expansion batch 57–60. The 130 questions in the original job-prep-suite.js baseline are included for duplicate comparison but still require their own factual/content audit.",
   "reaudit_progress": {
-    "status": "IN_PROGRESS_NOT_LOCKED",
+    "status": "REVALIDATION_COMPLETE_PENDING_FINAL_INTEGRATED_RECONCILIATION_NOT_LOCKED",
     "started_on": "2026-11-25",
     "completed_expansion_batches": [
       1,
@@ -5646,10 +5881,10 @@
     "retained_expansion_questions_reaudited": 101,
     "exact_duplicate_crosscheck_against_baseline": 0,
     "exact_duplicates_previously_removed_in_batches_01_05": 3,
-    "baseline_questions_factual_reaudit_pending": 26,
-    "next_step": "Re-audit baseline questions 105-130 and compare against consolidated baseline 01-104 plus expansion batches 01-55.",
+    "baseline_questions_factual_reaudit_pending": 0,
+    "next_step": "Perform final integrated reconciliation across all 130 baseline and 101 expansion retained questions: exact duplicates, malformed records, missing source URLs, invalid answer indices, source consistency and code/runtime integration; do not lock until verified.",
     "lock_suspended_until_full_reaudit": true,
-    "checkpoint": "SCIENCE_BASELINE_REAUDIT_79_104.md",
+    "checkpoint": "SCIENCE_BASELINE_REAUDIT_105_130.md",
     "last_comparison": {
       "new_exact_duplicates_between_batches_51_55_and_prior_01_50": 0,
       "duplicate_copies_already_removed_in_source_and_master": [],
@@ -5668,29 +5903,33 @@
       "01-26",
       "27-52",
       "53-78",
-      "79-104"
+      "79-104",
+      "105-130"
     ],
-    "baseline_questions_reaudited": 104,
-    "total_questions_substantively_reaudited": 205,
+    "baseline_questions_reaudited": 130,
+    "total_questions_substantively_reaudited": 231,
     "last_baseline_comparison": {
-      "baseline_group": "79-104",
+      "baseline_group": "105-130",
       "candidates": 26,
       "retained": 26,
       "exact_duplicates_within_group": 0,
       "exact_duplicates_against_all_other_master_questions": 0,
       "corrections": 0,
       "conceptual_overlap_flags": [
-        "suite_79 vs suite_9: atmospheric nitrogen is the most abundant gas; stem/options differ.",
-        "suite_81 vs suite_11/suite_38/suite_66 and expansion insulin questions: insulin regulates blood glucose; different stems/options.",
-        "suite_83 vs suite_16 and expansion vitamin K questions: vitamin K and clotting; different stems/options.",
-        "suite_84 vs suite_27/suite_39 and expansion mitochondria questions: cellular respiration/ATP production; different stems/options.",
-        "suite_87 vs suite_35/suite_65/suite_74 and expansion xylem questions: water transport in plants.",
-        "suite_88 vs suite_103: both ask that phloem transports prepared food; stems differ slightly but options and answer are the same, so retain under strict exact-stem duplicate rule and flag as near-duplicate.",
-        "suite_97 vs suite_1 and expansion RBC questions: hemoglobin/RBC oxygen transport; related but distinct stems.",
-        "suite_100 vs suite_18/suite_40/suite_49 and expansion blood-pH questions: normal blood pH around 7.4.",
-        "suite_101 vs blood-group/compatibility material: O-negative is the conventional emergency red-cell donor, not universal whole-blood donor; crossmatching remains important."
+        "suite_105 vs lemon/citrus fruit acid questions: citric acid; no identical stem/options.",
+        "suite_107 vs suite_4: vitamin C deficiency causes scurvy; wording/options differ.",
+        "suite_110 vs suite_29/suite_68: mercury liquid at room temperature; different option sets.",
+        "suite_111 vs suite_78 and photosynthesis questions: chlorophyll absorbs light; related but different stems/options.",
+        "suite_113 vs suite_102 and digestive-system questions: bile produced in liver and emulsifies fats; distinct physiological questions.",
+        "suite_118 vs suite_79/suite_9: nitrogen is the most abundant atmospheric gas; options/order and stem differ.",
+        "suite_119 vs atmospheric composition questions: oxygen about 21%; distinct fact.",
+        "suite_124 vs suite_25/suite_61: acidic solutions have pH below 7 at 25°C; different stems/options.",
+        "suite_125 vs suite_56/suite_64/suite_77: adult RBCs produced in red bone marrow; distinct stems/options.",
+        "suite_126 vs insulin questions: pancreas secretes insulin and glucagon from different islet cell types; broader distinct fact.",
+        "suite_129 vs suite_21: thyroid produces thyroxine; wording/options differ.",
+        "suite_130: cellulose is the principal structural component of plant cell walls; distinct question."
       ],
-      "policy": "Exact duplicate deletion requires same normalized category, exact normalized question stem, complete sorted option set and keyed answer. Conceptual or near-duplicate items with changed stems/options are retained and flagged."
+      "policy": "Exact duplicate deletion requires same normalized category, exact normalized question stem, complete sorted option set and keyed answer. Conceptual repeats with changed stems/options are retained and flagged."
     }
   }
 }
