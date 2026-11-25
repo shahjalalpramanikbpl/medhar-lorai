@@ -522,3 +522,10 @@
 - Replacement draft মোট ৫২; অবশিষ্ট reversible candidate 131; permanent deletion ০।
 - **Math LOCKED নয়**; পূর্ণ QA, distractor redesign ও app integration validation বাকি।
 - রিপোর্ট: `MATH_CANDIDATE_REWRITE_GROUP_31_40.md`।
+
+
+## গণিত — Group 31–40 ledger reconciliation (২৬ নভেম্বর ২০২৬)
+- পূর্ববর্তী group update-এ exclusion ledger count পুরোনো অবস্থায় রয়ে গিয়েছিল; question-level status থেকে ledger পুনর্গঠন করে সংশোধন করা হয়েছে।
+- Verified question statuses: provisional retain **১৬৯**, replacement draft **৫২**, remaining reversible exclusion candidate **৭৯**; permanent deletion **০**।
+- Exclusion ledger এখন ৭৯টি candidate ID-এর সঙ্গে question-level status-এর হুবহু মিল রয়েছে। Replacement registry-তে ৫২টি draft ID রয়েছে।
+- Master source SHA: `63e477294446260dc0e16a06c5f3eac45af1c46e`; runtime source SHA-এর সঙ্গে মিলেছে। গণিত এখনো **NOT LOCKED**।
