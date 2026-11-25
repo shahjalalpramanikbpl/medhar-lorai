@@ -431,7 +431,8 @@ const additions=[
     "e": "২০২৬–২৭ অর্থবছরের বাজেটের আকার ৯.৩৮ ট্রিলিয়ন টাকা বা ৯ লাখ ৩৮ হাজার কোটি টাকা।",
     "source": "জাতীয় বাজেট",
     "sourceUrl": "https://customs.gov.bd/files/BudgetSpeech_2026_2027_E.pdf",
-    "d": ""
+    "d": "মাঝারি"
+    "sourceDate": "2026-06-11"
   },
   {
     "id": "extra_576",
@@ -447,7 +448,8 @@ const additions=[
     "e": "২০২৬–২৭ অর্থবছরের বাজেটে GDP প্রবৃদ্ধির লক্ষ্য ৬.৫ শতাংশ উল্লেখ করা হয়েছে।",
     "source": "জাতীয় বাজেট",
     "sourceUrl": "https://www.reuters.com/world/asia-pacific/bangladesh-unveils-77-billion-budget-eyes-65-growth-2026-06-11/",
-    "d": ""
+    "d": "মাঝারি"
+    "sourceDate": "2026-06-11"
   },
   {
     "id": "extra_577",
@@ -462,8 +464,9 @@ const additions=[
     "a": 2,
     "e": "২০২৬ সালের ১২ ফেব্রুয়ারি ত্রয়োদশ জাতীয় সংসদ নির্বাচন অনুষ্ঠিত হয়।",
     "source": "জাতীয় নির্বাচন",
-    "sourceUrl": "https://www.gov.uk/government/publications/bangladesh-country-policy-and-information-notes/country-policy-and-information-note-political-situation-bangladesh-october-2026-accessible",
-    "d": ""
+    "sourceUrl": "https://data.ipu.org/parliament/BD/BD-LC01/election/BD-LC01-E20260212/",
+    "d": "মাঝারি"
+    "sourceDate": "2026-02-12"
   },
   {
     "id": "extra_578",
@@ -479,7 +482,8 @@ const additions=[
     "e": "২০২৬ সালের ১৭ ফেব্রুয়ারি তারেক রহমান প্রধানমন্ত্রী হিসেবে শপথ নেন।",
     "source": "সরকার গঠন",
     "sourceUrl": "https://apnews.com/article/fbc4222e01bbc5aa7ac120801218ef24",
-    "d": ""
+    "d": "মাঝারি"
+    "sourceDate": "2026-02-17"
   },
   {
     "id": "extra_579",
@@ -494,8 +498,9 @@ const additions=[
     "a": 2,
     "e": "জাতিসংঘের সাধারণ পরিষদ বাংলাদেশের LDC উত্তরণের প্রস্তুতিকাল ২৪ নভেম্বর ২০২৯ পর্যন্ত বাড়ায়।",
     "source": "LDC উত্তরণ",
-    "sourceUrl": "https://epfs.thedailystar.net/TDS/2026/11/01/Bangladesh/MAI/01112026-CTG-Chattogram-Edition-3d21b8ee.pdf",
-    "d": ""
+    "sourceUrl": "https://digitallibrary.un.org/record/4132162/files/A_RES_81_8-EN.pdf",
+    "d": "মাঝারি"
+    "sourceDate": "2026-10-29"
   },
   {
     "id": "extra_580",
