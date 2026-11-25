@@ -69,6 +69,11 @@ const exams = sandbox.window.JOB_PREP_EXAMS || [];
 const mathUnique = new Set(math.map(x => normalize(x.q)));
 const subjectNames = new Set(subjectBank.map(x => x.c).filter(name => name !== "গণিত" && name !== "Math"));
 const englishGrammar = subjectBank.filter(x => x.c === "English");
+const bengaliSubjectQuestions = subjectBank.filter(x => x.c === "বাংলা ভাষা ও সাহিত্য");
+const bengaliExactKeys = new Set(bengaliSubjectQuestions.map(questionSignature));
+const bengaliMalformed = bengaliSubjectQuestions.filter(x => !x.q || !Array.isArray(x.o) || x.o.length !== 4 || !Number.isInteger(x.a) || x.a < 0 || x.a > 3 || new Set(x.o.map(normalize)).size !== 4);
+if (bengaliMalformed.length) errors.push("Bengali subject bank contains malformed questions: " + bengaliMalformed.length);
+if (bengaliExactKeys.size !== bengaliSubjectQuestions.length) errors.push("Bengali subject bank contains exact duplicate questions.");
 if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank must contain at least 50 questions.");
 if (new Set(englishGrammar.map(questionSignature)).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains exact duplicate questions.");
 if (new Set(subjectBank.map(questionSignature)).size !== subjectBank.length) errors.push("Subject bank contains exact duplicate questions.");
@@ -157,6 +162,7 @@ const averageExample = math.find(x => x.level === 1 && x.q.includes("৭টি �
 if (!averageExample || Number(averageExample.expected) !== 84 || Number(String(averageExample.o[averageExample.a]).replace(/[০-৯]/g, d => String("০১২৩৪৫৬৭৮৯".indexOf(d)))) !== 84) errors.push("Math level 1: average of 7 numbers with mean 12 must equal 84 and be present as the keyed option.");
 if (math.some(x => x.q.includes("ক একজন"))) errors.push("Math bank: malformed wording 'ক একজন' must be corrected.");
 console.log("Math questions:", math.length, "| Levels:", levels.length, "| Subject questions:", subjectBank.length, "| Model tests:", exams.length);
+console.log("Bengali subject questions:", bengaliSubjectQuestions.length, "| Bengali malformed:", bengaliMalformed.length, "| Bengali exact duplicates:", bengaliSubjectQuestions.length - bengaliExactKeys.size);
 
 
 const homeButtonCheck = fs.readFileSync("app/src/main/assets/index.html", "utf8");
