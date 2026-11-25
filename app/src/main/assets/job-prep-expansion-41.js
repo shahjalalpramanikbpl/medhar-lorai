@@ -1,7 +1,7 @@
 /* মেধার লড়াই — চাকরি প্রস্তুতি প্রশ্নব্যাংক সম্প্রসারণ ব্যাচ ৪১ */
 (()=>{'use strict';
 const additions=[
-    {
+  {
     "id": "extra_1397",
     "c": "বাংলা ভাষা ও সাহিত্য",
     "q": "‘অগ্নিবীণা’ কাব্যগ্রন্থের রচয়িতা কে?",
@@ -31,7 +31,7 @@ const additions=[
     "source": "বাংলা ভাষা — এক কথায় প্রকাশ",
     "d": "মাঝারি"
   },
-    {
+  {
     "id": "extra_1400",
     "c": "English",
     "q": "Choose the correctly spelt word.",
@@ -61,7 +61,7 @@ const additions=[
     "source": "English Grammar — Subject-verb agreement",
     "d": "মাঝারি"
   },
-          {
+  {
     "id": "extra_1406",
     "c": "সাধারণ বিজ্ঞান",
     "q": "মানব রক্তের লোহিত কণিকার প্রধান কাজ কী?",
@@ -74,7 +74,9 @@ const additions=[
     "a": 1,
     "e": "লোহিত রক্তকণিকার হিমোগ্লোবিন ফুসফুস থেকে দেহের কোষে অক্সিজেন বহন করে।",
     "source": "জীববিজ্ঞান — রক্ত",
-    "d": "সহজ"
+    "d": "সহজ",
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279392/",
+    "auditStatus": "content_checked_batches_41_45"
   },
   {
     "id": "extra_1407",
@@ -89,9 +91,11 @@ const additions=[
     "a": 2,
     "e": "কার্বন ডাই-অক্সাইড চুনের পানির সঙ্গে বিক্রিয়া করে অদ্রবণীয় ক্যালসিয়াম কার্বনেট তৈরি করে, ফলে পানি সাদা হয়।",
     "source": "রসায়ন — গ্যাস শনাক্তকরণ",
-    "d": "মাঝারি"
+    "d": "মাঝারি",
+    "sourceUrl": "https://edu.rsc.org/experiments/testing-for-negative-ions/758.article",
+    "auditStatus": "content_checked_batches_41_45"
   },
-    {
+  {
     "id": "extra_1409",
     "c": "কম্পিউটার ও ICT",
     "q": "কোন মেমোরি বিদ্যুৎ সংযোগ বিচ্ছিন্ন হলে সাধারণত তথ্য হারায়?",
@@ -136,7 +140,7 @@ const additions=[
     "source": "সংখ্যার ধারা",
     "d": "মাঝারি"
   },
-    {
+  {
     "id": "extra_1413",
     "c": "মানসিক দক্ষতা ও IQ",
     "q": "যদি CAT = ২৪ এবং DOG = ২৬ হয় (অক্ষরগুলোর বর্ণমালার অবস্থানের যোগফল), তবে BAT = কত?",
