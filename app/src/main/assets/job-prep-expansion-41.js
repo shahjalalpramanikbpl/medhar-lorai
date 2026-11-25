@@ -46,22 +46,7 @@ const additions=[
     "source": "বাংলা ভাষা — এক কথায় প্রকাশ",
     "d": "মাঝারি"
   },
-  {
-    "id": "extra_1399",
-    "c": "English",
-    "q": "Choose the correct passive form: 'They are building a bridge.'",
-    "o": [
-      "A bridge is built by them.",
-      "A bridge was being built by them.",
-      "A bridge is being built by them.",
-      "A bridge has been built by them."
-    ],
-    "a": 2,
-    "e": "Present continuous tense-এর passive: am/is/are + being + past participle।",
-    "source": "English Grammar — Voice",
-    "d": "মাঝারি"
-  },
-  {
+    {
     "id": "extra_1400",
     "c": "English",
     "q": "Choose the correctly spelt word.",
@@ -121,22 +106,7 @@ const additions=[
     "source": "আন্তর্জাতিক বিষয়াবলি — জাতিসংঘ",
     "d": "সহজ"
   },
-  {
-    "id": "extra_1404",
-    "c": "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",
-    "q": "বাংলাদেশের একমাত্র প্রবাল দ্বীপ কোনটি?",
-    "o": [
-      "সন্দ্বীপ",
-      "মহেশখালী",
-      "সেন্ট মার্টিন",
-      "কুতুবদিয়া"
-    ],
-    "a": 2,
-    "e": "সেন্ট মার্টিন বাংলাদেশের একমাত্র প্রবাল দ্বীপ হিসেবে পরিচিত।",
-    "source": "বাংলাদেশ ভূগোল",
-    "d": "সহজ"
-  },
-  {
+    {
     "id": "extra_1405",
     "c": "সাধারণ বিজ্ঞান",
     "q": "শব্দ কোন মাধ্যমে চলতে পারে না?",
