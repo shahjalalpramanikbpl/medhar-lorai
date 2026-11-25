@@ -8,7 +8,7 @@
     "batches_01_05_science_candidates": 17,
     "exact_duplicates_removed": 3,
     "new_unique_questions_retained": 14,
-    "total_unique_questions_for_future_comparison": 232,
+    "total_unique_questions_for_future_comparison": 231,
     "content_verified_expansion_questions": 102,
     "baseline_content_audit_pending": 0,
     "malformed_retained_expansion_entries": 0,
@@ -22,8 +22,8 @@
     "batches_16_20_exact_duplicates_removed": 1,
     "batches_16_20_retained": 7,
     "batches_21_25_science_candidates": 16,
-    "batches_21_25_exact_duplicates_removed": 2,
-    "batches_21_25_retained": 14,
+    "batches_21_25_exact_duplicates_removed": 3,
+    "batches_21_25_retained": 13,
     "batches_26_30_science_candidates": 6,
     "batches_26_30_exact_duplicates_removed": 3,
     "batches_26_30_retained": 3,
@@ -54,8 +54,8 @@
     "baseline_group_79_104_questions": 26,
     "baseline_group_105_130_questions": 26,
     "total_expansion_science_candidates": 119,
-    "total_expansion_exact_duplicates_removed": 17,
-    "total_expansion_unique_retained": 102,
+    "total_expansion_exact_duplicates_removed": 18,
+    "total_expansion_unique_retained": 101,
     "integrated_reconciliation_questions": 232,
     "integrated_malformed_questions": 0,
     "integrated_exact_duplicate_signatures": 0,
@@ -65,7 +65,10 @@
     "reaudited_expansion_questions_through_batch_20": 36,
     "reaudit_content_verified_through_batch_20": 36,
     "reaudit_exact_duplicates_found_batch_16_20_vs_prior": 0,
-    "reaudit_last_completed_expansion_batch": 20
+    "reaudit_last_completed_expansion_batch": 25,
+    "reaudited_expansion_questions_through_batch_25": 49,
+    "reaudit_content_verified_through_batch_25": 49,
+    "reaudit_exact_duplicates_found_batch_21_25_vs_prior": 1
   },
   "duplicate_removals": [
     {
@@ -169,6 +172,12 @@
       "batch": 39,
       "duplicate_of": "suite_45",
       "reason": "NFKC compatibility normalization maps B₁ to B1; normalized category, question, complete option set and keyed correct answer are identical."
+    },
+    {
+      "id": "extra_890",
+      "batch": 25,
+      "duplicate_of": "extra_786",
+      "reason": "Same pH question, same four-option set after Bengali orthographic normalization (অম্লীয়/অম্লীয়; ক্ষারীয়/ক্ষারীয়), and same keyed answer; option order differs only."
     }
   ],
   "questions": [
@@ -3347,24 +3356,6 @@
       "e": "বৃক্ক রক্ত থেকে বর্জ্য পদার্থ ছেঁকে বের করে।",
       "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
       "sourceUrl": "https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-tract-how-it-works",
-      "d": "মাঝারি",
-      "audit_status": "content_checked_batches_21_25",
-      "audit_batch": 25
-    },
-    {
-      "id": "extra_890",
-      "c": "সাধারণ বিজ্ঞান",
-      "q": "pH মান ৭-এর কম হলে দ্রবণটি কেমন?",
-      "o": [
-        "ক্ষারীয়",
-        "অম্লীয়",
-        "নিরপেক্ষ",
-        "লবণাক্ত"
-      ],
-      "a": 1,
-      "e": "pH ৭-এর কম হলে দ্রবণ অম্লীয়।",
-      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-      "sourceUrl": "https://www.usgs.gov/water-science-school/science/ph-and-water",
       "d": "মাঝারি",
       "audit_status": "content_checked_batches_21_25",
       "audit_batch": 25
