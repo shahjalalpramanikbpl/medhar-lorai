@@ -74,6 +74,9 @@ const bengaliExactKeys = new Set(bengaliSubjectQuestions.map(questionSignature))
 const bengaliMalformed = bengaliSubjectQuestions.filter(x => !x.q || !Array.isArray(x.o) || x.o.length !== 4 || !Number.isInteger(x.a) || x.a < 0 || x.a > 3 || new Set(x.o.map(normalize)).size !== 4);
 if (bengaliMalformed.length) errors.push("Bengali subject bank contains malformed questions: " + bengaliMalformed.length);
 if (bengaliExactKeys.size !== bengaliSubjectQuestions.length) errors.push("Bengali subject bank contains exact duplicate questions.");
+// Locked audited banks: do not alter the 406 Bengali or 463 English questions without an explicit new audit.
+if (bengaliSubjectQuestions.length !== 406) errors.push("Locked Bengali subject bank must remain exactly 406 questions.");
+if (englishGrammar.length !== 463) errors.push("Locked English grammar/vocabulary bank must remain exactly 463 questions.");
 if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank must contain at least 50 questions.");
 if (new Set(englishGrammar.map(questionSignature)).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains exact duplicate questions.");
 if (new Set(subjectBank.map(questionSignature)).size !== subjectBank.length) errors.push("Subject bank contains exact duplicate questions.");
