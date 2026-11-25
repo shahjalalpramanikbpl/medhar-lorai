@@ -160,3 +160,7 @@
 - নতুন সাধারণ কুইজ প্রশ্ন সংযোজনের পর মূল কুইজ ব্যাংকের duplicate filter সক্রিয় ছিল; চূড়ান্ত ১,০১৭ গণনা runtime unique question count।
 - APK build/upload ধাপ এই run-এ skipped ছিল; তাই CI validation সফল হলেও নতুন APK তৈরি হয়েছে—এমন দাবি করা হচ্ছে না।
 - পরবর্তী পরিবর্তন: নতুন সাধারণ জ্ঞান সংযোজন বা বাংলা/ইংরেজি locked ব্যাংকে কোনো পরিবর্তন করার আগে আলাদা অনুমোদন ও পুনঃঅডিট আবশ্যক।
+
+
+## Android build trigger — ২৫ নভেম্বর ২০২৬
+- ব্যবহারকারীর নির্দেশে validation সফল হওয়ার পর Android Debug APK, signed Release APK এবং Play Store AAB তৈরির workflow trigger করা হয়েছে। Build সফল ও artifacts প্রকাশিত না হওয়া পর্যন্ত APK প্রস্তুত বলে গণ্য হবে না।
