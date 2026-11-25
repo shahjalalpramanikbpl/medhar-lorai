@@ -289,3 +289,13 @@
 - Baseline ১৩০টি প্রশ্নের প্রকৃত factual re-audit এখনো বাকি; সাধারণ বিজ্ঞান **REVALIDATION_IN_PROGRESS_NOT_LOCKED**।
 - বিস্তারিত: SCIENCE_REAUDIT_BATCH_26_30.md; master: SCIENCE_AUDIT_MASTER_01_56.json।
 - পরবর্তী ধাপ: Expansion Batch ৩১–৩৫।
+
+
+## সাধারণ বিজ্ঞান — প্রকৃত পুনঃযাচাই checkpoint: Expansion Batch ৩১–৩৫ (২৬ নভেম্বর ২০২৬)
+- Candidate ১৩টি; আগে থেকেই exact duplicate হিসেবে বাদ ২টি: extra_1133→suite_104, extra_1221→suite_86; retained ১১টি।
+- retained ১১টির তথ্য, চারটি অপশন, keyed answer ও ব্যাখ্যা পুনরায় পরীক্ষা; extra_1223-এর wording নির্ভুল করা হয়েছে, extra_1138-এর ব্যাখ্যা স্পষ্ট করা হয়েছে।
+- Batch ১–৩০-এর সঙ্গে তুলনায় নতুন exact duplicate ০; তিনটি conceptual overlap flag master-এ সংরক্ষিত।
+- Expansion Batch ১–৩৫-এ substantive re-audit সম্পন্ন retained প্রশ্ন **৬৩টি**; মোট candidate **৭৭টি**।
+- Baseline ১৩০টির প্রকৃত substantive re-audit বাকি; অবস্থা **REVALIDATION_IN_PROGRESS_NOT_LOCKED**।
+- বিস্তারিত: SCIENCE_REAUDIT_BATCH_31_35.md; master: SCIENCE_AUDIT_MASTER_01_56.json।
+- পরবর্তী ধাপ: Expansion Batch ৩৬–৪০।
