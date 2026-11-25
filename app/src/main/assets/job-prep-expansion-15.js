@@ -1,6 +1,6 @@
 /* মেধার লড়াই — চাকরি প্রস্তুতি প্রশ্নব্যাংক সম্প্রসারণ ব্যাচ ১৫ */
 (()=>{'use strict';
-const additions=[
+const additions = [
   {
     "id": "extra_545",
     "c": "বাংলা ভাষা ও সাহিত্য",
@@ -222,8 +222,9 @@ const additions=[
     "a": 1,
     "e": "অগ্ন্যাশয়ের ল্যাঙ্গারহ্যান্সের দ্বীপের বিটা কোষ ইনসুলিন নিঃসরণ করে।",
     "source": "জীববিজ্ঞান",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459261/",
+    "d": "",
+    "auditStatus": "content_checked_batches_11_15"
   },
   {
     "id": "extra_563",
@@ -238,8 +239,9 @@ const additions=[
     "a": 1,
     "e": "পাতার পত্ররন্ধ্র দিয়ে উদ্ভিদের অধিকাংশ জলীয় বাষ্প বের হয়।",
     "source": "উদ্ভিদবিজ্ঞান",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://openstax.org/books/biology/pages/30-5-transport-of-water-and-solutes-in-plants",
+    "d": "",
+    "auditStatus": "content_checked_batches_11_15"
   },
   {
     "id": "extra_564",
