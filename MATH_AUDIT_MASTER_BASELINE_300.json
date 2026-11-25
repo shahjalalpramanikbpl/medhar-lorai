@@ -4,7 +4,7 @@
   "status": "FINAL_CONSOLIDATION_IN_PROGRESS",
   "source": {
     "path": "app/src/main/assets/math-levels.js",
-    "blobSha": "b2f51181c645a19b9489ae9d12459ad09987c689"
+    "blobSha": "63e477294446260dc0e16a06c5f3eac45af1c46e"
   },
   "scope": {
     "questionCount": 300,
@@ -4871,32 +4871,32 @@
     {
       "id": "math_L16_Q6",
       "c": "গণিত · ঐকিক নিয়ম",
-      "q": "একটি পণ্যের দাম ১৯ টাকা হলে ২০টি পণ্যের দাম কত?",
+      "q": "৬টি মেশিন ৫ ঘণ্টায় ৯০০টি পণ্য তৈরি করে। একই হারে ৮টি মেশিন ৭ ঘণ্টায় কতটি পণ্য তৈরি করবে?",
       "o": [
-        "৪১৮",
-        "৩৪২",
-        "৪৫৬",
-        "৩৮০"
+        "১,৫৪০",
+        "১,৬৮০",
+        "১,৭২০",
+        "১,৮০০"
       ],
-      "a": 3,
+      "a": 1,
       "level": 16,
       "d": "মাঝারি",
       "topic": "ঐকিক নিয়ম",
-      "e": "একটির দাম ১৯ টাকা; ১৯ × ২০ = ৩৮০ টাকা।",
-      "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
-      "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
-      "expected": 380,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_11_20",
+      "e": "প্রতি মেশিন-ঘণ্টায় উৎপাদন = ৯০০ ÷ (৬×৫) = ৩০টি। নতুন উৎপাদন = ৮×৭×৩০ = ১,৬৮০টি।",
+      "formula": "উৎপাদন = মেশিন × ঘণ্টা × প্রতি মেশিন-ঘণ্টার উৎপাদন",
+      "shortcut": "আগে এক মেশিনের এক ঘণ্টার উৎপাদন বের করুন; তারপর নতুন মেশিন-ঘণ্টায় গুণ করুন।",
+      "expected": 1680,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_31_40",
       "auditChecks": {
-        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
-        "explanationConsistency": "PASS — explanation method and rounded result consistent",
-        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
-        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
-        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — multi-step applied question for levels 16–18",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
+      "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L16_Q7",
@@ -4961,32 +4961,32 @@
     {
       "id": "math_L16_Q9",
       "c": "গণিত · বয়স",
-      "q": "পিতা ও সন্তানের বর্তমান বয়সের যোগফল ২৫২ বছর। পিতার বয়স সন্তানের ৫ গুণ। সন্তানের বয়স কত?",
+      "q": "একজন পিতার বর্তমান বয়স তাঁর ছেলের ৪ গুণ। ৫ বছর পর তাঁদের বয়সের যোগফল ৬৫ বছর হবে। ছেলের বর্তমান বয়স কত?",
       "o": [
-        "৪৬.২",
-        "৩৭.৮",
-        "৫০.৪",
-        "৪২"
+        "১০",
+        "১১",
+        "১২",
+        "১৩"
       ],
-      "a": 3,
+      "a": 1,
       "level": 16,
       "d": "মাঝারি",
       "topic": "বয়স",
-      "e": "মোট বয়সের অংশ ৬; সন্তানের বয়স = ২৫২ ÷ ৬ = ৪২ বছর।",
-      "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
-      "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
-      "expected": 42,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_11_20",
+      "e": "৫ বছর পর মোট ৬৫; বর্তমান মোট=৬৫−১০=৫৫। ৫x=৫৫; ছেলের বয়স=১১ বছর।",
+      "formula": "বর্তমান মোট বয়স = ভবিষ্যৎ মোট − দুজনের যোগ করা বয়স; পিতা=৪x, ছেলে=x",
+      "shortcut": "ভবিষ্যৎ মোট থেকে দুজনের জন্য ৫+৫ বছর বাদ দিন।",
+      "expected": 11,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_31_40",
       "auditChecks": {
-        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
-        "explanationConsistency": "PASS — explanation method and rounded result consistent",
-        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
-        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
-        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — multi-step applied question for levels 16–18",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
+      "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L16_Q10",
@@ -5081,32 +5081,32 @@
     {
       "id": "math_L17_Q3",
       "c": "গণিত · গড়",
-      "q": "৯টি সংখ্যার গড় ৪৪। সংখ্যাগুলোর মোট যোগফল কত?",
+      "q": "১০ জনের গড় নম্বর ৫৮। একজনের ৪২ নম্বরের বদলে ৬২ লেখা হয়েছিল। সংশোধনের পর সঠিক গড় কত?",
       "o": [
-        "৪৩৫.৬",
-        "৩৯৬",
-        "৪৭৫.২",
-        "৩৫৬.৪"
+        "৫৪",
+        "৫৫",
+        "৫৬",
+        "৫৭"
       ],
-      "a": 1,
+      "a": 2,
       "level": 17,
       "d": "মাঝারি",
       "topic": "গড়",
-      "e": "৪৪ × ৯ = ৩৯৬।",
-      "formula": "মোট যোগফল = গড় × পদসংখ্যা",
-      "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
-      "expected": 396,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_11_20",
+      "e": "ভুল মোট=১০×৫৮=৫৮০। সঠিক মোট=৫৮০−৬২+৪২=৫৬০। সঠিক গড়=৫৬০÷১০=৫৬।",
+      "formula": "সঠিক গড় = (ভুল মোট − ভুলভাবে বেশি লেখা নম্বর + প্রকৃত নম্বর) ÷ শিক্ষার্থীসংখ্যা",
+      "shortcut": "ভুল মোট থেকে অতিরিক্ত ২০ নম্বর বাদ দিয়ে নতুন গড় বের করুন।",
+      "expected": 56,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_31_40",
       "auditChecks": {
-        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
-        "explanationConsistency": "PASS — explanation method and rounded result consistent",
-        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
-        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
-        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — multi-step applied question for levels 16–18",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
+      "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L17_Q4",
@@ -5141,32 +5141,32 @@
     {
       "id": "math_L17_Q5",
       "c": "গণিত · ঐকিক নিয়ম",
-      "q": "একটি পণ্যের দাম ২০ টাকা হলে ২১টি পণ্যের দাম কত?",
+      "q": "৫টি পাম্প ৮ ঘণ্টায় একটি জলাধারের ৪০% পানি সরায়। একই হারে ৮টি পাম্প ৬ ঘণ্টায় কত শতাংশ পানি সরাবে?",
       "o": [
-        "৩৭৮",
-        "৫০৪",
-        "৪৬২",
-        "৪২০"
+        "৪৫%",
+        "৪৮%",
+        "৫০%",
+        "৫২%"
       ],
-      "a": 3,
+      "a": 1,
       "level": 17,
       "d": "মাঝারি",
       "topic": "ঐকিক নিয়ম",
-      "e": "একটির দাম ২০ টাকা; ২০ × ২১ = ৪২০ টাকা।",
-      "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
-      "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
-      "expected": 420,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_11_20",
+      "e": "৫×৮=৪০ পাম্প-ঘণ্টায় ৪০% কাজ; প্রতি পাম্প-ঘণ্টায় ১%। ৮×৬=৪৮ পাম্প-ঘণ্টায় ৪৮%।",
+      "formula": "কাজ ∝ পাম্পের সংখ্যা × সময়",
+      "shortcut": "প্রথমে প্রতি পাম্প-ঘণ্টার কাজ নির্ণয় করুন।",
+      "expected": 48,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_31_40",
       "auditChecks": {
-        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
-        "explanationConsistency": "PASS — explanation method and rounded result consistent",
-        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
-        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
-        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — multi-step applied question for levels 16–18",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
+      "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L17_Q6",
@@ -5201,62 +5201,62 @@
     {
       "id": "math_L17_Q7",
       "c": "গণিত · সময়-দূরত্ব",
-      "q": "ঘণ্টায় ১০৫ কিমি বেগে ৪ ঘণ্টায় কত দূরত্ব অতিক্রম করবে?",
+      "q": "একটি গাড়ি প্রথম ১২০ কিমি ৬০ কিমি/ঘণ্টা এবং পরের ১৮০ কিমি ৯০ কিমি/ঘণ্টা বেগে চলে। পুরো যাত্রার গড় বেগ কত?",
       "o": [
-        "৪২০",
-        "৩৭৮",
-        "৫০৪",
-        "৪৬২"
+        "৭০",
+        "৭২",
+        "৭৫",
+        "৮০"
       ],
-      "a": 0,
+      "a": 2,
       "level": 17,
       "d": "মাঝারি",
       "topic": "সময়-দূরত্ব",
-      "e": "১০৫ × ৪ = ৪২০ কিমি।",
-      "formula": "দূরত্ব = বেগ × সময়",
-      "shortcut": "সময় ঘণ্টায় আছে কি না নিশ্চিত করে বেগের সঙ্গে গুণ করুন।",
-      "expected": 420,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_11_20",
+      "e": "প্রথম অংশে সময়=১২০÷৬০=২ ঘণ্টা; দ্বিতীয় অংশে=১৮০÷৯০=২ ঘণ্টা। মোট দূরত্ব ৩০০ কিমি, সময় ৪ ঘণ্টা; গড় বেগ=৭৫ কিমি/ঘণ্টা।",
+      "formula": "গড় বেগ = মোট দূরত্ব ÷ মোট সময়",
+      "shortcut": "দুই বেগের সাধারণ গড় নয়; মোট দূরত্বকে মোট সময় দিয়ে ভাগ করুন।",
+      "expected": 75,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_31_40",
       "auditChecks": {
-        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
-        "explanationConsistency": "PASS — explanation method and rounded result consistent",
-        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
-        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
-        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — multi-step applied question for levels 16–18",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
+      "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L17_Q8",
       "c": "গণিত · বয়স",
-      "q": "পিতা ও সন্তানের বর্তমান বয়সের যোগফল ২৬৪ বছর। পিতার বয়স সন্তানের ৫ গুণ। সন্তানের বয়স কত?",
+      "q": "একজন মায়ের বয়স মেয়ের বয়সের ৩ গুণ। ৮ বছর আগে তাঁদের বয়সের যোগফল ৪৮ বছর ছিল। মেয়ের বর্তমান বয়স কত?",
       "o": [
-        "৩৯.৬",
-        "৫২.৮",
-        "৪৪",
-        "৪৮.৪"
+        "১৪",
+        "১৫",
+        "১৬",
+        "১৭"
       ],
       "a": 2,
       "level": 17,
       "d": "মাঝারি",
       "topic": "বয়স",
-      "e": "মোট বয়সের অংশ ৬; সন্তানের বয়স = ২৬৪ ÷ ৬ = ৪৪ বছর।",
-      "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
-      "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
-      "expected": 44,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_11_20",
+      "e": "বর্তমান মোট=৪৮+১৬=৬৪। ৪x=৬৪; মেয়ের বয়স=১৬ বছর।",
+      "formula": "বর্তমান মোট বয়স = অতীতের মোট + দুজনের জন্য ৮+৮; মা=৩x, মেয়ে=x",
+      "shortcut": "অতীতের মোট বয়সে দুজনের জন্য ৮ বছর করে যোগ করুন।",
+      "expected": 16,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_31_40",
       "auditChecks": {
-        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
-        "explanationConsistency": "PASS — explanation method and rounded result consistent",
-        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
-        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
-        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — multi-step applied question for levels 16–18",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
+      "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L17_Q9",
@@ -5291,32 +5291,32 @@
     {
       "id": "math_L17_Q10",
       "c": "গণিত · ল.সা.গু ও গ.সা.গু",
-      "q": "৭০-এর পরের ক্ষুদ্রতম মৌলিক সংখ্যা কত?",
+      "q": "দুটি ঘণ্টা যথাক্রমে প্রতি ১৮ ও ২৪ মিনিট পরপর বাজে। একসঙ্গে বাজার পর আবার কত মিনিট পর একসঙ্গে বাজবে?",
       "o": [
-        "৭১",
-        "৮৫.২",
-        "৬৩.৯",
-        "৭৮.১"
+        "৬০ মিনিট",
+        "৬৬ মিনিট",
+        "৭২ মিনিট",
+        "৭৮ মিনিট"
       ],
-      "a": 0,
+      "a": 2,
       "level": 17,
       "d": "মাঝারি",
       "topic": "ল.সা.গু ও গ.সা.গু",
-      "e": "৭০-এর পরের সংখ্যা থেকে পরীক্ষা করলে ৭১ মৌলিক; এর ১ ও নিজে ছাড়া ভাজক নেই।",
-      "formula": "মৌলিক সংখ্যা ১-এর বড় এবং ১ ও নিজে ছাড়া অন্য কোনো ধনাত্মক গুণনীয়ক নেই",
-      "shortcut": "√n পর্যন্ত সম্ভাব্য মৌলিক ভাজক দিয়ে পরীক্ষা করলেই যথেষ্ট।",
-      "expected": 71,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_11_20",
+      "e": "১৮=২×৩², ২৪=২³×৩; ল.সা.গু=২³×৩²=৭২ মিনিট।",
+      "formula": "একসঙ্গে বাজার ব্যবধান = ল.সা.গু(১৮,২৪)",
+      "shortcut": "পরবর্তী একসঙ্গে বাজার ব্যবধান পেতে সময়গুলোর ল.সা.গু বের করুন।",
+      "expected": 72,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_31_40",
       "auditChecks": {
-        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
-        "explanationConsistency": "PASS — explanation method and rounded result consistent",
-        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
-        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
-        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — multi-step applied question for levels 16–18",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
+      "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L18_Q1",
@@ -5351,32 +5351,32 @@
     {
       "id": "math_L18_Q2",
       "c": "গণিত · গড়",
-      "q": "৯টি সংখ্যার গড় ৪৬। সংখ্যাগুলোর মোট যোগফল কত?",
+      "q": "একটি পরীক্ষায় ১২ জনের গড় নম্বর ৬৮। আরও ৩ জন যোগ দিলে ১৫ জনের গড় ৭২ হয়। নতুন ৩ জনের গড় নম্বর কত?",
       "o": [
-        "৪৯৬.৮",
-        "৪৫৫.৪",
-        "৪১৪",
-        "৩৭২.৬"
+        "৮৪",
+        "৮৬",
+        "৮৮",
+        "৯০"
       ],
       "a": 2,
       "level": 18,
       "d": "মাঝারি",
       "topic": "গড়",
-      "e": "৪৬ × ৯ = ৪১৪।",
-      "formula": "মোট যোগফল = গড় × পদসংখ্যা",
-      "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
-      "expected": 414,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_11_20",
+      "e": "প্রথম মোট=১২×৬৮=৮১৬; নতুন মোট=১৫×৭২=১,০৮০। নতুন ৩ জনের মোট=২৬৪; গড়=২৬৪÷৩=৮৮।",
+      "formula": "নতুন দলের গড় = (১৫ জনের মোট − ১২ জনের মোট) ÷ ৩",
+      "shortcut": "দুই দলের মোট নম্বরের পার্থক্য দিয়ে নতুন দলের গড় বের করুন।",
+      "expected": 88,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_31_40",
       "auditChecks": {
-        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
-        "explanationConsistency": "PASS — explanation method and rounded result consistent",
-        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
-        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
-        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — multi-step applied question for levels 16–18",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
+      "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L18_Q3",
@@ -5411,32 +5411,32 @@
     {
       "id": "math_L18_Q4",
       "c": "গণিত · ঐকিক নিয়ম",
-      "q": "একটি পণ্যের দাম ২১ টাকা হলে ২২টি পণ্যের দাম কত?",
+      "q": "১২ জন শ্রমিক দিনে ৬ ঘণ্টা করে ১৫ দিনে একটি কাজ শেষ করেন। ১৮ জন শ্রমিক দিনে ৫ ঘণ্টা কাজ করলে একই কাজ কত দিনে শেষ হবে?",
       "o": [
-        "৪১৫.৮",
-        "৪৬২",
-        "৫০৮.২",
-        "৫৫৪.৪"
+        "১০",
+        "১১",
+        "১২",
+        "১৩"
       ],
-      "a": 1,
+      "a": 2,
       "level": 18,
       "d": "মাঝারি",
       "topic": "ঐকিক নিয়ম",
-      "e": "একটির দাম ২১ টাকা; ২১ × ২২ = ৪৬২ টাকা।",
-      "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
-      "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
-      "expected": 462,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_11_20",
+      "e": "মোট কাজ=১২×৬×১৫=১,০৮০ শ্রমিক-ঘণ্টা। প্রয়োজনীয় দিন=১,০৮০÷(১৮×৫)=১২ দিন।",
+      "formula": "শ্রমিক × দৈনিক ঘণ্টা × দিন = নির্দিষ্ট কাজ",
+      "shortcut": "মোট শ্রমিক-ঘণ্টা স্থির রেখে নতুন দলের দৈনিক কর্মঘণ্টা দিয়ে ভাগ করুন।",
+      "expected": 12,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_31_40",
       "auditChecks": {
-        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
-        "explanationConsistency": "PASS — explanation method and rounded result consistent",
-        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
-        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
-        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — multi-step applied question for levels 16–18",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
+      "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L18_Q5",
@@ -5501,32 +5501,32 @@
     {
       "id": "math_L18_Q7",
       "c": "গণিত · বয়স",
-      "q": "পিতা ও সন্তানের বর্তমান বয়সের যোগফল ২৭৬ বছর। পিতার বয়স সন্তানের ৫ গুণ। সন্তানের বয়স কত?",
+      "q": "একজন পিতার বর্তমান বয়স ছেলের দ্বিগুণ। ৫ বছর আগে তাঁদের বয়সের যোগফল ৫০ বছর ছিল। ৫ বছর পর ছেলের বয়স কত হবে?",
       "o": [
-        "৫৫.২",
-        "৪৬",
-        "৫০.৬",
-        "৪১.৪"
+        "২৫",
+        "২৬",
+        "২৭",
+        "২৮"
       ],
-      "a": 1,
+      "a": 0,
       "level": 18,
       "d": "মাঝারি",
       "topic": "বয়স",
-      "e": "মোট বয়সের অংশ ৬; সন্তানের বয়স = ২৭৬ ÷ ৬ = ৪৬ বছর।",
-      "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
-      "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
-      "expected": 46,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_11_20",
+      "e": "বর্তমান মোট=৫০+১০=৬০। ৩x=৬০; ছেলের বর্তমান বয়স=২০ বছর। ৫ বছর পর=২৫ বছর।",
+      "formula": "বর্তমান মোট বয়স = অতীতের মোট + দুজনের জন্য ৫+৫; পিতা=২x, ছেলে=x",
+      "shortcut": "অতীতের মোট বয়সে দুজনের জন্য ৫ বছর করে যোগ করুন।",
+      "expected": 25,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_31_40",
       "auditChecks": {
-        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
-        "explanationConsistency": "PASS — explanation method and rounded result consistent",
-        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
-        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
-        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — multi-step applied question for levels 16–18",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
+      "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L18_Q8",
@@ -9280,10 +9280,10 @@
       "malformedOrInvalidOptionSets": 0,
       "exactDuplicateGroups": 0,
       "provisionalRetain": 169,
-      "exclusionCandidates": 89,
+      "exclusionCandidates": 131,
       "permanentDeletions": 0,
-      "systemicIssue": "১২টি দুর্বল/অবাস্তব প্রশ্ন নতুন replacement draft দিয়ে প্রতিস্থাপিত; ১১৯টি reversible candidate এখনো চূড়ান্ত সিদ্ধান্তের অপেক্ষায়। Distractor redesign ও পূর্ণ cross-bank comparison বাকি।",
-      "replacementDrafts": 42
+      "systemicIssue": "৩০০ প্রশ্নের প্রাথমিক audit সম্পন্ন; ৫২টি candidate replacement draft হয়েছে, ৭৯টি reversible candidate অবশিষ্ট। Distractor redesign, remaining candidate rewrite, full cross-bank content QA ও integration validation বাকি।",
+      "replacementDrafts": 52
     },
     "batchSummaries": [
       {
@@ -10954,10 +10954,20 @@
       "math_L5_Q3",
       "math_L7_Q10",
       "math_L8_Q9",
-      "math_L9_Q8"
+      "math_L9_Q8",
+      "math_L16_Q6",
+      "math_L16_Q9",
+      "math_L17_Q3",
+      "math_L17_Q5",
+      "math_L17_Q7",
+      "math_L17_Q8",
+      "math_L17_Q10",
+      "math_L18_Q2",
+      "math_L18_Q4",
+      "math_L18_Q7"
     ],
     "previousReplacementCount": 12,
-    "count": 42,
+    "count": 20,
     "status": "REPLACEMENT_DRAFT_PENDING_FINAL_REVIEW",
     "remainingReversibleCandidates": 89,
     "latestGroup": "CANDIDATE_REWRITE_GROUP_21_30",
@@ -10966,5 +10976,34 @@
     "runtimeQuestionCount": 300,
     "levelCount": 30,
     "exactDuplicateGroupsInCurrentRuntimeBank": 0
+  },
+  "candidateRewriteGroup_31_40": {
+    "status": "COMPLETED_PENDING_FINAL_QA",
+    "reviewed": 10,
+    "temporaryCheckpointAfter5": {
+      "reviewed": 5,
+      "recorded": true
+    },
+    "completed10Checkpoint": {
+      "reviewed": 10,
+      "recorded": true
+    },
+    "ids": [
+      "math_L16_Q6",
+      "math_L16_Q9",
+      "math_L17_Q3",
+      "math_L17_Q5",
+      "math_L17_Q7",
+      "math_L17_Q8",
+      "math_L17_Q10",
+      "math_L18_Q2",
+      "math_L18_Q4",
+      "math_L18_Q7"
+    ],
+    "calculationAndKeyMismatches": 0,
+    "invalidOptionSets": 0,
+    "exactDuplicateGroups": 0,
+    "remainingReversibleCandidates": 131,
+    "permanentDeletions": 0
   }
 }
