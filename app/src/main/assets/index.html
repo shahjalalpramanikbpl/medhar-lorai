@@ -308,6 +308,31 @@ body{
 #featureBody .alphabet-grid button:nth-child(6n+5),#featureBody .az-grid button:nth-child(6n+5),#featureBody .letter-grid button:nth-child(6n+5),#featureBody button[data-letter]:nth-of-type(6n+5){background:linear-gradient(145deg,#ffd45e,#df8617)!important}
 #featureBody .alphabet-grid button:nth-child(6n),#featureBody .az-grid button:nth-child(6n),#featureBody .letter-grid button:nth-child(6n),#featureBody button[data-letter]:nth-of-type(6n){background:linear-gradient(145deg,#6e9cff,#3e53c9)!important}
 
+
+/* Refined midnight aurora theme + balanced home entry cards */
+:root{--bg:#081426;--panel:#142943;--panel2:#102238;--accent:#70f0d0;--text:#f5f8ff;--muted:#b9cbe0;--line:#426080}
+html{min-height:100%;background:#081426}
+body{min-height:100vh;background-color:#081426;background-image:radial-gradient(ellipse at 12% 8%,#146b8066 0%,transparent 36%),radial-gradient(ellipse at 92% 18%,#633c9a55 0%,transparent 34%),radial-gradient(ellipse at 52% 92%,#0c739055 0%,transparent 42%),linear-gradient(145deg,#071326 0%,#102541 48%,#0a172b 100%);background-attachment:fixed;color:var(--text)}
+.wrap{position:relative;z-index:1}
+.home-screen{isolation:isolate}
+.home-hero-card{border-color:#79e8f0;background:radial-gradient(circle at 12% 20%,#1c8ab4 0%,transparent 43%),radial-gradient(circle at 90% 12%,#8d3db1 0%,transparent 48%),linear-gradient(132deg,#071b3c 0%,#142e68 52%,#321650 100%);box-shadow:0 9px 0 #061329,0 20px 42px #0009,inset 0 1px 0 #ffffff8a,0 0 28px #28c9df20}
+.home-entry-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:17px 0 16px}
+.home-entry-btn,.home-featured .job-prep-hero{min-height:108px;border-radius:20px}
+.home-featured{display:flex;min-width:0;margin:0}
+.home-featured .job-prep-hero{padding:13px 12px;gap:10px;background:linear-gradient(140deg,#fff2b0 0%,#f5c45b 45%,#e58b2b 100%);border:1px solid #fff4c9;box-shadow:0 7px 0 #89501b,0 13px 24px #0007,inset 0 2px 0 #fff}
+.home-featured .job-prep-copy b{font-size:clamp(15px,3.8vw,19px);line-height:1.25}
+.home-featured .job-prep-copy small{font-size:10px;line-height:1.4;color:#4d3518}
+.home-featured .job-prep-icon{width:45px;height:45px;flex-basis:45px;font-size:27px;border-radius:14px}
+.home-actions .home-action{border:1px solid #b8d9ff38;background:linear-gradient(145deg,#203e61,#132b49 72%);color:#f6faff;box-shadow:0 5px 0 #071426,0 9px 17px #0005,inset 0 1px 0 #ffffff20}
+.home-actions .home-action:nth-child(4n+1){background:linear-gradient(145deg,#214e70,#15334f)}
+.home-actions .home-action:nth-child(4n+2){background:linear-gradient(145deg,#3c356e,#24284e)}
+.home-actions .home-action:nth-child(4n+3){background:linear-gradient(145deg,#245c61,#173c49)}
+.home-actions .home-action:nth-child(4n){background:linear-gradient(145deg,#654b35,#3d3040)}
+.card{background:linear-gradient(145deg,#172f4bF2,#102239F5);border-color:#7294b933;box-shadow:0 16px 42px #0005,inset 0 1px 0 #ffffff12}
+.notice{background:linear-gradient(110deg,#1c4961,#24375b);border-left-color:#72efd0}
+@media(max-width:540px){body{padding:11px 10px 20px}.home-entry-grid{grid-template-columns:1fr;gap:11px}.home-entry-btn,.home-featured .job-prep-hero{min-height:88px}.home-featured .job-prep-hero{padding:12px 14px}.home-featured .job-prep-copy b{font-size:17px}.home-featured .job-prep-copy small{font-size:10px}}
+@media(prefers-reduced-motion:reduce){body{animation:none!important}.job-prep-hero:before{animation:none!important}}
+
 </style></head><body><section id="launchSplash" aria-label="মেধার লড়াই"><div class="splash-inner"><div class="splash-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M13 30 50 13 87 30 50 47Z" fill="#f6c85f" stroke="#fff0b5" stroke-width="3" stroke-linejoin="round"/><path d="M27 43v21c13 11 33 11 46 0V43L50 54Z" fill="#fff" stroke="#b8d8ff" stroke-width="3" stroke-linejoin="round"/><path d="M87 31v28" stroke="#ffd875" stroke-width="4" stroke-linecap="round"/><circle cx="87" cy="63" r="5" fill="#ffd875"/><path d="M50 55 27 44" stroke="#d69a31" stroke-width="2"/></svg></div><div class="splash-name">মেধার লড়াই</div><div class="splash-tagline">খেলুন-শিখুন-এগিয়ে যান</div><div class="splash-loader" aria-hidden="true"></div></div></section><script>(function(){var splash=document.getElementById('launchSplash');if(splash){setTimeout(function(){splash.classList.add('is-hidden');setTimeout(function(){splash.remove();},600);},2300);}})();</script><main class="wrap">
 <section id="home" class="home-screen">
 <div class="home-hero-card"><div class="home-hero-controls"><button class="secondary tiny" id="langBtn">English</button><button class="secondary tiny hidden" id="adminBtn" aria-hidden="true">অ্যাডমিন প্যানেল</button></div><div class="home-hero-art" aria-hidden="true"><span class="hero-brain-wrap"><span class="hero-brain">🧠</span><span class="brain-spark spark-a">✦</span><span class="brain-spark spark-b">✧</span><span class="brain-spark spark-c">✦</span><span class="brain-spark spark-d">·</span></span><span class="hero-stars">✦ ✦ ✦</span><span class="hero-trophy">🏆</span></div><div class="home-hero-copy"><div class="home-english-title">Battle of Brains</div><h1>মেধার লড়াই</h1><p id="intro">জ্ঞানচর্চা ও চাকরির প্রস্তুতি—একই প্ল্যাটফর্মে</p></div><div class="home-stats hero-stats"><div class="home-stat points-stat"><span>⭐</span><small>মোট পয়েন্ট</small><b id="homePoints">0</b></div><div class="home-stat level-stat"><span>🏆</span><small>বর্তমান লেভেল</small><b id="homeLevel">1</b></div><div class="home-stat questions-stat"><span>📚</span><small>প্রশ্নের ভান্ডার</small><b id="homeQuestions">10</b></div></div><div class="home-hero-glow"></div></div>
