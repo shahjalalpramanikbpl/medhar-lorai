@@ -1398,7 +1398,7 @@ const mappedCategory={
  'প্রযুক্তি':'কম্পিউটার ও ICT',
  'সাহিত্য':'বাংলা ভাষা ও সাহিত্য'
 };
-const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
+const norm=s=>String(s||'').normalize('NFKC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
 const questionKey=(q,c=q.c)=>{
  const category=c||q.c,raw=String(q.q||''),options=(q.o||[]).map(norm).sort().join('|'),answer=norm(q.o&&q.o[q.a]);
  return norm(category)+'|'+norm(raw)+'|'+options+'|'+answer;
