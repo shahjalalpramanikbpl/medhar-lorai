@@ -3,7 +3,6 @@
 const additions=[
 {id:"extra_1306",c:"বাংলা ভাষা ও সাহিত্য",q:"‘বিষাদ-সিন্ধু’ উপন্যাসের রচয়িতা কে?",o:["বঙ্কিমচন্দ্র চট্টোপাধ্যায়","মীর মশাররফ হোসেন","কাজী ইমদাদুল হক","শরৎচন্দ্র চট্টোপাধ্যায়"],a:1,e:"মীর মশাররফ হোসেন রচিত ‘বিষাদ-সিন্ধু’ কারবালার ঐতিহাসিক ঘটনাকে কেন্দ্র করে লেখা।",source:"বাংলা সাহিত্য — উপন্যাস",d:"সহজ"},
 {id:"extra_1307",c:"বাংলা ভাষা ও সাহিত্য",q:"‘সঞ্চিতা’ কাব্যসংকলনটি কার রচনার সংকলন?",o:["রবীন্দ্রনাথ ঠাকুর","জীবনানন্দ দাশ","কাজী নজরুল ইসলাম","সুকান্ত ভট্টাচার্য"],a:2,e:"‘সঞ্চিতা’ কাজী নজরুল ইসলামের কবিতার একটি নির্বাচিত সংকলন।",source:"বাংলা সাহিত্য — কাব্যগ্রন্থ",d:"সহজ"},
-{id:"extra_1308",c:"বাংলা ভাষা ও সাহিত্য",q:"‘যে উপকারীর উপকার স্বীকার করে’—এক কথায় কী?",o:["কৃতঘ্ন","কৃতজ্ঞ","পরোপকারী","উদার"],a:1,e:"যে উপকারীর উপকার স্বীকার করে, তাকে কৃতজ্ঞ বলা হয়।",source:"বাংলা ব্যাকরণ — এক কথায় প্রকাশ",d:"সহজ"},
 
 {id:"extra_1309",c:"English",q:"Choose the correct passive form: 'They are repairing the bridge.'",o:["The bridge is repaired by them.","The bridge is being repaired by them.","The bridge has been repaired by them.","The bridge was being repaired by them."],a:1,e:"Present continuous tense-এর passive structure: am/is/are + being + past participle।",source:"English Grammar — Voice",d:"মাঝারি"},
 {id:"extra_1310",c:"English",q:"Choose the word closest in meaning to 'meticulous'.",o:["Careless","Thorough","Hasty","Ordinary"],a:1,e:"Meticulous means showing great attention to detail; its closest option is thorough।",source:"English Vocabulary — Synonym",d:"মাঝারি"},
