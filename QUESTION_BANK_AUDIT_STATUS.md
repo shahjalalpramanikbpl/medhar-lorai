@@ -66,3 +66,10 @@
 - সর্বশেষ workflow run: `45604597582`; validation ধাপে ওই দুই threshold-এর কারণে ব্যর্থ; regression/UI checks এবং APK build skip হয়েছে।
 - সংশোধন commits: `b0ce863` (৫টি ২০২৬ প্রশ্নের sourceDate ও URL), `102809c` (JSON syntax fix), `915619f` এবং `8181fd0` (validator schema support), `0bdfbdb` (date-regex fix)।
 - পরবর্তী কাজ: legacy `ML_CONTENT` প্রশ্ন/তথ্য ব্যাংকের ঘাটতি পূরণ বা release target-এর অনুমোদিত পরিবর্তন; এরপর পূর্ণ বাংলা প্রশ্নের factual audit ও final count reconciliation। APK এখনো তৈরি হয়নি।
+
+
+### Legacy `ML_CONTENT` bank — স্বাধীন structural/duplicate পরীক্ষা
+- `content-bank.js` runtime-এ সরাসরি লোড করে পুনরায় পরীক্ষা: **৫৯৭টি প্রশ্ন, ৯৭৪টি fact**।
+- প্রশ্নের structural error: **০**; পূর্ণ signature-এ exact duplicate group/copy: **০/০**।
+- Facts-এর malformed/empty entry: validator-এ ধরা পড়েনি; exact duplicate group/copy: **০/০**।
+- অতএব বর্তমান legacy-bank blocker duplicate বা malformed record নয়; কেবল ঘোষিত release target-এর তুলনায় প্রশ্ন **৪০৩টি** এবং fact **২৬টি** কম।
