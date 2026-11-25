@@ -6,7 +6,7 @@ const additions=[
 {id:"extra_1338",c:"বাংলা ভাষা ও সাহিত্য",q:"‘রাজপুত্র’ শব্দটি কোন সমাসের উদাহরণ?",o:["দ্বন্দ্ব","কর্মধারয়","ষষ্ঠী তৎপুরুষ","বহুব্রীহি"],a:2,e:"‘রাজার পুত্র’—এখানে ষষ্ঠী বিভক্তির লোপ হয়েছে; তাই ষষ্ঠী তৎপুরুষ সমাস।",source:"বাংলা ব্যাকরণ — সমাস",d:"মাঝারি"},
 
 {id:"extra_1339",c:"English",q:"Choose the grammatically correct sentence.",o:["Each of the students have a book.","Each of the students has a book.","Each students has a book.","Each of student have a book."],a:1,e:"The subject 'Each' is singular, so it takes the singular verb 'has'.",source:"English Grammar — Subject-Verb Agreement",d:"সহজ"},
-{id:"extra_1340",c:"English",q:"Choose the antonym of 'abundant'.",o:["Plentiful","Scarce","Ample"," copious"],a:1,e:"'Abundant' means plentiful; its opposite is 'scarce'.",source:"English Vocabulary — Antonym",d:"সহজ"},
+{id:"extra_1340",c:"English",q:"Choose the antonym of 'abundant'.",o:["Plentiful","Scarce","Ample","copious"],a:1,e:"'Abundant' means plentiful; its opposite is 'scarce'.",source:"English Vocabulary — Antonym",d:"সহজ"},
 {id:"extra_1341",c:"English",q:"Fill in the blank: 'She has been working here ___ 2019.'",o:["for","from","since","by"],a:2,e:"'Since' is used with a point of time, such as 2019; 'for' is used with a duration.",source:"English Grammar — Prepositions",d:"সহজ"},
 
 {id:"extra_1342",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বাংলাদেশের জাতীয় স্মৃতিসৌধের স্থপতি কে?",o:["লুই আই কান","মইনুল হোসেন","হামিদুর রহমান","ফজলুর রহমান খান"],a:1,e:"সাভারে অবস্থিত জাতীয় স্মৃতিসৌধের নকশা প্রণয়ন করেন স্থপতি মইনুল হোসেন।",source:"বাংলাদেশ বিষয়াবলি — জাতীয় স্থাপনা",d:"সহজ"},
