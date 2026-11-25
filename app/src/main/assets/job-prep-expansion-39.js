@@ -9,7 +9,6 @@ const additions=[
 {id:"extra_1340",c:"English",q:"Choose the antonym of 'abundant'.",o:["Plentiful","Scarce","Ample","copious"],a:1,e:"'Abundant' means plentiful; its opposite is 'scarce'.",source:"English Vocabulary — Antonym",d:"সহজ"},
 {id:"extra_1341",c:"English",q:"Fill in the blank: 'She has been working here ___ 2019.'",o:["for","from","since","by"],a:2,e:"'Since' is used with a point of time, such as 2019; 'for' is used with a duration.",source:"English Grammar — Prepositions",d:"সহজ"},
 
-{id:"extra_1342",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বাংলাদেশের জাতীয় স্মৃতিসৌধের স্থপতি কে?",o:["লুই আই কান","মইনুল হোসেন","হামিদুর রহমান","ফজলুর রহমান খান"],a:1,e:"সাভারে অবস্থিত জাতীয় স্মৃতিসৌধের নকশা প্রণয়ন করেন স্থপতি মইনুল হোসেন।",source:"বাংলাদেশ বিষয়াবলি — জাতীয় স্থাপনা",d:"সহজ"},
 {id:"extra_1343",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বিশ্ব স্বাস্থ্য সংস্থার (WHO) সদর দপ্তর কোথায়?",o:["নিউইয়র্ক","জেনেভা","রোম","প্যারিস"],a:1,e:"বিশ্ব স্বাস্থ্য সংস্থার সদর দপ্তর সুইজারল্যান্ডের জেনেভায় অবস্থিত।",source:"আন্তর্জাতিক সংস্থা",d:"সহজ"},
 {id:"extra_1344",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বাংলাদেশের মুক্তিযুদ্ধের সময় দেশকে কয়টি সেক্টরে ভাগ করা হয়েছিল?",o:["৯টি","১০টি","১১টি","১২টি"],a:2,e:"মুক্তিযুদ্ধ পরিচালনার জন্য বাংলাদেশকে ১১টি সেক্টরে ভাগ করা হয়েছিল।",source:"বাংলাদেশের মুক্তিযুদ্ধ",d:"সহজ"},
 
