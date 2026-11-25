@@ -444,3 +444,13 @@
 - `MATH_AUDIT_MASTER_BASELINE_300.json`-এ ৩০০টি প্রশ্নের snapshot সংরক্ষিত; ৩০ লেভেল × ১০ প্রশ্ন। structural scan: malformed ০, canonical exact duplicate ০, keyed answer/expected mismatch ০। এটি factual/content audit নয়।
 - `MATH_AUDIT_INVENTORY.md`-এ প্রাথমিক screening findings ও audit policy নথিভুক্ত। Generator-এ ১৬ topic family আছে; যোগ/বিয়োগ/গুণ/ভাগের স্বতন্ত্র কঠিন প্রশ্ন নেই; level-band ও difficulty metadata alignment পর্যালোচনা বাকি।
 - **অবস্থা: BASELINE SNAPSHOT VERIFIED — SUBSTANTIVE AUDIT NOT STARTED / NOT LOCKED.**
+
+
+## গণিত — ব্যাচ ১–১০ অডিট (২৬ নভেম্বর ২০২৬)
+- প্রথম ১০০টি প্রশ্ন (১০ ব্যাচ × ১০) প্রশ্ন, অপশন, উত্তর, সূত্র, সমাধান ও difficulty suitability ধরে পর্যালোচনা করা হয়েছে।
+- হিসাব/উত্তর/ব্যাখ্যার অমিল ০; কাঠামোগত অপশন ত্রুটি ০; exact duplicate ০।
+- ৮৯টি provisional retain; ১১টি অত্যন্ত প্রাথমিক একধাপের হিসাবকে reversible exclusion candidate হিসেবে ledger-এ রাখা হয়েছে; স্থায়ীভাবে বাদ ০।
+- অপশন তৈরির পদ্ধতিতে সঠিক উত্তরের আশেপাশে ±১০%/±২০% distractor বসানোর systemic দুর্বলতা পাওয়া গেছে; চূড়ান্ত LOCK-এর আগে উন্নত distractor প্রয়োজন।
+- ব্যাচ ১–৫ (৫০ প্রশ্ন) ও ব্যাচ ৬–১০ (১০০ প্রশ্ন) শেষে অস্থায়ী checkpoint নথিভুক্ত।
+- বিস্তারিত: `MATH_AUDIT_BATCHES_01_10.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`।
+- **অবস্থা: BATCHES 01–10 REVIEWED — PENDING GROUP COMPARISON — NOT LOCKED.**
