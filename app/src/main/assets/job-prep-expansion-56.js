@@ -89,7 +89,6 @@ window.EXTRA_JOB_QUESTIONS=(window.EXTRA_JOB_QUESTIONS||[]).concat([
  // Option order is ignored; different examples and different answer sets are retained.
  const exactQuestions=new Set();
  const finalBank=bank.filter(q=>{
-   if(q.c!=='English'&&q.c!=='বাংলা ভাষা ও সাহিত্য') return true;
    const options=(q.o||[]).map(norm).sort().join('|');
    const correct=norm((q.o||[])[q.a]||'');
    const key=norm(q.c)+'|'+norm(q.q)+'|'+options+'|'+correct;
