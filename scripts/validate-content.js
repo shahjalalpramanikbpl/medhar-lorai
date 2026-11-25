@@ -67,7 +67,7 @@ const levels = sandbox.window.ML_MATH_LEVELS || [];
 const subjectBank = sandbox.window.JOB_PREP_BANK || [];
 const exams = sandbox.window.JOB_PREP_EXAMS || [];
 const mathUnique = new Set(math.map(x => normalize(x.q)));
-const subjectNames = new Set(subjectBank.map(x => x.c));
+const subjectNames = new Set(subjectBank.map(x => x.c).filter(name => name !== "গণিত" && name !== "Math"));
 const englishGrammar = subjectBank.filter(x => x.c === "English");
 if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank must contain at least 50 questions.");
 if (new Set(englishGrammar.map(questionSignature)).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains exact duplicate questions.");
