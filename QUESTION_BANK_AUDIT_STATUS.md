@@ -321,3 +321,14 @@
 - Expansion Batch ১–৪৫ পর্যন্ত substantive re-audit সম্পন্ন retained প্রশ্ন **৮৩টি**। baseline-এর ১৩০টি প্রশ্নের প্রকৃত factual re-audit এখনো বাকি।
 - Master: `SCIENCE_AUDIT_MASTER_01_56.json`; বিস্তারিত: `SCIENCE_REAUDIT_BATCH_41_45.md`।
 - অবস্থা: **REVALIDATION_IN_PROGRESS_NOT_LOCKED**। পরবর্তী ধাপ: Batch ৪৬–৫০।
+
+
+## সাধারণ বিজ্ঞান — প্রকৃত পুনঃযাচাই checkpoint: Expansion Batch ৪৬–৫০ (২৬ নভেম্বর ২০২৬)
+- Batch ৪৬–৫০-এ সাধারণ বিজ্ঞানের candidate ১০টি; retained ১০টি।
+- প্রতিটি retained প্রশ্নের তথ্য, চারটি option, keyed answer ও explanation প্রকৃতপক্ষে যাচাই করা হয়েছে; নতুন correction ০।
+- consolidated Batch ১–৪৫-এর সঙ্গে canonical exact-signature তুলনায় নতুন exact duplicate ০; এই গ্রুপের ভেতরেও exact duplicate ০।
+- extra_1649 বনাম extra_1561-সহ বিষয়গত overlap আলাদা করে নথিভুক্ত; stem/option-set পূর্ণভাবে না মেলায় exact duplicate হিসেবে বাদ দেওয়া হয়নি।
+- Expansion Batch ১–৫০ পর্যন্ত substantive re-audit সম্পন্ন retained প্রশ্ন **৯৩টি**; science candidate **১১০টি**।
+- Baseline ১৩০টির প্রকৃত factual re-audit এখনো বাকি; অবস্থা **REVALIDATION_IN_PROGRESS_NOT_LOCKED**।
+- বিস্তারিত: `SCIENCE_REAUDIT_BATCH_46_50.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
+- পরবর্তী ধাপ: Expansion Batch ৫১–৫৫।
