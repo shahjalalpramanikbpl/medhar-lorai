@@ -475,3 +475,13 @@
 - অস্থায়ী checkpoint: batch ২১–২৫ শেষে ২৫০ reviewed; batch ২৬–৩০ শেষে ৩০০ reviewed।
 - বিস্তারিত: `MATH_AUDIT_BATCHES_21_30.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`।
 - **অবস্থা: BATCHES 01–30 REVIEWED — PENDING FINAL CONSOLIDATION — NOT LOCKED.**
+
+
+## গণিত — Final consolidation checkpoint (২৬ নভেম্বর ২০২৬)
+- Source `app/src/main/assets/math-levels.js` আপডেট: ১২টি replacement draft যোগ; source syntax compile ও runtime ৩০০ প্রশ্ন/৩০ level structural check PASS.
+- ৪টি কঠিন standalone যোগ, বিয়োগ, গুণ ও ভাগ প্রশ্ন যুক্ত; ৪টি অবাস্তব বয়সের stem বাস্তবসম্মত করা হয়েছে; >১০০% concentration-এর ৬টি invalid mixture stem-এর সবগুলো সরানো হয়েছে (৪টি weighted-average replacement + ২টি arithmetic replacement)।
+- Level 16–20 band label “কঠিন” থেকে “উচ্চ-মাঝারি প্রতিযোগিতামূলক” করা হয়েছে; runtime difficulty “মাঝারি”-র সঙ্গে সামঞ্জস্য।
+- Replacement draft: ১২; আগের ১৩১ candidate থেকে অবশিষ্ট reversible candidate: ১১৯; permanent deletion: ০.
+- Replacement keyed answer/expected ও চারটি স্বতন্ত্র option check PASS; strict runtime signature check duplicate groups: 0.
+- **অবস্থা: FINAL CONSOLIDATION IN PROGRESS — NOT LOCKED.** Distractor redesign, ১১৯ candidate পুনর্লিখন, পূর্ণ content re-audit ও app integration/CI এখনও বাকি।
+- বিস্তারিত: `MATH_FINAL_CONSOLIDATION_REVIEW_2026-11-26.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`.
