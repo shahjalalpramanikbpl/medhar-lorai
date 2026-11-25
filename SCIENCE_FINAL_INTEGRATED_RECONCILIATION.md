@@ -1,35 +1,44 @@
-# সাধারণ বিজ্ঞান — Final integrated reconciliation (প্রাথমিক কাঠামোগত পরীক্ষা)
+# সাধারণ বিজ্ঞান — Final integrated reconciliation (source-aware revision)
 
 তারিখ: ২৬ নভেম্বর ২০২৬  
-অবস্থা: **REVALIDATION_COMPLETE_PENDING_SOURCE_AND_RUNTIME_INTEGRATION_CHECK_NOT_LOCKED**
+অবস্থা: **CONTENT_REAUDIT_COMPLETE_PENDING_FINAL_DEVICE_RUNTIME_SMOKE_TEST_NOT_LOCKED**
 
 ## Scope
-সম্পূর্ণ সাধারণ বিজ্ঞান master-এর ২৩১টি retained প্রশ্ন (Baseline ১৩০ + Expansion ১০১) একসঙ্গে পরীক্ষা করা হয়েছে। Exact duplicate signature: normalized category + normalized question stem + sorted complete four-option set + keyed answer।
+আগের master-এর ২৩১টি record-এর সঙ্গে baseline source asset পুনর্মিলিয়ে ১৭টি অতিরিক্ত active baseline source variant পাওয়া যায়। এগুলো যাচাই করে master-এ যোগ করা হয়েছে। বর্তমান master: Baseline ১৪৭ + Expansion ১০১ = **২৪৮টি** record।
 
-## প্রথম ধাপের ফল
+## Structural results
 | পরীক্ষা | ফল |
 |---|---:|
-| Master record | 231 |
-| Baseline | 0 |
-| Expansion | 101 |
+| Master record | 248 |
+| Baseline records | 147 |
+| Expansion retained records | 101 |
 | Exact duplicate signature | 0 |
-| Malformed record (ID/category/question/4 options/explanation অনুপস্থিত বা invalid) | 0 |
+| Malformed records | 0 |
 | Missing/invalid HTTP(S) source URL | 0 |
-| Invalid answer index (0–3-এর বাইরে বা integer নয়) | 0 |
+| Invalid answer index | 0 |
 
-## ফলাফলের ব্যাখ্যা
-- বর্তমান master-এ ২৩১টি প্রশ্নের মধ্যে exact duplicate signature পাওয়া যায়নি।
-- প্রশ্নের ID, category, stem, চারটি option, explanation-এর গঠনগত উপস্থিতি এবং answer index-এর প্রথম ধাপের পরীক্ষা পাস করেছে।
-- সব প্রশ্নে source URL field বৈধ HTTP(S) URL হিসেবে উপস্থিত।
-- এই ফলাফল **শুধু master-এর structural scan**; source asset-এর সঙ্গে byte/content-level consistency এবং Android app/runtime loading এখনো পরীক্ষা করা হয়নি।
-- Baseline-এর ১৩০টি substantive re-audit সম্পন্ন; Expansion-এর ১০১টি substantive re-audit checkpoint পূর্ববর্তী পৃথক প্রতিবেদনে সংরক্ষিত।
+## Baseline source reconciliation
+- `app/src/main/assets/job-prep-suite.js`-এ ১৫০টি সাধারণ বিজ্ঞান Q() entry শনাক্ত।
+- ১৩৩টি entry-এর পূর্ণ exact signature আগের master-এর record-এ আগে থেকেই ছিল।
+- ১৭টি active entry আগের master-এ ছিল না: ১৪টি নতুন stem এবং ৩টি same-stem/different-option variants। ১৭টিই fact-check করে `suite_131`–`suite_147` হিসেবে master-এ যোগ করা হয়েছে।
+- ১৭টির মধ্যে exact duplicate ০; all four options, keyed answer ও explanation checked।
+- Baseline source-এর ৬টি conceptual/stem overlap expansion records-এর সঙ্গে পৃথকভাবে বিবেচিত; strict signature policy বজায় রাখা হয়েছে।
 
-## এখনো বাকি — LOCK-এর আগে বাধ্যতামূলক
-1. Baseline source asset `app/src/main/assets/job-prep-suite.js`-এর প্রশ্নসমূহ master-এর suite IDs, option sets, answers ও explanations-এর সঙ্গে মিলিয়ে দেখা।
-2. Expansion source asset files (Batch ১–৫৫) থেকে retained science entries-এর সঙ্গে master reconciliation; আগেই বাদ দেওয়া duplicate ledger-ও সম্মিলিতভাবে যাচাই।
-3. App code-এ assets load, JSON/JS parsing, category filtering, answer indexing, question selection ও quiz scoring path পর্যালোচনা।
-4. প্রাসঙ্গিক automated tests/CI চালানো এবং ফলাফল বাস্তবে পরীক্ষা করা; CI না চললে স্পষ্টভাবে pending বলা।
-5. কোনো mismatch, missing entry বা runtime error পাওয়া গেলে সংশোধন, report ও master/status update; এরপর পুনরায় যাচাই।
+## Expansion source reconciliation
+- Batch ১–৫৫ source assets-এ ১০২টি science candidate পাওয়া যায়।
+- ১০১টি retained science record master-এ আছে; একটি পূর্ববর্তী exact duplicate copy duplicate ledger-এ নথিভুক্ত।
+- সাতটি explanation source/master mismatch পাওয়া গিয়েছিল; audited master explanation অনুযায়ী সংশ্লিষ্ট source asset-এ synchronize করা হয়েছে।
+- Source update করা batch files: ২৭, ৩০, ৩২, ৪০, ৪৬, ৪৭।
+- Baseline ও expansion-এর master records-এ full-set exact duplicate signature শূন্য।
 
-## সিদ্ধান্ত
-**এখনই LOCK নয়।** প্রথম structural pass-এ duplicate/malformed/missing URL/invalid answer index শূন্য পাওয়া গেছে; কিন্তু source consistency এবং app/runtime integration না হওয়া পর্যন্ত চূড়ান্ত LOCK দেওয়া যাবে না।
+## App/runtime review
+- `index.html`-এ content-bank, career-prep, math-levels, job-prep-suite, expansion batch ১–৫৬ এবং Firebase config script order দেখা হয়েছে।
+- Batch ১–৩২ আগে `JOB_PREP_BANK`-এ append করে; batch ৩৩+ `EXTRA_JOB_QUESTIONS`-এ append করে; inline merge step `JOB_PREP_QUESTION_KEY` ব্যবহার করে full signature ও ID দিয়ে duplicate এড়ায়।
+- `job-prep-suite.js`-এ `JOB_PREP_QUESTION_KEY` normalized category, question, sorted complete options ও keyed answer দিয়ে তৈরি।
+- Android workflow-এ `validate-content.js`, `validate-regression-safety.js`, `validate-release-ui.js` চলে। সর্বশেষ source synchronization commit-এর CI run success হয়েছে।
+- বাস্তব Android device/emulator-এ হাতে চালিয়ে UI/quiz round smoke test করা হয়নি।
+
+## Final decision
+Content fact-check, duplicate reconciliation, source asset sync, structural checks এবং automated CI validation সম্পন্ন। তবে বাস্তব device runtime smoke test বাকি। তাই status **NOT LOCKED** থাকবে; smoke test ছাড়া LOCK দেওয়া হবে না।
+
+বিস্তারিত source reconciliation: `SCIENCE_BASELINE_SOURCE_RECONCILIATION_131_147.md`।
