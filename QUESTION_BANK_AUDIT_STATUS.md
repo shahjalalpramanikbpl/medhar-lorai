@@ -45,3 +45,14 @@
 ৩. বাংলা unique final count runtime-এ যাচাই করে স্থির করা।
 ৪. বাংলা + ইংরেজির চূড়ান্ত audit report তৈরি করা; English ৪৬৩ অপরিবর্তিত থাকবে।
 ৫. validation সফল হলে Android build ও artifact verification।
+
+
+## পূর্ণ runtime validation — ২৫ নভেম্বর ২০২৬ (সর্বশেষ পরীক্ষা)
+- `scripts/validate-content.js`-এ অনুপস্থিত `node:path` import শনাক্ত করে সংশোধন করা হয়েছে; এখন main suite এবং সব expansion file load করে runtime পরীক্ষা চলে।
+- validator-এর non-math subject threshold-এ `গণিত` ও `Math` category-কে ভুলভাবে non-math subject হিসেবে গণনা করার ত্রুটি সংশোধন করা হয়েছে।
+- runtime-এ চাকরি-প্রস্তুতি subject bank: **৩,১৪৯টি প্রশ্ন**; English grammar/vocabulary: **৪৬৩টি**। ইংরেজির ৪৬৩টি প্রশ্ন অপরিবর্তিত।
+- ৫টি model test এবং ৩০০টি math প্রশ্ন/৩০টি level runtime-এ load হয়েছে। structure, option count, answer index, duplicate signature এবং model-test selection checks-এ আলাদা কোনো error পাওয়া যায়নি।
+- বর্তমান affairs category-তে **১০৩টি entry**-র dated source metadata অসম্পূর্ণ/ভুল: কিছুতে date ফাঁকা, কিছুতে date-এর জায়গায় difficulty label (`সহজ/মাঝারি`) আছে, আবার কিছু timeless general-knowledge প্রশ্ন current-affairs category-তে আছে। এগুলো যাচাই ও সংশোধন বাকি; কোনো date বা source অনুমান করে বসানো হয়নি।
+- legacy `ML_CONTENT` bank-এ ৫৯৭টি প্রশ্ন (release threshold ১,০০০-এর কম) এবং ৯৭৪টি fact (threshold ১,০০০-এর কম); এই দুই ঘাটতির কারণে validator এখনো FAIL।
+- তাই full runtime loading সফল হলেও overall release validation **FAIL**; regression checks, release UI checks এবং APK build এই run-এ চালু হয়নি। বাংলা বিষয়বস্তুর factual audit-ও এখনো সম্পন্ন নয়।
+- সংশ্লিষ্ট commit: `500e32c` (path import), `6de1e1d` (math category threshold), `d430405` (missing current-affairs metadata diagnostics)।
