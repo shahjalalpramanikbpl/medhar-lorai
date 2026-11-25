@@ -332,3 +332,14 @@
 - Baseline ১৩০টির প্রকৃত factual re-audit এখনো বাকি; অবস্থা **REVALIDATION_IN_PROGRESS_NOT_LOCKED**।
 - বিস্তারিত: `SCIENCE_REAUDIT_BATCH_46_50.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
 - পরবর্তী ধাপ: Expansion Batch ৫১–৫৫।
+
+
+## সাধারণ বিজ্ঞান — প্রকৃত পুনঃযাচাই checkpoint: Expansion Batch ৫১–৫৫ (২৬ নভেম্বর ২০২৬)
+- Batch ৫১: ২টি; Batch ৫২: ৩টি; Batch ৫৩: ৩টি; Batch ৫৪–৫৫: ০টি; মোট science candidate ৮টি।
+- retained ৮টির প্রশ্নের তথ্য, চারটি option, keyed answer ও explanation পুনরায় যাচাই; নতুন correction ০।
+- consolidated Batch ১–৫০ (baseline-সহ)-এর সঙ্গে canonical exact-signature তুলনায় নতুন exact duplicate ০; গ্রুপের ভেতরেও exact duplicate ০।
+- insulin beta-cell, sound speed in iron, blood pH, xylem, kidney filtration ইত্যাদি বিষয়ে conceptual overlap আলাদা করে নথিভুক্ত; ভিন্ন wording/option set থাকায় exact duplicate হিসেবে বাদ নয়।
+- Expansion Batch ১–৫৫ পর্যন্ত substantive re-audit সম্পন্ন retained প্রশ্ন **১০১টি**; science candidate **১১৮টি**।
+- Baseline ১৩০টির প্রকৃত factual re-audit এখনো বাকি; অবস্থা **REVALIDATION_IN_PROGRESS_NOT_LOCKED**।
+- বিস্তারিত: `SCIENCE_REAUDIT_BATCH_51_55.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
+- Expansion-এর পরবর্তী ধাপ শেষ; এখন baseline ১৩০টি প্রশ্নকে ২৬টি করে পাঁচ গ্রুপে substantive re-audit করতে হবে: ১–২৬, ২৭–৫২, ৫৩–৭৮, ৭৯–১০৪, ১০৫–১৩০।
