@@ -365,3 +365,15 @@
 - Expansion substantive re-audit: **১০১টি**; সর্বমোট substantive re-audited **১৫৩টি**।
 - বিস্তারিত: `SCIENCE_BASELINE_REAUDIT_27_52.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
 - অবস্থা: **IN_PROGRESS_NOT_LOCKED**। পরবর্তী ধাপ: baseline questions ৫৩–৭৮।
+
+
+## সাধারণ বিজ্ঞান — Baseline substantive re-audit checkpoint: Questions ৫৩–৭৮ (২৬ নভেম্বর ২০২৬)
+- Baseline master IDs suite_53–suite_78: ২৬টি প্রশ্নের factual claim, চারটি option, keyed answer, explanation ও exact-duplicate signature পরীক্ষা সম্পন্ন।
+- retained ২৬টি; factual correction ০; গ্রুপের ভেতরে exact duplicate ০।
+- Baseline ১–৫২ এবং Expansion Batch ১–৫৫-সহ master-এর অন্য সব প্রশ্নের সঙ্গে canonical exact-signature তুলনায় duplicate ০।
+- RBC উৎপাদন, stomata, সৌরশক্তি, litmus, kidney, xylem, insulin, bile, mercury, sound level, ozone depletion, Newton's third law ও chlorophyll বিষয়ে conceptual overlap flag করা হয়েছে; ভিন্ন stem/option set থাকায় বাদ নয়।
+- সূক্ষ্ম নোট: ৪°C পানির সর্বাধিক ঘনত্বের আনুমানিক মান; sound level ডেসিবেলে, physical intensity W/m²-এও প্রকাশ করা যায়; CFC গুরুত্বপূর্ণ কিন্তু একমাত্র ozone-depleting substance নয়।
+- Baseline substantive re-audit: **৭৮/১৩০**; বাকি **৫২টি**।
+- Expansion substantive re-audit: **১০১টি**; সর্বমোট substantive re-audited **১৭৯টি**।
+- বিস্তারিত: `SCIENCE_BASELINE_REAUDIT_53_78.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
+- অবস্থা: **IN_PROGRESS_NOT_LOCKED**। পরবর্তী ধাপ: baseline questions ৭৯–১০৪।
