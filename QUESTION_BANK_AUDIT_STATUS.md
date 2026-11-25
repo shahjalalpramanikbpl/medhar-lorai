@@ -239,3 +239,13 @@
 - **Baseline-এর ১৩০টি প্রশ্নের পূর্ণ factual re-audit এখনো বাকি।** তাই সাধারণ বিজ্ঞান এখনো LOCKED নয়।
 - বিস্তারিত checkpoint: `SCIENCE_REAUDIT_BATCH_01_05.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
 - পরবর্তী কাজ: Expansion Batch ৬–১০ যাচাই করে Batch ১–৫-এর সঙ্গে তুলনা; তারপর ১–১০-এর সমন্বিত সেটের সঙ্গে ১১–১৫ তুলনা।
+
+
+### সাধারণ বিজ্ঞান — পরবর্তী checkpoint: Expansion Batch ৬–১০ সম্পন্ন
+- Batch ৬–১০-এর ১৫টি candidate থেকে পূর্বে exact duplicate হিসেবে বাদ ২টি; retained ১৩টি substantive fact-check, option, answer ও explanation review সম্পন্ন।
+- Batch ৬–১০-এর ১৩টি retained প্রশ্নের সঙ্গে Batch ১–৫-এর ১৪টি retained প্রশ্ন এবং baseline ১৩০টির পূর্ণ exact-signature তুলনায় নতুন exact duplicate **০টি**।
+- ৫টি বিষয়গত overlap আলাদা করে নথিভুক্ত করা হয়েছে (ampere, pure-water pH, insulin, RBC oxygen transport, speed of light)। ভিন্ন option set/wording হওয়ায় বর্তমান exact-signature policy-তে এগুলো মুছে দেওয়া হয়নি।
+- Expansion Batch ১–১০ মিলিয়ে substantive re-audit: **২৭টি retained প্রশ্ন সম্পন্ন**। কোনো তথ্য/উত্তর/ব্যাখ্যা সংশোধন করা হয়নি।
+- বিস্তারিত: `SCIENCE_REAUDIT_BATCH_06_10.md`; master-এ প্রশ্নভিত্তিক re-audit marker সংরক্ষিত।
+- **পরবর্তী ধাপ:** Batch ১১–১৫ যাচাই করে ১–১০-এর সমন্বিত set-এর সঙ্গে তুলনা।
+- Baseline ১৩০টির পূর্ণ factual re-audit বাকি; সাধারণ বিজ্ঞান এখনো **IN PROGRESS — NOT LOCKED**।
