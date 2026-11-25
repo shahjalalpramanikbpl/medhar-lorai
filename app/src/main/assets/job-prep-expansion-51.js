@@ -1,24 +1,308 @@
 // Batch 51: 30 additional job-preparation questions
 // IDs: extra_1696 - extra_1725
 window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
-{id:"extra_1696",c:"বাংলা ভাষা ও সাহিত্য",q:"বাংলা গদ্যের বিকাশে ফোর্ট উইলিয়াম কলেজ প্রতিষ্ঠিত হয় কত সালে?",o:["১৭৫৭","১৮০০","১৮১৭","১৮৫৭"],a:1,e:"ফোর্ট উইলিয়াম কলেজ ১৮০০ সালে কলকাতায় প্রতিষ্ঠিত হয়।",source:"বাংলা সাহিত্য ইতিহাস — ফোর্ট উইলিয়াম কলেজ",d:"মাঝারি"},
-{id:"extra_1698",c:"বাংলা ভাষা ও সাহিত্য",q:"‘বিষাদ-সিন্ধু’ গ্রন্থের লেখক কে?",o:["মীর মশাররফ হোসেন","কাজী নজরুল ইসলাম","ঈশ্বরচন্দ্র বিদ্যাসাগর","দীনবন্ধু মিত্র"],a:0,e:"মীর মশাররফ হোসেন রচিত ‘বিষাদ-সিন্ধু’ একটি ঐতিহাসিক উপন্যাস।",source:"বাংলা সাহিত্য — গ্রন্থ ও লেখক",d:"সহজ"},
-{id:"extra_1700",c:"English",q:"Choose the correct synonym of ‘Abstain’.",o:["Refrain","Acquire","Approve","Announce"],a:0,e:"Abstain means to refrain from doing or enjoying something.",source:"English Vocabulary — Synonyms",d:"মাঝারি"},
-{id:"extra_1701",c:"English",q:"Which sentence uses the subjunctive mood correctly?",o:["I wish I was there yesterday.","I wish I were there now.","I wish I am there now.","I wish I will be there now."],a:1,e:"The subjunctive ‘were’ is traditionally used for an unreal present wish.",source:"English Grammar — Subjunctive Mood",d:"কঠিন"},
-{id:"extra_1702",c:"English",q:"Choose the correct passive form: ‘People believe that he is honest.’",o:["He is believed to be honest.","He was believed that he is honest.","He has believed to be honest.","He is believing to be honest."],a:0,e:"The impersonal reporting structure changes to ‘He is believed to be honest’.",source:"English Grammar — Passive Voice",d:"কঠিন"},
-{id:"extra_1703",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বাংলাদেশের সংবিধানের কোন অনুচ্ছেদে রাষ্ট্রভাষা বাংলার কথা বলা হয়েছে?",o:["২ অনুচ্ছেদ","৩ অনুচ্ছেদ","৪ অনুচ্ছেদ","৫ অনুচ্ছেদ"],a:1,e:"সংবিধানের ৩ অনুচ্ছেদে রাষ্ট্রভাষা বাংলা নির্ধারণ করা হয়েছে।",source:"বাংলাদেশ সংবিধান — রাষ্ট্রভাষা",d:"সহজ"},
-{id:"extra_1706",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বাংলাদেশের প্রথম অস্থায়ী সরকার শপথ গ্রহণ করে কোথায়?",o:["ঢাকা","মুজিবনগর","চট্টগ্রাম","কুষ্টিয়া শহর"],a:1,e:"১৯৭১ সালের ১৭ এপ্রিল মেহেরপুরের বৈদ্যনাথতলায় অস্থায়ী সরকার শপথ নেয়; স্থানটি মুজিবনগর নামে পরিচিত।",source:"বাংলাদেশের মুক্তিযুদ্ধ — মুজিবনগর সরকার",d:"মাঝারি"},
-{id:"extra_1707",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বিশ্বব্যাংকের সদর দপ্তর কোন শহরে?",o:["নিউইয়র্ক","ওয়াশিংটন, ডি.সি.","লন্ডন","ব্রাসেলস"],a:1,e:"বিশ্বব্যাংক গ্রুপের সদর দপ্তর যুক্তরাষ্ট্রের ওয়াশিংটন, ডি.সি.-তে।",source:"আন্তর্জাতিক অর্থনৈতিক প্রতিষ্ঠান — বিশ্বব্যাংক",d:"সহজ"},
-{id:"extra_1708",c:"সাধারণ বিজ্ঞান",q:"মানবদেহে ইনসুলিন হরমোন নিঃসৃত হয় অগ্ন্যাশয়ের কোন কোষ থেকে?",o:["আলফা কোষ","বিটা কোষ","ডেল্টা কোষ","অ্যাসিনার কোষ"],a:1,e:"অগ্ন্যাশয়ের আইলেটস অব ল্যাঙ্গারহ্যান্সের বিটা কোষ ইনসুলিন নিঃসরণ করে।",source:"জীববিজ্ঞান — হরমোন",d:"মাঝারি"},
-{id:"extra_1709",c:"সাধারণ বিজ্ঞান",q:"শব্দের বেগ কোন মাধ্যমে সাধারণত সবচেয়ে বেশি?",o:["বায়ু","পানি","লোহা","শূন্যস্থান"],a:2,e:"শব্দ সাধারণত কঠিন পদার্থে তরল ও গ্যাসের তুলনায় দ্রুত চলে; শূন্যস্থানে শব্দ চলে না।",source:"পদার্থবিজ্ঞান — শব্দের গতি",d:"সহজ"},
-{id:"extra_1712",c:"কম্পিউটার ও ICT",q:"কম্পিউটারে CPU-এর ALU অংশের প্রধান কাজ কী?",o:["তথ্য সংরক্ষণ","গাণিতিক ও যৌক্তিক কাজ","ইন্টারনেট সংযোগ","বিদ্যুৎ সরবরাহ"],a:1,e:"ALU বা Arithmetic Logic Unit গাণিতিক হিসাব ও যৌক্তিক অপারেশন সম্পন্ন করে।",source:"কম্পিউটার সংগঠন — CPU",d:"সহজ"},
-{id:"extra_1714",c:"কম্পিউটার ও ICT",q:"স্প্রেডশিটে একটি সেলের ঠিকানা সাধারণত কী দিয়ে গঠিত?",o:["সারি নম্বর ও কলাম অক্ষর","কলাম অক্ষর ও সারি নম্বর","শুধু সারি নম্বর","শুধু কলাম অক্ষর"],a:1,e:"যেমন B5 ঠিকানায় B হলো কলাম এবং 5 হলো সারি।",source:"অ্যাপ্লিকেশন সফটওয়্যার — Spreadsheet",d:"সহজ"},
-{id:"extra_1717",c:"যুক্তি ও বিশ্লেষণ",q:"বক্তব্য: সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি অবশ্যই সত্য?",o:["সব গোলাপ দ্রুত ঝরে যায়","কিছু গোলাপ দ্রুত ঝরে যায়","সব গোলাপ ফুল","কোনো ফুল দ্রুত ঝরে যায় না"],a:2,e:"প্রথম বক্তব্যে সব গোলাপ ফুল বলা হয়েছে; অন্য বক্তব্য থেকে গোলাপ সম্পর্কে অতিরিক্ত সিদ্ধান্ত নিশ্চিত নয়।",source:"যুক্তি — সিদ্ধান্ত নির্ণয়",d:"মাঝারি"},
-{id:"extra_1719",c:"সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান",q:"২০২৪ সালের নোবেল শান্তি পুরস্কার কোন সংস্থা পেয়েছিল?",o:["WHO","Nihon Hidankyo","UNHCR","Amnesty International"],a:1,e:"জাপানের পারমাণবিক বোমা হামলা থেকে বেঁচে যাওয়া ব্যক্তিদের সংগঠন Nihon Hidankyo ২০২৪ সালের নোবেল শান্তি পুরস্কার পায়।",source:"সমসাময়িক বিশ্ব — নোবেল পুরস্কার ২০২৪",d:"মাঝারি"},
-{id:"extra_1720",c:"সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান",q:"২০২৪ সালের গ্রীষ্মকালীন অলিম্পিক কোন শহরে অনুষ্ঠিত হয়?",o:["টোকিও","লস অ্যাঞ্জেলেস","প্যারিস","রোম"],a:2,e:"২০২৪ সালের গ্রীষ্মকালীন অলিম্পিক ফ্রান্সের প্যারিসে অনুষ্ঠিত হয়।",source:"সমসাময়িক বিশ্ব — অলিম্পিক ২০২৪",d:"সহজ"},
-{id:"extra_1721",c:"সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান",q:"২০২৫ সালের জাতিসংঘ মহাসাগর সম্মেলন (UNOC3) কোন শহরে অনুষ্ঠিত হয়?",o:["লিসবন","নিস","বার্সেলোনা","জেনেভা"],a:1,e:"তৃতীয় জাতিসংঘ মহাসাগর সম্মেলন ২০২৫ সালের জুনে ফ্রান্সের নিসে অনুষ্ঠিত হয়।",source:"সমসাময়িক বিশ্ব — UN Ocean Conference 2025",d:"মাঝারি"},
-{id:"extra_1722",c:"English Literature",q:"Who wrote the play ‘The Importance of Being Earnest’?",o:["George Bernard Shaw","Oscar Wilde","John Galsworthy","Samuel Beckett"],a:1,e:"Oscar Wilde wrote this comedy of manners, first performed in 1895.",source:"English Literature — Drama",d:"সহজ"},
-{id:"extra_1723",c:"English Literature",q:"‘Paradise Lost’ is primarily written in which poetic form?",o:["Heroic couplets","Blank verse","Free verse","Spenserian stanza"],a:1,e:"John Milton composed Paradise Lost in unrhymed iambic pentameter, known as blank verse.",source:"English Literature — Poetry",d:"মাঝারি"},
-{id:"extra_1724",c:"English Literature",q:"Which novel begins with the famous line ‘Call me Ishmael’?",o:["Moby-Dick","The Old Man and the Sea","Treasure Island","Robinson Crusoe"],a:0,e:"‘Call me Ishmael’ is the opening line of Herman Melville’s Moby-Dick.",source:"English Literature — Novel",d:"সহজ"},
-{id:"extra_1725",c:"English Literature",q:"Who is the author of ‘A Tale of Two Cities’?",o:["Thomas Hardy","Charles Dickens","William Thackeray","George Eliot"],a:1,e:"Charles Dickens published A Tale of Two Cities in 1859.",source:"English Literature — Novel",d:"সহজ"}
+  {
+    "id": "extra_1696",
+    "c": "বাংলা ভাষা ও সাহিত্য",
+    "q": "বাংলা গদ্যের বিকাশে ফোর্ট উইলিয়াম কলেজ প্রতিষ্ঠিত হয় কত সালে?",
+    "o": [
+      "১৭৫৭",
+      "১৮০০",
+      "১৮১৭",
+      "১৮৫৭"
+    ],
+    "a": 1,
+    "e": "ফোর্ট উইলিয়াম কলেজ ১৮০০ সালে কলকাতায় প্রতিষ্ঠিত হয়।",
+    "source": "বাংলা সাহিত্য ইতিহাস — ফোর্ট উইলিয়াম কলেজ",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1698",
+    "c": "বাংলা ভাষা ও সাহিত্য",
+    "q": "‘বিষাদ-সিন্ধু’ গ্রন্থের লেখক কে?",
+    "o": [
+      "মীর মশাররফ হোসেন",
+      "কাজী নজরুল ইসলাম",
+      "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+      "দীনবন্ধু মিত্র"
+    ],
+    "a": 0,
+    "e": "মীর মশাররফ হোসেন রচিত ‘বিষাদ-সিন্ধু’ একটি ঐতিহাসিক উপন্যাস।",
+    "source": "বাংলা সাহিত্য — গ্রন্থ ও লেখক",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1700",
+    "c": "English",
+    "q": "Choose the correct synonym of ‘Abstain’.",
+    "o": [
+      "Refrain",
+      "Acquire",
+      "Approve",
+      "Announce"
+    ],
+    "a": 0,
+    "e": "Abstain means to refrain from doing or enjoying something.",
+    "source": "English Vocabulary — Synonyms",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1701",
+    "c": "English",
+    "q": "Which sentence uses the subjunctive mood correctly?",
+    "o": [
+      "I wish I was there yesterday.",
+      "I wish I were there now.",
+      "I wish I am there now.",
+      "I wish I will be there now."
+    ],
+    "a": 1,
+    "e": "The subjunctive ‘were’ is traditionally used for an unreal present wish.",
+    "source": "English Grammar — Subjunctive Mood",
+    "d": "কঠিন"
+  },
+  {
+    "id": "extra_1702",
+    "c": "English",
+    "q": "Choose the correct passive form: ‘People believe that he is honest.’",
+    "o": [
+      "He is believed to be honest.",
+      "He was believed that he is honest.",
+      "He has believed to be honest.",
+      "He is believing to be honest."
+    ],
+    "a": 0,
+    "e": "The impersonal reporting structure changes to ‘He is believed to be honest’.",
+    "source": "English Grammar — Passive Voice",
+    "d": "কঠিন"
+  },
+  {
+    "id": "extra_1703",
+    "c": "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",
+    "q": "বাংলাদেশের সংবিধানের কোন অনুচ্ছেদে রাষ্ট্রভাষা বাংলার কথা বলা হয়েছে?",
+    "o": [
+      "২ অনুচ্ছেদ",
+      "৩ অনুচ্ছেদ",
+      "৪ অনুচ্ছেদ",
+      "৫ অনুচ্ছেদ"
+    ],
+    "a": 1,
+    "e": "সংবিধানের ৩ অনুচ্ছেদে রাষ্ট্রভাষা বাংলা নির্ধারণ করা হয়েছে।",
+    "source": "বাংলাদেশ সংবিধান — রাষ্ট্রভাষা",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1706",
+    "c": "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",
+    "q": "বাংলাদেশের প্রথম অস্থায়ী সরকার শপথ গ্রহণ করে কোথায়?",
+    "o": [
+      "ঢাকা",
+      "মুজিবনগর",
+      "চট্টগ্রাম",
+      "কুষ্টিয়া শহর"
+    ],
+    "a": 1,
+    "e": "১৯৭১ সালের ১৭ এপ্রিল মেহেরপুরের বৈদ্যনাথতলায় অস্থায়ী সরকার শপথ নেয়; স্থানটি মুজিবনগর নামে পরিচিত।",
+    "source": "বাংলাদেশের মুক্তিযুদ্ধ — মুজিবনগর সরকার",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1707",
+    "c": "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",
+    "q": "বিশ্বব্যাংকের সদর দপ্তর কোন শহরে?",
+    "o": [
+      "নিউইয়র্ক",
+      "ওয়াশিংটন, ডি.সি.",
+      "লন্ডন",
+      "ব্রাসেলস"
+    ],
+    "a": 1,
+    "e": "বিশ্বব্যাংক গ্রুপের সদর দপ্তর যুক্তরাষ্ট্রের ওয়াশিংটন, ডি.সি.-তে।",
+    "source": "আন্তর্জাতিক অর্থনৈতিক প্রতিষ্ঠান — বিশ্বব্যাংক",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1708",
+    "c": "সাধারণ বিজ্ঞান",
+    "q": "মানবদেহে ইনসুলিন হরমোন নিঃসৃত হয় অগ্ন্যাশয়ের কোন কোষ থেকে?",
+    "o": [
+      "আলফা কোষ",
+      "বিটা কোষ",
+      "ডেল্টা কোষ",
+      "অ্যাসিনার কোষ"
+    ],
+    "a": 1,
+    "e": "অগ্ন্যাশয়ের আইলেটস অব ল্যাঙ্গারহ্যান্সের বিটা কোষ ইনসুলিন নিঃসরণ করে।",
+    "source": "জীববিজ্ঞান — হরমোন",
+    "d": "মাঝারি",
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459261/",
+    "auditStatus": "content_checked_batches_51_55"
+  },
+  {
+    "id": "extra_1709",
+    "c": "সাধারণ বিজ্ঞান",
+    "q": "শব্দের বেগ কোন মাধ্যমে সাধারণত সবচেয়ে বেশি?",
+    "o": [
+      "বায়ু",
+      "পানি",
+      "লোহা",
+      "শূন্যস্থান"
+    ],
+    "a": 2,
+    "e": "শব্দ সাধারণত কঠিন পদার্থে তরল ও গ্যাসের তুলনায় দ্রুত চলে; শূন্যস্থানে শব্দ চলে না।",
+    "source": "পদার্থবিজ্ঞান — শব্দের গতি",
+    "d": "সহজ",
+    "sourceUrl": "https://openstax.org/books/university-physics-volume-1/pages/17-2-speed-of-sound",
+    "auditStatus": "content_checked_batches_51_55"
+  },
+  {
+    "id": "extra_1712",
+    "c": "কম্পিউটার ও ICT",
+    "q": "কম্পিউটারে CPU-এর ALU অংশের প্রধান কাজ কী?",
+    "o": [
+      "তথ্য সংরক্ষণ",
+      "গাণিতিক ও যৌক্তিক কাজ",
+      "ইন্টারনেট সংযোগ",
+      "বিদ্যুৎ সরবরাহ"
+    ],
+    "a": 1,
+    "e": "ALU বা Arithmetic Logic Unit গাণিতিক হিসাব ও যৌক্তিক অপারেশন সম্পন্ন করে।",
+    "source": "কম্পিউটার সংগঠন — CPU",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1714",
+    "c": "কম্পিউটার ও ICT",
+    "q": "স্প্রেডশিটে একটি সেলের ঠিকানা সাধারণত কী দিয়ে গঠিত?",
+    "o": [
+      "সারি নম্বর ও কলাম অক্ষর",
+      "কলাম অক্ষর ও সারি নম্বর",
+      "শুধু সারি নম্বর",
+      "শুধু কলাম অক্ষর"
+    ],
+    "a": 1,
+    "e": "যেমন B5 ঠিকানায় B হলো কলাম এবং 5 হলো সারি।",
+    "source": "অ্যাপ্লিকেশন সফটওয়্যার — Spreadsheet",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1717",
+    "c": "যুক্তি ও বিশ্লেষণ",
+    "q": "বক্তব্য: সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+    "o": [
+      "সব গোলাপ দ্রুত ঝরে যায়",
+      "কিছু গোলাপ দ্রুত ঝরে যায়",
+      "সব গোলাপ ফুল",
+      "কোনো ফুল দ্রুত ঝরে যায় না"
+    ],
+    "a": 2,
+    "e": "প্রথম বক্তব্যে সব গোলাপ ফুল বলা হয়েছে; অন্য বক্তব্য থেকে গোলাপ সম্পর্কে অতিরিক্ত সিদ্ধান্ত নিশ্চিত নয়।",
+    "source": "যুক্তি — সিদ্ধান্ত নির্ণয়",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1719",
+    "c": "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান",
+    "q": "২০২৪ সালের নোবেল শান্তি পুরস্কার কোন সংস্থা পেয়েছিল?",
+    "o": [
+      "WHO",
+      "Nihon Hidankyo",
+      "UNHCR",
+      "Amnesty International"
+    ],
+    "a": 1,
+    "e": "জাপানের পারমাণবিক বোমা হামলা থেকে বেঁচে যাওয়া ব্যক্তিদের সংগঠন Nihon Hidankyo ২০২৪ সালের নোবেল শান্তি পুরস্কার পায়।",
+    "source": "সমসাময়িক বিশ্ব — নোবেল পুরস্কার ২০২৪",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1720",
+    "c": "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান",
+    "q": "২০২৪ সালের গ্রীষ্মকালীন অলিম্পিক কোন শহরে অনুষ্ঠিত হয়?",
+    "o": [
+      "টোকিও",
+      "লস অ্যাঞ্জেলেস",
+      "প্যারিস",
+      "রোম"
+    ],
+    "a": 2,
+    "e": "২০২৪ সালের গ্রীষ্মকালীন অলিম্পিক ফ্রান্সের প্যারিসে অনুষ্ঠিত হয়।",
+    "source": "সমসাময়িক বিশ্ব — অলিম্পিক ২০২৪",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1721",
+    "c": "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান",
+    "q": "২০২৫ সালের জাতিসংঘ মহাসাগর সম্মেলন (UNOC3) কোন শহরে অনুষ্ঠিত হয়?",
+    "o": [
+      "লিসবন",
+      "নিস",
+      "বার্সেলোনা",
+      "জেনেভা"
+    ],
+    "a": 1,
+    "e": "তৃতীয় জাতিসংঘ মহাসাগর সম্মেলন ২০২৫ সালের জুনে ফ্রান্সের নিসে অনুষ্ঠিত হয়।",
+    "source": "সমসাময়িক বিশ্ব — UN Ocean Conference 2025",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1722",
+    "c": "English Literature",
+    "q": "Who wrote the play ‘The Importance of Being Earnest’?",
+    "o": [
+      "George Bernard Shaw",
+      "Oscar Wilde",
+      "John Galsworthy",
+      "Samuel Beckett"
+    ],
+    "a": 1,
+    "e": "Oscar Wilde wrote this comedy of manners, first performed in 1895.",
+    "source": "English Literature — Drama",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1723",
+    "c": "English Literature",
+    "q": "‘Paradise Lost’ is primarily written in which poetic form?",
+    "o": [
+      "Heroic couplets",
+      "Blank verse",
+      "Free verse",
+      "Spenserian stanza"
+    ],
+    "a": 1,
+    "e": "John Milton composed Paradise Lost in unrhymed iambic pentameter, known as blank verse.",
+    "source": "English Literature — Poetry",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1724",
+    "c": "English Literature",
+    "q": "Which novel begins with the famous line ‘Call me Ishmael’?",
+    "o": [
+      "Moby-Dick",
+      "The Old Man and the Sea",
+      "Treasure Island",
+      "Robinson Crusoe"
+    ],
+    "a": 0,
+    "e": "‘Call me Ishmael’ is the opening line of Herman Melville’s Moby-Dick.",
+    "source": "English Literature — Novel",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1725",
+    "c": "English Literature",
+    "q": "Who is the author of ‘A Tale of Two Cities’?",
+    "o": [
+      "Thomas Hardy",
+      "Charles Dickens",
+      "William Thackeray",
+      "George Eliot"
+    ],
+    "a": 1,
+    "e": "Charles Dickens published A Tale of Two Cities in 1859.",
+    "source": "English Literature — Novel",
+    "d": "সহজ"
+  }
 ]);
