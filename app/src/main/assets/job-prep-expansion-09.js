@@ -242,23 +242,6 @@
     "auditStatus": "content_checked_batches_06_10"
   },
   {
-    "id": "extra_336",
-    "c": "সাধারণ বিজ্ঞান",
-    "q": "শব্দের তীব্রতার মাত্রা (sound level) কোন এককে প্রকাশ করা হয়?",
-    "o": [
-      "ডেসিবেল",
-      "হার্টজ",
-      "নিউটন",
-      "জুল"
-    ],
-    "a": 0,
-    "e": "শব্দের মাত্রা সাধারণত ডেসিবেল (dB) এককে প্রকাশ করা হয়।",
-    "source": "পদার্থবিজ্ঞান",
-    "sourceUrl": "https://www.cdc.gov/niosh/noise/prevent/understand.html",
-    "d": "",
-    "auditStatus": "content_checked_batches_06_10"
-  },
-  {
     "id": "extra_337",
     "c": "সাধারণ বিজ্ঞান",
     "q": "মানব রক্তের স্বাভাবিক pH প্রায় কত?",
