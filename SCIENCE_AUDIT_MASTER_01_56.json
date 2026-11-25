@@ -85,7 +85,11 @@
     "reaudited_expansion_questions_through_batch_45": 83,
     "reaudit_content_verified_through_batch_45": 83,
     "reaudit_candidate_questions_through_batch_45": 100,
-    "reaudit_exact_duplicates_found_batch_41_45_vs_prior": 0
+    "reaudit_exact_duplicates_found_batch_41_45_vs_prior": 0,
+    "reaudited_expansion_questions_through_batch_50": 93,
+    "reaudit_content_verified_through_batch_50": 93,
+    "reaudit_candidate_questions_through_batch_50": 110,
+    "reaudit_exact_duplicates_found_batch_46_50_vs_prior": 0
   },
   "duplicate_removals": [
     {
@@ -4186,7 +4190,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://openstax.org/books/biology-2e/pages/2-1-atoms-isotopes-ions-and-molecules-the-building-blocks",
-      "audit_status": "content_checked_batches_46_50"
+      "audit_status": "content_checked_batches_46_50",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1590",
@@ -4203,7 +4215,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
-      "audit_status": "content_checked_batches_46_50"
+      "audit_status": "content_checked_batches_46_50",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1591",
@@ -4220,7 +4240,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://www.usgs.gov/water-science-school/science/facts-about-water",
-      "audit_status": "content_checked_batches_46_50"
+      "audit_status": "content_checked_batches_46_50",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1618",
@@ -4237,7 +4265,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459261/",
-      "audit_status": "content_checked_batches_46_50"
+      "audit_status": "content_checked_batches_46_50",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1619",
@@ -4254,7 +4290,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://openstax.org/books/university-physics-volume-1/pages/17-2-speed-of-sound",
-      "audit_status": "content_checked_batches_46_50"
+      "audit_status": "content_checked_batches_46_50",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1620",
@@ -4271,7 +4315,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://openstax.org/books/biology-2e/pages/30-1-the-plant-body",
-      "audit_status": "content_checked_batches_46_50"
+      "audit_status": "content_checked_batches_46_50",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1648",
@@ -4288,7 +4340,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279392/",
-      "audit_status": "content_checked_batches_46_50"
+      "audit_status": "content_checked_batches_46_50",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1649",
@@ -4305,7 +4365,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://openstax.org/books/biology-2e/pages/2-1-atoms-isotopes-ions-and-molecules-the-building-blocks",
-      "audit_status": "content_checked_batches_46_50"
+      "audit_status": "content_checked_batches_46_50",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1651",
@@ -4322,7 +4390,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://www.usgs.gov/water-science-school/science/facts-about-water",
-      "audit_status": "content_checked_batches_46_50"
+      "audit_status": "content_checked_batches_46_50",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1678",
@@ -4339,7 +4415,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9911/",
-      "audit_status": "content_checked_batches_46_50"
+      "audit_status": "content_checked_batches_46_50",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1708",
@@ -4535,24 +4619,34 @@
       42,
       43,
       44,
-      45
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
     ],
-    "retained_expansion_questions_reaudited": 83,
+    "retained_expansion_questions_reaudited": 93,
     "exact_duplicate_crosscheck_against_baseline": 0,
     "exact_duplicates_previously_removed_in_batches_01_05": 3,
     "baseline_questions_factual_reaudit_pending": 130,
-    "next_step": "Re-audit expansion batches 46-50 and compare against the consolidated batches 01-45 set.",
+    "next_step": "Re-audit expansion batches 51-55 and compare against the consolidated batches 01-50 set.",
     "lock_suspended_until_full_reaudit": true,
-    "checkpoint": "SCIENCE_REAUDIT_BATCH_41_45.md",
+    "checkpoint": "SCIENCE_REAUDIT_BATCH_46_50.md",
     "last_comparison": {
-      "new_exact_duplicates_between_batches_41_45_and_prior_01_40": 0,
+      "new_exact_duplicates_between_batches_46_50_and_prior_01_45": 0,
       "duplicate_copy_already_removed_in_source_and_master": [
-        "extra_1531 -> extra_786"
+        "extra_1588 -> suite_11 (not a General Science candidate in this checkpoint)"
       ],
       "conceptual_overlap_flags": [
-        "extra_1406 vs extra_1316: RBC principal function; distractor set differs",
-        "extra_1467 vs extra_016/extra_198/extra_335/extra_560: insulin secretion from pancreas; wording and option sets differ",
-        "extra_1470 vs extra_1281: liquid metal at room temperature; option set differs"
+        "extra_1649 vs extra_1561: same nucleus-particle fact and same option set; question wording differs, so not exact duplicate",
+        "extra_1618 vs earlier insulin-secretion questions: same fact, different wording/options",
+        "extra_1619 vs extra_1078: sound travels fastest in steel; different option set",
+        "extra_1620 vs extra_1282: xylem transports water/minerals; different wording/options",
+        "extra_1648 vs earlier RBC oxygen-transport questions: same concept, different option set",
+        "extra_1651 vs earlier pure-water pH questions: same concept, different option set",
+        "extra_1678 vs earlier photosynthesis questions: chloroplast site; different wording/options",
+        "extra_1591 vs extra_1376: boiling point of pure water; different wording/options"
       ],
       "corrections": 0,
       "policy": "Exact duplicate deletion requires same normalized category, question, complete option set and keyed answer; conceptual repeats with changed wording or options are flagged, not silently removed."
