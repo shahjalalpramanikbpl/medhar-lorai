@@ -73,3 +73,14 @@
 - প্রশ্নের structural error: **০**; পূর্ণ signature-এ exact duplicate group/copy: **০/০**।
 - Facts-এর malformed/empty entry: validator-এ ধরা পড়েনি; exact duplicate group/copy: **০/০**।
 - অতএব বর্তমান legacy-bank blocker duplicate বা malformed record নয়; কেবল ঘোষিত release target-এর তুলনায় প্রশ্ন **৪০৩টি** এবং fact **২৬টি** কম।
+
+## ২৫ নভেম্বর ২০২৬ — বাংলা runtime reconciliation (যাচাইকৃত)
+- GitHub Actions run `45624336694`-এ main branch-এর সব job-preparation script ও expansion batch load করে runtime count পাওয়া গেছে।
+- বাংলা ভাষা ও সাহিত্য: **৪০৩টি প্রশ্ন**।
+- বাংলা malformed structure: **০টি** (প্রশ্ন, চারটি option, answer index—validator-এর কাঠামোগত নিয়মে)।
+- বাংলা exact duplicate: **০টি** (runtime-এ canonical signature: normalized category + normalized question + sorted options + correct answer)।
+- English grammar/vocabulary: **৪৬৩টি** — অপরিবর্তিত।
+- Job-preparation মোট: **৩,১৪৯টি** প্রশ্ন।
+- এই ফলাফল বাংলা প্রশ্নব্যাংকের **সংখ্যা, কাঠামো ও হুবহু duplicate যাচাই** নিশ্চিত করে; উত্তর/ব্যাখ্যার সত্যতা, ভাষাগত শুদ্ধতা, বানান, দ্ব্যর্থতা ও প্রশ্নের মানের মানবীয় বিষয়বস্তু-অডিট এখনো সম্পন্ন নয়। তাই বাংলা ব্যাংককে এখনো চূড়ান্ত বলা হচ্ছে না।
+- একই workflow-তে সামগ্রিক validation ব্যর্থ হয়েছে কেবল legacy `ML_CONTENT` release threshold-এর কারণে: প্রশ্ন ৫৯৭/১,০০০ এবং facts ৯৭৪/১,০০০। এই কারণে regression/UI checks ও Android build skip হয়েছে; APK তৈরি হয়নি।
+- Workflow: https://github.com/shahjalalpramanikbpl/medhar-lorai/actions/runs/45624336694
