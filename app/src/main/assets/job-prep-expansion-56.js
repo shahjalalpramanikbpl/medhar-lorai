@@ -87,14 +87,14 @@ window.EXTRA_JOB_QUESTIONS=(window.EXTRA_JOB_QUESTIONS||[]).concat([
  for(const q of window.EXTRA_JOB_QUESTIONS||[]){const k=norm(q.c)+'|'+(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q,q.c):norm(q.q));if(!seen.has(k)){bank.push(q);seen.add(k);}}
  // Final English-bank deduplication: compare the full question, option set and correct answer.
  // Option order is ignored; different examples and different answer sets are retained.
- const exactEnglishQuestions=new Set();
+ const exactQuestions=new Set();
  const finalBank=bank.filter(q=>{
-   if(q.c!=='English') return true;
+   if(q.c!=='English'&&q.c!=='বাংলা ভাষা ও সাহিত্য') return true;
    const options=(q.o||[]).map(norm).sort().join('|');
    const correct=norm((q.o||[])[q.a]||'');
    const key=norm(q.c)+'|'+norm(q.q)+'|'+options+'|'+correct;
-   if(exactEnglishQuestions.has(key)) return false;
-   exactEnglishQuestions.add(key);
+   if(exactQuestions.has(key)) return false;
+   exactQuestions.add(key);
    return true;
  });
  bank.splice(0,bank.length,...finalBank);
