@@ -49,6 +49,18 @@ vm.runInNewContext(fs.readFileSync("app/src/main/assets/content-bank.js", "utf8"
 vm.runInNewContext(fs.readFileSync("app/src/main/assets/math-levels.js", "utf8"), sandbox);
 const jobSource = fs.readFileSync("app/src/main/assets/job-prep-suite.js", "utf8").replace("window.openJobPrep=()=>", "window.__pickJobPrepQuestions=pickQuestions;window.openJobPrep=()=>");
 vm.runInNewContext(jobSource, sandbox);
+// Load every job-preparation expansion in the same order as index.html so validation
+// audits the actual release bank rather than only the base suite.
+const assetDir = "app/src/main/assets";
+const expansionFiles = fs.readdirSync(assetDir)
+  .filter(name => /^job-prep-expansion(?:-\\d{2})?\\.js$/.test(name))
+  .sort((a, b) => {
+    const batch = name => name === "job-prep-expansion.js" ? 1 : Number(name.match(/-(\\d{2})\\.js$/)?.[1] || 0);
+    return batch(a) - batch(b);
+  });
+for (const file of expansionFiles) {
+  vm.runInNewContext(fs.readFileSync(path.join(assetDir, file), "utf8"), sandbox, { filename: file });
+}
 const math = sandbox.window.ML_MATH_BANK || [];
 const levels = sandbox.window.ML_MATH_LEVELS || [];
 const subjectBank = sandbox.window.JOB_PREP_BANK || [];
