@@ -1400,16 +1400,9 @@ const mappedCategory={
 };
 const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
 const questionKey=(q,c=q.c)=>{
- const category=c||q.c,raw=String(q.q||''),answer=norm(q.o&&q.o[q.a]);
- if(category==='মানসিক দক্ষতা ও IQ'&&/(ধারা|পরবর্তী সংখ্যা|পরের সংখ্যা|ধারাটির|ধারা পূরণ|পরবর্তী পদ|অনুপস্থিত সংখ্যা|বর্ণধারা|পরবর্তী অক্ষর|পরের অক্ষর)/i.test(raw)){
-  const digits=raw.match(/[০-৯0-9]+/g)||[];
-  if(digits.length>=4)return 'series:'+digits.join(',')+'|'+answer;
-  const letters=raw.match(/(?:[A-Z](?:\s*[,،]\s*[A-Z]){2,})/i);
-  if(letters)return 'letter-series:'+letters[0].replace(/[^A-Z]/gi,'').toUpperCase()+'|'+answer;
- }
- if(category==='বাংলা ভাষা ও সাহিত্য'||category==='English'){const options=(q.o||[]).map(norm).sort().join('|');return norm(raw)+'|'+options+'|'+answer;}
- return norm(raw);
-};
+ const category=c||q.c,raw=String(q.q||''),options=(q.o||[]).map(norm).sort().join('|'),answer=norm(q.o&&q.o[q.a]);
+ return norm(category)+'|'+norm(raw)+'|'+options+'|'+answer;
+}
 window.JOB_PREP_QUESTION_KEY=questionKey;
 const uniqueBankKeys=new Set(),uniqueBank=[];
 for(const q of bank){const k=norm(q.c)+'|'+questionKey(q,q.c);if(!uniqueBankKeys.has(k)){uniqueBankKeys.add(k);uniqueBank.push(q)}}
