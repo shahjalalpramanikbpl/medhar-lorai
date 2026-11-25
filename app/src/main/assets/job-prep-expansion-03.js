@@ -1,6 +1,6 @@
 /* মেধার লড়াই — সম্প্রসারণ ব্যাচ ৩: ৪০টি নতুন প্রার্থী প্রশ্ন */
 (()=>{'use strict';
-const additions=[
+const additions = [
   {
     "id": "extra_081",
     "c": "বাংলা ভাষা ও সাহিত্য",
@@ -65,7 +65,7 @@ const additions=[
     "sourceUrl": "",
     "d": "মাঝারি"
   },
-    {
+  {
     "id": "extra_086",
     "c": "English",
     "q": "Choose the correct verb: “Each of the students ___ a book.”",
@@ -157,8 +157,6 @@ const additions=[
     ],
     "a": 0,
     "e": "বর্তমান মানচিত্রবিহীন পতাকার রূপটি শিল্পী কামরুল হাসানের সঙ্গে স্বীকৃতভাবে যুক্ত; ১৯৭১ সালের প্রথম পতাকার নকশায় শিবনারায়ণ দাসের ভূমিকা ছিল।",
-    "source": "Dhaka Tribune-এর ঐতিহাসিক সাক্ষাৎকার ও জাতীয় পতাকার ইতিহাস",
-    "sourceUrl": "https://www.dhakatribune.com/arts-and-letters/46644/shib-narayan-das-the-flag-redesign-was",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
     "sourceUrl": "",
     "d": "মাঝারি"
@@ -224,8 +222,9 @@ const additions=[
     "a": 1,
     "e": "যকৃৎ মানবদেহের বৃহত্তম অভ্যন্তরীণ অঙ্গ।",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://medlineplus.gov/livertransplantation.html",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_01_05"
   },
   {
     "id": "extra_097",
@@ -240,8 +239,9 @@ const additions=[
     "a": 0,
     "e": "DNA-এর পূর্ণরূপ Deoxyribonucleic acid।",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/mesh/D13.444.308",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_01_05"
   },
   {
     "id": "extra_098",
@@ -256,8 +256,9 @@ const additions=[
     "a": 0,
     "e": "ভিটামিন A-এর ঘাটতিতে রাতকানা বা night blindness হতে পারে।",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_01_05"
   },
   {
     "id": "extra_099",
@@ -272,8 +273,9 @@ const additions=[
     "a": 2,
     "e": "এক বায়ুমণ্ডল চাপে বিশুদ্ধ পানি ১০০° সেলসিয়াসে স্ফুটিত হয়।",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://www.usgs.gov/observatories/yvo/news/how-hot-are-yellowstones-boiling-waters-some-are-hotter-others",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_01_05"
   },
   {
     "id": "extra_100",
@@ -288,8 +290,9 @@ const additions=[
     "a": 1,
     "e": "সালোকসংশ্লেষণে উদ্ভিদ কার্বন ডাই-অক্সাইড গ্রহণ করে এবং অক্সিজেন নির্গত করে।",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26838/",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_01_05"
   },
   {
     "id": "extra_101",
