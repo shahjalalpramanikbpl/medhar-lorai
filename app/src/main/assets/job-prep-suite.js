@@ -1407,6 +1407,7 @@ const questionKey=(q,c=q.c)=>{
   const letters=raw.match(/(?:[A-Z](?:\s*[,،]\s*[A-Z]){2,})/i);
   if(letters)return 'letter-series:'+letters[0].replace(/[^A-Z]/gi,'').toUpperCase()+'|'+answer;
  }
+ if(category==='বাংলা ভাষা ও সাহিত্য'){const options=(q.o||[]).map(norm).sort().join('|');return norm(raw)+'|'+options+'|'+answer;}
  return norm(raw)+(category==='English'?'|'+answer:'');
 };
 window.JOB_PREP_QUESTION_KEY=questionKey;
