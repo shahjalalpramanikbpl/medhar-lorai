@@ -4,7 +4,7 @@
   "status": "LOCKED",
   "source": {
     "path": "app/src/main/assets/math-levels.js",
-    "blobSha": "50d0694f9d5414a3e5afc9745ca96e850a8d05c2"
+    "blobSha": "4404ff9bd1c0b03ee9b4c8370ab0e83400746158"
   },
   "scope": {
     "questionCount": 300,
@@ -7977,17 +7977,17 @@
       "o": [
         "৫৪",
         "৪৬",
-        "৫৮",
+        "৪৩",
         "৫০"
       ],
-      "a": 3,
+      "a": 2,
       "level": 21,
       "d": "কঠিন",
       "topic": "ধারা",
-      "e": "n-তম পদ = ৭ + (১৩−১)×৩ = ৫০।",
+      "e": "n-তম পদ = ৭ + (১৩−১)×৩ = ৪৩।",
       "formula": "n-তম পদ = a + (n−1)d",
       "shortcut": "পদের যোগফল নয়, নির্দিষ্ট পদের মানের জন্য a+(n−1)d ব্যবহার করুন।",
-      "expected": 50,
+      "expected": 43,
       "reviewStatus": "FINAL_APPROVED",
       "exclusionStatus": "NOT_EXCLUDED",
       "auditGroup": "CANDIDATE_REWRITE_GROUP_51_60",
@@ -8001,8 +8001,8 @@
       "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; পূর্ণ subject-level sign-off ও integration QA বাকি।",
       "finalApproval": {
         "stemAndPremise": "PASS",
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
+        "calculationAndKey": "PASS — independently recalculated and corrected",
+        "explanationConsistency": "PASS — corrected nth-term calculation",
         "fourDistinctOptions": "PASS",
         "exactDuplicate": "NONE",
         "difficultyPlacement": "PASS_WITH_QUALIFICATION — level-band progression reviewed; not psychometrically calibrated"
@@ -8698,18 +8698,18 @@
       "q": "একটি সমান্তর ধারার প্রথম পদ ১২ এবং সাধারণ অন্তর ৬। প্রথম ১৭টি পদের যোগফল ১০২০ হলে ১৭তম পদ কত?",
       "o": [
         "১২৮",
-        "১১২",
+        "১০৮",
         "১২০",
         "১৩৬"
       ],
-      "a": 2,
+      "a": 1,
       "level": 23,
       "d": "কঠিন",
       "topic": "ধারা",
-      "e": "n-তম পদ = ১২ + (১৭−১)×৬ = ১২০।",
+      "e": "n-তম পদ = ১২ + (১৭−১)×৬ = ১০৮।",
       "formula": "n-তম পদ = a + (n−1)d",
       "shortcut": "পদের যোগফল নয়, নির্দিষ্ট পদের মানের জন্য a+(n−1)d ব্যবহার করুন।",
-      "expected": 120,
+      "expected": 108,
       "reviewStatus": "FINAL_APPROVED",
       "exclusionStatus": "NOT_EXCLUDED",
       "auditGroup": "CANDIDATE_REWRITE_GROUP_61_70",
@@ -8723,8 +8723,8 @@
       "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; পূর্ণ subject-level sign-off ও integration QA বাকি।",
       "finalApproval": {
         "stemAndPremise": "PASS",
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
+        "calculationAndKey": "PASS — independently recalculated and corrected",
+        "explanationConsistency": "PASS — corrected nth-term calculation",
         "fourDistinctOptions": "PASS",
         "exactDuplicate": "NONE",
         "difficultyPlacement": "PASS_WITH_QUALIFICATION — level-band progression reviewed; not psychometrically calibrated"
@@ -9306,7 +9306,7 @@
       "q": "একটি সমান্তর ধারার প্রথম পদ ৯ এবং সাধারণ অন্তর ৪। প্রথম ১২টি পদের যোগফল ৩৭২ হলে ১২তম পদ কত?",
       "o": [
         "৬৬",
-        "৬২",
+        "৫৩",
         "৫৮",
         "৭০"
       ],
@@ -9314,10 +9314,10 @@
       "level": 24,
       "d": "কঠিন",
       "topic": "ধারা",
-      "e": "n-তম পদ = ৯ + (১২−১)×৪ = ৬২।",
+      "e": "n-তম পদ = ৯ + (১২−১)×৪ = ৫৩।",
       "formula": "n-তম পদ = a + (n−1)d",
       "shortcut": "পদের যোগফল নয়, নির্দিষ্ট পদের মানের জন্য a+(n−1)d ব্যবহার করুন।",
-      "expected": 62,
+      "expected": 53,
       "reviewStatus": "FINAL_APPROVED",
       "exclusionStatus": "NOT_EXCLUDED",
       "auditGroup": "CANDIDATE_REWRITE_GROUP_71_80",
@@ -9331,8 +9331,8 @@
       "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; পূর্ণ subject-level sign-off ও integration QA বাকি।",
       "finalApproval": {
         "stemAndPremise": "PASS",
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
+        "calculationAndKey": "PASS — independently recalculated and corrected",
+        "explanationConsistency": "PASS — corrected nth-term calculation",
         "fourDistinctOptions": "PASS",
         "exactDuplicate": "NONE",
         "difficultyPlacement": "PASS_WITH_QUALIFICATION — level-band progression reviewed; not psychometrically calibrated"
@@ -9913,7 +9913,7 @@
       "c": "গণিত · ধারা",
       "q": "একটি সমান্তর ধারার প্রথম পদ ৬ এবং সাধারণ অন্তর ৭। প্রথম ১৬টি পদের যোগফল ৯৩৬ হলে ১৬তম পদ কত?",
       "o": [
-        "১১৭",
+        "১১১",
         "১২৫",
         "১০৯",
         "১৩৩"
@@ -9922,10 +9922,10 @@
       "level": 26,
       "d": "কঠিন",
       "topic": "ধারা",
-      "e": "n-তম পদ = ৬ + (১৬−১)×৭ = ১১৭।",
+      "e": "n-তম পদ = ৬ + (১৬−১)×৭ = ১১১।",
       "formula": "n-তম পদ = a + (n−1)d",
       "shortcut": "পদের যোগফল নয়, নির্দিষ্ট পদের মানের জন্য a+(n−1)d ব্যবহার করুন।",
-      "expected": 117,
+      "expected": 111,
       "reviewStatus": "FINAL_APPROVED",
       "exclusionStatus": "NOT_EXCLUDED",
       "auditGroup": "CANDIDATE_REWRITE_GROUP_81_90",
@@ -9939,8 +9939,8 @@
       "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; পূর্ণ subject-level sign-off ও integration QA বাকি।",
       "finalApproval": {
         "stemAndPremise": "PASS",
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
+        "calculationAndKey": "PASS — independently recalculated and corrected",
+        "explanationConsistency": "PASS — corrected nth-term calculation",
         "fourDistinctOptions": "PASS",
         "exactDuplicate": "NONE",
         "difficultyPlacement": "PASS_WITH_QUALIFICATION — level-band progression reviewed; not psychometrically calibrated"
@@ -10598,18 +10598,18 @@
       "q": "একটি সমান্তর ধারার প্রথম পদ ১১ এবং সাধারণ অন্তর ৫। প্রথম ২০টি পদের যোগফল ১১৭০ হলে ২০তম পদ কত?",
       "o": [
         "১২৫",
-        "১০৯",
+        "১০৬",
         "১৩৩",
         "১১৭"
       ],
-      "a": 3,
+      "a": 1,
       "level": 28,
       "d": "কঠিন",
       "topic": "ধারা",
-      "e": "n-তম পদ = ১১ + (২০−১)×৫ = ১১৭।",
+      "e": "n-তম পদ = ১১ + (২০−১)×৫ = ১০৬।",
       "formula": "n-তম পদ = a + (n−1)d",
       "shortcut": "পদের যোগফল নয়, নির্দিষ্ট পদের মানের জন্য a+(n−1)d ব্যবহার করুন।",
-      "expected": 117,
+      "expected": 106,
       "reviewStatus": "FINAL_APPROVED",
       "exclusionStatus": "NOT_EXCLUDED",
       "auditGroup": "CANDIDATE_REWRITE_GROUP_101_110",
@@ -10623,8 +10623,8 @@
       "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; পূর্ণ subject-level sign-off ও integration QA বাকি।",
       "finalApproval": {
         "stemAndPremise": "PASS",
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
+        "calculationAndKey": "PASS — independently recalculated and corrected",
+        "explanationConsistency": "PASS — corrected nth-term calculation",
         "fourDistinctOptions": "PASS",
         "exactDuplicate": "NONE",
         "difficultyPlacement": "PASS_WITH_QUALIFICATION — level-band progression reviewed; not psychometrically calibrated"
@@ -11319,19 +11319,19 @@
       "c": "গণিত · ধারা",
       "q": "একটি সমান্তর ধারার প্রথম পদ ৮ এবং সাধারণ অন্তর ৩। প্রথম ১৫টি পদের যোগফল ৪৩৫ হলে ১৫তম পদ কত?",
       "o": [
-        "৬২",
+        "৫০",
         "৫৪",
         "৫৮",
         "৬৬"
       ],
-      "a": 2,
+      "a": 0,
       "level": 30,
       "d": "কঠিন",
       "topic": "ধারা",
-      "e": "n-তম পদ = ৮ + (১৫−১)×৩ = ৫৮।",
+      "e": "n-তম পদ = ৮ + (১৫−১)×৩ = ৫০।",
       "formula": "n-তম পদ = a + (n−1)d",
       "shortcut": "পদের যোগফল নয়, নির্দিষ্ট পদের মানের জন্য a+(n−1)d ব্যবহার করুন।",
-      "expected": 58,
+      "expected": 50,
       "reviewStatus": "FINAL_APPROVED",
       "exclusionStatus": "NOT_EXCLUDED",
       "auditGroup": "CANDIDATE_REWRITE_GROUP_111_119",
@@ -11345,8 +11345,8 @@
       "reviewNote": "দুর্বল একধাপের প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক প্রশ্ন বসানো হয়েছে; পূর্ণ subject-level sign-off ও integration QA বাকি।",
       "finalApproval": {
         "stemAndPremise": "PASS",
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
+        "calculationAndKey": "PASS — independently recalculated and corrected",
+        "explanationConsistency": "PASS — corrected nth-term calculation",
         "fourDistinctOptions": "PASS",
         "exactDuplicate": "NONE",
         "difficultyPlacement": "PASS_WITH_QUALIFICATION — level-band progression reviewed; not psychometrically calibrated"
@@ -12539,7 +12539,7 @@
   },
   "finalConsolidation": {
     "updatedAt": "2026-11-26",
-    "sourceBlobSha": "50d0694f9d5414a3e5afc9745ca96e850a8d05c2",
+    "sourceBlobSha": "4404ff9bd1c0b03ee9b4c8370ab0e83400746158",
     "locked": true,
     "lockScope": "Math question-bank content selection, stem/premise review, calculation/key, explanation consistency, four-option structure, exact-duplicate audit and 30-level progression review.",
     "totals": {
@@ -12557,7 +12557,7 @@
       "levelStructure": "PASS — 30 × 10",
       "fourDistinctOptions": "PASS — 300/300",
       "validAnswerIndex": "PASS — 300/300",
-      "keyedAnswerExpected": "PASS — 300/300",
+      "keyedAnswerExpected": "PASS — 300/300 after final six corrections",
       "explanationArithmetic": "PASS — all reviewed against keyed result",
       "exactDuplicateGroups": "0",
       "runtimeMasterSourceSha": "MATCH"
@@ -12574,7 +12574,8 @@
       "Six impossible >100% mixture premises replaced with valid concentration or arithmetic-skill questions.",
       "Four standalone hard-level addition, subtraction, multiplication and division questions included.",
       "Level 16–20 band labels aligned with medium difficulty.",
-      "Final notation cleanup: six percentage punctuation marks and one floating-point explanation artifact corrected."
+      "Final notation cleanup: six percentage punctuation marks and one floating-point explanation artifact corrected.",
+      "CI log exposed six arithmetic-progression nth-term key errors (sum-of-series values had been used instead); all six keyed options and explanations corrected and rechecked."
     ],
     "limitations": [
       "This is a subject-content lock, not an Android release sign-off.",
