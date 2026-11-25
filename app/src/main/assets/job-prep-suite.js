@@ -360,7 +360,7 @@ Q('বাংলা ভাষা ও সাহিত্য','‘হাজার �
 Q('বাংলা ভাষা ও সাহিত্য','‘চিলেকোঠার সেপাই’ উপন্যাসের লেখক কে?',['আখতারুজ্জামান ইলিয়াস','হুমায়ূন আহমেদ','শওকত আলী','সৈয়দ শামসুল হক'],0,'‘চিলেকোঠার সেপাই’ আখতারুজ্জামান ইলিয়াসের উপন্যাস।'),
 Q('বাংলা ভাষা ও সাহিত্য','‘অগ্নিবীণা’ কাব্যগ্রন্থের রচয়িতা কে?',['কাজী নজরুল ইসলাম','রবীন্দ্রনাথ ঠাকুর','সুকান্ত ভট্টাচার্য','জীবনানন্দ দাশ'],0,'‘অগ্নিবীণা’ কাজী নজরুল ইসলামের প্রথম কাব্যগ্রন্থ।'),
 Q('English','Choose the correct preposition: He insisted ___ paying the bill.',['on','in','at','for'],0,'‘Insist on’ হলো সঠিক prepositional phrase।'),
-Q('English','What is the synonym of ‘Benevolent’?',['Kind','Cruel',' selfish','Careless'],0,'‘Benevolent’ অর্থ দয়ালু বা পরোপকারী; synonym ‘kind’।'),
+Q('English','What is the synonym of ‘Benevolent’?',['Kind','Cruel','selfish','Careless'],0,'‘Benevolent’ অর্থ দয়ালু বা পরোপকারী; synonym ‘kind’।'),
 Q('English','Choose the correct passive voice: ‘They are building a bridge.’',['A bridge is being built by them.','A bridge was built by them.','A bridge has built by them.','A bridge is built by them.'],0,'Present continuous passive: am/is/are + being + past participle।'),
 Q('English','The adjective form of ‘Beauty’ is—',['Beautiful','Beautify','Beautifully','Beautician'],0,'‘Beauty’-এর adjective form হলো ‘beautiful’।'),
 Q('English','Choose the correct tag question: Let us go, ___?',['shall we','will you','do we','don\'t we'],0,'‘Let us’ দিয়ে প্রস্তাব বোঝালে tag question হয় ‘shall we?’।'),
