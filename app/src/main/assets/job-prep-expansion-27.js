@@ -124,7 +124,7 @@ const additions=[
       "ভিটামিন K"
     ],
     "a": 3,
-    "e": "ভিটামিন K রক্ত জমাট বাঁধার প্রক্রিয়ায় প্রয়োজনীয়।",
+    "e": "রক্ত জমাট বাঁধার প্রক্রিয়ায় ভিটামিন K প্রয়োজনীয়।",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
     "sourceUrl": "https://ods.od.nih.gov/factsheets/vitaminK-HealthProfessional/",
     "d": "মাঝারি",
