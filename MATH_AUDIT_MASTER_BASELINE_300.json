@@ -1,7 +1,7 @@
 {
   "schema": "medhar-lorai.math-audit-master.v1",
   "createdAt": "2026-11-26",
-  "status": "BATCHES_01_10_REVIEWED_PENDING_GROUP_COMPARISON",
+  "status": "BATCHES_01_20_REVIEWED_PENDING_GROUP_COMPARISON",
   "source": {
     "path": "app/src/main/assets/math-levels.js",
     "blobSha": "e00b1e6544e4255a9073e3e802d803b6d9dcf706"
@@ -3236,8 +3236,17 @@
       "formula": "আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ",
       "shortcut": "দৈর্ঘ্য ও প্রস্থ গুণ করুন; একক হবে বর্গ একক।",
       "expected": 378,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L11_Q2",
@@ -3257,8 +3266,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 192,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L11_Q3",
@@ -3278,8 +3296,17 @@
       "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
       "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
       "expected": 50.4,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L11_Q4",
@@ -3299,8 +3326,17 @@
       "formula": "বৃত্তের পরিধি = ২πr",
       "shortcut": "ব্যাসার্ধকে ৪৪/৭ দিয়ে গুণ করুন।",
       "expected": 182.29,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L11_Q5",
@@ -3320,8 +3356,17 @@
       "formula": "ছাড়ের পর মূল্য = চিহ্নিত মূল্য × (১০০ − ছাড়ের হার) ÷ ১০০",
       "shortcut": "চিহ্নিত মূল্য থেকে ছাড়ের শতাংশ বাদ দিয়ে অবশিষ্ট শতাংশের মূল্য বের করুন।",
       "expected": 1120,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L11_Q6",
@@ -3341,8 +3386,17 @@
       "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
       "shortcut": "হারকে ভগ্নাংশে লিখে মূল সংখ্যার সঙ্গে গুণ করুন।",
       "expected": 156,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L11_Q7",
@@ -3362,8 +3416,17 @@
       "formula": "বিক্রয়মূল্য = ক্রয়মূল্য × (১০০ + লাভের হার) ÷ ১০০",
       "shortcut": "১০০% ক্রয়মূল্যের সঙ্গে লাভের হার যোগ করে গুণ করুন।",
       "expected": 1596,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L11_Q8",
@@ -3383,8 +3446,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 378,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L11_Q9",
@@ -3404,8 +3476,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 288,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L11_Q10",
@@ -3425,8 +3506,17 @@
       "formula": "সরল সুদ = মূলধন × হার × সময় ÷ ১০০",
       "shortcut": "প্রথমে ১ বছরের সুদ বের করে বছরের সংখ্যা দিয়ে গুণ করুন।",
       "expected": 1560,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L12_Q1",
@@ -3446,8 +3536,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 221,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L12_Q2",
@@ -3467,8 +3566,17 @@
       "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
       "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
       "expected": 52.8,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L12_Q3",
@@ -3488,8 +3596,17 @@
       "formula": "বৃত্তের পরিধি = ২πr",
       "shortcut": "ব্যাসার্ধকে ৪৪/৭ দিয়ে গুণ করুন।",
       "expected": 194.86,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L12_Q4",
@@ -3509,8 +3626,17 @@
       "formula": "ছাড়ের পর মূল্য = চিহ্নিত মূল্য × (১০০ − ছাড়ের হার) ÷ ১০০",
       "shortcut": "চিহ্নিত মূল্য থেকে ছাড়ের শতাংশ বাদ দিয়ে অবশিষ্ট শতাংশের মূল্য বের করুন।",
       "expected": 1615,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L12_Q5",
@@ -3530,8 +3656,17 @@
       "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
       "shortcut": "হারকে ভগ্নাংশে লিখে মূল সংখ্যার সঙ্গে গুণ করুন।",
       "expected": 182,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L12_Q6",
@@ -3551,8 +3686,17 @@
       "formula": "বিক্রয়মূল্য = ক্রয়মূল্য × (১০০ − ক্ষতির হার) ÷ ১০০",
       "shortcut": "ক্ষতির ক্ষেত্রে ১০০% থেকে ক্ষতির হার বাদ দিয়ে গুণ করুন।",
       "expected": 1305,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L12_Q7",
@@ -3572,8 +3716,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 435,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L12_Q8",
@@ -3593,8 +3746,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 306,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L12_Q9",
@@ -3614,8 +3776,17 @@
       "formula": "চক্রবৃদ্ধি সুদ = মূলধন × (১ + হার/১০০)^সময় − মূলধন",
       "shortcut": "প্রথমে (১ + হার/১০০) এর সময়-ঘাত বের করে মূলধন দিয়ে গুণ করুন।",
       "expected": 1748.1,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L12_Q10",
@@ -3635,8 +3806,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 240,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L13_Q1",
@@ -3656,8 +3836,17 @@
       "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
       "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
       "expected": 55.2,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L13_Q2",
@@ -3677,8 +3866,17 @@
       "formula": "বৃত্তের পরিধি = ২πr",
       "shortcut": "ব্যাসার্ধকে ৪৪/৭ দিয়ে গুণ করুন।",
       "expected": 207.43,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L13_Q3",
@@ -3698,8 +3896,17 @@
       "formula": "ছাড়ের পর মূল্য = চিহ্নিত মূল্য × (১০০ − ছাড়ের হার) ÷ ১০০",
       "shortcut": "চিহ্নিত মূল্য থেকে ছাড়ের শতাংশ বাদ দিয়ে অবশিষ্ট শতাংশের মূল্য বের করুন।",
       "expected": 1620,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L13_Q4",
@@ -3719,8 +3926,17 @@
       "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
       "shortcut": "হারকে ভগ্নাংশে লিখে মূল সংখ্যার সঙ্গে গুণ করুন।",
       "expected": 210,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L13_Q5",
@@ -3740,8 +3956,17 @@
       "formula": "বিক্রয়মূল্য = ক্রয়মূল্য × (১০০ + লাভের হার) ÷ ১০০",
       "shortcut": "১০০% ক্রয়মূল্যের সঙ্গে লাভের হার যোগ করে গুণ করুন।",
       "expected": 1792,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L13_Q6",
@@ -3761,8 +3986,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 496,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L13_Q7",
@@ -3782,8 +4016,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 324,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L13_Q8",
@@ -3803,8 +4046,17 @@
       "formula": "সরল সুদ = মূলধন × হার × সময় ÷ ১০০",
       "shortcut": "প্রথমে ১ বছরের সুদ বের করে বছরের সংখ্যা দিয়ে গুণ করুন।",
       "expected": 1800,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L13_Q9",
@@ -3824,8 +4076,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 272,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L13_Q10",
@@ -3845,8 +4106,17 @@
       "formula": "যৌথ সময় = (প্রথম সময় × দ্বিতীয় সময়) ÷ (সময় দুটির যোগফল)",
       "shortcut": "দুই কর্মীর দিনের সংখ্যা গুণ করে যোগফল দিয়ে ভাগ করুন।",
       "expected": 7.24,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L14_Q1",
@@ -3866,8 +4136,17 @@
       "formula": "বৃত্তের পরিধি = ২πr",
       "shortcut": "ব্যাসার্ধকে ৪৪/৭ দিয়ে গুণ করুন।",
       "expected": 220,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L14_Q2",
@@ -3887,8 +4166,17 @@
       "formula": "ছাড়ের পর মূল্য = চিহ্নিত মূল্য × (১০০ − ছাড়ের হার) ÷ ১০০",
       "shortcut": "চিহ্নিত মূল্য থেকে ছাড়ের শতাংশ বাদ দিয়ে অবশিষ্ট শতাংশের মূল্য বের করুন।",
       "expected": 1615,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L14_Q3",
@@ -3908,8 +4196,17 @@
       "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
       "shortcut": "হারকে ভগ্নাংশে লিখে মূল সংখ্যার সঙ্গে গুণ করুন।",
       "expected": 240,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L14_Q4",
@@ -3929,8 +4226,17 @@
       "formula": "বিক্রয়মূল্য = ক্রয়মূল্য × (১০০ − ক্ষতির হার) ÷ ১০০",
       "shortcut": "ক্ষতির ক্ষেত্রে ১০০% থেকে ক্ষতির হার বাদ দিয়ে গুণ করুন।",
       "expected": 1513,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L14_Q5",
@@ -3950,8 +4256,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 561,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L14_Q6",
@@ -3971,8 +4286,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 342,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L14_Q7",
@@ -3992,8 +4316,17 @@
       "formula": "চক্রবৃদ্ধি সুদ = মূলধন × (১ + হার/১০০)^সময় − মূলধন",
       "shortcut": "প্রথমে (১ + হার/১০০) এর সময়-ঘাত বের করে মূলধন দিয়ে গুণ করুন।",
       "expected": 1997.82,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L14_Q8",
@@ -4013,8 +4346,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 306,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L14_Q9",
@@ -4034,8 +4376,17 @@
       "formula": "যৌথ সময় = (প্রথম সময় × দ্বিতীয় সময়) ÷ (সময় দুটির যোগফল)",
       "shortcut": "দুই কর্মীর দিনের সংখ্যা গুণ করে যোগফল দিয়ে ভাগ করুন।",
       "expected": 7.74,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L14_Q10",
@@ -4055,8 +4406,17 @@
       "formula": "দূরত্ব = বেগ × সময়",
       "shortcut": "সময় ঘণ্টায় আছে কি না নিশ্চিত করে বেগের সঙ্গে গুণ করুন।",
       "expected": 270,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L15_Q1",
@@ -4076,8 +4436,17 @@
       "formula": "ছাড়ের পর মূল্য = চিহ্নিত মূল্য × (১০০ − ছাড়ের হার) ÷ ১০০",
       "shortcut": "চিহ্নিত মূল্য থেকে ছাড়ের শতাংশ বাদ দিয়ে অবশিষ্ট শতাংশের মূল্য বের করুন।",
       "expected": 1600,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L15_Q2",
@@ -4097,8 +4466,17 @@
       "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
       "shortcut": "হারকে ভগ্নাংশে লিখে মূল সংখ্যার সঙ্গে গুণ করুন।",
       "expected": 272,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L15_Q3",
@@ -4118,8 +4496,17 @@
       "formula": "বিক্রয়মূল্য = ক্রয়মূল্য × (১০০ + লাভের হার) ÷ ১০০",
       "shortcut": "১০০% ক্রয়মূল্যের সঙ্গে লাভের হার যোগ করে গুণ করুন।",
       "expected": 1980,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L15_Q4",
@@ -4139,8 +4526,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 630,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L15_Q5",
@@ -4160,8 +4556,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 360,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L15_Q6",
@@ -4181,8 +4586,17 @@
       "formula": "সরল সুদ = মূলধন × হার × সময় ÷ ১০০",
       "shortcut": "প্রথমে ১ বছরের সুদ বের করে বছরের সংখ্যা দিয়ে গুণ করুন।",
       "expected": 2040,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L15_Q7",
@@ -4202,8 +4616,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 342,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L15_Q8",
@@ -4223,8 +4646,17 @@
       "formula": "যৌথ সময় = ১ ÷ (১/সময়₁ + ১/সময়₂ + ১/সময়₃)",
       "shortcut": "প্রত্যেকের এক দিনের কাজ যোগ করে ১ দিয়ে ভাগ করুন।",
       "expected": 5.75,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L15_Q9",
@@ -4244,8 +4676,17 @@
       "formula": "উজানের বেগ = নৌকার বেগ − স্রোতের বেগ; দূরত্ব = বেগ × সময়",
       "shortcut": "উজানে বেগ বিয়োগ, ভাটিতে বেগ যোগ; এরপর সময় দিয়ে গুণ।",
       "expected": 66,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L15_Q10",
@@ -4265,8 +4706,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 40,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L16_Q1",
@@ -4286,8 +4736,17 @@
       "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
       "shortcut": "হারকে ভগ্নাংশে লিখে মূল সংখ্যার সঙ্গে গুণ করুন।",
       "expected": 306,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L16_Q2",
@@ -4307,8 +4766,17 @@
       "formula": "বিক্রয়মূল্য = ক্রয়মূল্য × (১০০ − ক্ষতির হার) ÷ ১০০",
       "shortcut": "ক্ষতির ক্ষেত্রে ১০০% থেকে ক্ষতির হার বাদ দিয়ে গুণ করুন।",
       "expected": 1729,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L16_Q3",
@@ -4328,8 +4796,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 703,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L16_Q4",
@@ -4349,8 +4826,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 378,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L16_Q5",
@@ -4370,8 +4856,17 @@
       "formula": "চক্রবৃদ্ধি সুদ = মূলধন × (১ + হার/১০০)^সময় − মূলধন",
       "shortcut": "প্রথমে (১ + হার/১০০) এর সময়-ঘাত বের করে মূলধন দিয়ে গুণ করুন।",
       "expected": 3057.45,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L16_Q6",
@@ -4391,8 +4886,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 380,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L16_Q7",
@@ -4412,8 +4916,17 @@
       "formula": "যৌথ সময় = (প্রথম সময় × দ্বিতীয় সময়) ÷ (সময় দুটির যোগফল)",
       "shortcut": "দুই কর্মীর দিনের সংখ্যা গুণ করে যোগফল দিয়ে ভাগ করুন।",
       "expected": 8.74,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L16_Q8",
@@ -4433,8 +4946,17 @@
       "formula": "সময় = (ট্রেনের দৈর্ঘ্য + প্ল্যাটফর্মের দৈর্ঘ্য) ÷ বেগ",
       "shortcut": "প্ল্যাটফর্ম পার হতে ট্রেন ও প্ল্যাটফর্ম—দুই দৈর্ঘ্য যোগ করুন।",
       "expected": 12.78,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L16_Q9",
@@ -4454,8 +4976,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 42,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L16_Q10",
@@ -4475,8 +5006,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 35,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L17_Q1",
@@ -4496,8 +5036,17 @@
       "formula": "বিক্রয়মূল্য = ক্রয়মূল্য × (১০০ + লাভের হার) ÷ ১০০",
       "shortcut": "১০০% ক্রয়মূল্যের সঙ্গে লাভের হার যোগ করে গুণ করুন।",
       "expected": 2160,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L17_Q2",
@@ -4517,8 +5066,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 780,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L17_Q3",
@@ -4538,8 +5096,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 396,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L17_Q4",
@@ -4559,8 +5126,17 @@
       "formula": "সরল সুদ = মূলধন × হার × সময় ÷ ১০০",
       "shortcut": "প্রথমে ১ বছরের সুদ বের করে বছরের সংখ্যা দিয়ে গুণ করুন।",
       "expected": 3040,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L17_Q5",
@@ -4580,8 +5156,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 420,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L17_Q6",
@@ -4601,8 +5186,17 @@
       "formula": "যৌথ সময় = (প্রথম সময় × দ্বিতীয় সময়) ÷ (সময় দুটির যোগফল)",
       "shortcut": "দুই কর্মীর দিনের সংখ্যা গুণ করে যোগফল দিয়ে ভাগ করুন।",
       "expected": 9.24,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L17_Q7",
@@ -4622,8 +5216,17 @@
       "formula": "দূরত্ব = বেগ × সময়",
       "shortcut": "সময় ঘণ্টায় আছে কি না নিশ্চিত করে বেগের সঙ্গে গুণ করুন।",
       "expected": 420,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L17_Q8",
@@ -4643,8 +5246,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 44,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L17_Q9",
@@ -4664,8 +5276,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 37,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L17_Q10",
@@ -4685,8 +5306,17 @@
       "formula": "মৌলিক সংখ্যা ১-এর বড় এবং ১ ও নিজে ছাড়া অন্য কোনো ধনাত্মক গুণনীয়ক নেই",
       "shortcut": "√n পর্যন্ত সম্ভাব্য মৌলিক ভাজক দিয়ে পরীক্ষা করলেই যথেষ্ট।",
       "expected": 71,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L18_Q1",
@@ -4706,8 +5336,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 861,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L18_Q2",
@@ -4727,8 +5366,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 414,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L18_Q3",
@@ -4748,8 +5396,17 @@
       "formula": "চক্রবৃদ্ধি সুদ = মূলধন × (১ + হার/১০০)^সময় − মূলধন",
       "shortcut": "প্রথমে (১ + হার/১০০) এর সময়-ঘাত বের করে মূলধন দিয়ে গুণ করুন।",
       "expected": 3397.17,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L18_Q4",
@@ -4769,8 +5426,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 462,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L18_Q5",
@@ -4790,8 +5456,17 @@
       "formula": "যৌথ সময় = ১ ÷ (১/সময়₁ + ১/সময়₂ + ১/সময়₃)",
       "shortcut": "প্রত্যেকের এক দিনের কাজ যোগ করে ১ দিয়ে ভাগ করুন।",
       "expected": 6.75,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L18_Q6",
@@ -4811,8 +5486,17 @@
       "formula": "উজানের বেগ = নৌকার বেগ − স্রোতের বেগ; দূরত্ব = বেগ × সময়",
       "shortcut": "উজানে বেগ বিয়োগ, ভাটিতে বেগ যোগ; এরপর সময় দিয়ে গুণ।",
       "expected": 78,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L18_Q7",
@@ -4832,8 +5516,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 46,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L18_Q8",
@@ -4853,8 +5546,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 39,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L18_Q9",
@@ -4874,8 +5576,17 @@
       "formula": "গ.সা.গু = উভয় সংখ্যাকে নিঃশেষে বিভাজ্য সর্বোচ্চ সংখ্যা",
       "shortcut": "বড় সংখ্যাকে ছোট সংখ্যা দিয়ে ভাগ করে ভাগশেষের সাহায্যে পুনরাবৃত্তি করুন।",
       "expected": 6,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L18_Q10",
@@ -4895,8 +5606,17 @@
       "formula": "ঘনকের আয়তন = বাহু³",
       "shortcut": "বাহুর মান তিনবার গুণ করুন।",
       "expected": 10648,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L19_Q1",
@@ -4916,8 +5636,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 432,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L19_Q2",
@@ -4937,8 +5666,17 @@
       "formula": "সরল সুদ = মূলধন × হার × সময় ÷ ১০০",
       "shortcut": "প্রথমে ১ বছরের সুদ বের করে বছরের সংখ্যা দিয়ে গুণ করুন।",
       "expected": 3360,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L19_Q3",
@@ -4958,8 +5696,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 506,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L19_Q4",
@@ -4979,8 +5726,17 @@
       "formula": "যৌথ সময় = (প্রথম সময় × দ্বিতীয় সময়) ÷ (সময় দুটির যোগফল)",
       "shortcut": "দুই কর্মীর দিনের সংখ্যা গুণ করে যোগফল দিয়ে ভাগ করুন।",
       "expected": 10.24,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L19_Q5",
@@ -5000,8 +5756,17 @@
       "formula": "সময় = (ট্রেনের দৈর্ঘ্য + প্ল্যাটফর্মের দৈর্ঘ্য) ÷ বেগ",
       "shortcut": "প্ল্যাটফর্ম পার হতে ট্রেন ও প্ল্যাটফর্ম—দুই দৈর্ঘ্য যোগ করুন।",
       "expected": 12.56,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L19_Q6",
@@ -5021,8 +5786,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 48,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L19_Q7",
@@ -5042,8 +5816,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 41,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L19_Q8",
@@ -5063,8 +5846,17 @@
       "formula": "ল.সা.গু = সংখ্যা দুটির গুণফল ÷ গ.সা.গু",
       "shortcut": "প্রথমে গ.সা.গু বের করে সংখ্যা দুটির গুণফলকে তা দিয়ে ভাগ করুন।",
       "expected": 1736,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L19_Q9",
@@ -5084,8 +5876,17 @@
       "formula": "ত্রিভুজের ক্ষেত্রফল = ১/২ × ভূমি × উচ্চতা",
       "shortcut": "ভূমি ও উচ্চতা গুণ করে অর্ধেক নিন।",
       "expected": 552,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L19_Q10",
@@ -5105,8 +5906,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 480,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L20_Q1",
@@ -5126,8 +5936,17 @@
       "formula": "চক্রবৃদ্ধি সুদ = মূলধন × (১ + হার/১০০)^সময় − মূলধন",
       "shortcut": "প্রথমে (১ + হার/১০০) এর সময়-ঘাত বের করে মূলধন দিয়ে গুণ করুন।",
       "expected": 3736.89,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L20_Q2",
@@ -5147,8 +5966,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 552,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L20_Q3",
@@ -5168,8 +5996,17 @@
       "formula": "যৌথ সময় = (প্রথম সময় × দ্বিতীয় সময়) ÷ (সময় দুটির যোগফল)",
       "shortcut": "দুই কর্মীর দিনের সংখ্যা গুণ করে যোগফল দিয়ে ভাগ করুন।",
       "expected": 10.74,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L20_Q4",
@@ -5189,8 +6026,17 @@
       "formula": "দূরত্ব = বেগ × সময়",
       "shortcut": "সময় ঘণ্টায় আছে কি না নিশ্চিত করে বেগের সঙ্গে গুণ করুন।",
       "expected": 480,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L20_Q5",
@@ -5210,8 +6056,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 50,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L20_Q6",
@@ -5231,8 +6086,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 43,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L20_Q7",
@@ -5252,8 +6116,17 @@
       "formula": "মৌলিক সংখ্যা ১-এর বড় এবং ১ ও নিজে ছাড়া অন্য কোনো ধনাত্মক গুণনীয়ক নেই",
       "shortcut": "√n পর্যন্ত সম্ভাব্য মৌলিক ভাজক দিয়ে পরীক্ষা করলেই যথেষ্ট।",
       "expected": 83,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "FAIL/FLAG — elementary one-step or implausible context; reversible exclusion candidate",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L20_Q8",
@@ -5273,8 +6146,17 @@
       "formula": "আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ",
       "shortcut": "দৈর্ঘ্য ও প্রস্থ গুণ করুন; একক হবে বর্গ একক।",
       "expected": 1035,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L20_Q9",
@@ -5294,8 +6176,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 525,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L20_Q10",
@@ -5315,8 +6206,17 @@
       "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
       "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
       "expected": 72,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_11_20",
+      "auditChecks": {
+        "calculationAndKey": "PASS — independently recomputed/checked against formula and keyed option",
+        "explanationConsistency": "PASS — explanation method and rounded result consistent",
+        "fourDistinctOptions": "PASS — four options distinct and keyed index valid",
+        "difficultyFit": "PROVISIONAL — retain pending full 1–20 comparative review",
+        "exactDuplicate": "NONE — strict canonical signature compared with batches 1–10 and within 11–20"
+      },
+      "reviewNote": "গণনা, keyed answer, ব্যাখ্যা ও চার অপশন যাচাই করা হয়েছে; final difficulty ও distractor quality তুলনা বাকি।"
     },
     {
       "id": "math_L21_Q1",
@@ -7420,7 +8320,7 @@
     }
   ],
   "auditProgress": {
-    "status": "BATCHES_01_10_REVIEWED_PENDING_GROUP_COMPARISON",
+    "status": "BATCHES_01_20_REVIEWED_PENDING_GROUP_COMPARISON",
     "completedBatches": [
       1,
       2,
@@ -7431,7 +8331,17 @@
       7,
       8,
       9,
-      10
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
     ],
     "checkpointAfterBatch5": {
       "status": "TEMPORARY_CHECKPOINT_RECORDED",
@@ -7443,16 +8353,26 @@
       "questionsReviewed": 100,
       "exclusionCandidates": 11
     },
+    "checkpointAfterBatch15": {
+      "status": "TEMPORARY_CHECKPOINT_RECORDED",
+      "questionsReviewed": 150,
+      "exclusionCandidates": 28
+    },
+    "checkpointAfterBatch20": {
+      "status": "TEMPORARY_CHECKPOINT_RECORDED",
+      "questionsReviewed": 200,
+      "exclusionCandidates": 48
+    },
     "reviewSummary": {
-      "questionsReviewed": 100,
+      "questionsReviewed": 200,
       "calculationOrAnswerMismatches": 0,
       "explanationMismatches": 0,
       "malformedOrInvalidOptionSets": 0,
       "exactDuplicateGroups": 0,
-      "provisionalRetain": 89,
-      "exclusionCandidates": 11,
+      "provisionalRetain": 152,
+      "exclusionCandidates": 48,
       "permanentDeletions": 0,
-      "systemicIssue": "Distractors are mechanically generated around the correct answer (roughly ±10%/±20%), rather than common exam-mistake distractors; option quality requires redesign before final lock."
+      "systemicIssue": "Distractors remain mechanically generated near the correct answer; repeated templates and weak progression are present. Several age items use implausible combined ages (200–300 years); one-step percentage/average/unitary/speed/prime items are flagged."
     },
     "batchSummaries": [
       {
@@ -7544,6 +8464,163 @@
         "optionStructure": "PASS — four distinct options; answer index valid",
         "exactDuplicates": "0 within batch; 0 against earlier baseline records in this 100-question window",
         "difficultyFit": "Review basic single-step item(s) listed in exclusion ledger; remaining items provisionally retain"
+      },
+      {
+        "batch": 11,
+        "range": "math_L11_Q1–math_L11_Q10",
+        "count": 10,
+        "reviewed": 10,
+        "calculationKeyExplanation": "PASS — all 10 independently checked",
+        "optionStructure": "PASS — four distinct options and valid keyed answer",
+        "exactDuplicates": "0 against consolidated batches 1–10 and 0 within this batch",
+        "exclusionCandidates": [
+          "math_L11_Q6",
+          "math_L11_Q9"
+        ],
+        "retainedProvisional": 8
+      },
+      {
+        "batch": 12,
+        "range": "math_L12_Q1–math_L12_Q10",
+        "count": 10,
+        "reviewed": 10,
+        "calculationKeyExplanation": "PASS — all 10 independently checked",
+        "optionStructure": "PASS — four distinct options and valid keyed answer",
+        "exactDuplicates": "0 against consolidated batches 1–10 and 0 within this batch",
+        "exclusionCandidates": [
+          "math_L12_Q5",
+          "math_L12_Q8",
+          "math_L12_Q10"
+        ],
+        "retainedProvisional": 7
+      },
+      {
+        "batch": 13,
+        "range": "math_L13_Q1–math_L13_Q10",
+        "count": 10,
+        "reviewed": 10,
+        "calculationKeyExplanation": "PASS — all 10 independently checked",
+        "optionStructure": "PASS — four distinct options and valid keyed answer",
+        "exactDuplicates": "0 against consolidated batches 1–10 and 0 within this batch",
+        "exclusionCandidates": [
+          "math_L13_Q4",
+          "math_L13_Q7",
+          "math_L13_Q9"
+        ],
+        "retainedProvisional": 7
+      },
+      {
+        "batch": 14,
+        "range": "math_L14_Q1–math_L14_Q10",
+        "count": 10,
+        "reviewed": 10,
+        "calculationKeyExplanation": "PASS — all 10 independently checked",
+        "optionStructure": "PASS — four distinct options and valid keyed answer",
+        "exactDuplicates": "0 against consolidated batches 1–10 and 0 within this batch",
+        "exclusionCandidates": [
+          "math_L14_Q3",
+          "math_L14_Q6",
+          "math_L14_Q8",
+          "math_L14_Q10"
+        ],
+        "retainedProvisional": 6
+      },
+      {
+        "batch": 15,
+        "range": "math_L15_Q1–math_L15_Q10",
+        "count": 10,
+        "reviewed": 10,
+        "calculationKeyExplanation": "PASS — all 10 independently checked",
+        "optionStructure": "PASS — four distinct options and valid keyed answer",
+        "exactDuplicates": "0 against consolidated batches 1–10 and 0 within this batch",
+        "exclusionCandidates": [
+          "math_L15_Q2",
+          "math_L15_Q5",
+          "math_L15_Q7",
+          "math_L15_Q9",
+          "math_L15_Q10"
+        ],
+        "retainedProvisional": 5
+      },
+      {
+        "batch": 16,
+        "range": "math_L16_Q1–math_L16_Q10",
+        "count": 10,
+        "reviewed": 10,
+        "calculationKeyExplanation": "PASS — all 10 independently checked",
+        "optionStructure": "PASS — four distinct options and valid keyed answer",
+        "exactDuplicates": "0 against consolidated batches 1–10 and 0 within this batch",
+        "exclusionCandidates": [
+          "math_L16_Q1",
+          "math_L16_Q4",
+          "math_L16_Q6",
+          "math_L16_Q9"
+        ],
+        "retainedProvisional": 6
+      },
+      {
+        "batch": 17,
+        "range": "math_L17_Q1–math_L17_Q10",
+        "count": 10,
+        "reviewed": 10,
+        "calculationKeyExplanation": "PASS — all 10 independently checked",
+        "optionStructure": "PASS — four distinct options and valid keyed answer",
+        "exactDuplicates": "0 against consolidated batches 1–10 and 0 within this batch",
+        "exclusionCandidates": [
+          "math_L17_Q3",
+          "math_L17_Q5",
+          "math_L17_Q7",
+          "math_L17_Q8",
+          "math_L17_Q10"
+        ],
+        "retainedProvisional": 5
+      },
+      {
+        "batch": 18,
+        "range": "math_L18_Q1–math_L18_Q10",
+        "count": 10,
+        "reviewed": 10,
+        "calculationKeyExplanation": "PASS — all 10 independently checked",
+        "optionStructure": "PASS — four distinct options and valid keyed answer",
+        "exactDuplicates": "0 against consolidated batches 1–10 and 0 within this batch",
+        "exclusionCandidates": [
+          "math_L18_Q2",
+          "math_L18_Q4",
+          "math_L18_Q7",
+          "math_L18_Q9"
+        ],
+        "retainedProvisional": 6
+      },
+      {
+        "batch": 19,
+        "range": "math_L19_Q1–math_L19_Q10",
+        "count": 10,
+        "reviewed": 10,
+        "calculationKeyExplanation": "PASS — all 10 independently checked",
+        "optionStructure": "PASS — four distinct options and valid keyed answer",
+        "exactDuplicates": "0 against consolidated batches 1–10 and 0 within this batch",
+        "exclusionCandidates": [
+          "math_L19_Q1",
+          "math_L19_Q3",
+          "math_L19_Q6"
+        ],
+        "retainedProvisional": 7
+      },
+      {
+        "batch": 20,
+        "range": "math_L20_Q1–math_L20_Q10",
+        "count": 10,
+        "reviewed": 10,
+        "calculationKeyExplanation": "PASS — all 10 independently checked",
+        "optionStructure": "PASS — four distinct options and valid keyed answer",
+        "exactDuplicates": "0 against consolidated batches 1–10 and 0 within this batch",
+        "exclusionCandidates": [
+          "math_L20_Q2",
+          "math_L20_Q4",
+          "math_L20_Q5",
+          "math_L20_Q7"
+        ],
+        "retainedProvisional": 6
       }
     ]
   },
@@ -7614,5 +8691,51 @@
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
       "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
     }
-  ]
+  ],
+  "groupComparison_01_20": {
+    "comparison": "Batches 11–20 compared against consolidated batches 1–10 using strict normalized category + stem + sorted complete options + keyed answer signature; option order ignored.",
+    "exactDuplicatesAgainstBatches01_10": 0,
+    "exactDuplicatesWithinBatches11_20": 0,
+    "conceptualOverlap": "Repeated template families (percentage, average, unitary method, speed, age, algebra, prime/LCM/GCD) are present; these are not exact duplicates because values/stems/options differ. Logged as quality/progression concerns, not removed as duplicates.",
+    "exclusionCandidates": [
+      "math_L11_Q6",
+      "math_L11_Q9",
+      "math_L12_Q5",
+      "math_L12_Q8",
+      "math_L12_Q10",
+      "math_L13_Q4",
+      "math_L13_Q7",
+      "math_L13_Q9",
+      "math_L14_Q3",
+      "math_L14_Q6",
+      "math_L14_Q8",
+      "math_L14_Q10",
+      "math_L15_Q2",
+      "math_L15_Q5",
+      "math_L15_Q7",
+      "math_L15_Q9",
+      "math_L15_Q10",
+      "math_L16_Q1",
+      "math_L16_Q4",
+      "math_L16_Q6",
+      "math_L16_Q9",
+      "math_L17_Q3",
+      "math_L17_Q5",
+      "math_L17_Q7",
+      "math_L17_Q8",
+      "math_L17_Q10",
+      "math_L18_Q2",
+      "math_L18_Q4",
+      "math_L18_Q7",
+      "math_L18_Q9",
+      "math_L19_Q1",
+      "math_L19_Q3",
+      "math_L19_Q6",
+      "math_L20_Q2",
+      "math_L20_Q4",
+      "math_L20_Q5",
+      "math_L20_Q7"
+    ],
+    "permanentDeletions": 0
+  }
 }
