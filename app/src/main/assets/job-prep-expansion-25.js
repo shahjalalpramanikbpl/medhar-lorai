@@ -1,6 +1,6 @@
 /* মেধার লড়াই — সম্প্রসারণ ব্যাচ ২৫: ৩০টি প্রশ্ন */
 (()=>{'use strict';
-const additions=[
+const additions = [
   {
     "id": "extra_881",
     "c": "বাংলা ভাষা ও সাহিত্য",
@@ -126,8 +126,9 @@ const additions=[
     "a": 2,
     "e": "বৃক্ক রক্ত থেকে বর্জ্য পদার্থ ছেঁকে বের করে।",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-tract-how-it-works",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_21_25"
   },
   {
     "id": "extra_890",
@@ -142,8 +143,9 @@ const additions=[
     "a": 1,
     "e": "pH ৭-এর কম হলে দ্রবণ অম্লীয়।",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/ph-and-water",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_21_25"
   },
   {
     "id": "extra_892",
