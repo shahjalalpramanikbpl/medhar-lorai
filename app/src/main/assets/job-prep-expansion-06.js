@@ -381,8 +381,9 @@
     "a": 2,
     "e": "ক্লোরোপ্লাস্টে ক্লোরোফিল থাকে এবং সেখানেই সালোকসংশ্লেষণ ঘটে।",
     "source": "Biology",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26819/",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
   },
   {
     "id": "extra_238",
@@ -397,8 +398,9 @@
     "a": 1,
     "e": "বৈদ্যুতিক প্রবাহের SI একক অ্যাম্পিয়ার (A)।",
     "source": "Physics",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://www.nist.gov/si-redefinition/definitions-si-base-units",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
   },
   {
     "id": "extra_239",
@@ -413,8 +415,9 @@
     "a": 2,
     "e": "প্রায় ২৫°C তাপমাত্রায় বিশুদ্ধ পানির pH প্রায় ৭, অর্থাৎ নিরপেক্ষ।",
     "source": "Chemistry",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/facts-about-water",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
   }
 ];
   const bank = window.JOB_PREP_BANK || (window.JOB_PREP_BANK=[]);

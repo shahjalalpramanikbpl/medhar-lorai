@@ -269,8 +269,9 @@
     "a": 1,
     "e": "লোহিত রক্তকণিকার হিমোগ্লোবিন অক্সিজেন বহন করে।",
     "source": "জীববিজ্ঞান",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279392/",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
   },
   {
     "id": "extra_376",
@@ -285,24 +286,9 @@
     "a": 2,
     "e": "শূন্যস্থানে আলোর বেগ প্রায় ২৯৯,৭৯২,৪৫৮ মিটার/সেকেন্ড, অর্থাৎ ৩×১০⁸ মিটার/সেকেন্ড।",
     "source": "পদার্থবিজ্ঞান",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
-    "id": "extra_377",
-    "c": "সাধারণ বিজ্ঞান",
-    "q": "মানবদেহের সবচেয়ে বড় গ্রন্থি কোনটি?",
-    "o": [
-      "অগ্ন্যাশয়",
-      "থাইরয়েড",
-      "যকৃৎ",
-      "পিটুইটারি"
-    ],
-    "a": 2,
-    "e": "যকৃৎ মানবদেহের সবচেয়ে বড় গ্রন্থি।",
-    "source": "মানবদেহ",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://physics.nist.gov/cuu/Constants/Value/c.html",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
   },
   {
     "id": "extra_378",
@@ -317,8 +303,9 @@
     "a": 1,
     "e": "ক্লোরোফিল সূর্যালোকের শক্তি শোষণ করে সালোকসংশ্লেষণে সহায়তা করে।",
     "source": "উদ্ভিদবিজ্ঞান",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9903/",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
   },
   {
     "id": "extra_379",
@@ -333,8 +320,9 @@
     "a": 1,
     "e": "পারদ কক্ষতাপমাত্রায় তরল ধাতু।",
     "source": "রসায়ন",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://periodic-table.rsc.org/element/80/Mercury",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
   },
   {
     "id": "extra_380",
@@ -349,9 +337,11 @@
     "a": 1,
     "e": "যকৃতে অ্যামোনিয়া থেকে ইউরিয়া তৈরি হয়; পরে বৃক্ক তা ছেঁকে বের করে।",
     "source": "জীববিজ্ঞান",
-    "sourceUrl": "",
-    "d": ""
-  },{
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK513323/",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
+  },
+  {
     "id": "extra_382",
     "c": "কম্পিউটার ও ICT",
     "q": "ই-মেইল পাঠানোর জন্য সাধারণত কোন প্রোটোকল ব্যবহৃত হয়?",
@@ -463,7 +453,7 @@
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_390",
     "c": "যুক্তি ও বিশ্লেষণ",
     "q": "একটি বাক্সে ৫টি লাল, ৪টি নীল ও ৩টি সবুজ বল আছে। না দেখে অন্তত একটি নীল বল নিশ্চিত পেতে সর্বোচ্চ কতটি বল তুলতে হবে?",

@@ -208,7 +208,7 @@
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_334",
     "c": "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",
     "q": "স্বাধীন বাংলাদেশে প্রথম আদমশুমারি অনুষ্ঠিত হয় কোন সালে?",
@@ -237,8 +237,9 @@
     "a": 1,
     "e": "অগ্ন্যাশয়ের বিটা কোষ ইনসুলিন তৈরি করে।",
     "source": "জীববিজ্ঞান",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459261/",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
   },
   {
     "id": "extra_336",
@@ -253,8 +254,9 @@
     "a": 0,
     "e": "শব্দের মাত্রা সাধারণত ডেসিবেল (dB) এককে প্রকাশ করা হয়।",
     "source": "পদার্থবিজ্ঞান",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://www.cdc.gov/niosh/noise/prevent/understand.html",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
   },
   {
     "id": "extra_337",
@@ -269,10 +271,11 @@
     "a": 2,
     "e": "মানব রক্তের স্বাভাবিক pH সামান্য ক্ষারীয়, প্রায় ৭.৩৫–৭.৪৫।",
     "source": "জীববিজ্ঞান",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK507807/",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
   },
-    {
+  {
     "id": "extra_339",
     "c": "সাধারণ বিজ্ঞান",
     "q": "পৃথিবীর বায়ুমণ্ডলে সর্বাধিক পরিমাণে কোন গ্যাস রয়েছে?",
@@ -285,8 +288,9 @@
     "a": 2,
     "e": "শুষ্ক বায়ুমণ্ডলের প্রায় ৭৮ শতাংশ নাইট্রোজেন।",
     "source": "পরিবেশবিজ্ঞান",
-    "sourceUrl": "",
-    "d": ""
+    "sourceUrl": "https://www.noaa.gov/jetstream/atmosphere",
+    "d": "",
+    "auditStatus": "content_checked_batches_06_10"
   },
   {
     "id": "extra_340",
@@ -432,7 +436,7 @@
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_350",
     "c": "যুক্তি ও বিশ্লেষণ",
     "q": "সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। কোন সিদ্ধান্তটি নিশ্চিত?",
