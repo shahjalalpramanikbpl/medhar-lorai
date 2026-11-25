@@ -93,7 +93,12 @@
     "reaudited_expansion_questions_through_batch_55": 101,
     "reaudit_content_verified_through_batch_55": 101,
     "reaudit_candidate_questions_through_batch_55": 118,
-    "reaudit_exact_duplicates_found_batch_51_55_vs_prior": 0
+    "reaudit_exact_duplicates_found_batch_51_55_vs_prior": 0,
+    "baseline_substantive_reaudit_groups_completed": 1,
+    "baseline_substantive_reaudit_questions_verified": 26,
+    "baseline_substantive_reaudit_questions_pending": 104,
+    "reaudit_total_questions_substantively_verified": 127,
+    "baseline_reaudit_exact_duplicates_group_01_26": 0
   },
   "duplicate_removals": [
     {
@@ -221,7 +226,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279392/",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_2",
@@ -238,7 +252,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_3",
@@ -255,7 +278,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.usgs.gov/water-science-school/science/facts-about-water",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_4",
@@ -272,7 +304,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminC-Consumer/",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_5",
@@ -289,7 +330,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/university-physics-volume-1/pages/17-2-speed-of-sound",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_6",
@@ -306,7 +356,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://medlineplus.gov/skinconditions.html",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_7",
@@ -323,7 +382,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.nist.gov/si-redefinition/definitions-si-base-units",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_8",
@@ -340,7 +408,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_9",
@@ -357,7 +434,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://prod-01-alb-www-noaa.woc.noaa.gov/jetstream/atmosphere",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_10",
@@ -374,7 +460,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://physics.nist.gov/cuu/Constants/Value/c.html",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_11",
@@ -391,7 +486,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459261/",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_12",
@@ -408,7 +512,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://medlineplus.gov/ency/article/001982.htm",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_13",
@@ -425,7 +538,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_14",
@@ -442,7 +564,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/17-6-corrosion",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_15",
@@ -459,7 +590,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/biology-2e/pages/2-1-atoms-isotopes-ions-and-molecules-the-building-blocks",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_16",
@@ -476,7 +616,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_17",
@@ -493,7 +642,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_18",
@@ -510,7 +668,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK536919/",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_19",
@@ -527,7 +694,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.energy.gov/eere/solar/how-does-solar-work",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_20",
@@ -544,7 +720,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://csl.noaa.gov/assessments/ozone/2022/downloads/twentyquestions.pdf",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_21",
@@ -561,7 +746,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://medlineplus.gov/lab-tests/thyroxine-t4-test/",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_22",
@@ -578,7 +772,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://science.nasa.gov/moon/facts/",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_23",
@@ -595,7 +798,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/college-physics-ap-courses/pages/24-2-production-of-electromagnetic-waves",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_24",
@@ -612,7 +824,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_25",
@@ -629,7 +850,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/chemistry/pages/14-1-bronsted-lowry-acids-and-bases",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_26",
@@ -646,7 +876,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.noaa.gov/jetstream/atmosphere/air-pressure",
       "audit_status": "content_checked_baseline_group_01_26",
-      "audit_group": "baseline_01_26"
+      "audit_group": "baseline_01_26",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_01_26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_27",
@@ -4702,10 +4941,10 @@
     "retained_expansion_questions_reaudited": 101,
     "exact_duplicate_crosscheck_against_baseline": 0,
     "exact_duplicates_previously_removed_in_batches_01_05": 3,
-    "baseline_questions_factual_reaudit_pending": 130,
-    "next_step": "Begin substantive factual re-audit of the 130 baseline questions in five groups of 26 (1-26, 27-52, 53-78, 79-104, 105-130), checking question, all four options, keyed answer, explanation and exact duplicates.",
+    "baseline_questions_factual_reaudit_pending": 104,
+    "next_step": "Re-audit baseline questions 27-52 and compare against the consolidated baseline 01-26 plus expansion batches 01-55 set.",
     "lock_suspended_until_full_reaudit": true,
-    "checkpoint": "SCIENCE_REAUDIT_BATCH_51_55.md",
+    "checkpoint": "SCIENCE_BASELINE_REAUDIT_01_26.md",
     "last_comparison": {
       "new_exact_duplicates_between_batches_51_55_and_prior_01_50": 0,
       "duplicate_copies_already_removed_in_source_and_master": [],
@@ -4718,6 +4957,32 @@
         "extra_1738 is about the DNA double-helix model, distinct from prior DNA full-form questions"
       ],
       "corrections": 0,
+      "policy": "Exact duplicate deletion requires same normalized category, question, complete option set and keyed answer; conceptual repeats with changed wording or options are flagged, not silently removed."
+    },
+    "baseline_reaudit_groups_completed": [
+      "01-26"
+    ],
+    "baseline_questions_reaudited": 26,
+    "total_questions_substantively_reaudited": 127,
+    "last_baseline_comparison": {
+      "baseline_group": "01-26",
+      "candidates": 26,
+      "retained": 26,
+      "exact_duplicates_within_group": 0,
+      "exact_duplicates_against_all_other_master_questions": 0,
+      "corrections": 0,
+      "conceptual_overlap_flags": [
+        "suite_1 RBC oxygen transport overlaps conceptually with expansion RBC questions; option set differs",
+        "suite_2 photosynthesis uses carbon dioxide overlaps conceptually with expansion photosynthesis questions; wording/options differ",
+        "suite_3 water boiling point overlaps conceptually with extra_1591/extra_1376; wording/options differ",
+        "suite_11 insulin from pancreas overlaps with expansion insulin questions; wording/options differ",
+        "suite_13 kidney blood filtration overlaps with extra_1769; wording/options differ",
+        "suite_15 nucleus particles overlaps with extra_1561/extra_1649; wording/options differ",
+        "suite_16 vitamin K blood clotting overlaps with extra_949/extra_1220; wording/options differ",
+        "suite_18 blood pH overlaps with extra_1740; wording/options differ",
+        "suite_20 ozone in stratosphere overlaps with extra_1441; wording/options differ",
+        "suite_21 thyroxine from thyroid overlaps with extra_1280; wording/options differ"
+      ],
       "policy": "Exact duplicate deletion requires same normalized category, question, complete option set and keyed answer; conceptual repeats with changed wording or options are flagged, not silently removed."
     }
   }
