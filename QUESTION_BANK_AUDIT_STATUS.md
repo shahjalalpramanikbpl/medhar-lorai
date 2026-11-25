@@ -529,3 +529,12 @@
 - Verified question statuses: provisional retain **১৬৯**, replacement draft **৫২**, remaining reversible exclusion candidate **৭৯**; permanent deletion **০**।
 - Exclusion ledger এখন ৭৯টি candidate ID-এর সঙ্গে question-level status-এর হুবহু মিল রয়েছে। Replacement registry-তে ৫২টি draft ID রয়েছে।
 - Master source SHA: `63e477294446260dc0e16a06c5f3eac45af1c46e`; runtime source SHA-এর সঙ্গে মিলেছে। গণিত এখনো **NOT LOCKED**।
+
+
+## গণিত — অবশিষ্ট ৭৯টি Candidate Rewrite সম্পন্ন (২৬ নভেম্বর ২০২৬)
+- পূর্ববর্তী ৭৯টি reversible candidate-এর সবগুলো পুনর্লিখিত; ৮টি ধারাবাহিক group checkpoint নথিভুক্ত (প্রতি গ্রুপে ৫-প্রশ্ন temporary checkpoint এবং group-end checkpoint)।
+- Runtime compile PASS; ৩০০ প্রশ্ন/৩০ level/প্রতি level ১০টি অক্ষুণ্ণ; keyed numeric value mismatch ০; invalid option set ০; strict exact duplicate groups ০।
+- Question-level status ও ledger পুনর্গণনায়: provisional retain ১৬৯, replacement draft 131, remaining candidate ০, permanent deletion ০।
+- Master ও runtime source একই SHA-র content নির্দেশ করে: `cc9bff5b984b6a60085a4d148a6283d7df08953e`।
+- **গণিত এখনো NOT LOCKED**; final pedagogical/content QA, distractor ও difficulty review, integration এবং release validation বাকি। External CI/device test এই কাজে চালানো হয়নি।
+- রিপোর্ট: `MATH_CANDIDATE_REWRITE_REMAINING_79.md`।
