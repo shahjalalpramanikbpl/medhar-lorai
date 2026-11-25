@@ -397,3 +397,12 @@
 - বিস্তারিত: `SCIENCE_BASELINE_REAUDIT_105_130.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
 - **পরবর্তী ধাপ:** সব ২৩১টি প্রশ্নের final integrated reconciliation—full-set exact duplicate, malformed records, missing source URLs, invalid answer indices, source consistency এবং app/runtime integration। এ পর্যায় সফলভাবে যাচাই না হওয়া পর্যন্ত LOCK নয়।
 - বর্তমান অবস্থা: **REVALIDATION_COMPLETE_PENDING_FINAL_INTEGRATED_RECONCILIATION_NOT_LOCKED**।
+
+
+## সাধারণ বিজ্ঞান — Final integrated reconciliation: প্রথম structural pass (২৬ নভেম্বর ২০২৬)
+- Master-এ Baseline ১৩০ + Expansion ১০১ = **২৩১টি** retained science question একত্রে scan করা হয়েছে।
+- Canonical exact duplicate signature: **০**; malformed records: **০**; missing/invalid HTTP(S) source URL: **০**; invalid answer index: **০**।
+- এটি master-এর structural scan মাত্র। Baseline/Expansion source asset-এর সঙ্গে content consistency এবং app/runtime loading/tests এখনো pending; তাই **LOCK নয়**।
+- পরবর্তী ধাপ: source assets ↔ master reconciliation, app/runtime code review, available tests/CI run এবং বাস্তব ফল যাচাই।
+- বিস্তারিত: `SCIENCE_FINAL_INTEGRATED_RECONCILIATION.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
+- অবস্থা: **REVALIDATION_COMPLETE_PENDING_SOURCE_AND_RUNTIME_INTEGRATION_CHECK_NOT_LOCKED**।
