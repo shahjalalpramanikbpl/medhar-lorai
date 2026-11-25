@@ -1,6 +1,6 @@
 /* মেধার লড়াই — সম্প্রসারণ ব্যাচ ২৩: ৩০টি প্রশ্ন */
 (()=>{'use strict';
-const additions=[
+const additions = [
   {
     "id": "extra_820",
     "c": "বাংলা ভাষা ও সাহিত্য",
@@ -33,7 +33,7 @@ const additions=[
     "sourceUrl": "",
     "d": "মাঝারি"
   },
-    {
+  {
     "id": "extra_823",
     "c": "English",
     "q": "Choose the antonym of “Conceal”.",
@@ -126,10 +126,11 @@ const additions=[
     "a": 2,
     "e": "লোহিত রক্তকণিকা সাধারণত প্রায় ১২০ দিন বেঁচে থাকে।",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK539702/",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_21_25"
   },
-      {
+  {
     "id": "extra_832",
     "c": "কম্পিউটার ও ICT",
     "q": "কম্পিউটারে অস্থায়ীভাবে তথ্য সংরক্ষণ করে কোন মেমোরি?",
