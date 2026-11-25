@@ -94,11 +94,12 @@
     "reaudit_content_verified_through_batch_55": 101,
     "reaudit_candidate_questions_through_batch_55": 118,
     "reaudit_exact_duplicates_found_batch_51_55_vs_prior": 0,
-    "baseline_substantive_reaudit_groups_completed": 1,
-    "baseline_substantive_reaudit_questions_verified": 26,
-    "baseline_substantive_reaudit_questions_pending": 104,
-    "reaudit_total_questions_substantively_verified": 127,
-    "baseline_reaudit_exact_duplicates_group_01_26": 0
+    "baseline_substantive_reaudit_groups_completed": 2,
+    "baseline_substantive_reaudit_questions_verified": 52,
+    "baseline_substantive_reaudit_questions_pending": 78,
+    "reaudit_total_questions_substantively_verified": 153,
+    "baseline_reaudit_exact_duplicates_group_01_26": 0,
+    "baseline_reaudit_exact_duplicates_group_27_52": 0
   },
   "duplicate_removals": [
     {
@@ -902,7 +903,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_28",
@@ -919,7 +929,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK470209/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_29",
@@ -936,7 +955,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://periodic-table.rsc.org/element/80/Mercury",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_30",
@@ -953,7 +981,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_31",
@@ -970,7 +1007,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_32",
@@ -987,7 +1033,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279392/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_33",
@@ -1004,7 +1059,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK500014/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_34",
@@ -1021,7 +1085,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/Water",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_35",
@@ -1038,7 +1111,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/biology-2e/pages/30-1-the-plant-body",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_36",
@@ -1055,7 +1137,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://medlineplus.gov/ency/article/001982.htm",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_37",
@@ -1072,7 +1163,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://science.nasa.gov/mars/facts/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_38",
@@ -1089,7 +1189,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459261/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_39",
@@ -1106,7 +1215,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_40",
@@ -1123,7 +1241,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK536919/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_41",
@@ -1140,7 +1267,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26819/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_42",
@@ -1157,7 +1293,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.nist.gov/si-redefinition/definitions-si-base-units",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_43",
@@ -1174,7 +1319,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK500014/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_44",
@@ -1191,7 +1345,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/Water",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_45",
@@ -1208,7 +1371,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_46",
@@ -1225,7 +1397,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279392/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_47",
@@ -1242,7 +1423,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.usgs.gov/water-science-school/science/facts-about-water",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_48",
@@ -1259,7 +1449,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/physics/pages/5-2-newtons-first-law",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_49",
@@ -1276,7 +1475,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK536919/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_50",
@@ -1293,7 +1501,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://www.redcrossblood.org/donate-blood/blood-types.html",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_51",
@@ -1310,7 +1527,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_52",
@@ -1327,7 +1553,16 @@
       "source": "job-prep-suite.js",
       "sourceUrl": "https://openstax.org/books/physics/pages/5-4-newtons-third-law",
       "audit_status": "content_checked_baseline_group_27_52",
-      "audit_group": "baseline_27_52"
+      "audit_group": "baseline_27_52",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_27_52",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "suite_53",
@@ -4941,8 +5176,8 @@
     "retained_expansion_questions_reaudited": 101,
     "exact_duplicate_crosscheck_against_baseline": 0,
     "exact_duplicates_previously_removed_in_batches_01_05": 3,
-    "baseline_questions_factual_reaudit_pending": 104,
-    "next_step": "Re-audit baseline questions 27-52 and compare against the consolidated baseline 01-26 plus expansion batches 01-55 set.",
+    "baseline_questions_factual_reaudit_pending": 78,
+    "next_step": "Re-audit baseline questions 53-78 and compare against consolidated baseline 01-52 plus expansion batches 01-55.",
     "lock_suspended_until_full_reaudit": true,
     "checkpoint": "SCIENCE_BASELINE_REAUDIT_01_26.md",
     "last_comparison": {
@@ -4960,30 +5195,33 @@
       "policy": "Exact duplicate deletion requires same normalized category, question, complete option set and keyed answer; conceptual repeats with changed wording or options are flagged, not silently removed."
     },
     "baseline_reaudit_groups_completed": [
-      "01-26"
+      "01-26",
+      "27-52"
     ],
-    "baseline_questions_reaudited": 26,
-    "total_questions_substantively_reaudited": 127,
+    "baseline_questions_reaudited": 52,
+    "total_questions_substantively_reaudited": 153,
     "last_baseline_comparison": {
-      "baseline_group": "01-26",
+      "baseline_group": "27-52",
       "candidates": 26,
       "retained": 26,
       "exact_duplicates_within_group": 0,
       "exact_duplicates_against_all_other_master_questions": 0,
       "corrections": 0,
       "conceptual_overlap_flags": [
-        "suite_1 RBC oxygen transport overlaps conceptually with expansion RBC questions; option set differs",
-        "suite_2 photosynthesis uses carbon dioxide overlaps conceptually with expansion photosynthesis questions; wording/options differ",
-        "suite_3 water boiling point overlaps conceptually with extra_1591/extra_1376; wording/options differ",
-        "suite_11 insulin from pancreas overlaps with expansion insulin questions; wording/options differ",
-        "suite_13 kidney blood filtration overlaps with extra_1769; wording/options differ",
-        "suite_15 nucleus particles overlaps with extra_1561/extra_1649; wording/options differ",
-        "suite_16 vitamin K blood clotting overlaps with extra_949/extra_1220; wording/options differ",
-        "suite_18 blood pH overlaps with extra_1740; wording/options differ",
-        "suite_20 ozone in stratosphere overlaps with extra_1441; wording/options differ",
-        "suite_21 thyroxine from thyroid overlaps with extra_1280; wording/options differ"
+        "suite_32/suite_46 vs suite_1 and expansion RBC questions: red blood cell oxygen transport; stems differ.",
+        "suite_35 vs expansion xylem questions: xylem transports water and minerals; conceptual overlap, different stem/options.",
+        "suite_38 vs suite_11 and expansion insulin questions: pancreas beta cells produce insulin; different wording/options.",
+        "suite_39 vs suite_27: mitochondria as cell power source; wording differs (শক্তিঘর/শক্তিকেন্দ্র).",
+        "suite_40/suite_49 vs suite_18 and expansion blood-pH questions: normal blood pH about 7.4; option sets differ.",
+        "suite_41 vs expansion photosynthesis/chloroplast questions: photosynthesis in chloroplast; different wording/options.",
+        "suite_43 vs suite_33: largest gland is liver; stems differ by 'মানবদেহের' vs 'মানবদেহে', so not exact under strict signature.",
+        "suite_44 vs suite_34: water chemical formula H2O; option sets differ.",
+        "suite_46 vs suite_32: RBC oxygen transport; wording and option order differ.",
+        "suite_47 vs suite_3: water boiling point 100°C at sea level; wording differs.",
+        "suite_49 vs suite_40: blood pH; final distractor differs.",
+        "suite_51 vs suite_16 and expansion vitamin-K questions: vitamin K in clotting; wording/options differ."
       ],
-      "policy": "Exact duplicate deletion requires same normalized category, question, complete option set and keyed answer; conceptual repeats with changed wording or options are flagged, not silently removed."
+      "policy": "Exact duplicate requires normalized category + exact normalized question stem + complete sorted normalized option set + keyed answer. Conceptual overlaps with different stems or option sets are retained and flagged."
     }
   }
 }
