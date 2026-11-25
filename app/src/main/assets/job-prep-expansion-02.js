@@ -100,15 +100,15 @@ const additions=[
   {
     "id": "extra_047",
     "c": "English",
-    "q": "Choose the correct tense: “By next June, she ___ here for five years.”",
+    "q": "Choose the correct tense: “By next June, she ___ at this company continuously for five years.”",
     "o": [
       "works",
       "will have worked",
-      "has worked",
+      "will have been working",
       "is working"
     ],
-    "a": 1,
-    "e": "A duration continuing up to a future point takes the future perfect form here.",
+    "a": 2,
+    "e": "The future perfect continuous (will have been + -ing) emphasizes an activity continuing for a duration up to a specified future point.",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
     "sourceUrl": "",
     "d": "মাঝারি"
