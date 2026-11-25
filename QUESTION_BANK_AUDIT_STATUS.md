@@ -228,3 +228,14 @@
 - Final reconciliation: missing/empty options ০; malformed option count ০; duplicate option ০; invalid answer index ০; missing explanation ০; missing source URL ০; integrated exact duplicate signature ০।
 - বিস্তারিত: `SCIENCE_AUDIT_BATCH_36_40.md`, `SCIENCE_AUDIT_FINAL_RECONCILIATION.md`, `SCIENCE_AUDIT_BATCH_56_CLOSURE.md`।
 - সিদ্ধান্ত: সাধারণ বিজ্ঞান বিষয়বস্তুর audit **COMPLETE — LOCKED**। এই correction-এ পুরো ২৩২টি প্রশ্ন নতুন করে audit করা হয়নি; আগের verified master-এ একটি Unicode-normalization duplicate বাদ দিয়ে totals/report সমন্বয় করা হয়েছে।
+
+
+## সাধারণ বিজ্ঞান — substantive re-audit পুনরায় শুরু (২৫ নভেম্বর ২০২৬)
+**গুরুত্বপূর্ণ অবস্থা-সংশোধন:** আগের COMPLETE/LOCKED ঘোষণাকে আপাতত স্থগিত করা হয়েছে। পূর্ববর্তী রিপোর্টে baseline ১৩০টি প্রশ্ন content-audited বলা থাকলেও, প্রতিটি প্রশ্ন-উত্তর-ব্যাখ্যা নতুন করে যাচাইয়ের যথেষ্ট প্রমাণ দেখানো হয়নি। তাই পুরোনো LOCKED status-কে পূর্ণ factual re-audit-এর বিকল্প হিসেবে ধরা হবে না।
+
+- ব্যবহারকারীর নির্ধারিত পদ্ধতি অনুসারে পাঁচ ব্যাচ করে এগোনো হবে: ১–৫; তারপর ৬–১০-কে ১–৫-এর সঙ্গে তুলনা; তারপর ১–১০-এর সঙ্গে ১১–১৫; এভাবে ধারাবাহিকভাবে।
+- **Expansion Batch ১–৫ পুনঃযাচাই সম্পন্ন:** ১৭টি candidate; পূর্বে exact duplicate হিসেবে বাদ ৩টি; retained ১৪টি। retained ১৪টির তথ্য, অপশন, সঠিক উত্তর ও ব্যাখ্যা যাচাই করা হয়েছে; নতুন correction ০।
+- Batch ১–৫-এর retained ১৪টির সঙ্গে baseline ১৩০টির পূর্ণ exact-signature তুলনায় নতুন exact duplicate ০।
+- **Baseline-এর ১৩০টি প্রশ্নের পূর্ণ factual re-audit এখনো বাকি।** তাই সাধারণ বিজ্ঞান এখনো LOCKED নয়।
+- বিস্তারিত checkpoint: `SCIENCE_REAUDIT_BATCH_01_05.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
+- পরবর্তী কাজ: Expansion Batch ৬–১০ যাচাই করে Batch ১–৫-এর সঙ্গে তুলনা; তারপর ১–১০-এর সমন্বিত সেটের সঙ্গে ১১–১৫ তুলনা।
