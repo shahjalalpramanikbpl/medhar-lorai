@@ -129,3 +129,12 @@
 
 - CI run `45626619593`-এ ব্যাচ ০১-এর পর যাচাই: প্রশ্ন ৬১৯, facts ১,০০০; facts-এর লক্ষ্য পূরণ হয়েছে। প্রশ্ন এখনো ৩৮১টি কম। ব্যাচ ০১-এর ৩০টি raw প্রশ্নের মধ্যে runtime dedup-এর পর নিট বৃদ্ধি ২২টি।
 - ব্যাচ ০২-এ আরও ৫০টি সাধারণ জ্ঞান/বিজ্ঞান/ভূগোল/বাংলাদেশ/ইতিহাস/সাহিত্য/প্রযুক্তি/গণিত/পরিবেশ প্রশ্ন যোগ করা হয়েছে। CI ফলাফল অপেক্ষমাণ।
+
+
+## ২৫ নভেম্বর ২০২৬ — বাংলা অডিট পুনর্মিলন (সর্বশেষ CI)
+- batch 02 সংযোজনের পর GitHub Actions run `45627729747`-এ runtime Bengali subject count **৪০৬টি**; malformed **০টি**; canonical signature-এ exact duplicate **০টি**।
+- English grammar/vocabulary **৪৬৩টি** — অপরিবর্তিত।
+- একই run-এ legacy main quiz bank: **৬৫৯টি প্রশ্ন / ১,০০০ facts**। facts threshold পূরণ; প্রশ্নের threshold ১,০০০-এর তুলনায় **৩৪১টি কম**। এ কারণে validation FAIL; regression/UI checks ও APK build skip হয়েছে।
+- আগের অডিট নোটে ৪০৩টির মধ্যে ১৫৫টি reviewed এবং ২৪৮টি বাকি বলা হয়েছিল। বর্তমান runtime count ৪০৬ হওয়ায় ওই review denominator-এর সঙ্গে বর্তমান প্রশ্নগুলোর ID-ভিত্তিক পুনর্মিলন এখনো হয়নি। তাই **১৫৫/৪০৬ বা ২৫১ বাকি—কোনোটিকেই আপাতত যাচাইকৃত চূড়ান্ত অডিট-গণনা বলা হচ্ছে না**।
+- বাংলা প্রশ্নব্যাংকের চূড়ান্ত বিষয়বস্তু-অডিটের আগে প্রতিটি runtime Bengali question ID-কে review ledger-এর সঙ্গে মেলাতে হবে; অনুপস্থিত/নতুন প্রশ্ন আলাদা করে পর্যালোচনা করতে হবে। কাঠামো ও duplicate check PASS হলেও factual/linguistic audit অসম্পূর্ণ।
+- সর্বশেষ validation workflow: https://github.com/shahjalalpramanikbpl/medhar-lorai/actions/runs/45627729747
