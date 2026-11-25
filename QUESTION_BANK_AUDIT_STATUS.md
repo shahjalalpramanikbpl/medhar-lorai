@@ -354,3 +354,14 @@
 - Expansion substantive re-audit: **১০১টি**; সর্বমোট substantive re-audited **১২৭টি**।
 - বিস্তারিত: `SCIENCE_BASELINE_REAUDIT_01_26.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
 - অবস্থা: **REVALIDATION_IN_PROGRESS_NOT_LOCKED**। পরবর্তী ধাপ: baseline questions ২৭–৫২।
+
+
+## সাধারণ বিজ্ঞান — Baseline substantive re-audit checkpoint: Questions ২৭–৫২ (২৬ নভেম্বর ২০২৬)
+- Baseline master IDs suite_27–suite_52: ২৬টি প্রশ্নের factual claim, চারটি option, keyed answer, explanation ও exact-duplicate signature পরীক্ষা সম্পন্ন।
+- retained ২৬টি; factual correction ০; group-এর ভেতরে exact duplicate ০।
+- Baseline ১–২৬ এবং Expansion Batch ১–৫৫-সহ master-এর অন্য সব প্রশ্নের সঙ্গে canonical exact-signature তুলনায় duplicate ০।
+- RBC, xylem, insulin, mitochondria, blood pH, chloroplast, largest gland, water formula, boiling point ও vitamin K বিষয়ে conceptual overlap flag করা হয়েছে; ভিন্ন stem/option set থাকায় বাদ নয়।
+- Baseline substantive re-audit: **৫২/১৩০**; বাকি **৭৮টি**।
+- Expansion substantive re-audit: **১০১টি**; সর্বমোট substantive re-audited **১৫৩টি**।
+- বিস্তারিত: `SCIENCE_BASELINE_REAUDIT_27_52.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
+- অবস্থা: **IN_PROGRESS_NOT_LOCKED**। পরবর্তী ধাপ: baseline questions ৫৩–৭৮।
