@@ -429,3 +429,15 @@
 - বাস্তব Android device/emulator-এ হাতে smoke test এখনো করা হয়নি।
 - বিস্তারিত: `SCIENCE_BASELINE_SOURCE_RECONCILIATION_131_147.md`, `SCIENCE_FINAL_INTEGRATED_RECONCILIATION.md`, master: `SCIENCE_AUDIT_MASTER_01_56.json`।
 - **সিদ্ধান্ত: CONTENT REAUDIT COMPLETE — NOT LOCKED.** Physical device/emulator smoke test সফল না হওয়া পর্যন্ত LOCK নয়।
+
+
+## সাধারণ বিজ্ঞান — চূড়ান্ত LOCK checkpoint (২৬ নভেম্বর ২০২৬)
+- **LOCKED:** সাধারণ বিজ্ঞান content audit সম্পন্ন — ২৪৮টি record (Baseline ১৪৭ + Expansion ১০১)।
+- Full-set exact duplicate **০**; malformed **০**; missing/invalid source URL **০**; invalid answer index **০**।
+- Baseline source ১৫০/১৫০ core fields ও explanation master-এর সঙ্গে মিলেছে; ১৭টি active variant নতুন করে audit/master-এ যোগ; ১১টি baseline explanation source-এ sync।
+- Expansion retained ১০১/১০১ source/master match; ৭টি explanation sync; একটি historical duplicate copy ledger-এ documented।
+- Runtime review: WebView index.html load, JavaScript/DOM storage, script order, NFKC full-signature dedup, category filtering, difficulty ordering, ১৫×১০ level, answer index এবং +১/−০.২৫ scoring যাচাই।
+- Latest CI run **45680201874 SUCCESS**: content validation, regression safety এবং release UI/launcher smoke checks সব পাস।
+- **সীমাবদ্ধতা:** বাস্তব Android device/emulator-এ হাতে smoke test হয়নি। এই LOCK content audit ও automated/static integration-এর জন্য; এটি Play Store release sign-off নয়।
+- পরবর্তী content edit হলে audit পুনরায় খুলতে হবে।
+- বিস্তারিত: `SCIENCE_FINAL_INTEGRATED_RECONCILIATION.md`, `SCIENCE_BASELINE_SOURCE_RECONCILIATION_131_147.md`, master: `SCIENCE_AUDIT_MASTER_01_56.json`।
