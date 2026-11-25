@@ -7,6 +7,7 @@ vm.runInNewContext(source, { window });
 const bank = window.ML_CONTENT;
 if (!bank || !Array.isArray(bank.questions) || !Array.isArray(bank.facts)) throw new Error("ML_CONTENT export or arrays are missing.");
 const normalize = (v) => String(v ?? "").normalize("NFC").replace(/\s+/g, " ").trim().toLocaleLowerCase("bn");
+const questionSignature = (x) => normalize(x.c) + "|" + normalize(x.q) + "|" + (x.o || []).map(normalize).sort().join("|") + "|" + normalize((x.o || [])[x.a]);
 const errors = [];
 const qKeys = new Set(), ids = new Set(), factKeys = new Set();
 const difficulty = { "সহজ": 0, "মাঝারি": 0, "কঠিন": 0 };
@@ -14,7 +15,7 @@ const subjects = {};
 for (let i = 0; i < bank.questions.length; i++) {
   const x = bank.questions[i];
   if (!x || !x.c || !x.q || !Array.isArray(x.o) || x.o.length !== 4 || !Number.isInteger(x.a) || x.a < 0 || x.a > 3 || !Object.prototype.hasOwnProperty.call(difficulty, x.d)) { errors.push("Question #" + (i+1) + ": invalid structure/difficulty/answer index"); continue; }
-  const key = normalize(x.c) + "|" + normalize(x.q);
+  const key = questionSignature(x);
   if (qKeys.has(key)) errors.push("Question #" + (i+1) + ": duplicate question text");
   qKeys.add(key);
   if (!x.id || ids.has(x.id)) errors.push("Question #" + (i+1) + ": missing or duplicate ID");
@@ -56,8 +57,8 @@ const mathUnique = new Set(math.map(x => normalize(x.q)));
 const subjectNames = new Set(subjectBank.map(x => x.c));
 const englishGrammar = subjectBank.filter(x => x.c === "English");
 if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank must contain at least 50 questions.");
-if (new Set(englishGrammar.map(x => normalize(x.q))).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains duplicate questions.");
-if (new Set(subjectBank.map(x => normalize(x.c) + "|" + normalize(x.q))).size !== subjectBank.length) errors.push("Subject bank contains duplicate questions.");
+if (new Set(englishGrammar.map(questionSignature)).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains exact duplicate questions.");
+if (new Set(subjectBank.map(questionSignature)).size !== subjectBank.length) errors.push("Subject bank contains exact duplicate questions.");
 if (subjectBank.length < 480 || subjectNames.size < 9) errors.push("Subject bank must contain at least 480 questions across 9 non-math sections.");
 // Version 2.8 release target: 150 verified questions per non-math subject (the roadmap target is 300).
 for (const name of subjectNames) { const count = subjectBank.filter(x => x.c === name).length; if (count < 150) errors.push("Release target: subject " + name + " has " + count + "/150 questions."); }
@@ -122,7 +123,7 @@ if (exams.length !== 5 || new Set(exams.map(x => x.id)).size !== 5) errors.push(
 for (const x of exams) {
   try {
     const picked = sandbox.window.__pickJobPrepQuestions(x);
-    if (picked.length !== 20 || new Set(picked.map(q => q.q)).size !== 20) errors.push("Model test " + x.id + ": runtime selection did not produce 20 unique questions.");
+    if (picked.length !== 20 || new Set(picked.map(questionSignature)).size !== 20) errors.push("Model test " + x.id + ": runtime selection did not produce 20 unique questions.");
   } catch (e) { errors.push("Model test " + x.id + ": runtime selection failed: " + e.message); }
   const count = Object.values(x.dist || {}).reduce((a, b) => a + b, 0);
   if (count !== 20 || !x.minutes || x.minutes < 1 || x.negative < 0) errors.push("Model test " + x.id + ": invalid question count, time limit or marking scheme.");
