@@ -133,7 +133,7 @@ const additions=[
       "১১০°C"
     ],
     "a": 2,
-    "e": "স্বাভাবিক বায়ুচাপে বিশুদ্ধ পানি ১০০°C তাপমাত্রায় ফুটে।",
+    "e": "সমুদ্রপৃষ্ঠের কাছাকাছি স্বাভাবিক বায়ুচাপে বিশুদ্ধ পানি ১০০°C তাপমাত্রায় ফুটে।",
     "source": "রসায়ন — ভৌত ধর্ম",
     "d": "সহজ",
     "sourceUrl": "https://www.usgs.gov/water-science-school/science/facts-about-water",
