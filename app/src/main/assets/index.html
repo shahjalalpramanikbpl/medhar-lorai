@@ -632,7 +632,35 @@ function applyBackup(data){const qs=Array.isArray(data)?data:data?.questions;if(
 window.importBackupJson=function(jsonText){try{if(typeof jsonText!=='string'||jsonText.length>5*1024*1024)throw Error('file too large');applyBackup(JSON.parse(jsonText))}catch(e){alert('ব্যাকআপ ফাইলটি সঠিক নয়, অতিরিক্ত বড় বা নষ্ট হয়েছে।')}};
 $('exportBtn').onclick=()=>{const json=JSON.stringify(makeBackup(),null,2);if(window.AndroidBridge&&window.AndroidBridge.saveBackup){try{window.AndroidBridge.saveBackup(btoa(unescape(encodeURIComponent(json))),'medhar-lorai-backup.json');}catch(e){alert('ব্যাকআপ তৈরি করা যায়নি। আবার চেষ্টা করুন।');}return;}const blob=new Blob([json],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='medhar-lorai-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);};
 $('importBtn').onclick=()=>{if(window.AndroidBridge&&window.AndroidBridge.pickBackup){window.AndroidBridge.pickBackup();}else{const input=document.createElement('input');input.type='file';input.accept='application/json';input.onchange=async()=>{const file=input.files[0];if(file)window.importBackupJson(await file.text());};input.click();}};
-$('langBtn').onclick=()=>{lang=lang==='bn'?'en':'bn';localStorage.setItem('ml_lang',lang);$('langBtn').textContent=tr('English','বাংলা');$('intro').textContent=tr('জ্ঞানচর্চা ও চাকরির প্রস্তুতি—একই প্ল্যাটফর্মে','Knowledge building and job preparation—all in one platform');$('startBtn').innerHTML='<span>▶</span> '+tr('কুইজ খেলা শুরু করুন','Start Quiz')+' <small>'+tr('চ্যালেঞ্জ গ্রহণ করুন','Accept the challenge')+'</small>';$('adminBtn').textContent=tr('অ্যাডমিন প্যানেল','Admin Panel');$('pointsLabel').textContent=tr('মোট পয়েন্ট','Total points');$('levelLabel').textContent=tr('লেভেল','Level');$('streakLabel').textContent=tr('ধারাবাহিক সঠিক','Correct streak');if(!$('game').classList.contains('hidden'))render()};$('langBtn').textContent=tr('English','বাংলা');
+function applyHomeLanguage(){
+ const isBn=lang==='bn';
+ const setText=(selector,bn,en)=>{const el=document.querySelector(selector);if(el)el.textContent=isBn?bn:en};
+ $('langBtn').textContent=isBn?'English':'বাংলা';
+ $('intro').textContent=isBn?'জ্ঞানচর্চা ও চাকরির প্রস্তুতি—একই প্ল্যাটফর্মে':'Knowledge building and job preparation—all in one platform';
+ setText('#startBtn .entry-copy b','কুইজ চ্যালেঞ্জ','Quiz Challenge');
+ setText('#startBtn .entry-copy small','খেলুন · শিখুন · এগিয়ে যান','Play · Learn · Grow');
+ const labels={
+  vaultBtn:['জ্ঞান ভান্ডার','Knowledge Library'],iqBtn:['IQ চ্যালেঞ্জ','IQ Challenge'],
+  wordBtn:['শব্দ স্মৃতি','Word Memory'],dailyBtn:['ডেইলি কুইজ','Daily Quiz'],
+  accountBtn:['অনলাইন অ্যাকাউন্ট','Online Account'],profileBtn:['আমার প্রোফাইল','My Profile'],
+  progressBtn:['আমার অগ্রগতি','My Progress'],badgeBtn:['ব্যাজ ও অর্জন','Badges & Achievements'],
+  leaderBtn:['লিডার বোর্ড','Leaderboard'],rulesBtn:['খেলার নিয়ম','Game Rules']
+ };
+ Object.entries(labels).forEach(([id,v])=>{const el=$(id);if(el){const b=el.querySelector('b');if(b)b.textContent=isBn?v[0]:v[1]}});
+ setText('.points-stat small','মোট পয়েন্ট','Total Points');
+ setText('.level-stat small','বর্তমান লেভেল','Current Level');
+ setText('.questions-stat small','প্রশ্নের ভান্ডার','Question Bank');
+ const prep=$('jobPrepBtn');
+ if(prep){const title=prep.querySelector('.job-prep-copy b'),sub=prep.querySelector('.job-prep-copy small');if(title)title.textContent=isBn?'চাকরির প্রস্তুতি':'Job Preparation';if(sub)sub.textContent=isBn?'বিষয়ভিত্তিক অনুশীলন · মডেল টেস্ট':'Subject Practice · Model Tests'}
+ const foot=document.querySelector('.home-bottom span:first-child');if(foot)foot.textContent=isBn?'💡 প্রতিটি সঠিক উত্তরই এক ধাপ এগিয়ে':'💡 Every correct answer takes you one step forward';
+ const edition=document.querySelector('.home-bottom span:last-child');if(edition)edition.textContent=isBn?'জ্ঞান · অনুশীলন · অগ্রগতি':'LEARN · PRACTICE · GROW';
+ $('adminBtn').textContent=isBn?'অ্যাডমিন প্যানেল':'Admin Panel';
+ $('pointsLabel').textContent=isBn?'মোট পয়েন্ট':'Total points';
+ $('levelLabel').textContent=isBn?'লেভেল':'Level';
+ $('streakLabel').textContent=isBn?'ধারাবাহিক সঠিক':'Correct streak';
+}
+$('langBtn').onclick=()=>{lang=lang==='bn'?'en':'bn';localStorage.setItem('ml_lang',lang);applyHomeLanguage();if(!$('game').classList.contains('hidden'))render()};
+applyHomeLanguage();
 function updateHome(){ $('homePoints').textContent=bnDigits(Number(points.toFixed(2))); $('homeLevel').textContent=bnDigits(level); $('homeQuestions').textContent=bnDigits(questions.length); }
 $('rulesBtn').onclick=()=>alert('প্রতি লেভেলে ১০টি প্রশ্ন থাকবে। সঠিক উত্তরে +১ পয়েন্ট, ভুল উত্তরে −০.২৫ পয়েন্ট। প্রতিটি প্রশ্নের উত্তর বেছে নিয়ে পরের প্রশ্নে যান।');
 $('leaderBtn').onclick=()=>panel('লিডারবোর্ড','<div class="notice">এটি এই ডিভাইসের স্থানীয় র‍্যাংকিং। সব খেলোয়াড়ের অনলাইন র‍্যাংকিংয়ের জন্য কেন্দ্রীয় সার্ভার সংযোগ প্রয়োজন।</div><h3>বর্তমান খেলোয়াড়</h3><div class="qitem">১. '+profile.name+' — '+bnDigits(points.toFixed(2))+' পয়েন্ট</div><p>দৈনিক / সাপ্তাহিক / মাসিক বৈশ্বিক র‍্যাংকিং সার্ভার যুক্ত হলে সক্রিয় হবে।</p>');
