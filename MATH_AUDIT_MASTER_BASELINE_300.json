@@ -4,7 +4,7 @@
   "status": "FINAL_CONSOLIDATION_IN_PROGRESS",
   "source": {
     "path": "app/src/main/assets/math-levels.js",
-    "blobSha": "4f3bdb7fd98ad72dcf727c554d0fa74514a1714d"
+    "blobSha": "fe02f562fd1853da1f575cfc14d6c5d7278866eb"
   },
   "scope": {
     "questionCount": 300,
@@ -341,32 +341,32 @@
     {
       "id": "math_L1_Q5",
       "c": "গণিত · ঐকিক নিয়ম",
-      "q": "একটি পণ্যের দাম ৪ টাকা হলে ৫টি পণ্যের দাম কত?",
+      "q": "৩টি খাতার দাম ৭২ টাকা হলে একই দরে ৫টি খাতার দাম কত?",
       "o": [
-        "১৮",
-        "২০",
-        "২২",
-        "২৪"
+        "১০৮",
+        "১২০",
+        "১৩২",
+        "১৪৪"
       ],
       "a": 1,
       "level": 1,
       "d": "সহজ",
       "topic": "ঐকিক নিয়ম",
-      "e": "একটির দাম ৪ টাকা; ৪ × ৫ = ২০ টাকা।",
-      "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
-      "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
-      "expected": 20,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_01_10",
+      "e": "একটি খাতার দাম = ৭২ ÷ ৩ = ২৪ টাকা। ৫টি খাতার দাম = ২৪ × ৫ = ১২০ টাকা।",
+      "formula": "একটির দাম = মোট দাম ÷ খাতার সংখ্যা; প্রয়োজনীয় দাম = একটির দাম × প্রয়োজনীয় সংখ্যা",
+      "shortcut": "আগে এককের দাম বের করে পরে প্রয়োজনীয় সংখ্যার সঙ্গে গুণ করুন।",
+      "expected": 120,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_01_10",
       "auditChecks": {
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
-        "fourDistinctOptions": "PASS",
-        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
-        "exactDuplicate": "NONE"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — rewritten at foundational level appropriate to levels 1–10",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
+      "reviewNote": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L1_Q6",
@@ -610,33 +610,33 @@
     },
     {
       "id": "math_L2_Q4",
-      "c": "গণিত · ঐকিক নিয়ম",
-      "q": "একটি পণ্যের দাম ৫ টাকা হলে ৬টি পণ্যের দাম কত?",
+      "c": "গণিত · সময় ও কাজ",
+      "q": "৩ জন শ্রমিক একটি কাজ ১২ দিনে শেষ করেন। একই দক্ষতার ৪ জন শ্রমিক কাজটি কত দিনে শেষ করবেন?",
       "o": [
-        "৩০",
-        "৩৩",
-        "৩৬",
-        "২৭"
+        "৮",
+        "৯",
+        "১০",
+        "১২"
       ],
-      "a": 0,
+      "a": 1,
       "level": 2,
       "d": "সহজ",
-      "topic": "ঐকিক নিয়ম",
-      "e": "একটির দাম ৫ টাকা; ৫ × ৬ = ৩০ টাকা।",
-      "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
-      "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
-      "expected": 30,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_01_10",
+      "topic": "সময় ও কাজ",
+      "e": "মোট কাজ = ৩ × ১২ = ৩৬ শ্রমিক-দিন। ৪ জনে সময় = ৩৬ ÷ ৪ = ৯ দিন।",
+      "formula": "শ্রমিক × দিন = নির্দিষ্ট কাজ; নতুন সময় = (পুরোনো শ্রমিক × পুরোনো দিন) ÷ নতুন শ্রমিক",
+      "shortcut": "শ্রমিক বাড়লে সময় কমে—এটি ব্যস্তানুপাত; শ্রমিক-দিন স্থির রাখুন।",
+      "expected": 9,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_01_10",
       "auditChecks": {
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
-        "fourDistinctOptions": "PASS",
-        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
-        "exactDuplicate": "NONE"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — rewritten at foundational level appropriate to levels 1–10",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
+      "reviewNote": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L2_Q5",
@@ -671,32 +671,32 @@
     {
       "id": "math_L2_Q6",
       "c": "গণিত · সময়-দূরত্ব",
-      "q": "ঘণ্টায় ৩০ কিমি বেগে ১ ঘণ্টায় কত দূরত্ব অতিক্রম করবে?",
+      "q": "একটি গাড়ি ঘণ্টায় ৫৪ কিমি বেগে ১ ঘণ্টা ২০ মিনিট চলে। গাড়িটি মোট কত দূরত্ব অতিক্রম করে?",
       "o": [
-        "২৭",
-        "৩০",
-        "৩৩",
-        "৩৬"
+        "৬৮",
+        "৭২",
+        "৭৬",
+        "৮০"
       ],
       "a": 1,
       "level": 2,
       "d": "সহজ",
       "topic": "সময়-দূরত্ব",
-      "e": "৩০ × ১ = ৩০ কিমি।",
-      "formula": "দূরত্ব = বেগ × সময়",
-      "shortcut": "সময় ঘণ্টায় আছে কি না নিশ্চিত করে বেগের সঙ্গে গুণ করুন।",
-      "expected": 30,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_01_10",
+      "e": "সময় = ১ + ১/৩ = ৪/৩ ঘণ্টা। দূরত্ব = ৫৪ × ৪/৩ = ৭২ কিমি।",
+      "formula": "দূরত্ব = বেগ × সময়; ২০ মিনিট = ১/৩ ঘণ্টা",
+      "shortcut": "সময় মিনিটে থাকলে আগে ঘণ্টায় রূপান্তর করুন।",
+      "expected": 72,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_01_10",
       "auditChecks": {
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
-        "fourDistinctOptions": "PASS",
-        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
-        "exactDuplicate": "NONE"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — rewritten at foundational level appropriate to levels 1–10",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
+      "reviewNote": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L2_Q7",
@@ -880,33 +880,33 @@
     },
     {
       "id": "math_L3_Q3",
-      "c": "গণিত · ঐকিক নিয়ম",
-      "q": "একটি পণ্যের দাম ৬ টাকা হলে ৭টি পণ্যের দাম কত?",
+      "c": "গণিত · শতকরা ও ছাড়",
+      "q": "একটি ব্যাগের চিহ্নিত মূল্য ২,৪০০ টাকা। ১৫% ছাড় দিলে ক্রেতাকে কত টাকা দিতে হবে?",
       "o": [
-        "৪৬.২",
-        "৩৭.৮",
-        "৫০.৪",
-        "৪২"
+        "১,৯৮০",
+        "২,০৪০",
+        "২,১০০",
+        "২,১৬০"
       ],
-      "a": 3,
+      "a": 1,
       "level": 3,
       "d": "সহজ",
-      "topic": "ঐকিক নিয়ম",
-      "e": "একটির দাম ৬ টাকা; ৬ × ৭ = ৪২ টাকা।",
-      "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
-      "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
-      "expected": 42,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_01_10",
+      "topic": "শতকরা ও ছাড়",
+      "e": "ছাড় = ২,৪০০ × ১৫ ÷ ১০০ = ৩৬০ টাকা। বিক্রয়মূল্য = ২,৪০০ − ৩৬০ = ২,০৪০ টাকা।",
+      "formula": "ছাড়ের পর মূল্য = চিহ্নিত মূল্য × (১০০ − ছাড়ের হার) ÷ ১০০",
+      "shortcut": "ছাড়ের টাকা বের করে মূল দাম থেকে বিয়োগ করুন; অথবা অবশিষ্ট ৮৫% নিন।",
+      "expected": 2040,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_01_10",
       "auditChecks": {
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
-        "fourDistinctOptions": "PASS",
-        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
-        "exactDuplicate": "NONE"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — rewritten at foundational level appropriate to levels 1–10",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
+      "reviewNote": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L3_Q4",
@@ -1150,33 +1150,33 @@
     },
     {
       "id": "math_L4_Q2",
-      "c": "গণিত · ঐকিক নিয়ম",
-      "q": "একটি পণ্যের দাম ৭ টাকা হলে ৮টি পণ্যের দাম কত?",
+      "c": "গণিত · গড়",
+      "q": "৫টি সংখ্যার গড় ২৮। প্রথম চারটি সংখ্যার যোগফল ১০৪ হলে পঞ্চম সংখ্যাটি কত?",
       "o": [
-        "৬১.৬",
-        "৫৬",
-        "৬৭.২",
-        "৫০.৪"
+        "৩২",
+        "৩৪",
+        "৩৬",
+        "৩৮"
       ],
-      "a": 1,
+      "a": 2,
       "level": 4,
       "d": "সহজ",
-      "topic": "ঐকিক নিয়ম",
-      "e": "একটির দাম ৭ টাকা; ৭ × ৮ = ৫৬ টাকা।",
-      "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
-      "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
-      "expected": 56,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_01_10",
+      "topic": "গড়",
+      "e": "৫টি সংখ্যার মোট যোগফল = ২৮ × ৫ = ১৪০। পঞ্চম সংখ্যা = ১৪০ − ১০৪ = ৩৬।",
+      "formula": "মোট যোগফল = গড় × সংখ্যা; অজানা সংখ্যা = মোট যোগফল − জানা যোগফল",
+      "shortcut": "গড় থেকে মোট যোগফল বের করে জানা অংশ বাদ দিন।",
+      "expected": 36,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_01_10",
       "auditChecks": {
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
-        "fourDistinctOptions": "PASS",
-        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
-        "exactDuplicate": "NONE"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — rewritten at foundational level appropriate to levels 1–10",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
+      "reviewNote": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L4_Q3",
@@ -1420,33 +1420,33 @@
     },
     {
       "id": "math_L5_Q1",
-      "c": "গণিত · ঐকিক নিয়ম",
-      "q": "একটি পণ্যের দাম ৮ টাকা হলে ৯টি পণ্যের দাম কত?",
+      "c": "গণিত · অনুপাত",
+      "q": "দুটি সংখ্যার অনুপাত ৩:৫ এবং তাদের যোগফল ৬৪০। ছোট সংখ্যাটি কত?",
       "o": [
-        "৭৯.২",
-        "৭২",
-        "৮৬.৪",
-        "৬৪.৮"
+        "২২০",
+        "২৪০",
+        "২৬০",
+        "২৮০"
       ],
       "a": 1,
       "level": 5,
       "d": "সহজ",
-      "topic": "ঐকিক নিয়ম",
-      "e": "একটির দাম ৮ টাকা; ৮ × ৯ = ৭২ টাকা।",
-      "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
-      "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
-      "expected": 72,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_01_10",
+      "topic": "অনুপাত",
+      "e": "মোট অংশ = ৩ + ৫ = ৮। ছোট সংখ্যা = ৬৪০ × ৩ ÷ ৮ = ২৪০।",
+      "formula": "ছোট সংখ্যা = মোট যোগফল × ছোট অনুপাতের অংশ ÷ অনুপাতের মোট অংশ",
+      "shortcut": "মোট যোগফলকে অনুপাতের মোট অংশ দিয়ে ভাগ করে এক অংশের মান বের করুন।",
+      "expected": 240,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_01_10",
       "auditChecks": {
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
-        "fourDistinctOptions": "PASS",
-        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
-        "exactDuplicate": "NONE"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — rewritten at foundational level appropriate to levels 1–10",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
+      "reviewNote": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L5_Q2",
@@ -1481,32 +1481,32 @@
     {
       "id": "math_L5_Q3",
       "c": "গণিত · সময়-দূরত্ব",
-      "q": "ঘণ্টায় ৪৫ কিমি বেগে ১ ঘণ্টায় কত দূরত্ব অতিক্রম করবে?",
+      "q": "১৫০ মিটার দীর্ঘ একটি ট্রেন একটি খুঁটি ১০ সেকেন্ডে অতিক্রম করে। ট্রেনটির বেগ ঘণ্টায় কত কিলোমিটার?",
       "o": [
+        "৪৮",
         "৫৪",
-        "৪৫",
-        "৪৯.৫",
-        "৪০.৫"
+        "৬০",
+        "৬৪"
       ],
       "a": 1,
       "level": 5,
       "d": "সহজ",
       "topic": "সময়-দূরত্ব",
-      "e": "৪৫ × ১ = ৪৫ কিমি।",
-      "formula": "দূরত্ব = বেগ × সময়",
-      "shortcut": "সময় ঘণ্টায় আছে কি না নিশ্চিত করে বেগের সঙ্গে গুণ করুন।",
-      "expected": 45,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_01_10",
+      "e": "বেগ = ১৫০ ÷ ১০ = ১৫ মি/সে। ঘণ্টায় বেগ = ১৫ × ৩.৬ = ৫৪ কিমি/ঘণ্টা।",
+      "formula": "বেগ = দূরত্ব ÷ সময়; কিমি/ঘণ্টা পেতে মি/সে-কে ৩.৬ দিয়ে গুণ",
+      "shortcut": "খুঁটি অতিক্রমে ট্রেনের নিজের দৈর্ঘ্যই অতিক্রান্ত দূরত্ব।",
+      "expected": 54,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_01_10",
       "auditChecks": {
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
-        "fourDistinctOptions": "PASS",
-        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
-        "exactDuplicate": "NONE"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — rewritten at foundational level appropriate to levels 1–10",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
+      "reviewNote": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L5_Q4",
@@ -2290,33 +2290,33 @@
     },
     {
       "id": "math_L7_Q10",
-      "c": "গণিত · শতকরা",
-      "q": "৯০০ টাকার ৮% কত?",
+      "c": "গণিত · ধারাবাহিক ছাড়",
+      "q": "২,০০০ টাকা দামের একটি পণ্যে প্রথমে ১০% এবং ছাড়ের পরের দামের ওপর আরও ৫% ছাড় দেওয়া হলো। চূড়ান্ত মূল্য কত?",
       "o": [
-        "৭৯.২",
-        "৭২",
-        "৮৬.৪",
-        "৬৪.৮"
+        "১,৬৮০",
+        "১,৭১০",
+        "১,৭২০",
+        "১,৮০০"
       ],
       "a": 1,
       "level": 7,
       "d": "সহজ",
-      "topic": "শতকরা",
-      "e": "৯০০ × ৮ ÷ ১০০ = ৭২ টাকা।",
-      "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
-      "shortcut": "হারকে ভগ্নাংশে লিখে মূল সংখ্যার সঙ্গে গুণ করুন।",
-      "expected": 72,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_01_10",
+      "topic": "ধারাবাহিক ছাড়",
+      "e": "প্রথম ছাড়ের পর মূল্য = ২,০০০ × ০.৯০ = ১,৮০০ টাকা। দ্বিতীয় ছাড়ের পর = ১,৮০০ × ০.৯৫ = ১,৭১০ টাকা।",
+      "formula": "চূড়ান্ত মূল্য = মূল মূল্য × (১ − প্রথম ছাড়) × (১ − দ্বিতীয় ছাড়)",
+      "shortcut": "ধারাবাহিক ছাড় সরাসরি ১৫% নয়; দ্বিতীয় ছাড় কমে যাওয়া দামের ওপর হিসাব করুন।",
+      "expected": 1710,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_01_10",
       "auditChecks": {
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
-        "fourDistinctOptions": "PASS",
-        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
-        "exactDuplicate": "NONE"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — rewritten at foundational level appropriate to levels 1–10",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
+      "reviewNote": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L8_Q1",
@@ -2560,33 +2560,33 @@
     },
     {
       "id": "math_L8_Q9",
-      "c": "গণিত · শতকরা",
-      "q": "১০০০ টাকার ৯% কত?",
+      "c": "গণিত · সরল সুদ",
+      "q": "৮,০০০ টাকা বার্ষিক ৭.৫% সরল সুদে ২ বছরের জন্য বিনিয়োগ করা হলো। ২ বছরে সুদের পরিমাণ কত?",
       "o": [
-        "১০৮",
-        "৯৯",
-        "৯০",
-        "৮১"
+        "১,১০০",
+        "১,২০০",
+        "১,৩০০",
+        "১,৪০০"
       ],
-      "a": 2,
+      "a": 1,
       "level": 8,
       "d": "সহজ",
-      "topic": "শতকরা",
-      "e": "১০০০ × ৯ ÷ ১০০ = ৯০ টাকা।",
-      "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
-      "shortcut": "হারকে ভগ্নাংশে লিখে মূল সংখ্যার সঙ্গে গুণ করুন।",
-      "expected": 90,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_01_10",
+      "topic": "সরল সুদ",
+      "e": "সুদ = ৮,০০০ × ৭.৫ × ২ ÷ ১০০ = ১,২০০ টাকা।",
+      "formula": "সরল সুদ = মূলধন × সুদের হার × সময় ÷ ১০০",
+      "shortcut": "বার্ষিক হারকে সময়ের বছরের সংখ্যার সঙ্গে গুণ করুন।",
+      "expected": 1200,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_01_10",
       "auditChecks": {
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
-        "fourDistinctOptions": "PASS",
-        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
-        "exactDuplicate": "NONE"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — rewritten at foundational level appropriate to levels 1–10",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
+      "reviewNote": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L8_Q10",
@@ -2830,33 +2830,33 @@
     },
     {
       "id": "math_L9_Q8",
-      "c": "গণিত · শতকরা",
-      "q": "১১০০ টাকার ১০% কত?",
+      "c": "গণিত · শতকরা পরিবর্তন",
+      "q": "একটি পণ্যের দাম ১,২০০ টাকা থেকে ১৫% বাড়ানো হলো। পরে নতুন দামের ওপর ১০% ছাড় দেওয়া হলে চূড়ান্ত দাম কত?",
       "o": [
-        "১১০",
-        "১২১",
-        "৯৯",
-        "১৩২"
+        "১,২০০",
+        "১,২৩০",
+        "১,২৪২",
+        "১,২৬০"
       ],
-      "a": 0,
+      "a": 2,
       "level": 9,
       "d": "সহজ",
-      "topic": "শতকরা",
-      "e": "১১০০ × ১০ ÷ ১০০ = ১১০ টাকা।",
-      "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
-      "shortcut": "১০% বের করে প্রয়োজনীয় গুণিতক নিন।",
-      "expected": 110,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_01_10",
+      "topic": "শতকরা পরিবর্তন",
+      "e": "বৃদ্ধির পর মূল্য = ১,২০০ × ১.১৫ = ১,৩৮০ টাকা। ছাড়ের পর = ১,৩৮০ × ০.৯০ = ১,২৪২ টাকা।",
+      "formula": "চূড়ান্ত মূল্য = মূল মূল্য × ১.১৫ × ০.৯০",
+      "shortcut": "শতকরা বৃদ্ধি ও হ্রাস একই মূল্যের ওপর নয়; প্রতিটি ধাপের পর নতুন ভিত্তি নিন।",
+      "expected": 1242,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "CANDIDATE_REWRITE_GROUP_01_10",
       "auditChecks": {
-        "calculationAndKey": "PASS",
-        "explanationConsistency": "PASS",
-        "fourDistinctOptions": "PASS",
-        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
-        "exactDuplicate": "NONE"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "PASS — rewritten at foundational level appropriate to levels 1–10",
+        "exactDuplicate": "PASS — strict normalized runtime signature scan reports no duplicate groups"
       },
-      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
+      "reviewNote": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।"
     },
     {
       "id": "math_L9_Q9",
@@ -9280,10 +9280,10 @@
       "malformedOrInvalidOptionSets": 0,
       "exactDuplicateGroups": 0,
       "provisionalRetain": 169,
-      "exclusionCandidates": 119,
+      "exclusionCandidates": 109,
       "permanentDeletions": 0,
       "systemicIssue": "১২টি দুর্বল/অবাস্তব প্রশ্ন নতুন replacement draft দিয়ে প্রতিস্থাপিত; ১১৯টি reversible candidate এখনো চূড়ান্ত সিদ্ধান্তের অপেক্ষায়। Distractor redesign ও পূর্ণ cross-bank comparison বাকি।",
-      "replacementDrafts": 12
+      "replacementDrafts": 22
     },
     "batchSummaries": [
       {
@@ -10007,68 +10007,95 @@
       "runtimeQuestionCount": 300,
       "levelCount": 30,
       "exactDuplicateGroupsInCurrentRuntimeBank": 0
+    },
+    "candidateRewriteGroup_01_10": {
+      "status": "FIRST_10_CANDIDATES_REWRITTEN_PENDING_FINAL_AUDIT",
+      "reviewed": 10,
+      "temporaryCheckpointAfter5": {
+        "reviewed": 5,
+        "recorded": true
+      },
+      "completed10Checkpoint": {
+        "reviewed": 10,
+        "recorded": true
+      },
+      "ids": [
+        "math_L1_Q5",
+        "math_L2_Q4",
+        "math_L2_Q6",
+        "math_L3_Q3",
+        "math_L4_Q2",
+        "math_L5_Q1",
+        "math_L5_Q3",
+        "math_L7_Q10",
+        "math_L8_Q9",
+        "math_L9_Q8"
+      ],
+      "exactDuplicateGroups": 0,
+      "calculationAndKeyMismatches": 0,
+      "invalidOptionSets": 0
     }
   },
   "exclusionLedger": [
     {
       "id": "math_L1_Q5",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
-      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+      "reason": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
     },
     {
       "id": "math_L2_Q4",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
-      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+      "reason": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
     },
     {
       "id": "math_L2_Q6",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
-      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+      "reason": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
     },
     {
       "id": "math_L3_Q3",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
-      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+      "reason": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
     },
     {
       "id": "math_L4_Q2",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
-      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+      "reason": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
     },
     {
       "id": "math_L5_Q1",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
-      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+      "reason": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
     },
     {
       "id": "math_L5_Q3",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
-      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+      "reason": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
     },
     {
       "id": "math_L7_Q10",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
-      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+      "reason": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
     },
     {
       "id": "math_L8_Q9",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
-      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+      "reason": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
     },
     {
       "id": "math_L9_Q8",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
-      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+      "reason": "পুরোনো একধাপের দুর্বল প্রশ্নের বদলে বহু-ধাপ/প্রয়োগভিত্তিক চাকরির পরীক্ষার উপযোগী প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ QA বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
     },
     {
       "id": "math_L10_Q7",
@@ -10845,9 +10872,9 @@
   },
   "finalConsolidation": {
     "updatedAt": "2026-11-26",
-    "sourceBlobSha": "4f3bdb7fd98ad72dcf727c554d0fa74514a1714d",
-    "replacementDraftCount": 12,
-    "remainingReversibleCandidates": 119,
+    "sourceBlobSha": "fe02f562fd1853da1f575cfc14d6c5d7278866eb",
+    "replacementDraftCount": 22,
+    "remainingReversibleCandidates": 109,
     "permanentDeletions": 0,
     "locked": false,
     "duplicateGroupsInCurrentRuntimeBank": 0,
@@ -10856,7 +10883,32 @@
       "চারটি অবাস্তব বয়সের প্রশ্ন বাস্তবসম্মত বহু-ধাপের বয়স সমস্যায় প্রতিস্থাপন করা হয়েছে।",
       "ছয়টি >১০০% ঘনত্বের মিশ্রণ প্রশ্নের মধ্যে চারটি বৈধ weighted-average প্রশ্নে প্রতিস্থাপন করা হয়েছে; বাকি দুটি arithmetic skill replacement দিয়ে প্রতিস্থাপিত।",
       "Level 16–20 band label-কে difficulty metadata-এর সঙ্গে সামঞ্জস্য করে উচ্চ-মাঝারি প্রতিযোগিতামূলক করা হয়েছে।",
-      "এটি চূড়ান্ত LOCK নয়; ১১৯টি candidate, distractor redesign, duplicate recheck এবং integration tests বাকি।"
+      "এটি চূড়ান্ত LOCK নয়; ১১৯টি candidate, distractor redesign, duplicate recheck এবং integration tests বাকি।",
+      "প্রথম ১০টি reversible candidate (candidate rewrite group 01–10) পুনর্লিখন করা হয়েছে; ৫ প্রশ্নের অস্থায়ী checkpoint এবং ১০ প্রশ্নের group checkpoint সংরক্ষিত।"
     ]
+  },
+  "replacementReview": {
+    "replacements": [
+      "math_L1_Q5",
+      "math_L2_Q4",
+      "math_L2_Q6",
+      "math_L3_Q3",
+      "math_L4_Q2",
+      "math_L5_Q1",
+      "math_L5_Q3",
+      "math_L7_Q10",
+      "math_L8_Q9",
+      "math_L9_Q8"
+    ],
+    "previousReplacementCount": 12,
+    "count": 22,
+    "status": "REPLACEMENT_DRAFT_PENDING_FINAL_REVIEW",
+    "remainingReversibleCandidates": 109,
+    "latestGroup": "CANDIDATE_REWRITE_GROUP_01_10",
+    "calculationKeyChecks": "PASS",
+    "fourDistinctOptions": "PASS",
+    "runtimeQuestionCount": 300,
+    "levelCount": 30,
+    "exactDuplicateGroupsInCurrentRuntimeBank": 0
   }
 }
