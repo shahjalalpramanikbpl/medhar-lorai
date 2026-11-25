@@ -377,3 +377,13 @@
 - Expansion substantive re-audit: **১০১টি**; সর্বমোট substantive re-audited **১৭৯টি**।
 - বিস্তারিত: `SCIENCE_BASELINE_REAUDIT_53_78.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
 - অবস্থা: **IN_PROGRESS_NOT_LOCKED**। পরবর্তী ধাপ: baseline questions ৭৯–১০৪।
+
+
+## সাধারণ বিজ্ঞান — Baseline substantive re-audit checkpoint: Questions ৭৯–১০৪ (২৬ নভেম্বর ২০২৬)
+- Baseline master IDs suite_79–suite_104: ২৬টি প্রশ্নের factual claim, চারটি option, keyed answer, explanation ও exact-duplicate signature পরীক্ষা সম্পন্ন।
+- retained ২৬টি; correction ০; group-এর ভেতরে exact duplicate ০; master-এর অন্য প্রশ্নের সঙ্গে exact duplicate ০।
+- suite_88 ও suite_103 ফ্লোয়েমে খাদ্য পরিবহন নিয়ে কাছাকাছি/near-duplicate; stem আলাদা হওয়ায় strict exact-duplicate policy-তে দুটিই retained, conceptual overlap flag করা হয়েছে।
+- অন্যান্য conceptual overlap: nitrogen, insulin, vitamin K, mitochondria, xylem, RBC/hemoglobin, blood pH এবং O-negative red-cell donor।
+- Baseline substantive re-audit: **১০৪/১৩০**; বাকি **২৬টি**। Expansion substantive re-audit: **১০১টি**; সর্বমোট substantive re-audited **২০৫টি**।
+- বিস্তারিত: `SCIENCE_BASELINE_REAUDIT_79_104.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
+- অবস্থা: **IN_PROGRESS_NOT_LOCKED**। পরবর্তী ধাপ: baseline questions ১০৫–১৩০; তুলনা baseline ১–১০৪ এবং expansion Batch ১–৫৫-এর সঙ্গে।
