@@ -1,10 +1,10 @@
 {
   "schema": "medhar-lorai.math-audit-master.v1",
   "createdAt": "2026-11-26",
-  "status": "BATCHES_01_30_REVIEWED_PENDING_FINAL_CONSOLIDATION",
+  "status": "FINAL_CONSOLIDATION_IN_PROGRESS",
   "source": {
     "path": "app/src/main/assets/math-levels.js",
-    "blobSha": "e00b1e6544e4255a9073e3e802d803b6d9dcf706"
+    "blobSha": "4f3bdb7fd98ad72dcf727c554d0fa74514a1714d"
   },
   "scope": {
     "questionCount": 300,
@@ -6311,32 +6311,32 @@
     {
       "id": "math_L21_Q4",
       "c": "গণিত · বয়স",
-      "q": "পিতা ও সন্তানের বর্তমান বয়সের যোগফল ৩৬৪ বছর। পিতার বয়স সন্তানের ৬ গুণ। সন্তানের বয়স কত?",
+      "q": "একজন পিতার বর্তমান বয়স তাঁর ছেলের বয়সের ৩ গুণ। ১২ বছর পর পিতার বয়স ছেলের বয়সের ২ গুণ হবে। ছেলের বর্তমান বয়স কত?",
       "o": [
-        "৪৬.৮",
-        "৬২.৪",
-        "৫২",
-        "৫৭.২"
+        "১০",
+        "১২",
+        "১৪",
+        "১৬"
       ],
-      "a": 2,
+      "a": 1,
       "level": 21,
       "d": "কঠিন",
       "topic": "বয়স",
-      "e": "মোট বয়সের অংশ ৭; সন্তানের বয়স = ৩৬৪ ÷ ৭ = ৫২ বছর।",
-      "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
-      "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
-      "expected": 52,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "e": "৩x + ১২ = ২x + ২৪; x = ১২ বছর।",
+      "formula": "বর্তমান পিতার বয়স = ৩x; ১২ বছর পর ৩x+১২ = ২(x+১২)",
+      "shortcut": "বর্তমান বয়সকে x ধরে উভয়ের ভবিষ্যৎ বয়সের সমীকরণ গঠন করুন।",
+      "expected": 12,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "অনুপাতের হিসাব সঠিক, কিন্তু পিতা-সন্তানের সম্মিলিত বয়স ৩৬৪ বছরের বেশি; বাস্তবসম্মত stem নয়, replacement প্রয়োজন।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L21_Q5",
@@ -6581,32 +6581,32 @@
     {
       "id": "math_L22_Q3",
       "c": "গণিত · বয়স",
-      "q": "পিতা ও সন্তানের বর্তমান বয়সের যোগফল ৩৭৮ বছর। পিতার বয়স সন্তানের ৬ গুণ। সন্তানের বয়স কত?",
+      "q": "একজন পিতার বয়স তাঁর মেয়ের বয়সের চেয়ে ২৮ বছর বেশি। ৪ বছর পর পিতার বয়স মেয়ের বয়সের দ্বিগুণ হবে। মেয়ের বর্তমান বয়স কত?",
       "o": [
-        "৫৪",
-        "৬৪.৮",
-        "৫৯.৪",
-        "৪৮.৬"
+        "২০",
+        "২২",
+        "২৪",
+        "২৬"
       ],
-      "a": 0,
+      "a": 2,
       "level": 22,
       "d": "কঠিন",
       "topic": "বয়স",
-      "e": "মোট বয়সের অংশ ৭; সন্তানের বয়স = ৩৭৮ ÷ ৭ = ৫৪ বছর।",
-      "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
-      "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
-      "expected": 54,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "e": "ধরি মেয়ের বয়স x; (x+২৮)+৪ = ২(x+৪); তাই x = ২৪ বছর।",
+      "formula": "পিতার বয়স = মেয়ের বয়স + ২৮; ৪ বছর পর পিতার বয়স = মেয়ের দ্বিগুণ",
+      "shortcut": "বর্তমান বয়সের পার্থক্য অপরিবর্তিত থাকে—এই তথ্য দিয়ে সমীকরণ করুন।",
+      "expected": 24,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "অনুপাতের হিসাব সঠিক, কিন্তু পিতা-সন্তানের সম্মিলিত বয়স ৩৬৪ বছরের বেশি; বাস্তবসম্মত stem নয়, replacement প্রয়োজন।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L22_Q4",
@@ -6851,32 +6851,32 @@
     {
       "id": "math_L23_Q2",
       "c": "গণিত · বয়স",
-      "q": "পিতা ও সন্তানের বর্তমান বয়সের যোগফল ৩৯২ বছর। পিতার বয়স সন্তানের ৬ গুণ। সন্তানের বয়স কত?",
+      "q": "একজন পিতার বর্তমান বয়স তাঁর ছেলের বয়সের ৪ গুণ। ৮ বছর পর পিতার বয়স ছেলের বয়সের ৩ গুণ হবে। ছেলের বর্তমান বয়স কত?",
       "o": [
-        "৫০.৪",
-        "৬১.৬",
-        "৫৬",
-        "৬৭.২"
+        "১৪",
+        "১৬",
+        "১৮",
+        "২০"
       ],
-      "a": 2,
+      "a": 1,
       "level": 23,
       "d": "কঠিন",
       "topic": "বয়স",
-      "e": "মোট বয়সের অংশ ৭; সন্তানের বয়স = ৩৯২ ÷ ৭ = ৫৬ বছর।",
-      "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
-      "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
-      "expected": 56,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "e": "৪x + ৮ = ৩x + ২৪; x = ১৬ বছর।",
+      "formula": "বর্তমান পিতার বয়স = ৪x; ৮ বছর পর ৪x+৮ = ৩(x+৮)",
+      "shortcut": "ভবিষ্যৎ বয়সের অনুপাত থেকে বর্তমান বয়সের সমীকরণ তৈরি করুন।",
+      "expected": 16,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "অনুপাতের হিসাব সঠিক, কিন্তু পিতা-সন্তানের সম্মিলিত বয়স ৩৬৪ বছরের বেশি; বাস্তবসম্মত stem নয়, replacement প্রয়োজন।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L23_Q3",
@@ -7121,32 +7121,32 @@
     {
       "id": "math_L24_Q1",
       "c": "গণিত · বয়স",
-      "q": "পিতা ও সন্তানের বর্তমান বয়সের যোগফল ৪০৬ বছর। পিতার বয়স সন্তানের ৬ গুণ। সন্তানের বয়স কত?",
+      "q": "একজন মায়ের বর্তমান বয়স তাঁর মেয়ের বয়সের ৩ গুণ। ১০ বছর পর মা ও মেয়ের বয়সের যোগফল ৭৬ বছর হবে। মেয়ের বর্তমান বয়স কত?",
       "o": [
-        "৫২.২",
-        "৬৩.৮",
-        "৫৮",
-        "৬৯.৬"
+        "১২",
+        "১৩",
+        "১৪",
+        "১৫"
       ],
       "a": 2,
       "level": 24,
       "d": "কঠিন",
       "topic": "বয়স",
-      "e": "মোট বয়সের অংশ ৭; সন্তানের বয়স = ৪০৬ ÷ ৭ = ৫৮ বছর।",
-      "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
-      "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
-      "expected": 58,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "e": "৪x + ২০ = ৭৬; ৪x = ৫৬; x = ১৪ বছর।",
+      "formula": "বর্তমান মোট বয়স = ৩x+x; ১০ বছর পর মোট = ৪x+২০",
+      "shortcut": "দুইজনের বয়সে ১০ বছর করে যোগ হবে, তাই মোট বয়স ২০ বছর বাড়বে।",
+      "expected": 14,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "অনুপাতের হিসাব সঠিক, কিন্তু পিতা-সন্তানের সম্মিলিত বয়স ৩৬৪ বছরের বেশি; বাস্তবসম্মত stem নয়, replacement প্রয়োজন।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L24_Q2",
@@ -7271,32 +7271,32 @@
     {
       "id": "math_L24_Q6",
       "c": "গণিত · মিশ্রণ",
-      "q": "৬৮ লিটার ১০২% ঘনত্বের দ্রবণ এবং ১০২ লিটার ৬৮% ঘনত্বের দ্রবণ মেশালে গড় ঘনত্ব কত?",
+      "q": "৪০ লিটার ৩০% ঘনত্বের দ্রবণের সঙ্গে ৬০ লিটার ৫০% ঘনত্বের দ্রবণ মেশানো হলো। মিশ্রণের ঘনত্ব কত?",
       "o": [
-        "৮১.৬",
-        "৭৩.৪৪",
-        "৯৭.৯২",
-        "৮৯.৭৬"
+        "৪০%",
+        "৪২%",
+        "৪৫%",
+        "৪৮%"
       ],
-      "a": 0,
+      "a": 1,
       "level": 24,
       "d": "কঠিন",
       "topic": "মিশ্রণ",
-      "e": "(৬৮×১০২ + ১০২×৬৮) ÷ ১৭০ = ৮১.৬%।",
-      "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
-      "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
-      "expected": 81.6,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "e": "(৪০×৩০ + ৬০×৫০) ÷ ১০০ = ৪২%।",
+      "formula": "মিশ্রণের ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
+      "shortcut": "প্রতিটি দ্রবণের বিশুদ্ধ উপাদানের পরিমাণ যোগ করে মোট আয়তন দিয়ে ভাগ করুন।",
+      "expected": 42,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "গাণিতিক weighted-average হিসাব সঠিক, কিন্তু দ্রবণের ঘনত্ব ১০০%-এর বেশি হওয়া বাস্তব/বৈজ্ঞানিকভাবে অসম্ভব; stem invalid, replacement প্রয়োজন।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L24_Q7",
@@ -7541,32 +7541,32 @@
     {
       "id": "math_L25_Q5",
       "c": "গণিত · মিশ্রণ",
-      "q": "৭০ লিটার ১০৫% ঘনত্বের দ্রবণ এবং ১০৫ লিটার ৭০% ঘনত্বের দ্রবণ মেশালে গড় ঘনত্ব কত?",
+      "q": "৮০ লিটার ২৫% ঘনত্বের দ্রবণের সঙ্গে ১২০ লিটার ৪০% ঘনত্বের দ্রবণ মেশানো হলো। মিশ্রণের ঘনত্ব কত?",
       "o": [
-        "৭৫.৬",
-        "১০০.৮",
-        "৯২.৪",
-        "৮৪"
+        "৩২%",
+        "৩৪%",
+        "৩৬%",
+        "৩৮%"
       ],
-      "a": 3,
+      "a": 1,
       "level": 25,
       "d": "কঠিন",
       "topic": "মিশ্রণ",
-      "e": "(৭০×১০৫ + ১০৫×৭০) ÷ ১৭৫ = ৮৪%।",
-      "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
-      "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
-      "expected": 84,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "e": "(৮০×২৫ + ১২০×৪০) ÷ ২০০ = ৬,৮০০ ÷ ২০০ = ৩৪%।",
+      "formula": "মিশ্রণের ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
+      "shortcut": "ওজনযুক্ত গড় ব্যবহার করুন; দুই ঘনত্বের সাধারণ গড় নেবেন না।",
+      "expected": 34,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "গাণিতিক weighted-average হিসাব সঠিক, কিন্তু দ্রবণের ঘনত্ব ১০০%-এর বেশি হওয়া বাস্তব/বৈজ্ঞানিকভাবে অসম্ভব; stem invalid, replacement প্রয়োজন।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L25_Q6",
@@ -7811,32 +7811,32 @@
     {
       "id": "math_L26_Q4",
       "c": "গণিত · মিশ্রণ",
-      "q": "৭২ লিটার ১০৮% ঘনত্বের দ্রবণ এবং ১০৮ লিটার ৭২% ঘনত্বের দ্রবণ মেশালে গড় ঘনত্ব কত?",
+      "q": "৬০ লিটার ২০% ঘনত্বের দ্রবণের সঙ্গে ৯০ লিটার ৫০% ঘনত্বের দ্রবণ মেশানো হলো। মিশ্রণের ঘনত্ব কত?",
       "o": [
-        "১০৩.৬৮",
-        "৯৫.০৪",
-        "৮৬.৪",
-        "৭৭.৭৬"
+        "৩৪%",
+        "৩৬%",
+        "৩৮%",
+        "৪০%"
       ],
       "a": 2,
       "level": 26,
       "d": "কঠিন",
       "topic": "মিশ্রণ",
-      "e": "(৭২×১০৮ + ১০৮×৭২) ÷ ১৮০ = ৮৬.৪%।",
-      "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
-      "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
-      "expected": 86.4,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "e": "(৬০×২০ + ৯০×৫০) ÷ ১৫০ = ৩৮%।",
+      "formula": "মিশ্রণের ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
+      "shortcut": "প্রথম ও দ্বিতীয় দ্রবণের পরিমাণ আলাদা ওজন হিসেবে ব্যবহার করুন।",
+      "expected": 38,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "গাণিতিক weighted-average হিসাব সঠিক, কিন্তু দ্রবণের ঘনত্ব ১০০%-এর বেশি হওয়া বাস্তব/বৈজ্ঞানিকভাবে অসম্ভব; stem invalid, replacement প্রয়োজন।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L26_Q5",
@@ -8020,33 +8020,33 @@
     },
     {
       "id": "math_L27_Q1",
-      "c": "গণিত · জ্যামিতি ও ক্ষেত্রফল",
-      "q": "একটি ঘনকের এক বাহু ৩১ সেমি। আয়তন কত?",
+      "c": "গণিত · যোগ",
+      "q": "একটি প্রতিষ্ঠানের চারটি শাখার ব্যয় যথাক্রমে ৪৮,৭৬৫ টাকা, ৩৯,৮৭৬ টাকা, ২৭,৯৫৮ টাকা ও ১৮,৪৯৭ টাকা। মোট ব্যয় কত?",
       "o": [
-        "৩২৭৭০.১",
-        "২৯৭৯১",
-        "২৬৮১১.৯",
-        "৩৫৭৪৯.২"
+        "১৩৪,০৯৬",
+        "১৩৫,০৯৬",
+        "১৩৫,৯০৬",
+        "১২৫,০৯৬"
       ],
       "a": 1,
       "level": 27,
       "d": "কঠিন",
-      "topic": "জ্যামিতি ও ক্ষেত্রফল",
-      "e": "৩১ × ৩১ × ৩১ = ২৯৭৯১ ঘন সেমি।",
-      "formula": "ঘনকের আয়তন = বাহু³",
-      "shortcut": "বাহুর মান তিনবার গুণ করুন।",
-      "expected": 29791,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "topic": "যোগ",
+      "e": "৪৮,৭৬৫ + ৩৯,৮৭৬ + ২৭,৯৫৮ + ১৮,৪৯৭ = ১,৩৫,০৯৬ টাকা।",
+      "formula": "মোট = চারটি ব্যয়ের যোগফল",
+      "shortcut": "এককের ঘর থেকে ধারসহ কলাম ধরে যোগ করুন; শেষে মোটটি পুনরায় যোগ করে মিলিয়ে নিন।",
+      "expected": 135096,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L27_Q2",
@@ -8081,32 +8081,32 @@
     {
       "id": "math_L27_Q3",
       "c": "গণিত · মিশ্রণ",
-      "q": "৭৪ লিটার ১১১% ঘনত্বের দ্রবণ এবং ১১১ লিটার ৭৪% ঘনত্বের দ্রবণ মেশালে গড় ঘনত্ব কত?",
+      "q": "৭৫ লিটার ৩২% ঘনত্বের দ্রবণের সঙ্গে ১২৫ লিটার ৪৮% ঘনত্বের দ্রবণ মেশানো হলো। মিশ্রণের ঘনত্ব কত?",
       "o": [
-        "৯৭.৬৮",
-        "৮৮.৮",
-        "৭৯.৯২",
-        "১০৬.৫৬"
+        "৪০%",
+        "৪২%",
+        "৪৪%",
+        "৪৬%"
       ],
       "a": 1,
       "level": 27,
       "d": "কঠিন",
       "topic": "মিশ্রণ",
-      "e": "(৭৪×১১১ + ১১১×৭৪) ÷ ১৮৫ = ৮৮.৮%।",
-      "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
-      "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
-      "expected": 88.8,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "e": "(৭৫×৩২ + ১২৫×৪৮) ÷ ২০০ = ৪২%।",
+      "formula": "মিশ্রণের ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
+      "shortcut": "মোট দ্রবণের পরিমাণ ২০০ লিটার; উপাদানের পরিমাণের যোগফলকে ২০০ দিয়ে ভাগ করুন।",
+      "expected": 42,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "গাণিতিক weighted-average হিসাব সঠিক, কিন্তু দ্রবণের ঘনত্ব ১০০%-এর বেশি হওয়া বাস্তব/বৈজ্ঞানিকভাবে অসম্ভব; stem invalid, replacement প্রয়োজন।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L27_Q4",
@@ -8350,33 +8350,33 @@
     },
     {
       "id": "math_L28_Q2",
-      "c": "গণিত · মিশ্রণ",
-      "q": "৭৬ লিটার ১১৪% ঘনত্বের দ্রবণ এবং ১১৪ লিটার ৭৬% ঘনত্বের দ্রবণ মেশালে গড় ঘনত্ব কত?",
+      "c": "গণিত · বিয়োগ",
+      "q": "একটি প্রকল্পের জন্য বরাদ্দ ৩,৫০,০০০ টাকা। প্রথম ধাপে ১,২৮,৭৫০ টাকা এবং দ্বিতীয় ধাপে ৮৬,৯৭৫ টাকা ব্যয় হলে অবশিষ্ট কত?",
       "o": [
-        "৯১.২",
-        "৮২.০৮",
-        "১০৯.৪৪",
-        "১০০.৩২"
+        "১,৩৪,২৭৫",
+        "১,৩৫,২৭৫",
+        "১,৩৩,০২৫",
+        "১,৪৪,২৭৫"
       ],
       "a": 0,
       "level": 28,
       "d": "কঠিন",
-      "topic": "মিশ্রণ",
-      "e": "(৭৬×১১৪ + ১১৪×৭৬) ÷ ১৯০ = ৯১.২%।",
-      "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
-      "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
-      "expected": 91.2,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "topic": "বিয়োগ",
+      "e": "৩,৫০,০০০ − ১,২৮,৭৫০ = ২,২১,২৫০; ২,২১,২৫০ − ৮৬,৯৭৫ = ১,৩৪,২৭৫ টাকা।",
+      "formula": "অবশিষ্ট = মোট বরাদ্দ − প্রথম ব্যয় − দ্বিতীয় ব্যয়",
+      "shortcut": "পরপর বিয়োগ করুন; দ্বিতীয় বিয়োগে ধার নেওয়ার ঘরগুলো আলাদা করে যাচাই করুন।",
+      "expected": 134275,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "গাণিতিক weighted-average হিসাব সঠিক, কিন্তু দ্রবণের ঘনত্ব ১০০%-এর বেশি হওয়া বাস্তব/বৈজ্ঞানিকভাবে অসম্ভব; stem invalid, replacement প্রয়োজন।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L28_Q3",
@@ -8620,33 +8620,33 @@
     },
     {
       "id": "math_L29_Q1",
-      "c": "গণিত · মিশ্রণ",
-      "q": "৭৮ লিটার ১১৭% ঘনত্বের দ্রবণ এবং ১১৭ লিটার ৭৮% ঘনত্বের দ্রবণ মেশালে গড় ঘনত্ব কত?",
+      "c": "গণিত · গুণ",
+      "q": "একটি কারখানায় প্রতিদিন ১,২৫৬টি পণ্য তৈরি হয়। ২৪৮ দিনে মোট কতটি পণ্য তৈরি হবে?",
       "o": [
-        "১১২.৩২",
-        "১০২.৯৬",
-        "৯৩.৬",
-        "৮৪.২৪"
+        "৩১০,৪৮৮",
+        "৩১১,৪৮৮",
+        "৩১১,৫৮৮",
+        "৩২১,৪৮৮"
       ],
-      "a": 2,
+      "a": 1,
       "level": 29,
       "d": "কঠিন",
-      "topic": "মিশ্রণ",
-      "e": "(৭৮×১১৭ + ১১৭×৭৮) ÷ ১৯৫ = ৯৩.৬%।",
-      "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
-      "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
-      "expected": 93.6,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "topic": "গুণ",
+      "e": "১,২৫৬ × ২৪৮ = ১,২৫৬ × (২৫০ − ২) = ৩১৪,০০০ − ২,৫১২ = ৩১১,৪৮৮টি।",
+      "formula": "মোট উৎপাদন = দৈনিক উৎপাদন × দিনের সংখ্যা",
+      "shortcut": "২৪৮-কে ২৫০ − ২ ধরে গুণ করলে বড় গুণ সহজ হয়।",
+      "expected": 311488,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "গাণিতিক weighted-average হিসাব সঠিক, কিন্তু দ্রবণের ঘনত্ব ১০০%-এর বেশি হওয়া বাস্তব/বৈজ্ঞানিকভাবে অসম্ভব; stem invalid, replacement প্রয়োজন।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L29_Q2",
@@ -8920,33 +8920,33 @@
     },
     {
       "id": "math_L30_Q1",
-      "c": "গণিত · পরিমিতি",
-      "q": "বৃত্তের ব্যাসার্ধ ৬৭ সেমি হলে পরিধি কত? (π=২২/৭)",
+      "c": "গণিত · ভাগ",
+      "q": "৯,৭২,০০০ টাকা ২৪টি শাখায় সমানভাবে ভাগ করা হলো। প্রতিটি শাখার বরাদ্দ আবার ১৫টি প্রকল্পে সমান ভাগ করলে প্রতি প্রকল্প কত টাকা পাবে?",
       "o": [
-        "৫০৫.৩৭",
-        "৪৬৩.২৫",
-        "৪২১.১৪",
-        "৩৭৯.০৩"
+        "২,৬০০",
+        "২,৭০০",
+        "২,৮০০",
+        "২৭,০০০"
       ],
-      "a": 2,
+      "a": 1,
       "level": 30,
       "d": "কঠিন",
-      "topic": "পরিমিতি",
-      "e": "২ × ২২/৭ × ৬৭ = ৪২১.১৪২৮৫৭১৪২৮৫৭১ সেমি।",
-      "formula": "বৃত্তের পরিধি = ২πr",
-      "shortcut": "ব্যাসার্ধকে ৪৪/৭ দিয়ে গুণ করুন।",
-      "expected": 421.14,
-      "reviewStatus": "EXCLUDE_CANDIDATE",
-      "exclusionStatus": "NOT_EXCLUDED",
-      "auditGroup": "BATCHES_21_30",
+      "topic": "ভাগ",
+      "e": "৯,৭২,০০০ ÷ ২৪ = ৪০,৫০০; ৪০,৫০০ ÷ ১৫ = ২,৭০০ টাকা।",
+      "formula": "প্রতি প্রকল্পের বরাদ্দ = মোট অর্থ ÷ (শাখা × প্রকল্প)",
+      "shortcut": "ধাপে ধাপে ভাগ করুন অথবা ২৪ × ১৫ = ৩৬০ দিয়ে মোট অর্থ ভাগ করুন।",
+      "expected": 2700,
+      "reviewStatus": "REPLACEMENT_DRAFT",
+      "exclusionStatus": "REPLACED_PENDING_FINAL_REVIEW",
+      "auditGroup": "FINAL_CONSOLIDATION",
       "auditChecks": {
-        "calculationAndKey": "PASS — arithmetic/formula and keyed option checked; keyed value matches stored expected value",
-        "explanationConsistency": "PASS — method and numerical result consistent",
-        "fourDistinctOptions": "PASS — four distinct options; valid answer index",
-        "exactDuplicate": "NONE — strict normalized category + stem + sorted complete options + keyed answer checked against consolidated batches 1–20 and within 21–30",
-        "difficultyFit": "FLAG — too elementary/direct for hard job-exam level or invalid/unrealistic context; reversible candidate"
+        "calculationAndKey": "PASS — independently recalculated; keyed option equals expected value",
+        "explanationConsistency": "PASS — explanation matches calculation",
+        "fourDistinctOptions": "PASS — four distinct options and valid answer index",
+        "difficultyFit": "REPLACEMENT_DRAFT — advanced arithmetic or realistic age/mixture premise; comparative review pending",
+        "exactDuplicate": "PENDING_FINAL_CROSS_BANK_RECHECK"
       },
-      "reviewNote": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।"
+      "reviewNote": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।"
     },
     {
       "id": "math_L30_Q2",
@@ -9220,7 +9220,7 @@
     }
   ],
   "auditProgress": {
-    "status": "BATCHES_01_30_REVIEWED_PENDING_FINAL_CONSOLIDATION",
+    "status": "FINAL_CONSOLIDATION_IN_PROGRESS",
     "completedBatches": [
       1,
       2,
@@ -9280,9 +9280,10 @@
       "malformedOrInvalidOptionSets": 0,
       "exactDuplicateGroups": 0,
       "provisionalRetain": 169,
-      "exclusionCandidates": 131,
+      "exclusionCandidates": 119,
       "permanentDeletions": 0,
-      "systemicIssue": "Question bank is highly templated and many questions tagged hard are one-step/basic. Distractors are mechanical percentage offsets. Six mixture stems exceed 100% concentration; multiple age stems use impossible combined ages. No hard standalone addition/subtraction/multiplication/division items exist."
+      "systemicIssue": "১২টি দুর্বল/অবাস্তব প্রশ্ন নতুন replacement draft দিয়ে প্রতিস্থাপিত; ১১৯টি reversible candidate এখনো চূড়ান্ত সিদ্ধান্তের অপেক্ষায়। Distractor redesign ও পূর্ণ cross-bank comparison বাকি।",
+      "replacementDrafts": 12
     },
     "batchSummaries": [
       {
@@ -9914,13 +9915,11 @@
       "math_L20_Q7",
       "math_L21_Q1",
       "math_L21_Q3",
-      "math_L21_Q4",
       "math_L21_Q5",
       "math_L21_Q6",
       "math_L21_Q7",
       "math_L21_Q8",
       "math_L21_Q10",
-      "math_L22_Q3",
       "math_L22_Q4",
       "math_L22_Q5",
       "math_L22_Q6",
@@ -9928,7 +9927,6 @@
       "math_L22_Q9",
       "math_L22_Q10",
       "math_L23_Q1",
-      "math_L23_Q2",
       "math_L23_Q3",
       "math_L23_Q4",
       "math_L23_Q5",
@@ -9936,12 +9934,10 @@
       "math_L23_Q8",
       "math_L23_Q9",
       "math_L23_Q10",
-      "math_L24_Q1",
       "math_L24_Q2",
       "math_L24_Q3",
       "math_L24_Q4",
       "math_L24_Q5",
-      "math_L24_Q6",
       "math_L24_Q7",
       "math_L24_Q8",
       "math_L24_Q9",
@@ -9950,7 +9946,6 @@
       "math_L25_Q2",
       "math_L25_Q3",
       "math_L25_Q4",
-      "math_L25_Q5",
       "math_L25_Q6",
       "math_L25_Q7",
       "math_L25_Q8",
@@ -9958,15 +9953,12 @@
       "math_L26_Q1",
       "math_L26_Q2",
       "math_L26_Q3",
-      "math_L26_Q4",
       "math_L26_Q5",
       "math_L26_Q6",
       "math_L26_Q7",
       "math_L26_Q8",
       "math_L26_Q10",
-      "math_L27_Q1",
       "math_L27_Q2",
-      "math_L27_Q3",
       "math_L27_Q4",
       "math_L27_Q5",
       "math_L27_Q6",
@@ -9974,14 +9966,12 @@
       "math_L27_Q9",
       "math_L27_Q10",
       "math_L28_Q1",
-      "math_L28_Q2",
       "math_L28_Q3",
       "math_L28_Q4",
       "math_L28_Q5",
       "math_L28_Q6",
       "math_L28_Q8",
       "math_L28_Q10",
-      "math_L29_Q1",
       "math_L29_Q2",
       "math_L29_Q3",
       "math_L29_Q4",
@@ -9989,13 +9979,35 @@
       "math_L29_Q7",
       "math_L29_Q8",
       "math_L29_Q9",
-      "math_L30_Q1",
       "math_L30_Q2",
       "math_L30_Q3",
       "math_L30_Q4",
       "math_L30_Q6",
       "math_L30_Q8"
-    ]
+    ],
+    "replacementReview": {
+      "replacements": [
+        "math_L27_Q1",
+        "math_L28_Q2",
+        "math_L29_Q1",
+        "math_L30_Q1",
+        "math_L21_Q4",
+        "math_L22_Q3",
+        "math_L23_Q2",
+        "math_L24_Q1",
+        "math_L24_Q6",
+        "math_L25_Q5",
+        "math_L26_Q4",
+        "math_L27_Q3"
+      ],
+      "status": "REPLACEMENT_DRAFT_PENDING_FINAL_REVIEW",
+      "count": 12,
+      "calculationKeyChecks": "PASS",
+      "fourDistinctOptions": "PASS",
+      "runtimeQuestionCount": 300,
+      "levelCount": 30,
+      "exactDuplicateGroupsInCurrentRuntimeBank": 0
+    }
   },
   "exclusionLedger": [
     {
@@ -10110,5 +10122,21 @@
       "math_L20_Q7"
     ],
     "permanentDeletions": 0
+  },
+  "finalConsolidation": {
+    "updatedAt": "2026-11-26",
+    "sourceBlobSha": "4f3bdb7fd98ad72dcf727c554d0fa74514a1714d",
+    "replacementDraftCount": 12,
+    "remainingReversibleCandidates": 119,
+    "permanentDeletions": 0,
+    "locked": false,
+    "duplicateGroupsInCurrentRuntimeBank": 0,
+    "notes": [
+      "চারটি কঠিন স্বতন্ত্র যোগ, বিয়োগ, গুণ ও ভাগ প্রশ্ন যোগ করা হয়েছে।",
+      "চারটি অবাস্তব বয়সের প্রশ্ন বাস্তবসম্মত বহু-ধাপের বয়স সমস্যায় প্রতিস্থাপন করা হয়েছে।",
+      "ছয়টি >১০০% ঘনত্বের মিশ্রণ প্রশ্নের মধ্যে চারটি বৈধ weighted-average প্রশ্নে প্রতিস্থাপন করা হয়েছে; বাকি দুটি arithmetic skill replacement দিয়ে প্রতিস্থাপিত।",
+      "Level 16–20 band label-কে difficulty metadata-এর সঙ্গে সামঞ্জস্য করে উচ্চ-মাঝারি প্রতিযোগিতামূলক করা হয়েছে।",
+      "এটি চূড়ান্ত LOCK নয়; ১১৯টি candidate, distractor redesign, duplicate recheck এবং integration tests বাকি।"
+    ]
   }
 }
