@@ -85,7 +85,7 @@ window.EXTRA_JOB_QUESTIONS=(window.EXTRA_JOB_QUESTIONS||[]).concat([
  const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
  const seen=new Set(bank.map(q=>norm(q.c)+'|'+(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q,q.c):norm(q.q))));
  for(const q of window.EXTRA_JOB_QUESTIONS||[]){const k=norm(q.c)+'|'+(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q,q.c):norm(q.q));if(!seen.has(k)){bank.push(q);seen.add(k);}}
- // Final English-bank deduplication: compare the full question, option set and correct answer.
+ // Final all-subject deduplication: compare category, full question, option set and correct answer.
  // Option order is ignored; different examples and different answer sets are retained.
  const exactQuestions=new Set();
  const finalBank=bank.filter(q=>{
