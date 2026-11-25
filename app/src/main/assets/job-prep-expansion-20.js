@@ -1,6 +1,6 @@
 /* মেধার লড়াই — সম্প্রসারণ ব্যাচ ২০: ৪০টি প্রার্থী প্রশ্ন */
 (()=>{'use strict';
-const additions=[
+const additions = [
   {
     "id": "extra_730",
     "c": "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",
@@ -142,8 +142,9 @@ const additions=[
     "a": 1,
     "e": "প্রাপ্তবয়স্ক মানুষের লোহিত রক্তকণিকা প্রধানত লাল অস্থিমজ্জায় তৈরি হয়।",
     "source": "মানবদেহবিদ্যা",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK607436/",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_16_20"
   },
   {
     "id": "extra_742",
@@ -158,8 +159,9 @@ const additions=[
     "a": 1,
     "e": "শিশুদের ভিটামিন ডি-এর অভাবে রিকেটস হতে পারে।",
     "source": "পুষ্টিবিজ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://medlineplus.gov/rickets.html",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_16_20"
   },
   {
     "id": "extra_745",
@@ -174,8 +176,9 @@ const additions=[
     "a": 2,
     "e": "উদ্ভিদ সালোকসংশ্লেষণে বায়ু থেকে কার্বন ডাই-অক্সাইড গ্রহণ করে।",
     "source": "জীববিজ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26838/",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_16_20"
   },
   {
     "id": "extra_746",
@@ -190,24 +193,9 @@ const additions=[
     "a": 0,
     "e": "পানির অণুতে দুটি হাইড্রোজেন ও একটি অক্সিজেন পরমাণু থাকে।",
     "source": "রসায়ন",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
-    "id": "extra_747",
-    "c": "সাধারণ বিজ্ঞান",
-    "q": "বৈদ্যুতিক প্রবাহের SI একক কী?",
-    "o": [
-      "ভোল্ট",
-      "ওয়াট",
-      "অ্যাম্পিয়ার",
-      "ওহম"
-    ],
-    "a": 2,
-    "e": "বৈদ্যুতিক প্রবাহের SI একক অ্যাম্পিয়ার।",
-    "source": "পদার্থবিজ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/Water",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_16_20"
   },
   {
     "id": "extra_748",
@@ -222,8 +210,9 @@ const additions=[
     "a": 1,
     "e": "মানুষের গড় স্বাভাবিক দেহতাপমাত্রা প্রায় ৩৭ ডিগ্রি সেলসিয়াস।",
     "source": "শারীরবিদ্যা",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK507838/",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_16_20"
   },
   {
     "id": "extra_751",
@@ -238,8 +227,9 @@ const additions=[
     "a": 1,
     "e": "শূন্যস্থানে আলোর বেগ প্রায় ৩×১০⁸ মিটার প্রতি সেকেন্ড।",
     "source": "পদার্থবিজ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://physics.nist.gov/cuu/Constants/Value/c.html",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_16_20"
   },
   {
     "id": "extra_752",
@@ -254,8 +244,9 @@ const additions=[
     "a": 1,
     "e": "অগ্ন্যাশয়ের বিটা কোষ ইনসুলিন নিঃসরণ করে।",
     "source": "শারীরবিদ্যা",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459261/",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_16_20"
   },
   {
     "id": "extra_753",
