@@ -2,7 +2,6 @@
 // IDs: extra_1696 - extra_1725
 window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
 {id:"extra_1696",c:"বাংলা ভাষা ও সাহিত্য",q:"বাংলা গদ্যের বিকাশে ফোর্ট উইলিয়াম কলেজ প্রতিষ্ঠিত হয় কত সালে?",o:["১৭৫৭","১৮০০","১৮১৭","১৮৫৭"],a:1,e:"ফোর্ট উইলিয়াম কলেজ ১৮০০ সালে কলকাতায় প্রতিষ্ঠিত হয়।",source:"বাংলা সাহিত্য ইতিহাস — ফোর্ট উইলিয়াম কলেজ",d:"মাঝারি"},
-{id:"extra_1697",c:"বাংলা ভাষা ও সাহিত্য",q:"‘কপালকুণ্ডলা’ উপন্যাসের রচয়িতা কে?",o:["মীর মশাররফ হোসেন","বঙ্কিমচন্দ্র চট্টোপাধ্যায়","রবীন্দ্রনাথ ঠাকুর","শরৎচন্দ্র চট্টোপাধ্যায়"],a:1,e:"বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের ‘কপালকুণ্ডলা’ প্রকাশিত হয় ১৮৬৬ সালে।",source:"বাংলা সাহিত্য — উপন্যাস",d:"সহজ"},
 {id:"extra_1698",c:"বাংলা ভাষা ও সাহিত্য",q:"‘বিষাদ-সিন্ধু’ গ্রন্থের লেখক কে?",o:["মীর মশাররফ হোসেন","কাজী নজরুল ইসলাম","ঈশ্বরচন্দ্র বিদ্যাসাগর","দীনবন্ধু মিত্র"],a:0,e:"মীর মশাররফ হোসেন রচিত ‘বিষাদ-সিন্ধু’ একটি ঐতিহাসিক উপন্যাস।",source:"বাংলা সাহিত্য — গ্রন্থ ও লেখক",d:"সহজ"},
 {id:"extra_1700",c:"English",q:"Choose the correct synonym of ‘Abstain’.",o:["Refrain","Acquire","Approve","Announce"],a:0,e:"Abstain means to refrain from doing or enjoying something.",source:"English Vocabulary — Synonyms",d:"মাঝারি"},
 {id:"extra_1701",c:"English",q:"Which sentence uses the subjunctive mood correctly?",o:["I wish I was there yesterday.","I wish I were there now.","I wish I am there now.","I wish I will be there now."],a:1,e:"The subjunctive ‘were’ is traditionally used for an unreal present wish.",source:"English Grammar — Subjunctive Mood",d:"কঠিন"},
