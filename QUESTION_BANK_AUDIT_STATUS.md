@@ -552,3 +552,5 @@
 - এই subject-content lock overall Android release sign-off নয়। Legacy `ML_CONTENT` threshold, full release validation, APK/AAB build এবং physical device test আলাদা release কাজ।
 
 - Post-lock final CI formula check-এ ধরা ৬টি AP nth-term answer-key ত্রুটি সংশোধন করা হয়েছে: `math_L21_Q5=৪৩`, `math_L23_Q4=১০৮`, `math_L24_Q10=৫৩`, `math_L26_Q6=১১১`, `math_L28_Q4=১০৬`, `math_L30_Q3=৫০`; runtime/master/report পুনরায় sync করা হয়েছে। নতুন runtime SHA: `4404ff9bd1c0b03ee9b4c8370ab0e83400746158`।
+
+- Final validation workflow `45695978106`: **SUCCESS** — question/model-test bank validation, legacy data/Firebase safety regression এবং release UI/launcher smoke checks তিনটিই PASS। Android Gradle build/APK/AAB এই workflow run-এ চালানো হয়নি।
