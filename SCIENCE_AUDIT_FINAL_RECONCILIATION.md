@@ -4,12 +4,12 @@
 - Original baseline: ১৩০টি — সবগুলো content-audited.
 - Expansion batch ১–৫৬: ১০৫টি retained expansion question; batch ৫৬-এ General Science প্রশ্ন ছিল না।
 - Expansion candidate মোট: ১১৯টি.
-- Exact duplicate copy বাদ: ১৬টি.
-- Expansion unique retained: ১০৩টি.
-- মোট General Science master: ২৩৩টি (১৩০ baseline + ১০৩ expansion).
+- Exact duplicate copy বাদ: ১৭টি.
+- Expansion unique retained: ১০২টি.
+- মোট General Science master: ২৩২টি (১৩০ baseline + ১০২ expansion).
 
 ## Integrated automated reconciliation
-- Question record: ২৩৩
+- Question record: ২৩২
 - Missing/empty option set: ০
 - চারটির কম/বেশি option: ০
 - একই option set-এ duplicate option: ০
