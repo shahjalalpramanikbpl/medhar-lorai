@@ -85,5 +85,16 @@ window.EXTRA_JOB_QUESTIONS=(window.EXTRA_JOB_QUESTIONS||[]).concat([
  const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
  const seen=new Set(bank.map(q=>norm(q.c)+'|'+(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q,q.c):norm(q.q))));
  for(const q of window.EXTRA_JOB_QUESTIONS||[]){const k=norm(q.c)+'|'+(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q,q.c):norm(q.q));if(!seen.has(k)){bank.push(q);seen.add(k);}}
+ // Final English-bank deduplication: keep the first occurrence of each exact question stem.
+ // Different examples that test the same skill are retained.
+ const exactEnglishStems=new Set();
+ const finalBank=bank.filter(q=>{
+   if(q.c!=='English') return true;
+   const key=norm(q.q);
+   if(exactEnglishStems.has(key)) return false;
+   exactEnglishStems.add(key);
+   return true;
+ });
+ bank.splice(0,bank.length,...finalBank);
  window.JOB_PREP_BANK=bank;
 })();
