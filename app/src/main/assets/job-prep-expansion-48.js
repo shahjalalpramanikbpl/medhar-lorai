@@ -1,26 +1,326 @@
 (function(){
 const additions=[
-{id:"extra_1606",c:"বাংলা ভাষা ও সাহিত্য",q:"‘কপালকুণ্ডলা’ উপন্যাসের রচয়িতা কে?",o:["বঙ্কিমচন্দ্র চট্টোপাধ্যায়","রবীন্দ্রনাথ ঠাকুর","শরৎচন্দ্র চট্টোপাধ্যায়","প্রমথ চৌধুরী"],a:0,e:"‘কপালকুণ্ডলা’ বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের একটি বিখ্যাত উপন্যাস।",source:"বাংলা সাহিত্য — উপন্যাস",d:"সহজ"},
-{id:"extra_1608",c:"বাংলা ভাষা ও সাহিত্য",q:"‘আনন্দমঠ’ উপন্যাসে ‘বন্দে মাতরম্’ গানটি অন্তর্ভুক্ত করেন কে?",o:["মীর মশাররফ হোসেন","বঙ্কিমচন্দ্র চট্টোপাধ্যায়","দীনবন্ধু মিত্র","ঈশ্বরচন্দ্র বিদ্যাসাগর"],a:1,e:"বঙ্কিমচন্দ্রের ‘আনন্দমঠ’ উপন্যাসে ‘বন্দে মাতরম্’ গানটি রয়েছে।",source:"বাংলা সাহিত্য — উপন্যাস ও সংগীত",d:"মাঝারি"},
-{id:"extra_1609",c:"বাংলা ভাষা ও সাহিত্য",q:"বাংলা গদ্যে চলিত রীতির প্রসারে ‘সবুজপত্র’ পত্রিকার সম্পাদক কে ছিলেন?",o:["প্রমথ চৌধুরী","বুদ্ধদেব বসু","মোহিতলাল মজুমদার","সজনীকান্ত দাস"],a:0,e:"প্রমথ চৌধুরী সম্পাদিত ‘সবুজপত্র’ চলিত গদ্যরীতির প্রসারে গুরুত্বপূর্ণ ভূমিকা রাখে।",source:"বাংলা ভাষা — গদ্যরীতি",d:"মাঝারি"},
-{id:"extra_1610",c:"English",q:"Choose the correct sentence.",o:["Neither of the answers are correct.","Neither of the answers is correct.","Neither answers is correct.","Neither of answer are correct."],a:1,e:"‘Neither’ is singular in this construction, so it takes the singular verb ‘is’.",source:"English Grammar — Subject-Verb Agreement",d:"মাঝারি"},
-{id:"extra_1611",c:"English",q:"What is the adjective form of the noun “courage”?",o:["Courageous","Couragely","Couragement","Encourage"],a:0,e:"‘Courageous’ is the adjective meaning brave or showing courage.",source:"English Grammar — Word Formation",d:"সহজ"},
-{id:"extra_1612",c:"English",q:"Choose the correct meaning of the idiom “to hit the nail on the head”.",o:["To cause an accident","To describe exactly the main point","To work as a carpenter","To make a careless mistake"],a:1,e:"The idiom means to say or identify exactly what is causing a situation or problem.",source:"English Vocabulary — Idiom",d:"মাঝারি"},
-{id:"extra_1617",c:"বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",q:"বিশ্বব্যাংকের সদর দপ্তর কোন শহরে?",o:["ওয়াশিংটন, ডি.সি.","লন্ডন","রোম","টোকিও"],a:0,e:"বিশ্বব্যাংক গ্রুপের সদর দপ্তর যুক্তরাষ্ট্রের ওয়াশিংটন, ডি.সি.-তে।",source:"আন্তর্জাতিক বিষয়াবলি — অর্থনৈতিক সংস্থা",d:"সহজ"},
-{id:"extra_1618",c:"সাধারণ বিজ্ঞান",q:"মানবদেহে ইনসুলিন হরমোন প্রধানত কোন অঙ্গ থেকে নিঃসৃত হয়?",o:["যকৃৎ","অগ্ন্যাশয়","বৃক্ক","থাইরয়েড গ্রন্থি"],a:1,e:"অগ্ন্যাশয়ের ল্যাঙ্গারহ্যান্সের দ্বীপিকার বিটা কোষ ইনসুলিন নিঃসরণ করে।",source:"জীববিজ্ঞান — মানবদেহ",d:"সহজ"},
-{id:"extra_1619",c:"সাধারণ বিজ্ঞান",q:"শব্দ কোন মাধ্যমে সবচেয়ে দ্রুত চলাচল করে?",o:["বায়ু","পানি","কঠিন পদার্থ","শূন্যস্থান"],a:2,e:"সাধারণভাবে শব্দ কঠিন পদার্থে সবচেয়ে দ্রুত চলে; শূন্যস্থানে শব্দ চলতে পারে না।",source:"পদার্থবিজ্ঞান — শব্দ",d:"সহজ"},
-{id:"extra_1620",c:"সাধারণ বিজ্ঞান",q:"উদ্ভিদের পানি ও খনিজ লবণ পরিবহনে প্রধান ভূমিকা রাখে কোন টিস্যু?",o:["ফ্লোয়েম","জাইলেম","এপিডার্মিস","ক্যাম্বিয়াম"],a:1,e:"জাইলেম মূল থেকে পানি ও খনিজ লবণ উদ্ভিদের অন্যান্য অংশে পরিবহন করে।",source:"উদ্ভিদবিজ্ঞান — পরিবহন",d:"মাঝারি"},
-{id:"extra_1622",c:"কম্পিউটার ও ICT",q:"কম্পিউটারের CPU-তে ALU-এর প্রধান কাজ কী?",o:["স্থায়ীভাবে তথ্য সংরক্ষণ","গাণিতিক ও যৌক্তিক কাজ সম্পাদন","ইন্টারনেট সংযোগ দেওয়া","ছবি প্রদর্শন করা"],a:1,e:"Arithmetic Logic Unit (ALU) গাণিতিক হিসাব ও যৌক্তিক তুলনা সম্পাদন করে।",source:"কম্পিউটার — প্রসেসর",d:"সহজ"},
-{id:"extra_1623",c:"কম্পিউটার ও ICT",q:"নিচের কোনটি একটি ওপেন-সোর্স অপারেটিং সিস্টেম?",o:["Linux","Microsoft Windows","macOS","iOS"],a:0,e:"Linux একটি ওপেন-সোর্স অপারেটিং সিস্টেম কার্নেলভিত্তিক প্ল্যাটফর্ম।",source:"কম্পিউটার — অপারেটিং সিস্টেম",d:"সহজ"},
-{id:"extra_1624",c:"কম্পিউটার ও ICT",q:"HTTPS-এ ‘S’ অক্ষরটি কী নির্দেশ করে?",o:["System","Secure","Server","Standard"],a:1,e:"HTTPS হলো HTTP-এর নিরাপদ সংস্করণ; এখানে S দ্বারা Secure বোঝায়।",source:"ICT — ইন্টারনেট নিরাপত্তা",d:"সহজ"},
-{id:"extra_1627",c:"যুক্তি ও বিশ্লেষণ",q:"রহিম করিমের চেয়ে লম্বা, আর করিম সালামের চেয়ে লম্বা। সবচেয়ে খাটো কে?",o:["রহিম","করিম","সালাম","নির্ধারণ করা যায় না"],a:2,e:"রহিম > করিম > সালাম; তাই সালাম সবচেয়ে খাটো।",source:"যুক্তি — তুলনামূলক ক্রম",d:"সহজ"},
-{id:"extra_1628",c:"যুক্তি ও বিশ্লেষণ",q:"সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি নিশ্চিত?",o:["সব গোলাপ দ্রুত ঝরে যায়","কিছু গোলাপ দ্রুত ঝরে যায়","সব ফুল গোলাপ","সব গোলাপ ফুল"],a:3,e:"প্রথম বক্তব্যে সব গোলাপ ফুল বলা হয়েছে; অন্য কোনো সিদ্ধান্ত নিশ্চিতভাবে পাওয়া যায় না।",source:"যুক্তি — সিদ্ধান্ত নির্ণয়",d:"মাঝারি"},
-{id:"extra_1629",c:"সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান",q:"টেকসই উন্নয়ন লক্ষ্যমাত্রা (SDGs) অর্জনের নির্ধারিত বছর কোনটি?",o:["২০২৫","২০৩০","২০৩৫","২০৪০"],a:1,e:"জাতিসংঘের ১৭টি টেকসই উন্নয়ন লক্ষ্যমাত্রা ২০৩০ সালের মধ্যে অর্জনের জন্য নির্ধারিত।",source:"সমসাময়িক জ্ঞান — SDGs",d:"সহজ"},
-{id:"extra_1630",c:"সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান",q:"COP সম্মেলনগুলো মূলত জাতিসংঘের কোন কাঠামো সনদের অধীনে জলবায়ু আলোচনা করে?",o:["UNFCCC","UNCLOS","UNESCO Convention","WHO Framework"],a:0,e:"জলবায়ু পরিবর্তনবিষয়ক COP হলো UNFCCC-এর সদস্য রাষ্ট্রগুলোর সম্মেলন।",source:"সমসাময়িক জ্ঞান — জলবায়ু",d:"মাঝারি"},
-{id:"extra_1632",c:"English Literature",q:"Who wrote the novel “Jane Eyre”?",o:["Emily Brontë","Charlotte Brontë","Anne Brontë","George Eliot"],a:1,e:"Charlotte Brontë published “Jane Eyre” in 1847.",source:"English Literature — Novel",d:"সহজ"},
-{id:"extra_1633",c:"English Literature",q:"“The Canterbury Tales” was written by whom?",o:["Geoffrey Chaucer","William Langland","John Gower","Thomas Malory"],a:0,e:"Geoffrey Chaucer wrote “The Canterbury Tales” in Middle English.",source:"English Literature — Medieval Literature",d:"সহজ"},
-{id:"extra_1634",c:"English Literature",q:"Which Shakespeare play features the characters Rosencrantz and Guildenstern?",o:["Macbeth","Othello","Hamlet","King Lear"],a:2,e:"Rosencrantz and Guildenstern appear in Shakespeare’s tragedy “Hamlet”.",source:"English Literature — Drama",d:"মাঝারি"},
-{id:"extra_1635",c:"English Literature",q:"Who wrote “A Tale of Two Cities”?",o:["Charles Dickens","Thomas Hardy","William Thackeray","Daniel Defoe"],a:0,e:"Charles Dickens published “A Tale of Two Cities” in 1859.",source:"English Literature — Novel",d:"সহজ"}
+  {
+    "id": "extra_1606",
+    "c": "বাংলা ভাষা ও সাহিত্য",
+    "q": "‘কপালকুণ্ডলা’ উপন্যাসের রচয়িতা কে?",
+    "o": [
+      "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+      "রবীন্দ্রনাথ ঠাকুর",
+      "শরৎচন্দ্র চট্টোপাধ্যায়",
+      "প্রমথ চৌধুরী"
+    ],
+    "a": 0,
+    "e": "‘কপালকুণ্ডলা’ বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের একটি বিখ্যাত উপন্যাস।",
+    "source": "বাংলা সাহিত্য — উপন্যাস",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1608",
+    "c": "বাংলা ভাষা ও সাহিত্য",
+    "q": "‘আনন্দমঠ’ উপন্যাসে ‘বন্দে মাতরম্’ গানটি অন্তর্ভুক্ত করেন কে?",
+    "o": [
+      "মীর মশাররফ হোসেন",
+      "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+      "দীনবন্ধু মিত্র",
+      "ঈশ্বরচন্দ্র বিদ্যাসাগর"
+    ],
+    "a": 1,
+    "e": "বঙ্কিমচন্দ্রের ‘আনন্দমঠ’ উপন্যাসে ‘বন্দে মাতরম্’ গানটি রয়েছে।",
+    "source": "বাংলা সাহিত্য — উপন্যাস ও সংগীত",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1609",
+    "c": "বাংলা ভাষা ও সাহিত্য",
+    "q": "বাংলা গদ্যে চলিত রীতির প্রসারে ‘সবুজপত্র’ পত্রিকার সম্পাদক কে ছিলেন?",
+    "o": [
+      "প্রমথ চৌধুরী",
+      "বুদ্ধদেব বসু",
+      "মোহিতলাল মজুমদার",
+      "সজনীকান্ত দাস"
+    ],
+    "a": 0,
+    "e": "প্রমথ চৌধুরী সম্পাদিত ‘সবুজপত্র’ চলিত গদ্যরীতির প্রসারে গুরুত্বপূর্ণ ভূমিকা রাখে।",
+    "source": "বাংলা ভাষা — গদ্যরীতি",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1610",
+    "c": "English",
+    "q": "Choose the correct sentence.",
+    "o": [
+      "Neither of the answers are correct.",
+      "Neither of the answers is correct.",
+      "Neither answers is correct.",
+      "Neither of answer are correct."
+    ],
+    "a": 1,
+    "e": "‘Neither’ is singular in this construction, so it takes the singular verb ‘is’.",
+    "source": "English Grammar — Subject-Verb Agreement",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1611",
+    "c": "English",
+    "q": "What is the adjective form of the noun “courage”?",
+    "o": [
+      "Courageous",
+      "Couragely",
+      "Couragement",
+      "Encourage"
+    ],
+    "a": 0,
+    "e": "‘Courageous’ is the adjective meaning brave or showing courage.",
+    "source": "English Grammar — Word Formation",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1612",
+    "c": "English",
+    "q": "Choose the correct meaning of the idiom “to hit the nail on the head”.",
+    "o": [
+      "To cause an accident",
+      "To describe exactly the main point",
+      "To work as a carpenter",
+      "To make a careless mistake"
+    ],
+    "a": 1,
+    "e": "The idiom means to say or identify exactly what is causing a situation or problem.",
+    "source": "English Vocabulary — Idiom",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1617",
+    "c": "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান",
+    "q": "বিশ্বব্যাংকের সদর দপ্তর কোন শহরে?",
+    "o": [
+      "ওয়াশিংটন, ডি.সি.",
+      "লন্ডন",
+      "রোম",
+      "টোকিও"
+    ],
+    "a": 0,
+    "e": "বিশ্বব্যাংক গ্রুপের সদর দপ্তর যুক্তরাষ্ট্রের ওয়াশিংটন, ডি.সি.-তে।",
+    "source": "আন্তর্জাতিক বিষয়াবলি — অর্থনৈতিক সংস্থা",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1618",
+    "c": "সাধারণ বিজ্ঞান",
+    "q": "মানবদেহে ইনসুলিন হরমোন প্রধানত কোন অঙ্গ থেকে নিঃসৃত হয়?",
+    "o": [
+      "যকৃৎ",
+      "অগ্ন্যাশয়",
+      "বৃক্ক",
+      "থাইরয়েড গ্রন্থি"
+    ],
+    "a": 1,
+    "e": "অগ্ন্যাশয়ের ল্যাঙ্গারহ্যান্সের দ্বীপিকার বিটা কোষ ইনসুলিন নিঃসরণ করে।",
+    "source": "জীববিজ্ঞান — মানবদেহ",
+    "d": "সহজ",
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459261/",
+    "auditStatus": "content_checked_batches_46_50"
+  },
+  {
+    "id": "extra_1619",
+    "c": "সাধারণ বিজ্ঞান",
+    "q": "শব্দ কোন মাধ্যমে সবচেয়ে দ্রুত চলাচল করে?",
+    "o": [
+      "বায়ু",
+      "পানি",
+      "ইস্পাত",
+      "শূন্যস্থান"
+    ],
+    "a": 2,
+    "e": "এই বিকল্পগুলোর মধ্যে ইস্পাতে শব্দের বেগ বায়ু ও পানির চেয়ে বেশি; শূন্যস্থানে শব্দ চলতে পারে না।",
+    "source": "পদার্থবিজ্ঞান — শব্দ",
+    "d": "সহজ",
+    "sourceUrl": "https://openstax.org/books/university-physics-volume-1/pages/17-2-speed-of-sound",
+    "auditStatus": "content_checked_batches_46_50"
+  },
+  {
+    "id": "extra_1620",
+    "c": "সাধারণ বিজ্ঞান",
+    "q": "উদ্ভিদের পানি ও খনিজ লবণ পরিবহনে প্রধান ভূমিকা রাখে কোন টিস্যু?",
+    "o": [
+      "ফ্লোয়েম",
+      "জাইলেম",
+      "এপিডার্মিস",
+      "ক্যাম্বিয়াম"
+    ],
+    "a": 1,
+    "e": "জাইলেম মূল থেকে পানি ও খনিজ লবণ উদ্ভিদের অন্যান্য অংশে পরিবহন করে।",
+    "source": "উদ্ভিদবিজ্ঞান — পরিবহন",
+    "d": "মাঝারি",
+    "sourceUrl": "https://openstax.org/books/biology-2e/pages/30-1-the-plant-body",
+    "auditStatus": "content_checked_batches_46_50"
+  },
+  {
+    "id": "extra_1622",
+    "c": "কম্পিউটার ও ICT",
+    "q": "কম্পিউটারের CPU-তে ALU-এর প্রধান কাজ কী?",
+    "o": [
+      "স্থায়ীভাবে তথ্য সংরক্ষণ",
+      "গাণিতিক ও যৌক্তিক কাজ সম্পাদন",
+      "ইন্টারনেট সংযোগ দেওয়া",
+      "ছবি প্রদর্শন করা"
+    ],
+    "a": 1,
+    "e": "Arithmetic Logic Unit (ALU) গাণিতিক হিসাব ও যৌক্তিক তুলনা সম্পাদন করে।",
+    "source": "কম্পিউটার — প্রসেসর",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1623",
+    "c": "কম্পিউটার ও ICT",
+    "q": "নিচের কোনটি একটি ওপেন-সোর্স অপারেটিং সিস্টেম?",
+    "o": [
+      "Linux",
+      "Microsoft Windows",
+      "macOS",
+      "iOS"
+    ],
+    "a": 0,
+    "e": "Linux একটি ওপেন-সোর্স অপারেটিং সিস্টেম কার্নেলভিত্তিক প্ল্যাটফর্ম।",
+    "source": "কম্পিউটার — অপারেটিং সিস্টেম",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1624",
+    "c": "কম্পিউটার ও ICT",
+    "q": "HTTPS-এ ‘S’ অক্ষরটি কী নির্দেশ করে?",
+    "o": [
+      "System",
+      "Secure",
+      "Server",
+      "Standard"
+    ],
+    "a": 1,
+    "e": "HTTPS হলো HTTP-এর নিরাপদ সংস্করণ; এখানে S দ্বারা Secure বোঝায়।",
+    "source": "ICT — ইন্টারনেট নিরাপত্তা",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1627",
+    "c": "যুক্তি ও বিশ্লেষণ",
+    "q": "রহিম করিমের চেয়ে লম্বা, আর করিম সালামের চেয়ে লম্বা। সবচেয়ে খাটো কে?",
+    "o": [
+      "রহিম",
+      "করিম",
+      "সালাম",
+      "নির্ধারণ করা যায় না"
+    ],
+    "a": 2,
+    "e": "রহিম > করিম > সালাম; তাই সালাম সবচেয়ে খাটো।",
+    "source": "যুক্তি — তুলনামূলক ক্রম",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1628",
+    "c": "যুক্তি ও বিশ্লেষণ",
+    "q": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি নিশ্চিত?",
+    "o": [
+      "সব গোলাপ দ্রুত ঝরে যায়",
+      "কিছু গোলাপ দ্রুত ঝরে যায়",
+      "সব ফুল গোলাপ",
+      "সব গোলাপ ফুল"
+    ],
+    "a": 3,
+    "e": "প্রথম বক্তব্যে সব গোলাপ ফুল বলা হয়েছে; অন্য কোনো সিদ্ধান্ত নিশ্চিতভাবে পাওয়া যায় না।",
+    "source": "যুক্তি — সিদ্ধান্ত নির্ণয়",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1629",
+    "c": "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান",
+    "q": "টেকসই উন্নয়ন লক্ষ্যমাত্রা (SDGs) অর্জনের নির্ধারিত বছর কোনটি?",
+    "o": [
+      "২০২৫",
+      "২০৩০",
+      "২০৩৫",
+      "২০৪০"
+    ],
+    "a": 1,
+    "e": "জাতিসংঘের ১৭টি টেকসই উন্নয়ন লক্ষ্যমাত্রা ২০৩০ সালের মধ্যে অর্জনের জন্য নির্ধারিত।",
+    "source": "সমসাময়িক জ্ঞান — SDGs",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1630",
+    "c": "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান",
+    "q": "COP সম্মেলনগুলো মূলত জাতিসংঘের কোন কাঠামো সনদের অধীনে জলবায়ু আলোচনা করে?",
+    "o": [
+      "UNFCCC",
+      "UNCLOS",
+      "UNESCO Convention",
+      "WHO Framework"
+    ],
+    "a": 0,
+    "e": "জলবায়ু পরিবর্তনবিষয়ক COP হলো UNFCCC-এর সদস্য রাষ্ট্রগুলোর সম্মেলন।",
+    "source": "সমসাময়িক জ্ঞান — জলবায়ু",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1632",
+    "c": "English Literature",
+    "q": "Who wrote the novel “Jane Eyre”?",
+    "o": [
+      "Emily Brontë",
+      "Charlotte Brontë",
+      "Anne Brontë",
+      "George Eliot"
+    ],
+    "a": 1,
+    "e": "Charlotte Brontë published “Jane Eyre” in 1847.",
+    "source": "English Literature — Novel",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1633",
+    "c": "English Literature",
+    "q": "“The Canterbury Tales” was written by whom?",
+    "o": [
+      "Geoffrey Chaucer",
+      "William Langland",
+      "John Gower",
+      "Thomas Malory"
+    ],
+    "a": 0,
+    "e": "Geoffrey Chaucer wrote “The Canterbury Tales” in Middle English.",
+    "source": "English Literature — Medieval Literature",
+    "d": "সহজ"
+  },
+  {
+    "id": "extra_1634",
+    "c": "English Literature",
+    "q": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+    "o": [
+      "Macbeth",
+      "Othello",
+      "Hamlet",
+      "King Lear"
+    ],
+    "a": 2,
+    "e": "Rosencrantz and Guildenstern appear in Shakespeare’s tragedy “Hamlet”.",
+    "source": "English Literature — Drama",
+    "d": "মাঝারি"
+  },
+  {
+    "id": "extra_1635",
+    "c": "English Literature",
+    "q": "Who wrote “A Tale of Two Cities”?",
+    "o": [
+      "Charles Dickens",
+      "Thomas Hardy",
+      "William Thackeray",
+      "Daniel Defoe"
+    ],
+    "a": 0,
+    "e": "Charles Dickens published “A Tale of Two Cities” in 1859.",
+    "source": "English Literature — Novel",
+    "d": "সহজ"
+  }
 ];
 const bank=window.JOB_PREP_BANK||(window.JOB_PREP_BANK=[]);
 const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
