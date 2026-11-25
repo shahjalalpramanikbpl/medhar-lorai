@@ -126,8 +126,9 @@ const additions=[
     "a": 2,
     "e": "বিদ্যুৎ প্রবাহের SI একক অ্যাম্পিয়ার।",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
+    "sourceUrl": "https://www.nist.gov/pml/owm/si-units-electric-current",
+    "d": "মাঝারি",
+    "auditStatus": "content_checked_batches_26_30"
   },
   {
     "id": "extra_922",
