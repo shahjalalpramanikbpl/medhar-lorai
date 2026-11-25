@@ -10012,69 +10012,789 @@
   "exclusionLedger": [
     {
       "id": "math_L1_Q5",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
     },
     {
       "id": "math_L2_Q4",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
     },
     {
       "id": "math_L2_Q6",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
     },
     {
       "id": "math_L3_Q3",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
     },
     {
       "id": "math_L4_Q2",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
     },
     {
       "id": "math_L5_Q1",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
     },
     {
       "id": "math_L5_Q3",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
     },
     {
       "id": "math_L7_Q10",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
     },
     {
       "id": "math_L8_Q9",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
     },
     {
       "id": "math_L9_Q8",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
     },
     {
       "id": "math_L10_Q7",
-      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।",
       "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
-      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L11_Q6",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L11_Q9",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L12_Q5",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L12_Q8",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L12_Q10",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L13_Q4",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L13_Q7",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L13_Q9",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L14_Q3",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L14_Q6",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L14_Q8",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L14_Q10",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L15_Q2",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L15_Q5",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L15_Q7",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L15_Q9",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L15_Q10",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L16_Q1",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L16_Q4",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L16_Q6",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L16_Q9",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L17_Q3",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L17_Q5",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L17_Q7",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L17_Q8",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L17_Q10",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L18_Q2",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L18_Q4",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L18_Q7",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L18_Q9",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L19_Q1",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L19_Q3",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L19_Q6",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L20_Q2",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L20_Q4",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L20_Q5",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L20_Q7",
+      "reason": "গণনা সঠিক হলেও প্রশ্নটি অতিরিক্ত প্রাথমিক/সরাসরি একধাপের; বয়স-প্রশ্নে অবাস্তব বয়সের যোগফলও আছে। reversible exclusion candidate; স্থায়ীভাবে মুছে ফেলা হয়নি।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L21_Q1",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L21_Q3",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L21_Q4",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L21_Q5",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L21_Q6",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L21_Q7",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L21_Q8",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L21_Q10",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L22_Q3",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L22_Q4",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L22_Q5",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L22_Q6",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L22_Q7",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L22_Q9",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L22_Q10",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L23_Q1",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L23_Q2",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L23_Q3",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L23_Q4",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L23_Q5",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L23_Q6",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L23_Q8",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L23_Q9",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L23_Q10",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L24_Q1",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L24_Q2",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L24_Q3",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L24_Q4",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L24_Q5",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L24_Q6",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L24_Q7",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L24_Q8",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L24_Q9",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L24_Q10",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L25_Q1",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L25_Q2",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L25_Q3",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L25_Q4",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L25_Q5",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L25_Q6",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L25_Q7",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L25_Q8",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L25_Q9",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L26_Q1",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L26_Q2",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L26_Q3",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L26_Q4",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L26_Q5",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L26_Q6",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L26_Q7",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L26_Q8",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L26_Q10",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L27_Q1",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L27_Q2",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L27_Q3",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L27_Q4",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L27_Q5",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L27_Q6",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L27_Q7",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L27_Q9",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L27_Q10",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L28_Q1",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L28_Q2",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L28_Q3",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L28_Q4",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L28_Q5",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L28_Q6",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L28_Q8",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L28_Q10",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L29_Q1",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L29_Q2",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L29_Q3",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L29_Q4",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L29_Q5",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L29_Q7",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L29_Q8",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L29_Q9",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L30_Q1",
+      "reason": "পুরোনো দুর্বল/অবাস্তব প্রশ্নের জায়গায় নতুন প্রশ্ন বসানো হয়েছে; স্থায়ী LOCK-এর আগে পূর্ণ cross-bank duplicate ও difficulty review বাকি।",
+      "status": "REPLACED_DRAFT_PENDING_FINAL_REVIEW",
+      "action": "নতুন প্রশ্ন বসানো হয়েছে; final cross-bank ও difficulty review বাকি"
+    },
+    {
+      "id": "math_L30_Q2",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L30_Q3",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L30_Q4",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L30_Q6",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
+    },
+    {
+      "id": "math_L30_Q8",
+      "reason": "গণনা সঠিক হলেও hard job-exam level-এর তুলনায় একধাপের/অতি সরল প্রয়োগ; reversible exclusion candidate, স্থায়ীভাবে delete নয়।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "reversible candidate; স্থায়ীভাবে delete নয়"
     }
   ],
   "groupComparison_01_20": {
