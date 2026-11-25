@@ -56,12 +56,12 @@
     "total_expansion_science_candidates": 119,
     "total_expansion_exact_duplicates_removed": 18,
     "total_expansion_unique_retained": 101,
-    "integrated_reconciliation_questions": 232,
+    "integrated_reconciliation_questions": 231,
     "integrated_malformed_questions": 0,
     "integrated_exact_duplicate_signatures": 0,
     "integrated_missing_source_urls": 0,
     "integrated_invalid_answer_indices": 0,
-    "final_content_audit_status": "REVALIDATION_COMPLETE_PENDING_FINAL_INTEGRATED_RECONCILIATION_NOT_LOCKED",
+    "final_content_audit_status": "REVALIDATION_COMPLETE_PENDING_SOURCE_AND_RUNTIME_INTEGRATION_CHECK_NOT_LOCKED",
     "reaudited_expansion_questions_through_batch_20": 36,
     "reaudit_content_verified_through_batch_20": 36,
     "reaudit_exact_duplicates_found_batch_16_20_vs_prior": 0,
@@ -5819,7 +5819,7 @@
   ],
   "source_sequence_note": "Expansion batches 1–56 checked sequentially in five-batch groups; batch 56 contained no General Science items. Repository currently has no expansion batch 57–60. The 130 questions in the original job-prep-suite.js baseline are included for duplicate comparison but still require their own factual/content audit.",
   "reaudit_progress": {
-    "status": "REVALIDATION_COMPLETE_PENDING_FINAL_INTEGRATED_RECONCILIATION_NOT_LOCKED",
+    "status": "REVALIDATION_COMPLETE_PENDING_SOURCE_AND_RUNTIME_INTEGRATION_CHECK_NOT_LOCKED",
     "started_on": "2026-11-25",
     "completed_expansion_batches": [
       1,
@@ -5882,7 +5882,7 @@
     "exact_duplicate_crosscheck_against_baseline": 0,
     "exact_duplicates_previously_removed_in_batches_01_05": 3,
     "baseline_questions_factual_reaudit_pending": 0,
-    "next_step": "Perform final integrated reconciliation across all 130 baseline and 101 expansion retained questions: exact duplicates, malformed records, missing source URLs, invalid answer indices, source consistency and code/runtime integration; do not lock until verified.",
+    "next_step": "Verify the baseline and expansion source asset files against the 231-question master, then inspect app/runtime loading and run available validation/CI; only then decide LOCK.",
     "lock_suspended_until_full_reaudit": true,
     "checkpoint": "SCIENCE_BASELINE_REAUDIT_105_130.md",
     "last_comparison": {
@@ -5930,6 +5930,17 @@
         "suite_130: cellulose is the principal structural component of plant cell walls; distinct question."
       ],
       "policy": "Exact duplicate deletion requires same normalized category, exact normalized question stem, complete sorted option set and keyed answer. Conceptual repeats with changed stems/options are retained and flagged."
+    },
+    "integrated_reconciliation": {
+      "checked_on": "2026-11-26",
+      "master_question_records": 231,
+      "exact_duplicate_signatures": 0,
+      "malformed_records": 0,
+      "missing_source_urls": 0,
+      "invalid_answer_indices": 0,
+      "source_file_to_master_consistency": "PENDING",
+      "app_runtime_integration": "PENDING",
+      "note": "First-pass structural reconciliation of the current master completed; verify source assets and app/runtime integration before LOCK."
     }
   }
 }
