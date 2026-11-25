@@ -41,3 +41,9 @@
 - Master: `MATH_AUDIT_MASTER_BASELINE_300.json`
 - Runtime: `app/src/main/assets/math-levels.js`
 - Overall status: `QUESTION_BANK_AUDIT_STATUS.md`
+
+
+## Final CI log থেকে ধরা ছয়টি সংশোধন
+- CI-এর generic formula check-এ ছয়টি arithmetic progression প্রশ্নে nth-term answer key ভুল ছিল (series sum সঠিক ছিল, কিন্তু চাওয়া হয়েছিল nth term)।
+- `math_L21_Q5`, `math_L23_Q4`, `math_L24_Q10`, `math_L26_Q6`, `math_L28_Q4`, `math_L30_Q3`—সঠিক nth term যথাক্রমে ৪৩, ১০৮, ৫৩, ১১১, ১০৬, ৫০ করে option, key ও explanation সংশোধন করা হয়েছে।
+- Runtime ও master পুনরায় sync করা হয়েছে।
