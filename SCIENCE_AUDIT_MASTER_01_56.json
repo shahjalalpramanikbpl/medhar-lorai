@@ -3,12 +3,12 @@
   "generated_on": "2026-11-25",
   "policy": "Exact duplicate signature: normalized category + normalized question + sorted normalized options + normalized correct answer. Only exact duplicate copies removed; different wording or option sets retained.",
   "totals": {
-    "baseline_suite_questions": 130,
+    "baseline_suite_questions": 147,
     "baseline_internal_exact_duplicates": 0,
     "batches_01_05_science_candidates": 17,
     "exact_duplicates_removed": 3,
     "new_unique_questions_retained": 14,
-    "total_unique_questions_for_future_comparison": 231,
+    "total_unique_questions_for_future_comparison": 248,
     "content_verified_expansion_questions": 102,
     "baseline_content_audit_pending": 130,
     "malformed_retained_expansion_entries": 0,
@@ -47,7 +47,7 @@
     "expansion_audit_complete_through_batch": 56,
     "baseline_group_01_26_questions": 26,
     "baseline_groups_completed": 5,
-    "baseline_questions_content_audited": 130,
+    "baseline_questions_content_audited": 147,
     "baseline_questions_pending": 0,
     "baseline_group_27_52_questions": 26,
     "baseline_group_53_78_questions": 26,
@@ -56,12 +56,12 @@
     "total_expansion_science_candidates": 119,
     "total_expansion_exact_duplicates_removed": 18,
     "total_expansion_unique_retained": 101,
-    "integrated_reconciliation_questions": 231,
+    "integrated_reconciliation_questions": 248,
     "integrated_malformed_questions": 0,
     "integrated_exact_duplicate_signatures": 0,
     "integrated_missing_source_urls": 0,
     "integrated_invalid_answer_indices": 0,
-    "final_content_audit_status": "REVALIDATION_COMPLETE_PENDING_SOURCE_AND_RUNTIME_INTEGRATION_CHECK_NOT_LOCKED",
+    "final_content_audit_status": "REVALIDATION_COMPLETE_PENDING_FINAL_SOURCE_AND_RUNTIME_INTEGRATION_VERIFICATION_NOT_LOCKED",
     "reaudited_expansion_questions_through_batch_20": 36,
     "reaudit_content_verified_through_batch_20": 36,
     "reaudit_exact_duplicates_found_batch_16_20_vs_prior": 0,
@@ -94,10 +94,10 @@
     "reaudit_content_verified_through_batch_55": 101,
     "reaudit_candidate_questions_through_batch_55": 118,
     "reaudit_exact_duplicates_found_batch_51_55_vs_prior": 0,
-    "baseline_substantive_reaudit_groups_completed": 5,
-    "baseline_substantive_reaudit_questions_verified": 130,
+    "baseline_substantive_reaudit_groups_completed": 6,
+    "baseline_substantive_reaudit_questions_verified": 147,
     "baseline_substantive_reaudit_questions_pending": 0,
-    "reaudit_total_questions_substantively_verified": 231,
+    "reaudit_total_questions_substantively_verified": 248,
     "baseline_reaudit_exact_duplicates_group_01_26": 0,
     "baseline_reaudit_exact_duplicates_group_27_52": 0,
     "baseline_reaudit_exact_duplicates_group_53_78": 0,
@@ -5815,11 +5815,453 @@
         "explanation",
         "exact_duplicate_signature"
       ]
+    },
+    {
+      "id": "suite_131",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "মানবদেহে পিত্তরস তৈরি হয় কোন অঙ্গে?",
+      "o": [
+        "অগ্ন্যাশয়",
+        "যকৃৎ",
+        "পিত্তথলি",
+        "ক্ষুদ্রান্ত্র"
+      ],
+      "a": 1,
+      "e": "যকৃৎ পিত্তরস তৈরি করে; পিত্তথলিতে তা সঞ্চিত থাকে।",
+      "source": "NIDDK",
+      "sourceUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_132",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "কোন রক্তের গ্রুপকে সাধারণভাবে সর্বজনীন লোহিত কণিকা দাতা বলা হয়?",
+      "o": [
+        "AB+",
+        "O−",
+        "A+",
+        "B−"
+      ],
+      "a": 1,
+      "e": "O নেগেটিভ লোহিত রক্তকণিকায় A, B ও Rh(D) অ্যান্টিজেন থাকে না; জরুরি প্রয়োজনে একে সর্বজনীন RBC donor বলা হয়, তবে সম্ভব হলে blood typing ও crossmatch করা হয়।",
+      "source": "American Red Cross",
+      "sourceUrl": "https://www.redcrossblood.org/donate-blood/blood-types/o-blood-type.html",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_133",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "শক্তির SI একক কী?",
+      "o": [
+        "নিউটন",
+        "জুল",
+        "ওয়াট",
+        "পাস্কাল"
+      ],
+      "a": 1,
+      "e": "শক্তি ও কাজের SI একক জুল।",
+      "source": "BIPM — SI Brochure",
+      "sourceUrl": "https://www.bipm.org/en/publications/si-brochure",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_134",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "মানবদেহে শ্বেত রক্তকণিকার প্রধান কাজ কী?",
+      "o": [
+        "অক্সিজেন বহন",
+        "রোগজীবাণুর বিরুদ্ধে প্রতিরক্ষা",
+        "রক্ত জমাট বাঁধানো",
+        "হরমোন পরিবহন"
+      ],
+      "a": 1,
+      "e": "শ্বেত রক্তকণিকা শরীরের রোগপ্রতিরোধ ব্যবস্থায় কাজ করে এবং সংক্রমণের বিরুদ্ধে প্রতিরক্ষা দেয়।",
+      "source": "MedlinePlus",
+      "sourceUrl": "https://medlineplus.gov/ency/article/003643.htm",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_135",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "বিদ্যুৎ রোধের SI একক কী?",
+      "o": [
+        "অ্যাম্পিয়ার",
+        "ওহম",
+        "ভোল্ট",
+        "কুলম্ব"
+      ],
+      "a": 1,
+      "e": "বৈদ্যুতিক রোধের SI একক ওহম (Ω)।",
+      "source": "BIPM — SI Brochure",
+      "sourceUrl": "https://www.bipm.org/en/publications/si-brochure",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_136",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "রক্তের লোহিত কণিকার গড় আয়ু কত?",
+      "o": [
+        "৩০ দিন",
+        "৬০ দিন",
+        "১২০ দিন",
+        "১৮০ দিন"
+      ],
+      "a": 2,
+      "e": "সুস্থ মানুষের লোহিত রক্তকণিকার গড় আয়ু প্রায় ১২০ দিন।",
+      "source": "Merck Manual",
+      "sourceUrl": "https://www.merckmanuals.com/home/blood-disorders/biology-of-blood/blood-components",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_137",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "মানবদেহে ইনসুলিন উৎপন্ন হয় কোথা থেকে?",
+      "o": [
+        "যকৃত",
+        "অগ্ন্যাশয়",
+        "পিত্তথলি",
+        "বৃক্ক"
+      ],
+      "a": 1,
+      "e": "অগ্ন্যাশয়ের আইলেটস অব ল্যাঙ্গারহ্যান্সের বিটা কোষ ইনসুলিন নিঃসরণ করে।",
+      "source": "NIDDK",
+      "sourceUrl": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_138",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "মানবদেহের স্বাভাবিক তাপমাত্রা প্রায় কত?",
+      "o": [
+        "৩৫°C",
+        "৩৭°C",
+        "৩৯°C",
+        "৪০°C"
+      ],
+      "a": 1,
+      "e": "মানবদেহের গড় স্বাভাবিক তাপমাত্রা প্রায় ৩৭°C; ব্যক্তি, সময় ও মাপার স্থানের কারণে কিছুটা তারতম্য হয়।",
+      "source": "MedlinePlus",
+      "sourceUrl": "https://medlineplus.gov/ency/article/001982.htm",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_139",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "উদ্ভিদের কোষপ্রাচীর প্রধানত কোন পদার্থ দিয়ে গঠিত?",
+      "o": [
+        "স্টার্চ",
+        "সেলুলোজ",
+        "গ্লাইকোজেন",
+        "প্রোটিন"
+      ],
+      "a": 1,
+      "e": "উদ্ভিদ কোষের কোষপ্রাচীরের প্রধান কাঠামোগত উপাদান সেলুলোজ।",
+      "source": "OpenStax Biology 2e",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/5-2-components-and-structure",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_140",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "উদ্ভিদের বাষ্পমোচন প্রধানত কোন অংশ দিয়ে ঘটে?",
+      "o": [
+        "মূলরোম",
+        "পত্ররন্ধ্র",
+        "জাইলেম",
+        "ফুল"
+      ],
+      "a": 1,
+      "e": "পাতার পত্ররন্ধ্র দিয়ে উদ্ভিদের অধিকাংশ বাষ্পমোচন ঘটে; অন্যান্য পৃষ্ঠ দিয়েও অল্প পরিমাণে হতে পারে।",
+      "source": "OpenStax Biology 2e",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_141",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "মানবদেহে রক্ত পরিশোধনের প্রধান অঙ্গ কোনটি?",
+      "o": [
+        "হৃদপিণ্ড",
+        "ফুসফুস",
+        "বৃক্ক",
+        "পাকস্থলী"
+      ],
+      "a": 2,
+      "e": "বৃক্ক রক্ত থেকে বর্জ্য ও অতিরিক্ত পানি ছেঁকে মূত্র তৈরি করে।",
+      "source": "NIDDK",
+      "sourceUrl": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_142",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "মানবদেহে ইনসুলিন উৎপন্ন হয় কোন অঙ্গে?",
+      "o": [
+        "যকৃৎ",
+        "অগ্ন্যাশয়",
+        "বৃক্ক",
+        "প্লীহা"
+      ],
+      "a": 1,
+      "e": "অগ্ন্যাশয়ের বিটা কোষ ইনসুলিন নিঃসরণ করে।",
+      "source": "NIDDK",
+      "sourceUrl": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_143",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "মানবদেহে স্বাভাবিক ক্রোমোজোম সংখ্যা কত?",
+      "o": [
+        "২৩",
+        "৪৪",
+        "৪৬",
+        "৪৮"
+      ],
+      "a": 2,
+      "e": "মানবদেহের অধিকাংশ সাধারণ দেহকোষে ২৩ জোড়া, অর্থাৎ ৪৬টি ক্রোমোজোম থাকে; জননকোষে থাকে ২৩টি।",
+      "source": "National Human Genome Research Institute",
+      "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_144",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "মানবদেহের স্বাভাবিক ক্রোমোজোম সংখ্যা কত?",
+      "o": [
+        "৪৬টি",
+        "৪৪টি",
+        "৪৮টি",
+        "২৩টি"
+      ],
+      "a": 0,
+      "e": "মানবদেহের অধিকাংশ সাধারণ দেহকোষে ২৩ জোড়া, অর্থাৎ ৪৬টি ক্রোমোজোম থাকে; জননকোষে থাকে ২৩টি।",
+      "source": "National Human Genome Research Institute",
+      "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_145",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "উদ্ভিদের খাদ্য তৈরির প্রক্রিয়ার নাম কী?",
+      "o": [
+        "সালোকসংশ্লেষণ",
+        "শ্বসন",
+        "বাষ্পমোচন",
+        "গাঁজন"
+      ],
+      "a": 0,
+      "e": "সালোকসংশ্লেষণে উদ্ভিদ আলো, পানি ও কার্বন ডাই-অক্সাইড ব্যবহার করে শর্করা তৈরি করে।",
+      "source": "OpenStax Biology 2e",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_146",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "বায়ুমণ্ডলে সবচেয়ে বেশি কোন গ্যাস রয়েছে?",
+      "o": [
+        "নাইট্রোজেন",
+        "অক্সিজেন",
+        "কার্বন ডাই-অক্সাইড",
+        "আর্গন"
+      ],
+      "a": 0,
+      "e": "শুষ্ক বায়ুমণ্ডলের প্রায় ৭৮ শতাংশ নাইট্রোজেন।",
+      "source": "UCAR Center for Science Education",
+      "sourceUrl": "https://scied.ucar.edu/learning-zone/air-quality/how-much-of-atmosphere-is-oxygen",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
+    },
+    {
+      "id": "suite_147",
+      "c": "সাধারণ বিজ্ঞান",
+      "q": "কোন রক্তের গ্রুপকে সাধারণভাবে সর্বজনীন লোহিত রক্তকণিকা দাতা বলা হয়?",
+      "o": [
+        "AB পজিটিভ",
+        "O নেগেটিভ",
+        "A পজিটিভ",
+        "B নেগেটিভ"
+      ],
+      "a": 1,
+      "e": "O নেগেটিভ লোহিত রক্তকণিকায় A, B ও Rh(D) অ্যান্টিজেন থাকে না; জরুরি প্রয়োজনে একে সর্বজনীন RBC donor বলা হয়, তবে সম্ভব হলে blood typing ও crossmatch করা হয়।",
+      "source": "American Red Cross",
+      "sourceUrl": "https://www.redcrossblood.org/donate-blood/blood-types/o-blood-type.html",
+      "audit_status": "source_active_baseline_addition_fact_checked_2026-11-26",
+      "audit_group": "baseline_source_additions_131_147",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_group": "baseline_source_additions_131_147",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     }
   ],
   "source_sequence_note": "Expansion batches 1–56 checked sequentially in five-batch groups; batch 56 contained no General Science items. Repository currently has no expansion batch 57–60. The 130 questions in the original job-prep-suite.js baseline are included for duplicate comparison but still require their own factual/content audit.",
   "reaudit_progress": {
-    "status": "REVALIDATION_COMPLETE_PENDING_SOURCE_AND_RUNTIME_INTEGRATION_CHECK_NOT_LOCKED",
+    "status": "REVALIDATION_COMPLETE_PENDING_FINAL_SOURCE_AND_RUNTIME_INTEGRATION_VERIFICATION_NOT_LOCKED",
     "started_on": "2026-11-25",
     "completed_expansion_batches": [
       1,
@@ -5904,43 +6346,37 @@
       "27-52",
       "53-78",
       "79-104",
-      "105-130"
+      "105-130",
+      "source-additions-131-147"
     ],
-    "baseline_questions_reaudited": 130,
-    "total_questions_substantively_reaudited": 231,
+    "baseline_questions_reaudited": 147,
+    "total_questions_substantively_reaudited": 248,
     "last_baseline_comparison": {
-      "baseline_group": "105-130",
-      "candidates": 26,
-      "retained": 26,
+      "baseline_group": "source-additions-131-147",
+      "candidates": 17,
+      "retained": 17,
       "exact_duplicates_within_group": 0,
       "exact_duplicates_against_all_other_master_questions": 0,
       "corrections": 0,
+      "source_reconciliation_note": "17 active baseline source questions were not represented by a full exact signature in the previous 231-record master: 14 additional stems and 3 same-stem variants with different complete option sets. All 17 were fact-checked and retained; conceptual overlaps were not removed.",
       "conceptual_overlap_flags": [
-        "suite_105 vs lemon/citrus fruit acid questions: citric acid; no identical stem/options.",
-        "suite_107 vs suite_4: vitamin C deficiency causes scurvy; wording/options differ.",
-        "suite_110 vs suite_29/suite_68: mercury liquid at room temperature; different option sets.",
-        "suite_111 vs suite_78 and photosynthesis questions: chlorophyll absorbs light; related but different stems/options.",
-        "suite_113 vs suite_102 and digestive-system questions: bile produced in liver and emulsifies fats; distinct physiological questions.",
-        "suite_118 vs suite_79/suite_9: nitrogen is the most abundant atmospheric gas; options/order and stem differ.",
-        "suite_119 vs atmospheric composition questions: oxygen about 21%; distinct fact.",
-        "suite_124 vs suite_25/suite_61: acidic solutions have pH below 7 at 25°C; different stems/options.",
-        "suite_125 vs suite_56/suite_64/suite_77: adult RBCs produced in red bone marrow; distinct stems/options.",
-        "suite_126 vs insulin questions: pancreas secretes insulin and glucagon from different islet cell types; broader distinct fact.",
-        "suite_129 vs suite_21: thyroid produces thyroxine; wording/options differ.",
-        "suite_130: cellulose is the principal structural component of plant cell walls; distinct question."
+        "two insulin-source questions use different stems/options",
+        "two chromosome-count questions use different stems/options",
+        "two universal O-negative RBC donor questions use different stems/options",
+        "cell-wall cellulose, kidney filtration and resistance-unit questions have related but distinct prior questions"
       ],
-      "policy": "Exact duplicate deletion requires same normalized category, exact normalized question stem, complete sorted option set and keyed answer. Conceptual repeats with changed stems/options are retained and flagged."
+      "policy": "Exact duplicate deletion requires same normalized category, exact normalized question stem, complete sorted option set and keyed answer. Conceptual repeats and same-stem variants with different option sets are retained."
     },
     "integrated_reconciliation": {
       "checked_on": "2026-11-26",
-      "master_question_records": 231,
+      "master_question_records": 248,
       "exact_duplicate_signatures": 0,
       "malformed_records": 0,
       "missing_source_urls": 0,
       "invalid_answer_indices": 0,
-      "source_file_to_master_consistency": "PENDING",
-      "app_runtime_integration": "PENDING",
-      "note": "First-pass structural reconciliation of the current master completed; verify source assets and app/runtime integration before LOCK."
+      "source_file_to_master_consistency": "BASELINE_SOURCE_RECONCILED_147_RECORDS; EXPANSION_101_RECORDS_MATCHED_AFTER_7_EXPLANATION_SYNC_FIXES; ONE_HISTORICAL_EXPANSION_DUPLICATE_REMAINS_DOCUMENTED_IN_LEDGER",
+      "app_runtime_integration": "SCRIPT_ORDER_AND_MERGE_PATH_REVIEWED; AUTOMATED_CI_VALIDATION_PASSED; DEVICE_RUNTIME_SMOKE_TEST_NOT_PERFORMED",
+      "note": "Baseline source contains 150 science Q() entries: 133 exact-signature matches already represented in master, plus 17 additional active variants now recorded as suite_131–suite_147. Expansion source batches 1–55 contain 102 science candidates; 101 retained master records, with the historical duplicate removal documented in duplicate_removals. Seven explanation mismatches between expansion source and audited master were synchronized in source assets. index.html loads suite, expansion batches 1–56 and merges batches 33+ through the full-signature JOB_PREP_QUESTION_KEY. Automated CI validation is green; no physical Android device smoke test was performed."
     }
   }
 }
