@@ -148,15 +148,15 @@ const additions=[
   {
     "id": "extra_1031",
     "c": "English",
-    "q": "Choose the correct form: By next June, she ___ here for ten years.",
+    "q": "Choose the correct form: By next June, she ___ the ten-year research project.",
     "o": [
-      "will work",
-      "will have worked",
-      "has worked",
-      "is working"
+      "will complete",
+      "will have completed",
+      "has completed",
+      "is completing"
     ],
     "a": 1,
-    "e": "The future perfect describes an action completed by a future time.",
+    "e": "The future perfect (will have + past participle) describes an action completed by a specified future time.",
     "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
     "sourceUrl": "",
     "d": "মাঝারি"
