@@ -1,7 +1,7 @@
 {
   "schema": "medhar-lorai.math-audit-master.v1",
   "createdAt": "2026-11-26",
-  "status": "BASELINE_SNAPSHOT_PENDING_SUBSTANTIVE_AUDIT",
+  "status": "BATCHES_01_10_REVIEWED_PENDING_GROUP_COMPARISON",
   "source": {
     "path": "app/src/main/assets/math-levels.js",
     "blobSha": "e00b1e6544e4255a9073e3e802d803b6d9dcf706"
@@ -236,8 +236,17 @@
       "formula": "বিক্রয়মূল্য = ক্রয়মূল্য × (১০০ + লাভের হার) ÷ ১০০",
       "shortcut": "১০০% ক্রয়মূল্যের সঙ্গে লাভের হার যোগ করে গুণ করুন।",
       "expected": 428,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L1_Q2",
@@ -257,8 +266,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 28,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L1_Q3",
@@ -278,8 +296,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 84,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L1_Q4",
@@ -299,8 +326,17 @@
       "formula": "সরল সুদ = মূলধন × হার × সময় ÷ ১০০",
       "shortcut": "প্রথমে ১ বছরের সুদ বের করে বছরের সংখ্যা দিয়ে গুণ করুন।",
       "expected": 180,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L1_Q5",
@@ -320,8 +356,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 20,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L1_Q6",
@@ -341,8 +386,17 @@
       "formula": "যৌথ সময় = (প্রথম সময় × দ্বিতীয় সময়) ÷ (সময় দুটির যোগফল)",
       "shortcut": "দুই কর্মীর দিনের সংখ্যা গুণ করে যোগফল দিয়ে ভাগ করুন।",
       "expected": 1.2,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L1_Q7",
@@ -362,8 +416,17 @@
       "formula": "সময় = (ট্রেনের দৈর্ঘ্য + প্ল্যাটফর্মের দৈর্ঘ্য) ÷ বেগ",
       "shortcut": "প্ল্যাটফর্ম পার হতে ট্রেন ও প্ল্যাটফর্ম—দুই দৈর্ঘ্য যোগ করুন।",
       "expected": 14.76,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L1_Q8",
@@ -383,8 +446,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 12,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L1_Q9",
@@ -404,8 +476,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 5,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L1_Q10",
@@ -425,8 +506,17 @@
       "formula": "ল.সা.গু = সংখ্যা দুটির গুণফল ÷ গ.সা.গু",
       "shortcut": "প্রথমে গ.সা.গু বের করে সংখ্যা দুটির গুণফলকে তা দিয়ে ভাগ করুন।",
       "expected": 260,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L2_Q1",
@@ -446,8 +536,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 45,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L2_Q2",
@@ -467,8 +566,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 98,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L2_Q3",
@@ -488,8 +596,17 @@
       "formula": "চক্রবৃদ্ধি সুদ = মূলধন × (১ + হার/১০০)^সময় − মূলধন",
       "shortcut": "প্রথমে (১ + হার/১০০) এর সময়-ঘাত বের করে মূলধন দিয়ে গুণ করুন।",
       "expected": 240,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L2_Q4",
@@ -509,8 +626,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 30,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L2_Q5",
@@ -530,8 +656,17 @@
       "formula": "যৌথ সময় = (প্রথম সময় × দ্বিতীয় সময়) ÷ (সময় দুটির যোগফল)",
       "shortcut": "দুই কর্মীর দিনের সংখ্যা গুণ করে যোগফল দিয়ে ভাগ করুন।",
       "expected": 1.71,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L2_Q6",
@@ -551,8 +686,17 @@
       "formula": "দূরত্ব = বেগ × সময়",
       "shortcut": "সময় ঘণ্টায় আছে কি না নিশ্চিত করে বেগের সঙ্গে গুণ করুন।",
       "expected": 30,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L2_Q7",
@@ -572,8 +716,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 14,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L2_Q8",
@@ -593,8 +746,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 7,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L2_Q9",
@@ -614,8 +776,17 @@
       "formula": "মৌলিক সংখ্যা ১-এর বড় এবং ১ ও নিজে ছাড়া অন্য কোনো ধনাত্মক গুণনীয়ক নেই",
       "shortcut": "√n পর্যন্ত সম্ভাব্য মৌলিক ভাজক দিয়ে পরীক্ষা করলেই যথেষ্ট।",
       "expected": 29,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L2_Q10",
@@ -635,8 +806,17 @@
       "formula": "আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ",
       "shortcut": "দৈর্ঘ্য ও প্রস্থ গুণ করুন; একক হবে বর্গ একক।",
       "expected": 45,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L3_Q1",
@@ -656,8 +836,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 112,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L3_Q2",
@@ -677,8 +866,17 @@
       "formula": "সরল সুদ = মূলধন × হার × সময় ÷ ১০০",
       "shortcut": "প্রথমে ১ বছরের সুদ বের করে বছরের সংখ্যা দিয়ে গুণ করুন।",
       "expected": 300,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L3_Q3",
@@ -698,8 +896,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 42,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L3_Q4",
@@ -719,8 +926,17 @@
       "formula": "যৌথ সময় = ১ ÷ (১/সময়₁ + ১/সময়₂ + ১/সময়₃)",
       "shortcut": "প্রত্যেকের এক দিনের কাজ যোগ করে ১ দিয়ে ভাগ করুন।",
       "expected": 1.69,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L3_Q5",
@@ -740,8 +956,17 @@
       "formula": "উজানের বেগ = নৌকার বেগ − স্রোতের বেগ; দূরত্ব = বেগ × সময়",
       "shortcut": "উজানে বেগ বিয়োগ, ভাটিতে বেগ যোগ; এরপর সময় দিয়ে গুণ।",
       "expected": 20,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L3_Q6",
@@ -761,8 +986,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 16,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L3_Q7",
@@ -782,8 +1016,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 9,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L3_Q8",
@@ -803,8 +1046,17 @@
       "formula": "গ.সা.গু = উভয় সংখ্যাকে নিঃশেষে বিভাজ্য সর্বোচ্চ সংখ্যা",
       "shortcut": "বড় সংখ্যাকে ছোট সংখ্যা দিয়ে ভাগ করে ভাগশেষের সাহায্যে পুনরাবৃত্তি করুন।",
       "expected": 3,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L3_Q9",
@@ -824,8 +1076,17 @@
       "formula": "ঘনকের আয়তন = বাহু³",
       "shortcut": "বাহুর মান তিনবার গুণ করুন।",
       "expected": 343,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L3_Q10",
@@ -845,8 +1106,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 32,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L4_Q1",
@@ -866,8 +1136,17 @@
       "formula": "চক্রবৃদ্ধি সুদ = মূলধন × (১ + হার/১০০)^সময় − মূলধন",
       "shortcut": "প্রথমে (১ + হার/১০০) এর সময়-ঘাত বের করে মূলধন দিয়ে গুণ করুন।",
       "expected": 360,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L4_Q2",
@@ -887,8 +1166,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 56,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L4_Q3",
@@ -908,8 +1196,17 @@
       "formula": "যৌথ সময় = (প্রথম সময় × দ্বিতীয় সময়) ÷ (সময় দুটির যোগফল)",
       "shortcut": "দুই কর্মীর দিনের সংখ্যা গুণ করে যোগফল দিয়ে ভাগ করুন।",
       "expected": 2.73,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L4_Q4",
@@ -929,8 +1226,17 @@
       "formula": "সময় = (ট্রেনের দৈর্ঘ্য + প্ল্যাটফর্মের দৈর্ঘ্য) ÷ বেগ",
       "shortcut": "প্ল্যাটফর্ম পার হতে ট্রেন ও প্ল্যাটফর্ম—দুই দৈর্ঘ্য যোগ করুন।",
       "expected": 14.17,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L4_Q5",
@@ -950,8 +1256,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 18,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L4_Q6",
@@ -971,8 +1286,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 11,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L4_Q7",
@@ -992,8 +1316,17 @@
       "formula": "ল.সা.গু = সংখ্যা দুটির গুণফল ÷ গ.সা.গু",
       "shortcut": "প্রথমে গ.সা.গু বের করে সংখ্যা দুটির গুণফলকে তা দিয়ে ভাগ করুন।",
       "expected": 208,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L4_Q8",
@@ -1013,8 +1346,17 @@
       "formula": "ত্রিভুজের ক্ষেত্রফল = ১/২ × ভূমি × উচ্চতা",
       "shortcut": "ভূমি ও উচ্চতা গুণ করে অর্ধেক নিন।",
       "expected": 72,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L4_Q9",
@@ -1034,8 +1376,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 45,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L4_Q10",
@@ -1055,8 +1406,17 @@
       "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
       "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
       "expected": 33.6,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L5_Q1",
@@ -1076,8 +1436,17 @@
       "formula": "প্রয়োজনীয় মূল্য = এককের মূল্য × পরিমাণ",
       "shortcut": "একটির দাম বের করে সরাসরি প্রয়োজনীয় সংখ্যায় গুণ করুন।",
       "expected": 72,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L5_Q2",
@@ -1097,8 +1466,17 @@
       "formula": "যৌথ সময় = (প্রথম সময় × দ্বিতীয় সময়) ÷ (সময় দুটির যোগফল)",
       "shortcut": "দুই কর্মীর দিনের সংখ্যা গুণ করে যোগফল দিয়ে ভাগ করুন।",
       "expected": 3.23,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L5_Q3",
@@ -1118,8 +1496,17 @@
       "formula": "দূরত্ব = বেগ × সময়",
       "shortcut": "সময় ঘণ্টায় আছে কি না নিশ্চিত করে বেগের সঙ্গে গুণ করুন।",
       "expected": 45,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L5_Q4",
@@ -1139,8 +1526,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 20,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L5_Q5",
@@ -1160,8 +1556,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 13,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L5_Q6",
@@ -1181,8 +1586,17 @@
       "formula": "মৌলিক সংখ্যা ১-এর বড় এবং ১ ও নিজে ছাড়া অন্য কোনো ধনাত্মক গুণনীয়ক নেই",
       "shortcut": "√n পর্যন্ত সম্ভাব্য মৌলিক ভাজক দিয়ে পরীক্ষা করলেই যথেষ্ট।",
       "expected": 37,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L5_Q7",
@@ -1202,8 +1616,17 @@
       "formula": "আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ",
       "shortcut": "দৈর্ঘ্য ও প্রস্থ গুণ করুন; একক হবে বর্গ একক।",
       "expected": 120,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L5_Q8",
@@ -1223,8 +1646,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 60,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L5_Q9",
@@ -1244,8 +1676,17 @@
       "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
       "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
       "expected": 36,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L5_Q10",
@@ -1265,8 +1706,17 @@
       "formula": "বৃত্তের পরিধি = ২πr",
       "shortcut": "ব্যাসার্ধকে ৪৪/৭ দিয়ে গুণ করুন।",
       "expected": 106.86,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L6_Q1",
@@ -1286,8 +1736,17 @@
       "formula": "যৌথ সময় = ১ ÷ (১/সময়₁ + ১/সময়₂ + ১/সময়₃)",
       "shortcut": "প্রত্যেকের এক দিনের কাজ যোগ করে ১ দিয়ে ভাগ করুন।",
       "expected": 2.72,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L6_Q2",
@@ -1307,8 +1766,17 @@
       "formula": "উজানের বেগ = নৌকার বেগ − স্রোতের বেগ; দূরত্ব = বেগ × সময়",
       "shortcut": "উজানে বেগ বিয়োগ, ভাটিতে বেগ যোগ; এরপর সময় দিয়ে গুণ।",
       "expected": 28,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L6_Q3",
@@ -1328,8 +1796,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 22,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L6_Q4",
@@ -1349,8 +1826,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 15,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L6_Q5",
@@ -1370,8 +1856,17 @@
       "formula": "গ.সা.গু = উভয় সংখ্যাকে নিঃশেষে বিভাজ্য সর্বোচ্চ সংখ্যা",
       "shortcut": "বড় সংখ্যাকে ছোট সংখ্যা দিয়ে ভাগ করে ভাগশেষের সাহায্যে পুনরাবৃত্তি করুন।",
       "expected": 6,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L6_Q6",
@@ -1391,8 +1886,17 @@
       "formula": "ঘনকের আয়তন = বাহু³",
       "shortcut": "বাহুর মান তিনবার গুণ করুন।",
       "expected": 1000,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L6_Q7",
@@ -1412,8 +1916,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 77,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L6_Q8",
@@ -1433,8 +1946,17 @@
       "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
       "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
       "expected": 38.4,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L6_Q9",
@@ -1454,8 +1976,17 @@
       "formula": "বৃত্তের পরিধি = ২πr",
       "shortcut": "ব্যাসার্ধকে ৪৪/৭ দিয়ে গুণ করুন।",
       "expected": 119.43,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L6_Q10",
@@ -1475,8 +2006,17 @@
       "formula": "ছাড়ের পর মূল্য = চিহ্নিত মূল্য × (১০০ − ছাড়ের হার) ÷ ১০০",
       "shortcut": "চিহ্নিত মূল্য থেকে ছাড়ের শতাংশ বাদ দিয়ে অবশিষ্ট শতাংশের মূল্য বের করুন।",
       "expected": 1045,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L7_Q1",
@@ -1496,8 +2036,17 @@
       "formula": "সময় = (ট্রেনের দৈর্ঘ্য + প্ল্যাটফর্মের দৈর্ঘ্য) ÷ বেগ",
       "shortcut": "প্ল্যাটফর্ম পার হতে ট্রেন ও প্ল্যাটফর্ম—দুই দৈর্ঘ্য যোগ করুন।",
       "expected": 13.7,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L7_Q2",
@@ -1517,8 +2066,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 24,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L7_Q3",
@@ -1538,8 +2096,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 17,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L7_Q4",
@@ -1559,8 +2126,17 @@
       "formula": "ল.সা.গু = সংখ্যা দুটির গুণফল ÷ গ.সা.গু",
       "shortcut": "প্রথমে গ.সা.গু বের করে সংখ্যা দুটির গুণফলকে তা দিয়ে ভাগ করুন।",
       "expected": 608,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L7_Q5",
@@ -1580,8 +2156,17 @@
       "formula": "ত্রিভুজের ক্ষেত্রফল = ১/২ × ভূমি × উচ্চতা",
       "shortcut": "ভূমি ও উচ্চতা গুণ করে অর্ধেক নিন।",
       "expected": 132,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L7_Q6",
@@ -1601,8 +2186,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 96,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L7_Q7",
@@ -1622,8 +2216,17 @@
       "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
       "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
       "expected": 40.8,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L7_Q8",
@@ -1643,8 +2246,17 @@
       "formula": "বৃত্তের পরিধি = ২πr",
       "shortcut": "ব্যাসার্ধকে ৪৪/৭ দিয়ে গুণ করুন।",
       "expected": 132,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L7_Q9",
@@ -1664,8 +2276,17 @@
       "formula": "ছাড়ের পর মূল্য = চিহ্নিত মূল্য × (১০০ − ছাড়ের হার) ÷ ১০০",
       "shortcut": "চিহ্নিত মূল্য থেকে ছাড়ের শতাংশ বাদ দিয়ে অবশিষ্ট শতাংশের মূল্য বের করুন।",
       "expected": 1080,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L7_Q10",
@@ -1685,8 +2306,17 @@
       "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
       "shortcut": "হারকে ভগ্নাংশে লিখে মূল সংখ্যার সঙ্গে গুণ করুন।",
       "expected": 72,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L8_Q1",
@@ -1706,8 +2336,17 @@
       "formula": "সন্তানের বয়স = মোট বয়স ÷ (গুণিতক + ১)",
       "shortcut": "মোট বয়সকে অনুপাতের মোট অংশ দিয়ে ভাগ করুন।",
       "expected": 26,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L8_Q2",
@@ -1727,8 +2366,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 19,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L8_Q3",
@@ -1748,8 +2396,17 @@
       "formula": "মৌলিক সংখ্যা ১-এর বড় এবং ১ ও নিজে ছাড়া অন্য কোনো ধনাত্মক গুণনীয়ক নেই",
       "shortcut": "√n পর্যন্ত সম্ভাব্য মৌলিক ভাজক দিয়ে পরীক্ষা করলেই যথেষ্ট।",
       "expected": 47,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L8_Q4",
@@ -1769,8 +2426,17 @@
       "formula": "আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ",
       "shortcut": "দৈর্ঘ্য ও প্রস্থ গুণ করুন; একক হবে বর্গ একক।",
       "expected": 231,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L8_Q5",
@@ -1790,8 +2456,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 117,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L8_Q6",
@@ -1811,8 +2486,17 @@
       "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
       "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
       "expected": 43.2,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L8_Q7",
@@ -1832,8 +2516,17 @@
       "formula": "বৃত্তের পরিধি = ২πr",
       "shortcut": "ব্যাসার্ধকে ৪৪/৭ দিয়ে গুণ করুন।",
       "expected": 144.57,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L8_Q8",
@@ -1853,8 +2546,17 @@
       "formula": "ছাড়ের পর মূল্য = চিহ্নিত মূল্য × (১০০ − ছাড়ের হার) ÷ ১০০",
       "shortcut": "চিহ্নিত মূল্য থেকে ছাড়ের শতাংশ বাদ দিয়ে অবশিষ্ট শতাংশের মূল্য বের করুন।",
       "expected": 1105,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L8_Q9",
@@ -1874,8 +2576,17 @@
       "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
       "shortcut": "হারকে ভগ্নাংশে লিখে মূল সংখ্যার সঙ্গে গুণ করুন।",
       "expected": 90,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L8_Q10",
@@ -1895,8 +2606,17 @@
       "formula": "বিক্রয়মূল্য = ক্রয়মূল্য × (১০০ − ক্ষতির হার) ÷ ১০০",
       "shortcut": "ক্ষতির ক্ষেত্রে ১০০% থেকে ক্ষতির হার বাদ দিয়ে গুণ করুন।",
       "expected": 913,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L9_Q1",
@@ -1916,8 +2636,17 @@
       "formula": "ax+b=c হলে x=(c−b)÷a",
       "shortcut": "ধ্রুবক পদ অন্য পাশে নিয়ে সহগ দিয়ে ভাগ করুন।",
       "expected": 21,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L9_Q2",
@@ -1937,8 +2666,17 @@
       "formula": "গ.সা.গু = উভয় সংখ্যাকে নিঃশেষে বিভাজ্য সর্বোচ্চ সংখ্যা",
       "shortcut": "বড় সংখ্যাকে ছোট সংখ্যা দিয়ে ভাগ করে ভাগশেষের সাহায্যে পুনরাবৃত্তি করুন।",
       "expected": 3,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L9_Q3",
@@ -1958,8 +2696,17 @@
       "formula": "ঘনকের আয়তন = বাহু³",
       "shortcut": "বাহুর মান তিনবার গুণ করুন।",
       "expected": 2197,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L9_Q4",
@@ -1979,8 +2726,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 140,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L9_Q5",
@@ -2000,8 +2756,17 @@
       "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
       "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
       "expected": 45.6,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L9_Q6",
@@ -2021,8 +2786,17 @@
       "formula": "বৃত্তের পরিধি = ২πr",
       "shortcut": "ব্যাসার্ধকে ৪৪/৭ দিয়ে গুণ করুন।",
       "expected": 157.14,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L9_Q7",
@@ -2042,8 +2816,17 @@
       "formula": "ছাড়ের পর মূল্য = চিহ্নিত মূল্য × (১০০ − ছাড়ের হার) ÷ ১০০",
       "shortcut": "চিহ্নিত মূল্য থেকে ছাড়ের শতাংশ বাদ দিয়ে অবশিষ্ট শতাংশের মূল্য বের করুন।",
       "expected": 1120,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L9_Q8",
@@ -2063,8 +2846,17 @@
       "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
       "shortcut": "১০% বের করে প্রয়োজনীয় গুণিতক নিন।",
       "expected": 110,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L9_Q9",
@@ -2084,8 +2876,17 @@
       "formula": "বিক্রয়মূল্য = ক্রয়মূল্য × (১০০ + লাভের হার) ÷ ১০০",
       "shortcut": "১০০% ক্রয়মূল্যের সঙ্গে লাভের হার যোগ করে গুণ করুন।",
       "expected": 1392,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L9_Q10",
@@ -2105,8 +2906,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 276,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L10_Q1",
@@ -2126,8 +2936,17 @@
       "formula": "ল.সা.গু = সংখ্যা দুটির গুণফল ÷ গ.সা.গু",
       "shortcut": "প্রথমে গ.সা.গু বের করে সংখ্যা দুটির গুণফলকে তা দিয়ে ভাগ করুন।",
       "expected": 418,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L10_Q2",
@@ -2147,8 +2966,17 @@
       "formula": "ত্রিভুজের ক্ষেত্রফল = ১/২ × ভূমি × উচ্চতা",
       "shortcut": "ভূমি ও উচ্চতা গুণ করে অর্ধেক নিন।",
       "expected": 210,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L10_Q3",
@@ -2168,8 +2996,17 @@
       "formula": "n-তম পদ = প্রথম পদ + (n−১) × সাধারণ অন্তর",
       "shortcut": "শেষ পদ বের করতে প্রথম পদের সঙ্গে অন্তরের (n−১) গুণ যোগ করুন।",
       "expected": 165,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L10_Q4",
@@ -2189,8 +3026,17 @@
       "formula": "মিশ্রণের গড় ঘনত্ব = (পরিমাণ₁×ঘনত্ব₁ + পরিমাণ₂×ঘনত্ব₂) ÷ মোট পরিমাণ",
       "shortcut": "প্রতিটি পরিমাণকে তার ঘনত্ব দিয়ে গুণ করে মোট পরিমাণ দিয়ে ভাগ করুন।",
       "expected": 48,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L10_Q5",
@@ -2210,8 +3056,17 @@
       "formula": "বৃত্তের পরিধি = ২πr",
       "shortcut": "ব্যাসার্ধকে ৪৪/৭ দিয়ে গুণ করুন।",
       "expected": 169.71,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L10_Q6",
@@ -2231,8 +3086,17 @@
       "formula": "ছাড়ের পর মূল্য = চিহ্নিত মূল্য × (১০০ − ছাড়ের হার) ÷ ১০০",
       "shortcut": "চিহ্নিত মূল্য থেকে ছাড়ের শতাংশ বাদ দিয়ে অবশিষ্ট শতাংশের মূল্য বের করুন।",
       "expected": 1125,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L10_Q7",
@@ -2252,8 +3116,17 @@
       "formula": "শতকরা পরিমাণ = মূল সংখ্যা × হার ÷ ১০০",
       "shortcut": "হারকে ভগ্নাংশে লিখে মূল সংখ্যার সঙ্গে গুণ করুন।",
       "expected": 132,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "EXCLUDE_CANDIDATE",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "FAIL — elementary one-step arithmetic, not adequate job-exam preparation value",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "অত্যন্ত প্রাথমিক একধাপের হিসাব; বাদ দেওয়ার প্রার্থী হিসেবে চিহ্নিত, এখনো মুছে ফেলা হয়নি।"
     },
     {
       "id": "math_L10_Q8",
@@ -2273,8 +3146,17 @@
       "formula": "বিক্রয়মূল্য = ক্রয়মূল্য × (১০০ − ক্ষতির হার) ÷ ১০০",
       "shortcut": "ক্ষতির ক্ষেত্রে ১০০% থেকে ক্ষতির হার বাদ দিয়ে গুণ করুন।",
       "expected": 1105,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L10_Q9",
@@ -2294,8 +3176,17 @@
       "formula": "বড় সংখ্যা = যোগফল × বড় অনুপাত ÷ অনুপাতের যোগফল",
       "shortcut": "মোট অংশ দিয়ে যোগফল ভাগ করে বড় অংশ দিয়ে গুণ করুন।",
       "expected": 325,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L10_Q10",
@@ -2315,8 +3206,17 @@
       "formula": "মোট যোগফল = গড় × পদসংখ্যা",
       "shortcut": "গড়কে সংখ্যার পরিমাণ দিয়ে গুণ করলেই যোগফল।",
       "expected": 270,
-      "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
-      "exclusionStatus": "NOT_EXCLUDED"
+      "reviewStatus": "PROVISIONAL_RETAIN",
+      "exclusionStatus": "NOT_EXCLUDED",
+      "auditGroup": "BATCHES_01_10",
+      "auditChecks": {
+        "calculationAndKey": "PASS",
+        "explanationConsistency": "PASS",
+        "fourDistinctOptions": "PASS",
+        "difficultyFit": "PROVISIONAL — retain pending comparative difficulty review",
+        "exactDuplicate": "NONE"
+      },
+      "reviewNote": "প্রশ্ন, চার অপশন, keyed answer ও ব্যাখ্যার হিসাব সঠিক; পরবর্তী ব্যাচের সঙ্গে difficulty progression ও option quality তুলনা বাকি।"
     },
     {
       "id": "math_L11_Q1",
@@ -6517,6 +7417,202 @@
       "expected": 190,
       "reviewStatus": "PENDING_SUBSTANTIVE_AUDIT",
       "exclusionStatus": "NOT_EXCLUDED"
+    }
+  ],
+  "auditProgress": {
+    "status": "BATCHES_01_10_REVIEWED_PENDING_GROUP_COMPARISON",
+    "completedBatches": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "checkpointAfterBatch5": {
+      "status": "TEMPORARY_CHECKPOINT_RECORDED",
+      "questionsReviewed": 50,
+      "exclusionCandidates": 6
+    },
+    "checkpointAfterBatch10": {
+      "status": "TEMPORARY_CHECKPOINT_RECORDED",
+      "questionsReviewed": 100,
+      "exclusionCandidates": 11
+    },
+    "reviewSummary": {
+      "questionsReviewed": 100,
+      "calculationOrAnswerMismatches": 0,
+      "explanationMismatches": 0,
+      "malformedOrInvalidOptionSets": 0,
+      "exactDuplicateGroups": 0,
+      "provisionalRetain": 89,
+      "exclusionCandidates": 11,
+      "permanentDeletions": 0,
+      "systemicIssue": "Distractors are mechanically generated around the correct answer (roughly ±10%/±20%), rather than common exam-mistake distractors; option quality requires redesign before final lock."
+    },
+    "batchSummaries": [
+      {
+        "batch": 1,
+        "range": "math_L1_Q1–math_L1_Q10",
+        "count": 10,
+        "calculationAnswerExplanation": "PASS — all 10 independently checked against the stated formula and worked solution",
+        "optionStructure": "PASS — four distinct options; answer index valid",
+        "exactDuplicates": "0 within batch; 0 against earlier baseline records in this 100-question window",
+        "difficultyFit": "Review basic single-step item(s) listed in exclusion ledger; remaining items provisionally retain"
+      },
+      {
+        "batch": 2,
+        "range": "math_L2_Q1–math_L2_Q10",
+        "count": 10,
+        "calculationAnswerExplanation": "PASS — all 10 independently checked against the stated formula and worked solution",
+        "optionStructure": "PASS — four distinct options; answer index valid",
+        "exactDuplicates": "0 within batch; 0 against earlier baseline records in this 100-question window",
+        "difficultyFit": "Review basic single-step item(s) listed in exclusion ledger; remaining items provisionally retain"
+      },
+      {
+        "batch": 3,
+        "range": "math_L3_Q1–math_L3_Q10",
+        "count": 10,
+        "calculationAnswerExplanation": "PASS — all 10 independently checked against the stated formula and worked solution",
+        "optionStructure": "PASS — four distinct options; answer index valid",
+        "exactDuplicates": "0 within batch; 0 against earlier baseline records in this 100-question window",
+        "difficultyFit": "Review basic single-step item(s) listed in exclusion ledger; remaining items provisionally retain"
+      },
+      {
+        "batch": 4,
+        "range": "math_L4_Q1–math_L4_Q10",
+        "count": 10,
+        "calculationAnswerExplanation": "PASS — all 10 independently checked against the stated formula and worked solution",
+        "optionStructure": "PASS — four distinct options; answer index valid",
+        "exactDuplicates": "0 within batch; 0 against earlier baseline records in this 100-question window",
+        "difficultyFit": "Review basic single-step item(s) listed in exclusion ledger; remaining items provisionally retain"
+      },
+      {
+        "batch": 5,
+        "range": "math_L5_Q1–math_L5_Q10",
+        "count": 10,
+        "calculationAnswerExplanation": "PASS — all 10 independently checked against the stated formula and worked solution",
+        "optionStructure": "PASS — four distinct options; answer index valid",
+        "exactDuplicates": "0 within batch; 0 against earlier baseline records in this 100-question window",
+        "difficultyFit": "Review basic single-step item(s) listed in exclusion ledger; remaining items provisionally retain"
+      },
+      {
+        "batch": 6,
+        "range": "math_L6_Q1–math_L6_Q10",
+        "count": 10,
+        "calculationAnswerExplanation": "PASS — all 10 independently checked against the stated formula and worked solution",
+        "optionStructure": "PASS — four distinct options; answer index valid",
+        "exactDuplicates": "0 within batch; 0 against earlier baseline records in this 100-question window",
+        "difficultyFit": "Review basic single-step item(s) listed in exclusion ledger; remaining items provisionally retain"
+      },
+      {
+        "batch": 7,
+        "range": "math_L7_Q1–math_L7_Q10",
+        "count": 10,
+        "calculationAnswerExplanation": "PASS — all 10 independently checked against the stated formula and worked solution",
+        "optionStructure": "PASS — four distinct options; answer index valid",
+        "exactDuplicates": "0 within batch; 0 against earlier baseline records in this 100-question window",
+        "difficultyFit": "Review basic single-step item(s) listed in exclusion ledger; remaining items provisionally retain"
+      },
+      {
+        "batch": 8,
+        "range": "math_L8_Q1–math_L8_Q10",
+        "count": 10,
+        "calculationAnswerExplanation": "PASS — all 10 independently checked against the stated formula and worked solution",
+        "optionStructure": "PASS — four distinct options; answer index valid",
+        "exactDuplicates": "0 within batch; 0 against earlier baseline records in this 100-question window",
+        "difficultyFit": "Review basic single-step item(s) listed in exclusion ledger; remaining items provisionally retain"
+      },
+      {
+        "batch": 9,
+        "range": "math_L9_Q1–math_L9_Q10",
+        "count": 10,
+        "calculationAnswerExplanation": "PASS — all 10 independently checked against the stated formula and worked solution",
+        "optionStructure": "PASS — four distinct options; answer index valid",
+        "exactDuplicates": "0 within batch; 0 against earlier baseline records in this 100-question window",
+        "difficultyFit": "Review basic single-step item(s) listed in exclusion ledger; remaining items provisionally retain"
+      },
+      {
+        "batch": 10,
+        "range": "math_L10_Q1–math_L10_Q10",
+        "count": 10,
+        "calculationAnswerExplanation": "PASS — all 10 independently checked against the stated formula and worked solution",
+        "optionStructure": "PASS — four distinct options; answer index valid",
+        "exactDuplicates": "0 within batch; 0 against earlier baseline records in this 100-question window",
+        "difficultyFit": "Review basic single-step item(s) listed in exclusion ledger; remaining items provisionally retain"
+      }
+    ]
+  },
+  "exclusionLedger": [
+    {
+      "id": "math_L1_Q5",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+    },
+    {
+      "id": "math_L2_Q4",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+    },
+    {
+      "id": "math_L2_Q6",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+    },
+    {
+      "id": "math_L3_Q3",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+    },
+    {
+      "id": "math_L4_Q2",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+    },
+    {
+      "id": "math_L5_Q1",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+    },
+    {
+      "id": "math_L5_Q3",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+    },
+    {
+      "id": "math_L7_Q10",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+    },
+    {
+      "id": "math_L8_Q9",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+    },
+    {
+      "id": "math_L9_Q8",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
+    },
+    {
+      "id": "math_L10_Q7",
+      "reason": "অত্যন্ত প্রাথমিক একধাপের গুণ/শতকরা/দূরত্ব হিসাব; চাকরির পরীক্ষার প্রস্তুতির মানে দুর্বল।",
+      "status": "EXCLUDE_CANDIDATE_NOT_DELETED",
+      "action": "পরবর্তী consolidated comparison-এর পরে উন্নত কঠিন প্রশ্ন দিয়ে প্রতিস্থাপন/বাদ দেওয়ার সিদ্ধান্ত"
     }
   ]
 }
