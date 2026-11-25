@@ -126,7 +126,7 @@ Q('English','Choose the correctly spelt word.',['Necesary','Necessary','Neccessa
 Q('English','“Look after” means—',['Take care of','Search for','Look at','Avoid'],0,'The phrasal verb “look after” means to take care of someone or something.','','','সহজ'),
 Q('English','The phrase “at present” means—',['In the past','In future','Now','Rarely'],2,'“At present” means at this time or now.','','','সহজ'),
 Q('English','Neither of the answers ___ correct.',['are','is','were','have'],1,'“Neither” is treated as singular in this construction, so use “is”.','','','মাঝারি'),
-Q('English','A number of students ___ absent today.',['were','was','is','has'],0,'“A number of” takes a plural verb: were.','','','মাঝারি'),
+Q('English','A number of students ___ absent yesterday.',['were','was','is','has'],0,'“Yesterday” sets the sentence in the past, and “a number of” takes a plural verb: were.','','','মাঝারি'),
 Q('English','The number of applicants ___ increasing.',['are','were','is','have'],2,'“The number of” takes a singular verb: is.','','','মাঝারি'),
 Q('English','She is interested ___ music.',['in','at','on','for'],0,'The correct collocation is “interested in”.','','','মাঝারি'),
 Q('English','He insisted ___ paying the bill.',['at','on','for','to'],1,'The verb “insist” is followed by the preposition “on”.','','','মাঝারি'),
