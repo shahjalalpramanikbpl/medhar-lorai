@@ -54,3 +54,16 @@ window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
 {id:"extra_1900",c:"English",q:"The school ___ addressed the assembly.",o:["principal","principle","principel","principall"],a:0,e:"“Principal” can mean the head of a school; “principle” means a rule or belief.",source:"Confusing words",sourceUrl:"",d:"সহজ"},
 {id:"extra_1901",c:"English",q:"Which idiom means “to accept the consequences of one’s actions”?",o:["Face the music","Hit the sack","Burn the midnight oil","Turn a blind eye"],a:0,e:"“Face the music” means to accept and deal with unpleasant consequences.",source:"Idioms",sourceUrl:"",d:"মাঝারি"}
 ]);
+
+;
+// Merge this batch into the live bank using the app's canonical duplicate key.
+(()=>{'use strict';
+ const bank=window.JOB_PREP_BANK||(window.JOB_PREP_BANK=[]);
+ const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
+ const seen=new Set(bank.map(q=>norm(q.c)+'|'+(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q,q.c):norm(q.q))));
+ for(const q of window.EXTRA_JOB_QUESTIONS||[]){
+  const k=norm(q.c)+'|'+(window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q,q.c):norm(q.q));
+  if(!seen.has(k)){bank.push(q);seen.add(k);}
+ }
+ window.JOB_PREP_BANK=bank;
+})();
