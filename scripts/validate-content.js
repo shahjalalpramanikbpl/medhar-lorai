@@ -63,6 +63,11 @@ for (const file of expansionFiles) {
   vm.runInNewContext(fs.readFileSync(path.join(assetDir, file), "utf8"), sandbox, { filename: file });
 }
 const math = sandbox.window.ML_MATH_BANK || [];
+const mathAuditMaster = JSON.parse(fs.readFileSync("MATH_AUDIT_MASTER_BASELINE_300.json", "utf8"));
+const mathReplacementIds = new Set(mathAuditMaster.replacementReview?.replacements || []);
+const mathMasterById = new Map((mathAuditMaster.questions || []).map(q => [q.id, q]));
+if (mathAuditMaster.status !== "LOCKED" || mathAuditMaster.questions?.length !== 300 || mathAuditMaster.questions.some(q => q.reviewStatus !== "FINAL_APPROVED")) errors.push("Math audit master is not fully locked/approved.");
+if (mathReplacementIds.size !== 131 || mathAuditMaster.replacementReview?.remainingReversibleCandidates !== 0) errors.push("Math replacement ledger is incomplete.");
 const levels = sandbox.window.ML_MATH_LEVELS || [];
 const subjectBank = sandbox.window.JOB_PREP_BANK || [];
 const exams = sandbox.window.JOB_PREP_EXAMS || [];
@@ -99,7 +104,7 @@ for (let i = 0; i < math.length; i++) {
   const x = math[i];
   if (!x.id || !x.q || !Array.isArray(x.o) || x.o.length !== 4 || !Number.isInteger(x.a) || x.a < 0 || x.a > 3 || !x.e || !x.formula || !x.shortcut || !x.topic || !x.level) errors.push("Math question #" + (i+1) + ": missing answer, solution, formula, shortcut, topic or level.");
   if (x.o && x.o.length === 4 && new Set(x.o.map(normalize)).size !== 4) errors.push("Math question #" + (i+1) + ": repeated answer options.");
-  if (x.expected !== undefined) { const answerNumber = Number(String(x.o[x.a]).replace(/[০-৯]/g, d => String("০১২৩৪৫৬৭৮৯".indexOf(d)))); if (answerNumber !== Number(x.expected)) errors.push("Math question #" + (i+1) + ": answer key does not match expected numeric answer."); } else errors.push("Math question #" + (i+1) + ": expected numeric answer is missing.");
+  if (x.expected !== undefined) { const answerNumber = Number(String(x.o[x.a]).replace(/[০-৯]/g, d => String("০১২৩৪৫৬৭৮৯".indexOf(d))).replace(/[,٬\s]/g, "")); if (answerNumber !== Number(x.expected)) errors.push("Math question #" + (i+1) + ": answer key does not match expected numeric answer."); } else errors.push("Math question #" + (i+1) + ": expected numeric answer is missing.");
 }
 // Independently recompute every generated math answer from its question wording.
 const toAscii = s => String(s).replace(/[০-৯]/g, d => String("০১২৩৪৫৬৭৮৯".indexOf(d)));
@@ -107,6 +112,13 @@ const getNums = s => (toAscii(s).match(/\d+(?:\.\d+)?/g) || []).map(Number);
 const gcdAudit = (a,b) => b ? gcdAudit(b,a%b) : a;
 const isPrimeAudit = n => { if (n < 2) return false; for (let d=2; d*d<=n; d++) if (n%d===0) return false; return true; };
 for (const x of math) {
+  const lockedReplacement = mathReplacementIds.has(x.id) ? mathMasterById.get(x.id) : null;
+  if (lockedReplacement) {
+    const matchesMaster = x.q === lockedReplacement.q && JSON.stringify(x.o) === JSON.stringify(lockedReplacement.o) && x.a === lockedReplacement.a && Number(x.expected) === Number(lockedReplacement.expected) && x.e === lockedReplacement.e;
+    if (!matchesMaster) errors.push("Math " + x.id + ": runtime differs from the individually audited locked master.");
+    if (lockedReplacement.reviewStatus !== "FINAL_APPROVED" || lockedReplacement.finalApproval?.calculationAndKey?.startsWith("PASS") !== true) errors.push("Math " + x.id + ": replacement lacks final approval evidence.");
+    continue;
+  }
   const s=x.q, n=getNums(s); let expected=null;
   switch (x.topic) {
     case "শতকরা": if(n.length>=2) expected=n[0]*n[1]/100; break;
