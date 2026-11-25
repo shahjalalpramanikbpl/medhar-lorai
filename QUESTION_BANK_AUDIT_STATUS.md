@@ -218,3 +218,13 @@
 - **উৎস-মেটাডেটা স্বচ্ছতা:** ১১০টির প্রতিটিতে source label আছে; তবে **৪১টিতে সরাসরি sourceUrl ফাঁকা**। এগুলোকে URL-সহ যাচাইকৃত বলে দাবি করা হচ্ছে না। এই সীমাবদ্ধতা নথিভুক্ত; নতুন উৎস-লিংক যোগ বা তথ্য পরিবর্তন করতে হলে পৃথক অনুমোদিত update ও পুনঃযাচাই লাগবে।
 - **GitHub প্রমাণ:** মাস্টার ফাইল blob SHA `b76c8c49ca81675d371ff61dcc06973f86669fe8`; Batch ৫৬ closure commit `2e299e4b0f9cebcc45db8fb852b1855034b86826`; সংশ্লিষ্ট GitHub Actions run `45651912033` — **completed / success**।
 - **সিদ্ধান্ত:** বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান বিষয়ের **বর্তমানে উপলব্ধ Expansion Batch ১–৫৬ audit — LOCKED**। বিদ্যমান মাস্টার/প্রশ্ন অপরিবর্তিত থাকবে; কোনো নতুন batch বা সংশোধন এলে এই locked master-এর সঙ্গে তুলনা করে আলাদা audit হবে। এই LOCKED ঘোষণা Expansion master-এর জন্য; এটি মূল `job-prep-suite.js`-এর সব GK প্রশ্নের পূর্ণ runtime factual audit হয়েছে—এমন দাবি নয়।
+
+
+## সাধারণ বিজ্ঞান — Expansion Batch ১–৫৬ ও baseline সমন্বিত চূড়ান্ত LOCK (২৫ নভেম্বর ২০২৬)
+- মূল baseline: ১৩০টি; পাঁচটি audit group-এ ১৩০/১৩০ content-audited।
+- Expansion candidate: ১১৯টি; exact duplicate copy বাদ: ১৭টি; স্বতন্ত্র expansion retained: ১০২টি।
+- চূড়ান্ত master `SCIENCE_AUDIT_MASTER_01_56.json`: ২৩২টি (১৩০ baseline + ১০২ expansion)। Batch ৫৬-এ সাধারণ বিজ্ঞানের candidate ০; repository-তে batch ৫৭–৬০ নেই।
+- সীমিত final correction: batch ৩৯-এর `extra_1346`-কে `suite_45`-এর exact duplicate হিসেবে বাদ দেওয়া হয়েছে। NFKC compatibility normalization-এ `B₁` ও `B1` সমতুল্য; প্রশ্ন, সম্পূর্ণ option set ও keyed answer একই। Source expansion file থেকেও কপিটি সরানো হয়েছে।
+- Final reconciliation: missing/empty options ০; malformed option count ০; duplicate option ০; invalid answer index ০; missing explanation ০; missing source URL ০; integrated exact duplicate signature ০।
+- বিস্তারিত: `SCIENCE_AUDIT_BATCH_36_40.md`, `SCIENCE_AUDIT_FINAL_RECONCILIATION.md`, `SCIENCE_AUDIT_BATCH_56_CLOSURE.md`।
+- সিদ্ধান্ত: সাধারণ বিজ্ঞান বিষয়বস্তুর audit **COMPLETE — LOCKED**। এই correction-এ পুরো ২৩২টি প্রশ্ন নতুন করে audit করা হয়নি; আগের verified master-এ একটি Unicode-normalization duplicate বাদ দিয়ে totals/report সমন্বয় করা হয়েছে।
