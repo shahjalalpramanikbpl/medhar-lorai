@@ -454,3 +454,13 @@
 - ব্যাচ ১–৫ (৫০ প্রশ্ন) ও ব্যাচ ৬–১০ (১০০ প্রশ্ন) শেষে অস্থায়ী checkpoint নথিভুক্ত।
 - বিস্তারিত: `MATH_AUDIT_BATCHES_01_10.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`।
 - **অবস্থা: BATCHES 01–10 REVIEWED — PENDING GROUP COMPARISON — NOT LOCKED.**
+
+
+## গণিত — ব্যাচ ১১–২০ অডিট (২৬ নভেম্বর ২০২৬)
+- প্রশ্ন ১০১–২০০ (লেভেল ১১–২০), ১০ ব্যাচ × ১০: ১০০/১০০ প্রশ্নের stem, চার option, keyed answer, formula/calculation, explanation ও difficulty suitability পরীক্ষা।
+- হিসাব/উত্তর/ব্যাখ্যার অমিল ০; malformed/invalid option set ০; batches 1–10-এর সঙ্গে strict exact duplicate 0; batches 11–20-এর ভেতরে exact duplicate 0।
+- 63টি provisional retain; 37টি reversible exclusion candidate; স্থায়ী deletion ০। ১১–২০ গ্রুপে বয়স-প্রশ্নের ২০০–৩০০ বছরের অবাস্তব মোট বয়স, একধাপের শতকরা/গড়/ঐকিক/বেগ ও template repetition flag করা হয়েছে।
+- Distractor generation এখনও সঠিক উত্তরের আশেপাশে percentage-offset নির্ভর; পরীক্ষার্থীর সাধারণ ভুলভিত্তিক option design প্রয়োজন। Level 16–20 band/difficulty metadata-তেও mismatch আছে।
+- Temporary checkpoint: batch ১১–১৫ শেষে মোট ১৫০ reviewed; batch ১৬–২০ শেষে মোট ২০০ reviewed।
+- বিস্তারিত: `MATH_AUDIT_BATCHES_11_20.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`।
+- **অবস্থা: BATCHES 01–20 REVIEWED — PENDING GROUP COMPARISON — NOT LOCKED.**
