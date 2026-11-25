@@ -147,8 +147,8 @@ for (const x of exams) {
 }
 const current = subjectBank.filter(x => x.c === "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান" && /২০২৬/.test(x.q || ""));
 const currentMissing = current.filter(x => {
-  const sourceDate = x.sourceDate || (/^20\\d{2}-\\d{2}-\\d{2}$/.test(x.d || "") ? x.d : "") || (/^20\\d{2}-\\d{2}-\\d{2}$/.test(x.difficulty || "") ? x.difficulty : "");
-  return !x.source || !x.sourceUrl || !/^20\\d{2}-\\d{2}-\\d{2}$/.test(sourceDate);
+  const sourceDate = x.sourceDate || (/^20\d{2}-\d{2}-\d{2}$/.test(x.d || "") ? x.d : "") || (/^20\d{2}-\d{2}-\d{2}$/.test(x.difficulty || "") ? x.difficulty : "");
+  return !x.source || !x.sourceUrl || !/^20\d{2}-\d{2}-\d{2}$/.test(sourceDate);
 });
 if (current.length < 5 || currentMissing.length) { console.error("Current affairs missing metadata:", JSON.stringify(currentMissing.map(x => ({ id: x.id, q: x.q, source: x.source, sourceUrl: x.sourceUrl, sourceDate: x.sourceDate || x.d || x.difficulty })))); errors.push("2026 current-affairs questions need a source URL and valid source date."); }
 if (sandbox.window.JOB_PREP_CURRENT_AFFAIRS_UPDATED !== "2026-11-24") errors.push("Current affairs update date is missing or stale.");
