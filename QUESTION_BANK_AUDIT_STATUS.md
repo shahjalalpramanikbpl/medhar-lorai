@@ -406,3 +406,15 @@
 - পরবর্তী ধাপ: source assets ↔ master reconciliation, app/runtime code review, available tests/CI run এবং বাস্তব ফল যাচাই।
 - বিস্তারিত: `SCIENCE_FINAL_INTEGRATED_RECONCILIATION.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
 - অবস্থা: **REVALIDATION_COMPLETE_PENDING_SOURCE_AND_RUNTIME_INTEGRATION_CHECK_NOT_LOCKED**।
+
+
+## সাধারণ বিজ্ঞান — Baseline source reconciliation ও পূর্ণ সমন্বিত ফল (২৬ নভেম্বর ২০২৬)
+- `job-prep-suite.js`-এ ১৫০টি সাধারণ বিজ্ঞান Q() entry পাওয়া গেছে। আগের master-এর সঙ্গে পূর্ণ exact signature মিলে ১৩৩টি entry আগেই represented ছিল।
+- অতিরিক্ত ১৭টি active entry (১৪টি নতুন stem + ৩টি same-stem/different-option variant) fact-check করে suite_131–suite_147 হিসেবে master-এ যোগ করা হয়েছে। ১৭টি retained; exact duplicate ০।
+- Expansion Batch ১–৫৫-এ ১০২টি science candidate; ১০১টি retained master record এবং একটি documented historical duplicate copy।
+- Expansion source explanation-এর ৭টি mismatch সংশোধন করে master-এর audited explanation-এর সঙ্গে source asset মিলানো হয়েছে (batch ২৭, ৩০, ৩২, ৪০, ৪৬, ৪৭)।
+- নতুন controlling total: Baseline **১৪৭** + Expansion **১০১** = **২৪৮**; full-set exact duplicate **০**, malformed **০**, missing/invalid source URL **০**, invalid answer index **০**।
+- `index.html`-এর script load order এবং batch ৩৩+ merge path পরীক্ষা করা হয়েছে; full-signature `JOB_PREP_QUESTION_KEY` ও ID-based deduplication আছে।
+- Android CI-তে content validation, regression safety এবং release UI smoke-check workflow success হয়েছে। তবে বাস্তব Android device/emulator-এ হাতে smoke test এখনো হয়নি।
+- বিস্তারিত: `SCIENCE_BASELINE_SOURCE_RECONCILIATION_131_147.md`, `SCIENCE_FINAL_INTEGRATED_RECONCILIATION.md`, master: `SCIENCE_AUDIT_MASTER_01_56.json`।
+- **বর্তমান সিদ্ধান্ত: CONTENT REAUDIT COMPLETE — NOT LOCKED.** বাস্তব device/emulator smoke test সফলভাবে সম্পন্ন না হওয়া পর্যন্ত LOCK নয়।
