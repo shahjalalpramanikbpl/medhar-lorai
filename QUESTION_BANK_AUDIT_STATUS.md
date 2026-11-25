@@ -538,3 +538,15 @@
 - Master ও runtime source একই SHA-র content নির্দেশ করে: `cc9bff5b984b6a60085a4d148a6283d7df08953e`।
 - **গণিত এখনো NOT LOCKED**; final pedagogical/content QA, distractor ও difficulty review, integration এবং release validation বাকি। External CI/device test এই কাজে চালানো হয়নি।
 - রিপোর্ট: `MATH_CANDIDATE_REWRITE_REMAINING_79.md`।
+
+## গণিত — চূড়ান্ত নির্বাচন ও LOCK (২৬ নভেম্বর ২০২৬) — সর্বশেষ কর্তৃত্বপূর্ণ অবস্থা
+- **গণিত: ৩০০টি প্রশ্ন / ৩০টি লেভেল — LOCKED।**
+- ১৬৯টি পূর্ববর্তী প্রশ্ন রাখা হয়েছে; ১৩১টি candidate slot-এ নতুন প্রশ্ন বসিয়ে final approved করা হয়েছে।
+- অবশিষ্ট candidate ০; স্থায়ী deletion ০; master-এ FINAL_APPROVED ৩০০/৩০০।
+- চারটি স্বতন্ত্র option, valid answer index এবং keyed answer/expected numeric value: ৩০০/৩০০ PASS।
+- Explanation/calculation consistency: PASS; canonical exact duplicate groups: ০।
+- Runtime source SHA: `50d0694f9d5414a3e5afc9745ca96e850a8d05c2`; master-এর source SHA একই।
+- Level 1–10 সহজ, 11–20 মাঝারি, 21–30 কঠিন হিসেবে qualitative progression নথিভুক্ত; এটি psychometric calibration নয়।
+- চূড়ান্ত রিপোর্ট: `MATH_FINAL_LOCK_REPORT_2026-11-26.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`।
+- **এই নতুন LOCK entry-ই Math-এর সর্বশেষ অবস্থা; উপরের পুরোনো NOT LOCKED checkpoint-গুলো chronology মাত্র, বর্তমান status নয়।**
+- এই subject-content lock overall Android release sign-off নয়। Legacy `ML_CONTENT` threshold, full release validation, APK/AAB build এবং physical device test আলাদা release কাজ।
