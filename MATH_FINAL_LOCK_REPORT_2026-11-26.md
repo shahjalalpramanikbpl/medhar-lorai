@@ -47,3 +47,10 @@
 - CI-এর generic formula check-এ ছয়টি arithmetic progression প্রশ্নে nth-term answer key ভুল ছিল (series sum সঠিক ছিল, কিন্তু চাওয়া হয়েছিল nth term)।
 - `math_L21_Q5`, `math_L23_Q4`, `math_L24_Q10`, `math_L26_Q6`, `math_L28_Q4`, `math_L30_Q3`—সঠিক nth term যথাক্রমে ৪৩, ১০৮, ৫৩, ১১১, ১০৬, ৫০ করে option, key ও explanation সংশোধন করা হয়েছে।
 - Runtime ও master পুনরায় sync করা হয়েছে।
+
+## GitHub Actions — চূড়ান্ত যাচাই
+- Workflow run `45695978106`: **SUCCESS**.
+- `Validate all question and model-test banks`: PASS.
+- `Run legacy data and Firebase safety regression checks`: PASS.
+- `Run release UI and launcher smoke checks`: PASS.
+- Android Gradle build/APK/AAB ধাপ এই commit-এ চালানো হয়নি; এই workflow run ছিল validation/regression/UI smoke run।
