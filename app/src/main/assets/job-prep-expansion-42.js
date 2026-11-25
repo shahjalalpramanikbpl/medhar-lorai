@@ -34,7 +34,7 @@ const additions=[
 ];
 const bank=window.JOB_PREP_BANK||(window.JOB_PREP_BANK=[]);
 const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
-const seen=new Set(bank.map(q=>norm(q.q))),ids=new Set(bank.map(q=>q.id));
-for(const q of additions){if(seen.has(norm(q.q))||ids.has(q.id))continue;bank.push(q);seen.add(norm(q.q));ids.add(q.id);}
+const key=q=>window.JOB_PREP_QUESTION_KEY?window.JOB_PREP_QUESTION_KEY(q,q.c):norm(q.c)+'|'+norm(q.q)+'|'+(q.o||[]).map(norm).sort().join('|')+'|'+norm((q.o||[])[q.a]);const seen=new Set(bank.map(key)),ids=new Set(bank.map(q=>q.id));
+for(const q of additions){if(seen.has(key(q))||ids.has(q.id))continue;bank.push(q);seen.add(key(q));ids.add(q.id);}
 window.JOB_PREP_BANK=bank;
 })();
