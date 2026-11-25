@@ -1,5 +1,6 @@
 // Validate the bundled Bengali question and knowledge banks before every APK build.
 const fs = require("node:fs");
+const path = require("node:path");
 const vm = require("node:vm");
 const source = fs.readFileSync("app/src/main/assets/content-bank.js", "utf8");
 const window = {};
