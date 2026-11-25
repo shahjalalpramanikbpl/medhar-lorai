@@ -53,9 +53,9 @@ vm.runInNewContext(jobSource, sandbox);
 // audits the actual release bank rather than only the base suite.
 const assetDir = "app/src/main/assets";
 const expansionFiles = fs.readdirSync(assetDir)
-  .filter(name => /^job-prep-expansion(?:-\\d{2})?\\.js$/.test(name))
+  .filter(name => /^job-prep-expansion(?:-\d{2})?\.js$/.test(name))
   .sort((a, b) => {
-    const batch = name => name === "job-prep-expansion.js" ? 1 : Number(name.match(/-(\\d{2})\\.js$/)?.[1] || 0);
+    const batch = name => name === "job-prep-expansion.js" ? 1 : Number(name.match(/-(\d{2})\.js$/)?.[1] || 0);
     return batch(a) - batch(b);
   });
 for (const file of expansionFiles) {
