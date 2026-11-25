@@ -343,3 +343,14 @@
 - Baseline ১৩০টির প্রকৃত factual re-audit এখনো বাকি; অবস্থা **REVALIDATION_IN_PROGRESS_NOT_LOCKED**।
 - বিস্তারিত: `SCIENCE_REAUDIT_BATCH_51_55.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
 - Expansion-এর পরবর্তী ধাপ শেষ; এখন baseline ১৩০টি প্রশ্নকে ২৬টি করে পাঁচ গ্রুপে substantive re-audit করতে হবে: ১–২৬, ২৭–৫২, ৫৩–৭৮, ৭৯–১০৪, ১০৫–১৩০।
+
+
+## সাধারণ বিজ্ঞান — Baseline substantive re-audit checkpoint: Questions ১–২৬ (২৬ নভেম্বর ২০২৬)
+- Baseline master IDs suite_1–suite_26: ২৬টি প্রশ্নের তথ্য, চারটি option, keyed answer ও explanation পুনরায় পরীক্ষা করা হয়েছে।
+- retained ২৬টি; factual correction ০; গ্রুপের ভেতরে exact duplicate ০।
+- Expansion Batch ১–৫৫ ও baseline-এর বাকি প্রশ্নসহ master-এর অন্য সব প্রশ্নের সঙ্গে canonical exact-signature তুলনায় duplicate ০।
+- বিষয়গত overlap (RBC, photosynthesis, boiling point, insulin, kidney, nucleus, vitamin K, blood pH, ozone, thyroxine) আলাদা করে নথিভুক্ত; exact duplicate হিসেবে কোনোটি বাদ নয়।
+- Baseline substantive re-audit: **২৬/১৩০**; বাকি **১০৪টি**।
+- Expansion substantive re-audit: **১০১টি**; সর্বমোট substantive re-audited **১২৭টি**।
+- বিস্তারিত: `SCIENCE_BASELINE_REAUDIT_01_26.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
+- অবস্থা: **REVALIDATION_IN_PROGRESS_NOT_LOCKED**। পরবর্তী ধাপ: baseline questions ২৭–৫২।
