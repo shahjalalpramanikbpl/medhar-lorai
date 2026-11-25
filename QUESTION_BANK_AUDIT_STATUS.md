@@ -387,3 +387,13 @@
 - Baseline substantive re-audit: **১০৪/১৩০**; বাকি **২৬টি**। Expansion substantive re-audit: **১০১টি**; সর্বমোট substantive re-audited **২০৫টি**।
 - বিস্তারিত: `SCIENCE_BASELINE_REAUDIT_79_104.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
 - অবস্থা: **IN_PROGRESS_NOT_LOCKED**। পরবর্তী ধাপ: baseline questions ১০৫–১৩০; তুলনা baseline ১–১০৪ এবং expansion Batch ১–৫৫-এর সঙ্গে।
+
+
+## সাধারণ বিজ্ঞান — Baseline substantive re-audit checkpoint: Questions ১০৫–১৩০ (২৬ নভেম্বর ২০২৬)
+- Baseline master IDs suite_105–suite_130: ২৬টি প্রশ্নের তথ্য, চারটি option, keyed answer, explanation ও exact-duplicate signature যাচাই সম্পন্ন।
+- retained ২৬টি; correction ০; group-এর ভেতরে exact duplicate ০; master-এর অন্য প্রশ্নের সঙ্গে exact duplicate ০।
+- Vitamin C/scurvy, iron deficiency, mercury, chlorophyll, digestion/bile, atmospheric gases, Venus, fusion, silver conductivity, dry ice, acidic pH, RBC marrow, insulin/glucagon, platelets, stapes, thyroxine ও cellulose বিষয়ে overlap/সূক্ষ্ম নোট প্রতিবেদনে আছে।
+- Baseline substantive re-audit: **১৩০/১৩০ সম্পন্ন**। Expansion substantive re-audit: **১০১টি**। সর্বমোট **২৩১টি** substantive fact-check সম্পন্ন; baseline pending ০।
+- বিস্তারিত: `SCIENCE_BASELINE_REAUDIT_105_130.md`; master: `SCIENCE_AUDIT_MASTER_01_56.json`।
+- **পরবর্তী ধাপ:** সব ২৩১টি প্রশ্নের final integrated reconciliation—full-set exact duplicate, malformed records, missing source URLs, invalid answer indices, source consistency এবং app/runtime integration। এ পর্যায় সফলভাবে যাচাই না হওয়া পর্যন্ত LOCK নয়।
+- বর্তমান অবস্থা: **REVALIDATION_COMPLETE_PENDING_FINAL_INTEGRATED_RECONCILIATION_NOT_LOCKED**।
