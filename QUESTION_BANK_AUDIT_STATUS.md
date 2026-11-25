@@ -270,3 +270,12 @@
 - Expansion ১–২০-এ পুনঃযাচাইকৃত retained প্রশ্ন মোট ৩৬টি।
 - Master status: REVALIDATION_IN_PROGRESS_NOT_LOCKED; baseline ১৩০টির প্রকৃত substantive re-audit ও পরবর্তী expansion group বাকি।
 - বিস্তারিত: SCIENCE_REAUDIT_BATCH_16_20.md
+
+
+## সাধারণ বিজ্ঞান — প্রকৃত পুনঃযাচাই checkpoint: Expansion Batch ২১–২৫
+- Batch ২১–২৫ source candidate ১৬টি; retained ১৩টি।
+- Duplicate copy ৩টি: extra_804→suite_70, extra_805→extra_782 (আগের ledger); extra_890→extra_786 (এই checkpoint-এ শনাক্ত ও source/master থেকে অপসারিত)।
+- Retained ১৩টির তথ্য, অপশন, keyed answer ও ব্যাখ্যা যাচাই; নতুন factual correction ০।
+- Expansion Batch ১–২৫-এ পুনঃযাচাইকৃত retained প্রশ্ন মোট ৪৯টি।
+- Baseline ১৩০টির প্রকৃত substantive re-audit বাকি; সাধারণ বিজ্ঞান এখনো REVALIDATION_IN_PROGRESS_NOT_LOCKED।
+- বিস্তারিত: SCIENCE_REAUDIT_BATCH_21_25.md
