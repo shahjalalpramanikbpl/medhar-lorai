@@ -56,3 +56,13 @@
 - legacy `ML_CONTENT` bank-এ ৫৯৭টি প্রশ্ন (release threshold ১,০০০-এর কম) এবং ৯৭৪টি fact (threshold ১,০০০-এর কম); এই দুই ঘাটতির কারণে validator এখনো FAIL।
 - তাই full runtime loading সফল হলেও overall release validation **FAIL**; regression checks, release UI checks এবং APK build এই run-এ চালু হয়নি। বাংলা বিষয়বস্তুর factual audit-ও এখনো সম্পন্ন নয়।
 - সংশ্লিষ্ট commit: `500e32c` (path import), `6de1e1d` (math category threshold), `d430405` (missing current-affairs metadata diagnostics)।
+
+
+## ২৫ নভেম্বর ২০২৬ — পরবর্তী অডিট অগ্রগতি
+- Current-affairs validator-এর schema mismatch সংশোধন করা হয়েছে: `d` কখনো difficulty, কখনো source date হিসেবে ব্যবহৃত হচ্ছিল; এখন `sourceDate`, ISO-date-যুক্ত `d` বা ISO-date-যুক্ত `difficulty` field থেকে তারিখ শনাক্ত হয়। তারিখ যাচাইয়ে escaped-regex ত্রুটিও ঠিক করা হয়েছে।
+- `job-prep-expansion-15.js`-এর বাংলাদেশ FY2026–27 বাজেট, GDP growth target, ২০২৬ জাতীয় নির্বাচন, প্রধানমন্ত্রীর শপথ এবং LDC preparatory-period extension—এই ৫টি প্রশ্নে source date যোগ করা হয়েছে; ৫টির source URL-ও যাচাই/সংশোধন করা হয়েছে। LDC extension-এর তারিখ ২৯ অক্টোবর ২০২৬ এবং নতুন সময়সীমা ২৪ নভেম্বর ২০২৯।
+- সংশোধিত validator-এর runtime-এ ২০২৬ current-affairs metadata check আর error দেয়নি। Job-preparation bank **৩,১৪৯টি**, English grammar/vocabulary **৪৬৩টি**, Math **৩০০টি/৩০ লেভেল**, Model Test **৫টি** লোড হয়েছে। Subject-bank duplicate/structure, math checks ও model-test selection-এ কোনো error log হয়নি।
+- সামগ্রিক release validation এখনো **FAIL**, তবে বর্তমান ব্যর্থতার কারণ দুটি legacy main-quiz bank-এর release threshold: `ML_CONTENT.questions` = **৫৯৭/১,০০০** এবং `ML_CONTENT.facts` = **৯৭৪/১,০০০**। কোনো প্রশ্ন/তথ্য কৃত্রিমভাবে যোগ করে threshold পূরণ করা হয়নি।
+- সর্বশেষ workflow run: `45604597582`; validation ধাপে ওই দুই threshold-এর কারণে ব্যর্থ; regression/UI checks এবং APK build skip হয়েছে।
+- সংশোধন commits: `b0ce863` (৫টি ২০২৬ প্রশ্নের sourceDate ও URL), `102809c` (JSON syntax fix), `915619f` এবং `8181fd0` (validator schema support), `0bdfbdb` (date-regex fix)।
+- পরবর্তী কাজ: legacy `ML_CONTENT` প্রশ্ন/তথ্য ব্যাংকের ঘাটতি পূরণ বা release target-এর অনুমোদিত পরিবর্তন; এরপর পূর্ণ বাংলা প্রশ্নের factual audit ও final count reconciliation। APK এখনো তৈরি হয়নি।
