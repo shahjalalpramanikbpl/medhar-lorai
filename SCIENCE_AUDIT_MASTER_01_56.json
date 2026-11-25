@@ -10,7 +10,7 @@
     "new_unique_questions_retained": 14,
     "total_unique_questions_for_future_comparison": 231,
     "content_verified_expansion_questions": 102,
-    "baseline_content_audit_pending": 0,
+    "baseline_content_audit_pending": 130,
     "malformed_retained_expansion_entries": 0,
     "batches_06_10_science_candidates": 15,
     "batches_06_10_exact_duplicates_removed": 2,
@@ -65,10 +65,15 @@
     "reaudited_expansion_questions_through_batch_20": 36,
     "reaudit_content_verified_through_batch_20": 36,
     "reaudit_exact_duplicates_found_batch_16_20_vs_prior": 0,
-    "reaudit_last_completed_expansion_batch": 25,
+    "reaudit_last_completed_expansion_batch": 30,
     "reaudited_expansion_questions_through_batch_25": 49,
     "reaudit_content_verified_through_batch_25": 49,
-    "reaudit_exact_duplicates_found_batch_21_25_vs_prior": 1
+    "reaudit_exact_duplicates_found_batch_21_25_vs_prior": 1,
+    "reaudited_expansion_questions_through_batch_30": 52,
+    "reaudit_content_verified_through_batch_30": 52,
+    "reaudit_exact_duplicates_found_batch_26_30_vs_prior": 0,
+    "reaudit_candidate_questions_through_batch_30": 64,
+    "baseline_questions_factual_reaudit_pending": 130
   },
   "duplicate_removals": [
     {
@@ -3376,7 +3381,10 @@
       "sourceUrl": "https://www.nist.gov/pml/owm/si-units-electric-current",
       "d": "মাঝারি",
       "audit_status": "content_checked_batches_26_30",
-      "audit_batch": 26
+      "audit_batch": 26,
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_26_30.md"
     },
     {
       "id": "extra_949",
@@ -3394,7 +3402,10 @@
       "sourceUrl": "https://ods.od.nih.gov/factsheets/vitaminK-HealthProfessional/",
       "d": "মাঝারি",
       "audit_status": "content_checked_batches_26_30",
-      "audit_batch": 27
+      "audit_batch": 27,
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_26_30.md"
     },
     {
       "id": "extra_1078",
@@ -3412,7 +3423,10 @@
       "sourceUrl": "https://openstax.org/books/university-physics-volume-1/pages/17-2-speed-of-sound",
       "d": "মাঝারি",
       "audit_status": "content_checked_batches_26_30",
-      "audit_batch": 30
+      "audit_batch": 30,
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_26_30.md"
     },
     {
       "id": "extra_1132",
@@ -4286,21 +4300,38 @@
       12,
       13,
       14,
-      15
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
     ],
-    "retained_expansion_questions_reaudited": 29,
+    "retained_expansion_questions_reaudited": 52,
     "exact_duplicate_crosscheck_against_baseline": 0,
     "exact_duplicates_previously_removed_in_batches_01_05": 3,
     "baseline_questions_factual_reaudit_pending": 130,
-    "next_step": "Re-audit expansion batches 16-20 and compare against the consolidated batches 01-15 set.",
+    "next_step": "Re-audit expansion batches 31-35 and compare against the consolidated batches 01-30 set.",
     "lock_suspended_until_full_reaudit": true,
-    "checkpoint": "SCIENCE_REAUDIT_BATCH_11_15.md",
+    "checkpoint": "SCIENCE_REAUDIT_BATCH_26_30.md",
     "last_comparison": {
-      "new_exact_duplicates_between_batches_11_15_and_prior_01_10_plus_baseline": 0,
+      "new_exact_duplicates_between_batches_26_30_and_prior_01_25": 0,
       "conceptual_overlap_flags": [
-        "extra_560 vs extra_016/extra_198/extra_335"
+        "extra_921 vs suite_7 (electric-current SI unit; wording differs)",
+        "extra_949 vs suite_16/suite_51/suite_83/extra_807 (vitamin K and blood clotting; wording or option set differs)",
+        "extra_1078 vs suite_104/extra_782 (sound travels fastest in steel among listed media; wording differs)"
       ],
-      "policy": "Conceptual overlaps with different wording/option sets are flagged, not auto-deleted under the current exact-signature policy."
+      "policy": "Only same normalized category, normalized question, complete option set and keyed answer are removed as exact duplicates. Conceptual overlaps with different wording or option sets are flagged, not auto-deleted."
     }
   }
 }
