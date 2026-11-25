@@ -65,7 +65,7 @@
     "reaudited_expansion_questions_through_batch_20": 36,
     "reaudit_content_verified_through_batch_20": 36,
     "reaudit_exact_duplicates_found_batch_16_20_vs_prior": 0,
-    "reaudit_last_completed_expansion_batch": 45,
+    "reaudit_last_completed_expansion_batch": 55,
     "reaudited_expansion_questions_through_batch_25": 49,
     "reaudit_content_verified_through_batch_25": 49,
     "reaudit_exact_duplicates_found_batch_21_25_vs_prior": 1,
@@ -89,7 +89,11 @@
     "reaudited_expansion_questions_through_batch_50": 93,
     "reaudit_content_verified_through_batch_50": 93,
     "reaudit_candidate_questions_through_batch_50": 110,
-    "reaudit_exact_duplicates_found_batch_46_50_vs_prior": 0
+    "reaudit_exact_duplicates_found_batch_46_50_vs_prior": 0,
+    "reaudited_expansion_questions_through_batch_55": 101,
+    "reaudit_content_verified_through_batch_55": 101,
+    "reaudit_candidate_questions_through_batch_55": 118,
+    "reaudit_exact_duplicates_found_batch_51_55_vs_prior": 0
   },
   "duplicate_removals": [
     {
@@ -4441,7 +4445,15 @@
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459261/",
       "d": "মাঝারি",
       "audit_status": "content_checked_batches_51_55",
-      "audit_batch": 51
+      "audit_batch": 51,
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1709",
@@ -4459,7 +4471,15 @@
       "sourceUrl": "https://openstax.org/books/university-physics-volume-1/pages/17-2-speed-of-sound",
       "d": "সহজ",
       "audit_status": "content_checked_batches_51_55",
-      "audit_batch": 51
+      "audit_batch": 51,
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1738",
@@ -4477,7 +4497,15 @@
       "sourceUrl": "https://www.genome.gov/25520493/online-education-kit-2003-fiftieth-anniversary-of-watson-and-cricks-description-of-the-double-helix",
       "d": "মাঝারি",
       "audit_status": "content_checked_batches_51_55",
-      "audit_batch": 52
+      "audit_batch": 52,
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1740",
@@ -4495,7 +4523,15 @@
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK536919/",
       "d": "মাঝারি",
       "audit_status": "content_checked_batches_51_55",
-      "audit_batch": 52
+      "audit_batch": 52,
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1741",
@@ -4513,7 +4549,15 @@
       "sourceUrl": "https://openstax.org/books/biology-2e/pages/30-1-the-plant-body",
       "d": "সহজ",
       "audit_status": "content_checked_batches_51_55",
-      "audit_batch": 52
+      "audit_batch": 52,
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1768",
@@ -4531,7 +4575,15 @@
       "sourceUrl": "https://openstax.org/books/physics/pages/5-3-newtons-second-law",
       "d": "সহজ",
       "audit_status": "content_checked_batches_51_55",
-      "audit_batch": 53
+      "audit_batch": 53,
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1769",
@@ -4549,7 +4601,15 @@
       "sourceUrl": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work",
       "d": "সহজ",
       "audit_status": "content_checked_batches_51_55",
-      "audit_batch": 53
+      "audit_batch": 53,
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1771",
@@ -4567,7 +4627,15 @@
       "sourceUrl": "https://openstax.org/books/anatomy-and-physiology/pages/2-2-chemical-bonds",
       "d": "সহজ",
       "audit_status": "content_checked_batches_51_55",
-      "audit_batch": 53
+      "audit_batch": 53,
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     }
   ],
   "source_sequence_note": "Expansion batches 1–56 checked sequentially in five-batch groups; batch 56 contained no General Science items. Repository currently has no expansion batch 57–60. The 130 questions in the original job-prep-suite.js baseline are included for duplicate comparison but still require their own factual/content audit.",
@@ -4624,29 +4692,30 @@
       47,
       48,
       49,
-      50
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
     ],
-    "retained_expansion_questions_reaudited": 93,
+    "retained_expansion_questions_reaudited": 101,
     "exact_duplicate_crosscheck_against_baseline": 0,
     "exact_duplicates_previously_removed_in_batches_01_05": 3,
     "baseline_questions_factual_reaudit_pending": 130,
-    "next_step": "Re-audit expansion batches 51-55 and compare against the consolidated batches 01-50 set.",
+    "next_step": "Begin substantive factual re-audit of the 130 baseline questions in five groups of 26 (1-26, 27-52, 53-78, 79-104, 105-130), checking question, all four options, keyed answer, explanation and exact duplicates.",
     "lock_suspended_until_full_reaudit": true,
-    "checkpoint": "SCIENCE_REAUDIT_BATCH_46_50.md",
+    "checkpoint": "SCIENCE_REAUDIT_BATCH_51_55.md",
     "last_comparison": {
-      "new_exact_duplicates_between_batches_46_50_and_prior_01_45": 0,
-      "duplicate_copy_already_removed_in_source_and_master": [
-        "extra_1588 -> suite_11 (not a General Science candidate in this checkpoint)"
-      ],
+      "new_exact_duplicates_between_batches_51_55_and_prior_01_50": 0,
+      "duplicate_copies_already_removed_in_source_and_master": [],
       "conceptual_overlap_flags": [
-        "extra_1649 vs extra_1561: same nucleus-particle fact and same option set; question wording differs, so not exact duplicate",
-        "extra_1618 vs earlier insulin-secretion questions: same fact, different wording/options",
-        "extra_1619 vs extra_1078: sound travels fastest in steel; different option set",
-        "extra_1620 vs extra_1282: xylem transports water/minerals; different wording/options",
-        "extra_1648 vs earlier RBC oxygen-transport questions: same concept, different option set",
-        "extra_1651 vs earlier pure-water pH questions: same concept, different option set",
-        "extra_1678 vs earlier photosynthesis questions: chloroplast site; different wording/options",
-        "extra_1591 vs extra_1376: boiling point of pure water; different wording/options"
+        "extra_1708 vs suite_66/extra_1132/extra_1216: insulin secretion by pancreatic beta cells; wording and/or option sets differ",
+        "extra_1709 vs suite_104/extra_782/extra_1078: sound travels fastest in iron/steel among listed media; option set differs",
+        "extra_1740 vs suite_40/extra_337: normal blood pH around 7.4; wording/options differ",
+        "extra_1741 vs extra_1282/extra_1620: xylem transports water and minerals; wording/options differ",
+        "extra_1769 vs suite_62: kidneys filter blood wastes and produce urine; wording/options differ",
+        "extra_1738 is about the DNA double-helix model, distinct from prior DNA full-form questions"
       ],
       "corrections": 0,
       "policy": "Exact duplicate deletion requires same normalized category, question, complete option set and keyed answer; conceptual repeats with changed wording or options are flagged, not silently removed."
