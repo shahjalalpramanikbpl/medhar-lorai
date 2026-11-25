@@ -436,3 +436,11 @@
 - **সীমাবদ্ধতা:** বাস্তব Android device/emulator-এ হাতে smoke test হয়নি। এই LOCK content audit ও automated/static integration-এর জন্য; এটি Play Store release sign-off নয়।
 - পরবর্তী content edit হলে audit পুনরায় খুলতে হবে।
 - বিস্তারিত: `SCIENCE_FINAL_INTEGRATED_RECONCILIATION.md`, `SCIENCE_BASELINE_SOURCE_RECONCILIATION_131_147.md`, master: `SCIENCE_AUDIT_MASTER_01_56.json`।
+
+
+## গণিত — প্রাথমিক ইনভেন্টরি (২৬ নভেম্বর ২০২৬)
+- গণিতের পূর্ববর্তী subject-specific substantive audit report/master পাওয়া যায়নি; status file-এ কেবল ৩০০ প্রশ্ন/৩০ লেভেলের runtime structural check নথিভুক্ত ছিল।
+- উৎস `app/src/main/assets/math-levels.js`; baseline source blob `e00b1e6544e4255a9073e3e802d803b6d9dcf706`।
+- `MATH_AUDIT_MASTER_BASELINE_300.json`-এ ৩০০টি প্রশ্নের snapshot সংরক্ষিত; ৩০ লেভেল × ১০ প্রশ্ন। structural scan: malformed ০, canonical exact duplicate ০, keyed answer/expected mismatch ০। এটি factual/content audit নয়।
+- `MATH_AUDIT_INVENTORY.md`-এ প্রাথমিক screening findings ও audit policy নথিভুক্ত। Generator-এ ১৬ topic family আছে; যোগ/বিয়োগ/গুণ/ভাগের স্বতন্ত্র কঠিন প্রশ্ন নেই; level-band ও difficulty metadata alignment পর্যালোচনা বাকি।
+- **অবস্থা: BASELINE SNAPSHOT VERIFIED — SUBSTANTIVE AUDIT NOT STARTED / NOT LOCKED.**
