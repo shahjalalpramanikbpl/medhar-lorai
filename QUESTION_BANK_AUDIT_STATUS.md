@@ -494,3 +494,12 @@
 - মোট replacement draft: ২২; অবশিষ্ট reversible candidate: ১০৯; permanent deletion: ০.
 - **Math status: FINAL CONSOLIDATION IN PROGRESS — NOT LOCKED.**
 - বিস্তারিত রিপোর্ট: `MATH_CANDIDATE_REWRITE_GROUP_01_10.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`.
+
+
+## গণিত — Candidate Rewrite Group 11–20 (২৬ নভেম্বর ২০২৬)
+- পরবর্তী ১০টি candidate পুনর্লিখন; ৫/১০ checkpoint নথিভুক্ত।
+- Runtime source blob: `1b8d0b9c783db85e609dcc3d451e5aa83b45882d`.
+- ১০/১০ calculation/key/expected PASS; ১০/১০ distinct options/valid answer PASS; runtime ৩০০ প্রশ্ন/৩০ level; strict signature duplicate groups ০.
+- Replacement draft মোট ৩২; অবশিষ্ট reversible candidate ৯৯; permanent deletion ০.
+- **Math LOCKED নয়।** পূর্ণ QA, distractor redesign এবং app integration validation বাকি।
+- রিপোর্ট: `MATH_CANDIDATE_REWRITE_GROUP_11_20.md`.
