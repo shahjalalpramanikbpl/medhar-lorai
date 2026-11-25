@@ -485,3 +485,12 @@
 - Replacement keyed answer/expected ও চারটি স্বতন্ত্র option check PASS; strict runtime signature check duplicate groups: 0.
 - **অবস্থা: FINAL CONSOLIDATION IN PROGRESS — NOT LOCKED.** Distractor redesign, ১১৯ candidate পুনর্লিখন, পূর্ণ content re-audit ও app integration/CI এখনও বাকি।
 - বিস্তারিত: `MATH_FINAL_CONSOLIDATION_REVIEW_2026-11-26.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`.
+
+
+## গণিত — Candidate Rewrite Group 01–10 (২৬ নভেম্বর ২০২৬)
+- প্রথম ১০টি reversible candidate পুনর্লিখন; ৫টি শেষে temporary checkpoint, ১০টি শেষে group checkpoint।
+- Runtime source commit: `f20171d62793738d7963337f3e161c123292e159`; source blob: `fe02f562fd1853da1f575cfc14d6c5d7278866eb`.
+- ১০/১০ calculation/key/expected PASS; ১০/১০ চারটি distinct option ও valid answer index PASS; runtime compile PASS; ৩০০ প্রশ্ন/৩০ level বজায়; strict signature duplicate groups ০.
+- মোট replacement draft: ২২; অবশিষ্ট reversible candidate: ১০৯; permanent deletion: ০.
+- **Math status: FINAL CONSOLIDATION IN PROGRESS — NOT LOCKED.**
+- বিস্তারিত রিপোর্ট: `MATH_CANDIDATE_REWRITE_GROUP_01_10.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`.
