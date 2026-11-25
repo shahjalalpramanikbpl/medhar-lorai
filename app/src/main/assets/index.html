@@ -662,7 +662,7 @@ function applyHomeLanguage(){
  const setText=(selector,bn,en)=>{const el=document.querySelector(selector);if(el)el.textContent=isBn?bn:en};
  $('langBtn').textContent=isBn?'English':'বাংলা';
  $('intro').textContent=isBn?'জ্ঞানচর্চা ও চাকরির প্রস্তুতি—একই প্ল্যাটফর্মে':'Knowledge building and job preparation—all in one platform';
- setText('#startBtn .entry-copy b','কুইজ চ্যালেঞ্জ','Quiz Challenge');
+ setText('#startBtn .entry-copy b','কুইজ খেলা শুরু করুন','Start Quiz');
  setText('#startBtn .entry-copy small','খেলুন · শিখুন · এগিয়ে যান','Play · Learn · Grow');
  const labels={
   vaultBtn:['জ্ঞান ভান্ডার','Knowledge Library'],iqBtn:['IQ চ্যালেঞ্জ','IQ Challenge'],
@@ -676,7 +676,7 @@ function applyHomeLanguage(){
  setText('.level-stat small','বর্তমান লেভেল','Current Level');
  setText('.questions-stat small','প্রশ্নের ভান্ডার','Question Bank');
  const prep=$('jobPrepBtn');
- if(prep){const title=prep.querySelector('.job-prep-copy b'),sub=prep.querySelector('.job-prep-copy small');if(title)title.textContent=isBn?'চাকরির প্রস্তুতি':'Job Preparation';if(sub)sub.textContent=isBn?'বিষয়ভিত্তিক অনুশীলন · মডেল টেস্ট':'Subject Practice · Model Tests'}
+ if(prep){const title=prep.querySelector('.job-prep-copy b'),sub=prep.querySelector('.job-prep-copy small');if(title)title.textContent=isBn?'চাকরির প্রস্তুতি':'Job Preparation';if(sub)sub.textContent=isBn?'১০টি বিষয় · অনুশীলন · মডেল টেস্ট':'10 Subjects · Practice · Model Tests'}
  const foot=document.querySelector('.home-bottom span:first-child');if(foot)foot.textContent=isBn?'💡 প্রতিটি সঠিক উত্তরই এক ধাপ এগিয়ে':'💡 Every correct answer takes you one step forward';
  const edition=document.querySelector('.home-bottom span:last-child');if(edition)edition.textContent=isBn?'জ্ঞান · অনুশীলন · অগ্রগতি':'LEARN · PRACTICE · GROW';
  $('adminBtn').textContent=isBn?'অ্যাডমিন প্যানেল':'Admin Panel';
