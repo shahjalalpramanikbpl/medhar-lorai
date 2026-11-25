@@ -503,3 +503,12 @@
 - Replacement draft মোট ৩২; অবশিষ্ট reversible candidate ৯৯; permanent deletion ০.
 - **Math LOCKED নয়।** পূর্ণ QA, distractor redesign এবং app integration validation বাকি।
 - রিপোর্ট: `MATH_CANDIDATE_REWRITE_GROUP_11_20.md`.
+
+
+## গণিত — Candidate Rewrite Group 21–30 (২৬ নভেম্বর ২০২৬)
+- পরবর্তী ১০টি candidate পুনর্লিখন; ৫/১০ checkpoint নথিভুক্ত।
+- Runtime source blob: `b2f51181c645a19b9489ae9d12459ad09987c689`.
+- ১০/১০ calculation/key/expected PASS; ১০/১০ distinct options/valid answer PASS; runtime ৩০০ প্রশ্ন/৩০ level; strict signature duplicate groups ০.
+- Replacement draft মোট ৪২; অবশিষ্ট reversible candidate ৮৯; permanent deletion ০.
+- **Math LOCKED নয়।** Final cross-bank QA, distractor review, invalid stem replacements ও integration validation বাকি।
+- রিপোর্ট: `MATH_CANDIDATE_REWRITE_GROUP_21_30.md`.
