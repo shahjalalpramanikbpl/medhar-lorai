@@ -464,3 +464,14 @@
 - Temporary checkpoint: batch ১১–১৫ শেষে মোট ১৫০ reviewed; batch ১৬–২০ শেষে মোট ২০০ reviewed।
 - বিস্তারিত: `MATH_AUDIT_BATCHES_11_20.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`।
 - **অবস্থা: BATCHES 01–20 REVIEWED — PENDING GROUP COMPARISON — NOT LOCKED.**
+
+
+## গণিত — ব্যাচ ২১–৩০ ও সম্মিলিত তুলনা (২৬ নভেম্বর ২০২৬)
+- ১–১০ বনাম ১১–২০ final comparison: strict exact duplicate ০; ২০০ প্রশ্নে ১৫২ provisional retain, ৪৮ reversible exclusion candidate; স্থায়ী deletion ০।
+- ২১–৩০ (প্রশ্ন ২০১–৩০০) ১০০/১০০ প্রশ্ন যাচাই: stored expected বনাম keyed answer mismatch ০; four distinct options/valid index structural error ০; আগের ১–২০-এর সঙ্গে strict exact duplicate 0; নতুন গ্রুপের ভেতরে 0।
+- ২১–৩০-এ 17 provisional retain; 83 reversible exclusion candidate; স্থায়ী deletion ০।
+- অবাস্তব মিশ্রণ: ১০০%-এর বেশি concentration 6টি; অবাস্তব পিতা-সন্তানের বয়সের যোগফল 4টি। বিস্তারিত ID: `math_L24_Q6, math_L25_Q5, math_L26_Q4, math_L27_Q3, math_L28_Q2, math_L29_Q1`; `math_L21_Q4, math_L22_Q3, math_L23_Q2, math_L24_Q1`।
+- ৩০০ প্রশ্নে মোট provisional retain ১৬৯; reversible exclusion candidate 131; স্থায়ী deletion ০। Hard level-এ অতিরিক্ত সরল template, mechanical distractor এবং কঠিন যোগ/বিয়োগ/গুণ/ভাগ প্রশ্নের অনুপস্থিতি চিহ্নিত।
+- অস্থায়ী checkpoint: batch ২১–২৫ শেষে ২৫০ reviewed; batch ২৬–৩০ শেষে ৩০০ reviewed।
+- বিস্তারিত: `MATH_AUDIT_BATCHES_21_30.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`।
+- **অবস্থা: BATCHES 01–30 REVIEWED — PENDING FINAL CONSOLIDATION — NOT LOCKED.**
