@@ -130,24 +130,7 @@ const additions = [
     "d": "মাঝারি",
     "auditStatus": "content_checked_batches_21_25"
   },
-  {
-    "id": "extra_890",
-    "c": "সাধারণ বিজ্ঞান",
-    "q": "pH মান ৭-এর কম হলে দ্রবণটি কেমন?",
-    "o": [
-      "ক্ষারীয়",
-      "অম্লীয়",
-      "নিরপেক্ষ",
-      "লবণাক্ত"
-    ],
-    "a": 1,
-    "e": "pH ৭-এর কম হলে দ্রবণ অম্লীয়।",
-    "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "https://www.usgs.gov/water-science-school/science/ph-and-water",
-    "d": "মাঝারি",
-    "auditStatus": "content_checked_batches_21_25"
-  },
-  {
+    {
     "id": "extra_892",
     "c": "কম্পিউটার ও ICT",
     "q": "ইন্টারনেটে তথ্য আদান-প্রদানের মৌলিক প্রোটোকল-সুইট কোনটি?",
