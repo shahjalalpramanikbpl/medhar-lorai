@@ -8,3 +8,7 @@
 - Full runtime structural scan: invalid option/key mismatch ০; strict normalized category + stem + sorted options + keyed answer duplicate groups ০।
 - Master-এ একই runtime content sync; replacement draft মোট ৫২; exclusion ledger থেকে এই ১০টি সরানোর পর reversible candidate অবশিষ্ট 131; permanent deletion ০।
 - **গণিত LOCKED নয়।** Final content QA, remaining candidate rewrite, distractor redesign ও app integration validation বাকি।
+
+
+## Post-commit ledger correction
+The initial report draft carried the pre-reconciliation candidate count. The master was then rebuilt directly from all 300 question-level `reviewStatus` values and re-fetched for verification. **Correct controlling totals: 169 provisional retain, 52 replacement drafts, 79 remaining reversible candidates, 0 permanent deletions.** The 79-ID exclusion ledger matches all 79 question records marked `EXCLUDE_CANDIDATE`; master source SHA matches runtime source SHA. Math remains NOT LOCKED.
