@@ -65,7 +65,7 @@
     "reaudited_expansion_questions_through_batch_20": 36,
     "reaudit_content_verified_through_batch_20": 36,
     "reaudit_exact_duplicates_found_batch_16_20_vs_prior": 0,
-    "reaudit_last_completed_expansion_batch": 30,
+    "reaudit_last_completed_expansion_batch": 35,
     "reaudited_expansion_questions_through_batch_25": 49,
     "reaudit_content_verified_through_batch_25": 49,
     "reaudit_exact_duplicates_found_batch_21_25_vs_prior": 1,
@@ -73,7 +73,11 @@
     "reaudit_content_verified_through_batch_30": 52,
     "reaudit_exact_duplicates_found_batch_26_30_vs_prior": 0,
     "reaudit_candidate_questions_through_batch_30": 64,
-    "baseline_questions_factual_reaudit_pending": 130
+    "baseline_questions_factual_reaudit_pending": 130,
+    "reaudited_expansion_questions_through_batch_35": 63,
+    "reaudit_content_verified_through_batch_35": 63,
+    "reaudit_candidate_questions_through_batch_35": 77,
+    "reaudit_exact_duplicates_found_batch_31_35_vs_prior": 0
   },
   "duplicate_removals": [
     {
@@ -3444,7 +3448,10 @@
       "audit_batch": 32,
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "d": "",
-      "audit_status": "content_checked_batches_31_35"
+      "audit_status": "content_checked_batches_31_35",
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md"
     },
     {
       "id": "extra_1137",
@@ -3462,7 +3469,10 @@
       "audit_batch": 32,
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "d": "",
-      "audit_status": "content_checked_batches_31_35"
+      "audit_status": "content_checked_batches_31_35",
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md"
     },
     {
       "id": "extra_1138",
@@ -3475,12 +3485,15 @@
         "আলোর কম্পাঙ্ক শূন্য হয়"
       ],
       "a": 1,
-      "e": "ভিন্ন মাধ্যমে আলোর বেগ পরিবর্তিত হলে, আলো তির্যকভাবে সীমানা অতিক্রম করার সময় দিক পরিবর্তন করে; একেই প্রতিসরণ বলে।",
+      "e": "ভিন্ন মাধ্যমে আলোর বেগ ভিন্ন হয়; আলো তির্যকভাবে এক মাধ্যম থেকে অন্য মাধ্যমে গেলে বেগ পরিবর্তনের সঙ্গে দিকও বদলায়—এটাই প্রতিসরণ।",
       "sourceUrl": "https://openstax.org/books/physics/pages/16-2-refraction",
       "audit_batch": 32,
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "d": "",
-      "audit_status": "content_checked_batches_31_35"
+      "audit_status": "content_checked_batches_31_35",
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md"
     },
     {
       "id": "extra_1139",
@@ -3498,7 +3511,10 @@
       "audit_batch": 32,
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "d": "",
-      "audit_status": "content_checked_batches_31_35"
+      "audit_status": "content_checked_batches_31_35",
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md"
     },
     {
       "id": "extra_1216",
@@ -3516,7 +3532,10 @@
       "audit_batch": 35,
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "d": "",
-      "audit_status": "content_checked_batches_31_35"
+      "audit_status": "content_checked_batches_31_35",
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md"
     },
     {
       "id": "extra_1217",
@@ -3534,7 +3553,10 @@
       "audit_batch": 35,
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "d": "",
-      "audit_status": "content_checked_batches_31_35"
+      "audit_status": "content_checked_batches_31_35",
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md"
     },
     {
       "id": "extra_1218",
@@ -3552,7 +3574,10 @@
       "audit_batch": 35,
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "d": "",
-      "audit_status": "content_checked_batches_31_35"
+      "audit_status": "content_checked_batches_31_35",
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md"
     },
     {
       "id": "extra_1219",
@@ -3570,7 +3595,10 @@
       "audit_batch": 35,
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "d": "",
-      "audit_status": "content_checked_batches_31_35"
+      "audit_status": "content_checked_batches_31_35",
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md"
     },
     {
       "id": "extra_1220",
@@ -3588,7 +3616,10 @@
       "audit_batch": 35,
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "d": "",
-      "audit_status": "content_checked_batches_31_35"
+      "audit_status": "content_checked_batches_31_35",
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md"
     },
     {
       "id": "extra_1222",
@@ -3606,12 +3637,15 @@
       "audit_batch": 35,
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "d": "",
-      "audit_status": "content_checked_batches_31_35"
+      "audit_status": "content_checked_batches_31_35",
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md"
     },
     {
       "id": "extra_1223",
       "c": "সাধারণ বিজ্ঞান",
-      "q": "মানবদেহের স্বাভাবিক কোষে নিউক্লিয়াসে ক্রোমোজোমের সংখ্যা কত?",
+      "q": "মানবদেহের অধিকাংশ দেহকোষে মোট কতটি ক্রোমোজোম থাকে?",
       "o": [
         "২৩",
         "৪৪",
@@ -3624,7 +3658,10 @@
       "audit_batch": 35,
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "d": "",
-      "audit_status": "content_checked_batches_31_35"
+      "audit_status": "content_checked_batches_31_35",
+      "reaudit_status": "substantive_fact_checked",
+      "reaudit_checked_on": "2026-11-26",
+      "reaudit_checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md"
     },
     {
       "id": "extra_1277",
@@ -4315,23 +4352,32 @@
       27,
       28,
       29,
-      30
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
     ],
-    "retained_expansion_questions_reaudited": 52,
+    "retained_expansion_questions_reaudited": 63,
     "exact_duplicate_crosscheck_against_baseline": 0,
     "exact_duplicates_previously_removed_in_batches_01_05": 3,
     "baseline_questions_factual_reaudit_pending": 130,
-    "next_step": "Re-audit expansion batches 31-35 and compare against the consolidated batches 01-30 set.",
+    "next_step": "Re-audit expansion batches 36-40 and compare against the consolidated batches 01-35 set.",
     "lock_suspended_until_full_reaudit": true,
-    "checkpoint": "SCIENCE_REAUDIT_BATCH_26_30.md",
+    "checkpoint": "SCIENCE_REAUDIT_BATCH_31_35.md",
     "last_comparison": {
-      "new_exact_duplicates_between_batches_26_30_and_prior_01_25": 0,
-      "conceptual_overlap_flags": [
-        "extra_921 vs suite_7 (electric-current SI unit; wording differs)",
-        "extra_949 vs suite_16/suite_51/suite_83/extra_807 (vitamin K and blood clotting; wording or option set differs)",
-        "extra_1078 vs suite_104/extra_782 (sound travels fastest in steel among listed media; wording differs)"
+      "new_exact_duplicates_between_batches_31_35_and_prior_01_30": 0,
+      "duplicate_copies_already_removed_in_source_and_master": [
+        "extra_1133 -> suite_104",
+        "extra_1221 -> suite_86"
       ],
-      "policy": "Only same normalized category, normalized question, complete option set and keyed answer are removed as exact duplicates. Conceptual overlaps with different wording or option sets are flagged, not auto-deleted."
+      "conceptual_overlap_flags": [
+        "extra_1216 vs extra_1132: same insulin beta-cell question with different distractor sets",
+        "extra_1217 vs suite_5/extra_986: sound cannot travel in vacuum, wording differs",
+        "extra_1220 vs suite_16/suite_51/suite_83/extra_807/extra_949: vitamin K and blood clotting, wording differs"
+      ],
+      "policy": "Exact duplicate deletion requires same normalized category, question, complete option set and keyed answer; conceptual repeats with changed wording or options are flagged, not silently removed."
     }
   }
 }
