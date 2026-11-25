@@ -249,3 +249,14 @@
 - বিস্তারিত: `SCIENCE_REAUDIT_BATCH_06_10.md`; master-এ প্রশ্নভিত্তিক re-audit marker সংরক্ষিত।
 - **পরবর্তী ধাপ:** Batch ১১–১৫ যাচাই করে ১–১০-এর সমন্বিত set-এর সঙ্গে তুলনা।
 - Baseline ১৩০টির পূর্ণ factual re-audit বাকি; সাধারণ বিজ্ঞান এখনো **IN PROGRESS — NOT LOCKED**।
+
+
+### সাধারণ বিজ্ঞান — পুনঃযাচাই checkpoint: Expansion Batch ১১–১৫ সম্পন্ন
+- Batch ১১–১৪-এর মূল source file-এ সাধারণ বিজ্ঞানের প্রশ্ন ছিল ০; Batch ১৫-তে ছিল ২টি। দুইটিই master-এ উপস্থিত এবং দুটিই source-সহ পুনঃযাচাই করা হয়েছে।
+- retained ২টি প্রশ্নের তথ্য, চারটি অপশন, keyed answer ও ব্যাখ্যা সঠিক; correction ০; group duplicate removal ০।
+- Batch ১–১০-এর সমন্বিত set ও baseline ১৩০টির সঙ্গে পূর্ণ exact-signature তুলনায় নতুন exact duplicate **০**।
+- extra_560 একই insulin secretion fact নিয়ে extra_016/extra_198/extra_335-এর conceptual repetition; কিন্তু full option set/wording আলাদা, তাই exact duplicate হিসেবে বাদ দেওয়া হয়নি।
+- Expansion Batch ১–১৫ মিলিয়ে substantive re-audit: **২৯টি retained প্রশ্ন সম্পন্ন**।
+- বিস্তারিত: `SCIENCE_REAUDIT_BATCH_11_15.md`; master-এ দুই প্রশ্নের re-audit marker এবং progress সংরক্ষিত।
+- পরবর্তী ধাপ: Batch ১৬–২০ যাচাই করে Batch ১–১৫-এর সমন্বিত set-এর সঙ্গে তুলনা।
+- Baseline ১৩০টির পূর্ণ factual re-audit বাকি; সাধারণ বিজ্ঞান এখনো **IN PROGRESS — NOT LOCKED**।
