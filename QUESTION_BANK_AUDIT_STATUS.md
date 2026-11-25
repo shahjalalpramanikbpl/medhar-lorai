@@ -545,8 +545,10 @@
 - অবশিষ্ট candidate ০; স্থায়ী deletion ০; master-এ FINAL_APPROVED ৩০০/৩০০।
 - চারটি স্বতন্ত্র option, valid answer index এবং keyed answer/expected numeric value: ৩০০/৩০০ PASS।
 - Explanation/calculation consistency: PASS; canonical exact duplicate groups: ০।
-- Runtime source SHA: `50d0694f9d5414a3e5afc9745ca96e850a8d05c2`; master-এর source SHA একই।
+- Runtime source SHA: `4404ff9bd1c0b03ee9b4c8370ab0e83400746158`; master-এর source SHA একই।
 - Level 1–10 সহজ, 11–20 মাঝারি, 21–30 কঠিন হিসেবে qualitative progression নথিভুক্ত; এটি psychometric calibration নয়।
 - চূড়ান্ত রিপোর্ট: `MATH_FINAL_LOCK_REPORT_2026-11-26.md`; master: `MATH_AUDIT_MASTER_BASELINE_300.json`।
 - **এই নতুন LOCK entry-ই Math-এর সর্বশেষ অবস্থা; উপরের পুরোনো NOT LOCKED checkpoint-গুলো chronology মাত্র, বর্তমান status নয়।**
 - এই subject-content lock overall Android release sign-off নয়। Legacy `ML_CONTENT` threshold, full release validation, APK/AAB build এবং physical device test আলাদা release কাজ।
+
+- Post-lock final CI formula check-এ ধরা ৬টি AP nth-term answer-key ত্রুটি সংশোধন করা হয়েছে: `math_L21_Q5=৪৩`, `math_L23_Q4=১০৮`, `math_L24_Q10=৫৩`, `math_L26_Q6=১১১`, `math_L28_Q4=১০৬`, `math_L30_Q3=৫০`; runtime/master/report পুনরায় sync করা হয়েছে। নতুন runtime SHA: `4404ff9bd1c0b03ee9b4c8370ab0e83400746158`।
