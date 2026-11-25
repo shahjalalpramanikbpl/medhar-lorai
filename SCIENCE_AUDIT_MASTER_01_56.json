@@ -65,7 +65,7 @@
     "reaudited_expansion_questions_through_batch_20": 36,
     "reaudit_content_verified_through_batch_20": 36,
     "reaudit_exact_duplicates_found_batch_16_20_vs_prior": 0,
-    "reaudit_last_completed_expansion_batch": 40,
+    "reaudit_last_completed_expansion_batch": 45,
     "reaudited_expansion_questions_through_batch_25": 49,
     "reaudit_content_verified_through_batch_25": 49,
     "reaudit_exact_duplicates_found_batch_21_25_vs_prior": 1,
@@ -81,7 +81,11 @@
     "reaudited_expansion_questions_through_batch_40": 74,
     "reaudit_content_verified_through_batch_40": 74,
     "reaudit_candidate_questions_through_batch_40": 90,
-    "reaudit_exact_duplicates_found_batch_36_40_vs_prior": 0
+    "reaudit_exact_duplicates_found_batch_36_40_vs_prior": 0,
+    "reaudited_expansion_questions_through_batch_45": 83,
+    "reaudit_content_verified_through_batch_45": 83,
+    "reaudit_candidate_questions_through_batch_45": 100,
+    "reaudit_exact_duplicates_found_batch_41_45_vs_prior": 0
   },
   "duplicate_removals": [
     {
@@ -3957,7 +3961,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279392/",
-      "audit_status": "content_checked_batches_41_45"
+      "audit_status": "content_checked_batches_41_45",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1407",
@@ -3974,7 +3986,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://edu.rsc.org/experiments/testing-for-negative-ions/758.article",
-      "audit_status": "content_checked_batches_41_45"
+      "audit_status": "content_checked_batches_41_45",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1438",
@@ -3991,7 +4011,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK607447/",
-      "audit_status": "content_checked_batches_41_45"
+      "audit_status": "content_checked_batches_41_45",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1439",
@@ -4008,7 +4036,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes",
-      "audit_status": "content_checked_batches_41_45"
+      "audit_status": "content_checked_batches_41_45",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1440",
@@ -4025,7 +4061,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://www.usgs.gov/water-science-school/science/facts-about-water",
-      "audit_status": "content_checked_batches_41_45"
+      "audit_status": "content_checked_batches_41_45",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1441",
@@ -4042,7 +4086,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://csl.noaa.gov/assessments/ozone/2022/downloads/twentyquestions.pdf",
-      "audit_status": "content_checked_batches_41_45"
+      "audit_status": "content_checked_batches_41_45",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1442",
@@ -4059,7 +4111,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
-      "audit_status": "content_checked_batches_41_45"
+      "audit_status": "content_checked_batches_41_45",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1467",
@@ -4076,7 +4136,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459261/",
-      "audit_status": "content_checked_batches_41_45"
+      "audit_status": "content_checked_batches_41_45",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1470",
@@ -4093,7 +4161,15 @@
       "c": "সাধারণ বিজ্ঞান",
       "source": "প্রাতিষ্ঠানিক/বৈজ্ঞানিক উৎস",
       "sourceUrl": "https://periodic-table.rsc.org/element/80/Mercury",
-      "audit_status": "content_checked_batches_41_45"
+      "audit_status": "content_checked_batches_41_45",
+      "reaudit_status": "substantive_fact_checked_2026-11-26",
+      "reaudit_checks": [
+        "question_fact",
+        "all_four_options",
+        "keyed_answer",
+        "explanation",
+        "exact_duplicate_signature"
+      ]
     },
     {
       "id": "extra_1561",
@@ -4454,30 +4530,32 @@
       37,
       38,
       39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
-    "retained_expansion_questions_reaudited": 74,
+    "retained_expansion_questions_reaudited": 83,
     "exact_duplicate_crosscheck_against_baseline": 0,
     "exact_duplicates_previously_removed_in_batches_01_05": 3,
     "baseline_questions_factual_reaudit_pending": 130,
-    "next_step": "Re-audit expansion batches 41-45 and compare against the consolidated batches 01-40 set.",
+    "next_step": "Re-audit expansion batches 46-50 and compare against the consolidated batches 01-45 set.",
     "lock_suspended_until_full_reaudit": true,
-    "checkpoint": "SCIENCE_REAUDIT_BATCH_36_40.md",
+    "checkpoint": "SCIENCE_REAUDIT_BATCH_41_45.md",
     "last_comparison": {
-      "new_exact_duplicates_between_batches_36_40_and_prior_01_35": 0,
-      "previously_removed_exact_duplicate_copies": [
-        "extra_1345 -> suite_33",
-        "extra_1346 -> suite_45"
+      "new_exact_duplicates_between_batches_41_45_and_prior_01_40": 0,
+      "duplicate_copy_already_removed_in_source_and_master": [
+        "extra_1531 -> extra_786"
       ],
       "conceptual_overlap_flags": [
-        "extra_1279 vs suite_8/extra_097: DNA full-form question; distractor sets differ",
-        "extra_1281 vs extra_1470: liquid metal at room temperature; option sets differ",
-        "extra_1315 vs suite_5: sound cannot travel in vacuum; one distractor differs",
-        "extra_1316 vs extra_1406/extra_1648: principal function of red blood cells; option sets differ",
-        "extra_1375 vs extra_237: photosynthesis organelle; option sets differ"
+        "extra_1406 vs extra_1316: RBC principal function; distractor set differs",
+        "extra_1467 vs extra_016/extra_198/extra_335/extra_560: insulin secretion from pancreas; wording and option sets differ",
+        "extra_1470 vs extra_1281: liquid metal at room temperature; option set differs"
       ],
       "corrections": 0,
-      "policy": "Exact duplicate deletion requires same normalized category, question, complete option set and keyed answer; conceptual repeats with changed options are flagged, not silently removed."
+      "policy": "Exact duplicate deletion requires same normalized category, question, complete option set and keyed answer; conceptual repeats with changed wording or options are flagged, not silently removed."
     }
   }
 }
