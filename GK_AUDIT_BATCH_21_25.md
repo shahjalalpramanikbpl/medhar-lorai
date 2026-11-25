@@ -32,3 +32,9 @@
 মাস্টার commit: `6b0a8f0897357fdafe0a0f243a88eb3191961c7f`
 
 পরবর্তী ধাপ: ব্যাচ ২৬–৩০। শুরু করার আগে এই অডিট নথি ও ১–২৫ মাস্টার পুনরায় পরীক্ষা করতে হবে।
+
+
+## Final verification
+- Master JSON refreshed after the final batch-25 corrections; 54 GK questions confirmed.
+- Batch 25 duplicate `extra_888` removed from source file; `extra_886` explanation and `extra_887` wording/source corrected.
+- Batch 25 source commit: `c91457a1faf88a8e6842262cc7cf54fe5baad8f2`; duplicate removal commit: `01bfca967151fbbf4c9d4d61a4a7854af1488294`; final master commit: `56892be7270d270451a0e76b656169f0a7a78254`.
