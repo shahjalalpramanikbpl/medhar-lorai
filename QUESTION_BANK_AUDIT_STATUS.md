@@ -10,17 +10,13 @@
 - ইংরেজি প্রশ্নের পূর্ববর্তী সংশোধনসমূহ বহাল। এই পর্যায়ের বাংলা duplicate cleanup-এ ইংরেজি প্রশ্ন মুছে ফেলা হয়নি।
 - Android release build এখনো অডিট-পরবর্তী যাচাইসহ সম্পন্ন হয়নি।
 
-## বাংলা — duplicate cleanup চলমান; বিষয়বস্তুর নিরীক্ষা বাকি
-- মূল `job-prep-suite.js`-এ মোট Q() এন্ট্রি parser-এ শনাক্ত: **১,১১০টি**; এর মধ্যে বাংলা প্রশ্ন: **৮৭৭টি**।
-- মূল suite-এর ভেতরে পূর্ণ signature (normalized category + normalized question + sorted options + correct answer) দিয়ে হুবহু duplicate group: **০**।
-- সম্প্রসারণ ব্যাচ ১-এ ৪০টি প্রশ্ন শনাক্ত; বাংলা ৩৫টি। মূল suite-এর সঙ্গে তুলনায় **৫টি বাংলা exact duplicate** মুছে দেওয়া হয়েছে। একটি ইংরেজি overlap অপরিবর্তিত রাখা হয়েছে।
-- সম্প্রসারণ ব্যাচ ২–৫৬ এবং মূল suite-এর তুলনায় আরও **৫৩টি বাংলা exact duplicate copy** মুছে দেওয়া হয়েছে।
-- সম্প্রসারণ ব্যাচগুলোর নির্বাচিত cross-batch তুলনায় আরও **৭৪টি বাংলা exact duplicate copy** মুছে দেওয়া হয়েছে।
-- এই পর্যায়ে মোট **১৭০টি বাংলা exact duplicate copy** GitHub-এর main branch থেকে মুছে দেওয়া হয়েছে। ১–৫০ ব্যাচের পারস্পরিক তুলনায় এবং মূল suite-এর সঙ্গে cross-check-এ নতুন duplicate পাওয়া গেলে সেগুলোও বাদ দেওয়া হয়েছে। এটি source থেকে নিশ্চিত deletion count; চূড়ান্ত runtime unique count নয়।
-- পরিবর্তনগুলো GitHub commit-এ সংরক্ষিত। প্রতিটি deletion-এ duplicate signature-এর চারটি উপাদান মিলিয়ে দেখা হয়েছে; একই বিষয়/টপিকের ভিন্ন উদাহরণ ইচ্ছাকৃতভাবে বাদ দেওয়া হয়নি।
-- ব্যাচ ৪১–৪৫-এ ১২৫টি রেকর্ড parser-এ শনাক্ত; বাংলা প্রশ্ন ৯৪টি। ওই পাঁচ ব্যাচের ভেতরে, মূল suite-এর সঙ্গে, ৩৬–৪০ এবং ৪৬–৫০ ব্যাচের সঙ্গে পূর্ণ signature-এ তুলনায় কোনো অবশিষ্ট exact duplicate পাওয়া যায়নি। এটি ওই নির্দিষ্ট তুলনার ফল; সব ব্যাচের all-pairs সম্পন্ন হওয়ার দাবি নয়।
-- বাংলা unique count এখনো চূড়ান্ত নয়: সব expansion batch-এর মধ্যে পূর্ণ all-pairs cross-check, runtime parsing এবং final reconciliation বাকি।
-- প্রশ্নের উত্তর, অপশন, ব্যাখ্যা, বানান, দ্ব্যর্থতা ও ভুল তথ্যের পূর্ণ বিষয়বস্তু-অডিটও বাকি। তাই বাংলা প্রশ্নব্যাংককে এখনো সম্পূর্ণ নির্ভুল/চূড়ান্ত বলা যাবে না।
+## বাংলা ভাষা ও সাহিত্য — চূড়ান্ত ফলাফল LOCKED
+- Runtime-এ যাচাইকৃত স্বতন্ত্র প্রশ্ন: **৪০৬টি — LOCKED**।
+- ৪০৬টি প্রশ্নের উত্তরসূচি, চারটি বিকল্প ও ব্যাখ্যার বিষয়বস্তু পর্যালোচনা সম্পন্ন; দ্ব্যর্থক `extra_209` প্রশ্নে distractor সংশোধন করা হয়েছে (commit `68c1bca017fa2a0927835c14e263a2338fe39bd2`)।
+- Validator-এ নির্দিষ্ট ৪০৬টি প্রশ্নের শর্ত যুক্ত; malformed record **০**, canonical full-signature exact duplicate **০**।
+- GitHub Actions run `45633211550`-এ content validation, regression safety এবং release UI smoke checks **১৭/১৭ PASSED**; বাংলা ৪০৬টি এবং English ৪৬৩টি অপরিবর্তিত ও LOCKED হিসেবে পুনরায় যাচাই হয়েছে।
+- **LOCK-এর পরিধি:** বাংলা ভাষা ও সাহিত্য প্রশ্নব্যাংকের ৪০৬টি runtime প্রশ্নের content/structure/duplicate audit। পরবর্তী কোনো সম্পাদনা বা নতুন সংযোজন হলে locked master-এর সঙ্গে তুলনা করে আলাদা audit করতে হবে।
+- ঐতিহাসিক অডিট নোট ও পূর্ববর্তী অসম্পূর্ণ checkpoint-গুলো নিচে কাজের chronology হিসেবে রাখা হয়েছে; সেগুলো বর্তমান LOCKED অবস্থাকে বাতিল করে না।
 
 ## সাম্প্রতিক কোড সংশোধন — exact duplicate policy
 - `job-prep-suite.js`-এর canonical question key এখন সব subject-এর জন্য category + normalized question + sorted options + correct answer ব্যবহার করে; আগের মতো কিছু category-তে শুধু question text দিয়ে dedup হয় না।
@@ -40,11 +36,10 @@
 - Build ফলাফল ও artifact যাচাই না হওয়া পর্যন্ত APK প্রস্তুত বলে দাবি করা যাবে না।
 
 ## পরবর্তী কাজ
-১. expansion batch-গুলোর অবশিষ্ট all-pairs duplicate cross-check সম্পন্ন করা; ১–৫০-এর মূল suite-সংযোগসহ বহু cross-group তুলনা সম্পন্ন, তবে পূর্ণ runtime reconciliation বাকি।
-২. বাংলা প্রশ্নের উত্তর, option, ব্যাখ্যা, বানান, ambiguity ও factual accuracy audit করা।
-৩. বাংলা unique final count runtime-এ যাচাই করে স্থির করা।
-৪. বাংলা + ইংরেজির চূড়ান্ত audit report তৈরি করা; English ৪৬৩ অপরিবর্তিত থাকবে।
-৫. validation সফল হলে Android build ও artifact verification।
+- বাংলা ভাষা ও সাহিত্য: **৪০৬টি — LOCKED**; এই বিষয় পুনরায় খুলতে হলে নতুন পরিবর্তন/সংযোজনের জন্য পৃথক audit করতে হবে।
+- English Grammar & Vocabulary: **৪৬৩টি — LOCKED**।
+- পরবর্তী বিষয় নির্বাচনের আগে সর্বশেষ subject-specific audit record ও master যাচাই করতে হবে।
+- সামগ্রিক release কাজের জন্য legacy `ML_CONTENT` bank-এর প্রশ্নসংখ্যা/validator gate এবং Android build/artifact verification-এর অবস্থা আলাদাভাবে অনুসরণ করতে হবে।
 
 
 ## পূর্ণ runtime validation — ২৫ নভেম্বর ২০২৬ (সর্বশেষ পরীক্ষা)
