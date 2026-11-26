@@ -3679,6 +3679,17 @@
       "retainedIQCandidates": 16,
       "corrections": [],
       "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; FINAL_CLASSIFICATION_AND_RUNTIME_MIGRATION_PENDING"
+    },
+    {
+      "range": "41-50",
+      "candidateCount": 14,
+      "reviewedCount": 14,
+      "exactDuplicateMatchesAgainstConsolidated01_40": 0,
+      "exactDuplicateMatchesWithinCheckpoint": 0,
+      "quantitativeAptitudeCandidates": 4,
+      "retainedIQCandidates": 10,
+      "corrections": [],
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; FINAL_CLASSIFICATION_AND_RUNTIME_MIGRATION_PENDING"
     }
   ],
   "laterBatchRecords": [
@@ -5517,6 +5528,78 @@
       "answer": "৪২",
       "explanation": "পার্থক্য ৪, ৬, ৮, ১০; পরের পার্থক্য ১২, তাই ৩০+১২=৪২।",
       "classificationReason": "series / coding / ranking reasoning"
+    },
+    {
+      "id": "extra_1655",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-49.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি শ্রেণিতে ২৫ জনের মধ্যে রাফির অবস্থান ওপর থেকে ৭ম। নিচ থেকে তার অবস্থান কত?",
+      "options": [
+        "১৭তম",
+        "১৮তম",
+        "১৯তম",
+        "২০তম"
+      ],
+      "answerIndex": 2,
+      "answer": "১৯তম",
+      "explanation": "নিচ থেকে অবস্থান = ২৫ − ৭ + ১ = ১৯তম।",
+      "classificationReason": "series / coding / ranking reasoning"
+    },
+    {
+      "id": "extra_1656",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-49.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি কোডে CAT লেখা হয় DBU। একই নিয়মে DOG কীভাবে লেখা হবে?",
+      "options": [
+        "EPH",
+        "EOG",
+        "FPH",
+        "DPH"
+      ],
+      "answerIndex": 0,
+      "answer": "EPH",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর নেওয়া হয়েছে: D→E, O→P, G→H।",
+      "classificationReason": "series / coding / ranking reasoning"
+    },
+    {
+      "id": "extra_1685",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-50.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরের সংখ্যা কত: ৩, ৯, ২৭, ৮১, ...?",
+      "options": [
+        "১৬২",
+        "১৮৯",
+        "২৪৩",
+        "৩২৪"
+      ],
+      "answerIndex": 2,
+      "answer": "২৪৩",
+      "explanation": "প্রতিটি পদ আগের পদের ৩ গুণ; তাই ৮১ × ৩ = ২৪৩।",
+      "classificationReason": "series / coding / ranking reasoning"
+    },
+    {
+      "id": "extra_1686",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-50.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজে A একা ৬ দিনে এবং B একা ৩ দিনে কাজটি শেষ করে। একসঙ্গে কাজটি শেষ করতে কত দিন লাগবে?",
+      "options": [
+        "১ দিন",
+        "২ দিন",
+        "৩ দিন",
+        "৪ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "২ দিন",
+      "explanation": "দৈনিক কাজের হার ১/৬ + ১/৩ = ১/২; তাই পুরো কাজ শেষ হবে ২ দিনে।",
+      "classificationReason": "work-rate quantitative aptitude"
     }
   ]
 }
