@@ -856,12 +856,12 @@
 
 ## Mental Ability & IQ — ২৭ নভেম্বর ২০২৬ আপডেট
 - ১০-ব্যাচ checkpoint পদ্ধতিতে expansion batch ১১–২০: ৪৭টি, ২১–৩০: ২৭টি, ৩১–৪০: ১৮টি, ৪১–৫০: ১৪টি, ৫১–৫৬: ৪টি — মোট ১১০টি later expansion প্রশ্ন একবার করে যাচাই করা হয়েছে।
-- এই ১১০টির মধ্যে ৪৭টি quantitative aptitude হিসেবে শ্রেণিবদ্ধ; ৬৩টি IQ/যুক্তি হিসেবে রাখা হয়েছে।
+- এই ১১০টি candidate-এর মধ্যে ১টি exact duplicate (`extra_680`) বাদ; ১০৯টি unique record-এর মধ্যে ৪৬টি quantitative aptitude এবং ৬৩টি IQ/যুক্তি হিসেবে রাখা হয়েছে।
 - ব্যাচ ১৮-এর `extra_680`-এ ভুল answer index ২ থেকে ১ করা হয়েছে; সঠিক উত্তর ১২।
-- প্রতিটি ১০-ব্যাচ checkpoint-এ আগের consolidated master-এর সঙ্গে exact duplicate signature scan: ০; checkpoint-গুলোর মধ্যে exact duplicate পাওয়া যায়নি।
-- প্রথম master-এর ১৯২ record (৯৪ IQ + ৯৮ quantitative) সহ consolidated reviewed record ৩০২।
-- আগের runtime validator note-এ ২১৩ IQ + ১১৯ pending বলা হয়েছিল; সেটি stale expectation ছিল। Source inventory: ১৫০ base + ৪২ initial unique expansion + ১১০ later expansion = ৩০২ unique record। Validator এখন initial migration-এর পর ২০৪ IQ (৯৪ reviewed + ১১০ later expansion) প্রত্যাশা করে।
-- Later expansion থেকে আরও ৪৭টি quantitative candidate final runtime migration-এ যুক্ত হবে; final target হবে ১৪৫ quantitative practice + ১৫৭ IQ।
-- **Mental Ability & IQ LOCKED নয়।** ৪৭টি quantitative candidate runtime-এ স্থানান্তর, final exact-duplicate/answer validation এবং validator pass বাকি।
+- প্রতিটি ১০-ব্যাচ checkpoint-এ আগের consolidated master-এর সঙ্গে exact duplicate signature scan-এ ১টি match (`extra_680`) পাওয়া গেছে; এটি আগের quantitative practice bank-এর একই প্রশ্ন ও option set হওয়ায় বাদ দেওয়া হয়েছে।
+- প্রথম master-এর ১৯২ unique record (৯৪ IQ + ৯৮ quantitative) সহ consolidated unique reviewed record ৩০১।
+- আগের runtime validator note-এ ২১৩ IQ + ১১৯ pending বলা হয়েছিল; সেটি stale expectation ছিল। Source inventory: ১৫০ base + ৪২ initial unique expansion + ১১০ later expansion = ৩০২ unique record। Validator এখন initial migration-এর পর ২০৩ IQ (৯৪ reviewed + ১০৯ unique later expansion) প্রত্যাশা করে।
+- Later expansion থেকে আরও ৪৬টি quantitative candidate final runtime migration-এ যুক্ত হবে; final target হবে ১৪৪ quantitative practice + ১৫৭ IQ।
+- **Mental Ability & IQ LOCKED নয়।** ৪৬টি quantitative candidate runtime-এ স্থানান্তর, final exact-duplicate/answer validation এবং validator pass বাকি।
 - Version 3.3 অপরিবর্তিত; Build চালানো হয়নি।
 - Checkpoint reports: `MENTAL_ABILITY_IQ_BATCH_11_20_PROGRESS.md`, `_21_30_PROGRESS.md`, `_31_40_PROGRESS.md`, `_41_50_PROGRESS.md`, `_51_56_PROGRESS.md`.
