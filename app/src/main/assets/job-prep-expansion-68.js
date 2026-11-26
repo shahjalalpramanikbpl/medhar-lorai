@@ -27,7 +27,7 @@ window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
       "E",
       "F"
     ],
-    "a": 0,
+    "a": 2,
     "e": "ব্যবধান +৪,+৫,+৬,+৭; পরেরটি +৮। W-এর পর আট ধাপ E? W(23)+8=E(5).",
     "source": "যুক্তি ও বিশ্লেষণ — বর্ণধারা",
     "sourceUrl": "",
