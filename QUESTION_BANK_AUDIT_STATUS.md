@@ -679,3 +679,13 @@
 - Cumulative source-based review: ০১–১০-এর ৩০ + ১১–২০-এর ৪৩ + ৫১–৫৬-এর ৯ = **৮২/২৯০**; বাকি **২০৮**।
 - রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_11_20.md`; master metadata updated.
 - **English Literature overall: PROVISIONAL / NOT LOCKED** — সব ২৯০টি প্রশ্নের পূর্ণ যাচাই শেষ হয়নি।
+
+
+## English Literature — source-based content review, batches 21–30 (2026-11-27)
+- Expansion batches ২১–৩০-এর retained English Literature প্রশ্ন **২৩টি**—প্রশ্ন, সঠিক উত্তর, ব্যাখ্যা ও answer-index মিলিয়ে যাচাই করা হয়েছে। ২১–২২ ব্যাচে এই বিষয়ের প্রশ্ন ছিল না।
+- নিশ্চিত factual error: **০**; ভুল answer key: **০**; explanation correction: **০**; option/answer-index mismatch: **০**।
+- *Things Fall Apart* বিষয়ে ২৯ ও ৩০ ব্যাচের দুটি প্রশ্নই রাখা হয়েছে; wording ও option set ভিন্ন, তাই ব্যবহারকারীর duplicate নীতি অনুযায়ী এগুলো duplicate নয়।
+- এই checkpoint-এর ২৩টি expansion record content review সম্পন্ন; runtime প্রশ্নে কোনো সংশোধন দরকার হয়নি।
+- Cumulative source-based review: ০১–১০-এর ৩০ + ১১–২০-এর ৪৩ + ২১–৩০-এর ২৩ + ৫১–৫৬-এর ৯ = **১০৫/২৯০**; বাকি **১৮৫** (মূল base bank-সহ)।
+- রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_21_30.md`; consolidated master metadata updated.
+- **English Literature overall: PROVISIONAL / NOT LOCKED** — পুরো ২৯০ প্রশ্নের যাচাই এখনো শেষ হয়নি।
