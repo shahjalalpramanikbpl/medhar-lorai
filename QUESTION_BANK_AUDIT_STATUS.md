@@ -617,3 +617,13 @@
 - Runtime cleanup commits: `70decbf60cdaa12ecb17a7eb943ecf66193c0e15`, `450cdcafa3c2e57009e6bb7aa275f5236792f5a9`, `fdf62917d27e0ca43d0e0fe48aa1aa7efaf4c52c`, `7611809ef1049393f54606c8e57b43fbb17b3e8c`।
 - রিপোর্ট: `ENGLISH_LITERATURE_AUDIT_BATCH_21_30.md`; মাস্টার: `ENGLISH_LITERATURE_MASTER_BATCH_01_30.json`।
 - অবস্থা: **PROVISIONAL / NOT LOCKED** — সব ২২৭টি প্রশ্নের তথ্য, সঠিক উত্তর ও ব্যাখ্যার পূর্ণ উৎসভিত্তিক যাচাই এখনো বাকি।
+
+
+## English Literature — batches 31–40 checkpoint (2026-11-27)
+- ৩১–৪০ ব্যাচে English Literature-এর ৩৬টি প্রার্থী প্রশ্ন পাওয়া গেছে। ৩২, ৩৫ ও ৩৭ ব্যাচে এই বিষয়ের প্রশ্ন ছিল না।
+- ০১–৩০ Master-এর সঙ্গে পূর্ণ signature তুলনায় ১০টি হুবহু ডুপ্লিকেট বাদ: `extra_1110`, `extra_1175`, `extra_1177`, `extra_1197`, `extra_1200`, `extra_1201`, `extra_1203`, `extra_1267`, `extra_1362`, `extra_1390`।
+- নতুন স্বতন্ত্র প্রশ্ন: ২৬টি; গ্রুপের ভেতরে ডুপ্লিকেট: ০; অপশন/answer-index কাঠামোগত ভুল: ০।
+- ০১–৪০ provisional consolidated Master: **২৫৩টি**।
+- Runtime cleanup commits: `a5d2bd08320a176621a0a59005e043fd955095ba`, `fa675c8b30e4e67fc60f8096fe8bafe716f7eb7f`, `6f0a889d914c1d7a770a7ba206adedf35cb6d66a`, `4e784f80d7786793d53678205c9d0b2a074a58a7`, `23d991625ac25975f968dfeee41ee028685986f2`, `98e093502e7608daab197847cd02e90f3a5d39de`।
+- রিপোর্ট: `ENGLISH_LITERATURE_AUDIT_BATCH_31_40.md`; Master: `ENGLISH_LITERATURE_MASTER_BATCH_01_40.json`।
+- অবস্থা: **PROVISIONAL / NOT LOCKED** — ২৫৩টি প্রশ্নের তথ্য, সঠিক উত্তর ও ব্যাখ্যার পূর্ণ উৎসভিত্তিক যাচাই বাকি।
