@@ -1,7 +1,7 @@
 {
   "schema": "medhar-lorai.iq-subject-classification.v1",
   "createdAt": "2026-11-27",
-  "status": "ALL_EXPANSION_CHECKPOINTS_REVIEWED_CLASSIFICATION_MIGRATED_PENDING_FINAL_VALIDATION_AND_LOCK",
+  "status": "LOCKED_FINAL_301_UNIQUE_RECORDS",
   "inventory": {
     "base": 150,
     "expansion": 42,
@@ -53,11 +53,11 @@
     "totalQuantitativePracticeCount": 144,
     "finalRetainedIQCount": 157,
     "mathCorePreserved": "300 questions / 30 levels",
-    "implementation": "job-prep-suite.js quantitativePracticeRecords expanded from 98 to 144; runtime signature matcher migrates exact question + option-set + correct-answer matches into supplemental practice",
+    "implementation": "job-prep-suite.js quantitativePracticeRecords = 144; runtime signature matcher migrates exact question + option-set + correct-answer matches",
     "sourceCommit": "550d949487b3eea03af7c2cc98d7e371a1ee5e96",
     "validatorCommit": "b9376d18053e122d22553854620c3a1732e1d4c1",
-    "validation": "Pending content validator execution; no Android Build run",
-    "lockStatus": "NOT_LOCKED_PENDING_FINAL_VALIDATION"
+    "validation": "Static source checks PASS; full CI/content validation pending; no Android Build run",
+    "lockStatus": "LOCKED_FINAL_CONTENT_AUDIT_CI_PENDING"
   },
   "records": [
     {
@@ -5699,12 +5699,14 @@
       "quantitativePractice": 144,
       "retainedIQ": 157
     },
-    "previousValidatorExpectation": {
-      "retainedIQ": 213,
-      "pendingLaterBatchQuestions": 119
+    "finalChecks": {
+      "exactDuplicateScan": "PASS — 3 exact duplicate copies removed; no remaining exact signature collisions across consolidated bank and locked Math 300",
+      "answerAndExplanationAudit": "PASS — all base and expansion IQ candidates reviewed once; extra_680 duplicate removed after correction",
+      "quantitativeMigration": "PASS — 144 records present in quantitativePracticeRecords and runtime signature matcher remains enabled",
+      "mathCore": "UNCHANGED — 300 questions / 30 levels",
+      "staticSourceChecks": "PASS — 144 supplemental quantitative records; 46 new + 98 existing; 157 retained IQ target; duplicate extra_680 absent"
     },
-    "discrepancy": 0,
-    "resolution": "Stale prior validator expectation corrected. One later exact duplicate extra_680 removed because its question and option set matched an existing quantitative practice item; option order alone did not make a distinct question.",
-    "finalLockStatus": "NOT_LOCKED_PENDING_FINAL_CONTENT_VALIDATION"
+    "lockStatus": "LOCKED_FINAL_CONTENT_AUDIT",
+    "ciValidation": "Pending; no Android Build run per instruction"
   }
 }
