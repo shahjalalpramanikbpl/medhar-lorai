@@ -5337,6 +5337,186 @@
       "answer": "সোমবার",
       "explanation": "গতকাল শুক্রবার হলে আজ শনিবার; আগামী পরশু অর্থ আজ থেকে দুই দিন পর, সোমবার।",
       "classificationReason": "series / coding / calendar / spatial / family / ranking reasoning"
+    },
+    {
+      "id": "extra_1411",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-41.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরের সংখ্যা নির্ণয় করুন: ২, ৬, ১২, ২০, ৩০, ...",
+      "options": [
+        "৩৬",
+        "৪০",
+        "৪২",
+        "৪৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৪২",
+      "explanation": "পার্থক্য ৪, ৬, ৮, ১০; পরের পার্থক্য ১২। তাই ৩০+১২=৪২।",
+      "classificationReason": "series / coding / ranking reasoning"
+    },
+    {
+      "id": "extra_1413",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-41.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি CAT = ২৪ এবং DOG = ২৬ হয় (অক্ষরগুলোর বর্ণমালার অবস্থানের যোগফল), তবে BAT = কত?",
+      "options": [
+        "২১",
+        "২৩",
+        "২৫",
+        "২৭"
+      ],
+      "answerIndex": 1,
+      "answer": "২৩",
+      "explanation": "B=2, A=1, T=20; যোগফল ২৩।",
+      "classificationReason": "series / coding / ranking reasoning"
+    },
+    {
+      "id": "extra_1446",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-42.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী সংখ্যা কত: ৩, ৮, ১৫, ২৪, ৩৫, ...?",
+      "options": [
+        "৪৬",
+        "৪৭",
+        "৪৮",
+        "৪৯"
+      ],
+      "answerIndex": 2,
+      "answer": "৪৮",
+      "explanation": "ক্রমাগত পার্থক্য ৫, ৭, ৯, ১১; পরের পার্থক্য ১৩। তাই ৩৫+১৩=৪৮।",
+      "classificationReason": "series / coding / ranking reasoning"
+    },
+    {
+      "id": "extra_1474",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-43.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি শ্রেণিতে ৪০ জন শিক্ষার্থীর মধ্যে রাহিম ওপর থেকে ১২তম। নিচ থেকে তার অবস্থান কত?",
+      "options": [
+        "২৭তম",
+        "২৮তম",
+        "২৯তম",
+        "৩০তম"
+      ],
+      "answerIndex": 2,
+      "answer": "২৯তম",
+      "explanation": "নিচ থেকে অবস্থান = ৪০−১২+১ = ২৯তম।",
+      "classificationReason": "series / coding / ranking reasoning"
+    },
+    {
+      "id": "extra_1475",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-43.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি A=1, B=2, ... Z=26 হয়, তবে CODE শব্দটির অক্ষরমানের যোগফল কত?",
+      "options": [
+        "২৫",
+        "২৬",
+        "২৭",
+        "২৮"
+      ],
+      "answerIndex": 2,
+      "answer": "২৭",
+      "explanation": "C=3, O=15, D=4, E=5; মোট ৩+১৫+৪+৫=২৭।",
+      "classificationReason": "series / coding / ranking reasoning"
+    },
+    {
+      "id": "extra_1535",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-45.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি সংখ্যার ২৫% হলো ৬০। সংখ্যাটি কত?",
+      "options": [
+        "১৮০",
+        "২০০",
+        "২৪০",
+        "২৬০"
+      ],
+      "answerIndex": 2,
+      "answer": "২৪০",
+      "explanation": "সংখ্যাটি = ৬০ ÷ ০.২৫ = ২৪০।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_1536",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-45.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা পূরণ করুন: ২, ৬, ১২, ২০, ৩০, ...",
+      "options": [
+        "৩৬",
+        "৪০",
+        "৪২",
+        "৪৪"
+      ],
+      "answerIndex": 2,
+      "answer": "৪২",
+      "explanation": "পার্থক্য ৪, ৬, ৮, ১০; পরের পার্থক্য ১২। তাই পরের সংখ্যা ৪২।",
+      "classificationReason": "series / coding / ranking reasoning"
+    },
+    {
+      "id": "extra_1565",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-46.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পণ্যের দাম ২০% কমিয়ে পরে কমানো দামের ওপর ২০% বাড়ানো হলো। চূড়ান্ত দাম মূল দামের তুলনায় কত?",
+      "options": [
+        "সমান",
+        "৪% কম",
+        "৪% বেশি",
+        "৮% কম"
+      ],
+      "answerIndex": 1,
+      "answer": "৪% কম",
+      "explanation": "ধরি মূল দাম ১০০; কমে ৮০, এরপর ২০% বাড়লে ৯৬। অর্থাৎ ৪% কম।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_1566",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-46.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি শ্রেণিতে ২৪ জন শিক্ষার্থীর গড় নম্বর ৬৫। মোট নম্বর কত?",
+      "options": [
+        "১৪৬০",
+        "১৫০০",
+        "১৫৬০",
+        "১৬০০"
+      ],
+      "answerIndex": 2,
+      "answer": "১৫৬০",
+      "explanation": "মোট নম্বর = গড় × শিক্ষার্থীসংখ্যা = ৬৫×২৪ = ১৫৬০।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_1595",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-47.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী সংখ্যা কত: ২, ৬, ১২, ২০, ৩০, ...?",
+      "options": [
+        "৩৬",
+        "৪০",
+        "৪২",
+        "৪৪"
+      ],
+      "answerIndex": 2,
+      "answer": "৪২",
+      "explanation": "পার্থক্য ৪, ৬, ৮, ১০; পরের পার্থক্য ১২, তাই ৩০+১২=৪২।",
+      "classificationReason": "series / coding / ranking reasoning"
     }
   ]
 }
