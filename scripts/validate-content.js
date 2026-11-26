@@ -193,8 +193,8 @@ else {
   const movedQuantitative = subjectBank.filter(x => x.c === "পরিমাণগত দক্ষতা অনুশীলন").length;
   const retainedIq = subjectBank.filter(x => x.c === "মানসিক দক্ষতা ও IQ").length;
   if (movedQuantitative !== 98) errors.push("Quantitative practice must contain exactly 98 reviewed questions; found " + movedQuantitative + ".");
-  if (retainedIq !== 213) errors.push("Mental Ability & IQ must retain 213 questions at this checkpoint (94 reviewed IQ + 119 later-batch questions awaiting their 10-batch audit); found " + retainedIq + ".");
+  if (retainedIq !== 204) errors.push("Mental Ability & IQ must retain 204 questions at this checkpoint (94 reviewed IQ + 110 later-batch questions awaiting final classification); found " + retainedIq + ".");
   if (math.length !== 300 || levels.length !== 30) errors.push("Quantitative migration must not alter the locked 300-question/30-level Math core.");
-  console.log("Quantitative practice:", movedQuantitative, "| IQ retained:", retainedIq, "(94 reviewed + 119 pending later batches) | Math core:", math.length, "/", levels.length);
+  console.log("Quantitative practice:", movedQuantitative, "| IQ retained:", retainedIq, "(94 reviewed + 110 later-batch questions) | Math core:", math.length, "/", levels.length);
 }
 if (errors.length) { console.error(errors.slice(0, 50).join("\n")); process.exit(1); }
