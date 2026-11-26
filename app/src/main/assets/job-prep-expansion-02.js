@@ -436,22 +436,6 @@ const additions = [
     "d": "মাঝারি"
   },
   {
-    "id": "extra_076",
-    "c": "English Literature",
-    "q": "Who wrote “Pride and Prejudice”?",
-    "o": [
-      "Charlotte Brontë",
-      "Jane Austen",
-      "George Eliot",
-      "Virginia Woolf"
-    ],
-    "a": 1,
-    "e": "Jane Austen wrote the novel Pride and Prejudice, published in 1813.",
-    "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
     "id": "extra_077",
     "c": "English Literature",
     "q": "“The Waste Land” is a poem by—",
