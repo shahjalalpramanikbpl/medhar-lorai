@@ -699,3 +699,13 @@
 - Cumulative source-based review: ০১–১০-এর ৩০ + ১১–২০-এর ৪৩ + ২১–৩০-এর ২৩ + ৩১–৪০-এর ২৬ + ৫১–৫৬-এর ৯ = **১৩১/২৯০**; বাকি **১৫৯** (মূল base bank ও ৪১–৫০ expansion-সহ)।
 - বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_31_40.md`; consolidated master metadata updated.
 - **English Literature overall: PROVISIONAL / NOT LOCKED** — ২৯০টি প্রশ্নের সবগুলোর যাচাই এখনো শেষ হয়নি।
+
+
+## English Literature — source-based content review, batches 41–50 (2026-11-27)
+- Expansion batches ৪১–৫০-এর retained English Literature প্রশ্ন **২৮টি**—প্রশ্নের তথ্য, সঠিক উত্তর, ব্যাখ্যা এবং answer-index/option alignment যাচাই করা হয়েছে।
+- নিশ্চিত factual error: **০**; ভুল answer key: **০**; explanation correction: **০**; option/answer-index mismatch: **০**।
+- *Heart of Darkness* প্রশ্নে Marlow-কে প্রধান embedded narrative-এর narrator হিসেবে ধরা হয়েছে; explanation-এ “most of the story” বলা আছে, কারণ উপন্যাসে unnamed frame narrator-ও রয়েছে।
+- কোনো runtime প্রশ্ন/ব্যাখ্যা সংশোধনের প্রয়োজন হয়নি; আগের deduplication checkpoint-এর duplicate অপসারণ অপরিবর্তিত।
+- Cumulative source-based review: ০১–১০-এর ৩০ + ১১–২০-এর ৪৩ + ২১–৩০-এর ২৩ + ৩১–৪০-এর ২৬ + ৪১–৫০-এর ২৮ + ৫১–৫৬-এর ৯ = **১৫৯/২৯০**; বাকি **১৩১টি**, সবই মূল base bank।
+- বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_41_50.md`; consolidated master metadata আপডেট।
+- **English Literature overall: PROVISIONAL / NOT LOCKED** — base bank-এর ১৩১টি প্রশ্নের item-by-item যাচাই এখনো বাকি।
