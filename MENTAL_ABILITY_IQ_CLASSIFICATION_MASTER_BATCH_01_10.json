@@ -1,7 +1,7 @@
 {
   "schema": "medhar-lorai.iq-subject-classification.v1",
   "createdAt": "2026-11-27",
-  "status": "RUNTIME_MIGRATION_COMMITTED_PENDING_CI_VALIDATION_NOT_LOCKED",
+  "status": "BATCH_01_10_CLASSIFICATION_MIGRATED_PENDING_FINAL_LOCK_AND_LATER_BATCH_AUDIT",
   "inventory": {
     "base": 150,
     "expansion": 42,
@@ -44,11 +44,15 @@
     "movedFrom": "মানসিক দক্ষতা ও IQ",
     "proposedTransferCount": 98,
     "retainedIQCount": 94,
-    "mathCorePreserved": "MATH_AUDIT_MASTER_BASELINE_300.json — ৩০০টি মূল প্রশ্ন ও ৩০ লেভেল অপরিবর্তিত",
+    "mathCorePreserved": "300 questions / 30 levels",
     "implementation": "job-prep-suite.js runtime signature matching; supplemental practice uses 10 questions per level; final level may contain fewer than 10",
-    "sourceCommit": "8f0c8c7a255800627c0f0f7aa855224fc0deec7d",
+    "sourceCommit": "e42a2bd49457cf751f1d4435bcb918653ad7835a",
     "validation": "Pending GitHub Actions bank validation, runtime counts and release regression checks",
-    "lockStatus": "NOT_LOCKED"
+    "lockStatus": "NOT_LOCKED",
+    "movedToQuantitativePractice": 98,
+    "retainedInIQAtRuntime": 213,
+    "reviewedIQRetained": 94,
+    "laterBatchQuestionsPendingAudit": 119
   },
   "records": [
     {
