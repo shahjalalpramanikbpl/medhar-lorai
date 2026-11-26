@@ -534,22 +534,6 @@ const additions = [
     "d": "মাঝারি"
   },
   {
-    "id": "extra_039",
-    "c": "English Literature",
-    "q": "Who wrote “Gulliver’s Travels”?",
-    "o": [
-      "Daniel Defoe",
-      "Jonathan Swift",
-      "Henry Fielding",
-      "Samuel Richardson"
-    ],
-    "a": 1,
-    "e": "Jonathan Swift published “Gulliver’s Travels” in 1726.",
-    "source": "প্রচলিত পাঠ্যপুস্তক/স্বীকৃত সাহিত্যতথ্য",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
     "id": "extra_040",
     "c": "English Literature",
     "q": "The literary term “soliloquy” refers to—",
