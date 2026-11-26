@@ -865,3 +865,14 @@
 - **Mental Ability & IQ LOCKED নয়।** ৪৬টি quantitative candidate runtime-এ স্থানান্তর, final exact-duplicate/answer validation এবং validator pass বাকি।
 - Version 3.3 অপরিবর্তিত; Build চালানো হয়নি।
 - Checkpoint reports: `MENTAL_ABILITY_IQ_BATCH_11_20_PROGRESS.md`, `_21_30_PROGRESS.md`, `_31_40_PROGRESS.md`, `_41_50_PROGRESS.md`, `_51_56_PROGRESS.md`.
+
+
+### Mental Ability & IQ — FINAL LOCK (27-11-2026)
+- চূড়ান্ত master: `MENTAL_ABILITY_IQ_MASTER_FINAL_REPORT.md` এবং `MENTAL_ABILITY_IQ_CLASSIFICATION_MASTER_BATCH_01_10.json`।
+- **LOCKED — ৩০১ unique record**: ১৫৭ IQ + ১৪৪ quantitative practice।
+- মোট ৩টি exact duplicate copy বাদ; final exact duplicate signature scan: ০ remaining.
+- নতুন quantitative questions-এর locked Math 300-এর সঙ্গে exact collision: ০।
+- Runtime supplemental practice array ৯৮ থেকে ১৪৪-এ উন্নীত; IQ runtime target ১৫৭।
+- মূল গণিত ৩০০/৩০ অপরিবর্তিত; app version 3.3 অপরিবর্তিত।
+- Static source checks PASS. Full CI/content validation pending; Android Build চালানো হয়নি।
+- পরবর্তী অডিট: **যুক্তি ও বিশ্লেষণ**, একই ১০-ব্যাচ checkpoint নীতিতে।
