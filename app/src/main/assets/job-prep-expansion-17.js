@@ -1,7 +1,7 @@
 /* মেধার লড়াই — চাকরি প্রস্তুতি প্রশ্নব্যাংক সম্প্রসারণ ব্যাচ ১৭ */
 (()=>{'use strict';
 const additions=[
-      {
+  {
     "id": "extra_625",
     "c": "বাংলা ভাষা ও সাহিত্য",
     "q": "‘নকশী কাঁথার মাঠ’ কাব্যের রচয়িতা কে?",
@@ -81,7 +81,7 @@ const additions=[
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_631",
     "c": "English",
     "q": "Choose the correct sentence.",
@@ -289,7 +289,7 @@ const additions=[
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_645",
     "c": "মানসিক দক্ষতা ও IQ",
     "q": "একটি সংখ্যার ২৫% হলো ৪৫। সংখ্যাটি কত?",
@@ -401,7 +401,7 @@ const additions=[
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_653",
     "c": "যুক্তি ও বিশ্লেষণ",
     "q": "যদি ‘সব A হলো B’ এবং ‘কোনো B হলো C নয়’, তবে কোনটি সত্য?",
@@ -418,22 +418,6 @@ const additions=[
     "d": ""
   },
   {
-    "id": "extra_654",
-    "c": "English Literature",
-    "q": "Who wrote the novel “Pride and Prejudice”?",
-    "o": [
-      "Jane Austen",
-      "Mary Shelley",
-      "George Eliot",
-      "Virginia Woolf"
-    ],
-    "a": 0,
-    "e": "Jane Austen wrote Pride and Prejudice, first published in 1813.",
-    "source": "Novel",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
     "id": "extra_655",
     "c": "English Literature",
     "q": "Who is the author of “Paradise Lost”?",
@@ -446,22 +430,6 @@ const additions=[
     "a": 0,
     "e": "John Milton wrote the epic poem Paradise Lost, first published in 1667.",
     "source": "Epic poetry",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
-    "id": "extra_656",
-    "c": "English Literature",
-    "q": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
-    "o": [
-      "Macbeth",
-      "Hamlet",
-      "Othello",
-      "King Lear"
-    ],
-    "a": 1,
-    "e": "Rosencrantz and Guildenstern appear in Shakespeare’s tragedy Hamlet.",
-    "source": "Drama",
     "sourceUrl": "",
     "d": ""
   },
