@@ -30,6 +30,12 @@
       "id": "extra_345",
       "duplicateOf": "base_055",
       "sourceFile": "app/src/main/assets/job-prep-expansion-09.js"
+    },
+    {
+      "id": "extra_680",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-18.js",
+      "duplicateOf": "existing quantitativePracticeRecords entry: একই প্রশ্ন '৮০-এর ১৫% কত?' এবং একই চারটি option; কেবল option order আলাদা",
+      "reason": "Exact same question and same option set; option order variation does not make a distinct question."
     }
   ],
   "mathMasterComparison": {
@@ -3643,9 +3649,9 @@
       "range": "11-20",
       "candidateCount": 47,
       "reviewedCount": 47,
-      "exactDuplicateMatchesAgainstBatch01_10": 0,
+      "exactDuplicateMatchesAgainstBatch01_10": 1,
       "exactDuplicateMatchesWithinCheckpoint": 0,
-      "quantitativeAptitudeCandidates": 26,
+      "quantitativeAptitudeCandidates": 25,
       "retainedIQCandidates": 21,
       "corrections": [
         {
@@ -3656,7 +3662,13 @@
           "reason": "৮০-এর ১৫% = ১২; option index 1."
         }
       ],
-      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; FINAL_CLASSIFICATION_AND_RUNTIME_MIGRATION_PENDING"
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; FINAL_CLASSIFICATION_AND_RUNTIME_MIGRATION_PENDING",
+      "duplicateRemovals": [
+        {
+          "id": "extra_680",
+          "duplicateOf": "existing quantitativePracticeRecords item with same question and same option set"
+        }
+      ]
     },
     {
       "range": "21-30",
@@ -4386,24 +4398,6 @@
       "answerIndex": 2,
       "answer": "১৫০ কিমি",
       "explanation": "দূরত্ব = বেগ × সময় = ৬০×২.৫ = ১৫০ কিমি।",
-      "classificationReason": "direct quantitative aptitude"
-    },
-    {
-      "id": "extra_680",
-      "sourceFile": "app/src/main/assets/job-prep-expansion-18.js",
-      "sourceType": "expansion",
-      "originalCategory": "মানসিক দক্ষতা ও IQ",
-      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
-      "question": "৮০-এর ১৫% কত?",
-      "options": [
-        "১০",
-        "১২",
-        "১৪",
-        "১৬"
-      ],
-      "answerIndex": 1,
-      "answer": "১২",
-      "explanation": "৮০×১৫÷১০০ = ১২।",
       "classificationReason": "direct quantitative aptitude"
     },
     {
@@ -5693,17 +5687,19 @@
       "retainedIQCandidates": 94
     },
     "laterExpansion": {
-      "recordsFoundAndReviewed": 110,
-      "quantitativeCandidates": 47,
+      "sourceCandidatesReviewed": 110,
+      "exactDuplicateCopiesRemoved": 1,
+      "uniqueRecords": 109,
+      "quantitativeCandidates": 46,
       "retainedIQCandidates": 63
     },
-    "consolidatedUniqueRecords": 302,
+    "consolidatedUniqueRecords": 301,
     "currentRuntimeAfterInitialMigration": {
       "quantitativePractice": 98,
-      "retainedIQ": 204
+      "retainedIQ": 203
     },
     "finalTargetAfterAllClassifications": {
-      "quantitativePractice": 145,
+      "quantitativePractice": 144,
       "retainedIQ": 157
     },
     "previousValidatorExpectation": {
@@ -5711,7 +5707,7 @@
       "pendingLaterBatchQuestions": 119
     },
     "discrepancy": 0,
-    "resolution": "Previous validator expectation was stale by 9; source inventory is 150 base + 42 unique initial expansion + 110 later expansion = 302 unique records. Validator now expects 204 IQ before the additional 47 quantitative candidates are migrated.",
-    "finalLockStatus": "NOT_LOCKED; final runtime migration and final validation still pending"
+    "resolution": "Previous validator expectation was stale; actual unique source inventory is 150 base + 42 initial unique expansion + 109 unique later expansion = 301. One exact duplicate (extra_680) was removed from expansion batch 18.",
+    "finalLockStatus": "NOT_LOCKED; migrate 46 new quantitative records and run final validation before lock"
   }
 }
