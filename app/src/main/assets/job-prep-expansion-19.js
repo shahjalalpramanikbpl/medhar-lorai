@@ -427,7 +427,7 @@ const additions=[
       "Thomas Hardy"
     ],
     "a": 0,
-    "e": "Geoffrey Chaucer wrote “The Canterbury Tales” in Middle English.",
+    "e": "Geoffrey Chaucer wrote The Canterbury Tales in Middle English; the work is a collection of tales told by pilgrims.",
     "source": "Medieval Literature",
     "sourceUrl": "",
     "d": ""
