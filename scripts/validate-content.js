@@ -186,4 +186,15 @@ if (!homeButtonCheck.includes("appPresence") || !homeButtonCheck.includes("showU
 const rulesCheck = fs.readFileSync("firestore.rules", "utf8");
 if (!rulesCheck.includes("match /appPresence/{uid}") || !rulesCheck.includes("request.auth.uid == 'TIEU9BdlVFcj2LzwoGKI2BOd2tR2'")) errors.push("Firestore presence rules must restrict cross-user reads to the app owner.");
 
+// Verify the IQ-to-quantitative runtime classification after every expansion has loaded.
+if (typeof sandbox.window.JOB_PREP_APPLY_QUANTITATIVE !== "function") errors.push("Quantitative classification hook is missing.");
+else {
+  sandbox.window.JOB_PREP_APPLY_QUANTITATIVE();
+  const movedQuantitative = subjectBank.filter(x => x.c === "পরিমাণগত দক্ষতা অনুশীলন").length;
+  const retainedIq = subjectBank.filter(x => x.c === "মানসিক দক্ষতা ও IQ").length;
+  if (movedQuantitative !== 98) errors.push("Quantitative practice must contain exactly 98 reviewed questions; found " + movedQuantitative + ".");
+  if (retainedIq !== 94) errors.push("Mental Ability & IQ must retain exactly 94 questions; found " + retainedIq + ".");
+  if (math.length !== 300 || levels.length !== 30) errors.push("Quantitative migration must not alter the locked 300-question/30-level Math core.");
+  console.log("Quantitative practice:", movedQuantitative, "| IQ retained:", retainedIq, "| Math core:", math.length, "/", levels.length);
+}
 if (errors.length) { console.error(errors.slice(0, 50).join("\n")); process.exit(1); }
