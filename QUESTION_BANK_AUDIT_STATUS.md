@@ -580,3 +580,12 @@
 - ৩৬টির first-pass content review: নিশ্চিত ভুল ০, malformed ০, invalid answer index ০, exact duplicate ০; ৭টি near-repeat pair আলাদা full signature হওয়ায় রাখা হয়েছে।
 - **Scope limitation:** মূল `job-prep-suite.js`-এ আরও **১৩৩টি** pre-existing English Literature Q()-record আছে। এগুলো এই ৩৬-record expansion master-এ অন্তর্ভুক্ত বা বিষয়বস্তু-অডিট করা হয়নি। তাই সম্পূর্ণ English Literature subject LOCK দাবি করা হচ্ছে না।
 - পরবর্তী ধাপ: base bank-এর ১৩৩টি প্রশ্নের সঙ্গে cross-duplicate ও বিষয়বস্তু-পর্যালোচনা; তারপর expansion batch ১১–২০-কে ০১–১০ master-এর সঙ্গে canonical full signature অনুযায়ী তুলনা।
+
+
+## English Literature — Base Bank + Expansion 01–10 Cross-Deduplication (২৭ নভেম্বর ২০২৬)
+- মূল base bank-এর ১৩৩টি English Literature record এবং expansion ০১–১০-এর ৩৬টি record মিলিয়ে মোট ১৬৯টি source record পরীক্ষা।
+- Canonical full signature-এ ৮টি exact duplicate record শনাক্ত ও runtime source থেকে বাদ: expansion IDs `extra_039`, `extra_076`, `extra_156`, `extra_158`, `extra_159`, `extra_274`; base-bank-এর পরের পুনরাবৃত্ত record দুটি (Great Expectations, The Importance of Being Earnest)।
+- Cleanup-এর পর ১৬১টি unique record: base bank ১৩১ + expansion ০১–১০ থেকে ৩০। পুনরায় exact-signature scan-এ duplicate group ০।
+- Master: `ENGLISH_LITERATURE_MASTER_BASELINE_01_10.json` (commit `4c9aa0c67743bed7070d26cff8c1361599e8368f`)।
+- বিস্তারিত cross-audit: `ENGLISH_LITERATURE_BASE_CROSS_AUDIT_01_10.md` (commit `4d40cdf3e026204ce66268e43254b42ff82633c7`)।
+- **এখনো NOT LOCKED:** base bank-এর প্রতিটি প্রশ্নের পূর্ণ তথ্যসূত্রভিত্তিক fact-check এবং expansion ১১–২০-এর সঙ্গে তুলনা বাকি।
