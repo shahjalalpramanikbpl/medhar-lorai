@@ -1,7 +1,7 @@
 {
   "title": "English Literature consolidated master batches 01-56",
   "date": "2026-11-27",
-  "status": "PROVISIONAL_MASTER_NOT_LOCKED_CONTENT_SOURCE_REVIEW_PENDING",
+  "status": "LOCKED_FINAL_285_UNIQUE_RECORDS",
   "counts": {
     "batch_01_50_unique": 281,
     "batch_51_56_candidate": 12,
@@ -16,8 +16,8 @@
   },
   "deduplication": "Exact full signature only: normalized category (category or c) + normalized question + sorted normalized options + normalized correct answer. Similar wording with different option sets retained. Final consolidated reconciliation found and removed five additional exact duplicate copies: extra_433, extra_471, extra_542, extra_619, extra_657. The earlier provisional count of 290 unique entries was corrected to 285 unique retained records.",
   "fact_check": {
-    "status": "ALL_RETAINED_RECORDS_SOURCE_CHECKED",
-    "note": "All 290 candidate English Literature records were source-reviewed (159 expansion + 131 base bank). Final full-signature reconciliation removed five exact duplicate copies, leaving 285 unique retained records. All 285 retained records have source-based content review coverage. Final runtime, duplicate and structural reconciliation passed; the subject may be marked LOCKED."
+    "status": "LOCKED",
+    "note": "LOCKED: all 290 candidates source-reviewed (159 expansion + 131 base bank); five exact duplicate copies removed, leaving 285 unique retained records. Final runtime alignment, duplicate-signature and structural validation passed."
   },
   "records": [
     {
@@ -5366,7 +5366,7 @@
     "overall_subject_status": "PROVISIONAL_PENDING_FINAL_RECONCILIATION"
   },
   "final_reconciliation": {
-    "status": "PASSED",
+    "status": "PASSED_LOCKED",
     "date": "2026-11-27",
     "reviewed_candidate_records": 290,
     "final_unique_records": 285,
