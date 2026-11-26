@@ -288,7 +288,7 @@ const additions=[
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_712",
     "c": "মানসিক দক্ষতা ও IQ",
     "q": "একটি ঘড়িতে ৩টা ৩০ মিনিটে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী ক্ষুদ্র কোণ কত?",
@@ -336,7 +336,7 @@ const additions=[
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_716",
     "c": "যুক্তি ও বিশ্লেষণ",
     "q": "সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। এ থেকে নিশ্চিতভাবে কোনটি বলা যায়?",
@@ -367,7 +367,8 @@ const additions=[
     "source": "Coding-Decoding",
     "sourceUrl": "",
     "d": ""
-  },{
+  },
+  {
     "id": "extra_719",
     "c": "যুক্তি ও বিশ্লেষণ",
     "q": "একটি সারিতে মিতা সামনে থেকে ৮ম এবং পেছন থেকে ১৩তম। সারিতে মোট কতজন?",
@@ -400,22 +401,6 @@ const additions=[
     "d": ""
   },
   {
-    "id": "extra_721",
-    "c": "English Literature",
-    "q": "Who wrote the novel “Pride and Prejudice”?",
-    "o": [
-      "Charlotte Brontë",
-      "Jane Austen",
-      "George Eliot",
-      "Mary Shelley"
-    ],
-    "a": 1,
-    "e": "Jane Austen published “Pride and Prejudice” in 1813.",
-    "source": "English Novel",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
     "id": "extra_722",
     "c": "English Literature",
     "q": "“Paradise Lost” is primarily written in which poetic form?",
@@ -444,22 +429,6 @@ const additions=[
     "a": 0,
     "e": "Geoffrey Chaucer wrote “The Canterbury Tales” in Middle English.",
     "source": "Medieval Literature",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
-    "id": "extra_724",
-    "c": "English Literature",
-    "q": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
-    "o": [
-      "Macbeth",
-      "Hamlet",
-      "Othello",
-      "King Lear"
-    ],
-    "a": 1,
-    "e": "Rosencrantz and Guildenstern appear in Shakespeare’s tragedy “Hamlet”.",
-    "source": "Shakespeare",
     "sourceUrl": "",
     "d": ""
   },
