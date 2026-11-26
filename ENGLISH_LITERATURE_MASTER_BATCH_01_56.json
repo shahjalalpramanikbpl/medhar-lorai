@@ -14,7 +14,7 @@
   "deduplication": "Exact full signature only: normalized category + normalized question + sorted normalized options + normalized correct answer. Similar wording with different option sets retained.",
   "fact_check": {
     "status": "PARTIAL_SOURCE_BASED_REVIEW_COMPLETE",
-    "note": "Source-based content review completed for expansion records in batches 01–56 (159 records) and base-bank records base_001–base_060 (60 records). Total reviewed: 219/290; 71 base-bank records remain unverified. The consolidated master must remain provisional and must not be locked until every record is checked."
+    "note": "Source-based content review completed for expansion records in batches 01–56 (159 records) and base-bank records base_001–base_090 (90 records). Total reviewed: 249/290; 41 base-bank records remain unverified. The consolidated master must remain provisional and must not be locked until every record is checked."
   },
   "records": [
     {
@@ -5342,6 +5342,51 @@
       "base_058",
       "base_059",
       "base_060"
+    ],
+    "review_date": "2026-11-27",
+    "overall_subject_status": "PROVISIONAL_NOT_LOCKED"
+  },
+  "content_review_base_061_090": {
+    "status": "CONTENT_CHECKED",
+    "scope": "Base-bank records base_061 through base_090; runtime source lines 1065, 1087–1089, 1183–1188, 1214–1221, 1252–1263",
+    "checked_records": 30,
+    "confirmed_factual_errors": 0,
+    "incorrect_answer_keys": 0,
+    "explanation_corrections": 0,
+    "option_answer_index_mismatches": 0,
+    "runtime_content_corrections": 0,
+    "runtime_alignment": "All 30 live runtime Q() records re-fetched at mapped source lines and matched master question, options, answer index, and explanation.",
+    "reviewed_ids": [
+      "base_061",
+      "base_062",
+      "base_063",
+      "base_064",
+      "base_065",
+      "base_066",
+      "base_067",
+      "base_068",
+      "base_069",
+      "base_070",
+      "base_071",
+      "base_072",
+      "base_073",
+      "base_074",
+      "base_075",
+      "base_076",
+      "base_077",
+      "base_078",
+      "base_079",
+      "base_080",
+      "base_081",
+      "base_082",
+      "base_083",
+      "base_084",
+      "base_085",
+      "base_086",
+      "base_087",
+      "base_088",
+      "base_089",
+      "base_090"
     ],
     "review_date": "2026-11-27",
     "overall_subject_status": "PROVISIONAL_NOT_LOCKED"
