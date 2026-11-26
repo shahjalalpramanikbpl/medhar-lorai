@@ -13,8 +13,8 @@
   },
   "deduplication": "Exact full signature only: normalized category + normalized question + sorted normalized options + normalized correct answer. Similar wording with different option sets retained.",
   "fact_check": {
-    "status": "PENDING_FULL_ITEM_BY_ITEM_FACT_AND_EXPLANATION_VERIFICATION",
-    "note": "This checkpoint confirms exact full-signature deduplication and four-option answer-index structure only; it does not certify every fact or explanation."
+    "status": "PARTIAL_SOURCE_BASED_REVIEW_COMPLETE",
+    "note": "Source-based content review completed for retained expansion records in batches 01–10 (30), 11–20 (43), 21–30 (23), 31–40 (26), and 51–56 (9). The 131 base-bank records and retained expansion records from batches 41–50 still require item-by-item content verification. The consolidated 290-record master remains provisional and must not be locked."
   },
   "records": [
     {
@@ -5235,5 +5235,15 @@
       "The National Archives: Shakespeare and the Bard epithet",
       "Poetry Foundation: Alexander Pope and the Augustan Age"
     ]
+  },
+  "content_review_batches_31_40": {
+    "status": "CONTENT_CHECKED",
+    "checked_records": 26,
+    "confirmed_factual_errors": 0,
+    "incorrect_answer_keys": 0,
+    "explanation_corrections": 0,
+    "option_answer_index_mismatches": 0,
+    "runtime_content_corrections": 0,
+    "note": "All 26 retained English Literature expansion records from batches 31–40 were checked for factual accuracy, keyed answer, explanation, and answer-index alignment against authoritative literary, library, publisher, and institutional references. No confirmed errors or corrections were required."
   }
 }
