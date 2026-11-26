@@ -689,3 +689,13 @@
 - Cumulative source-based review: ০১–১০-এর ৩০ + ১১–২০-এর ৪৩ + ২১–৩০-এর ২৩ + ৫১–৫৬-এর ৯ = **১০৫/২৯০**; বাকি **১৮৫** (মূল base bank-সহ)।
 - রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_21_30.md`; consolidated master metadata updated.
 - **English Literature overall: PROVISIONAL / NOT LOCKED** — পুরো ২৯০ প্রশ্নের যাচাই এখনো শেষ হয়নি।
+
+
+## English Literature — source-based content review, batches 31–40 (2026-11-27)
+- Expansion batches ৩১–৪০-এর retained English Literature প্রশ্ন **26টি**—প্রশ্নের তথ্য, সঠিক উত্তর, ব্যাখ্যা ও answer-index মিলিয়ে উৎসভিত্তিকভাবে যাচাই করা হয়েছে।
+- নিশ্চিত factual error: **০**; ভুল answer key: **০**; explanation correction: **০**; option/answer-index mismatch: **০**।
+- Folger, Poetry Foundation, Jane Austen’s House, Oxford Dictionary of National Biography, University College Oxford, The Orwell Foundation এবং British Library-এর মতো প্রাতিষ্ঠানিক/বিশ্বস্ত সূত্র ব্যবহার করা হয়েছে।
+- কোনো runtime প্রশ্ন/ব্যাখ্যা সংশোধনের প্রয়োজন হয়নি।
+- Cumulative source-based review: ০১–১০-এর ৩০ + ১১–২০-এর ৪৩ + ২১–৩০-এর ২৩ + ৩১–৪০-এর ২৬ + ৫১–৫৬-এর ৯ = **১৩১/২৯০**; বাকি **১৫৯** (মূল base bank ও ৪১–৫০ expansion-সহ)।
+- বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_31_40.md`; consolidated master metadata updated.
+- **English Literature overall: PROVISIONAL / NOT LOCKED** — ২৯০টি প্রশ্নের সবগুলোর যাচাই এখনো শেষ হয়নি।
