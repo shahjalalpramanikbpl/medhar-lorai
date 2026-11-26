@@ -589,3 +589,12 @@
 - Master: `ENGLISH_LITERATURE_MASTER_BASELINE_01_10.json` (commit `4c9aa0c67743bed7070d26cff8c1361599e8368f`)।
 - বিস্তারিত cross-audit: `ENGLISH_LITERATURE_BASE_CROSS_AUDIT_01_10.md` (commit `4d40cdf3e026204ce66268e43254b42ff82633c7`)।
 - **এখনো NOT LOCKED:** base bank-এর প্রতিটি প্রশ্নের পূর্ণ তথ্যসূত্রভিত্তিক fact-check এবং expansion ১১–২০-এর সঙ্গে তুলনা বাকি।
+
+
+## English Literature — Expansion Batch 11–20 Cross-Audit (২৭ নভেম্বর ২০২৬)
+- Batch ১১–১৯-এ English Literature ৫০টি; batch ২০-এ ০টি। ০১–১০ consolidated master-এর ১৬১টি record-এর সঙ্গে exact full-signature তুলনায় duplicate ০।
+- ১১–২০ গ্রুপের অভ্যন্তরে ৭টি exact duplicate copy অপসারণ: `extra_580`, `extra_654`, `extra_656`, `extra_688`, `extra_689`, `extra_721`, `extra_724`।
+- cleanup-এর পর ৪৩টি unique record; পুনরায় scan-এ exact duplicate ০। একই wording কিন্তু ভিন্ন option set-এর প্রশ্ন রাখা হয়েছে।
+- Master: `ENGLISH_LITERATURE_AUDIT_MASTER_BATCH_11_20.json` (commit `520ec166a64e23aabac30c64193a5fced4320d7c`)।
+- রিপোর্ট: `ENGLISH_LITERATURE_AUDIT_BATCH_11_20.md` (commit `1d7e320f5f2ec780e3660ae0fa0f4ea1ec382cf4`)।
+- **NOT LOCKED:** ১১–২০-এর ৪৩টি প্রশ্নের পূর্ণ তথ্যসূত্রভিত্তিক fact-check এবং ০১–২০ consolidated master তৈরি বাকি।
