@@ -815,3 +815,9 @@
 - সরাসরি শতকরা/ছাড়/লাভ-ক্ষতি, গড়, গতি-দূরত্ব, কাজ-সময়, সম্ভাব্যতা, LCM/HCF এবং ক্ষেত্রফল/পরিসীমার formula-based প্রশ্নগুলো Quantitative Aptitude/Math-এর জন্য প্রাথমিকভাবে flag করা হয়েছে। কোনো runtime category এখনো বদলানো হয়নি।
 - source count discrepancy, item-wise audit, boundary-case classification, Math master duplicate check ও final reconciliation বাকি। **IN_PROGRESS / NOT LOCKED**।
 - বিস্তারিত: `MENTAL_ABILITY_IQ_BATCH_01_10_PROGRESS.md`।
+
+
+## ২৭ নভেম্বর ২০২৬ — Mental Ability & IQ source inventory correction
+- আগের interim ১১৬ base/১৬০ total গণনা incomplete parser-এর কারণে হয়েছিল; double-quote Q() format-এর ৩৪টি record বাদ পড়েছিল।
+- উভয় quote format পুনরায় গুনে main runtime-এ **১৫০ base**, expansion batch ০১–১০-এ **৪৪**, মোট **১৯৪টি** source record নিশ্চিত।
+- আগের interim count বাতিল; কোনো runtime question move/edit হয়নি। Subject classification ও content audit চলমান; **IN_PROGRESS / NOT LOCKED**।
