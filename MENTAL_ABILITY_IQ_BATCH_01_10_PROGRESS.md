@@ -59,3 +59,13 @@
 - উভয় quote format মিলিয়ে main runtime source-এ **১৫০টি base record** নিশ্চিত: single-quote ১১৬ + double-quote ৩৪।
 - Expansion batch ০১–১০-এ **৪৪টি** IQ record; সুতরাং প্রকৃত source inventory **১৯৪টি** (১৫০ + ৪৪)। পূর্বে লেখা ১১৬/১৬০ interim count বাতিল; এটি source parser-এর অসম্পূর্ণতার ফল, runtime bank-এর ঘাটতি নয়।
 - শ্রেণিবিন্যাসের কাজ চলমান; কোনো প্রশ্ন সরানো বা runtime category পরিবর্তন এখনো করা হয়নি। **IN_PROGRESS / NOT LOCKED**।
+
+
+## Base content review ও subject classification update (২৭ নভেম্বর ২০২৬)
+- Main suite-এর IQ category-র **১৫০টি base প্রশ্ন** item-by-item review: প্রশ্ন, চার option, keyed answer ও explanation-এর consistency পরীক্ষা সম্পন্ন।
+- একটি নিশ্চিত answer-key error ধরা ও সংশোধন: `base_024`-এ ধারার সঠিক উত্তর ২১৬০ (×২, ×৩, ×৪, ×৫, ×৬); ভুল key index ২ থেকে ৩ করা হয়েছে। Runtime re-fetch-এ সংশোধন নিশ্চিত।
+- Expansion ০১–১০-এর ৪৪টি reviewed record-এর final exact-signature reconciliation-এ ২টি exact duplicate copy বাদ: `extra_026` → `base_051`, `extra_345` → `base_055`; দুই ID-ই runtime file থেকে অনুপস্থিত re-fetch করে নিশ্চিত।
+- বর্তমান inventory: **১৫০ base + ৪২ expansion = ১৯২**; malformed ০, full-signature exact duplicate group ০।
+- Subject classification: **৯৮টি** quantitative aptitude/math-এ স্থানান্তরের প্রস্তাব (৮৩ base + ১৫ expansion); **৯৪টি** Mental Ability & IQ-তে রাখার প্রস্তাব (৬৭ base + ২৭ expansion)। বিস্তারিত ID ও নিয়ম `MENTAL_ABILITY_IQ_BASE_CONTENT_REVIEW_001_150.md`।
+- প্রস্তাবিত ৯৮টির question/options/answer signature category বাদ দিয়ে locked Math master-এর ৩০০ প্রশ্নের সঙ্গে তুলনা: exact collision ০।
+- Math master/runtime source SHA mismatch দেখা গেছে এবং Math runtime generated ৩০-level system; তাই কোনো category এখনো পরিবর্তন বা Math runtime-এ স্থানান্তর করা হয়নি। Migration path/source reconciliation বাকি; **IN_PROGRESS / NOT LOCKED**।
