@@ -52,3 +52,10 @@
 - এগুলো এখনো **প্রস্তাবিত classification**, final transfer নয়। যেমন clock/calendar, ranking, series, coding, syllogism, lateral-thinking, handshake-combination এবং pattern-based numerical reasoning IQ/Reasoning-এ থাকবে। Probability, age/work-rate, ratio ও remainder-এর মতো boundary cases প্রশ্নের cognitive demand দেখে একে একে সিদ্ধান্ত হবে।
 - কোনো runtime category এখনো পরিবর্তন করা হয়নি; অন্য subject-এ স্থানান্তরের আগে locked Math master-এর সঙ্গে exact-signature duplicate check এবং validator reconciliation করতে হবে।
 - পরবর্তী ধাপ: (১) ১৫০ বনাম ১১৬ base count discrepancy resolve, (২) ১৬০টি source record-এর item-wise content/answer/explanation/ambiguity audit, (৩) সব boundary case-সহ final subject classification, (৪) master ও runtime exact reconciliation। **IN_PROGRESS / NOT LOCKED**।
+
+
+## Source inventory discrepancy — resolved (২৭ নভেম্বর ২০২৬)
+- আগের প্রাথমিক scan-এ শুধু single-quote `Q('মানসিক দক্ষতা ও IQ',...)` format ধরা হয়েছিল; double-quote `Q("মানসিক দক্ষতা ও IQ",...)` format-এর ৩৪টি record বাদ পড়েছিল।
+- উভয় quote format মিলিয়ে main runtime source-এ **১৫০টি base record** নিশ্চিত: single-quote ১১৬ + double-quote ৩৪।
+- Expansion batch ০১–১০-এ **৪৪টি** IQ record; সুতরাং প্রকৃত source inventory **১৯৪টি** (১৫০ + ৪৪)। পূর্বে লেখা ১১৬/১৬০ interim count বাতিল; এটি source parser-এর অসম্পূর্ণতার ফল, runtime bank-এর ঘাটতি নয়।
+- শ্রেণিবিন্যাসের কাজ চলমান; কোনো প্রশ্ন সরানো বা runtime category পরিবর্তন এখনো করা হয়নি। **IN_PROGRESS / NOT LOCKED**।
