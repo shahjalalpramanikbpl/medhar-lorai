@@ -333,6 +333,24 @@ body{min-height:100vh;background-color:#081426;background-image:radial-gradient(
 @media(max-width:540px){body{padding:11px 10px 20px}.home-entry-grid{grid-template-columns:1fr;gap:11px}.home-entry-btn,.home-featured .job-prep-hero{min-height:88px}.home-featured .job-prep-hero{padding:12px 14px}.home-featured .job-prep-copy b{font-size:17px}.home-featured .job-prep-copy small{font-size:10px}}
 @media(prefers-reduced-motion:reduce){body{animation:none!important}.job-prep-hero:before{animation:none!important}}
 
+
+/* Hero-card motion lock: slow orbital brain glints + slow trophy turn */
+.home-hero-card .spark-a{animation-duration:18s!important}
+.home-hero-card .spark-b{animation-duration:24s!important}
+.home-hero-card .spark-c{animation-duration:21s!important}
+.home-hero-card .spark-d{animation-duration:27s!important}
+.home-hero-card .hero-trophy{
+  transform-origin:50% 58%;
+  animation:heroTrophySlowTurn 32s ease-in-out infinite;
+  will-change:transform;
+}
+@keyframes heroTrophySlowTurn{
+  0%,100%{transform:perspective(700px) rotateY(-5deg) rotateZ(6deg)}
+  50%{transform:perspective(700px) rotateY(5deg) rotateZ(10deg)}
+}
+@media(prefers-reduced-motion:reduce){
+  .home-hero-card .brain-spark,.home-hero-card .hero-trophy{animation:none!important}
+}
 </style></head><body><section id="launchSplash" aria-label="মেধার লড়াই"><div class="splash-inner"><div class="splash-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M13 30 50 13 87 30 50 47Z" fill="#f6c85f" stroke="#fff0b5" stroke-width="3" stroke-linejoin="round"/><path d="M27 43v21c13 11 33 11 46 0V43L50 54Z" fill="#fff" stroke="#b8d8ff" stroke-width="3" stroke-linejoin="round"/><path d="M87 31v28" stroke="#ffd875" stroke-width="4" stroke-linecap="round"/><circle cx="87" cy="63" r="5" fill="#ffd875"/><path d="M50 55 27 44" stroke="#d69a31" stroke-width="2"/></svg></div><div class="splash-name">মেধার লড়াই</div><div class="splash-tagline">খেলুন-শিখুন-এগিয়ে যান</div><div class="splash-loader" aria-hidden="true"></div></div></section><script>(function(){var splash=document.getElementById('launchSplash');if(splash){setTimeout(function(){splash.classList.add('is-hidden');setTimeout(function(){splash.remove();},600);},2300);}})();</script><main class="wrap">
 <section id="home" class="home-screen">
 <div class="home-hero-card"><div class="home-hero-controls"><button class="secondary tiny" id="langBtn">English</button><button class="secondary tiny hidden" id="adminBtn" aria-hidden="true">অ্যাডমিন প্যানেল</button></div><div class="home-hero-art" aria-hidden="true"><span class="hero-brain-wrap"><span class="hero-brain">🧠</span><span class="brain-spark spark-a">✦</span><span class="brain-spark spark-b">✧</span><span class="brain-spark spark-c">✦</span><span class="brain-spark spark-d">·</span></span><span class="hero-stars">✦ ✦ ✦</span><span class="hero-trophy">🏆</span></div><div class="home-hero-copy"><div class="home-english-title">Battle of Brains</div><h1>মেধার লড়াই</h1><p id="intro">জ্ঞানচর্চা ও চাকরির প্রস্তুতি—একই প্ল্যাটফর্মে</p></div><div class="home-stats hero-stats"><div class="home-stat points-stat"><span>⭐</span><small>মোট পয়েন্ট</small><b id="homePoints">0</b></div><div class="home-stat level-stat"><span>🏆</span><small>বর্তমান লেভেল</small><b id="homeLevel">1</b></div><div class="home-stat questions-stat"><span>📚</span><small>প্রশ্নের ভান্ডার</small><b id="homeQuestions">10</b></div></div><div class="home-hero-glow"></div></div>
