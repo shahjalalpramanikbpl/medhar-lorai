@@ -186,13 +186,13 @@ class MainActivity : Activity() {
         )
     }
 
-    private fun onQuizCompleted() {
+    // Count every answered question across all quiz modules. Show one interstitial
+    // after each 10 answered questions; never display an ad while a question is active.
+    private fun onQuestionAnswered() {
         val prefs = getSharedPreferences("admob_frequency", MODE_PRIVATE)
-        val completed = prefs.getInt("completed_quizzes", 0) + 1
-        prefs.edit().putInt("completed_quizzes", completed).apply()
-
-        // Conservative frequency cap: at most one interstitial per three completed quizzes.
-        if (completed % 3 != 0) return
+        val answered = prefs.getInt("answered_questions", 0) + 1
+        prefs.edit().putInt("answered_questions", answered).apply()
+        if (answered % 10 != 0) return
 
         val ad = interstitialAd ?: run {
             loadInterstitial()
@@ -290,8 +290,8 @@ class MainActivity : Activity() {
         }
 
         @JavascriptInterface
-        fun onQuizCompleted() {
-            this@MainActivity.onQuizCompleted()
+        fun onQuestionAnswered() {
+            this@MainActivity.onQuestionAnswered()
         }
     }
 
