@@ -41,3 +41,14 @@
 - প্রতিটি প্রশ্নের মূল দক্ষতা/প্রশ্নের ধরন দেখে শ্রেণিবিন্যাস হবে: যুক্তি, pattern, series, coding, analytical reasoning, puzzle, clock/calendar, spatial বা logical problem-solving হলে Mental Ability & IQ; সরাসরি arithmetic/quantitative aptitude হলে গণিত/পরিমাণগত দক্ষতার উপযুক্ত শ্রেণিতে চিহ্নিত হবে।
 - কোনো প্রশ্নকে স্বয়ংক্রিয়ভাবে বাদ দেওয়া হবে না। ভিন্ন subject-এ স্থানান্তরের প্রস্তাব থাকলে সংশ্লিষ্ট locked subject master-এর সঙ্গে exact-signature মিলিয়ে এবং নতুন সংযোজন হিসেবে আলাদা validation করে তবেই runtime পরিবর্তন করা যাবে।
 - Classification ফল, স্থানান্তর/রাখার সংখ্যা এবং প্রয়োজনীয় runtime পরিবর্তন master ও final report-এ নথিভুক্ত হবে। এই কাজ শেষ না হওয়া পর্যন্ত Mental Ability & IQ **IN_PROGRESS / NOT LOCKED** থাকবে।
+
+
+## বিষয়ভিত্তিক শ্রেণিবিন্যাস — প্রাথমিক source inspection (২৭ নভেম্বর ২০২৬)
+- ব্যবহারকারীর নির্দেশ অনুসারে LOCK-এর আগে content audit-এর সঙ্গেই subject-fit classification শুরু হয়েছে।
+- বর্তমান main source পুনরায় পরীক্ষা করে `job-prep-suite.js`-এ `Q('মানসিক দক্ষতা ও IQ', ...)` ফরম্যাটে **১১৬টি** record পাওয়া গেছে; আগের inventory-তে লেখা ১৫০টির সঙ্গে অমিল। এই ৩৪টির পার্থক্য resolve না করে ১৫০-কে verified count বলা হবে না।
+- Expansion batch ০১–১০-এর JSON record-এ category `মানসিক দক্ষতা ও IQ` হিসেবে **৪৪টি** প্রশ্ন পাওয়া গেছে; file-by-file পুরোনো inventory count-এর সঙ্গে মিলিয়ে final source map পুনরায় তৈরি হবে।
+- তাই বর্তমানে সরাসরি source scan-এ শনাক্ত scope **১৬০টি (১১৬ base + ৪৪ expansion)**; এটি final bank count নয়, কারণ base inventory discrepancy এবং final runtime/load-order reconciliation বাকি।
+- প্রাথমিকভাবে Quantitative Aptitude/গণিতের জন্য flag করা হয়েছে: সরাসরি শতকরা/ছাড়/লাভ-ক্ষতি, গড়, গতি-দূরত্ব, কাজ-সময়, অনুপাত/ভগ্নাংশের প্রয়োগ, সম্ভাব্যতা, LCM/HCF এবং জ্যামিতির ক্ষেত্রফল/পরিসীমার formula-based item। উদাহরণ: base source lines 175, 187, 193, 202, 485, 567, 845–846, 979–983, 1003–1006, 1029–1033, 1056–1058, 1081–1083, 1136–1140, 1177; expansion IDs extra_030, extra_066, extra_069, extra_106, extra_109, extra_110, extra_146, extra_147, extra_149, extra_150, extra_264, extra_302, extra_303, extra_304, extra_388।
+- এগুলো এখনো **প্রস্তাবিত classification**, final transfer নয়। যেমন clock/calendar, ranking, series, coding, syllogism, lateral-thinking, handshake-combination এবং pattern-based numerical reasoning IQ/Reasoning-এ থাকবে। Probability, age/work-rate, ratio ও remainder-এর মতো boundary cases প্রশ্নের cognitive demand দেখে একে একে সিদ্ধান্ত হবে।
+- কোনো runtime category এখনো পরিবর্তন করা হয়নি; অন্য subject-এ স্থানান্তরের আগে locked Math master-এর সঙ্গে exact-signature duplicate check এবং validator reconciliation করতে হবে।
+- পরবর্তী ধাপ: (১) ১৫০ বনাম ১১৬ base count discrepancy resolve, (২) ১৬০টি source record-এর item-wise content/answer/explanation/ambiguity audit, (৩) সব boundary case-সহ final subject classification, (৪) master ও runtime exact reconciliation। **IN_PROGRESS / NOT LOCKED**।
