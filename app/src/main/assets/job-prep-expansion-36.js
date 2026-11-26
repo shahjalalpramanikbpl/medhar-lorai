@@ -21,7 +21,7 @@ const additions=[
 {id:"extra_1264",c:"English Literature",q:"Who wrote 'The Rime of the Ancient Mariner'?",o:["William Wordsworth","S. T. Coleridge","John Keats","Lord Byron"],a:1,e:"Samuel Taylor Coleridge wrote this major poem of the English Romantic period.",source:"Romantic Poetry",d:"মাঝারি"},
 {id:"extra_1265",c:"English Literature",q:"Who is known as the 'Father of English Poetry'?",o:["William Shakespeare","Geoffrey Chaucer","John Milton","Edmund Spenser"],a:1,e:"Geoffrey Chaucer is traditionally known as the Father of English Poetry.",source:"History of English Literature",d:"সহজ"},
 {id:"extra_1266",c:"English Literature",q:"Which novel begins with the famous line 'Call me Ishmael'?",o:["Moby-Dick","Robinson Crusoe","Treasure Island","The Great Gatsby"],a:0,e:"'Call me Ishmael' is the opening line of Herman Melville's Moby-Dick.",source:"American Literature",d:"মাঝারি"},
-{id:"extra_1267",c:"English Literature",q:"Who wrote 'A Tale of Two Cities'?",o:["Thomas Hardy","Charles Dickens","William Thackeray","George Eliot"],a:1,e:"Charles Dickens published A Tale of Two Cities in 1859.",source:"Victorian Novel",d:"সহজ"},
+
 {id:"extra_1268",c:"English Literature",q:"'Waiting for Godot' is a play by which writer?",o:["Harold Pinter","Samuel Beckett","Oscar Wilde","George Bernard Shaw"],a:1,e:"Samuel Beckett wrote the influential absurdist play Waiting for Godot.",source:"Modern Drama",d:"মাঝারি"},
 {id:"extra_1269",c:"English Literature",q:"Who wrote the poem 'The Raven'?",o:["Walt Whitman","Robert Frost","Edgar Allan Poe","Emily Dickinson"],a:2,e:"Edgar Allan Poe's narrative poem The Raven was published in 1845.",source:"American Poetry",d:"সহজ"},
 
