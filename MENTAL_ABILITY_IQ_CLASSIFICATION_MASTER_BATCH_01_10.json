@@ -1,0 +1,3630 @@
+{
+  "schema": "medhar-lorai.iq-subject-classification.v1",
+  "createdAt": "2026-11-27",
+  "status": "CLASSIFICATION_REVIEWED_PENDING_RUNTIME_MIGRATION_NOT_LOCKED",
+  "inventory": {
+    "base": 150,
+    "expansion": 42,
+    "total": 192,
+    "proposedMath": 98,
+    "proposedIQ": 94,
+    "exactDuplicatesRemoved": 2,
+    "malformed": 0,
+    "remainingExactDuplicateGroups": 0
+  },
+  "corrections": [
+    {
+      "id": "base_024",
+      "change": "answerIndex 2 → 3",
+      "correctAnswer": "২১৬০",
+      "reason": "Series rule ×2, ×3, ×4, ×5, ×6."
+    }
+  ],
+  "duplicateRemovals": [
+    {
+      "id": "extra_026",
+      "duplicateOf": "base_051",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js"
+    },
+    {
+      "id": "extra_345",
+      "duplicateOf": "base_055",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-09.js"
+    }
+  ],
+  "mathMasterComparison": {
+    "master": "MATH_AUDIT_MASTER_BASELINE_300.json",
+    "masterStatus": "LOCKED",
+    "masterQuestionCount": 300,
+    "signatureCompared": "normalized question + sorted options + answer; category ignored",
+    "exactCollisions": 0
+  },
+  "runtimeIntegration": {
+    "status": "PENDING",
+    "reason": "Math bank is a separate generated 30-level module; do not change IQ runtime category until a safe supplemental integration path is defined."
+  },
+  "records": [
+    {
+      "id": "base_001",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ২, ৬, ১২, ২০, ৩০, পরের সংখ্যা কত?",
+      "options": [
+        "৩৬",
+        "৪০",
+        "৪২",
+        "৪৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৪২",
+      "explanation": "পার্থক্য ৪, ৬, ৮, ১০; পরের পার্থক্য ১২। তাই ৩০+১২=৪২।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_002",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি CAT = DBU হয় (প্রতিটি অক্ষর পরের অক্ষর), তবে DOG = ?",
+      "options": [
+        "EPH",
+        "EOG",
+        "FPH",
+        "DPI"
+      ],
+      "answerIndex": 0,
+      "answer": "EPH",
+      "explanation": "প্রতিটি অক্ষর এক ধাপ এগিয়েছে: D→E, O→P, G→H।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_003",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "বেমানানটি বেছে নিন: ৪, ৯, ১৬, ২০, ২৫।",
+      "options": [
+        "৪",
+        "৯",
+        "২০",
+        "২৫"
+      ],
+      "answerIndex": 2,
+      "answer": "২০",
+      "explanation": "৪, ৯, ১৬, ২৫ পূর্ণবর্গ; ২০ পূর্ণবর্গ নয়।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_004",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়িতে ৩টায় ঘণ্টা ও মিনিটের কাঁটার কোণ কত?",
+      "options": [
+        "০°",
+        "৬০°",
+        "৯০°",
+        "১২০°"
+      ],
+      "answerIndex": 2,
+      "answer": "৯০°",
+      "explanation": "৩টায় মিনিট কাঁটা ১২-তে, ঘণ্টা কাঁটা ৩-এ; কোণ ৯০°।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_005",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে। কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে",
+        "কিছু গোলাপ দ্রুত ঝরে",
+        "সব গোলাপ ফুল",
+        "কোনো ফুল গোলাপ নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রদত্ত বক্তব্যে “সব গোলাপ ফুল” সরাসরি নিশ্চিত; অন্য সিদ্ধান্ত নিশ্চিত নয়।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_006",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি সারিতে রবি বাম দিক থেকে ৭ম এবং ডান দিক থেকে ৯ম। মোট কতজন?",
+      "options": [
+        "১৪",
+        "১৫",
+        "১৬",
+        "১৭"
+      ],
+      "answerIndex": 1,
+      "answer": "১৫",
+      "explanation": "মোট = ৭+৯−১ = ১৫ জন।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_007",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "বর্ণধারা: A, C, F, J, O, ?",
+      "options": [
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "answerIndex": 2,
+      "answer": "U",
+      "explanation": "অক্ষরের ব্যবধান +২,+৩,+৪,+৫; পরেরটি +৬, তাই U।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_008",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি পরিবারের ২ বাবা ও ২ ছেলে, কিন্তু সদস্য ৩ জন। কীভাবে?",
+      "options": [
+        "ভুল গণনা",
+        "দাদা, বাবা ও ছেলে",
+        "যমজ",
+        "প্রতিবেশী"
+      ],
+      "answerIndex": 1,
+      "answer": "দাদা, বাবা ও ছেলে",
+      "explanation": "তিন প্রজন্ম: দাদা, তাঁর ছেলে (একই সঙ্গে বাবা), এবং নাতি।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_009",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "৫টি মেশিন ৫ মিনিটে ৫টি পণ্য বানায়। ১০০টি মেশিন ১০০টি পণ্য বানাতে কত সময়?",
+      "options": [
+        "৫ মিনিট",
+        "২০ মিনিট",
+        "১০০ মিনিট",
+        "৫০০ মিনিট"
+      ],
+      "answerIndex": 0,
+      "answer": "৫ মিনিট",
+      "explanation": "প্রতি মেশিন ৫ মিনিটে একটি পণ্য বানায়; ১০০ মেশিন একসঙ্গে ৫ মিনিটে ১০০টি বানাবে।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_010",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যা দ্বিগুণ করে ৮ যোগ করলে ২৬ হয়। সংখ্যাটি কত?",
+      "options": [
+        "৭",
+        "৮",
+        "৯",
+        "১০"
+      ],
+      "answerIndex": 2,
+      "answer": "৯",
+      "explanation": "২x+৮=২৬; ২x=১৮; x=৯।",
+      "classificationReason": "বীজগণিত/সরাসরি সংখ্যাগত হিসাব"
+    },
+    {
+      "id": "base_011",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ৫, ১১, ১৯, ২৯, ৪১, পরের সংখ্যা কত?",
+      "options": [
+        "৫৩",
+        "৫৫",
+        "৫৭",
+        "৫৯"
+      ],
+      "answerIndex": 1,
+      "answer": "৫৫",
+      "explanation": "পার্থক্য ৬, ৮, ১০, ১২; পরের পার্থক্য ১৪। তাই ৪১+১৪=৫৫।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_012",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ১, ৪, ৯, ১৬, ২৫, পরের সংখ্যা কত?",
+      "options": [
+        "৩০",
+        "৩২",
+        "৩৬",
+        "৪৯"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৬",
+      "explanation": "সংখ্যাগুলো ১², ২², ৩², ৪², ৫²; পরেরটি ৬²=৩৬।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_013",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ৮১, ২৭, ৯, ৩, পরের সংখ্যা কত?",
+      "options": [
+        "০",
+        "১",
+        "২",
+        "৬"
+      ],
+      "answerIndex": 1,
+      "answer": "১",
+      "explanation": "প্রতিবার ৩ দিয়ে ভাগ করা হয়েছে; ৩÷৩=১।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_014",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি শ্রেণিতে রাহিম ওপর থেকে ১২তম এবং নিচ থেকে ১৮তম। শ্রেণিতে মোট শিক্ষার্থী কত?",
+      "options": [
+        "২৮",
+        "২৯",
+        "৩০",
+        "৩১"
+      ],
+      "answerIndex": 1,
+      "answer": "২৯",
+      "explanation": "মোট = ওপরের অবস্থান + নিচের অবস্থান − ১ = ১২+১৮−১ = ২৯।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_015",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "আজ বুধবার হলে ১০০ দিন পর কী বার হবে?",
+      "options": [
+        "বৃহস্পতিবার",
+        "শুক্রবার",
+        "শনিবার",
+        "রবিবার"
+      ],
+      "answerIndex": 1,
+      "answer": "শুক্রবার",
+      "explanation": "১০০ কে ৭ দিয়ে ভাগ করলে ভাগশেষ ২; বুধবারের দুই দিন পর শুক্রবার।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_016",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি কলম ও একটি খাতার মোট দাম ৭০ টাকা। খাতার দাম কলমের চেয়ে ৩০ টাকা বেশি। কলমের দাম কত?",
+      "options": [
+        "১৫ টাকা",
+        "২০ টাকা",
+        "২৫ টাকা",
+        "৩০ টাকা"
+      ],
+      "answerIndex": 1,
+      "answer": "২০ টাকা",
+      "explanation": "কলম x হলে খাতা x+৩০; ২x+৩০=৭০, তাই x=২০ টাকা।",
+      "classificationReason": "অনুপাত/ঐকিক নিয়ম/অঙ্ক"
+    },
+    {
+      "id": "base_017",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "A, B-এর চেয়ে লম্বা; B, C-এর চেয়ে লম্বা। সবচেয়ে খাটো কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answerIndex": 2,
+      "answer": "C",
+      "explanation": "A>B এবং B>C; তাই C সবচেয়ে খাটো।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_018",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়ি প্রতি ঘণ্টায় ৫ মিনিট এগিয়ে যায়। ৬ ঘণ্টায় ঘড়িটি কত মিনিট এগোবে?",
+      "options": [
+        "২০",
+        "২৫",
+        "৩০",
+        "৩৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০",
+      "explanation": "প্রতি ঘণ্টায় ৫ মিনিট; ৬ ঘণ্টায় ৫×৬=৩০ মিনিট।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_019",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ২, ৩, ৫, ৮, ১২, ১৭, পরের সংখ্যা কত?",
+      "options": [
+        "২১",
+        "২২",
+        "২৩",
+        "২৪"
+      ],
+      "answerIndex": 2,
+      "answer": "২৩",
+      "explanation": "পার্থক্য ১, ২, ৩, ৪, ৫; পরের পার্থক্য ৬, তাই ১৭+৬=২৩।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_020",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি বাক্সে ৫টি লাল ও ৫টি নীল বল আছে। না দেখে অন্তত কয়টি বল তুললে একই রঙের দুটি বল নিশ্চিত হবে?",
+      "options": [
+        "২",
+        "৩",
+        "৪",
+        "৫"
+      ],
+      "answerIndex": 1,
+      "answer": "৩",
+      "explanation": "দুই রঙের একটি করে বল প্রথম দুইবারে উঠতে পারে; তৃতীয় বলটি অবশ্যই আগের কোনো এক রঙের সঙ্গে মিলবে।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_021",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি গতকালের আগের দিন সোমবার হয়, তবে আগামীকালের পরের দিন কী বার?",
+      "options": [
+        "বৃহস্পতিবার",
+        "শুক্রবার",
+        "শনিবার",
+        "রবিবার"
+      ],
+      "answerIndex": 1,
+      "answer": "শুক্রবার",
+      "explanation": "গতকালের আগের দিন সোমবার হলে আজ বুধবার; আগামীকালের পরের দিন শুক্রবার।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_022",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ৪০% হলো ৮০। সংখ্যাটি কত?",
+      "options": [
+        "১৬০",
+        "১৮০",
+        "২০০",
+        "২৪০"
+      ],
+      "answerIndex": 2,
+      "answer": "২০০",
+      "explanation": "সংখ্যা = ৮০÷০.৪ = ২০০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_023",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি দৌড়ে আপনি দ্বিতীয় স্থানে থাকা প্রতিযোগীকে অতিক্রম করলেন। এখন আপনার অবস্থান কত?",
+      "options": [
+        "প্রথম",
+        "দ্বিতীয়",
+        "তৃতীয়",
+        "চতুর্থ"
+      ],
+      "answerIndex": 1,
+      "answer": "দ্বিতীয়",
+      "explanation": "দ্বিতীয় স্থানের প্রতিযোগীকে অতিক্রম করলে আপনি তার স্থান—অর্থাৎ দ্বিতীয়—দখল করবেন।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_024",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ৩, ৬, ১৮, ৭২, ৩৬০, পরের সংখ্যা কত?",
+      "options": [
+        "৭২০",
+        "১০৮০",
+        "১৮০০",
+        "২১৬০"
+      ],
+      "answerIndex": 3,
+      "answer": "২১৬০",
+      "explanation": "ক্রমে ×২, ×৩, ×৪, ×৫; পরের ধাপ ×৬। ৩৬০×৬=২১৬০।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_025",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি পরিবারের ৩ ভাইয়ের প্রত্যেকের ১ জন করে বোন আছে। পরিবারে ভাইবোন মোট কতজন?",
+      "options": [
+        "৪",
+        "৫",
+        "৬",
+        "৭"
+      ],
+      "answerIndex": 0,
+      "answer": "৪",
+      "explanation": "তিন ভাইয়ের বোন একই একজন; মোট ৩+১=৪ জন।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_026",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "যদি ১২ জন শ্রমিক একটি কাজ ১০ দিনে করে, একই হারে ৬ জন শ্রমিক কাজটি কত দিনে করবে?",
+      "options": [
+        "৫",
+        "১০",
+        "১৫",
+        "২০"
+      ],
+      "answerIndex": 3,
+      "answer": "২০",
+      "explanation": "মোট কাজ ১২×১০=১২০ শ্রমিক-দিন; ৬ জনে সময় ১২০÷৬=২০ দিন।",
+      "classificationReason": "সময় ও কাজ"
+    },
+    {
+      "id": "base_027",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "বেমানান জোড়াটি চিহ্নিত করুন।",
+      "options": [
+        "২–৪",
+        "৩–৯",
+        "৪–১৬",
+        "৫–২০"
+      ],
+      "answerIndex": 3,
+      "answer": "৫–২০",
+      "explanation": "প্রথম তিন জোড়ায় দ্বিতীয় সংখ্যা প্রথম সংখ্যার বর্গ; ৫-এর বর্গ ২৫, ২০ নয়।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_028",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি সারিতে মিতা বাম দিক থেকে ৮ম এবং ডান দিক থেকে ১১তম। সারিতে মোট কতজন?",
+      "options": [
+        "১৭",
+        "১৮",
+        "১৯",
+        "২০"
+      ],
+      "answerIndex": 1,
+      "answer": "১৮",
+      "explanation": "মোট = ৮+১১−১ = ১৮ জন।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_029",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পাত্রের অর্ধেক পানি দিয়ে পূর্ণ। আরও ৬ লিটার পানি দিলে পাত্রটি পূর্ণ হয়। পাত্রটির ধারণক্ষমতা কত?",
+      "options": [
+        "১০ লিটার",
+        "১২ লিটার",
+        "১৪ লিটার",
+        "১৬ লিটার"
+      ],
+      "answerIndex": 1,
+      "answer": "১২ লিটার",
+      "explanation": "অর্ধেক ধারণক্ষমতা ৬ লিটার; পূর্ণ ধারণক্ষমতা ১২ লিটার।",
+      "classificationReason": "অনুপাত/ঐকিক নিয়ম/অঙ্ক"
+    },
+    {
+      "id": "base_030",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ১০০, ৯৬, ৮৮, ৭৬, ৬০, পরের সংখ্যা কত?",
+      "options": [
+        "৪০",
+        "৪২",
+        "৪৪",
+        "৪৬"
+      ],
+      "answerIndex": 0,
+      "answer": "৪০",
+      "explanation": "ক্রমে ৪, ৮, ১২, ১৬ বিয়োগ হয়েছে; পরেরবার ২০ বিয়োগ: ৬০−২০=৪০।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_031",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ৪, ৭, ১৩, ২৫, ৪৯, পরের সংখ্যা কত?",
+      "options": [
+        "৮১",
+        "৯৫",
+        "৯৭",
+        "৯৯"
+      ],
+      "answerIndex": 2,
+      "answer": "৯৭",
+      "explanation": "প্রতিবার আগের সংখ্যাকে ২ দিয়ে গুণ করে ১ বিয়োগ: ৪×২−১=৭, ... ৪৯×২−১=৯৭।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_032",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ১, ২, ৬, ২৪, ১২০, পরের সংখ্যা কত?",
+      "options": [
+        "২৪০",
+        "৩৬০",
+        "৬০০",
+        "৭২০"
+      ],
+      "answerIndex": 3,
+      "answer": "৭২০",
+      "explanation": "ক্রমে ×২, ×৩, ×৪, ×৫; পরের ধাপ ×৬। ১২০×৬=৭২০।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_033",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি বইয়ের ১২০ পৃষ্ঠার ২৫% পড়া হয়েছে। বাকি পৃষ্ঠা কত?",
+      "options": [
+        "৩০",
+        "৬০",
+        "৮০",
+        "৯০"
+      ],
+      "answerIndex": 3,
+      "answer": "৯০",
+      "explanation": "পড়া হয়েছে ১২০×২৫%=৩০ পৃষ্ঠা; বাকি ১২০−৩০=৯০ পৃষ্ঠা।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_034",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি কোডে প্রতিটি অক্ষর ইংরেজি বর্ণমালায় ২ ধাপ এগিয়ে লেখা হয়। BOOK-এর কোড কী?",
+      "options": [
+        "DQQM",
+        "DPPM",
+        "CQQM",
+        "DQQN"
+      ],
+      "answerIndex": 0,
+      "answer": "DQQM",
+      "explanation": "B→D, O→Q, O→Q, K→M; তাই DQQM।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_035",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি সভায় ৮ জন প্রত্যেকে অন্য প্রত্যেকের সঙ্গে একবার করমর্দন করলেন। মোট করমর্দন কতটি?",
+      "options": [
+        "১৬",
+        "২৪",
+        "২৮",
+        "৩২"
+      ],
+      "answerIndex": 2,
+      "answer": "২৮",
+      "explanation": "প্রতিটি জুটি একবার করমর্দন করে; ৮×৭÷২=২৮টি জুটি।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_036",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি ট্যাংকের ৩/৫ অংশে ২৪ লিটার পানি আছে। ট্যাংকের পূর্ণ ধারণক্ষমতা কত?",
+      "options": [
+        "৩০",
+        "৩৬",
+        "৪০",
+        "৪৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৪০",
+      "explanation": "পূর্ণ ধারণক্ষমতা = ২৪÷(৩/৫)=২৪×৫/৩=৪০ লিটার।",
+      "classificationReason": "অনুপাত/ঐকিক নিয়ম/অঙ্ক"
+    },
+    {
+      "id": "base_037",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি সব পাখির ডানা থাকে এবং কাক একটি পাখি হয়, তবে কোনটি নিশ্চিত?",
+      "options": [
+        "সব ডানাওয়ালা প্রাণী কাক",
+        "কাকের ডানা আছে",
+        "সব পাখি কাক",
+        "কোনো কাক পাখি নয়"
+      ],
+      "answerIndex": 1,
+      "answer": "কাকের ডানা আছে",
+      "explanation": "কাক পাখি এবং সব পাখির ডানা আছে; তাই কাকের ডানা আছে।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_038",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার দ্বিগুণের সঙ্গে ৭ যোগ করলে ৩১ হয়। সংখ্যাটি কত?",
+      "options": [
+        "১০",
+        "১১",
+        "১২",
+        "১৩"
+      ],
+      "answerIndex": 2,
+      "answer": "১২",
+      "explanation": "২x+৭=৩১; ২x=২৪; x=১২।",
+      "classificationReason": "বীজগণিত/সরাসরি সংখ্যাগত হিসাব"
+    },
+    {
+      "id": "base_039",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি গাড়ি ৩ ঘণ্টায় ১৮০ কিলোমিটার যায়। একই গতিতে ৫ ঘণ্টায় কত দূর যাবে?",
+      "options": [
+        "২৪০",
+        "২৭০",
+        "৩০০",
+        "৩৩০"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০০",
+      "explanation": "গতি ১৮০÷৩=৬০ কিমি/ঘণ্টা; ৫ ঘণ্টায় ৬০×৫=৩০০ কিমি।",
+      "classificationReason": "বীজগণিত/সরাসরি সংখ্যাগত হিসাব"
+    },
+    {
+      "id": "base_040",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ৭, ১৪, ২৮, ৫৬, পরের সংখ্যা কত?",
+      "options": [
+        "৮৪",
+        "৯৮",
+        "১১২",
+        "১২০"
+      ],
+      "answerIndex": 2,
+      "answer": "১১২",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণ; ৫৬×২=১১২।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_041",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঝুড়িতে ১২টি আম ছিল। ৪টি ছাড়া সব আম নষ্ট হলো। ভালো আম কয়টি রইল?",
+      "options": [
+        "৪",
+        "৮",
+        "১২",
+        "১৬"
+      ],
+      "answerIndex": 0,
+      "answer": "৪",
+      "explanation": "“৪টি ছাড়া সব” নষ্ট হয়েছে; তাই ভালো আম রইল ৪টি।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_042",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পরীক্ষায় ৫০টি প্রশ্নের প্রতিটির মান ২। পূর্ণ নম্বর কত?",
+      "options": [
+        "৫০",
+        "৭৫",
+        "১০০",
+        "১২৫"
+      ],
+      "answerIndex": 2,
+      "answer": "১০০",
+      "explanation": "৫০×২=১০০ নম্বর।",
+      "classificationReason": "বীজগণিত/সরাসরি সংখ্যাগত হিসাব"
+    },
+    {
+      "id": "base_043",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "রবির বয়স ১২ বছর, তার বোনের বয়স তার অর্ধেক। রবি ২০ বছর হলে বোনের বয়স কত হবে?",
+      "options": [
+        "১০",
+        "১২",
+        "১৪",
+        "১৬"
+      ],
+      "answerIndex": 2,
+      "answer": "১৪",
+      "explanation": "বোনের বর্তমান বয়স ৬; বয়সের ব্যবধান ৬ বছর স্থির থাকবে। রবি ২০ হলে বোন ১৪ বছর।",
+      "classificationReason": "বীজগণিত/সরাসরি সংখ্যাগত হিসাব"
+    },
+    {
+      "id": "base_044",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যা ৫ দিয়ে ভাগ করলে ভাগশেষ ৩ থাকে। নিচের কোনটি সেই সংখ্যাটি হতে পারে?",
+      "options": [
+        "২২",
+        "২৫",
+        "২৮",
+        "৩০"
+      ],
+      "answerIndex": 2,
+      "answer": "২৮",
+      "explanation": "২৮÷৫ করলে ভাগফল ৫ ও ভাগশেষ ৩।",
+      "classificationReason": "সংখ্যাতত্ত্ব"
+    },
+    {
+      "id": "base_045",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি ঘনকের কয়টি পৃষ্ঠতল থাকে?",
+      "options": [
+        "৪",
+        "৬",
+        "৮",
+        "১২"
+      ],
+      "answerIndex": 1,
+      "answer": "৬",
+      "explanation": "ঘনকের ৬টি বর্গাকার পৃষ্ঠতল থাকে।",
+      "classificationReason": "জ্যামিতি/পরিমিতি"
+    },
+    {
+      "id": "base_046",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি শ্রেণিতে ২০ জনের মধ্যে ১২ জন ছেলে। মেয়ের সংখ্যা কত?",
+      "options": [
+        "৬",
+        "৮",
+        "১০",
+        "১২"
+      ],
+      "answerIndex": 1,
+      "answer": "৮",
+      "explanation": "মেয়ে = ২০−১২=৮ জন।",
+      "classificationReason": "বীজগণিত/সরাসরি সংখ্যাগত হিসাব"
+    },
+    {
+      "id": "base_047",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ৬৪, ৩২, ১৬, ৮, পরের সংখ্যা কত?",
+      "options": [
+        "২",
+        "৩",
+        "৪",
+        "৬"
+      ],
+      "answerIndex": 2,
+      "answer": "৪",
+      "explanation": "প্রতিবার ২ দিয়ে ভাগ করা হয়েছে; ৮÷২=৪।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_048",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি দোকানে ২০০ টাকার পণ্যে ১০% ছাড় দেওয়া হলো। বিক্রয়মূল্য কত?",
+      "options": [
+        "১৭০",
+        "১৮০",
+        "১৯০",
+        "১৯৫"
+      ],
+      "answerIndex": 1,
+      "answer": "১৮০",
+      "explanation": "ছাড় ২০০×১০%=২০ টাকা; বিক্রয়মূল্য ২০০−২০=১৮০ টাকা।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_049",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "মাসের ১ তারিখ সোমবার হলে ১৫ তারিখ কী বার হবে?",
+      "options": [
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার"
+      ],
+      "answerIndex": 1,
+      "answer": "সোমবার",
+      "explanation": "১৫ তারিখ ১ তারিখের ১৪ দিন পরে; ১৪ দিন ঠিক দুই সপ্তাহ, তাই সোমবার।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_050",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘরে ৪টি কোণ আছে। প্রতিটি কোণে একটি করে বিড়াল বসে আছে। প্রতিটি বিড়াল অন্য তিনটি বিড়ালকে দেখতে পায়। মোট বিড়াল কয়টি?",
+      "options": [
+        "৩",
+        "৪",
+        "৮",
+        "১২"
+      ],
+      "answerIndex": 1,
+      "answer": "৪",
+      "explanation": "চারটি কোণে একটি করে বিড়াল; প্রতিটি অন্য তিনটিকে দেখতে পায়। মোট ৪টি।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_051",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ৩, ৬, ১২, ২৪, পরের সংখ্যা কত?",
+      "options": [
+        "৩০",
+        "৩৬",
+        "৪৮",
+        "৫৪"
+      ],
+      "answerIndex": 2,
+      "answer": "৪৮",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণ; ২৪×২=৪৮।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_052",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পরিবারের বাবা, মা ও দুই সন্তানের বয়সের যোগফল ৮০। বাবা-মায়ের যোগফল ৬০ হলে সন্তানদের যোগফল কত?",
+      "options": [
+        "১০",
+        "১৫",
+        "২০",
+        "২৫"
+      ],
+      "answerIndex": 2,
+      "answer": "২০",
+      "explanation": "সন্তানদের বয়সের যোগফল = ৮০−৬০ = ২০।",
+      "classificationReason": "বীজগণিত/সরাসরি সংখ্যাগত হিসাব"
+    },
+    {
+      "id": "base_053",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "যদি ৫টি কলমের দাম ৬০ টাকা হয়, তবে একই দামে ৮টি কলমের দাম কত?",
+      "options": [
+        "৮৪",
+        "৯০",
+        "৯৬",
+        "১০০"
+      ],
+      "answerIndex": 2,
+      "answer": "৯৬",
+      "explanation": "একটি কলমের দাম ১২ টাকা; ৮টির দাম ৮×১২=৯৬ টাকা।",
+      "classificationReason": "অনুপাত/ঐকিক নিয়ম/অঙ্ক"
+    },
+    {
+      "id": "base_054",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "বেমানান সংখ্যাটি চিহ্নিত করুন: ৮, ২৭, ৬৪, ১০০, ১২৫।",
+      "options": [
+        "২৭",
+        "৬৪",
+        "১০০",
+        "১২৫"
+      ],
+      "answerIndex": 2,
+      "answer": "১০০",
+      "explanation": "৮, ২৭, ৬৪ ও ১২৫ যথাক্রমে ২, ৩, ৪ ও ৫-এর ঘন; ১০০ ঘনসংখ্যা নয়।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_055",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী সংখ্যা কত: ২, ৬, ১২, ২০, ৩০, __?",
+      "options": [
+        "৩৬",
+        "৪০",
+        "৪২",
+        "৪৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৪২",
+      "explanation": "পার্থক্য ৪, ৬, ৮, ১০; পরের পার্থক্য ১২। তাই ৩০+১২=৪২।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_056",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরের সংখ্যা কত: ৩, ৯, ২৭, ৮১, __?",
+      "options": [
+        "১৬২",
+        "১৮৯",
+        "২৪৩",
+        "৩২৪"
+      ],
+      "answerIndex": 2,
+      "answer": "২৪৩",
+      "explanation": "প্রতিটি পদ আগের পদের ৩ গুণ; ৮১×৩=২৪৩।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_057",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "৫ জন শ্রমিক ৫ দিনে ৫টি চেয়ার বানালে, একই হারে ১০ জন শ্রমিক ১০ দিনে কয়টি চেয়ার বানাবে?",
+      "options": [
+        "১০",
+        "১৫",
+        "২০",
+        "২৫"
+      ],
+      "answerIndex": 2,
+      "answer": "২০",
+      "explanation": "প্রতি শ্রমিকের উৎপাদন ৫ দিনে ১টি; ১০ জন ১০ দিনে ২০টি চেয়ার বানাবে।",
+      "classificationReason": "সময় ও কাজ"
+    },
+    {
+      "id": "base_058",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ২০% হলো ৫০। সংখ্যাটি কত?",
+      "options": [
+        "২০০",
+        "২৫০",
+        "৩০০",
+        "৩৫০"
+      ],
+      "answerIndex": 1,
+      "answer": "২৫০",
+      "explanation": "সংখ্যাটি x হলে ০.২০x=৫০; তাই x=২৫০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_059",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি বাক্সে ৩টি লাল ও ২টি নীল বল আছে। না দেখে একটি বল তুললে লাল হওয়ার সম্ভাবনা কত?",
+      "options": [
+        "১/৫",
+        "২/৫",
+        "৩/৫",
+        "৪/৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৩/৫",
+      "explanation": "মোট ৫টি বলের মধ্যে ৩টি লাল; সম্ভাবনা ৩/৫।",
+      "classificationReason": "সম্ভাব্যতা"
+    },
+    {
+      "id": "base_060",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ১, ১, ২, ৩, ৫, ৮, পরের সংখ্যা কত?",
+      "options": [
+        "১১",
+        "১২",
+        "১৩",
+        "১৪"
+      ],
+      "answerIndex": 2,
+      "answer": "১৩",
+      "explanation": "ফিবোনাচ্চি ধারায় প্রতিটি পদ আগের দুই পদের যোগফল; ৫+৮=১৩।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_061",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি BOOK-কে CPPL লেখা হয়, তবে TREE কীভাবে লেখা হবে?",
+      "options": [
+        "USFF",
+        "USFE",
+        "TQFF",
+        "VSFF"
+      ],
+      "answerIndex": 0,
+      "answer": "USFF",
+      "explanation": "প্রতিটি অক্ষর এক ধাপ এগিয়েছে: T→U, R→S, E→F, E→F।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_062",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি শ্রেণিতে ১৮ জন ছেলে ও ১২ জন মেয়ে। ছেলে ও মেয়ের অনুপাত কত?",
+      "options": [
+        "২:৩",
+        "৩:২",
+        "৩:৫",
+        "৫:৩"
+      ],
+      "answerIndex": 1,
+      "answer": "৩:২",
+      "explanation": "১৮:১২ অনুপাতকে ৬ দিয়ে ভাগ করলে ৩:২ হয়।",
+      "classificationReason": "অনুপাত/ঐকিক নিয়ম/অঙ্ক"
+    },
+    {
+      "id": "base_063",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যা ৪ দিয়ে গুণ করে ৬ যোগ করলে ৩০ হয়। সংখ্যাটি কত?",
+      "options": [
+        "৫",
+        "৬",
+        "৭",
+        "৮"
+      ],
+      "answerIndex": 1,
+      "answer": "৬",
+      "explanation": "৪x+৬=৩০; ৪x=২৪; x=৬।",
+      "classificationReason": "বীজগণিত/সরাসরি সংখ্যাগত হিসাব"
+    },
+    {
+      "id": "base_064",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সাধারণ পাশা নিক্ষেপে জোড় সংখ্যা পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "১/৬",
+        "১/৩",
+        "১/২",
+        "২/৩"
+      ],
+      "answerIndex": 2,
+      "answer": "১/২",
+      "explanation": "পাশার জোড় ফল ২, ৪, ৬—মোট ৬টির মধ্যে ৩টি; সম্ভাবনা ৩/৬=১/২।",
+      "classificationReason": "সম্ভাব্যতা"
+    },
+    {
+      "id": "base_065",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ঘড়িতে ৬টায় ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "৯০°",
+        "১২০°",
+        "১৮০°",
+        "২৭০°"
+      ],
+      "answerIndex": 2,
+      "answer": "১৮০°",
+      "explanation": "৬টায় মিনিট কাঁটা ১২-তে এবং ঘণ্টা কাঁটা ৬-এ; কোণ ১৮০°।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_066",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ১০০, ৯০, ৭৫, ৫৫, ৩০, পরের সংখ্যা কত?",
+      "options": [
+        "০",
+        "৫",
+        "১০",
+        "১৫"
+      ],
+      "answerIndex": 0,
+      "answer": "০",
+      "explanation": "ক্রমে ১০, ১৫, ২০, ২৫ বিয়োগ হচ্ছে; পরেরটি ৩০ বিয়োগ, ফলে ০।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_067",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পণ্যের ক্রয়মূল্য ৮০ টাকা ও বিক্রয়মূল্য ১০০ টাকা। লাভের হার কত?",
+      "options": [
+        "২০%",
+        "২৫%",
+        "৩০%",
+        "৪০%"
+      ],
+      "answerIndex": 1,
+      "answer": "২৫%",
+      "explanation": "লাভ ২০ টাকা; লাভের হার = ২০÷৮০×১০০ = ২৫%।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_068",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "সব ডাক্তার শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব ডাক্তার লেখক",
+        "কিছু ডাক্তার লেখক",
+        "সব লেখক ডাক্তার",
+        "সব ডাক্তার শিক্ষিত"
+      ],
+      "answerIndex": 3,
+      "answer": "সব ডাক্তার শিক্ষিত",
+      "explanation": "প্রদত্ত প্রথম বক্তব্য থেকে নিশ্চিতভাবে বলা যায় সব ডাক্তার শিক্ষিত; লেখকদের সঙ্গে ডাক্তারদের মিল নিশ্চিত নয়।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_069",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘরে ৪টি কোণ আছে। প্রতিটি কোণে একটি করে বিড়াল বসে আছে। ঘরে মোট কয়টি বিড়াল?",
+      "options": [
+        "৪",
+        "৮",
+        "১২",
+        "১৬"
+      ],
+      "answerIndex": 0,
+      "answer": "৪",
+      "explanation": "চারটি কোণ এবং প্রতিটি কোণে একটি করে বিড়াল; মোট ৪টি।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_070",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ২, ৫, ১০, ১৭, ২৬, পরের সংখ্যা কত?",
+      "options": [
+        "৩৫",
+        "৩৬",
+        "৩৭",
+        "৩৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৭",
+      "explanation": "পার্থক্য ৩, ৫, ৭, ৯; পরের পার্থক্য ১১। তাই ২৬+১১=৩৭।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_071",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি NORTH-কে OPSUI লেখা হয়, একই নিয়মে SOUTH কী হবে?",
+      "options": [
+        "TPVUI",
+        "TPVTH",
+        "RNTUG",
+        "TPVUH"
+      ],
+      "answerIndex": 0,
+      "answer": "TPVUI",
+      "explanation": "প্রতিটি অক্ষর এক ধাপ এগিয়েছে: S→T, O→P, U→V, T→U, H→I।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_072",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়ি প্রতি ঘণ্টায় ৫ মিনিট এগিয়ে যায়। সকাল ৮টায় সঠিক সময় মিলিয়ে দিলে দুপুর ২টায় ঘড়িটি কত দেখাবে?",
+      "options": [
+        "২টা ২০ মিনিট",
+        "২টা ২৫ মিনিট",
+        "২টা ৩০ মিনিট",
+        "২টা ৪০ মিনিট"
+      ],
+      "answerIndex": 2,
+      "answer": "২টা ৩০ মিনিট",
+      "explanation": "৬ ঘণ্টায় ঘড়ি এগোয় ৬×৫=৩০ মিনিট; তাই দেখাবে দুপুর ২টা ৩০ মিনিট।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_073",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি বাক্সে ৫টি লাল ও ৫টি নীল বল আছে। না দেখে একটি বল তুললে লাল বল পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "১/৫",
+        "১/২",
+        "৩/৫",
+        "২/৩"
+      ],
+      "answerIndex": 1,
+      "answer": "১/২",
+      "explanation": "মোট ১০টি বলের মধ্যে ৫টি লাল; সম্ভাবনা ৫/১০=১/২।",
+      "classificationReason": "সম্ভাব্যতা"
+    },
+    {
+      "id": "base_074",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "আজ মঙ্গলবার হলে ১০০ দিন পরে কী বার হবে?",
+      "options": [
+        "বুধবার",
+        "বৃহস্পতিবার",
+        "শুক্রবার",
+        "শনিবার"
+      ],
+      "answerIndex": 1,
+      "answer": "বৃহস্পতিবার",
+      "explanation": "১০০ কে ৭ দিয়ে ভাগ করলে ভাগশেষ ২; মঙ্গলবারের দুই দিন পর বৃহস্পতিবার।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_075",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পণ্যের দাম ৮০০ টাকা। ১০% ছাড়ে বিক্রয়মূল্য কত?",
+      "options": [
+        "৭০০",
+        "৭২০",
+        "৭৪০",
+        "৭৬০"
+      ],
+      "answerIndex": 1,
+      "answer": "৭২০",
+      "explanation": "ছাড় ৮০ টাকা; বিক্রয়মূল্য ৮০০−৮০ = ৭২০ টাকা।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_076",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি কাজ ৫ জনে ১০ দিনে করলে একই হারে ১০ জনে কত দিনে করবে?",
+      "options": [
+        "২ দিন",
+        "৫ দিন",
+        "১০ দিন",
+        "২০ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৫ দিন",
+      "explanation": "মোট কাজ ৫×১০ = ৫০ জন-দিন; ১০ জনে সময় ৫০÷১০ = ৫ দিন।",
+      "classificationReason": "সময় ও কাজ"
+    },
+    {
+      "id": "base_077",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ৪০% হলো ৬০। সংখ্যাটি কত?",
+      "options": [
+        "১২০",
+        "১৪০",
+        "১৫০",
+        "১৬০"
+      ],
+      "answerIndex": 2,
+      "answer": "১৫০",
+      "explanation": "সংখ্যা = ৬০÷০.৪ = ১৫০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_078",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ৫, ১১, ২৩, ৪৭, পরের সংখ্যা কত?",
+      "options": [
+        "৮৯",
+        "৯৩",
+        "৯৫",
+        "৯৭"
+      ],
+      "answerIndex": 2,
+      "answer": "৯৫",
+      "explanation": "প্রতিটি পদ আগের পদ×২+১; ৪৭×২+১=৯৫।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_079",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়িতে ৩টা ৩০ মিনিটে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী ক্ষুদ্রতর কোণ কত?",
+      "options": [
+        "৬০°",
+        "৭৫°",
+        "৯০°",
+        "১০৫°"
+      ],
+      "answerIndex": 1,
+      "answer": "৭৫°",
+      "explanation": "৩:৩০-এ মিনিটের কাঁটা ১৮০° এবং ঘণ্টার কাঁটা ১০৫° অবস্থানে; পার্থক্য ৭৫°।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_080",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পণ্যের দাম ২০% বাড়িয়ে পরে ২০% কমানো হলো। মোট পরিবর্তন কত?",
+      "options": [
+        "পরিবর্তন নেই",
+        "৪% বৃদ্ধি",
+        "৪% হ্রাস",
+        "৮% হ্রাস"
+      ],
+      "answerIndex": 2,
+      "answer": "৪% হ্রাস",
+      "explanation": "ধরা যাক দাম ১০০; ২০% বাড়লে ১২০, পরে ২০% কমলে ৯৬। মোট ৪% হ্রাস।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_081",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি শ্রেণিতে ২৫ জনের গড় নম্বর ৬০। মোট নম্বর কত?",
+      "options": [
+        "১২০০",
+        "১৩৫০",
+        "১৫০০",
+        "১৬০০"
+      ],
+      "answerIndex": 2,
+      "answer": "১৫০০",
+      "explanation": "মোট নম্বর = গড় × শিক্ষার্থী = ৬০×২৫ = ১৫০০।",
+      "classificationReason": "গড়/পরিসংখ্যান"
+    },
+    {
+      "id": "base_082",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি কাজ ৬ জন শ্রমিক ১২ দিনে করলে ৮ জন শ্রমিক একই কাজ কত দিনে করবে?",
+      "options": [
+        "৮",
+        "৯",
+        "১০",
+        "১৬"
+      ],
+      "answerIndex": 1,
+      "answer": "৯",
+      "explanation": "কাজ স্থির: ৬×১২=৭২ শ্রমিক-দিন; ৭২÷৮=৯ দিন।",
+      "classificationReason": "সময় ও কাজ"
+    },
+    {
+      "id": "base_083",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ৩/৫ অংশ ৪৮ হলে সংখ্যাটি কত?",
+      "options": [
+        "৬০",
+        "৭২",
+        "৮০",
+        "৯০"
+      ],
+      "answerIndex": 2,
+      "answer": "৮০",
+      "explanation": "সংখ্যা = ৪৮×৫÷৩ = ৮০।",
+      "classificationReason": "অনুপাত/ঐকিক নিয়ম/অঙ্ক"
+    },
+    {
+      "id": "base_084",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পণ্যের দাম ৮০০ টাকা। ১৫% ছাড় দিলে বিক্রয়মূল্য কত?",
+      "options": [
+        "৬৪০",
+        "৬৬০",
+        "৬৮০",
+        "৭২০"
+      ],
+      "answerIndex": 2,
+      "answer": "৬৮০",
+      "explanation": "ছাড় = ৮০০×১৫%=১২০ টাকা; বিক্রয়মূল্য = ৮০০−১২০=৬৮০ টাকা।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_085",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়িতে ৩টা বাজলে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "৬০°",
+        "৭৫°",
+        "৯০°",
+        "১২০°"
+      ],
+      "answerIndex": 2,
+      "answer": "৯০°",
+      "explanation": "৩টায় মিনিটের কাঁটা ১২-তে এবং ঘণ্টার কাঁটা ৩-এ থাকে; কোণ ৯০°।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_086",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ২৫% হলো ৭৫। সংখ্যাটি কত?",
+      "options": [
+        "২০০",
+        "২৫০",
+        "৩০০",
+        "৩৫০"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০০",
+      "explanation": "সংখ্যা = ৭৫÷০.২৫ = ৩০০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_087",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "৫টি সংখ্যার গড় ১৮। তাদের যোগফল কত?",
+      "options": [
+        "৭২",
+        "৮০",
+        "৯০",
+        "৯৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৯০",
+      "explanation": "যোগফল = গড় × সংখ্যা = ১৮×৫ = ৯০।",
+      "classificationReason": "গড়/পরিসংখ্যান"
+    },
+    {
+      "id": "base_088",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি ট্রেন ঘণ্টায় ৬০ কিমি বেগে ২.৫ ঘণ্টায় কত দূর যাবে?",
+      "options": [
+        "১২০ কিমি",
+        "১৩০ কিমি",
+        "১৫০ কিমি",
+        "১৮০ কিমি"
+      ],
+      "answerIndex": 2,
+      "answer": "১৫০ কিমি",
+      "explanation": "দূরত্ব = বেগ × সময় = ৬০×২.৫ = ১৫০ কিমি।",
+      "classificationReason": "সময়-দূরত্ব"
+    },
+    {
+      "id": "base_089",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ৪০% হলো ১২০। সংখ্যাটি কত?",
+      "options": [
+        "২৪০",
+        "২৮০",
+        "৩০০",
+        "৩২০"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০০",
+      "explanation": "সংখ্যা = ১২০÷০.৪ = ৩০০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_090",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "১২, ১৫, ১৮, ২১ ও ২৪-এর মধ্যক কত?",
+      "options": [
+        "১৫",
+        "১৮",
+        "২১",
+        "২৪"
+      ],
+      "answerIndex": 1,
+      "answer": "১৮",
+      "explanation": "সাজানো পাঁচটি সংখ্যার মাঝের অর্থাৎ তৃতীয় সংখ্যাটি ১৮।",
+      "classificationReason": "গড়/পরিসংখ্যান"
+    },
+    {
+      "id": "base_091",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য ১২ সেমি ও প্রস্থ ৭ সেমি। ক্ষেত্রফল কত?",
+      "options": [
+        "১৯",
+        "৩৮",
+        "৭২",
+        "৮৪"
+      ],
+      "answerIndex": 3,
+      "answer": "৮৪",
+      "explanation": "আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ = ১২×৭ = ৮৪ বর্গসেমি।",
+      "classificationReason": "জ্যামিতি/পরিমিতি"
+    },
+    {
+      "id": "base_092",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি শ্রেণিতে ৪০ জন শিক্ষার্থীর ৬০% মেয়ে। মেয়ের সংখ্যা কত?",
+      "options": [
+        "১৬",
+        "২০",
+        "২৪",
+        "২৬"
+      ],
+      "answerIndex": 2,
+      "answer": "২৪",
+      "explanation": "মেয়ের সংখ্যা = ৪০×৬০%=২৪।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_093",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "দুটি সংখ্যার অনুপাত ৩:৫ এবং যোগফল ৬৪। ছোট সংখ্যাটি কত?",
+      "options": [
+        "১৮",
+        "২১",
+        "২৪",
+        "২৭"
+      ],
+      "answerIndex": 2,
+      "answer": "২৪",
+      "explanation": "মোট অনুপাত ৮; এক অংশ ৬৪÷৮=৮। ছোট সংখ্যা ৩×৮=২৪।",
+      "classificationReason": "অনুপাত/ঐকিক নিয়ম/অঙ্ক"
+    },
+    {
+      "id": "base_094",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পণ্য ৫০০ টাকায় কিনে ৫৭৫ টাকায় বিক্রি করলে লাভের হার কত?",
+      "options": [
+        "১০%",
+        "১২%",
+        "১৫%",
+        "২০%"
+      ],
+      "answerIndex": 2,
+      "answer": "১৫%",
+      "explanation": "লাভ ৭৫ টাকা; লাভের হার = ৭৫÷৫০০×১০০ = ১৫%।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_095",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ২৫% হলো ৪০। সংখ্যাটি কত?",
+      "options": [
+        "১০০",
+        "১২০",
+        "১৬০",
+        "২০০"
+      ],
+      "answerIndex": 2,
+      "answer": "১৬০",
+      "explanation": "সংখ্যাটি = ৪০ ÷ ০.২৫ = ১৬০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_096",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ঘড়িতে ৩টা ৩০ মিনিটে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী ক্ষুদ্র কোণ কত?",
+      "options": [
+        "৬০°",
+        "৭৫°",
+        "৯০°",
+        "১০৫°"
+      ],
+      "answerIndex": 1,
+      "answer": "৭৫°",
+      "explanation": "৩:৩০-এ মিনিটের কাঁটা ১৮০° এবং ঘণ্টার কাঁটা ১০৫° অবস্থানে; পার্থক্য ৭৫°।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_097",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "৩, ৯, ২৭, ৮১, পরবর্তী সংখ্যা কত?",
+      "options": [
+        "২৪৩",
+        "১৬২",
+        "১৮৯",
+        "৩২৪"
+      ],
+      "answerIndex": 0,
+      "answer": "২৪৩",
+      "explanation": "প্রতিটি পদ আগের পদের ৩ গুণ: ৮১ × ৩ = ২৪৩।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_098",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "৫ জন ব্যক্তি একটি কাজ ১০ দিনে করলে ১০ জন একই হারে কাজটি কত দিনে করবে?",
+      "options": [
+        "৫ দিনে",
+        "১০ দিনে",
+        "১৫ দিনে",
+        "২০ দিনে"
+      ],
+      "answerIndex": 0,
+      "answer": "৫ দিনে",
+      "explanation": "মোট কাজ ৫ × ১০ = ৫০ ব্যক্তি-দিন; ১০ জনে সময় ৫০ ÷ ১০ = ৫ দিন।",
+      "classificationReason": "সময় ও কাজ"
+    },
+    {
+      "id": "base_099",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "২, ৬, ১২, ২০, ৩০, পরবর্তী সংখ্যা কত?",
+      "options": [
+        "৪২",
+        "৩৬",
+        "৪০",
+        "৪৪"
+      ],
+      "answerIndex": 0,
+      "answer": "৪২",
+      "explanation": "পার্থক্য ৪, ৬, ৮, ১০; পরের পার্থক্য ১২, তাই ৩০ + ১২ = ৪২।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_100",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "১ থেকে ১০০ পর্যন্ত কয়টি মৌলিক সংখ্যা আছে?",
+      "options": [
+        "২৫টি",
+        "২৪টি",
+        "২৬টি",
+        "২৭টি"
+      ],
+      "answerIndex": 0,
+      "answer": "২৫টি",
+      "explanation": "১ থেকে ১০০-এর মধ্যে মোট ২৫টি মৌলিক সংখ্যা রয়েছে; ১ মৌলিক নয়।",
+      "classificationReason": "সংখ্যাতত্ত্ব"
+    },
+    {
+      "id": "base_101",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "১৫-এর ৪০% কত?",
+      "options": [
+        "৬",
+        "৫",
+        "৭",
+        "৮"
+      ],
+      "answerIndex": 0,
+      "answer": "৬",
+      "explanation": "১৫ × ৪০/১০০ = ৬।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_102",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি বর্গের বাহু দ্বিগুণ করলে ক্ষেত্রফল কত গুণ হবে?",
+      "options": [
+        "৪ গুণ",
+        "২ গুণ",
+        "৬ গুণ",
+        "৮ গুণ"
+      ],
+      "answerIndex": 0,
+      "answer": "৪ গুণ",
+      "explanation": "বর্গের ক্ষেত্রফল বাহুর বর্গের সমান; (২a)² = ৪a²।",
+      "classificationReason": "জ্যামিতি/পরিমিতি"
+    },
+    {
+      "id": "base_103",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "০.৫, ০.২৫, ০.১২৫, পরবর্তী সংখ্যা কত?",
+      "options": [
+        "০.০৬২৫",
+        "০.০৭৫",
+        "০.০২৫",
+        "০.১"
+      ],
+      "answerIndex": 0,
+      "answer": "০.০৬২৫",
+      "explanation": "প্রতিটি পদ আগের পদের অর্ধেক; ০.১২৫ ÷ ২ = ০.০৬২৫।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_104",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "১২ জন শ্রমিক ৬ দিনে কাজ করলে ৪ জন একই হারে কাজটি কত দিনে করবে?",
+      "options": [
+        "১৮ দিনে",
+        "১২ দিনে",
+        "১৬ দিনে",
+        "২৪ দিনে"
+      ],
+      "answerIndex": 0,
+      "answer": "১৮ দিনে",
+      "explanation": "মোট কাজ ১২ × ৬ = ৭২ ব্যক্তি-দিন; ৪ জনে সময় ৭২ ÷ ৪ = ১৮ দিন।",
+      "classificationReason": "সময় ও কাজ"
+    },
+    {
+      "id": "base_105",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "৮০-এর ১৫% কত?",
+      "options": [
+        "১২",
+        "১০",
+        "১৪",
+        "১৬"
+      ],
+      "answerIndex": 0,
+      "answer": "১২",
+      "explanation": "৮০ × ১৫/১০০ = ১২।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_106",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার দ্বিগুণ ৮৬ হলে সংখ্যাটি কত?",
+      "options": [
+        "৪৩",
+        "৪২",
+        "৪৪",
+        "৪৬"
+      ],
+      "answerIndex": 0,
+      "answer": "৪৩",
+      "explanation": "৮৬ ÷ ২ = ৪৩।",
+      "classificationReason": "বীজগণিত/সরাসরি সংখ্যাগত হিসাব"
+    },
+    {
+      "id": "base_107",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি শ্রেণিতে ৩০ জন শিক্ষার্থীর মধ্যে রিমার অবস্থান ওপর থেকে ৮ম। নিচ থেকে তার অবস্থান কততম?",
+      "options": [
+        "২১তম",
+        "২২তম",
+        "২৩তম",
+        "২৪তম"
+      ],
+      "answerIndex": 2,
+      "answer": "২৩তম",
+      "explanation": "নিচ থেকে অবস্থান = মোট ৩০ − ওপর থেকে ৮ + ১ = ২৩তম।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_108",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ২৫% হলো ১৮। সংখ্যাটি কত?",
+      "options": [
+        "৬০",
+        "৬৮",
+        "৭২",
+        "৮০"
+      ],
+      "answerIndex": 2,
+      "answer": "৭২",
+      "explanation": "সংখ্যা = ১৮ ÷ ০.২৫ = ৭২।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_109",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ১৫% হলো ৬০। সংখ্যাটি কত?",
+      "options": [
+        "৩০০",
+        "৩৫০",
+        "৪০০",
+        "৪৫০"
+      ],
+      "answerIndex": 2,
+      "answer": "৪০০",
+      "explanation": "সংখ্যা = ৬০÷০.১৫ = ৪০০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_110",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পণ্যের দাম ২০% কমে ৮০০ টাকা হলো। আগের দাম কত ছিল?",
+      "options": [
+        "৯০০",
+        "৯৬০",
+        "১০০০",
+        "১২০০"
+      ],
+      "answerIndex": 2,
+      "answer": "১০০০",
+      "explanation": "৮০% = ৮০০ টাকা; মূল দাম = ৮০০÷০.৮ = ১০০০ টাকা।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_111",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরের সংখ্যা কত: ২, ৬, ১২, ২০, ৩০, ...?",
+      "options": [
+        "৩৬",
+        "৪০",
+        "৪২",
+        "৪৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৪২",
+      "explanation": "পার্থক্যগুলো ৪, ৬, ৮, ১০; পরের পার্থক্য ১২। তাই ৩০ + ১২ = ৪২।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_112",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "সব গোলাপ ফুল এবং কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "সব গোলাপ ফুল",
+        "কোনো ফুলই দ্রুত ঝরে যায় না"
+      ],
+      "answerIndex": 2,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রথম বক্তব্যেই বলা হয়েছে সব গোলাপ ফুল; তাই ‘সব গোলাপ ফুল’ সিদ্ধান্তটি অবশ্যই সত্য।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_113",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরের সংখ্যা কত: ১, ৪, ৯, ১৬, ২৫, ...?",
+      "options": [
+        "৩০",
+        "৩৬",
+        "৪২",
+        "৪৯"
+      ],
+      "answerIndex": 1,
+      "answer": "৩৬",
+      "explanation": "সংখ্যাগুলো যথাক্রমে ১², ২², ৩², ৪², ৫²; পরেরটি ৬² = ৩৬।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_114",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরের সংখ্যা কত: ৩, ৬, ১২, ২৪, ৪৮, ...?",
+      "options": [
+        "৭২",
+        "৮৪",
+        "৯৬",
+        "১০৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৯৬",
+      "explanation": "প্রতিটি সংখ্যা আগের সংখ্যার দ্বিগুণ; তাই ৪৮×২=৯৬।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_115",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরের অক্ষর কোনটি: A, C, F, J, O, ...?",
+      "options": [
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "answerIndex": 2,
+      "answer": "U",
+      "explanation": "অক্ষরগুলোর অবস্থান ১, ৩, ৬, ১০, ১৫; পার্থক্য ২, ৩, ৪, ৫; পরেরটি ২১ অর্থাৎ U।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_116",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি ঘনকের কয়টি পৃষ্ঠ থাকে?",
+      "options": [
+        "৪",
+        "৬",
+        "৮",
+        "১২"
+      ],
+      "answerIndex": 1,
+      "answer": "৬",
+      "explanation": "ঘনকের ৬টি সমান বর্গাকার পৃষ্ঠ থাকে।",
+      "classificationReason": "জ্যামিতি/পরিমিতি"
+    },
+    {
+      "id": "base_117",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরের সংখ্যা কত: ৫, ১০, ২০, ৪০, ...?",
+      "options": [
+        "৫০",
+        "৬০",
+        "৭০",
+        "৮০"
+      ],
+      "answerIndex": 3,
+      "answer": "৮০",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণ; তাই ৪০×২=৮০।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_118",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়িতে ১২টি সংখ্যা আছে। ৬-এর বিপরীত সংখ্যা কোনটি?",
+      "options": [
+        "৩",
+        "৬",
+        "৯",
+        "১২"
+      ],
+      "answerIndex": 3,
+      "answer": "১২",
+      "explanation": "ঘড়ির ডায়ালে ৬-এর ঠিক বিপরীতে ১২ থাকে।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_119",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি গতকাল রবিবার হয়ে থাকে, তবে আগামীকাল কী বার?",
+      "options": [
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার",
+        "বৃহস্পতিবার"
+      ],
+      "answerIndex": 1,
+      "answer": "মঙ্গলবার",
+      "explanation": "গতকাল রবিবার হলে আজ সোমবার; আগামীকাল মঙ্গলবার।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_120",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরের সংখ্যা কত: ৮, ২৭, ৬৪, ১২৫, ...?",
+      "options": [
+        "১৮০",
+        "১৯৬",
+        "২১৬",
+        "২৪৩"
+      ],
+      "answerIndex": 2,
+      "answer": "২১৬",
+      "explanation": "সংখ্যাগুলো ২³, ৩³, ৪³, ৫³; পরেরটি ৬³ = ২১৬।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_121",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি বাক্সে ৫টি লাল ও ৩টি নীল বল আছে। না দেখে একটি বল তুললে লাল বল পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "৩/৮",
+        "৫/৮",
+        "১/২",
+        "৫/৩"
+      ],
+      "answerIndex": 1,
+      "answer": "৫/৮",
+      "explanation": "মোট বল ৮টি, লাল ৫টি; সম্ভাবনা ৫/৮।",
+      "classificationReason": "সম্ভাব্যতা"
+    },
+    {
+      "id": "base_122",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি শ্রেণিতে ৩০ জনের মধ্যে ১৮ জন ফুটবল পছন্দ করে। ফুটবল পছন্দ করে না কতজন?",
+      "options": [
+        "১০",
+        "১১",
+        "১২",
+        "১৩"
+      ],
+      "answerIndex": 2,
+      "answer": "১২",
+      "explanation": "ফুটবল পছন্দ করে না = ৩০−১৮ = ১২ জন।",
+      "classificationReason": "বীজগণিত/সরাসরি সংখ্যাগত হিসাব"
+    },
+    {
+      "id": "base_123",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরের অক্ষর কোনটি: B, E, H, K, ...?",
+      "options": [
+        "L",
+        "M",
+        "N",
+        "O"
+      ],
+      "answerIndex": 2,
+      "answer": "N",
+      "explanation": "প্রতিবার তিন অক্ষর এগিয়েছে: B, E, H, K, N।",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "base_124",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "৮০-এর ১২.৫% কত?",
+      "options": [
+        "৮",
+        "১০",
+        "১২",
+        "১৫"
+      ],
+      "answerIndex": 1,
+      "answer": "১০",
+      "explanation": "১২.৫%=১/৮; ৮০÷৮=১০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_125",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ৪০% হলো ৭২। সংখ্যাটি কত?",
+      "options": [
+        "১৬০",
+        "১৭০",
+        "১৮০",
+        "১৯০"
+      ],
+      "answerIndex": 2,
+      "answer": "১৮০",
+      "explanation": "সংখ্যা = ৭২÷০.৪ = ১৮০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_126",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি ট্রেন ৭২ কিমি/ঘণ্টা বেগে চললে মিটার/সেকেন্ডে বেগ কত?",
+      "options": [
+        "১৮",
+        "২০",
+        "২২",
+        "২৪"
+      ],
+      "answerIndex": 1,
+      "answer": "২০",
+      "explanation": "৭২×৫/১৮ = ২০ মিটার/সেকেন্ড।",
+      "classificationReason": "সময়-দূরত্ব"
+    },
+    {
+      "id": "base_127",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি বর্গক্ষেত্রের বাহু ৯ সেমি হলে পরিসীমা কত?",
+      "options": [
+        "১৮ সেমি",
+        "২৭ সেমি",
+        "৩৬ সেমি",
+        "৮১ সেমি"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৬ সেমি",
+      "explanation": "বর্গক্ষেত্রের পরিসীমা = ৪×বাহু = ৪×৯ = ৩৬ সেমি।",
+      "classificationReason": "জ্যামিতি/পরিমিতি"
+    },
+    {
+      "id": "base_128",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পাত্রে ৪ লিটার দুধ ও ১ লিটার পানি আছে। মিশ্রণে দুধের শতকরা পরিমাণ কত?",
+      "options": [
+        "৬০%",
+        "৭০%",
+        "৮০%",
+        "৯০%"
+      ],
+      "answerIndex": 2,
+      "answer": "৮০%",
+      "explanation": "মোট মিশ্রণ ৫ লিটার; দুধ ৪ লিটার, তাই ৪/৫×১০০=৮০%।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_129",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "১০, ১৫ ও ২০-এর ল.সা.গু কত?",
+      "options": [
+        "৩০",
+        "৪০",
+        "৫০",
+        "৬০"
+      ],
+      "answerIndex": 3,
+      "answer": "৬০",
+      "explanation": "১০, ১৫ ও ২০-এর ক্ষুদ্রতম সাধারণ গুণিতক ৬০।",
+      "classificationReason": "সংখ্যাতত্ত্ব"
+    },
+    {
+      "id": "base_130",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি কাজ ৬ জন শ্রমিক ১২ দিনে করে। একই হারে ৮ জন শ্রমিক কাজটি কত দিনে করবে?",
+      "options": [
+        "৮ দিন",
+        "৯ দিন",
+        "১০ দিন",
+        "১২ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৯ দিন",
+      "explanation": "মোট কাজ ৬×১২=৭২ শ্রমিক-দিন; ৮ জনে সময় ৭২÷৮=৯ দিন।",
+      "classificationReason": "সময় ও কাজ"
+    },
+    {
+      "id": "base_131",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি ত্রিভুজের দুটি কোণ ৫০° ও ৬০° হলে তৃতীয় কোণ কত?",
+      "options": [
+        "৬০°",
+        "৭০°",
+        "৮০°",
+        "৯০°"
+      ],
+      "answerIndex": 1,
+      "answer": "৭০°",
+      "explanation": "ত্রিভুজের কোণসমষ্টি ১৮০°; তৃতীয় কোণ = ১৮০−৫০−৬০ = ৭০°।",
+      "classificationReason": "জ্যামিতি/পরিমিতি"
+    },
+    {
+      "id": "base_132",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ৩/৫ অংশ ৪২ হলে সংখ্যাটি কত?",
+      "options": [
+        "৬০",
+        "৬৫",
+        "৭০",
+        "৭৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৭০",
+      "explanation": "সংখ্যা = ৪২×৫/৩ = ৭০।",
+      "classificationReason": "অনুপাত/ঐকিক নিয়ম/অঙ্ক"
+    },
+    {
+      "id": "base_133",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পণ্যের দাম ২০% বাড়িয়ে পরে ২০% কমানো হলো। মূল দামের তুলনায় চূড়ান্ত দাম—",
+      "options": [
+        "সমান",
+        "৪% কম",
+        "৪% বেশি",
+        "৮% কম"
+      ],
+      "answerIndex": 1,
+      "answer": "৪% কম",
+      "explanation": "১০০→১২০→৯৬; তাই মূল দামের তুলনায় ৪% কম।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_134",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "১২ ও ১৮-এর গ.সা.গু কত?",
+      "options": [
+        "৩",
+        "৬",
+        "৯",
+        "১২"
+      ],
+      "answerIndex": 1,
+      "answer": "৬",
+      "explanation": "১২ ও ১৮-এর সর্বোচ্চ সাধারণ গুণনীয়ক ৬।",
+      "classificationReason": "সংখ্যাতত্ত্ব"
+    },
+    {
+      "id": "base_135",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ২০% হলো ৩৬। সংখ্যাটির ৫০% কত?",
+      "options": [
+        "৭২",
+        "৮০",
+        "৯০",
+        "১০০"
+      ],
+      "answerIndex": 2,
+      "answer": "৯০",
+      "explanation": "সংখ্যাটি ৩৬÷০.২=১৮০; এর ৫০% = ৯০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_136",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি আয়তক্ষেত্রের পরিসীমা ৩০ সেমি এবং দৈর্ঘ্য ৯ সেমি। প্রস্থ কত?",
+      "options": [
+        "৫ সেমি",
+        "৬ সেমি",
+        "৭ সেমি",
+        "৮ সেমি"
+      ],
+      "answerIndex": 1,
+      "answer": "৬ সেমি",
+      "explanation": "২×(দৈর্ঘ্য+প্রস্থ)=৩০; দৈর্ঘ্য+প্রস্থ=১৫, তাই প্রস্থ=৬ সেমি।",
+      "classificationReason": "জ্যামিতি/পরিমিতি"
+    },
+    {
+      "id": "base_137",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পণ্যে ২৫% ছাড় দেওয়ার পর দাম ৬০০ টাকা। ছাড়ের আগের দাম কত?",
+      "options": [
+        "৭০০ টাকা",
+        "৭৫০ টাকা",
+        "৮০০ টাকা",
+        "৮৫০ টাকা"
+      ],
+      "answerIndex": 2,
+      "answer": "৮০০ টাকা",
+      "explanation": "ছাড়ের পর দাম মূল দামের ৭৫%; মূল দাম = ৬০০÷০.৭৫ = ৮০০ টাকা।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_138",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি ছক্কা একবার নিক্ষেপে জোড় সংখ্যা পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "১/৬",
+        "১/৩",
+        "১/২",
+        "২/৩"
+      ],
+      "answerIndex": 2,
+      "answer": "১/২",
+      "explanation": "জোড় ফল ২, ৪, ৬—মোট ৩টি; সম্ভাবনা ৩/৬=১/২।",
+      "classificationReason": "সম্ভাব্যতা"
+    },
+    {
+      "id": "base_139",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ৩০% হলো ৯০। সংখ্যাটির ২/৩ অংশ কত?",
+      "options": [
+        "১৮০",
+        "২০০",
+        "২২০",
+        "২৪০"
+      ],
+      "answerIndex": 1,
+      "answer": "২০০",
+      "explanation": "সংখ্যাটি ৯০÷০.৩=৩০০; এর ২/৩ = ২০০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_140",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "দুটি সংখ্যার গড় ২৬। একটি সংখ্যা ২০ হলে অন্যটি কত?",
+      "options": [
+        "২৮",
+        "৩০",
+        "৩২",
+        "৩৪"
+      ],
+      "answerIndex": 2,
+      "answer": "৩২",
+      "explanation": "দুটি সংখ্যার যোগফল ২৬×২=৫২; অন্য সংখ্যা ৫২−২০=৩২।",
+      "classificationReason": "গড়/পরিসংখ্যান"
+    },
+    {
+      "id": "base_141",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি বৃত্তের ব্যাস ১৪ সেমি হলে পরিধি কত? (π=২২/৭)",
+      "options": [
+        "২২ সেমি",
+        "৩৬ সেমি",
+        "৪৪ সেমি",
+        "৮৮ সেমি"
+      ],
+      "answerIndex": 2,
+      "answer": "৪৪ সেমি",
+      "explanation": "পরিধি = π×ব্যাস = ২২/৭×১৪ = ৪৪ সেমি।",
+      "classificationReason": "জ্যামিতি/পরিমিতি"
+    },
+    {
+      "id": "base_142",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ৭৫% হলো ১৫০। সংখ্যাটি কত?",
+      "options": [
+        "১৮০",
+        "২০০",
+        "২২০",
+        "২৫০"
+      ],
+      "answerIndex": 1,
+      "answer": "২০০",
+      "explanation": "সংখ্যা = ১৫০÷০.৭৫ = ২০০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_143",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি শ্রেণিতে ৩০ জনের মধ্যে ১৮ জন ছেলে। মেয়ের সংখ্যা কত?",
+      "options": [
+        "১০",
+        "১২",
+        "১৪",
+        "১৬"
+      ],
+      "answerIndex": 1,
+      "answer": "১২",
+      "explanation": "মেয়ের সংখ্যা = ৩০−১৮ = ১২।",
+      "classificationReason": "বীজগণিত/সরাসরি সংখ্যাগত হিসাব"
+    },
+    {
+      "id": "base_144",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সমবাহু ত্রিভুজের প্রতিটি কোণের পরিমাণ কত?",
+      "options": [
+        "৪৫°",
+        "৬০°",
+        "৭৫°",
+        "৯০°"
+      ],
+      "answerIndex": 1,
+      "answer": "৬০°",
+      "explanation": "সমবাহু ত্রিভুজের তিনটি কোণ সমান; প্রতিটি ১৮০°÷৩=৬০°।",
+      "classificationReason": "জ্যামিতি/পরিমিতি"
+    },
+    {
+      "id": "base_145",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "৫টি সংখ্যার গড় ১২ হলে সংখ্যাগুলোর যোগফল কত?",
+      "options": [
+        "৫০",
+        "৫৫",
+        "৬০",
+        "৬৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৬০",
+      "explanation": "যোগফল = গড় × সংখ্যা = ১২×৫ = ৬০।",
+      "classificationReason": "গড়/পরিসংখ্যান"
+    },
+    {
+      "id": "base_146",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ৪০% ৮০ হলে সংখ্যাটির ২৫% কত?",
+      "options": [
+        "৪০",
+        "৫০",
+        "৬০",
+        "৭০"
+      ],
+      "answerIndex": 1,
+      "answer": "৫০",
+      "explanation": "সংখ্যাটি ৮০÷০.৪=২০০; ২৫% = ৫০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_147",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি বর্গের বাহু ৯ সেমি হলে ক্ষেত্রফল কত?",
+      "options": [
+        "১৮ বর্গসেমি",
+        "৩৬ বর্গসেমি",
+        "৭২ বর্গসেমি",
+        "৮১ বর্গসেমি"
+      ],
+      "answerIndex": 3,
+      "answer": "৮১ বর্গসেমি",
+      "explanation": "বর্গের ক্ষেত্রফল = বাহু² = ৯² = ৮১ বর্গসেমি।",
+      "classificationReason": "জ্যামিতি/পরিমিতি"
+    },
+    {
+      "id": "base_148",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "৮, ১২ ও ২০-এর ল.সা.গু কত?",
+      "options": [
+        "৪০",
+        "৬০",
+        "৮০",
+        "১২০"
+      ],
+      "answerIndex": 3,
+      "answer": "১২০",
+      "explanation": "৮=২³, ১২=২²×৩, ২০=২²×৫; ল.সা.গু=২³×৩×৫=১২০।",
+      "classificationReason": "সংখ্যাতত্ত্ব"
+    },
+    {
+      "id": "base_149",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পণ্যের ক্রয়মূল্য ৫০০ টাকা, বিক্রয়মূল্য ৬০০ টাকা। লাভের হার কত?",
+      "options": [
+        "১০%",
+        "১৫%",
+        "২০%",
+        "২৫%"
+      ],
+      "answerIndex": 2,
+      "answer": "২০%",
+      "explanation": "লাভ=১০০ টাকা; লাভের হার=১০০÷৫০০×১০০=২০%।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "base_150",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ১২.৫% হলো ২৫। সংখ্যাটি কত?",
+      "options": [
+        "১০০",
+        "১৫০",
+        "২০০",
+        "২৫০"
+      ],
+      "answerIndex": 2,
+      "answer": "২০০",
+      "explanation": "সংখ্যা = ২৫÷০.১২৫ = ২০০।",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "extra_027",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি শ্রেণিতে রাহিম ওপর থেকে ১২তম এবং নিচ থেকে ৯ম। শ্রেণিতে মোট কতজন?",
+      "options": [
+        "১৯",
+        "২০",
+        "২১",
+        "২২"
+      ],
+      "answerIndex": 1,
+      "answer": "২০",
+      "explanation": "মোট = ওপরের অবস্থান + নিচের অবস্থান − ১ = ১২ + ৯ − ১ = ২০।",
+      "source": "প্রচলিত পাঠ্যপুস্তক/স্বীকৃত সাহিত্যতথ্য",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_028",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ঘড়িতে ৬টা বাজলে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী ক্ষুদ্রতর কোণ কত?",
+      "options": [
+        "৯০°",
+        "১২০°",
+        "১৮০°",
+        "২৭০°"
+      ],
+      "answerIndex": 2,
+      "answer": "১৮০°",
+      "explanation": "৬টায় মিনিটের কাঁটা ১২-তে এবং ঘণ্টার কাঁটা ৬-এ থাকে; কোণ ১৮০°।",
+      "source": "প্রচলিত পাঠ্যপুস্তক/স্বীকৃত সাহিত্যতথ্য",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_029",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি CAT-কে DBU লেখা হয়, তবে DOG-কে কীভাবে লেখা হবে?",
+      "options": [
+        "EPH",
+        "EOG",
+        "FPH",
+        "DPH"
+      ],
+      "answerIndex": 0,
+      "answer": "EPH",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসানো হয়েছে: D→E, O→P, G→H।",
+      "source": "প্রচলিত পাঠ্যপুস্তক/স্বীকৃত সাহিত্যতথ্য",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_030",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পরিবারের ৫ জনের গড় বয়স ২৪ বছর। একজন নতুন সদস্য যোগ হলে গড় ২৫ হয়। নতুন সদস্যের বয়স কত?",
+      "options": [
+        "২৫",
+        "২৮",
+        "৩০",
+        "৩৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০",
+      "explanation": "আগের মোট বয়স ৫×২৪=১২০; নতুন মোট ৬×২৫=১৫০; নতুন সদস্যের বয়স ৩০।",
+      "source": "প্রচলিত পাঠ্যপুস্তক/স্বীকৃত সাহিত্যতথ্য",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "গড়/পরিসংখ্যান"
+    },
+    {
+      "id": "extra_066",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-02.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ২০% হলো ৪৮। সংখ্যাটি কত?",
+      "options": [
+        "১৮০",
+        "২০০",
+        "২৪০",
+        "২৬০"
+      ],
+      "answerIndex": 2,
+      "answer": "২৪০",
+      "explanation": "সংখ্যাটি = ৪৮ ÷ ০.২০ = ২৪০।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "extra_068",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-02.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "সব গোলাপ ফুল এবং কিছু ফুল দ্রুত ঝরে। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে",
+        "কিছু গোলাপ দ্রুত ঝরে",
+        "সব গোলাপ ফুল",
+        "কোনো ফুল গোলাপ নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রদত্ত প্রথম বক্তব্য অনুযায়ী প্রতিটি গোলাপই ফুল; অন্য বক্তব্য থেকে গোলাপ সম্পর্কে নির্দিষ্ট সিদ্ধান্ত আসে না।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_069",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-02.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি কাজ ৬ জনে ১২ দিনে করলে, সমান দক্ষতায় ৮ জনে কত দিনে করবে?",
+      "options": [
+        "৮ দিন",
+        "৯ দিন",
+        "১০ দিন",
+        "১৬ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৯ দিন",
+      "explanation": "মোট কাজ ৬×১২=৭২ জন-দিন; ৮ জনে সময় ৭২÷৮=৯ দিন।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "সময় ও কাজ"
+    },
+    {
+      "id": "extra_070",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-02.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ঘড়িতে ৬টা ৩০ মিনিটে ঘণ্টা ও মিনিটের কাঁটার ক্ষুদ্রতর কোণ কত?",
+      "options": [
+        "১৫°",
+        "৩০°",
+        "৪৫°",
+        "৬০°"
+      ],
+      "answerIndex": 0,
+      "answer": "১৫°",
+      "explanation": "মিনিটের কাঁটা ১৮০° এবং ঘণ্টার কাঁটা ১৯৫° অবস্থানে; ক্ষুদ্রতর কোণ = ১৯৫°−১৮০° = ১৫°।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_106",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পণ্যের দাম ৮০০ টাকা। ১৫% ছাড়ের পর দাম কত?",
+      "options": [
+        "৬৪০ টাকা",
+        "৬৮০ টাকা",
+        "৭০০ টাকা",
+        "৭২০ টাকা"
+      ],
+      "answerIndex": 1,
+      "answer": "৬৮০ টাকা",
+      "explanation": "ছাড় ৮০০×১৫%=১২০ টাকা; বিক্রয়মূল্য ৮০০−১২০=৬৮০ টাকা।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "extra_107",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ১, ১, ২, ৩, ৫, ৮, পরের সংখ্যা কত?",
+      "options": [
+        "১১",
+        "১২",
+        "১৩",
+        "১৫"
+      ],
+      "answerIndex": 2,
+      "answer": "১৩",
+      "explanation": "ফিবোনাচ্চি ধারায় পরের পদ আগের দুই পদের যোগফল: ৫+৮=১৩।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_108",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি বাক্সে ৩টি লাল ও ২টি নীল বল আছে। একটি বল দৈবভাবে তুললে লাল হওয়ার সম্ভাবনা কত?",
+      "options": [
+        "২/৫",
+        "৩/৫",
+        "১/২",
+        "৩/২"
+      ],
+      "answerIndex": 1,
+      "answer": "৩/৫",
+      "explanation": "মোট বল ৫টি, লাল ৩টি; সম্ভাবনা ৩/৫।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "সম্ভাব্যতা"
+    },
+    {
+      "id": "extra_109",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "৫টি সংখ্যার গড় ১২। সংখ্যাগুলোর যোগফল কত?",
+      "options": [
+        "৫০",
+        "৫৫",
+        "৬০",
+        "৬৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৬০",
+      "explanation": "গড় = যোগফল÷সংখ্যা; তাই যোগফল=১২×৫=৬০।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "গড়/পরিসংখ্যান"
+    },
+    {
+      "id": "extra_110",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি গাড়ি ৯০ কিমি/ঘণ্টা বেগে ২০ মিনিট চলে। অতিক্রান্ত দূরত্ব কত?",
+      "options": [
+        "২০ কিমি",
+        "২৫ কিমি",
+        "৩০ কিমি",
+        "৪০ কিমি"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০ কিমি",
+      "explanation": "২০ মিনিট = ১/৩ ঘণ্টা; দূরত্ব=৯০×১/৩=৩০ কিমি।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "সময়-দূরত্ব"
+    },
+    {
+      "id": "extra_146",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যার ২৫% হলো ৭৫। সংখ্যাটি কত?",
+      "options": [
+        "২৫০",
+        "২৭৫",
+        "৩০০",
+        "৩২৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০০",
+      "explanation": "সংখ্যাটি = ৭৫÷০.২৫ = ৩০০।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "extra_147",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পরীক্ষায় ৫০টির মধ্যে ৪০টি সঠিক। সঠিক উত্তরের শতকরা হার কত?",
+      "options": [
+        "৭০%",
+        "৭৫%",
+        "৮০%",
+        "৮৫%"
+      ],
+      "answerIndex": 2,
+      "answer": "৮০%",
+      "explanation": "৪০÷৫০×১০০ = ৮০ শতাংশ।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "extra_148",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ৫, ১০, ২০, ৪০, পরের সংখ্যা কত?",
+      "options": [
+        "৬০",
+        "৭০",
+        "৮০",
+        "৯০"
+      ],
+      "answerIndex": 2,
+      "answer": "৮০",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণ; পরের পদ ৮০।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_149",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য ১২ ও প্রস্থ ৫ একক হলে ক্ষেত্রফল কত?",
+      "options": [
+        "১৭",
+        "৩৪",
+        "৬০",
+        "১২০"
+      ],
+      "answerIndex": 2,
+      "answer": "৬০",
+      "explanation": "আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য×প্রস্থ = ১২×৫=৬০।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "জ্যামিতি/পরিমিতি"
+    },
+    {
+      "id": "extra_150",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি দলে ৮ জনের গড় বয়স ২০ বছর। একজন ২৭ বছর বয়সী সদস্য চলে গেলে বাকি ৭ জনের গড় বয়স কত?",
+      "options": [
+        "১৮ বছর",
+        "১৯ বছর",
+        "২০ বছর",
+        "২১ বছর"
+      ],
+      "answerIndex": 1,
+      "answer": "১৯ বছর",
+      "explanation": "মোট বয়স ৮×২০=১৬০; ২৭ বছর বয়সী সদস্য চলে গেলে বাকি বয়সের যোগফল ১৬০−২৭=১৩৩; গড় ১৩৩÷৭=১৯ বছর।",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "difficulty": "মাঝারি",
+      "classificationReason": "গড়/পরিসংখ্যান"
+    },
+    {
+      "id": "extra_185",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-05.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি CAT = 3-1-20 হয়, তবে DOG = কত?",
+      "options": [
+        "4-15-7",
+        "4-14-7",
+        "5-15-8",
+        "3-15-7"
+      ],
+      "answerIndex": 0,
+      "answer": "4-15-7",
+      "explanation": "ইংরেজি বর্ণমালায় D=4, O=15 এবং G=7।",
+      "source": "Coding-Decoding",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_186",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-05.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি শ্রেণিতে রাহিম ওপর থেকে ১২তম এবং নিচ থেকে ১৮তম। শ্রেণিতে মোট কতজন?",
+      "options": [
+        "২৮",
+        "২৯",
+        "৩০",
+        "৩১"
+      ],
+      "answerIndex": 1,
+      "answer": "২৯",
+      "explanation": "মোট শিক্ষার্থী = ওপরের অবস্থান + নিচের অবস্থান − ১ = ১২+১৮−১ = ২৯।",
+      "source": "Ranking",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_188",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-05.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী অক্ষর কী: A, C, F, J, O, __?",
+      "options": [
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "answerIndex": 2,
+      "answer": "U",
+      "explanation": "অক্ষরগুলোর ব্যবধান ক্রমে +২, +৩, +৪, +৫; পরের ব্যবধান +৬। O-এর পর U।",
+      "source": "Letter Series",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_224",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-06.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী সংখ্যা কত: ১, ৪, ৯, ১৬, ২৫, __?",
+      "options": [
+        "৩০",
+        "৩২",
+        "৩৬",
+        "৪৯"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৬",
+      "explanation": "এগুলো ১², ২², ৩², ৪², ৫²; পরেরটি ৬² = ৩৬।",
+      "source": "Number Series",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_226",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-06.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি দৌড়ে আপনি দ্বিতীয় স্থানে থাকা ব্যক্তিকে অতিক্রম করলেন। এখন আপনার অবস্থান কত?",
+      "options": [
+        "প্রথম",
+        "দ্বিতীয়",
+        "তৃতীয়",
+        "চতুর্থ"
+      ],
+      "answerIndex": 1,
+      "answer": "দ্বিতীয়",
+      "explanation": "দ্বিতীয় ব্যক্তিকে অতিক্রম করলে আপনি তার স্থানই নেবেন—অর্থাৎ দ্বিতীয়।",
+      "source": "Trick Reasoning",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_227",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-06.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি গতকালের আগের দিন শুক্রবার হয়, তবে আগামীকাল কী বার?",
+      "options": [
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার"
+      ],
+      "answerIndex": 1,
+      "answer": "সোমবার",
+      "explanation": "গতকালের আগের দিন শুক্রবার হলে গতকাল শনিবার, আজ রবিবার এবং আগামীকাল সোমবার।",
+      "source": "Calendar Reasoning",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_228",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-06.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি পরিবারে ২ বাবা ও ২ ছেলে আছে, কিন্তু সদস্য মাত্র ৩ জন। এটি কীভাবে সম্ভব?",
+      "options": [
+        "একজন সদস্য যমজ",
+        "তিন প্রজন্ম: দাদা, বাবা ও ছেলে",
+        "একজন সদস্য অতিথি",
+        "প্রশ্নটি অসম্ভব"
+      ],
+      "answerIndex": 1,
+      "answer": "তিন প্রজন্ম: দাদা, বাবা ও ছেলে",
+      "explanation": "দাদা একই সঙ্গে বাবা; মাঝের ব্যক্তি বাবা ও ছেলে; তৃতীয় ব্যক্তি ছেলে। তাই মোট তিনজন।",
+      "source": "Lateral Thinking",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_263",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী সংখ্যা কত: ৩, ৬, ১২, ২৪, __?",
+      "options": [
+        "৩০",
+        "৩৬",
+        "৪৮",
+        "৬০"
+      ],
+      "answerIndex": 2,
+      "answer": "৪৮",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণ; তাই ২৪×২=৪৮।",
+      "source": "Number Series",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_264",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পরীক্ষায় ৪০টি প্রশ্নের প্রতিটিতে ২ নম্বর। মোট নম্বরের ৭৫% পেলে কত নম্বর হবে?",
+      "options": [
+        "৫০",
+        "৫৫",
+        "৬০",
+        "৬৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৬০",
+      "explanation": "পূর্ণ নম্বর ৪০×২=৮০; ৮০-এর ৭৫% = ৬০।",
+      "source": "Quantitative Aptitude",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "extra_265",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি সংখ্যা ৫ দিয়ে ভাগ করলে ভাগশেষ ৩ থাকে। সংখ্যাটির সঙ্গে ২ যোগ করলে তা ৫ দিয়ে নিঃশেষে বিভাজ্য হয়। বক্তব্যটি—",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "সব সময় সত্য নয়",
+        "তথ্য অপর্যাপ্ত"
+      ],
+      "answerIndex": 0,
+      "answer": "সত্য",
+      "explanation": "সংখ্যাটি ৫k+৩ হলে ২ যোগে ৫k+৫ হয়, যা ৫ দিয়ে বিভাজ্য।",
+      "source": "Numerical Reasoning",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_266",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি কক্ষে ৫টি মোমবাতি জ্বলছিল। ২টি নিভিয়ে দেওয়া হলো। শেষে কক্ষে কয়টি মোমবাতি থাকবে?",
+      "options": [
+        "২টি",
+        "৩টি",
+        "৫টি",
+        "০টি"
+      ],
+      "answerIndex": 2,
+      "answer": "৫টি",
+      "explanation": "নেভানো হলেও মোমবাতিগুলো কক্ষেই থাকবে; তাই মোট ৫টি।",
+      "source": "Lateral Thinking",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_267",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি দলে প্রত্যেকে অন্য প্রত্যেকের সঙ্গে একবার করে করমর্দন করলে ৫ জনে মোট কতবার করমর্দন হবে?",
+      "options": [
+        "৫",
+        "৮",
+        "১০",
+        "২০"
+      ],
+      "answerIndex": 2,
+      "answer": "১০",
+      "explanation": "প্রতিটি জোড়া একবার: ৫×৪÷২ = ১০ বার।",
+      "source": "Combinatorics",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_301",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-08.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী সংখ্যা কত: ২, ৫, ১০, ১৭, ২৬, __?",
+      "options": [
+        "৩৫",
+        "৩৬",
+        "৩৭",
+        "৩৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৭",
+      "explanation": "পার্থক্য ৩, ৫, ৭, ৯; পরের পার্থক্য ১১। তাই ২৬+১১=৩৭।",
+      "source": "Number Series",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_302",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-08.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি পিতার বয়স ছেলের বয়সের ৩ গুণ। ১০ বছর পর পিতার বয়স ছেলের বয়সের ২ গুণ হবে। ছেলের বর্তমান বয়স কত?",
+      "options": [
+        "৮ বছর",
+        "১০ বছর",
+        "১২ বছর",
+        "১৫ বছর"
+      ],
+      "answerIndex": 1,
+      "answer": "১০ বছর",
+      "explanation": "ছেলের বয়স x, পিতার 3x। 3x+10=2(x+10), তাই x=10।",
+      "source": "Age Problems",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_303",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-08.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি বাক্সে ৪টি সাদা ও ৬টি কালো বল আছে। একটি বল তুললে সাদা বল পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "২/৫",
+        "৩/৫",
+        "১/২",
+        "৪/৬"
+      ],
+      "answerIndex": 0,
+      "answer": "২/৫",
+      "explanation": "মোট বল ১০টি, সাদা ৪টি; সম্ভাবনা ৪/১০ = ২/৫।",
+      "source": "Probability",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "সম্ভাব্যতা"
+    },
+    {
+      "id": "extra_304",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-08.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি সংখ্যা ২০% বৃদ্ধি পেয়ে ১২০ হয়েছে। আগের সংখ্যাটি কত?",
+      "options": [
+        "৯০",
+        "৯৫",
+        "১০০",
+        "১১০"
+      ],
+      "answerIndex": 2,
+      "answer": "১০০",
+      "explanation": "আগের সংখ্যা x হলে 1.2x=120; সুতরাং x=100।",
+      "source": "Quantitative Aptitude",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    },
+    {
+      "id": "extra_305",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-08.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "বর্ণমালার অবস্থান অনুযায়ী A=1, B=2 হলে BAD-এর মান কত?",
+      "options": [
+        "৬",
+        "৭",
+        "৮",
+        "৯"
+      ],
+      "answerIndex": 1,
+      "answer": "৭",
+      "explanation": "B=2, A=1, D=4; যোগফল ২+১+৪=৭।",
+      "source": "Coding-Decoding",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_306",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-08.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়িতে ৬টা বাজলে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "৯০°",
+        "১২০°",
+        "১৫০°",
+        "১৮০°"
+      ],
+      "answerIndex": 3,
+      "answer": "১৮০°",
+      "explanation": "৬টায় মিনিটের কাঁটা ১২-তে এবং ঘণ্টার কাঁটা ৬-এ; কোণ ১৮০°।",
+      "source": "Clock Reasoning",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_346",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-09.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ঘড়িতে ৩টা ৩০ মিনিটে দুই কাঁটার ক্ষুদ্রতর কোণ কত?",
+      "options": [
+        "৬০°",
+        "৭৫°",
+        "৯০°",
+        "১০৫°"
+      ],
+      "answerIndex": 1,
+      "answer": "৭৫°",
+      "explanation": "মিনিটের কাঁটা ১৮০° এবং ঘণ্টার কাঁটা ১০৫° অবস্থানে; পার্থক্য ৭৫°।",
+      "source": "মানসিক গণনা",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_347",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-09.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "২৫ জনের শ্রেণিতে রিমা ওপর থেকে ৭ম। নিচ থেকে তার অবস্থান কত?",
+      "options": [
+        "১৭তম",
+        "১৮তম",
+        "১৯তম",
+        "২০তম"
+      ],
+      "answerIndex": 2,
+      "answer": "১৯তম",
+      "explanation": "নিচ থেকে অবস্থান = ২৫−৭+১ = ১৯তম।",
+      "source": "ক্রম নির্ণয়",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_348",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-09.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "CAT-কে DBU লেখা হলে DOG-কে কী লেখা হবে?",
+      "options": [
+        "EPH",
+        "EOG",
+        "DPH",
+        "FPH"
+      ],
+      "answerIndex": 0,
+      "answer": "EPH",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসানো হয়েছে: D→E, O→P, G→H।",
+      "source": "কোডিং-ডিকোডিং",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_386",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-10.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী সংখ্যা কত: ১, ৪, ৯, ১৬, ২৫, ...?",
+      "options": [
+        "৩০",
+        "৩৪",
+        "৩৬",
+        "৪৯"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৬",
+      "explanation": "সংখ্যাগুলো ১², ২², ৩², ৪², ৫²; পরেরটি ৬² = ৩৬।",
+      "source": "সংখ্যাধারা",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_387",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-10.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি দলে ১২ জনের প্রত্যেকে অন্য প্রত্যেকের সঙ্গে একবার করমর্দন করলে মোট করমর্দন কতটি?",
+      "options": [
+        "৬৬",
+        "৭২",
+        "৭৮",
+        "৮৪"
+      ],
+      "answerIndex": 0,
+      "answer": "৬৬",
+      "explanation": "প্রতিটি জোড়া একবার করমর্দন করে; সংখ্যা ১২×১১÷২ = ৬৬।",
+      "source": "সমন্বয়",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "series / logic / coding / ranking / clock-calendar / spatial-lateral reasoning"
+    },
+    {
+      "id": "extra_388",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-10.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "গণিত · পরিমাণগত দক্ষতা",
+      "question": "একটি পরীক্ষায় ৪০টি প্রশ্নের প্রতিটির মান ২। পূর্ণমানের ৭৫% পেতে কত নম্বর লাগবে?",
+      "options": [
+        "৫০",
+        "৫৫",
+        "৬০",
+        "৬৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৬০",
+      "explanation": "পূর্ণমান ৮০; তার ৭৫% হলো ৬০।",
+      "source": "শতকরা",
+      "sourceUrl": "",
+      "difficulty": "",
+      "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
+    }
+  ]
+}
