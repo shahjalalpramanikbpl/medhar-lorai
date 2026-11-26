@@ -1,0 +1,5141 @@
+{
+  "title": "English Literature consolidated master batches 01-56",
+  "date": "2026-11-27",
+  "status": "PROVISIONAL_MASTER_NOT_LOCKED_CONTENT_SOURCE_REVIEW_PENDING",
+  "counts": {
+    "batch_01_50_unique": 281,
+    "batch_51_56_candidate": 12,
+    "batch_51_56_exact_duplicates_removed": 3,
+    "batch_51_56_unique": 9,
+    "consolidated_unique": 290,
+    "exact_duplicates_after_merge": 0,
+    "invalid_option_or_answer_structure": 0
+  },
+  "deduplication": "Exact full signature only: normalized category + normalized question + sorted normalized options + normalized correct answer. Similar wording with different option sets retained.",
+  "fact_check": {
+    "status": "PENDING_FULL_ITEM_BY_ITEM_FACT_AND_EXPLANATION_VERIFICATION",
+    "note": "This checkpoint confirms exact full-signature deduplication and four-option answer-index structure only; it does not certify every fact or explanation."
+  },
+  "records": [
+    {
+      "id": "base_001",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 86,
+      "category": "English Literature",
+      "q": "Who wrote Paradise Lost?",
+      "o": [
+        "John Milton",
+        "William Shakespeare",
+        "John Keats",
+        "Alexander Pope"
+      ],
+      "a": 0,
+      "e": "Paradise Lost is an epic poem by John Milton.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_002",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 87,
+      "category": "English Literature",
+      "q": "“To be, or not to be: that is the question” was written by—",
+      "o": [
+        "John Milton",
+        "William Shakespeare",
+        "Geoffrey Chaucer",
+        "Christopher Marlowe"
+      ],
+      "a": 1,
+      "e": "The line is from Hamlet by William Shakespeare.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_003",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 88,
+      "category": "English Literature",
+      "q": "“I wandered lonely as a cloud” was written by—",
+      "o": [
+        "P. B. Shelley",
+        "John Keats",
+        "William Wordsworth",
+        "Lord Byron"
+      ],
+      "a": 2,
+      "e": "This is the opening line of Wordsworth’s Daffodils.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_004",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 89,
+      "category": "English Literature",
+      "q": "Who is known as the Bard of Avon?",
+      "o": [
+        "John Milton",
+        "William Shakespeare",
+        "Ben Jonson",
+        "John Dryden"
+      ],
+      "a": 1,
+      "e": "William Shakespeare is traditionally called the Bard of Avon.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_005",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 90,
+      "category": "English Literature",
+      "q": "Who wrote Ode to a Nightingale?",
+      "o": [
+        "John Keats",
+        "William Blake",
+        "W. B. Yeats",
+        "T. S. Eliot"
+      ],
+      "a": 0,
+      "e": "Ode to a Nightingale is a major ode by John Keats.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_006",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 91,
+      "category": "English Literature",
+      "q": "“If Winter comes, can Spring be far behind?”—Who wrote this line?",
+      "o": [
+        "John Keats",
+        "P. B. Shelley",
+        "William Wordsworth",
+        "Lord Byron"
+      ],
+      "a": 1,
+      "e": "The line is from Shelley’s Ode to the West Wind.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_007",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 92,
+      "category": "English Literature",
+      "q": "Who wrote Pride and Prejudice?",
+      "o": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "Emily Brontë",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Pride and Prejudice was written by Jane Austen.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_008",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 93,
+      "category": "English Literature",
+      "q": "Who wrote The Canterbury Tales?",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Donne",
+        "John Milton",
+        "William Langland"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote The Canterbury Tales.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_009",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 94,
+      "category": "English Literature",
+      "q": "Who wrote Doctor Faustus?",
+      "o": [
+        "William Shakespeare",
+        "Ben Jonson",
+        "Christopher Marlowe",
+        "John Webster"
+      ],
+      "a": 2,
+      "e": "Doctor Faustus is a tragedy by Christopher Marlowe.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_010",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 95,
+      "category": "English Literature",
+      "q": "Who wrote The Waste Land?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Robert Frost"
+      ],
+      "a": 1,
+      "e": "The Waste Land is a poem by T. S. Eliot.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_011",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 96,
+      "category": "English Literature",
+      "q": "“The child is father of the man” is a line by—",
+      "o": [
+        "William Wordsworth",
+        "William Blake",
+        "John Keats",
+        "Robert Browning"
+      ],
+      "a": 0,
+      "e": "The line occurs in Wordsworth’s My Heart Leaps Up.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_012",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 97,
+      "category": "English Literature",
+      "q": "Who wrote Frankenstein?",
+      "o": [
+        "Mary Shelley",
+        "Jane Austen",
+        "Virginia Woolf",
+        "George Eliot"
+      ],
+      "a": 0,
+      "e": "Frankenstein was written by Mary Shelley.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_013",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 98,
+      "category": "English Literature",
+      "q": "Who wrote Wuthering Heights?",
+      "o": [
+        "Anne Brontë",
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "Mary Shelley"
+      ],
+      "a": 2,
+      "e": "Wuthering Heights is the novel by Emily Brontë.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_014",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 99,
+      "category": "English Literature",
+      "q": "Who wrote Gulliver’s Travels?",
+      "o": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Henry Fielding",
+        "Samuel Richardson"
+      ],
+      "a": 1,
+      "e": "Gulliver’s Travels is a satire by Jonathan Swift.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_015",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 100,
+      "category": "English Literature",
+      "q": "Who wrote Robinson Crusoe?",
+      "o": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Charles Dickens",
+        "Thomas Hardy"
+      ],
+      "a": 0,
+      "e": "Robinson Crusoe was written by Daniel Defoe.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_016",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 101,
+      "category": "English Literature",
+      "q": "“All the world’s a stage” appears in which play?",
+      "o": [
+        "Hamlet",
+        "Macbeth",
+        "As You Like It",
+        "Othello"
+      ],
+      "a": 2,
+      "e": "The speech is delivered by Jaques in As You Like It.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_017",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 102,
+      "category": "English Literature",
+      "q": "Who wrote The Raven?",
+      "o": [
+        "Walt Whitman",
+        "Robert Frost",
+        "Edgar Allan Poe",
+        "Ralph Waldo Emerson"
+      ],
+      "a": 2,
+      "e": "The Raven is a narrative poem by Edgar Allan Poe.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_018",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 103,
+      "category": "English Literature",
+      "q": "Who wrote Leaves of Grass?",
+      "o": [
+        "Walt Whitman",
+        "Emily Dickinson",
+        "Robert Frost",
+        "Ezra Pound"
+      ],
+      "a": 0,
+      "e": "Leaves of Grass is by Walt Whitman.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_019",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 104,
+      "category": "English Literature",
+      "q": "Who wrote Great Expectations?",
+      "o": [
+        "Thomas Hardy",
+        "Charles Dickens",
+        "William Thackeray",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Great Expectations is a novel by Charles Dickens.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_020",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 105,
+      "category": "English Literature",
+      "q": "Who wrote Ode to the West Wind?",
+      "o": [
+        "John Keats",
+        "P. B. Shelley",
+        "Lord Byron",
+        "William Blake"
+      ],
+      "a": 1,
+      "e": "Ode to the West Wind is by Percy Bysshe Shelley.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_021",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 106,
+      "category": "English Literature",
+      "q": "“Because I could not stop for Death” was written by—",
+      "o": [
+        "Sylvia Plath",
+        "Emily Dickinson",
+        "Elizabeth Barrett Browning",
+        "Christina Rossetti"
+      ],
+      "a": 1,
+      "e": "This famous poem is by Emily Dickinson.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_022",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 107,
+      "category": "English Literature",
+      "q": "Who wrote Waiting for Godot?",
+      "o": [
+        "Harold Pinter",
+        "Samuel Beckett",
+        "George Bernard Shaw",
+        "Oscar Wilde"
+      ],
+      "a": 1,
+      "e": "Waiting for Godot is an absurdist play by Samuel Beckett.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_023",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 108,
+      "category": "English Literature",
+      "q": "Who wrote The Old Man and the Sea?",
+      "o": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "William Faulkner"
+      ],
+      "a": 1,
+      "e": "The novella is by Ernest Hemingway.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_024",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 109,
+      "category": "English Literature",
+      "q": "Who wrote A Tale of Two Cities?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "George Eliot",
+        "H. G. Wells"
+      ],
+      "a": 0,
+      "e": "A Tale of Two Cities is a historical novel by Charles Dickens.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_025",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 110,
+      "category": "English Literature",
+      "q": "“Tyger Tyger, burning bright” is from a poem by—",
+      "o": [
+        "William Blake",
+        "William Wordsworth",
+        "John Keats",
+        "Lord Byron"
+      ],
+      "a": 0,
+      "e": "The Tyger is a poem by William Blake.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_026",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 111,
+      "category": "English Literature",
+      "q": "Who wrote The Solitary Reaper?",
+      "o": [
+        "John Keats",
+        "William Wordsworth",
+        "P. B. Shelley",
+        "Robert Burns"
+      ],
+      "a": 1,
+      "e": "The Solitary Reaper is by William Wordsworth.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_027",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 112,
+      "category": "English Literature",
+      "q": "Who wrote Jane Eyre?",
+      "o": [
+        "Emily Brontë",
+        "Anne Brontë",
+        "Charlotte Brontë",
+        "Jane Austen"
+      ],
+      "a": 2,
+      "e": "Jane Eyre was written by Charlotte Brontë.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_028",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 113,
+      "category": "English Literature",
+      "q": "Who wrote The Importance of Being Earnest?",
+      "o": [
+        "Oscar Wilde",
+        "George Bernard Shaw",
+        "J. M. Synge",
+        "John Galsworthy"
+      ],
+      "a": 0,
+      "e": "The comedy is by Oscar Wilde.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_029",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 114,
+      "category": "English Literature",
+      "q": "Who wrote The Iliad?",
+      "o": [
+        "Virgil",
+        "Homer",
+        "Sophocles",
+        "Aristotle"
+      ],
+      "a": 1,
+      "e": "The Iliad is an ancient Greek epic attributed to Homer.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_030",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 115,
+      "category": "English Literature",
+      "q": "Who wrote The Second Coming?",
+      "o": [
+        "T. S. Eliot",
+        "W. B. Yeats",
+        "W. H. Auden",
+        "Dylan Thomas"
+      ],
+      "a": 1,
+      "e": "The Second Coming is a poem by W. B. Yeats.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_031",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 573,
+      "category": "English Literature",
+      "q": "Who wrote the play “Macbeth”?",
+      "o": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "Ben Jonson",
+        "John Webster"
+      ],
+      "a": 1,
+      "e": "Macbeth is a tragedy by William Shakespeare.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_032",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 574,
+      "category": "English Literature",
+      "q": "Who is the author of “Gulliver’s Travels”?",
+      "o": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Henry Fielding",
+        "Thomas More"
+      ],
+      "a": 1,
+      "e": "Gulliver’s Travels was written by Jonathan Swift.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_033",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 575,
+      "category": "English Literature",
+      "q": "“Paradise Lost” is an epic poem by whom?",
+      "o": [
+        "John Milton",
+        "Alexander Pope",
+        "Geoffrey Chaucer",
+        "John Dryden"
+      ],
+      "a": 0,
+      "e": "John Milton wrote the epic poem Paradise Lost.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_034",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 848,
+      "category": "English Literature",
+      "q": "Who wrote the poem “Ode to a Nightingale”?",
+      "o": [
+        "William Wordsworth",
+        "John Keats",
+        "P. B. Shelley",
+        "Lord Byron"
+      ],
+      "a": 1,
+      "e": "Ode to a Nightingale is a celebrated poem by John Keats.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_035",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 890,
+      "category": "English Literature",
+      "q": "Who wrote the novel “Animal Farm”?",
+      "o": [
+        "George Orwell",
+        "Aldous Huxley",
+        "Charles Dickens",
+        "Thomas Hardy"
+      ],
+      "a": 0,
+      "e": "George Orwell wrote the political allegorical novella Animal Farm, published in 1945.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_036",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 891,
+      "category": "English Literature",
+      "q": "Who is the author of “The Old Man and the Sea”?",
+      "o": [
+        "Mark Twain",
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "F. Scott Fitzgerald"
+      ],
+      "a": 1,
+      "e": "Ernest Hemingway wrote The Old Man and the Sea, published in 1952.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_037",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 917,
+      "category": "English Literature",
+      "q": "Who wrote “Pride and Prejudice”?",
+      "o": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "George Eliot",
+        "Virginia Woolf"
+      ],
+      "a": 1,
+      "e": "Jane Austen wrote the novel Pride and Prejudice, first published in 1813.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_038",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 929,
+      "category": "English Literature",
+      "q": "Who wrote “The Canterbury Tales”?",
+      "o": [
+        "William Shakespeare",
+        "Geoffrey Chaucer",
+        "John Milton",
+        "Alexander Pope"
+      ],
+      "a": 1,
+      "e": "Geoffrey Chaucer wrote The Canterbury Tales, a major work of Middle English literature.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_039",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 930,
+      "category": "English Literature",
+      "q": "Who wrote “Paradise Lost”?",
+      "o": [
+        "John Milton",
+        "John Donne",
+        "William Blake",
+        "William Wordsworth"
+      ],
+      "a": 0,
+      "e": "Paradise Lost is an epic poem by John Milton.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_040",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 931,
+      "category": "English Literature",
+      "q": "Who wrote the novel “Jane Eyre”?",
+      "o": [
+        "Emily Brontë",
+        "Charlotte Brontë",
+        "Anne Brontë",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Jane Eyre was written by Charlotte Brontë and published in 1847.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_041",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 932,
+      "category": "English Literature",
+      "q": "Who is the author of “The Merchant of Venice”?",
+      "o": [
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "William Shakespeare",
+        "Thomas Hardy"
+      ],
+      "a": 2,
+      "e": "The Merchant of Venice is a comedy by William Shakespeare.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_042",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 959,
+      "category": "English Literature",
+      "q": "Who wrote “Jane Eyre”?",
+      "o": [
+        "Emily Brontë",
+        "Anne Brontë",
+        "Charlotte Brontë",
+        "Virginia Woolf"
+      ],
+      "a": 2,
+      "e": "Charlotte Brontë published Jane Eyre in 1847.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_043",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 960,
+      "category": "English Literature",
+      "q": "“The Divine Comedy” was written by—",
+      "o": [
+        "Dante Alighieri",
+        "Petrarch",
+        "Boccaccio",
+        "Ariosto"
+      ],
+      "a": 0,
+      "e": "Dante Alighieri composed the epic poem The Divine Comedy in the early 14th century.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_044",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 961,
+      "category": "English Literature",
+      "q": "Who wrote “A Tale of Two Cities”?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "William Thackeray",
+        "George Eliot"
+      ],
+      "a": 0,
+      "e": "Charles Dickens’s historical novel A Tale of Two Cities was published in 1859.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_045",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 988,
+      "category": "English Literature",
+      "q": "Who wrote “Wuthering Heights”?",
+      "o": [
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "Anne Brontë",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Emily Brontë published Wuthering Heights in 1847.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_046",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 989,
+      "category": "English Literature",
+      "q": "Who is the author of “The Scarlet Letter”?",
+      "o": [
+        "Nathaniel Hawthorne",
+        "Herman Melville",
+        "Walt Whitman",
+        "Henry James"
+      ],
+      "a": 0,
+      "e": "Nathaniel Hawthorne’s novel The Scarlet Letter was published in 1850.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_047",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 990,
+      "category": "English Literature",
+      "q": "“The Rime of the Ancient Mariner” was written by—",
+      "o": [
+        "William Blake",
+        "Samuel Taylor Coleridge",
+        "William Wordsworth",
+        "John Keats"
+      ],
+      "a": 1,
+      "e": "Samuel Taylor Coleridge wrote the famous ballad poem, published in 1798.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_048",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1012,
+      "category": "English Literature",
+      "q": "Who wrote “The Grapes of Wrath”?",
+      "o": [
+        "John Steinbeck",
+        "Ernest Hemingway",
+        "William Faulkner",
+        "F. Scott Fitzgerald"
+      ],
+      "a": 0,
+      "e": "John Steinbeck published The Grapes of Wrath in 1939.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_049",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1013,
+      "category": "English Literature",
+      "q": "“Doctor Faustus” is a play by—",
+      "o": [
+        "Ben Jonson",
+        "Christopher Marlowe",
+        "John Webster",
+        "Thomas Kyd"
+      ],
+      "a": 1,
+      "e": "Christopher Marlowe wrote the Elizabethan tragedy Doctor Faustus.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_050",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1014,
+      "category": "English Literature",
+      "q": "Who wrote “A Passage to India”?",
+      "o": [
+        "E. M. Forster",
+        "Rudyard Kipling",
+        "Joseph Conrad",
+        "D. H. Lawrence"
+      ],
+      "a": 0,
+      "e": "E. M. Forster’s novel A Passage to India was published in 1924.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_051",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1015,
+      "category": "English Literature",
+      "q": "Which poet is known as the “Bard of Avon”?",
+      "o": [
+        "John Milton",
+        "William Shakespeare",
+        "Geoffrey Chaucer",
+        "Edmund Spenser"
+      ],
+      "a": 1,
+      "e": "William Shakespeare is traditionally called the Bard of Avon, referring to his birthplace Stratford-upon-Avon.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_052",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1016,
+      "category": "English Literature",
+      "q": "Who wrote “The Sound and the Fury”?",
+      "o": [
+        "Ernest Hemingway",
+        "William Faulkner",
+        "John Steinbeck",
+        "T. S. Eliot"
+      ],
+      "a": 1,
+      "e": "William Faulkner’s modernist novel The Sound and the Fury was published in 1929.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_053",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1039,
+      "category": "English Literature",
+      "q": "Who wrote “The Picture of Dorian Gray”?",
+      "o": [
+        "Oscar Wilde",
+        "Walter Pater",
+        "Thomas Hardy",
+        "Arthur Conan Doyle"
+      ],
+      "a": 0,
+      "e": "Oscar Wilde’s only novel, The Picture of Dorian Gray, was published in book form in 1891.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_054",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1040,
+      "category": "English Literature",
+      "q": "“Ulysses” is a novel by—",
+      "o": [
+        "Virginia Woolf",
+        "James Joyce",
+        "D. H. Lawrence",
+        "Joseph Conrad"
+      ],
+      "a": 1,
+      "e": "James Joyce’s modernist novel Ulysses was published in 1922.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_055",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1041,
+      "category": "English Literature",
+      "q": "Who wrote “The Road Not Taken”?",
+      "o": [
+        "Robert Frost",
+        "Walt Whitman",
+        "Robert Browning",
+        "Ezra Pound"
+      ],
+      "a": 0,
+      "e": "The poem The Road Not Taken was written by American poet Robert Frost.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_056",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1042,
+      "category": "English Literature",
+      "q": "Who is the author of “Robinson Crusoe”?",
+      "o": [
+        "Jonathan Swift",
+        "Daniel Defoe",
+        "Henry Fielding",
+        "Samuel Richardson"
+      ],
+      "a": 1,
+      "e": "Daniel Defoe’s novel Robinson Crusoe was first published in 1719.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_057",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1043,
+      "category": "English Literature",
+      "q": "“Arms and the Man” is a play written by—",
+      "o": [
+        "Oscar Wilde",
+        "George Bernard Shaw",
+        "J. M. Barrie",
+        "John Galsworthy"
+      ],
+      "a": 1,
+      "e": "George Bernard Shaw’s comedy Arms and the Man premiered in 1894.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_058",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1062,
+      "category": "English Literature",
+      "q": "Who wrote “Heart of Darkness”?",
+      "o": [
+        "Joseph Conrad",
+        "James Joyce",
+        "E. M. Forster",
+        "George Orwell"
+      ],
+      "a": 0,
+      "e": "Joseph Conrad’s novella Heart of Darkness was published in book form in 1902.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_059",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1063,
+      "category": "English Literature",
+      "q": "Who wrote “The Canterbury Tales” in Middle English?",
+      "o": [
+        "John Gower",
+        "Geoffrey Chaucer",
+        "William Langland",
+        "Thomas Malory"
+      ],
+      "a": 1,
+      "e": "Geoffrey Chaucer wrote The Canterbury Tales in Middle English.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_060",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1064,
+      "category": "English Literature",
+      "q": "“Othello” is a tragedy by—",
+      "o": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "Ben Jonson",
+        "John Webster"
+      ],
+      "a": 1,
+      "e": "Othello is one of William Shakespeare’s major tragedies.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_061",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1065,
+      "category": "English Literature",
+      "q": "Who wrote “The Tyger”?",
+      "o": [
+        "William Blake",
+        "John Keats",
+        "William Wordsworth",
+        "Lord Byron"
+      ],
+      "a": 0,
+      "e": "The Tyger is a poem by William Blake, published in Songs of Experience (1794).",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_062",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1087,
+      "category": "English Literature",
+      "q": "Who wrote “The Canterbury Tales” is a work from which literary period?",
+      "o": [
+        "Old English",
+        "Middle English",
+        "Renaissance",
+        "Victorian"
+      ],
+      "a": 1,
+      "e": "Geoffrey Chaucer’s Canterbury Tales is a major work of Middle English literature.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_063",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1088,
+      "category": "English Literature",
+      "q": "Who wrote “The Waste Land” and “Four Quartets”?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Ezra Pound"
+      ],
+      "a": 1,
+      "e": "Both The Waste Land and Four Quartets were written by T. S. Eliot.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_064",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1089,
+      "category": "English Literature",
+      "q": "“The Duchess of Malfi” was written by—",
+      "o": [
+        "John Webster",
+        "Ben Jonson",
+        "Thomas Kyd",
+        "Christopher Marlowe"
+      ],
+      "a": 0,
+      "e": "John Webster wrote the Jacobean tragedy The Duchess of Malfi.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_065",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1183,
+      "category": "English Literature",
+      "q": "“Pride and Prejudice” was written by—",
+      "o": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "Emily Brontë",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Jane Austen’s novel Pride and Prejudice was published in 1813.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_066",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1184,
+      "category": "English Literature",
+      "q": "“Wuthering Heights” is the novel of—",
+      "o": [
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "Anne Brontë",
+        "Jane Austen"
+      ],
+      "a": 1,
+      "e": "Emily Brontë’s only novel, Wuthering Heights, appeared in 1847.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_067",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1185,
+      "category": "English Literature",
+      "q": "“Animal Farm” was written by—",
+      "o": [
+        "Aldous Huxley",
+        "George Orwell",
+        "H. G. Wells",
+        "Graham Greene"
+      ],
+      "a": 1,
+      "e": "George Orwell’s allegorical novella Animal Farm was published in 1945.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_068",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1186,
+      "category": "English Literature",
+      "q": "Who wrote “Lord of the Flies”?",
+      "o": [
+        "William Golding",
+        "J. R. R. Tolkien",
+        "C. S. Lewis",
+        "George Orwell"
+      ],
+      "a": 0,
+      "e": "William Golding’s novel Lord of the Flies was published in 1954.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_069",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1187,
+      "category": "English Literature",
+      "q": "“The Old Man and the Sea” is a work by—",
+      "o": [
+        "John Steinbeck",
+        "Ernest Hemingway",
+        "William Faulkner",
+        "Herman Melville"
+      ],
+      "a": 1,
+      "e": "Ernest Hemingway’s novella The Old Man and the Sea was published in 1952.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_070",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1188,
+      "category": "English Literature",
+      "q": "Who wrote “Waiting for Godot”?",
+      "o": [
+        "Harold Pinter",
+        "Samuel Beckett",
+        "Eugène Ionesco",
+        "Arthur Miller"
+      ],
+      "a": 1,
+      "e": "Samuel Beckett wrote the absurdist play Waiting for Godot.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_071",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1214,
+      "category": "English Literature",
+      "q": "Who wrote “The Scarlet Letter”?",
+      "o": [
+        "Nathaniel Hawthorne",
+        "Herman Melville",
+        "Mark Twain",
+        "Walt Whitman"
+      ],
+      "a": 0,
+      "e": "Nathaniel Hawthorne’s novel The Scarlet Letter was published in 1850.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_072",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1215,
+      "category": "English Literature",
+      "q": "Who wrote “Moby-Dick”?",
+      "o": [
+        "Herman Melville",
+        "Nathaniel Hawthorne",
+        "Mark Twain",
+        "Henry James"
+      ],
+      "a": 0,
+      "e": "Herman Melville published Moby-Dick in 1851.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_073",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1216,
+      "category": "English Literature",
+      "q": "“The Adventures of Tom Sawyer” was written by—",
+      "o": [
+        "Mark Twain",
+        "Jack London",
+        "J. D. Salinger",
+        "H. G. Wells"
+      ],
+      "a": 0,
+      "e": "Mark Twain’s novel The Adventures of Tom Sawyer was published in 1876.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_074",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1217,
+      "category": "English Literature",
+      "q": "Who wrote “The Jungle Book”?",
+      "o": [
+        "Rudyard Kipling",
+        "Lewis Carroll",
+        "Kenneth Grahame",
+        "A. A. Milne"
+      ],
+      "a": 0,
+      "e": "Rudyard Kipling’s The Jungle Book was published in 1894.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_075",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1218,
+      "category": "English Literature",
+      "q": "“Alice’s Adventures in Wonderland” was written by—",
+      "o": [
+        "Lewis Carroll",
+        "J. M. Barrie",
+        "Rudyard Kipling",
+        "Oscar Wilde"
+      ],
+      "a": 0,
+      "e": "Lewis Carroll published Alice’s Adventures in Wonderland in 1865.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_076",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1219,
+      "category": "English Literature",
+      "q": "Who wrote “Middlemarch”?",
+      "o": [
+        "George Eliot",
+        "Jane Austen",
+        "Elizabeth Gaskell",
+        "Virginia Woolf"
+      ],
+      "a": 0,
+      "e": "George Eliot is the pen name of Mary Ann Evans, author of Middlemarch.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_077",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1220,
+      "category": "English Literature",
+      "q": "“Tess of the d’Urbervilles” was written by—",
+      "o": [
+        "Thomas Hardy",
+        "Charles Dickens",
+        "George Eliot",
+        "D. H. Lawrence"
+      ],
+      "a": 0,
+      "e": "Thomas Hardy’s novel Tess of the d’Urbervilles was published in 1891.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_078",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1221,
+      "category": "English Literature",
+      "q": "Who wrote “The Return of the Native”?",
+      "o": [
+        "Thomas Hardy",
+        "George Meredith",
+        "Joseph Conrad",
+        "E. M. Forster"
+      ],
+      "a": 0,
+      "e": "The Return of the Native is a novel by Thomas Hardy, published in 1878.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_079",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1252,
+      "category": "English Literature",
+      "q": "Who wrote “The Faerie Queene”? ",
+      "o": [
+        "Edmund Spenser",
+        "John Milton",
+        "Philip Sidney",
+        "Christopher Marlowe"
+      ],
+      "a": 0,
+      "e": "Edmund Spenser wrote the epic poem The Faerie Queene.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_080",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1253,
+      "category": "English Literature",
+      "q": "“The School for Scandal” is a comedy by—",
+      "o": [
+        "Richard Brinsley Sheridan",
+        "Oliver Goldsmith",
+        "William Congreve",
+        "John Dryden"
+      ],
+      "a": 0,
+      "e": "Richard Brinsley Sheridan wrote the comedy The School for Scandal.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_081",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1254,
+      "category": "English Literature",
+      "q": "Who wrote “She Stoops to Conquer”?",
+      "o": [
+        "Oliver Goldsmith",
+        "Richard Sheridan",
+        "John Gay",
+        "Ben Jonson"
+      ],
+      "a": 0,
+      "e": "Oliver Goldsmith’s comedy She Stoops to Conquer premiered in 1773.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_082",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1255,
+      "category": "English Literature",
+      "q": "“The Pilgrim’s Progress” was written by—",
+      "o": [
+        "John Bunyan",
+        "John Donne",
+        "John Dryden",
+        "John Milton"
+      ],
+      "a": 0,
+      "e": "John Bunyan wrote the Christian allegory The Pilgrim’s Progress.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_083",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1256,
+      "category": "English Literature",
+      "q": "“Pamela” is an epistolary novel by—",
+      "o": [
+        "Samuel Richardson",
+        "Henry Fielding",
+        "Laurence Sterne",
+        "Tobias Smollett"
+      ],
+      "a": 0,
+      "e": "Samuel Richardson’s Pamela, published in 1740, is an early English epistolary novel.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_084",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1257,
+      "category": "English Literature",
+      "q": "Who wrote “Tom Jones”?",
+      "o": [
+        "Henry Fielding",
+        "Samuel Richardson",
+        "Daniel Defoe",
+        "Jonathan Swift"
+      ],
+      "a": 0,
+      "e": "Henry Fielding wrote the comic novel The History of Tom Jones, a Foundling.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_085",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1258,
+      "category": "English Literature",
+      "q": "“Tristram Shandy” was written by—",
+      "o": [
+        "Laurence Sterne",
+        "Tobias Smollett",
+        "Henry Fielding",
+        "Samuel Johnson"
+      ],
+      "a": 0,
+      "e": "Laurence Sterne wrote The Life and Opinions of Tristram Shandy, Gentleman.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_086",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1259,
+      "category": "English Literature",
+      "q": "Who wrote “The Prelude”?",
+      "o": [
+        "William Wordsworth",
+        "S. T. Coleridge",
+        "John Keats",
+        "Lord Byron"
+      ],
+      "a": 0,
+      "e": "William Wordsworth’s autobiographical poem The Prelude was published posthumously in 1850.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_087",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1260,
+      "category": "English Literature",
+      "q": "“Ode to a Nightingale” was written by—",
+      "o": [
+        "John Keats",
+        "P. B. Shelley",
+        "William Blake",
+        "Lord Byron"
+      ],
+      "a": 0,
+      "e": "John Keats wrote the Romantic ode Ode to a Nightingale in 1819.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_088",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1261,
+      "category": "English Literature",
+      "q": "Who wrote “Ode to the West Wind”?",
+      "o": [
+        "P. B. Shelley",
+        "John Keats",
+        "William Wordsworth",
+        "Lord Byron"
+      ],
+      "a": 0,
+      "e": "Percy Bysshe Shelley wrote Ode to the West Wind in 1819.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_089",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1262,
+      "category": "English Literature",
+      "q": "“Don Juan” is a satirical poem by—",
+      "o": [
+        "Lord Byron",
+        "John Keats",
+        "P. B. Shelley",
+        "William Blake"
+      ],
+      "a": 0,
+      "e": "Lord Byron wrote the mock-epic satirical poem Don Juan.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_090",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1263,
+      "category": "English Literature",
+      "q": "Who wrote “Kubla Khan”?",
+      "o": [
+        "S. T. Coleridge",
+        "William Wordsworth",
+        "John Keats",
+        "Robert Southey"
+      ],
+      "a": 0,
+      "e": "Samuel Taylor Coleridge wrote the fragmentary poem Kubla Khan.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_091",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1264,
+      "category": "English Literature",
+      "q": "“The Prelude” is primarily what type of poem?",
+      "o": [
+        "Autobiographical epic poem",
+        "Pastoral elegy",
+        "Dramatic monologue",
+        "Mock-epic"
+      ],
+      "a": 0,
+      "e": "Wordsworth’s The Prelude is an autobiographical long poem about the growth of the poet’s mind.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_092",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1265,
+      "category": "English Literature",
+      "q": "Who wrote “In Memoriam A.H.H.”?",
+      "o": [
+        "Alfred, Lord Tennyson",
+        "Robert Browning",
+        "Matthew Arnold",
+        "Dante Gabriel Rossetti"
+      ],
+      "a": 0,
+      "e": "Alfred, Lord Tennyson wrote the elegy In Memoriam A.H.H. for Arthur Hallam.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_093",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1266,
+      "category": "English Literature",
+      "q": "“My Last Duchess” is a dramatic monologue by—",
+      "o": [
+        "Robert Browning",
+        "Alfred Tennyson",
+        "Matthew Arnold",
+        "Thomas Hardy"
+      ],
+      "a": 0,
+      "e": "Robert Browning’s My Last Duchess is a classic dramatic monologue.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_094",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1267,
+      "category": "English Literature",
+      "q": "Who wrote “The Scholar-Gipsy”?",
+      "o": [
+        "Matthew Arnold",
+        "Robert Browning",
+        "Alfred Tennyson",
+        "D. G. Rossetti"
+      ],
+      "a": 0,
+      "e": "Matthew Arnold wrote the poem The Scholar-Gipsy.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_095",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1268,
+      "category": "English Literature",
+      "q": "“Dover Beach” was written by—",
+      "o": [
+        "Matthew Arnold",
+        "Alfred Tennyson",
+        "Robert Browning",
+        "Gerard Manley Hopkins"
+      ],
+      "a": 0,
+      "e": "Dover Beach is a lyric poem by Matthew Arnold.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_096",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1269,
+      "category": "English Literature",
+      "q": "Who wrote “The Waste Land” is already a familiar author question; which year was it first published?",
+      "o": [
+        "১৯১৯",
+        "১৯২২",
+        "১৯২৫",
+        "১৯৩০"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot’s The Waste Land was first published in 1922.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_097",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1270,
+      "category": "English Literature",
+      "q": "“Mrs Dalloway” is a novel by—",
+      "o": [
+        "Virginia Woolf",
+        "Katherine Mansfield",
+        "Doris Lessing",
+        "George Eliot"
+      ],
+      "a": 0,
+      "e": "Virginia Woolf’s modernist novel Mrs Dalloway was published in 1925.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_098",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1271,
+      "category": "English Literature",
+      "q": "Who wrote “To the Lighthouse”?",
+      "o": [
+        "Virginia Woolf",
+        "E. M. Forster",
+        "James Joyce",
+        "D. H. Lawrence"
+      ],
+      "a": 0,
+      "e": "Virginia Woolf published To the Lighthouse in 1927.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_099",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1272,
+      "category": "English Literature",
+      "q": "“A Room of One’s Own” is an essay by—",
+      "o": [
+        "Virginia Woolf",
+        "Mary Wollstonecraft",
+        "George Eliot",
+        "Jane Austen"
+      ],
+      "a": 0,
+      "e": "Virginia Woolf’s extended essay A Room of One’s Own was published in 1929.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_100",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1273,
+      "category": "English Literature",
+      "q": "Who wrote “Sons and Lovers”?",
+      "o": [
+        "D. H. Lawrence",
+        "E. M. Forster",
+        "James Joyce",
+        "Joseph Conrad"
+      ],
+      "a": 0,
+      "e": "D. H. Lawrence’s autobiographical novel Sons and Lovers appeared in 1913.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_101",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1274,
+      "category": "English Literature",
+      "q": "“Women in Love” was written by—",
+      "o": [
+        "D. H. Lawrence",
+        "Virginia Woolf",
+        "E. M. Forster",
+        "Aldous Huxley"
+      ],
+      "a": 0,
+      "e": "D. H. Lawrence published Women in Love in 1920.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_102",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1275,
+      "category": "English Literature",
+      "q": "Who wrote “A Farewell to Arms”?",
+      "o": [
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "F. Scott Fitzgerald",
+        "William Faulkner"
+      ],
+      "a": 0,
+      "e": "Ernest Hemingway’s novel A Farewell to Arms was published in 1929.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_103",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1276,
+      "category": "English Literature",
+      "q": "“The Great Gatsby” is narrated by—",
+      "o": [
+        "Nick Carraway",
+        "Jay Gatsby",
+        "Tom Buchanan",
+        "George Wilson"
+      ],
+      "a": 0,
+      "e": "Nick Carraway narrates F. Scott Fitzgerald’s The Great Gatsby.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_104",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1277,
+      "category": "English Literature",
+      "q": "Who wrote “The Catcher in the Rye”?",
+      "o": [
+        "J. D. Salinger",
+        "Jack Kerouac",
+        "Saul Bellow",
+        "John Updike"
+      ],
+      "a": 0,
+      "e": "J. D. Salinger’s novel The Catcher in the Rye was published in 1951.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_105",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1278,
+      "category": "English Literature",
+      "q": "“The Sound and the Fury” is chiefly set in which fictional county?",
+      "o": [
+        "Yoknapatawpha County",
+        "Coketown",
+        "Wessex",
+        "Middlemarch"
+      ],
+      "a": 0,
+      "e": "William Faulkner set many works, including The Sound and the Fury, in the fictional Yoknapatawpha County.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_106",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1279,
+      "category": "English Literature",
+      "q": "Who wrote “Brave New World”?",
+      "o": [
+        "Aldous Huxley",
+        "George Orwell",
+        "H. G. Wells",
+        "Ray Bradbury"
+      ],
+      "a": 0,
+      "e": "Aldous Huxley’s dystopian novel Brave New World was published in 1932.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_107",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1280,
+      "category": "English Literature",
+      "q": "“Fahrenheit 451” was written by—",
+      "o": [
+        "Ray Bradbury",
+        "Aldous Huxley",
+        "George Orwell",
+        "Philip K. Dick"
+      ],
+      "a": 0,
+      "e": "Ray Bradbury wrote the dystopian novel Fahrenheit 451.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_108",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1281,
+      "category": "English Literature",
+      "q": "Who wrote “The Lord of the Rings”?",
+      "o": [
+        "J. R. R. Tolkien",
+        "C. S. Lewis",
+        "Terry Pratchett",
+        "George R. R. Martin"
+      ],
+      "a": 0,
+      "e": "J. R. R. Tolkien wrote The Lord of the Rings fantasy trilogy.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_109",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1282,
+      "category": "English Literature",
+      "q": "“The Chronicles of Narnia” were written by—",
+      "o": [
+        "C. S. Lewis",
+        "J. R. R. Tolkien",
+        "Roald Dahl",
+        "J. K. Rowling"
+      ],
+      "a": 0,
+      "e": "C. S. Lewis wrote The Chronicles of Narnia series.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_110",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1283,
+      "category": "English Literature",
+      "q": "Who wrote “Things Fall Apart”?",
+      "o": [
+        "Chinua Achebe",
+        "Wole Soyinka",
+        "Ngũgĩ wa Thiong’o",
+        "Ben Okri"
+      ],
+      "a": 0,
+      "e": "Chinua Achebe’s novel Things Fall Apart was published in 1958.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_111",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1284,
+      "category": "English Literature",
+      "q": "“A House for Mr Biswas” is a novel by—",
+      "o": [
+        "V. S. Naipaul",
+        "Salman Rushdie",
+        "R. K. Narayan",
+        "Amitav Ghosh"
+      ],
+      "a": 0,
+      "e": "V. S. Naipaul wrote A House for Mr Biswas, published in 1961.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_112",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1285,
+      "category": "English Literature",
+      "q": "Who wrote “Midnight’s Children”?",
+      "o": [
+        "Salman Rushdie",
+        "Vikram Seth",
+        "Amitav Ghosh",
+        "Arundhati Roy"
+      ],
+      "a": 0,
+      "e": "Salman Rushdie’s Midnight’s Children won the Booker Prize in 1981.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_113",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1286,
+      "category": "English Literature",
+      "q": "“The God of Small Things” was written by—",
+      "o": [
+        "Arundhati Roy",
+        "Kiran Desai",
+        "Jhumpa Lahiri",
+        "Anita Desai"
+      ],
+      "a": 0,
+      "e": "Arundhati Roy’s debut novel The God of Small Things won the 1997 Booker Prize.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_114",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1287,
+      "category": "English Literature",
+      "q": "Who wrote “The Remains of the Day”?",
+      "o": [
+        "Kazuo Ishiguro",
+        "Ian McEwan",
+        "Graham Swift",
+        "Julian Barnes"
+      ],
+      "a": 0,
+      "e": "Kazuo Ishiguro wrote The Remains of the Day, which won the 1989 Booker Prize.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_115",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1288,
+      "category": "English Literature",
+      "q": "“The Handmaid’s Tale” is a novel by—",
+      "o": [
+        "Margaret Atwood",
+        "Doris Lessing",
+        "Ursula K. Le Guin",
+        "Toni Morrison"
+      ],
+      "a": 0,
+      "e": "Margaret Atwood’s dystopian novel The Handmaid’s Tale was published in 1985.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_116",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1289,
+      "category": "English Literature",
+      "q": "Who wrote “Beloved”?",
+      "o": [
+        "Toni Morrison",
+        "Alice Walker",
+        "Maya Angelou",
+        "Zora Neale Hurston"
+      ],
+      "a": 0,
+      "e": "Toni Morrison’s novel Beloved was published in 1987 and won the Pulitzer Prize.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_117",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1290,
+      "category": "English Literature",
+      "q": "“The Color Purple” was written by—",
+      "o": [
+        "Alice Walker",
+        "Toni Morrison",
+        "Maya Angelou",
+        "Octavia Butler"
+      ],
+      "a": 0,
+      "e": "Alice Walker’s novel The Color Purple was published in 1982.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_118",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1291,
+      "category": "English Literature",
+      "q": "Who wrote “The Bluest Eye”?",
+      "o": [
+        "Toni Morrison",
+        "Alice Walker",
+        "James Baldwin",
+        "Ralph Ellison"
+      ],
+      "a": 0,
+      "e": "Toni Morrison’s first novel, The Bluest Eye, was published in 1970.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_119",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1292,
+      "category": "English Literature",
+      "q": "“Death of a Salesman” is a play by—",
+      "o": [
+        "Arthur Miller",
+        "Tennessee Williams",
+        "Eugene O’Neill",
+        "Edward Albee"
+      ],
+      "a": 0,
+      "e": "Arthur Miller’s play Death of a Salesman premiered in 1949.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_120",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1293,
+      "category": "English Literature",
+      "q": "Who wrote “A Streetcar Named Desire”?",
+      "o": [
+        "Tennessee Williams",
+        "Arthur Miller",
+        "Eugene O’Neill",
+        "Sam Shepard"
+      ],
+      "a": 0,
+      "e": "Tennessee Williams wrote A Streetcar Named Desire, first staged in 1947.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_121",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1294,
+      "category": "English Literature",
+      "q": "“Long Day’s Journey into Night” was written by—",
+      "o": [
+        "Eugene O’Neill",
+        "Arthur Miller",
+        "Tennessee Williams",
+        "Edward Albee"
+      ],
+      "a": 0,
+      "e": "Eugene O’Neill wrote the autobiographical play Long Day’s Journey into Night.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_122",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1295,
+      "category": "English Literature",
+      "q": "Who wrote “The Birthday Party”?",
+      "o": [
+        "Harold Pinter",
+        "Samuel Beckett",
+        "Tom Stoppard",
+        "John Osborne"
+      ],
+      "a": 0,
+      "e": "Harold Pinter’s play The Birthday Party premiered in 1958.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_123",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1296,
+      "category": "English Literature",
+      "q": "“Rosencrantz and Guildenstern Are Dead” is by—",
+      "o": [
+        "Tom Stoppard",
+        "Harold Pinter",
+        "Samuel Beckett",
+        "John Osborne"
+      ],
+      "a": 0,
+      "e": "Tom Stoppard wrote the absurdist comedy Rosencrantz and Guildenstern Are Dead.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_124",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1297,
+      "category": "English Literature",
+      "q": "Who wrote “The Waste Land” is by T. S. Eliot; which literary movement is he strongly associated with?",
+      "o": [
+        "Modernism",
+        "Romanticism",
+        "Neoclassicism",
+        "Metaphysical poetry"
+      ],
+      "a": 0,
+      "e": "T. S. Eliot is a central figure of literary modernism.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_125",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1298,
+      "category": "English Literature",
+      "q": "Which literary period is associated with Geoffrey Chaucer?",
+      "o": [
+        "Middle English period",
+        "Restoration period",
+        "Victorian period",
+        "Modern period"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer is a major poet of the Middle English period.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_126",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1299,
+      "category": "English Literature",
+      "q": "The term “metaphysical poets” is most closely associated with which poet?",
+      "o": [
+        "John Donne",
+        "John Keats",
+        "William Blake",
+        "John Milton"
+      ],
+      "a": 0,
+      "e": "John Donne is a leading metaphysical poet, known for wit and elaborate conceits.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_127",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1300,
+      "category": "English Literature",
+      "q": "Who wrote “The Duchess of Malfi” is a Jacobean dramatist; what is the author’s surname?",
+      "o": [
+        "Webster",
+        "Marlowe",
+        "Jonson",
+        "Kyd"
+      ],
+      "a": 0,
+      "e": "John Webster wrote The Duchess of Malfi.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_128",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1301,
+      "category": "English Literature",
+      "q": "Which Shakespeare play features the character Shylock?",
+      "o": [
+        "The Merchant of Venice",
+        "Macbeth",
+        "King Lear",
+        "Twelfth Night"
+      ],
+      "a": 0,
+      "e": "Shylock is the Jewish moneylender in Shakespeare’s The Merchant of Venice.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_129",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1302,
+      "category": "English Literature",
+      "q": "Which Shakespeare tragedy features the Danish prince Hamlet?",
+      "o": [
+        "Hamlet",
+        "Othello",
+        "Julius Caesar",
+        "Coriolanus"
+      ],
+      "a": 0,
+      "e": "Hamlet is the prince of Denmark and central character in Shakespeare’s tragedy.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_130",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1304,
+      "category": "English Literature",
+      "q": "In Greek tragedy, who is the author of “Oedipus Rex”?",
+      "o": [
+        "Sophocles",
+        "Aeschylus",
+        "Euripides",
+        "Aristophanes"
+      ],
+      "a": 0,
+      "e": "Sophocles wrote the tragedy Oedipus Rex, also known as Oedipus the King.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "base_131",
+      "origin": "base_bank",
+      "batch": null,
+      "source_line": 1305,
+      "category": "English Literature",
+      "q": "Who wrote “The Iliad” and “The Odyssey” traditionally?",
+      "o": [
+        "Homer",
+        "Virgil",
+        "Sophocles",
+        "Ovid"
+      ],
+      "a": 0,
+      "e": "The ancient Greek epics Iliad and Odyssey are traditionally attributed to Homer.",
+      "source": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_036",
+      "origin": "expansion",
+      "batch": 1,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who wrote the novel “Pride and Prejudice”?",
+      "o": [
+        "Jane Austen",
+        "Charlotte Brontë",
+        "George Eliot",
+        "Mary Shelley"
+      ],
+      "a": 0,
+      "e": "Jane Austen published “Pride and Prejudice” in 1813.",
+      "source": "প্রচলিত পাঠ্যপুস্তক/স্বীকৃত সাহিত্যতথ্য",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_037",
+      "origin": "expansion",
+      "batch": 1,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who is the author of “Paradise Lost”?",
+      "o": [
+        "John Milton",
+        "Geoffrey Chaucer",
+        "William Blake",
+        "Alexander Pope"
+      ],
+      "a": 0,
+      "e": "John Milton wrote the epic poem “Paradise Lost”.",
+      "source": "প্রচলিত পাঠ্যপুস্তক/স্বীকৃত সাহিত্যতথ্য",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_038",
+      "origin": "expansion",
+      "batch": 1,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "“Hamlet” is a tragedy written by—",
+      "o": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "Ben Jonson",
+        "John Webster"
+      ],
+      "a": 1,
+      "e": "“Hamlet” is one of William Shakespeare’s major tragedies.",
+      "source": "প্রচলিত পাঠ্যপুস্তক/স্বীকৃত সাহিত্যতথ্য",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_040",
+      "origin": "expansion",
+      "batch": 1,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "The literary term “soliloquy” refers to—",
+      "o": [
+        "A speech revealing a character’s thoughts aloud",
+        "A conversation between two characters",
+        "A humorous ending",
+        "A comparison using like or as"
+      ],
+      "a": 0,
+      "e": "A soliloquy is a speech in which a character speaks thoughts aloud, usually while alone.",
+      "source": "প্রচলিত পাঠ্যপুস্তক/স্বীকৃত সাহিত্যতথ্য",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_077",
+      "origin": "expansion",
+      "batch": 2,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "“The Waste Land” is a poem by—",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Robert Frost"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot published The Waste Land in 1922.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_078",
+      "origin": "expansion",
+      "batch": 2,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who is the author of “Robinson Crusoe”?",
+      "o": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "John Bunyan",
+        "Henry Fielding"
+      ],
+      "a": 0,
+      "e": "Robinson Crusoe is a novel by Daniel Defoe, published in 1719.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_079",
+      "origin": "expansion",
+      "batch": 2,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "“The Canterbury Tales” was written by—",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Milton",
+        "William Blake",
+        "Edmund Spenser"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote the Middle English collection The Canterbury Tales.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_080",
+      "origin": "expansion",
+      "batch": 2,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Which Shakespeare play features the characters Othello and Iago?",
+      "o": [
+        "Macbeth",
+        "King Lear",
+        "Othello",
+        "The Tempest"
+      ],
+      "a": 2,
+      "e": "Othello is the Shakespearean tragedy featuring Othello, Desdemona and Iago.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_116",
+      "origin": "expansion",
+      "batch": 3,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who wrote “Paradise Lost”?",
+      "o": [
+        "John Milton",
+        "John Donne",
+        "Alexander Pope",
+        "William Wordsworth"
+      ],
+      "a": 0,
+      "e": "John Milton wrote the epic poem Paradise Lost.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_117",
+      "origin": "expansion",
+      "batch": 3,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "“The Old Man and the Sea” was written by—",
+      "o": [
+        "Ernest Hemingway",
+        "Mark Twain",
+        "F. Scott Fitzgerald",
+        "John Steinbeck"
+      ],
+      "a": 0,
+      "e": "Ernest Hemingway published The Old Man and the Sea in 1952.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_118",
+      "origin": "expansion",
+      "batch": 3,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who wrote the play “Doctor Faustus”?",
+      "o": [
+        "Ben Jonson",
+        "Christopher Marlowe",
+        "Thomas Kyd",
+        "John Webster"
+      ],
+      "a": 1,
+      "e": "Doctor Faustus is a tragedy by Christopher Marlowe.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_119",
+      "origin": "expansion",
+      "batch": 3,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "“Ode to a Nightingale” is a poem by—",
+      "o": [
+        "John Keats",
+        "Percy Bysshe Shelley",
+        "Lord Byron",
+        "William Blake"
+      ],
+      "a": 0,
+      "e": "John Keats wrote the Romantic ode Ode to a Nightingale.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_120",
+      "origin": "expansion",
+      "batch": 3,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who is the author of “Animal Farm”?",
+      "o": [
+        "George Orwell",
+        "Aldous Huxley",
+        "H. G. Wells",
+        "Charles Dickens"
+      ],
+      "a": 0,
+      "e": "George Orwell wrote the political allegory Animal Farm, published in 1945.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_157",
+      "origin": "expansion",
+      "batch": 4,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "“The Rime of the Ancient Mariner” was written by—",
+      "o": [
+        "William Wordsworth",
+        "Samuel Taylor Coleridge",
+        "John Keats",
+        "Lord Byron"
+      ],
+      "a": 1,
+      "e": "Samuel Taylor Coleridge wrote the poem The Rime of the Ancient Mariner.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_160",
+      "origin": "expansion",
+      "batch": 4,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who wrote “The Merchant of Venice”?",
+      "o": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "Ben Jonson",
+        "John Milton"
+      ],
+      "a": 1,
+      "e": "The Merchant of Venice is a comedy by William Shakespeare.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_195",
+      "origin": "expansion",
+      "batch": 5,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who wrote the play “Hamlet”?",
+      "o": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "John Milton",
+        "Ben Jonson"
+      ],
+      "a": 1,
+      "e": "“Hamlet” is a tragedy by William Shakespeare, generally dated to around 1600–1601.",
+      "source": "English Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_236",
+      "origin": "expansion",
+      "batch": 6,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "“Ode to a Nightingale” was written by which poet?",
+      "o": [
+        "William Wordsworth",
+        "John Keats",
+        "Lord Byron",
+        "Percy Bysshe Shelley"
+      ],
+      "a": 1,
+      "e": "John Keats wrote the Romantic poem “Ode to a Nightingale” in 1819.",
+      "source": "English Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_275",
+      "origin": "expansion",
+      "batch": 7,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "“The Rime of the Ancient Mariner” is a poem by whom?",
+      "o": [
+        "Samuel Taylor Coleridge",
+        "William Wordsworth",
+        "John Keats",
+        "Lord Byron"
+      ],
+      "a": 0,
+      "e": "Samuel Taylor Coleridge wrote “The Rime of the Ancient Mariner”, first published in 1798.",
+      "source": "English Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_314",
+      "origin": "expansion",
+      "batch": 8,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "“The Waste Land” is a poem by whom?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Robert Frost"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot’s modernist poem “The Waste Land” was published in 1922.",
+      "source": "English Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_315",
+      "origin": "expansion",
+      "batch": 8,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who wrote the novel “Frankenstein”?",
+      "o": [
+        "Jane Austen",
+        "Mary Shelley",
+        "Emily Brontë",
+        "Virginia Woolf"
+      ],
+      "a": 1,
+      "e": "Mary Shelley wrote “Frankenstein; or, The Modern Prometheus”, published in 1818.",
+      "source": "English Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_354",
+      "origin": "expansion",
+      "batch": 9,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who wrote the novel “The Portrait of a Lady”?",
+      "o": [
+        "Henry James",
+        "Thomas Hardy",
+        "Joseph Conrad",
+        "E. M. Forster"
+      ],
+      "a": 0,
+      "e": "Henry James published The Portrait of a Lady in book form in 1881.",
+      "source": "English Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_355",
+      "origin": "expansion",
+      "batch": 9,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Which poet wrote “The Love Song of J. Alfred Prufrock”?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "Ezra Pound",
+        "W. H. Auden"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot’s poem was first published in 1915.",
+      "source": "English Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_356",
+      "origin": "expansion",
+      "batch": 9,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who is the author of “The Mayor of Casterbridge”?",
+      "o": [
+        "Charles Dickens",
+        "George Eliot",
+        "Thomas Hardy",
+        "D. H. Lawrence"
+      ],
+      "a": 2,
+      "e": "The Mayor of Casterbridge is a novel by Thomas Hardy, published in 1886.",
+      "source": "English Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_357",
+      "origin": "expansion",
+      "batch": 9,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "“The Faerie Queene” was written by—",
+      "o": [
+        "Edmund Spenser",
+        "Philip Sidney",
+        "John Donne",
+        "Ben Jonson"
+      ],
+      "a": 0,
+      "e": "Edmund Spenser wrote the allegorical epic poem The Faerie Queene.",
+      "source": "English Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_358",
+      "origin": "expansion",
+      "batch": 9,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Which novel begins with the line “Call me Ishmael”?",
+      "o": [
+        "Moby-Dick",
+        "Treasure Island",
+        "Robinson Crusoe",
+        "The Old Man and the Sea"
+      ],
+      "a": 0,
+      "e": "“Call me Ishmael” is the opening line of Herman Melville’s Moby-Dick.",
+      "source": "American Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_394",
+      "origin": "expansion",
+      "batch": 10,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who wrote the novel “A Portrait of the Artist as a Young Man”?",
+      "o": [
+        "James Joyce",
+        "Virginia Woolf",
+        "D. H. Lawrence",
+        "E. M. Forster"
+      ],
+      "a": 0,
+      "e": "James Joyce’s novel A Portrait of the Artist as a Young Man was published in book form in 1916.",
+      "source": "Modernist Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_395",
+      "origin": "expansion",
+      "batch": 10,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "“The Waste Land” is divided into how many sections?",
+      "o": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "a": 2,
+      "e": "T. S. Eliot’s The Waste Land consists of five sections.",
+      "source": "English Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_396",
+      "origin": "expansion",
+      "batch": 10,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who wrote the play “The Playboy of the Western World”?",
+      "o": [
+        "J. M. Synge",
+        "W. B. Yeats",
+        "Sean O’Casey",
+        "Oscar Wilde"
+      ],
+      "a": 0,
+      "e": "J. M. Synge wrote The Playboy of the Western World, first performed in 1907.",
+      "source": "Irish Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_397",
+      "origin": "expansion",
+      "batch": 10,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Which author created the fictional detective Hercule Poirot?",
+      "o": [
+        "Arthur Conan Doyle",
+        "Agatha Christie",
+        "Dorothy L. Sayers",
+        "Wilkie Collins"
+      ],
+      "a": 1,
+      "e": "Agatha Christie created the Belgian detective Hercule Poirot.",
+      "source": "Detective Fiction",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_398",
+      "origin": "expansion",
+      "batch": 10,
+      "source_line": null,
+      "category": "English Literature",
+      "q": "Who wrote the novel “The Heart of Darkness”?",
+      "o": [
+        "Joseph Conrad",
+        "E. M. Forster",
+        "Graham Greene",
+        "Rudyard Kipling"
+      ],
+      "a": 0,
+      "e": "Joseph Conrad wrote Heart of Darkness, first published in book form in 1902.",
+      "source": "English Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_433",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "Who wrote the novel “Pride and Prejudice”?",
+      "o": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "George Eliot",
+        "Mary Shelley"
+      ],
+      "a": 1,
+      "e": "Jane Austen published Pride and Prejudice in 1813.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_434",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "“The Waste Land” is a poem by whom?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "John Keats"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot's modernist poem The Waste Land was published in 1922.",
+      "source": "Poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_435",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "Who is the author of “Gulliver’s Travels”?",
+      "o": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Henry Fielding",
+        "Samuel Richardson"
+      ],
+      "a": 1,
+      "e": "Jonathan Swift wrote Gulliver’s Travels, published in 1726.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_436",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+      "o": [
+        "Macbeth",
+        "Hamlet",
+        "Othello",
+        "King Lear"
+      ],
+      "a": 1,
+      "e": "Rosencrantz and Guildenstern appear in Shakespeare’s Hamlet.",
+      "source": "Drama",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_437",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "Who wrote “A Tale of Two Cities”?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "William Thackeray",
+        "George Orwell"
+      ],
+      "a": 0,
+      "e": "A Tale of Two Cities is a historical novel by Charles Dickens, published in 1859.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_438",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "“The Old Man and the Sea” was written by whom?",
+      "o": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "William Faulkner"
+      ],
+      "a": 1,
+      "e": "Ernest Hemingway wrote The Old Man and the Sea, published in 1952.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_471",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Who wrote the novel “Jane Eyre”?",
+      "o": [
+        "Emily Brontë",
+        "Charlotte Brontë",
+        "Anne Brontë",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Charlotte Brontë published Jane Eyre in 1847.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_472",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "“Paradise Lost” was written by which poet?",
+      "o": [
+        "John Milton",
+        "Alexander Pope",
+        "William Blake",
+        "John Dryden"
+      ],
+      "a": 0,
+      "e": "John Milton's epic poem Paradise Lost was first published in 1667.",
+      "source": "Epic poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_473",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Who is the author of “Wuthering Heights”?",
+      "o": [
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "Jane Austen",
+        "Mary Shelley"
+      ],
+      "a": 1,
+      "e": "Emily Brontë wrote Wuthering Heights, published in 1847.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_474",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Which literary work begins with the line “Call me Ishmael”?",
+      "o": [
+        "Moby-Dick",
+        "The Scarlet Letter",
+        "Robinson Crusoe",
+        "Treasure Island"
+      ],
+      "a": 0,
+      "e": "“Call me Ishmael” is the famous opening line of Herman Melville's Moby-Dick.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_475",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Who wrote “The Canterbury Tales”?",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Gower",
+        "Thomas More",
+        "Edmund Spenser"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote The Canterbury Tales in Middle English.",
+      "source": "Medieval literature",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_476",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Which novel features the character Atticus Finch?",
+      "o": [
+        "Of Mice and Men",
+        "To Kill a Mockingbird",
+        "The Great Gatsby",
+        "Lord of the Flies"
+      ],
+      "a": 1,
+      "e": "Atticus Finch is a central character in Harper Lee's To Kill a Mockingbird.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_477",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Who wrote the play “Waiting for Godot”?",
+      "o": [
+        "Samuel Beckett",
+        "Harold Pinter",
+        "Oscar Wilde",
+        "George Bernard Shaw"
+      ],
+      "a": 0,
+      "e": "Samuel Beckett wrote the absurdist play Waiting for Godot.",
+      "source": "Drama",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_478",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "“Ode to a Nightingale” is a poem by whom?",
+      "o": [
+        "William Wordsworth",
+        "John Keats",
+        "Percy Bysshe Shelley",
+        "Lord Byron"
+      ],
+      "a": 1,
+      "e": "John Keats wrote the ode in 1819.",
+      "source": "Poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_509",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "Who wrote the novel “Pride and Prejudice”?",
+      "o": [
+        "Jane Austen",
+        "George Eliot",
+        "Mary Shelley",
+        "Virginia Woolf"
+      ],
+      "a": 0,
+      "e": "Jane Austen wrote Pride and Prejudice, first published in 1813.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_510",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "Who is the author of “The Old Man and the Sea”?",
+      "o": [
+        "William Faulkner",
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "F. Scott Fitzgerald"
+      ],
+      "a": 1,
+      "e": "Ernest Hemingway wrote the novella The Old Man and the Sea.",
+      "source": "Novella",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_511",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "“The Rime of the Ancient Mariner” was written by whom?",
+      "o": [
+        "William Wordsworth",
+        "Lord Byron",
+        "S. T. Coleridge",
+        "John Keats"
+      ],
+      "a": 2,
+      "e": "Samuel Taylor Coleridge wrote the poem, first published in 1798.",
+      "source": "Poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_512",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "Which Shakespearean play features the characters Rosencrantz and Guildenstern?",
+      "o": [
+        "Macbeth",
+        "Hamlet",
+        "Othello",
+        "King Lear"
+      ],
+      "a": 1,
+      "e": "Rosencrantz and Guildenstern appear in Shakespeare's tragedy Hamlet.",
+      "source": "Drama",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_513",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "Who wrote “A Tale of Two Cities”?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "George Orwell",
+        "H. G. Wells"
+      ],
+      "a": 0,
+      "e": "Charles Dickens published A Tale of Two Cities in 1859.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_514",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "Which poet wrote “The Waste Land”?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Robert Frost"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot's The Waste Land was published in 1922.",
+      "source": "Modern poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_540",
+      "batch": 14,
+      "c": "English Literature",
+      "q": "Who wrote the play “The Importance of Being Earnest”?",
+      "o": [
+        "George Bernard Shaw",
+        "Oscar Wilde",
+        "William Shakespeare",
+        "J. M. Synge"
+      ],
+      "a": 1,
+      "e": "Oscar Wilde wrote the comedy The Importance of Being Earnest, first performed in 1895.",
+      "source": "Drama",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_541",
+      "batch": 14,
+      "c": "English Literature",
+      "q": "Which novel was written by George Orwell?",
+      "o": [
+        "Brave New World",
+        "Nineteen Eighty-Four",
+        "The Trial",
+        "Lord Jim"
+      ],
+      "a": 1,
+      "e": "George Orwell wrote Nineteen Eighty-Four, published in 1949.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_542",
+      "batch": 14,
+      "c": "English Literature",
+      "q": "Who wrote “Gulliver’s Travels”?",
+      "o": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Henry Fielding",
+        "Samuel Richardson"
+      ],
+      "a": 1,
+      "e": "Jonathan Swift wrote Gulliver’s Travels, first published in 1726.",
+      "source": "Satire",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_543",
+      "batch": 14,
+      "c": "English Literature",
+      "q": "“The Raven” is a famous poem by which writer?",
+      "o": [
+        "Edgar Allan Poe",
+        "Walt Whitman",
+        "Robert Browning",
+        "William Blake"
+      ],
+      "a": 0,
+      "e": "Edgar Allan Poe published “The Raven” in 1845.",
+      "source": "Poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_544",
+      "batch": 14,
+      "c": "English Literature",
+      "q": "Who is the author of “The Canterbury Tales”?",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Milton",
+        "William Langland",
+        "Thomas Malory"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote The Canterbury Tales; however, a question with this wording already exists in the bank.",
+      "source": "Medieval literature",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_581",
+      "batch": 15,
+      "c": "English Literature",
+      "q": "Who wrote the poem “Ode to a Nightingale”?",
+      "o": [
+        "John Keats",
+        "Percy Bysshe Shelley",
+        "William Wordsworth",
+        "Lord Byron"
+      ],
+      "a": 0,
+      "e": "John Keats wrote “Ode to a Nightingale” in 1819.",
+      "source": "Poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_582",
+      "batch": 15,
+      "c": "English Literature",
+      "q": "Which writer created the fictional detective Sherlock Holmes?",
+      "o": [
+        "Agatha Christie",
+        "Arthur Conan Doyle",
+        "Wilkie Collins",
+        "G. K. Chesterton"
+      ],
+      "a": 1,
+      "e": "Sir Arthur Conan Doyle created Sherlock Holmes.",
+      "source": "Detective fiction",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_583",
+      "batch": 15,
+      "c": "English Literature",
+      "q": "Who wrote “Paradise Lost”?",
+      "o": [
+        "John Milton",
+        "Geoffrey Chaucer",
+        "Alexander Pope",
+        "John Dryden"
+      ],
+      "a": 0,
+      "e": "John Milton's epic poem Paradise Lost was first published in 1667.",
+      "source": "Epic poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_584",
+      "batch": 15,
+      "c": "English Literature",
+      "q": "Which novel begins with the line “Call me Ishmael”?",
+      "o": [
+        "Moby-Dick",
+        "Treasure Island",
+        "Robinson Crusoe",
+        "The Scarlet Letter"
+      ],
+      "a": 0,
+      "e": "“Call me Ishmael” is the famous opening of Herman Melville's Moby-Dick.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_618",
+      "batch": 16,
+      "c": "English Literature",
+      "q": "Who wrote the novel “Wuthering Heights”?",
+      "o": [
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "Anne Brontë",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Emily Brontë wrote Wuthering Heights, published in 1847.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_619",
+      "batch": 16,
+      "c": "English Literature",
+      "q": "Who wrote the play “Doctor Faustus”?",
+      "o": [
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "John Webster",
+        "Thomas Kyd"
+      ],
+      "a": 0,
+      "e": "Christopher Marlowe wrote The Tragical History of Doctor Faustus.",
+      "source": "Drama",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_620",
+      "batch": 16,
+      "c": "English Literature",
+      "q": "Which poet is associated with the phrase “negative capability”?",
+      "o": [
+        "William Blake",
+        "John Keats",
+        "William Wordsworth",
+        "Alexander Pope"
+      ],
+      "a": 1,
+      "e": "John Keats used the term “negative capability” in a letter written in 1817.",
+      "source": "Literary criticism",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_621",
+      "batch": 16,
+      "c": "English Literature",
+      "q": "Who wrote “The Adventures of Tom Sawyer”?",
+      "o": [
+        "Mark Twain",
+        "Jack London",
+        "Herman Melville",
+        "Nathaniel Hawthorne"
+      ],
+      "a": 0,
+      "e": "Mark Twain wrote The Adventures of Tom Sawyer, published in 1876.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_622",
+      "batch": 16,
+      "c": "English Literature",
+      "q": "Who is the author of “The Divine Comedy”?",
+      "o": [
+        "Dante Alighieri",
+        "Petrarch",
+        "Giovanni Boccaccio",
+        "Virgil"
+      ],
+      "a": 0,
+      "e": "Dante Alighieri wrote the epic poem The Divine Comedy.",
+      "source": "Epic poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_655",
+      "batch": 17,
+      "c": "English Literature",
+      "q": "Who is the author of “Paradise Lost”?",
+      "o": [
+        "John Milton",
+        "Geoffrey Chaucer",
+        "John Donne",
+        "Edmund Spenser"
+      ],
+      "a": 0,
+      "e": "John Milton wrote the epic poem Paradise Lost, first published in 1667.",
+      "source": "Epic poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_657",
+      "batch": 17,
+      "c": "English Literature",
+      "q": "Who wrote “The Waste Land”?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Robert Frost"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot’s modernist poem The Waste Land was published in 1922.",
+      "source": "Poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_690",
+      "batch": 18,
+      "c": "English Literature",
+      "q": "Which literary period is most closely associated with William Wordsworth and Samuel Taylor Coleridge?",
+      "o": [
+        "Neoclassical",
+        "Romantic",
+        "Victorian",
+        "Modernist"
+      ],
+      "a": 1,
+      "e": "Wordsworth and Coleridge are major figures of the English Romantic movement.",
+      "source": "Literary periods",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_691",
+      "batch": 18,
+      "c": "English Literature",
+      "q": "Who wrote the tragedy “Othello”?",
+      "o": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "John Milton",
+        "Ben Jonson"
+      ],
+      "a": 1,
+      "e": "Othello is one of William Shakespeare’s major tragedies.",
+      "source": "Drama",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_692",
+      "batch": 18,
+      "c": "English Literature",
+      "q": "Who wrote the novel “Great Expectations”?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "George Eliot",
+        "William Thackeray"
+      ],
+      "a": 0,
+      "e": "Charles Dickens wrote Great Expectations, first published in serial form in 1860–61.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_722",
+      "batch": 19,
+      "c": "English Literature",
+      "q": "“Paradise Lost” is primarily written in which poetic form?",
+      "o": [
+        "Heroic couplets",
+        "Blank verse",
+        "Terza rima",
+        "Free verse"
+      ],
+      "a": 1,
+      "e": "John Milton composed “Paradise Lost” in unrhymed iambic pentameter, known as blank verse.",
+      "source": "Poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_723",
+      "batch": 19,
+      "c": "English Literature",
+      "q": "Who is the author of “The Canterbury Tales”?",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Milton",
+        "William Blake",
+        "Thomas Hardy"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote “The Canterbury Tales” in Middle English.",
+      "source": "Medieval Literature",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_725",
+      "batch": 19,
+      "c": "English Literature",
+      "q": "Who wrote “A Tale of Two Cities”?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "Daniel Defoe",
+        "Oscar Wilde"
+      ],
+      "a": 0,
+      "e": "Charles Dickens published “A Tale of Two Cities” in 1859.",
+      "source": "English Novel",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_726",
+      "batch": 19,
+      "c": "English Literature",
+      "q": "“The Waste Land” was written by whom?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Dylan Thomas"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot’s modernist poem “The Waste Land” was published in 1922.",
+      "source": "Modern Poetry",
+      "sourceUrl": "",
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_844",
+      "c": "English Literature",
+      "q": "Who wrote “Paradise Lost”?",
+      "o": [
+        "William Shakespeare",
+        "John Milton",
+        "Geoffrey Chaucer",
+        "John Donne"
+      ],
+      "a": 1,
+      "e": "Paradise Lost is an epic poem by John Milton.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 23,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_845",
+      "c": "English Literature",
+      "q": "Who is the author of “Pride and Prejudice”?",
+      "o": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "Emily Dickinson",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Jane Austen published Pride and Prejudice in 1813.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 23,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_846",
+      "c": "English Literature",
+      "q": "“The Canterbury Tales” was written by—",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Milton",
+        "William Blake",
+        "Thomas Hardy"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote The Canterbury Tales.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 23,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_874",
+      "c": "English Literature",
+      "q": "Who wrote “The Waste Land”?",
+      "o": [
+        "T. S. Eliot",
+        "W. B. Yeats",
+        "John Keats",
+        "Robert Frost"
+      ],
+      "a": 0,
+      "e": "The Waste Land is a major poem by T. S. Eliot.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 24,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_875",
+      "c": "English Literature",
+      "q": "Who is known as the ‘Bard of Avon’?",
+      "o": [
+        "John Milton",
+        "William Shakespeare",
+        "Geoffrey Chaucer",
+        "William Wordsworth"
+      ],
+      "a": 1,
+      "e": "William Shakespeare is traditionally called the Bard of Avon.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 24,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_876",
+      "c": "English Literature",
+      "q": "“Jane Eyre” was written by—",
+      "o": [
+        "Emily Brontë",
+        "Charlotte Brontë",
+        "Jane Austen",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Charlotte Brontë wrote the novel Jane Eyre.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 24,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_904",
+      "c": "English Literature",
+      "q": "Who wrote “Great Expectations”?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "George Orwell",
+        "D. H. Lawrence"
+      ],
+      "a": 0,
+      "e": "Great Expectations is a novel by Charles Dickens.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 25,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_905",
+      "c": "English Literature",
+      "q": "Who is the author of “The Old Man and the Sea”?",
+      "o": [
+        "William Faulkner",
+        "Ernest Hemingway",
+        "Mark Twain",
+        "F. Scott Fitzgerald"
+      ],
+      "a": 1,
+      "e": "Ernest Hemingway wrote The Old Man and the Sea.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 25,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_934",
+      "c": "English Literature",
+      "q": "Who wrote the play “Doctor Faustus”?",
+      "o": [
+        "William Shakespeare",
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "John Milton"
+      ],
+      "a": 1,
+      "e": "Christopher Marlowe wrote the tragedy Doctor Faustus.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 26,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_935",
+      "c": "English Literature",
+      "q": "“Pride and Prejudice” was written by—",
+      "o": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "George Eliot",
+        "Mary Shelley"
+      ],
+      "a": 1,
+      "e": "Jane Austen published Pride and Prejudice in 1813.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 26,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_936",
+      "c": "English Literature",
+      "q": "Who is the author of “The Waste Land”?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Robert Frost"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot wrote the modernist poem The Waste Land.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 26,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_965",
+      "c": "English Literature",
+      "q": "“Paradise Lost” is an epic poem by—",
+      "o": [
+        "John Milton",
+        "Geoffrey Chaucer",
+        "William Blake",
+        "Alexander Pope"
+      ],
+      "a": 0,
+      "e": "John Milton published Paradise Lost in the seventeenth century.",
+      "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 27,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1017",
+      "c": "English Literature",
+      "q": "Who wrote the novel 'Middlemarch'?",
+      "o": [
+        "Jane Austen",
+        "George Eliot",
+        "Emily Brontë",
+        "Virginia Woolf"
+      ],
+      "a": 1,
+      "e": "'Middlemarch' was written by George Eliot.",
+      "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 28,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1018",
+      "c": "English Literature",
+      "q": "Who is the author of 'The Waste Land'?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Ezra Pound"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot published 'The Waste Land' in 1922.",
+      "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 28,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1021",
+      "c": "English Literature",
+      "q": "'Pride and Prejudice' was first published in which year?",
+      "o": [
+        "1798",
+        "1813",
+        "1832",
+        "1847"
+      ],
+      "a": 1,
+      "e": "Jane Austen's 'Pride and Prejudice' was first published in 1813.",
+      "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 28,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1061",
+      "c": "English Literature",
+      "q": "Who wrote the novel 'Things Fall Apart'?",
+      "o": [
+        "Chinua Achebe",
+        "Wole Soyinka",
+        "Ngũgĩ wa Thiong'o",
+        "Ben Okri"
+      ],
+      "a": 0,
+      "e": "'Things Fall Apart' is a 1958 novel by Chinua Achebe.",
+      "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 29,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1062",
+      "c": "English Literature",
+      "q": "Which poet wrote 'Ode to a Nightingale'?",
+      "o": [
+        "William Blake",
+        "John Keats",
+        "P. B. Shelley",
+        "Lord Byron"
+      ],
+      "a": 1,
+      "e": "John Keats wrote 'Ode to a Nightingale'.",
+      "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 29,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1063",
+      "c": "English Literature",
+      "q": "Who is the author of 'The Canterbury Tales'?",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Milton",
+        "Edmund Spenser",
+        "Thomas More"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote 'The Canterbury Tales'.",
+      "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 29,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1064",
+      "c": "English Literature",
+      "q": "'A Tale of Two Cities' is set primarily in which two cities?",
+      "o": [
+        "London and Paris",
+        "Rome and Athens",
+        "Dublin and London",
+        "Paris and Berlin"
+      ],
+      "a": 0,
+      "e": "Charles Dickens's novel is set in London and Paris during the French Revolution.",
+      "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 29,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1091",
+      "c": "English Literature",
+      "q": "Who is the author of the novel “Middlemarch”?",
+      "o": [
+        "Jane Austen",
+        "George Eliot",
+        "Emily Brontë",
+        "Virginia Woolf"
+      ],
+      "a": 1,
+      "e": "George Eliot, the pen name of Mary Ann Evans, wrote Middlemarch.",
+      "source": "Victorian novel",
+      "d": "মাঝারি",
+      "sourceUrl": "",
+      "batch": 30,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1092",
+      "c": "English Literature",
+      "q": "“Paradise Lost” is primarily written in which verse form?",
+      "o": [
+        "Heroic couplets",
+        "Blank verse",
+        "Free verse",
+        "Ballad metre"
+      ],
+      "a": 1,
+      "e": "John Milton's Paradise Lost is an epic poem written in unrhymed iambic pentameter, known as blank verse.",
+      "source": "Epic poetry",
+      "d": "মাঝারি",
+      "sourceUrl": "",
+      "batch": 30,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1093",
+      "c": "English Literature",
+      "q": "Which literary period is most closely associated with the works of Alexander Pope?",
+      "o": [
+        "Romantic Age",
+        "Augustan Age",
+        "Victorian Age",
+        "Modern Age"
+      ],
+      "a": 1,
+      "e": "Alexander Pope is a major poet of the Augustan Age, noted for heroic couplets and satire.",
+      "source": "Literary periods",
+      "d": "মাঝারি",
+      "sourceUrl": "",
+      "batch": 30,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1094",
+      "c": "English Literature",
+      "q": "Who wrote the novel “Things Fall Apart”?",
+      "o": [
+        "Chinua Achebe",
+        "Wole Soyinka",
+        "Ngũgĩ wa Thiong'o",
+        "Nadine Gordimer"
+      ],
+      "a": 0,
+      "e": "Nigerian writer Chinua Achebe published Things Fall Apart in 1958.",
+      "source": "African literature",
+      "d": "সহজ",
+      "sourceUrl": "",
+      "batch": 30,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1104",
+      "c": "English Literature",
+      "q": "Who wrote the play 'The Duchess of Malfi'?",
+      "o": [
+        "John Webster",
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "Thomas Kyd"
+      ],
+      "a": 0,
+      "e": "John Webster wrote the Jacobean tragedy The Duchess of Malfi.",
+      "source": "Drama",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 31,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1105",
+      "c": "English Literature",
+      "q": "Who is the author of 'The Faerie Queene'?",
+      "o": [
+        "Edmund Spenser",
+        "John Donne",
+        "Philip Sidney",
+        "John Dryden"
+      ],
+      "a": 0,
+      "e": "Edmund Spenser wrote the allegorical epic The Faerie Queene.",
+      "source": "Renaissance poetry",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 31,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1106",
+      "c": "English Literature",
+      "q": "Which novel begins with the line 'It was the best of times, it was the worst of times'?",
+      "o": [
+        "Great Expectations",
+        "A Tale of Two Cities",
+        "Oliver Twist",
+        "David Copperfield"
+      ],
+      "a": 1,
+      "e": "The famous opening sentence belongs to Charles Dickens's A Tale of Two Cities.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 31,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1107",
+      "c": "English Literature",
+      "q": "Who wrote 'The Waste Land'?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Ezra Pound"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot published The Waste Land in 1922.",
+      "source": "Modern poetry",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 31,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1108",
+      "c": "English Literature",
+      "q": "'Pride and Prejudice' was written by whom?",
+      "o": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "George Eliot",
+        "Mary Shelley"
+      ],
+      "a": 1,
+      "e": "Jane Austen's novel Pride and Prejudice was published in 1813.",
+      "source": "Novel",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 31,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1109",
+      "c": "English Literature",
+      "q": "Who is the protagonist of Milton's 'Paradise Lost' who leads the rebel angels?",
+      "o": [
+        "Adam",
+        "Raphael",
+        "Satan",
+        "Michael"
+      ],
+      "a": 2,
+      "e": "Satan is the leader of the rebel angels in Paradise Lost.",
+      "source": "Epic poetry",
+      "sourceUrl": "",
+      "d": "মাঝারি",
+      "batch": 31,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1174",
+      "c": "English Literature",
+      "q": "Who wrote the novel 'Pride and Prejudice'?",
+      "o": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "George Eliot",
+        "Emily Brontë"
+      ],
+      "a": 1,
+      "e": "Jane Austen published Pride and Prejudice in 1813.",
+      "source": "English Novel",
+      "d": "সহজ",
+      "batch": 33,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1176",
+      "c": "English Literature",
+      "q": "'The Canterbury Tales' was written by whom?",
+      "o": [
+        "John Milton",
+        "Geoffrey Chaucer",
+        "William Langland",
+        "Edmund Spenser"
+      ],
+      "a": 1,
+      "e": "Geoffrey Chaucer wrote The Canterbury Tales in Middle English.",
+      "source": "Middle English Literature",
+      "d": "মাঝারি",
+      "batch": 33,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1178",
+      "c": "English Literature",
+      "q": "Who wrote 'Animal Farm'?",
+      "o": [
+        "Aldous Huxley",
+        "George Orwell",
+        "H. G. Wells",
+        "D. H. Lawrence"
+      ],
+      "a": 1,
+      "e": "George Orwell's allegorical novella Animal Farm was published in 1945.",
+      "source": "Modern English Fiction",
+      "d": "সহজ",
+      "batch": 33,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1179",
+      "c": "English Literature",
+      "q": "Which literary period is John Milton most commonly associated with?",
+      "o": [
+        "The Romantic Age",
+        "The Victorian Age",
+        "The Puritan Age",
+        "The Modern Age"
+      ],
+      "a": 2,
+      "e": "John Milton is a major poet of the seventeenth-century Puritan or Commonwealth period.",
+      "source": "History of English Literature",
+      "d": "কঠিন",
+      "batch": 33,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1196",
+      "c": "English Literature",
+      "q": "Who wrote 'Paradise Lost'?",
+      "o": [
+        "John Donne",
+        "John Milton",
+        "Alexander Pope",
+        "William Blake"
+      ],
+      "a": 1,
+      "e": "John Milton published the epic poem Paradise Lost in its first edition in 1667.",
+      "source": "English Poetry",
+      "d": "সহজ",
+      "batch": 34,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1198",
+      "c": "English Literature",
+      "q": "Who wrote the novel 'Jane Eyre'?",
+      "o": [
+        "Emily Brontë",
+        "Anne Brontë",
+        "Charlotte Brontë",
+        "Elizabeth Gaskell"
+      ],
+      "a": 2,
+      "e": "Charlotte Brontë published Jane Eyre in 1847.",
+      "source": "Victorian Novel",
+      "d": "সহজ",
+      "batch": 34,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1199",
+      "c": "English Literature",
+      "q": "'Wuthering Heights' was written by whom?",
+      "o": [
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "George Eliot",
+        "Mary Shelley"
+      ],
+      "a": 1,
+      "e": "Emily Brontë's only novel, Wuthering Heights, was published in 1847.",
+      "source": "Victorian Novel",
+      "d": "সহজ",
+      "batch": 34,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1202",
+      "c": "English Literature",
+      "q": "'Ode to a Nightingale' is a poem by which Romantic poet?",
+      "o": [
+        "William Wordsworth",
+        "Lord Byron",
+        "John Keats",
+        "P. B. Shelley"
+      ],
+      "a": 2,
+      "e": "John Keats wrote the celebrated ode in 1819.",
+      "source": "Romantic Poetry",
+      "d": "মাঝারি",
+      "batch": 34,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1264",
+      "c": "English Literature",
+      "q": "Who wrote 'The Rime of the Ancient Mariner'?",
+      "o": [
+        "William Wordsworth",
+        "S. T. Coleridge",
+        "John Keats",
+        "Lord Byron"
+      ],
+      "a": 1,
+      "e": "Samuel Taylor Coleridge wrote this major poem of the English Romantic period.",
+      "source": "Romantic Poetry",
+      "d": "মাঝারি",
+      "batch": 36,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1265",
+      "c": "English Literature",
+      "q": "Who is known as the 'Father of English Poetry'?",
+      "o": [
+        "William Shakespeare",
+        "Geoffrey Chaucer",
+        "John Milton",
+        "Edmund Spenser"
+      ],
+      "a": 1,
+      "e": "Geoffrey Chaucer is traditionally known as the Father of English Poetry.",
+      "source": "History of English Literature",
+      "d": "সহজ",
+      "batch": 36,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1266",
+      "c": "English Literature",
+      "q": "Which novel begins with the famous line 'Call me Ishmael'?",
+      "o": [
+        "Moby-Dick",
+        "Robinson Crusoe",
+        "Treasure Island",
+        "The Great Gatsby"
+      ],
+      "a": 0,
+      "e": "'Call me Ishmael' is the opening line of Herman Melville's Moby-Dick.",
+      "source": "American Literature",
+      "d": "মাঝারি",
+      "batch": 36,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1268",
+      "c": "English Literature",
+      "q": "'Waiting for Godot' is a play by which writer?",
+      "o": [
+        "Harold Pinter",
+        "Samuel Beckett",
+        "Oscar Wilde",
+        "George Bernard Shaw"
+      ],
+      "a": 1,
+      "e": "Samuel Beckett wrote the influential absurdist play Waiting for Godot.",
+      "source": "Modern Drama",
+      "d": "মাঝারি",
+      "batch": 36,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1269",
+      "c": "English Literature",
+      "q": "Who wrote the poem 'The Raven'?",
+      "o": [
+        "Walt Whitman",
+        "Robert Frost",
+        "Edgar Allan Poe",
+        "Emily Dickinson"
+      ],
+      "a": 2,
+      "e": "Edgar Allan Poe's narrative poem The Raven was published in 1845.",
+      "source": "American Poetry",
+      "d": "সহজ",
+      "batch": 36,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1330",
+      "c": "English Literature",
+      "q": "Who wrote the novel 'Pride and Prejudice'?",
+      "o": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "George Eliot",
+        "Virginia Woolf"
+      ],
+      "a": 1,
+      "e": "Pride and Prejudice is a novel by Jane Austen, first published in 1813.",
+      "source": "English Literature — Novel",
+      "d": "সহজ",
+      "batch": 38,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1331",
+      "c": "English Literature",
+      "q": "Who is the author of 'The Waste Land'?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "John Keats"
+      ],
+      "a": 1,
+      "e": "The Waste Land is a landmark modernist poem by T. S. Eliot, published in 1922.",
+      "source": "English Literature — Modern Poetry",
+      "d": "সহজ",
+      "batch": 38,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1332",
+      "c": "English Literature",
+      "q": "'Gulliver's Travels' was written by whom?",
+      "o": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Henry Fielding",
+        "Samuel Johnson"
+      ],
+      "a": 1,
+      "e": "Jonathan Swift wrote Gulliver's Travels, published in 1726.",
+      "source": "English Literature — Satire",
+      "d": "সহজ",
+      "batch": 38,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1360",
+      "c": "English Literature",
+      "q": "Who wrote the play 'The Tempest'?",
+      "o": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "Ben Jonson",
+        "John Milton"
+      ],
+      "a": 1,
+      "e": "The Tempest is a late romance play by William Shakespeare.",
+      "source": "English Literature — Drama",
+      "d": "সহজ",
+      "batch": 39,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1361",
+      "c": "English Literature",
+      "q": "Who is the author of 'Jane Eyre'?",
+      "o": [
+        "Emily Brontë",
+        "Anne Brontë",
+        "Charlotte Brontë",
+        "Mary Shelley"
+      ],
+      "a": 2,
+      "e": "Jane Eyre, published in 1847, was written by Charlotte Brontë.",
+      "source": "English Literature — Novel",
+      "d": "সহজ",
+      "batch": 39,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1391",
+      "c": "English Literature",
+      "q": "'Paradise Lost' is an epic poem by whom?",
+      "o": [
+        "John Milton",
+        "Alexander Pope",
+        "Geoffrey Chaucer",
+        "Edmund Spenser"
+      ],
+      "a": 0,
+      "e": "John Milton wrote the epic poem Paradise Lost, first published in 1667.",
+      "source": "English Literature — Epic Poetry",
+      "d": "সহজ",
+      "batch": 40,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1392",
+      "c": "English Literature",
+      "q": "Which literary period is most closely associated with Geoffrey Chaucer?",
+      "o": [
+        "Romantic period",
+        "Victorian period",
+        "Middle English period",
+        "Modernist period"
+      ],
+      "a": 2,
+      "e": "Geoffrey Chaucer is a major poet of the Middle English period, best known for The Canterbury Tales.",
+      "source": "English Literature — Literary Periods",
+      "d": "মাঝারি",
+      "batch": 40,
+      "origin": "expansion"
+    },
+    {
+      "id": "extra_1421",
+      "origin": "expansion_batch",
+      "batch": 41,
+      "category": "English Literature",
+      "q": "'The Waste Land' is a landmark poem by which modernist poet?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Ezra Pound"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot's The Waste Land was published in 1922 and became a major modernist poem.",
+      "source": "English Literature — Modern Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1422",
+      "origin": "expansion_batch",
+      "batch": 41,
+      "category": "English Literature",
+      "q": "Who is the narrator of the novel 'Heart of Darkness'?",
+      "o": [
+        "Marlow",
+        "Kurtz",
+        "Jim",
+        "Dr. Watson"
+      ],
+      "a": 0,
+      "e": "Charles Marlow narrates most of the story of Joseph Conrad's Heart of Darkness.",
+      "source": "English Literature — Novel and Narration",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1453",
+      "origin": "expansion_batch",
+      "batch": 42,
+      "category": "English Literature",
+      "q": "Who wrote the revenge tragedy “The Duchess of Malfi”?",
+      "o": [
+        "Christopher Marlowe",
+        "John Webster",
+        "Ben Jonson",
+        "Thomas Kyd"
+      ],
+      "a": 1,
+      "e": "John Webster wrote The Duchess of Malfi, first performed around 1613–14.",
+      "source": "English Literature — Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1454",
+      "origin": "expansion_batch",
+      "batch": 42,
+      "category": "English Literature",
+      "q": "Who is the author of “The Rime of the Ancient Mariner”?",
+      "o": [
+        "William Wordsworth",
+        "Samuel Taylor Coleridge",
+        "John Keats",
+        "Lord Byron"
+      ],
+      "a": 1,
+      "e": "Samuel Taylor Coleridge published the poem in Lyrical Ballads (1798).",
+      "source": "English Literature — Romantic Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1455",
+      "origin": "expansion_batch",
+      "batch": 42,
+      "category": "English Literature",
+      "q": "Who wrote “The Canterbury Tales”?",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Gower",
+        "Edmund Spenser",
+        "William Langland"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote the Middle English collection The Canterbury Tales.",
+      "source": "English Literature — Medieval Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1481",
+      "origin": "expansion_batch",
+      "batch": 43,
+      "category": "English Literature",
+      "q": "Who wrote the play “Waiting for Godot”?",
+      "o": [
+        "Harold Pinter",
+        "Samuel Beckett",
+        "John Osborne",
+        "Tom Stoppard"
+      ],
+      "a": 1,
+      "e": "Samuel Beckett wrote Waiting for Godot, a major work of the Theatre of the Absurd.",
+      "source": "English Literature — Modern Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1482",
+      "origin": "expansion_batch",
+      "batch": 43,
+      "category": "English Literature",
+      "q": "“Paradise Lost” is primarily written in which poetic form?",
+      "o": [
+        "Heroic couplets",
+        "Blank verse",
+        "Free verse",
+        "Ballad metre"
+      ],
+      "a": 1,
+      "e": "John Milton composed Paradise Lost in unrhymed iambic pentameter, known as blank verse.",
+      "source": "English Literature — Epic Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1513",
+      "origin": "expansion_batch",
+      "batch": 44,
+      "category": "English Literature",
+      "q": "Which novel begins with the line “Call me Ishmael”?",
+      "o": [
+        "Moby-Dick",
+        "Great Expectations",
+        "Treasure Island",
+        "Robinson Crusoe"
+      ],
+      "a": 0,
+      "e": "“Call me Ishmael” is the famous opening line of Herman Melville’s Moby-Dick.",
+      "source": "English Literature — American Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1515",
+      "origin": "expansion_batch",
+      "batch": 44,
+      "category": "English Literature",
+      "q": "In Shakespeare’s “Macbeth”, who is the King of Scotland at the beginning of the play?",
+      "o": [
+        "Duncan",
+        "Malcolm",
+        "Macduff",
+        "Banquo"
+      ],
+      "a": 0,
+      "e": "King Duncan rules Scotland at the beginning of Macbeth.",
+      "source": "English Literature — Shakespeare",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1543",
+      "origin": "expansion_batch",
+      "batch": 45,
+      "category": "English Literature",
+      "q": "Which poet wrote “Ode to a Nightingale”?",
+      "o": [
+        "William Wordsworth",
+        "John Keats",
+        "Percy Bysshe Shelley",
+        "Lord Byron"
+      ],
+      "a": 1,
+      "e": "Ode to a Nightingale is a celebrated ode by John Keats.",
+      "source": "English Literature — Romantic Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1545",
+      "origin": "expansion_batch",
+      "batch": 45,
+      "category": "English Literature",
+      "q": "In which Shakespeare play does the character Prospero appear?",
+      "o": [
+        "The Tempest",
+        "Twelfth Night",
+        "Julius Caesar",
+        "Much Ado About Nothing"
+      ],
+      "a": 0,
+      "e": "Prospero is the central character in Shakespeare’s The Tempest.",
+      "source": "English Literature — Shakespeare",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1572",
+      "origin": "expansion_batch",
+      "batch": 46,
+      "category": "English Literature",
+      "q": "Who wrote “The Canterbury Tales”?",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Milton",
+        "William Langland",
+        "Edmund Spenser"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote the Middle English work The Canterbury Tales.",
+      "source": "English Literature — Medieval Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1573",
+      "origin": "expansion_batch",
+      "batch": 46,
+      "category": "English Literature",
+      "q": "Which novel features the character Atticus Finch?",
+      "o": [
+        "The Great Gatsby",
+        "To Kill a Mockingbird",
+        "Of Mice and Men",
+        "The Catcher in the Rye"
+      ],
+      "a": 1,
+      "e": "Atticus Finch is a central character in Harper Lee’s To Kill a Mockingbird.",
+      "source": "English Literature — American Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1574",
+      "origin": "expansion_batch",
+      "batch": 46,
+      "category": "English Literature",
+      "q": "Who wrote the play “A Doll’s House”?",
+      "o": [
+        "Anton Chekhov",
+        "Henrik Ibsen",
+        "August Strindberg",
+        "George Bernard Shaw"
+      ],
+      "a": 1,
+      "e": "Henrik Ibsen wrote A Doll’s House, first performed in 1879.",
+      "source": "English Literature — Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1575",
+      "origin": "expansion_batch",
+      "batch": 46,
+      "category": "English Literature",
+      "q": "“The Rime of the Ancient Mariner” was written by whom?",
+      "o": [
+        "William Blake",
+        "Samuel Taylor Coleridge",
+        "William Wordsworth",
+        "John Keats"
+      ],
+      "a": 1,
+      "e": "Samuel Taylor Coleridge wrote the major Romantic poem The Rime of the Ancient Mariner.",
+      "source": "English Literature — Romantic Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1602",
+      "origin": "expansion_batch",
+      "batch": 47,
+      "category": "English Literature",
+      "q": "Who wrote the play “The Importance of Being Earnest”?",
+      "o": [
+        "George Bernard Shaw",
+        "Oscar Wilde",
+        "John Galsworthy",
+        "Samuel Beckett"
+      ],
+      "a": 1,
+      "e": "Oscar Wilde wrote the comedy “The Importance of Being Earnest”.",
+      "source": "English Literature — Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1603",
+      "origin": "expansion_batch",
+      "batch": 47,
+      "category": "English Literature",
+      "q": "“Paradise Lost” is an epic poem by whom?",
+      "o": [
+        "William Blake",
+        "John Milton",
+        "Alexander Pope",
+        "Edmund Spenser"
+      ],
+      "a": 1,
+      "e": "John Milton published the first edition of “Paradise Lost” in 1667.",
+      "source": "English Literature — Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1604",
+      "origin": "expansion_batch",
+      "batch": 47,
+      "category": "English Literature",
+      "q": "Which novel begins with the famous line “Call me Ishmael”?",
+      "o": [
+        "Moby-Dick",
+        "The Old Man and the Sea",
+        "Treasure Island",
+        "Robinson Crusoe"
+      ],
+      "a": 0,
+      "e": "“Call me Ishmael” is the opening line of Herman Melville’s “Moby-Dick”.",
+      "source": "English Literature — Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1605",
+      "origin": "expansion_batch",
+      "batch": 47,
+      "category": "English Literature",
+      "q": "Who is the author of “Pride and Prejudice”?",
+      "o": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "Emily Brontë",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Jane Austen published “Pride and Prejudice” in 1813.",
+      "source": "English Literature — Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1633",
+      "origin": "expansion_batch",
+      "batch": 48,
+      "category": "English Literature",
+      "q": "“The Canterbury Tales” was written by whom?",
+      "o": [
+        "Geoffrey Chaucer",
+        "William Langland",
+        "John Gower",
+        "Thomas Malory"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote “The Canterbury Tales” in Middle English.",
+      "source": "English Literature — Medieval Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1635",
+      "origin": "expansion_batch",
+      "batch": 48,
+      "category": "English Literature",
+      "q": "Who wrote “A Tale of Two Cities”?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "William Thackeray",
+        "Daniel Defoe"
+      ],
+      "a": 0,
+      "e": "Charles Dickens published “A Tale of Two Cities” in 1859.",
+      "source": "English Literature — Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1662",
+      "origin": "expansion_batch",
+      "batch": 49,
+      "category": "English Literature",
+      "q": "Who wrote the novel “Wuthering Heights”?",
+      "o": [
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "Anne Brontë",
+        "Elizabeth Gaskell"
+      ],
+      "a": 1,
+      "e": "Emily Brontë published “Wuthering Heights” in 1847.",
+      "source": "English Literature — Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1663",
+      "origin": "expansion_batch",
+      "batch": 49,
+      "category": "English Literature",
+      "q": "Which poet is known as the author of “The Rime of the Ancient Mariner”?",
+      "o": [
+        "William Wordsworth",
+        "Samuel Taylor Coleridge",
+        "John Keats",
+        "Percy Bysshe Shelley"
+      ],
+      "a": 1,
+      "e": "Samuel Taylor Coleridge wrote “The Rime of the Ancient Mariner”.",
+      "source": "English Literature — Romantic Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1664",
+      "origin": "expansion_batch",
+      "batch": 49,
+      "category": "English Literature",
+      "q": "“Waiting for Godot” is a play by which writer?",
+      "o": [
+        "Harold Pinter",
+        "Samuel Beckett",
+        "Eugène Ionesco",
+        "Tom Stoppard"
+      ],
+      "a": 1,
+      "e": "Samuel Beckett wrote the absurdist play “Waiting for Godot”.",
+      "source": "English Literature — Modern Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1665",
+      "origin": "expansion_batch",
+      "batch": 49,
+      "category": "English Literature",
+      "q": "Who is the author of “Gulliver’s Travels”?",
+      "o": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Henry Fielding",
+        "Laurence Sterne"
+      ],
+      "a": 1,
+      "e": "Jonathan Swift published “Gulliver’s Travels” in 1726.",
+      "source": "English Literature — Satirical Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1692",
+      "origin": "expansion_batch",
+      "batch": 50,
+      "category": "English Literature",
+      "q": "Who wrote the poem “Ode to a Nightingale”?",
+      "o": [
+        "John Keats",
+        "William Wordsworth",
+        "Lord Byron",
+        "William Blake"
+      ],
+      "a": 0,
+      "e": "John Keats wrote “Ode to a Nightingale” in 1819.",
+      "source": "English Literature — Romantic Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1693",
+      "origin": "expansion_batch",
+      "batch": 50,
+      "category": "English Literature",
+      "q": "Which novel features the character Elizabeth Bennet?",
+      "o": [
+        "Jane Eyre",
+        "Pride and Prejudice",
+        "Middlemarch",
+        "North and South"
+      ],
+      "a": 1,
+      "e": "Elizabeth Bennet is the central heroine of Jane Austen’s “Pride and Prejudice”.",
+      "source": "English Literature — Novel and Character",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1695",
+      "origin": "expansion_batch",
+      "batch": 50,
+      "category": "English Literature",
+      "q": "“Doctor Faustus” is a play traditionally attributed to which dramatist?",
+      "o": [
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "John Webster",
+        "Thomas Kyd"
+      ],
+      "a": 0,
+      "e": "Christopher Marlowe wrote the tragedy commonly known as “Doctor Faustus”.",
+      "source": "English Literature — Elizabethan Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1723",
+      "origin": "expansion_batch",
+      "batch": 51,
+      "category": "English Literature",
+      "q": "‘Paradise Lost’ is primarily written in which poetic form?",
+      "o": [
+        "Heroic couplets",
+        "Blank verse",
+        "Free verse",
+        "Spenserian stanza"
+      ],
+      "a": 1,
+      "e": "John Milton composed Paradise Lost in unrhymed iambic pentameter, known as blank verse.",
+      "source": "English Literature — Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1725",
+      "origin": "expansion_batch",
+      "batch": 51,
+      "category": "English Literature",
+      "q": "Who is the author of ‘A Tale of Two Cities’?",
+      "o": [
+        "Thomas Hardy",
+        "Charles Dickens",
+        "William Thackeray",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Charles Dickens published A Tale of Two Cities in 1859.",
+      "source": "English Literature — Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1753",
+      "origin": "expansion_batch",
+      "batch": 52,
+      "category": "English Literature",
+      "q": "In Shakespeare’s ‘Macbeth’, who is the king of Scotland at the beginning of the play?",
+      "o": [
+        "Macbeth",
+        "Duncan",
+        "Malcolm",
+        "Banquo"
+      ],
+      "a": 1,
+      "e": "King Duncan rules Scotland at the beginning of the tragedy.",
+      "source": "English Literature — Shakespearean Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1754",
+      "origin": "expansion_batch",
+      "batch": 52,
+      "category": "English Literature",
+      "q": "Which literary movement is most closely associated with William Wordsworth and Samuel Taylor Coleridge?",
+      "o": [
+        "Neoclassicism",
+        "Romanticism",
+        "Modernism",
+        "Naturalism"
+      ],
+      "a": 1,
+      "e": "Wordsworth and Coleridge are central figures of English Romanticism; Lyrical Ballads appeared in 1798.",
+      "source": "English Literature — Literary Movements",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1755",
+      "origin": "expansion_batch",
+      "batch": 52,
+      "category": "English Literature",
+      "q": "Who wrote the dystopian novel ‘Nineteen Eighty-Four’?",
+      "o": [
+        "Aldous Huxley",
+        "George Orwell",
+        "H. G. Wells",
+        "Ray Bradbury"
+      ],
+      "a": 1,
+      "e": "George Orwell’s Nineteen Eighty-Four was published in 1949.",
+      "source": "English Literature — Modern Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1782",
+      "origin": "expansion_batch",
+      "batch": 53,
+      "category": "English Literature",
+      "q": "Who is the narrator of Emily Brontë’s ‘Wuthering Heights’?",
+      "o": [
+        "Heathcliff",
+        "Lockwood",
+        "Edgar Linton",
+        "Hareton Earnshaw"
+      ],
+      "a": 1,
+      "e": "Mr Lockwood is the outer narrator; Nelly Dean narrates much of the central history to him.",
+      "source": "English Literature — Victorian Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1783",
+      "origin": "expansion_batch",
+      "batch": 53,
+      "category": "English Literature",
+      "q": "Which poet wrote ‘Ode to a Nightingale’?",
+      "o": [
+        "William Blake",
+        "John Keats",
+        "Percy Bysshe Shelley",
+        "Lord Byron"
+      ],
+      "a": 1,
+      "e": "‘Ode to a Nightingale’ is one of John Keats’s major odes, written in 1819.",
+      "source": "English Literature — Romantic Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1784",
+      "origin": "expansion_batch",
+      "batch": 53,
+      "category": "English Literature",
+      "q": "In which novel does the character Elizabeth Bennet appear?",
+      "o": [
+        "Jane Eyre",
+        "Pride and Prejudice",
+        "Sense and Sensibility",
+        "Emma"
+      ],
+      "a": 1,
+      "e": "Elizabeth Bennet is the protagonist of Jane Austen’s Pride and Prejudice.",
+      "source": "English Literature — Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_1785",
+      "origin": "expansion_batch",
+      "batch": 53,
+      "category": "English Literature",
+      "q": "Who wrote the play ‘Waiting for Godot’?",
+      "o": [
+        "Harold Pinter",
+        "Samuel Beckett",
+        "Eugène Ionesco",
+        "Tom Stoppard"
+      ],
+      "a": 1,
+      "e": "Samuel Beckett wrote Waiting for Godot, a landmark work of the Theatre of the Absurd.",
+      "source": "English Literature — Modern Drama",
+      "sourceUrl": ""
+    }
+  ]
+}
