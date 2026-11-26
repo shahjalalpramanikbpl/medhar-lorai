@@ -572,3 +572,11 @@
 - কোনো প্রশ্ন সংশোধন বা duplicate অপসারণ করা হয়নি।
 - বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_AUDIT_BATCH_01_10.md` (commit `b1f988598ae732668dcce755ad12971391d297fd`)।
 - **অবস্থা: batch ১–১০ content review complete; consolidated ১–১০ master এখনো তৈরি/LOCK হয়নি।** পরবর্তী ১১–২০ ব্যাচের আগে এই রিপোর্ট ও source snapshot পুনরায় যাচাই করতে হবে।
+
+
+## ২৭ নভেম্বর ২০২৬ — English Literature expansion master ০১–১০
+- `ENGLISH_LITERATURE_MASTER_BATCH_01_10.md` তৈরি ও commit: `dd8b8849735c03c4a54f14643757af1799629f65`।
+- Expansion batch ০১–১০ থেকে English Literature-এর **৩৬টি** রেকর্ড consolidated master-এ একীভূত।
+- ৩৬টির first-pass content review: নিশ্চিত ভুল ০, malformed ০, invalid answer index ০, exact duplicate ০; ৭টি near-repeat pair আলাদা full signature হওয়ায় রাখা হয়েছে।
+- **Scope limitation:** মূল `job-prep-suite.js`-এ আরও **১৩৩টি** pre-existing English Literature Q()-record আছে। এগুলো এই ৩৬-record expansion master-এ অন্তর্ভুক্ত বা বিষয়বস্তু-অডিট করা হয়নি। তাই সম্পূর্ণ English Literature subject LOCK দাবি করা হচ্ছে না।
+- পরবর্তী ধাপ: base bank-এর ১৩৩টি প্রশ্নের সঙ্গে cross-duplicate ও বিষয়বস্তু-পর্যালোচনা; তারপর expansion batch ১১–২০-কে ০১–১০ master-এর সঙ্গে canonical full signature অনুযায়ী তুলনা।
