@@ -339,22 +339,6 @@ const additions = [
     "d": "মাঝারি"
   },
   {
-    "id": "extra_906",
-    "c": "English Literature",
-    "q": "“Ode to a Nightingale” was written by—",
-    "o": [
-      "P. B. Shelley",
-      "John Keats",
-      "William Blake",
-      "Lord Byron"
-    ],
-    "a": 1,
-    "e": "Ode to a Nightingale is a poem by John Keats.",
-    "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
     "id": "extra_907",
     "c": "গণিত",
     "q": "দুটি সংখ্যার অনুপাত ৩:৫ এবং যোগফল ৬৪। ছোট সংখ্যাটি কত?",
