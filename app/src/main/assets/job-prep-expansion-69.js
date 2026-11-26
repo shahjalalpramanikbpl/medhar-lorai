@@ -27,7 +27,7 @@ window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
       "L",
       "M"
     ],
-    "a": 0,
+    "a": 2,
     "e": "ব্যবধান +৩,+৪,+৫,+৬; পরেরটি +৭। E-এর পর সাত ধাপ L? E(5)+7=L(12).",
     "source": "যুক্তি ও বিশ্লেষণ — বর্ণধারা",
     "sourceUrl": "",
