@@ -14,7 +14,7 @@
   "deduplication": "Exact full signature only: normalized category + normalized question + sorted normalized options + normalized correct answer. Similar wording with different option sets retained.",
   "fact_check": {
     "status": "PARTIAL_SOURCE_BASED_REVIEW_COMPLETE",
-    "note": "Source-based content review completed for retained expansion records in batches 01–10 (30), 11–20 (43), 21–30 (23), 31–40 (26), 41–50 (28), and 51–56 (9). The 131 base-bank records remain unverified. Total reviewed: 159/290; 131 remain. The consolidated master must remain provisional and must not be locked until every record is checked."
+    "note": "Source-based content review completed for expansion records in batches 01–56 (159 records) and base-bank records base_001–base_030 (30 records). Total reviewed: 189/290; 101 base-bank records remain unverified. The consolidated master must remain provisional and must not be locked until every record is checked."
   },
   "records": [
     {
@@ -5255,5 +5255,50 @@
     "option_answer_index_mismatches": 0,
     "runtime_content_corrections": 0,
     "note": "All retained English Literature records from expansion batches 41–50 were reviewed for factual accuracy, keyed answers, explanations, and option/answer-index alignment against literary, library, publisher, and institutional sources. No confirmed errors or corrections were required."
+  },
+  "content_review_base_001_030": {
+    "status": "CONTENT_CHECKED",
+    "scope": "Base-bank English Literature records base_001 through base_030; source lines 86–115 in app/src/main/assets/job-prep-suite.js",
+    "checked_records": 30,
+    "confirmed_factual_errors": 0,
+    "incorrect_answer_keys": 0,
+    "explanation_corrections": 0,
+    "option_answer_index_mismatches": 0,
+    "runtime_content_corrections": 0,
+    "runtime_alignment": "All 30 records re-fetched from live runtime source and matched master question, options, answer index, and explanation.",
+    "reviewed_ids": [
+      "base_001",
+      "base_002",
+      "base_003",
+      "base_004",
+      "base_005",
+      "base_006",
+      "base_007",
+      "base_008",
+      "base_009",
+      "base_010",
+      "base_011",
+      "base_012",
+      "base_013",
+      "base_014",
+      "base_015",
+      "base_016",
+      "base_017",
+      "base_018",
+      "base_019",
+      "base_020",
+      "base_021",
+      "base_022",
+      "base_023",
+      "base_024",
+      "base_025",
+      "base_026",
+      "base_027",
+      "base_028",
+      "base_029",
+      "base_030"
+    ],
+    "review_date": "2026-11-27",
+    "overall_subject_status": "PROVISIONAL_NOT_LOCKED"
   }
 }
