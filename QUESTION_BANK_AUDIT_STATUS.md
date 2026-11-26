@@ -627,3 +627,15 @@
 - Runtime cleanup commits: `a5d2bd08320a176621a0a59005e043fd955095ba`, `fa675c8b30e4e67fc60f8096fe8bafe716f7eb7f`, `6f0a889d914c1d7a770a7ba206adedf35cb6d66a`, `4e784f80d7786793d53678205c9d0b2a074a58a7`, `23d991625ac25975f968dfeee41ee028685986f2`, `98e093502e7608daab197847cd02e90f3a5d39de`।
 - রিপোর্ট: `ENGLISH_LITERATURE_AUDIT_BATCH_31_40.md`; Master: `ENGLISH_LITERATURE_MASTER_BATCH_01_40.json`।
 - অবস্থা: **PROVISIONAL / NOT LOCKED** — ২৫৩টি প্রশ্নের তথ্য, সঠিক উত্তর ও ব্যাখ্যার পূর্ণ উৎসভিত্তিক যাচাই বাকি।
+
+
+## English Literature — batches 41–50 checkpoint (2026-11-27)
+- Compared batches 41–50 against the 253-record consolidated 01–40 master.
+- English Literature candidates: **37**; exact duplicate copies removed: **9**; new unique records retained: **28**.
+- Exact duplicates remaining after cleanup: **0**; malformed four-option/answer-index records: **0**.
+- Consolidated 01–50 master: **281 unique records**.
+- Duplicate records removed: `extra_1420`, `extra_1483`, `extra_1484`, `extra_1512`, `extra_1514`, `extra_1544`, `extra_1632`, `extra_1634`, `extra_1694`.
+- Runtime expansion files 41, 43, 44, 45, 48 and 50 were updated; all ten files were re-fetched and re-parsed after cleanup.
+- **Status: PROVISIONAL / NOT LOCKED.** Full item-by-item factual, answer-key and explanation verification remains pending; this checkpoint certifies only full-signature deduplication and structure.
+- Report: `ENGLISH_LITERATURE_AUDIT_BATCH_41_50.md`; master: `ENGLISH_LITERATURE_MASTER_BATCH_01_50.json`.
+- Next: compare batches 51–60 against the 281-record master; do not restart earlier groups.
