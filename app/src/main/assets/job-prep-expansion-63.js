@@ -36,7 +36,7 @@ window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
   {
     "id": "extra_2042",
     "c": "যুক্তি ও বিশ্লেষণ",
-    "q": "যদি ‘SUN’ = ‘TVM’ হয়, প্রতিটি অক্ষর এক ধাপ পরের অক্ষর হলে ‘MOON’ কী হবে?",
+    "q": "যদি ‘SUN’ = ‘TVO’ হয়, প্রতিটি অক্ষর এক ধাপ পরের অক্ষর হলে ‘MOON’ কী হবে?",
     "o": [
       "NPPO",
       "NPPM",
