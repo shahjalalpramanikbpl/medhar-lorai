@@ -298,7 +298,7 @@
       "৮",
       "৯"
     ],
-    "a": 1,
+    "a": 2,
     "e": "২x+৫=২১; সুতরাং ২x=১৬ এবং x=৮।",
     "source": "Algebraic Reasoning",
     "sourceUrl": "",
