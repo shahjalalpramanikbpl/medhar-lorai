@@ -195,21 +195,23 @@ class MainActivity : Activity() {
         val completed = prefs.getInt(key, 0) + 1
         prefs.edit().putInt(key, completed).apply()
 
-        val ad = interstitialAd ?: run {
-            loadInterstitial()
-            return
-        }
-        interstitialAd = null
-        ad.fullScreenContentCallback = object :
-            com.google.android.gms.ads.FullScreenContentCallback() {
-            override fun onAdDismissedFullScreenContent() {
+        runOnUiThread {
+            val ad = interstitialAd ?: run {
                 loadInterstitial()
+                return@runOnUiThread
             }
-            override fun onAdFailedToShowFullScreenContent(error: com.google.android.gms.ads.AdError) {
-                loadInterstitial()
+            interstitialAd = null
+            ad.fullScreenContentCallback = object :
+                com.google.android.gms.ads.FullScreenContentCallback() {
+                override fun onAdDismissedFullScreenContent() {
+                    loadInterstitial()
+                }
+                override fun onAdFailedToShowFullScreenContent(error: com.google.android.gms.ads.AdError) {
+                    loadInterstitial()
+                }
             }
+            ad.show(this)
         }
-        ad.show(this)
     }
 
     private fun showNativeAd() {
