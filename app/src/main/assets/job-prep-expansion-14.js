@@ -49,7 +49,7 @@ const additions=[
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_520",
     "c": "বাংলা ভাষা ও সাহিত্য",
     "q": "‘কপালকুণ্ডলা’ উপন্যাসের লেখক কে?",
@@ -444,7 +444,7 @@ const additions=[
       "Thomas Malory"
     ],
     "a": 0,
-    "e": "Geoffrey Chaucer wrote The Canterbury Tales; however, a question with this wording already exists in the bank.",
+    "e": "Geoffrey Chaucer wrote The Canterbury Tales in Middle English; the work is a collection of tales told by pilgrims.",
     "source": "Medieval literature",
     "sourceUrl": "",
     "d": ""
