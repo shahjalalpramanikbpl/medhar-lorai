@@ -737,3 +737,12 @@
 - Cumulative review: expansion 01–56-এর **১৫৯** + base-bank 001–090-এর **৯০** = **২৪৯/২৯০**; বাকি **৪১টি** base-bank প্রশ্ন।
 - বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BASE_061_090.md`; consolidated master metadata updated.
 - **English Literature overall: PROVISIONAL / NOT LOCKED** — শেষ ৪১টি প্রশ্ন যাচাই না হওয়া পর্যন্ত LOCK নয়।
+
+
+## English Literature — final base-bank source-based content review 091–131 (2026-11-27)
+- শেষ **৪১টি** base-bank প্রশ্ন (base_091–base_131) তথ্য, উত্তর, ব্যাখ্যা, অপশন ও answer-index alignment-সহ যাচাই করা হয়েছে।
+- Runtime `job-prep-suite.js`-এর source lines 1264–1305 থেকে সব ৪১টি প্রশ্ন পুনরায় fetch করে master-এর সঙ্গে মিলিয়ে দেখা হয়েছে; **৪১/৪১** record মিলে গেছে।
+- নিশ্চিত factual error: **০**; ভুল answer key: **০**; explanation correction: **০**; option/answer-index mismatch: **০**; runtime correction: **০**।
+- Cumulative source-based review: expansion batches 01–56-এর **১৫৯** + base-bank-এর **১৩১** = **২৯০/২৯০**।
+- বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BASE_091_131.md`; consolidated master metadata updated.
+- সব ২৯০টি প্রশ্নের content review সম্পন্ন। **LOCK দেওয়ার আগে** final consolidated master/runtime consistency, exact-duplicate ও structural validation বাকি; তাই এখনই LOCKED বলা হচ্ছে না।
