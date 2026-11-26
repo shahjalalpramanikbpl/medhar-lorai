@@ -369,22 +369,6 @@
     "d": ""
   },
   {
-    "id": "extra_274",
-    "c": "English Literature",
-    "q": "Who wrote “The Old Man and the Sea”?",
-    "o": [
-      "William Faulkner",
-      "Ernest Hemingway",
-      "John Steinbeck",
-      "F. Scott Fitzgerald"
-    ],
-    "a": 1,
-    "e": "Ernest Hemingway wrote the novella “The Old Man and the Sea”, published in 1952.",
-    "source": "English Literature",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
     "id": "extra_275",
     "c": "English Literature",
     "q": "“The Rime of the Ancient Mariner” is a poem by whom?",
