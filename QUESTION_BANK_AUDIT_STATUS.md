@@ -607,3 +607,13 @@
 - Master: `ENGLISH_LITERATURE_MASTER_BATCH_01_20.json` (commit `83eee170e0e407115273e38740ee5ca06d464495`)।
 - রিপোর্ট: `ENGLISH_LITERATURE_AUDIT_CONSOLIDATED_01_20.md` (commit `dcafd7a879b105b10aea0af661810e8ef21f9e5c`)।
 - **PROVISIONAL_MASTER_NOT_LOCKED:** পূর্ণ ২০৪ প্রশ্নের প্রতিটি তথ্য/ব্যাখ্যার উৎসভিত্তিক যাচাই এখনো শেষ হয়নি। ২১–৩০-এর আগে fact-check ও পরবর্তী গ্রুপের তুলনা বাকি।
+
+
+## English Literature — batches 21–30 checkpoint (2026-11-27)
+- ২১–২২ ব্যাচে English Literature প্রশ্ন নেই। ২৩–৩০ ব্যাচে মোট ২৯টি প্রার্থী এন্ট্রি পাওয়া গেছে।
+- ২০৪-প্রশ্নের ০১–২০ Master-এর সঙ্গে full-signature তুলনায় ৬টি exact duplicate বাদ: `extra_906`, `extra_964`, `extra_966`, `extra_1019`, `extra_1020`, `extra_1065`।
+- ২১–৩০ গ্রুপের ভেতরে exact duplicate: ০। কাঠামোগতভাবে চারটি অপশন ও বৈধ answer index: সব ২৯টি এন্ট্রিতে ঠিক।
+- নতুন স্বতন্ত্র প্রশ্ন: ২৩টি। ০১–৩০ provisional consolidated master: **২২৭টি**।
+- Runtime cleanup commits: `70decbf60cdaa12ecb17a7eb943ecf66193c0e15`, `450cdcafa3c2e57009e6bb7aa275f5236792f5a9`, `fdf62917d27e0ca43d0e0fe48aa1aa7efaf4c52c`, `7611809ef1049393f54606c8e57b43fbb17b3e8c`।
+- রিপোর্ট: `ENGLISH_LITERATURE_AUDIT_BATCH_21_30.md`; মাস্টার: `ENGLISH_LITERATURE_MASTER_BATCH_01_30.json`।
+- অবস্থা: **PROVISIONAL / NOT LOCKED** — সব ২২৭টি প্রশ্নের তথ্য, সঠিক উত্তর ও ব্যাখ্যার পূর্ণ উৎসভিত্তিক যাচাই এখনো বাকি।
