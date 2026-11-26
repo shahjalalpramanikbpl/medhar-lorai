@@ -860,7 +860,8 @@
 - ব্যাচ ১৮-এর `extra_680`-এ ভুল answer index ২ থেকে ১ করা হয়েছে; সঠিক উত্তর ১২।
 - প্রতিটি ১০-ব্যাচ checkpoint-এ আগের consolidated master-এর সঙ্গে exact duplicate signature scan: ০; checkpoint-গুলোর মধ্যে exact duplicate পাওয়া যায়নি।
 - প্রথম master-এর ১৯২ record (৯৪ IQ + ৯৮ quantitative) সহ consolidated reviewed record ৩০২।
-- আগের runtime validator note-এ ২১৩ IQ + ৯৮ quantitative = ৩১১ বলা হয়েছিল; বর্তমান source/master reconciliation-এ ৩০২ পাওয়া যাচ্ছে। ৯টি record-এর পার্থক্য এখনো অমীমাংসিত।
-- **Mental Ability & IQ LOCKED নয়।** ৯টি record-এর উৎস ও runtime count মিলিয়ে final duplicate scan/validator reconciliation না হওয়া পর্যন্ত runtime migration final করা হবে না।
+- আগের runtime validator note-এ ২১৩ IQ + ১১৯ pending বলা হয়েছিল; সেটি stale expectation ছিল। Source inventory: ১৫০ base + ৪২ initial unique expansion + ১১০ later expansion = ৩০২ unique record। Validator এখন initial migration-এর পর ২০৪ IQ (৯৪ reviewed + ১১০ later expansion) প্রত্যাশা করে।
+- Later expansion থেকে আরও ৪৭টি quantitative candidate final runtime migration-এ যুক্ত হবে; final target হবে ১৪৫ quantitative practice + ১৫৭ IQ।
+- **Mental Ability & IQ LOCKED নয়।** ৪৭টি quantitative candidate runtime-এ স্থানান্তর, final exact-duplicate/answer validation এবং validator pass বাকি।
 - Version 3.3 অপরিবর্তিত; Build চালানো হয়নি।
 - Checkpoint reports: `MENTAL_ABILITY_IQ_BATCH_11_20_PROGRESS.md`, `_21_30_PROGRESS.md`, `_31_40_PROGRESS.md`, `_41_50_PROGRESS.md`, `_51_56_PROGRESS.md`.
