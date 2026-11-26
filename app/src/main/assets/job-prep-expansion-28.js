@@ -626,38 +626,6 @@ const additions=[
     "d": "মাঝারি"
   },
   {
-    "id": "extra_1019",
-    "c": "English Literature",
-    "q": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
-    "o": [
-      "Macbeth",
-      "Hamlet",
-      "Othello",
-      "King Lear"
-    ],
-    "a": 1,
-    "e": "Rosencrantz and Guildenstern appear in Shakespeare's 'Hamlet'.",
-    "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
-    "id": "extra_1020",
-    "c": "English Literature",
-    "q": "Who wrote 'Gulliver's Travels'?",
-    "o": [
-      "Daniel Defoe",
-      "Jonathan Swift",
-      "Henry Fielding",
-      "Samuel Richardson"
-    ],
-    "a": 1,
-    "e": "'Gulliver's Travels' was written by Jonathan Swift.",
-    "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
     "id": "extra_1021",
     "c": "English Literature",
     "q": "'Pride and Prejudice' was first published in which year?",
