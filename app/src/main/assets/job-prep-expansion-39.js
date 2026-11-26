@@ -291,21 +291,7 @@ const additions=[
     "source": "English Literature — Novel",
     "d": "সহজ"
   },
-  {
-    "id": "extra_1362",
-    "c": "English Literature",
-    "q": "'Ode to a Nightingale' is a poem by whom?",
-    "o": [
-      "William Wordsworth",
-      "John Keats",
-      "Lord Byron",
-      "Percy Bysshe Shelley"
-    ],
-    "a": 1,
-    "e": "'Ode to a Nightingale' is one of John Keats's best-known odes, written in 1819.",
-    "source": "English Literature — Romantic Poetry",
-    "d": "সহজ"
-  },
+  
   {
     "id": "extra_1363",
     "c": "গণিত",
