@@ -845,3 +845,10 @@
 - নতুন বিভাগে ১০টি করে প্রশ্নের ধারাবাহিক লেভেল হবে; ৯৮ প্রশ্নে ৯টি পূর্ণ লেভেল ও শেষ লেভেলে ৮টি প্রশ্ন।
 - Runtime পরিবর্তন commits: `68d77f6`, `8f0c8c7`।
 - **এখনো LOCK নয়:** GitHub Actions-এ বাস্তব runtime count (৯৮/৯৪), malformed/duplicate validation, regression এবং release build সফলভাবে যাচাই হওয়ার পরই IQ বিভাগ চূড়ান্ত LOCK করা হবে।
+
+
+### Runtime count reconciliation (27-11-2026)
+- CI found that the full loaded IQ runtime bank includes later expansion batches beyond the first audited 10-batch group. Therefore the total live IQ pool was 311, not 192.
+- Exactly 98 individually reviewed quantitative questions are now reclassified into **পরিমাণগত দক্ষতা অনুশীলন**.
+- IQ runtime retains **213**: 94 reviewed IQ questions from this checkpoint + 119 questions from later batches that remain untouched and pending their own 10-batch audit.
+- This avoids silently dropping later-batch questions or falsely reporting them as audited. The first 10-batch classification is migrated; the subject is **not LOCKED** until the later batches are audited and final count is reconciled.
