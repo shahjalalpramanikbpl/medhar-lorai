@@ -852,3 +852,15 @@
 - Exactly 98 individually reviewed quantitative questions are now reclassified into **পরিমাণগত দক্ষতা অনুশীলন**.
 - IQ runtime retains **213**: 94 reviewed IQ questions from this checkpoint + 119 questions from later batches that remain untouched and pending their own 10-batch audit.
 - This avoids silently dropping later-batch questions or falsely reporting them as audited. The first 10-batch classification is migrated; the subject is **not LOCKED** until the later batches are audited and final count is reconciled.
+
+
+## Mental Ability & IQ — ২৭ নভেম্বর ২০২৬ আপডেট
+- ১০-ব্যাচ checkpoint পদ্ধতিতে expansion batch ১১–২০: ৪৭টি, ২১–৩০: ২৭টি, ৩১–৪০: ১৮টি, ৪১–৫০: ১৪টি, ৫১–৫৬: ৪টি — মোট ১১০টি later expansion প্রশ্ন একবার করে যাচাই করা হয়েছে।
+- এই ১১০টির মধ্যে ৪৭টি quantitative aptitude হিসেবে শ্রেণিবদ্ধ; ৬৩টি IQ/যুক্তি হিসেবে রাখা হয়েছে।
+- ব্যাচ ১৮-এর `extra_680`-এ ভুল answer index ২ থেকে ১ করা হয়েছে; সঠিক উত্তর ১২।
+- প্রতিটি ১০-ব্যাচ checkpoint-এ আগের consolidated master-এর সঙ্গে exact duplicate signature scan: ০; checkpoint-গুলোর মধ্যে exact duplicate পাওয়া যায়নি।
+- প্রথম master-এর ১৯২ record (৯৪ IQ + ৯৮ quantitative) সহ consolidated reviewed record ৩০২।
+- আগের runtime validator note-এ ২১৩ IQ + ৯৮ quantitative = ৩১১ বলা হয়েছিল; বর্তমান source/master reconciliation-এ ৩০২ পাওয়া যাচ্ছে। ৯টি record-এর পার্থক্য এখনো অমীমাংসিত।
+- **Mental Ability & IQ LOCKED নয়।** ৯টি record-এর উৎস ও runtime count মিলিয়ে final duplicate scan/validator reconciliation না হওয়া পর্যন্ত runtime migration final করা হবে না।
+- Version 3.3 অপরিবর্তিত; Build চালানো হয়নি।
+- Checkpoint reports: `MENTAL_ABILITY_IQ_BATCH_11_20_PROGRESS.md`, `_21_30_PROGRESS.md`, `_31_40_PROGRESS.md`, `_41_50_PROGRESS.md`, `_51_56_PROGRESS.md`.
