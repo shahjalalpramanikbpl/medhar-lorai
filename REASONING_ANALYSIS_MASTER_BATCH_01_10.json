@@ -1,15 +1,15 @@
 {
   "schema": "medhar-lorai.reasoning-analysis-audit.v1",
   "createdAt": "2026-11-27",
-  "status": "BATCH_01_10_REVIEWED_PENDING_LATER_EXPANSION_BATCHES",
+  "status": "REVALIDATION_IN_PROGRESS_NOT_LOCKED",
   "inventory": {
     "baseUniqueAfterDuplicateRemoval": 142,
     "expansion01_10CandidatesReviewed": 44,
     "expansion01_10UniqueAfterDuplicateRemoval": 40,
-    "uniqueRecords": 182,
-    "quantitativeCandidates": 30,
-    "retainedReasoning": 152,
-    "exactDuplicateCopiesRemoved": 13
+    "uniqueRecords": 291,
+    "quantitativeCandidates": 44,
+    "retainedReasoning": 247,
+    "exactDuplicateCopiesRemoved": 16
   },
   "duplicateRemovals": [
     {
@@ -4995,6 +4995,348 @@
       "answer": "DQQM",
       "explanation": "B→D, O→Q, O→Q, K→M; তাই BOOK-এর কোড DQQM।",
       "classificationReason": "logical / analytical / spatial / relational reasoning"
+    },
+    {
+      "id": "extra_1414",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-41.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "পাঁচজন P, Q, R, S ও T এক সারিতে দাঁড়িয়েছে। P, Q-এর আগে; Q, R-এর আগে; S, R-এর পরে; T, P-এর আগে। কে সবার আগে?",
+      "options": [
+        "P",
+        "Q",
+        "S",
+        "T"
+      ],
+      "answerIndex": 3,
+      "answer": "T",
+      "explanation": "T আগে P, P আগে Q, Q আগে R এবং R আগে S; তাই ক্রম T-P-Q-R-S।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1415",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-41.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বিবৃতি: সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব চিকিৎসক লেখক",
+        "কিছু চিকিৎসক লেখক",
+        "সব লেখক চিকিৎসক",
+        "সব চিকিৎসক শিক্ষিত"
+      ],
+      "answerIndex": 3,
+      "answer": "সব চিকিৎসক শিক্ষিত",
+      "explanation": "প্রথম বিবৃতিতে সরাসরি বলা হয়েছে সব চিকিৎসক শিক্ষিত; অন্য কোনো সম্পর্ক নিশ্চিত নয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1416",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-41.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পণ্যের দাম প্রথমে ১০% বাড়ানো হলো, পরে নতুন দামের ওপর ১০% কমানো হলো। মোট পরিবর্তন কত?",
+      "options": [
+        "কোনো পরিবর্তন নেই",
+        "১% বৃদ্ধি",
+        "১% হ্রাস",
+        "২% হ্রাস"
+      ],
+      "answerIndex": 2,
+      "answer": "১% হ্রাস",
+      "explanation": "মূল দাম ১০০ হলে বৃদ্ধি শেষে ১১০; এরপর ১০% কমে ৯৯। অর্থাৎ ১% হ্রাস।",
+      "classificationReason": "percentage quantitative aptitude"
+    },
+    {
+      "id": "extra_1447",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-42.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "মিতা রিনার বোন। রিনা করিমের মা। করিমের সঙ্গে মিতার সম্পর্ক কী?",
+      "options": [
+        "মা",
+        "খালা",
+        "বোন",
+        "দাদি"
+      ],
+      "answerIndex": 1,
+      "answer": "খালা",
+      "explanation": "রিনা করিমের মা এবং মিতা রিনার বোন; তাই মিতা করিমের খালা।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1476",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-43.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। কোনো ফুল ধাতু নয়। নিচের কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "কিছু গোলাপ ধাতু",
+        "কোনো গোলাপ ধাতু নয়",
+        "সব ধাতু গোলাপ",
+        "কিছু ফুল ধাতু"
+      ],
+      "answerIndex": 1,
+      "answer": "কোনো গোলাপ ধাতু নয়",
+      "explanation": "সব গোলাপ ফুল এবং কোনো ফুল ধাতু নয়; তাই কোনো গোলাপ ধাতু হতে পারে না।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1477",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-43.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সভায় প্রত্যেকে অন্য প্রত্যেকের সঙ্গে একবার করে করমর্দন করল। ৬ জনের ক্ষেত্রে মোট করমর্দন কতটি?",
+      "options": [
+        "১২",
+        "১৫",
+        "১৮",
+        "৩০"
+      ],
+      "answerIndex": 1,
+      "answer": "১৫",
+      "explanation": "মোট করমর্দন = ৬×৫÷২ = ১৫।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1507",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-44.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। এ থেকে কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "সব চিকিৎসক শিক্ষিত",
+        "কিছু লেখক চিকিৎসক",
+        "সব লেখক শিক্ষিত",
+        "কোনো চিকিৎসক লেখক নন"
+      ],
+      "answerIndex": 0,
+      "answer": "সব চিকিৎসক শিক্ষিত",
+      "explanation": "প্রদত্ত প্রথম বক্তব্যে সরাসরি বলা হয়েছে, সব চিকিৎসক শিক্ষিত। অন্য বক্তব্য থেকে চিকিৎসক ও লেখকের মধ্যে সম্পর্ক নিশ্চিত করা যায় না।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1508",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-44.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে CAT লেখা হয় DBU। একই নিয়মে DOG কীভাবে লেখা হবে?",
+      "options": [
+        "EPH",
+        "EOG",
+        "FPH",
+        "DPH"
+      ],
+      "answerIndex": 0,
+      "answer": "EPH",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসানো হয়েছে: D→E, O→P, G→H।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1537",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-45.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রহিম করিমের চেয়ে লম্বা, করিম সালামের চেয়ে লম্বা। সবচেয়ে খাটো কে?",
+      "options": [
+        "রহিম",
+        "করিম",
+        "সালাম",
+        "নির্ণয় করা যায় না"
+      ],
+      "answerIndex": 2,
+      "answer": "সালাম",
+      "explanation": "রহিম > করিম > সালাম; তাই সালাম সবচেয়ে খাটো।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1538",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-45.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি A=1, B=2, ... Z=26 হয়, তবে BAD শব্দের অক্ষরগুলোর মানের যোগফল কত?",
+      "options": [
+        "৬",
+        "৭",
+        "৮",
+        "৯"
+      ],
+      "answerIndex": 1,
+      "answer": "৭",
+      "explanation": "B=2, A=1, D=4; যোগফল ২+১+৪=৭।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1567",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-46.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: কিছু বই পুরোনো। সব পুরোনো জিনিস মূল্যবান। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব বই মূল্যবান",
+        "কিছু বই মূল্যবান",
+        "কোনো বই মূল্যবান নয়",
+        "সব মূল্যবান জিনিস বই"
+      ],
+      "answerIndex": 1,
+      "answer": "কিছু বই মূল্যবান",
+      "explanation": "যে কিছু বই পুরোনো, সেগুলো প্রদত্ত নিয়মে মূল্যবান; তাই কিছু বই মূল্যবান।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1568",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-46.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "এক ব্যক্তি উত্তর দিকে ৫ কিমি গেলেন, তারপর ডানে ৩ কিমি, আবার ডানে ৫ কিমি গেলেন। শুরুর স্থান থেকে তিনি কোন দিকে আছেন?",
+      "options": [
+        "উত্তরে",
+        "দক্ষিণে",
+        "পূর্বে",
+        "পশ্চিমে"
+      ],
+      "answerIndex": 2,
+      "answer": "পূর্বে",
+      "explanation": "উত্তরে ৫ কিমি ও পরে দক্ষিণে ৫ কিমি চলায় উল্লম্ব সরণ শূন্য; তিনি ৩ কিমি পূর্বে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1597",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-47.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "সব গোলাপ ফুল",
+        "কোনো ফুল দ্রুত ঝরে যায় না"
+      ],
+      "answerIndex": 2,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রথম বক্তব্যে সব গোলাপ ফুল বলা হয়েছে; অন্য বক্তব্য থেকে গোলাপ সম্পর্কে নির্দিষ্ট সিদ্ধান্ত আসে না।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1627",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-48.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রহিম করিমের চেয়ে লম্বা, আর করিম সালামের চেয়ে লম্বা। সবচেয়ে খাটো কে?",
+      "options": [
+        "রহিম",
+        "করিম",
+        "সালাম",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answerIndex": 2,
+      "answer": "সালাম",
+      "explanation": "রহিম > করিম > সালাম; তাই সালাম সবচেয়ে খাটো।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1628",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-48.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "সব ফুল গোলাপ",
+        "সব গোলাপ ফুল"
+      ],
+      "answerIndex": 3,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রথম বক্তব্যে সব গোলাপ ফুল বলা হয়েছে; অন্য কোনো সিদ্ধান্ত নিশ্চিতভাবে পাওয়া যায় না।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1657",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-49.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: সব A হলো B; কোনো B হলো C নয়। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "কোনো A হলো C নয়",
+        "সব C হলো A",
+        "কিছু A হলো C",
+        "সব B হলো A"
+      ],
+      "answerIndex": 0,
+      "answer": "কোনো A হলো C নয়",
+      "explanation": "A-এর সব সদস্য B-এর অন্তর্ভুক্ত এবং B ও C বিচ্ছিন্ন; তাই A ও C-ও বিচ্ছিন্ন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1658",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-49.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "পাঁচজন P, Q, R, S, T সারিতে দাঁড়িয়েছে। P, Q-এর আগে; R, Q-এর পরে; S, P-এর আগে। নিশ্চিতভাবে কোনটি সত্য?",
+      "options": [
+        "R সবার আগে",
+        "S, Q-এর আগে",
+        "T সবার শেষে",
+        "Q, S-এর আগে"
+      ],
+      "answerIndex": 1,
+      "answer": "S, Q-এর আগে",
+      "explanation": "S আগে P, এবং P আগে Q; তাই S অবশ্যই Q-এর আগে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1687",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-50.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: কিছু শিক্ষক লেখক। সব লেখক পাঠক। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব শিক্ষক পাঠক",
+        "কিছু শিক্ষক পাঠক",
+        "কোনো শিক্ষক পাঠক নয়",
+        "সব পাঠক শিক্ষক"
+      ],
+      "answerIndex": 1,
+      "answer": "কিছু শিক্ষক পাঠক",
+      "explanation": "যে কিছু শিক্ষক লেখক, তারা সবাই পাঠক; তাই কিছু শিক্ষক পাঠক—এ সিদ্ধান্ত নিশ্চিত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
+    },
+    {
+      "id": "extra_1688",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-50.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি দলে ৪ জন সদস্য। প্রত্যেকে অন্য প্রত্যেকের সঙ্গে ঠিক একবার করমর্দন করলে মোট করমর্দন কতটি হবে?",
+      "options": [
+        "৪",
+        "৫",
+        "৬",
+        "৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৬",
+      "explanation": "মোট করমর্দন = ৪×৩÷২ = ৬; প্রতিটি জোড়া একবার গণনা করা হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / direction / relational reasoning"
     }
   ],
   "laterBatchAudits": [
@@ -5062,6 +5404,25 @@
       "retainedReasoningCandidates": 21,
       "corrections": [],
       "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING"
+    },
+    {
+      "range": "41-50",
+      "candidateCount": 19,
+      "reviewedCount": 19,
+      "exactDuplicateMatchesAgainstConsolidated01_40": 0,
+      "exactDuplicateMatchesWithinCheckpoint": 0,
+      "duplicateRemovals": [],
+      "quantitativeAptitudeCandidates": 1,
+      "retainedReasoningCandidates": 18,
+      "corrections": [
+        {
+          "id": "extra_1416",
+          "change": "targetCategory reclassified from যুক্তি ও বিশ্লেষণ to পরিমাণগত দক্ষতা অনুশীলন",
+          "reason": "successive percentage increase/decrease is quantitative aptitude, not analytical reasoning"
+        }
+      ],
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING",
+      "nextRange": "51-60"
     }
   ]
 }
