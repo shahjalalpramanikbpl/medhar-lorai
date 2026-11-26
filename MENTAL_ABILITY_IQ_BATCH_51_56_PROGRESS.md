@@ -13,11 +13,11 @@
 
 ## চূড়ান্ত master reconciliation
 - ব্যাচ ০১–১০ master: ১৯২টি unique record (৯৪ IQ + ৯৮ quantitative classification)।
-- ব্যাচ ১১–৫৬: ১১০টি প্রশ্ন; সবগুলো একবার অডিট করা হয়েছে (৬৩ IQ + ৪৭ quantitative classification)।
-- মোট consolidated unique record: ৩০২।
-- পূর্বের validator-এ ২১৩ IQ + ১১৯ pending বলা হয়েছিল; সেটি stale count ছিল। ১৫০ base + ৪২ initial unique expansion + ১১০ later expansion = ৩০২। validator-এ ২০৪ IQ (৯৪ reviewed + ১১০ later expansion) প্রত্যাশা করে সংশোধন করা হয়েছে।
-- সব later checkpoint আগের consolidated master-এর সঙ্গে exact duplicate scan-এ ০ match পেয়েছে। প্রথম ০১–১০ checkpoint-এ আগেই ২টি exact duplicate বাদ দেওয়া হয়েছিল।
-- অতিরিক্ত ৪৭টি quantitative candidate final classification/runtime migration-এর পর quantitative practice-এ যাবে; ৬৩টি IQ record থাকবে।
+- ব্যাচ ১১–৫৬: ১১০টি candidate প্রশ্ন একবার অডিট; ১টি exact duplicate (`extra_680`) পূর্বের quantitative practice প্রশ্নের একই প্রশ্ন ও একই option set হওয়ায় বাদ। ফলে ১০৯টি unique later record (৬৩ IQ + ৪৬ quantitative)।
+- প্রথম master: ১৯২টি unique record (৯৪ IQ + ৯৮ quantitative); মোট consolidated unique record: ৩০১।
+- আগের validator-এর ২১৩ IQ + ১১৯ pending count stale ছিল। ১৫০ base + ৪২ initial unique expansion + ১০৯ unique later expansion = ৩০১। validator-এ ২০৩ IQ (৯৪ reviewed + ১০৯ unique later record) প্রত্যাশা করে সংশোধন করা হয়েছে।
+- Later checkpoint-এর exact duplicate scan-এ ১টি duplicate পাওয়া গেছে (extra_680); অন্য checkpoint-এ আর কোনো exact duplicate নেই। প্রথম ০১–১০ checkpoint-এর ২টি duplicate আগেই বাদ দেওয়া হয়েছিল।
+- অতিরিক্ত ৪৬টি unique quantitative candidate final classification/runtime migration-এর পর quantitative practice-এ যাবে; ৬৩টি IQ record থাকবে।
 
 ## সিদ্ধান্ত
-সব expansion checkpoint-এর content review শেষ। **Mental Ability & IQ এখনো NOT LOCKED**; পরবর্তী কাজ হলো ৪৭টি নতুন quantitative classification runtime-এ যুক্ত করা, final exact-duplicate/answer validation চালানো এবং validator ফল মিলিয়ে তারপর LOCK করা।
+সব expansion checkpoint-এর content review শেষ। **Mental Ability & IQ এখনো NOT LOCKED**; পরবর্তী কাজ হলো ৪৬টি নতুন quantitative classification runtime-এ যুক্ত করা, final exact-duplicate/answer validation চালানো এবং validator ফল মিলিয়ে তারপর LOCK করা।
