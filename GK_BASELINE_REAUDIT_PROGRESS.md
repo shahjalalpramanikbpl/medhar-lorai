@@ -2,24 +2,25 @@
 
 তারিখ: ২৭ নভেম্বর ২০২৬
 
-## পরিধি ও সংরক্ষিত পূর্ববর্তী কাজ
-- মূল runtime ফাইল: `app/src/main/assets/job-prep-suite.js` (GitHub blob SHA: `58bdc38a9da67ca6d86d1b56d8addaf95ccf50f5`)।
-- মূল ফাইলে সাধারণ জ্ঞানের category call: ১৩২টি; স্বয়ংক্রিয় parser-এ 132টি entry সম্পূর্ণ parse হয়েছে।
-- আগের সম্প্রসারণ মাস্টার `GK_AUDIT_MASTER_01_56.json`: 110টি প্রশ্ন, অপরিবর্তিত; blob SHA `b76c8c49ca81675d371ff61dcc06973f86669fe8`।
+## পরিধি
+- মূল runtime ফাইল: `app/src/main/assets/job-prep-suite.js`; সংশোধনের পর blob SHA: `b75056e6e03bc7e18f98625791c7b1c82e569b9f`।
+- আগের সম্প্রসারণ মাস্টার `GK_AUDIT_MASTER_01_56.json`: ১১০টি প্রশ্ন, অপরিবর্তিত ও LOCKED; blob SHA: `b76c8c49ca81675d371ff61dcc06973f86669fe8`।
 
-## প্রাথমিক structural/dedup scan (এটি পূর্ণ factual audit নয়)
-- স্বয়ংক্রিয়ভাবে parse করা মূল প্রশ্ন: 132টি।
-- parse করা প্রশ্নের মধ্যে ৪টি option ও valid answer index: 124টি।
-- option parse/structure-এ manual inspection প্রয়োজন: 8টি; এগুলোকে ভুল প্রশ্ন হিসেবে গণ্য করা হয়নি।
-- মূল ব্যাংকের parsed অংশে exact duplicate: 0টি।
-- সম্প্রসারণ মাস্টারের সঙ্গে exact-signature match: 6টি candidate; delete করার আগে manual verification আবশ্যক।
-- ১১০টি expansion প্রশ্নের মধ্যে sourceUrl ফাঁকা: 41টি; আগের LOCKED report-এ সীমাবদ্ধতা নথিভুক্ত।
+## সম্পন্ন কাজ
+1. মূল runtime-এ থাকা ১৩২টি GK call ও ১১০টি expansion master তুলনা করা হয়েছে।
+2. একই প্রশ্ন, একই option set এবং একই সঠিক উত্তর মিলে যাওয়া ৬টি অতিরিক্ত কপি পাওয়া গেছে। সেগুলো মূল runtime থেকে বাদ দেওয়া হয়েছে; canonical expansion master-এর কপিগুলো অক্ষত।
+3. বাদ দেওয়া প্রশ্নের পর মূল runtime-এ ১২৬টি GK প্রশ্ন রয়েছে।
+4. সংশোধিত ফাইল পুনরায় GitHub থেকে fetch করে যাচাই: ১২৬/১২৬ parse হয়েছে; ৪টি করে option, বৈধ answer index ও explanation উপস্থিত; structural error ০; মূল ব্যাংকের ভেতরে exact duplicate ০।
+5. ৬টি বাদ দেওয়া কপি: SAARC সদর দপ্তর, জাতীয় স্মৃতিসৌধের স্থপতি, WHO সদর দপ্তর, EU মুদ্রা, ICJ অবস্থান, বাংলাদেশের প্রথম নারী স্পিকার।
 
-## বর্তমান অবস্থা
-**IN PROGRESS — NOT LOCKED.** এখনো ১৩২টি মূল প্রশ্নের প্রতিটির তথ্য, option, answer, explanation এবং expansion master-এর সঙ্গে final comparison সম্পন্ন হয়নি। কোনো প্রশ্ন মুছে ফেলা হয়নি; locked expansion master-ও পরিবর্তন করা হয়নি।
+## সীমাবদ্ধতা ও পরবর্তী যাচাই
+- এই ধাপটি structure ও exact-duplicate cleanup; ১২৬টি প্রশ্নের সব তথ্য, তারিখ, উত্তর ও ব্যাখ্যার পূর্ণ fact-check এখনো শেষ হয়নি।
+- কোনো প্রশ্নকে factual audit-এ PASS বলা হয়নি কেবল structural validation-এর ভিত্তিতে।
+- সম্প্রসারণ মাস্টারের ১১০টি প্রশ্নে ৪১টির direct sourceUrl ফাঁকা; এই source documentation ঘাটতি আলাদা করে পূরণ করতে হবে।
 
-## পরবর্তী কাজ
-1. ১৩২টি source call-এর পূর্ণ parse ও structural validation।
-2. candidate duplicate-গুলো প্রশ্ন/option/answer মিলিয়ে যাচাই।
-3. প্রতিটি প্রশ্নের factual accuracy ও explanation যাচাই; correction source-সহ নথিভুক্ত।
-4. reconciled master ও audit status commit করে পুনরায় fetch verification।
+## অবস্থা
+**IN PROGRESS — NOT LOCKED.** ১১০টি expansion master আগের মতো LOCKED; মূল runtime-এর ১২৬টি GK প্রশ্নের factual audit বাকি।
+
+## GitHub পরিবর্তন
+- Runtime cleanup commit: `820e3812fd1d71af3ae0b5da7485451eda446664`।
+- এই progress report সর্বশেষ fetch করা runtime ফলাফলের সঙ্গে মিলিয়ে হালনাগাদ।
