@@ -39,6 +39,9 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+}
+
+dependencies {
     implementation("com.google.android.gms:play-services-ads:24.9.0")
 }
 
@@ -53,7 +56,7 @@ val generateAppVersionAsset by tasks.registering {
     doLast {
         val target = outputFile.get().asFile
         target.parentFile.mkdirs()
-        target.writeText("window.ML_APP_VERSION = '${releaseName}';\n")
+        target.writeText("window.ML_APP_VERSION = '${releaseName}';\\n")
     }
 }
 tasks.named("preBuild").configure {
