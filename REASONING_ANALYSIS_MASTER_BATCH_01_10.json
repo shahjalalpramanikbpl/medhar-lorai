@@ -4545,6 +4545,312 @@
       "answer": "৭৫°",
       "explanation": "মিনিটের কাঁটা ১৮০° এবং ঘণ্টার কাঁটা ১০৫° অবস্থানে; পার্থক্য ৭৫°।",
       "classificationReason": "logical / analytical / series / coding / family / spatial reasoning"
+    },
+    {
+      "id": "extra_1149",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-32.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। এ থেকে কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "সব দ্রুত ঝরে যাওয়া বস্তু ফুল",
+        "সব গোলাপ ফুল"
+      ],
+      "answerIndex": 3,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রথম বক্তব্য অনুযায়ী সব গোলাপই ফুল; অন্য বক্তব্য থেকে গোলাপ সম্পর্কে অতিরিক্ত সিদ্ধান্ত নিশ্চিত নয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1152",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-32.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পণ্যের দাম ২০% বাড়িয়ে পরে ২০% কমানো হলো। প্রাথমিক দামের তুলনায় চূড়ান্ত দাম কী?",
+      "options": [
+        "সমান",
+        "৪% কম",
+        "৪% বেশি",
+        "৮% কম"
+      ],
+      "answerIndex": 1,
+      "answer": "৪% কম",
+      "explanation": "ধরা যাক প্রাথমিক দাম ১০০; ২০% বাড়লে ১২০, পরে ২০% কমলে ৯৬—অর্থাৎ ৪% কম।",
+      "classificationReason": "percentage quantitative aptitude"
+    },
+    {
+      "id": "extra_1153",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-32.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটির পরবর্তী অক্ষর কী: A, C, F, J, O, ...?",
+      "options": [
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "answerIndex": 2,
+      "answer": "U",
+      "explanation": "অক্ষরগুলোর ব্যবধান +২, +৩, +৪, +৫; পরের ব্যবধান +৬। O-এর পর U।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1155",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-32.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: কোনো চিকিৎসক অলস নন। রফিক একজন চিকিৎসক। কোন সিদ্ধান্তটি সঠিক?",
+      "options": [
+        "রফিক অলস",
+        "রফিক অলস নন",
+        "সব অলস ব্যক্তি চিকিৎসক",
+        "রফিক চিকিৎসক নন"
+      ],
+      "answerIndex": 1,
+      "answer": "রফিক অলস নন",
+      "explanation": "চিকিৎসক শ্রেণির কেউ অলস নন এবং রফিক চিকিৎসক; তাই রফিক অলস নন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1240",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-35.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: ‘সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক।’ কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "সব চিকিৎসক লেখক",
+        "কিছু চিকিৎসক লেখক",
+        "কিছু লেখক শিক্ষিত",
+        "কোনো লেখক শিক্ষিত নন"
+      ],
+      "answerIndex": 2,
+      "answer": "কিছু লেখক শিক্ষিত",
+      "explanation": "‘কিছু শিক্ষিত ব্যক্তি লেখক’ বক্তব্যটি সরাসরি সমতুল্যভাবে বলে কিছু লেখক শিক্ষিত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1241",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-35.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি শ্রেণিতে ৬০% শিক্ষার্থী গণিতে এবং ৫০% ইংরেজিতে পাস করেছে। উভয় বিষয়ে পাস করেছে ৩০%। অন্তত একটি বিষয়ে পাস করেছে কত শতাংশ?",
+      "options": [
+        "৭০%",
+        "৮০%",
+        "৯০%",
+        "১০০%"
+      ],
+      "answerIndex": 1,
+      "answer": "৮০%",
+      "explanation": "সমাবেশ সূত্রে: ৬০%+৫০%−৩০% = ৮০%।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1242",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-35.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রুবি উত্তর দিকে ৫ মিটার গেল, ডানে ৩ মিটার গেল, আবার ডানে ৫ মিটার গেল। শুরুস্থান থেকে সে কোন দিকে কত দূরে?",
+      "options": [
+        "৩ মিটার পূর্বে",
+        "৩ মিটার পশ্চিমে",
+        "৫ মিটার উত্তরে",
+        "৫ মিটার দক্ষিণে"
+      ],
+      "answerIndex": 0,
+      "answer": "৩ মিটার পূর্বে",
+      "explanation": "উত্তরে ৫ মিটার ও পরে দক্ষিণে ৫ মিটার চলায় উল্লম্ব সরণ শূন্য; পূর্বে ৩ মিটার সরণ থাকে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1243",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-35.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: P>Q, Q=R এবং R>S। কোনটি অবশ্যই সত্য?",
+      "options": [
+        "P>S",
+        "S>P",
+        "P=R",
+        "Q<S"
+      ],
+      "answerIndex": 0,
+      "answer": "P>S",
+      "explanation": "P>Q=R>S; তাই P অবশ্যই S-এর চেয়ে বড়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1244",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-35.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "পাঁচজন A, B, C, D, E এক সারিতে দাঁড়িয়েছে। A, B-এর আগে; B, C-এর আগে; D, E-এর আগে। নিচের কোন ক্রমটি শর্ত পূরণ করে?",
+      "options": [
+        "B, A, C, D, E",
+        "A, C, B, D, E",
+        "A, B, C, D, E",
+        "D, E, C, B, A"
+      ],
+      "answerIndex": 2,
+      "answer": "A, B, C, D, E",
+      "explanation": "A-এর আগে B নয়, বরং A আগে B এবং B আগে C থাকতে হবে; D আগে E-ও থাকতে হবে। A, B, C, D, E উভয় শর্ত পূরণ করে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1245",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-35.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি বাক্সে ৫টি লাল ও ৩টি নীল বল আছে। না দেখে একটি বল তুললে নীল বল পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "৩/৮",
+        "৫/৮",
+        "১/৩",
+        "১/২"
+      ],
+      "answerIndex": 0,
+      "answer": "৩/৮",
+      "explanation": "মোট বল ৮টি, নীল ৩টি; সম্ভাবনা = অনুকূল ফল/মোট ফল = ৩/৮।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1298",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-37.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: সব কলম লেখার উপকরণ। কিছু লেখার উপকরণ দামি। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব কলম দামি",
+        "কিছু কলম দামি",
+        "কিছু দামি বস্তু লেখার উপকরণ",
+        "কোনো কলম লেখার উপকরণ নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "কিছু দামি বস্তু লেখার উপকরণ",
+      "explanation": "‘কিছু লেখার উপকরণ দামি’ বক্তব্য থেকে ‘কিছু দামি বস্তু লেখার উপকরণ’ নিশ্চিতভাবে অনুসৃত হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1299",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-37.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে ১২৩ মানে 'sun is hot', ৪২৫ মানে 'tea is warm' এবং ১৬৪ মানে 'sun and tea'। 'is'-এর কোড কোনটি?",
+      "options": [
+        "১",
+        "২",
+        "৩",
+        "৪"
+      ],
+      "answerIndex": 1,
+      "answer": "২",
+      "explanation": "প্রথম ও দ্বিতীয় বাক্যের সাধারণ শব্দ is; তাদের কোডের সাধারণ অঙ্ক ২।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1300",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-37.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রাহুল ১০ মিটার পূর্বে, তারপর ৬ মিটার উত্তরে, এরপর ১০ মিটার পশ্চিমে গেল। শুরুর স্থান থেকে সে কোথায়?",
+      "options": [
+        "৬ মিটার উত্তরে",
+        "৬ মিটার দক্ষিণে",
+        "১০ মিটার পূর্বে",
+        "১০ মিটার পশ্চিমে"
+      ],
+      "answerIndex": 0,
+      "answer": "৬ মিটার উত্তরে",
+      "explanation": "পূর্ব ও পশ্চিমের ১০ মিটার চলাচল পরস্পরকে বাতিল করে; অবশিষ্ট সরণ ৬ মিটার উত্তর।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1301",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-37.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি পরীক্ষায় ৭০% পরীক্ষার্থী ইংরেজিতে, ৬০% গণিতে পাস করেছে এবং ২০% উভয় বিষয়ে ফেল করেছে। অন্তত একটি বিষয়ে পাস করেছে কত শতাংশ?",
+      "options": [
+        "৭০%",
+        "৭৫%",
+        "৮০%",
+        "৯০%"
+      ],
+      "answerIndex": 2,
+      "answer": "৮০%",
+      "explanation": "উভয় বিষয়ে ফেল ২০%; তাই অন্তত একটি বিষয়ে পাস = ১০০%−২০% = ৮০%।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1302",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-37.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ছয়জনের মধ্যে A, B-এর চেয়ে লম্বা; C, A-এর চেয়ে লম্বা; D, B-এর চেয়ে খাটো। নিশ্চিতভাবে কে A-এর চেয়ে লম্বা?",
+      "options": [
+        "B",
+        "C",
+        "D",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answerIndex": 1,
+      "answer": "C",
+      "explanation": "প্রদত্ত তথ্য অনুযায়ী C, A-এর চেয়ে লম্বা—এটি সরাসরি বলা আছে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1303",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-37.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি বাক্সে ৪টি সাদা, ৫টি কালো ও ৩টি লাল বল আছে। একটি বল তুললে কালো নয়—এমন বল পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "৫/১২",
+        "৭/১২",
+        "১/২",
+        "৩/৪"
+      ],
+      "answerIndex": 1,
+      "answer": "৭/১২",
+      "explanation": "কালো নয় এমন বল = ৪+৩ = ৭টি; মোট ১২টি। সম্ভাবনা ৭/১২।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1304",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-37.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটির পরের অক্ষর কী: A, C, F, J, O, ...?",
+      "options": [
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "answerIndex": 2,
+      "answer": "U",
+      "explanation": "অক্ষরের অবস্থান ১, ৩, ৬, ১০, ১৫; পার্থক্য ২, ৩, ৪, ৫। পরের পার্থক্য ৬; ১৫+৬=২১, অর্থাৎ U।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
     }
   ],
   "laterBatchAudits": [
