@@ -4713,7 +4713,7 @@
       "sourceFile": "app/src/main/assets/job-prep-expansion-35.js",
       "sourceType": "expansion",
       "originalCategory": "যুক্তি ও বিশ্লেষণ",
-      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
       "question": "একটি বাক্সে ৫টি লাল ও ৩টি নীল বল আছে। না দেখে একটি বল তুললে নীল বল পাওয়ার সম্ভাবনা কত?",
       "options": [
         "৩/৮",
@@ -4724,7 +4724,7 @@
       "answerIndex": 0,
       "answer": "৩/৮",
       "explanation": "মোট বল ৮টি, নীল ৩টি; সম্ভাবনা = অনুকূল ফল/মোট ফল = ৩/৮।",
-      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+      "classificationReason": "probability quantitative aptitude"
     },
     {
       "id": "extra_1298",
@@ -4821,7 +4821,7 @@
       "sourceFile": "app/src/main/assets/job-prep-expansion-37.js",
       "sourceType": "expansion",
       "originalCategory": "যুক্তি ও বিশ্লেষণ",
-      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
       "question": "একটি বাক্সে ৪টি সাদা, ৫টি কালো ও ৩টি লাল বল আছে। একটি বল তুললে কালো নয়—এমন বল পাওয়ার সম্ভাবনা কত?",
       "options": [
         "৫/১২",
@@ -4832,7 +4832,7 @@
       "answerIndex": 1,
       "answer": "৭/১২",
       "explanation": "কালো নয় এমন বল = ৪+৩ = ৭টি; মোট ১২টি। সম্ভাবনা ৭/১২।",
-      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+      "classificationReason": "probability quantitative aptitude"
     },
     {
       "id": "extra_1304",
@@ -4851,6 +4851,150 @@
       "answer": "U",
       "explanation": "অক্ষরের অবস্থান ১, ৩, ৬, ১০, ১৫; পার্থক্য ২, ৩, ৪, ৫। পরের পার্থক্য ৬; ১৫+৬=২১, অর্থাৎ U।",
       "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1324",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-38.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। এ থেকে কোনটি নিশ্চিতভাবে বলা যায়?",
+      "options": [
+        "সব চিকিৎসক লেখক",
+        "কিছু লেখক চিকিৎসক",
+        "কিছু শিক্ষিত ব্যক্তি লেখক",
+        "কোনো চিকিৎসক শিক্ষিত নন"
+      ],
+      "answerIndex": 2,
+      "answer": "কিছু শিক্ষিত ব্যক্তি লেখক",
+      "explanation": "‘কিছু শিক্ষিত ব্যক্তি লেখক’ বক্তব্যটি সরাসরি দেওয়া আছে; অন্য দুটি শ্রেণির মধ্যে সম্পর্ক নিশ্চিত নয়।",
+      "classificationReason": "logical / analytical / spatial / relational reasoning"
+    },
+    {
+      "id": "extra_1325",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-38.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সভায় ১২ জন প্রত্যেকে অন্য প্রত্যেকের সঙ্গে একবার করে করমর্দন করল। মোট করমর্দন কতটি?",
+      "options": [
+        "৬০",
+        "৬৬",
+        "৭২",
+        "৭৮"
+      ],
+      "answerIndex": 1,
+      "answer": "৬৬",
+      "explanation": "মোট করমর্দন = ১২×১১÷২ = ৬৬।",
+      "classificationReason": "logical / analytical / spatial / relational reasoning"
+    },
+    {
+      "id": "extra_1326",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-38.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বিবৃতি: কোনো পাখি স্তন্যপায়ী নয়। সব কবুতর পাখি। কোন সিদ্ধান্তটি সঠিক?",
+      "options": [
+        "সব কবুতর স্তন্যপায়ী",
+        "কোনো কবুতর স্তন্যপায়ী নয়",
+        "কিছু স্তন্যপায়ী কবুতর",
+        "সব পাখি কবুতর"
+      ],
+      "answerIndex": 1,
+      "answer": "কোনো কবুতর স্তন্যপায়ী নয়",
+      "explanation": "সব কবুতর পাখি এবং কোনো পাখি স্তন্যপায়ী নয়; সুতরাং কোনো কবুতর স্তন্যপায়ী নয়।",
+      "classificationReason": "logical / analytical / spatial / relational reasoning"
+    },
+    {
+      "id": "extra_1355",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-39.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি শ্রেণিতে ৪০ জন শিক্ষার্থীর ২৫ জন ইংরেজি এবং ২২ জন গণিতে পাস করেছে। উভয় বিষয়ে পাস করেছে ১০ জন। অন্তত একটি বিষয়ে পাস করেছে কতজন?",
+      "options": [
+        "৩৫",
+        "৩৭",
+        "৪০",
+        "৪৭"
+      ],
+      "answerIndex": 1,
+      "answer": "৩৭",
+      "explanation": "অন্তত এক বিষয়ে পাস = ২৫+২২−১০ = ৩৭ জন।",
+      "classificationReason": "logical / analytical / spatial / relational reasoning"
+    },
+    {
+      "id": "extra_1356",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-39.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বিবৃতি: সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "কিছু দ্রুত ঝরে যাওয়া বস্তু ফুল",
+        "কোনো ফুল গোলাপ নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "কিছু দ্রুত ঝরে যাওয়া বস্তু ফুল",
+      "explanation": "কিছু ফুল দ্রুত ঝরে যায়—এই বক্তব্য থেকেই কিছু দ্রুত ঝরে যাওয়া বস্তু ফুল, নিশ্চিতভাবে অনুসৃত হয়।",
+      "classificationReason": "logical / analytical / spatial / relational reasoning"
+    },
+    {
+      "id": "extra_1384",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-40.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব A হলো B এবং কোনো B হলো C নয়। তাহলে কোনটি অবশ্যই সত্য?",
+      "options": [
+        "কিছু A হলো C",
+        "কোনো A হলো C নয়",
+        "সব C হলো A",
+        "কিছু B হলো A নয়"
+      ],
+      "answerIndex": 1,
+      "answer": "কোনো A হলো C নয়",
+      "explanation": "A-এর প্রতিটি সদস্য B-এর অন্তর্ভুক্ত; B ও C-এর কোনো সদস্যের মিল নেই। তাই কোনো A-ই C নয়।",
+      "classificationReason": "logical / analytical / spatial / relational reasoning"
+    },
+    {
+      "id": "extra_1385",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-40.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি ঘড়ি প্রতি ঘণ্টায় ৫ মিনিট এগিয়ে যায়। সকাল ৮টায় ঘড়িটি সঠিক করা হলে প্রকৃত সময় দুপুর ১২টায় ঘড়িটি কত দেখাবে?",
+      "options": [
+        "১২টা ১০ মিনিট",
+        "১২টা ১৫ মিনিট",
+        "১২টা ২০ মিনিট",
+        "১২টা ২৫ মিনিট"
+      ],
+      "answerIndex": 2,
+      "answer": "১২টা ২০ মিনিট",
+      "explanation": "৪ ঘণ্টায় ঘড়িটি ৪×৫=২০ মিনিট এগিয়ে যাবে; তাই ১২টার সময় দেখাবে ১২টা ২০ মিনিট।",
+      "classificationReason": "clock-rate quantitative aptitude"
+    },
+    {
+      "id": "extra_1386",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-40.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে প্রতিটি অক্ষর ইংরেজি বর্ণমালায় ২ ঘর পরের অক্ষর দিয়ে লেখা হয়। BOOK-এর কোড কী?",
+      "options": [
+        "DQQM",
+        "DPPM",
+        "CQQM",
+        "DQQN"
+      ],
+      "answerIndex": 0,
+      "answer": "DQQM",
+      "explanation": "B→D, O→Q, O→Q, K→M; তাই BOOK-এর কোড DQQM।",
+      "classificationReason": "logical / analytical / spatial / relational reasoning"
     }
   ],
   "laterBatchAudits": [
@@ -4894,6 +5038,28 @@
       ],
       "quantitativeAptitudeCandidates": 3,
       "retainedReasoningCandidates": 19,
+      "corrections": [],
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING"
+    },
+    {
+      "range": "31-40",
+      "candidateCount": 27,
+      "reviewedCount": 27,
+      "exactDuplicateMatchesAgainstConsolidated01_30": 0,
+      "exactDuplicateMatchesAgainstLockedIQAndMath": 2,
+      "exactDuplicateMatchesWithinCheckpoint": 0,
+      "duplicateRemovals": [
+        {
+          "id": "extra_1150",
+          "duplicateOf": "IQ master extra_498"
+        },
+        {
+          "id": "extra_1154",
+          "duplicateOf": "IQ master extra_499"
+        }
+      ],
+      "quantitativeAptitudeCandidates": 4,
+      "retainedReasoningCandidates": 21,
       "corrections": [],
       "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING"
     }
