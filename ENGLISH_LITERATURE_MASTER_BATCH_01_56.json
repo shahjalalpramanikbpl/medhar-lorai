@@ -5137,5 +5137,25 @@
       "source": "English Literature — Modern Drama",
       "sourceUrl": ""
     }
-  ]
+  ],
+  "content_review_batches_51_56": {
+    "status": "SOURCE_CHECKED",
+    "checked_records": 9,
+    "confirmed_incorrect": 0,
+    "answer_key_corrections": 0,
+    "explanation_corrections": 0,
+    "notes": "All nine retained English Literature entries from batches 51-53 were checked against reputable literary, library, academic, publisher, or author-society references. The Wuthering Heights narrator item is correctly keyed to Lockwood as the outer narrator and its explanation correctly notes Nelly Dean's role as the main internal storyteller. Batches 54-56 contained no English Literature entries.",
+    "references": [
+      "https://www.cambridge.org/core/books/abs/cambridge-companion-to-oscar-wilde/importance-of-being-earnest/623C314EFBB695BF78559FA13C18458E",
+      "https://www.lboro.ac.uk/subjects/english/undergraduate/study-guides/paradise-lost/",
+      "https://www.folger.edu/explore/the-stuart-and-mimi-rose-collection/charles-dickens/",
+      "https://www.folger.edu/explore/shakespeares-works/Macbeth/read/1/4/",
+      "https://academic.oup.com/edited-volume/34433/chapter-abstract/292218581",
+      "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/nineteen-eighty-four/",
+      "https://crossref-it.info/textguide/wuthering-heights/35/2504",
+      "https://www.themorgan.org/exhibitions/online/keats/miracle-year",
+      "https://www.janeaustensociety.org.uk/jane-austen/the-novels/pride-and-prejudice/",
+      "https://www.poetryfoundation.org/poets/samuel-beckett"
+    ]
+  }
 }
