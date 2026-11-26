@@ -69,3 +69,10 @@
 - Subject classification: **৯৮টি** quantitative aptitude/math-এ স্থানান্তরের প্রস্তাব (৮৩ base + ১৫ expansion); **৯৪টি** Mental Ability & IQ-তে রাখার প্রস্তাব (৬৭ base + ২৭ expansion)। বিস্তারিত ID ও নিয়ম `MENTAL_ABILITY_IQ_BASE_CONTENT_REVIEW_001_150.md`।
 - প্রস্তাবিত ৯৮টির question/options/answer signature category বাদ দিয়ে locked Math master-এর ৩০০ প্রশ্নের সঙ্গে তুলনা: exact collision ০।
 - Math master/runtime source SHA mismatch দেখা গেছে এবং Math runtime generated ৩০-level system; তাই কোনো category এখনো পরিবর্তন বা Math runtime-এ স্থানান্তর করা হয়নি। Migration path/source reconciliation বাকি; **IN_PROGRESS / NOT LOCKED**।
+
+
+## Math source SHA reconciliation (২৭ নভেম্বর ২০২৬)
+- Math master-এর recorded source blob (`4404ff9bd1c0b03ee9b4c8370ab0e83400746158`) এবং current `math-levels.js` SHA আলাদা ছিল।
+- দুই source content line-by-line তুলনায় পার্থক্য মাত্র **২টি line**: পুরোনো interstitial launcher logic এবং level-completion AdMob callback। ৩০০ প্রশ্নের generator/bank content-এ কোনো line difference পাওয়া যায়নি।
+- অতএব এটি question-content drift নয়; post-lock ad-integration change। Math ৩০০-question LOCK অক্ষত। IQ-এর ৯৮টি quantitative candidate Math-এর ৩০০ master-এর সঙ্গে exact duplicate collision ০; কিন্তু এগুলো যোগ করার জন্য Math module-এ পৃথক supplementary practice integration প্রয়োজন, যা এখনো করা হয়নি।
+- Classification master: `MENTAL_ABILITY_IQ_CLASSIFICATION_MASTER_BATCH_01_10.json` — ১৯২ record; proposed Math ৯৮, retain IQ ৯৪; status `CLASSIFICATION_REVIEWED_PENDING_RUNTIME_MIGRATION_NOT_LOCKED`।
