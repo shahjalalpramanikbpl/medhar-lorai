@@ -4307,6 +4307,204 @@
       "answer": "২/৫",
       "explanation": "মোট বল ১০টি; লাল ৪টি। সম্ভাবনা ৪/১০=২/৫।",
       "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_678",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-18.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা পূরণ করুন: ৩, ৬, ১২, ২৪, ?",
+      "options": [
+        "৩৬",
+        "৪২",
+        "৪৮",
+        "৫৪"
+      ],
+      "answerIndex": 2,
+      "answer": "৪৮",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণ; তাই ২৪×২=৪৮।",
+      "classificationReason": "series / coding / clock-calendar / combinatorial reasoning"
+    },
+    {
+      "id": "extra_679",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-18.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি ট্রেন ৬০ কিমি/ঘণ্টা বেগে ২.৫ ঘণ্টায় কত দূর যাবে?",
+      "options": [
+        "১২০ কিমি",
+        "১৩০ কিমি",
+        "১৫০ কিমি",
+        "১৮০ কিমি"
+      ],
+      "answerIndex": 2,
+      "answer": "১৫০ কিমি",
+      "explanation": "দূরত্ব = বেগ × সময় = ৬০×২.৫ = ১৫০ কিমি।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_680",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-18.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "৮০-এর ১৫% কত?",
+      "options": [
+        "১০",
+        "১২",
+        "১৪",
+        "১৬"
+      ],
+      "answerIndex": 1,
+      "answer": "১২",
+      "explanation": "৮০×১৫÷১০০ = ১২।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_681",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-18.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "দুটি সংখ্যার অনুপাত ৩:৫ এবং যোগফল ৬৪। ছোট সংখ্যাটি কত?",
+      "options": [
+        "১৮",
+        "২৪",
+        "৩০",
+        "৪০"
+      ],
+      "answerIndex": 1,
+      "answer": "২৪",
+      "explanation": "মোট অংশ ৮; প্রতি অংশ ৬৪÷৮=৮। ছোট সংখ্যা ৩×৮=২৪।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_712",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-19.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়িতে ৩টা ৩০ মিনিটে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী ক্ষুদ্র কোণ কত?",
+      "options": [
+        "৬০°",
+        "৭৫°",
+        "৯০°",
+        "১০৫°"
+      ],
+      "answerIndex": 1,
+      "answer": "৭৫°",
+      "explanation": "মিনিটের কাঁটা ১৮০° এবং ঘণ্টার কাঁটা ১০৫° অবস্থানে; পার্থক্য ৭৫°।",
+      "classificationReason": "series / coding / clock-calendar / combinatorial reasoning"
+    },
+    {
+      "id": "extra_713",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-19.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি বাক্সে ৫টি লাল ও ৩টি নীল বল আছে। না দেখে একটি বল তুললে নীল বল পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "৩/৫",
+        "৩/৮",
+        "৫/৮",
+        "১/৩"
+      ],
+      "answerIndex": 1,
+      "answer": "৩/৮",
+      "explanation": "মোট বল ৮টি; নীল ৩টি। সম্ভাবনা = ৩/৮।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_714",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-19.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি সংখ্যার ২৫% হলো ৪৫। সংখ্যাটি কত?",
+      "options": [
+        "১২০",
+        "১৬০",
+        "১৮০",
+        "২০০"
+      ],
+      "answerIndex": 2,
+      "answer": "১৮০",
+      "explanation": "সংখ্যাটি = ৪৫ × ১০০ ÷ ২৫ = ১৮০।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_761",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-20.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ২, ৬, ১২, ২০, ৩০, পরের সংখ্যা কত?",
+      "options": [
+        "৩৬",
+        "৪০",
+        "৪২",
+        "৪৪"
+      ],
+      "answerIndex": 2,
+      "answer": "৪২",
+      "explanation": "পার্থক্য ৪, ৬, ৮, ১০; পরের পার্থক্য ১২, তাই ৪২।",
+      "classificationReason": "series / coding / clock-calendar / combinatorial reasoning"
+    },
+    {
+      "id": "extra_762",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-20.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়িতে ৩টা বাজলে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "৬০°",
+        "৭৫°",
+        "৯০°",
+        "১২০°"
+      ],
+      "answerIndex": 2,
+      "answer": "৯০°",
+      "explanation": "৩টায় মিনিটের কাঁটা ১২-তে এবং ঘণ্টার কাঁটা ৩-এ; কোণ ৯০ ডিগ্রি।",
+      "classificationReason": "series / coding / clock-calendar / combinatorial reasoning"
+    },
+    {
+      "id": "extra_763",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-20.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি CAT = 3120 (A=1, B=2...), তবে DOG = কত?",
+      "options": [
+        "4157",
+        "4715",
+        "4156",
+        "4517"
+      ],
+      "answerIndex": 0,
+      "answer": "4157",
+      "explanation": "D=4, O=15, G=7; তাই DOG = 4157।",
+      "classificationReason": "series / coding / clock-calendar / combinatorial reasoning"
+    },
+    {
+      "id": "extra_764",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-20.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি দলে ৫ জনের প্রত্যেকে অন্য প্রত্যেকের সঙ্গে একবার করে করমর্দন করলে মোট করমর্দন কতটি?",
+      "options": [
+        "৫",
+        "৮",
+        "১০",
+        "২০"
+      ],
+      "answerIndex": 2,
+      "answer": "১০",
+      "explanation": "মোট জোড়া ৫×৪÷২ = ১০টি।",
+      "classificationReason": "series / coding / clock-calendar / combinatorial reasoning"
     }
   ]
 }
