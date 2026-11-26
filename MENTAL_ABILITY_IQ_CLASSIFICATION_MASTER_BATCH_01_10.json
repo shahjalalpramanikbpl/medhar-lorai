@@ -3657,6 +3657,17 @@
         }
       ],
       "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; FINAL_CLASSIFICATION_AND_RUNTIME_MIGRATION_PENDING"
+    },
+    {
+      "range": "21-30",
+      "candidateCount": 27,
+      "reviewedCount": 27,
+      "exactDuplicateMatchesAgainstConsolidated01_20": 0,
+      "exactDuplicateMatchesWithinCheckpoint": 0,
+      "quantitativeAptitudeCandidates": 12,
+      "retainedIQCandidates": 15,
+      "corrections": [],
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; FINAL_CLASSIFICATION_AND_RUNTIME_MIGRATION_PENDING"
     }
   ],
   "laterBatchRecords": [
@@ -4756,6 +4767,240 @@
       "answerIndex": 1,
       "answer": "৪০%",
       "explanation": "মেয়ে ১৬ জন; (১৬÷৪০)×১০০=৪০%।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_993",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-28.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী সংখ্যা কত: ২, ৬, ১২, ২০, ৩০, ?",
+      "options": [
+        "৩৬",
+        "৪০",
+        "৪২",
+        "৪৪"
+      ],
+      "answerIndex": 2,
+      "answer": "৪২",
+      "explanation": "পার্থক্য ৪, ৬, ৮, ১০; পরের পার্থক্য ১২। তাই ৩০+১২=৪২।",
+      "classificationReason": "series / coding / clock-calendar / logical reasoning"
+    },
+    {
+      "id": "extra_994",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-28.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি CAT = ২৪ হয় (অক্ষরের অবস্থান যোগফল), তবে DOG = কত?",
+      "options": [
+        "২২",
+        "২৪",
+        "২৬",
+        "২৮"
+      ],
+      "answerIndex": 2,
+      "answer": "২৬",
+      "explanation": "D=৪, O=১৫, G=৭; যোগফল ২৬।",
+      "classificationReason": "series / coding / clock-calendar / logical reasoning"
+    },
+    {
+      "id": "extra_996",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-28.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি শ্রেণিতে ৪০ জনের মধ্যে ২৫ জন ইংরেজি এবং ২০ জন গণিত পছন্দ করে; ১০ জন উভয়টি পছন্দ করে। অন্তত একটি পছন্দ করে কতজন?",
+      "options": [
+        "৩০",
+        "৩৫",
+        "৪০",
+        "৪৫"
+      ],
+      "answerIndex": 1,
+      "answer": "৩৫",
+      "explanation": "অন্তত একটি = ২৫+২০−১০ = ৩৫ জন।",
+      "classificationReason": "series / coding / clock-calendar / logical reasoning"
+    },
+    {
+      "id": "extra_998",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-28.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি বাক্সে ৫টি লাল ও ৩টি নীল বল আছে। না দেখে একটি বল তুললে লাল হওয়ার সম্ভাবনা কত?",
+      "options": [
+        "৩/৮",
+        "৫/৮",
+        "১/২",
+        "৫/৩"
+      ],
+      "answerIndex": 1,
+      "answer": "৫/৮",
+      "explanation": "মোট বল ৮টি; লাল ৫টি। সম্ভাবনা ৫/৮।",
+      "classificationReason": "series / coding / clock-calendar / logical reasoning"
+    },
+    {
+      "id": "extra_999",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-28.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি গত পরশু শুক্রবার হয়, তবে আগামীকাল কী বার?",
+      "options": [
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার"
+      ],
+      "answerIndex": 1,
+      "answer": "সোমবার",
+      "explanation": "গত পরশু শুক্রবার হলে আজ রবিবার; আগামীকাল সোমবার।",
+      "classificationReason": "series / coding / clock-calendar / logical reasoning"
+    },
+    {
+      "id": "extra_1042",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-29.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী সংখ্যা কত: ৩, ৮, ১৫, ২৪, ৩৫, ?",
+      "options": [
+        "৪৬",
+        "৪৮",
+        "৫০",
+        "৫২"
+      ],
+      "answerIndex": 1,
+      "answer": "৪৮",
+      "explanation": "পার্থক্য ৫, ৭, ৯, ১১; পরের পার্থক্য ১৩। তাই ৩৫+১৩=৪৮।",
+      "classificationReason": "series / coding / clock-calendar / logical reasoning"
+    },
+    {
+      "id": "extra_1043",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-29.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি সংখ্যার ৪০% হলো ৭২। সংখ্যাটি কত?",
+      "options": [
+        "১৬০",
+        "১৭০",
+        "১৮০",
+        "২০০"
+      ],
+      "answerIndex": 2,
+      "answer": "১৮০",
+      "explanation": "সংখ্যা = ৭২÷০.৪ = ১৮০।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_1045",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-29.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পাশা একবার নিক্ষেপে জোড় সংখ্যা পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "১/৬",
+        "১/৩",
+        "১/২",
+        "২/৩"
+      ],
+      "answerIndex": 2,
+      "answer": "১/২",
+      "explanation": "জোড় ফল ২, ৪, ৬—মোট ৩টি; সম্ভাবনা ৩/৬ = ১/২।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_1046",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-29.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি সব A হলো B এবং সব B হলো C, তবে কোনটি অবশ্যই সত্য?",
+      "options": [
+        "সব C হলো A",
+        "সব A হলো C",
+        "কোনো A হলো C নয়",
+        "কিছু B হলো A নয়"
+      ],
+      "answerIndex": 1,
+      "answer": "সব A হলো C",
+      "explanation": "A-এর প্রতিটি সদস্য B এবং B-এর প্রতিটি সদস্য C; সুতরাং সব A হলো C।",
+      "classificationReason": "series / coding / clock-calendar / logical reasoning"
+    },
+    {
+      "id": "extra_1047",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-29.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়ি প্রতি ঘণ্টায় ৫ মিনিট এগিয়ে যায়। সকাল ৮টায় ঠিক করা হলে প্রকৃত দুপুর ২টায় ঘড়িটি কত দেখাবে?",
+      "options": [
+        "২:২০",
+        "২:২৫",
+        "২:৩০",
+        "২:৩৫"
+      ],
+      "answerIndex": 2,
+      "answer": "২:৩০",
+      "explanation": "৬ ঘণ্টায় ৩০ মিনিট এগোবে; তাই ঘড়িতে ২:৩০ দেখাবে।",
+      "classificationReason": "series / coding / clock-calendar / logical reasoning"
+    },
+    {
+      "id": "extra_1085",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-30.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পরীক্ষায় ৪০% নম্বর পেয়ে একজন ২৪ নম্বরের জন্য ফেল করল। পাস নম্বর ৫০% হলে পূর্ণমান কত?",
+      "options": [
+        "২০০",
+        "২৪০",
+        "৪০০",
+        "৪৮০"
+      ],
+      "answerIndex": 1,
+      "answer": "২৪০",
+      "explanation": "পাস ও প্রাপ্ত নম্বরের ব্যবধান ১০% = ২৪। তাই পূর্ণমান = ২৪÷০.১০ = ২৪০।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_1086",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-30.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ A একা ১২ দিনে এবং B একা ১৮ দিনে করতে পারে। একত্রে কাজটি কত দিনে করবে?",
+      "options": [
+        "৬ দিন",
+        "৭.২ দিন",
+        "৮ দিন",
+        "৯ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৭.২ দিন",
+      "explanation": "এক দিনের কাজ = ১/১২+১/১৮=৫/৩৬। সময় = ৩৬/৫ = ৭.২ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_1087",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-30.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি সুষম ছক্কা একবার নিক্ষেপে জোড় সংখ্যা অথবা ৩ পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "১/৩",
+        "১/২",
+        "২/৩",
+        "৫/৬"
+      ],
+      "answerIndex": 2,
+      "answer": "২/৩",
+      "explanation": "অনুকূল ফল ২, ৩, ৪, ৬—মোট ৪টি। সম্ভাবনা ৪/৬=২/৩।",
       "classificationReason": "direct quantitative aptitude"
     }
   ]
