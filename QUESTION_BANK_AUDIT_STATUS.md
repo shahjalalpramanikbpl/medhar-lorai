@@ -554,3 +554,12 @@
 - Post-lock final CI formula check-এ ধরা ৬টি AP nth-term answer-key ত্রুটি সংশোধন করা হয়েছে: `math_L21_Q5=৪৩`, `math_L23_Q4=১০৮`, `math_L24_Q10=৫৩`, `math_L26_Q6=১১১`, `math_L28_Q4=১০৬`, `math_L30_Q3=৫০`; runtime/master/report পুনরায় sync করা হয়েছে। নতুন runtime SHA: `4404ff9bd1c0b03ee9b4c8370ab0e83400746158`।
 
 - Final validation workflow `45695978106`: **SUCCESS** — question/model-test bank validation, legacy data/Firebase safety regression এবং release UI/launcher smoke checks তিনটিই PASS। Android Gradle build/APK/AAB এই workflow run-এ চালানো হয়নি।
+
+
+## হোমপেজ হিরো কার্ড — অ্যানিমেশন গতি LOCK (২৬ নভেম্বর ২০২৬)
+- বর্তমান অ্যাপের হোমপেজ হিরো কার্ডে মস্তিষ্কের চারপাশের চারটি আলোক-স্ফুলিঙ্গের অরবিটাল অ্যানিমেশন ধীর করা হয়েছে: ১৮s, ২৪s, ২১s ও ২৭s।
+- ট্রফির ধীর 3D ঘূর্ণন/দোলন চক্র: ৩২s; কোনো আগুনের ফুলকি বা বিস্ফোরণ ইফেক্ট যোগ করা হয়নি।
+- Reduced-motion accessibility preference সম্মান করে অ্যানিমেশন বন্ধ রাখার নিয়ম যোগ হয়েছে।
+- পরিবর্তিত ফাইল: `app/src/main/assets/index.html`; commit: `2a7be827b8493c07452ef14aec624bac159384ba`।
+- **LOCK scope:** বর্তমান অ্যাপের হিরো কার্ডে অ্যানিমেশনের গতি ও আচরণ LOCK। ব্যবহারকারীর আপলোড করা পূর্ণ ব্যানার-ইমেজটি অ্যাপে প্রতিস্থাপন/এম্বেড করা হয়নি; তাই সেই নির্দিষ্ট আর্টওয়ার্ক-প্রতিস্থাপনকে সম্পন্ন বা LOCKED বলা হচ্ছে না।
+- CI ও বাস্তব ডিভাইস ভিজ্যুয়াল টেস্ট এই পরিবর্তনের জন্য এখনো চালানো হয়নি।
