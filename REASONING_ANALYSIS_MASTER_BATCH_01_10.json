@@ -4143,6 +4143,258 @@
       "answer": "সব A হলো C",
       "explanation": "A-এর প্রতিটি সদস্য B এবং B-এর প্রতিটি সদস্য C হওয়ায় সব A হলো C।",
       "classificationReason": "logical / analytical / series / coding / ranking / calendar reasoning"
+    },
+    {
+      "id": "extra_818",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-22.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A, B-এর চেয়ে লম্বা; B, C-এর চেয়ে লম্বা; D, A-এর চেয়ে লম্বা। সবচেয়ে লম্বা কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answerIndex": 3,
+      "answer": "D",
+      "explanation": "D>A>B>C, তাই D সবচেয়ে লম্বা।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_838",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-23.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। কোনটি অবশ্যই সত্য?",
+      "options": [
+        "সব চিকিৎসক লেখক",
+        "কিছু চিকিৎসক লেখক",
+        "সব চিকিৎসক শিক্ষিত",
+        "কোনো লেখক শিক্ষিত নন"
+      ],
+      "answerIndex": 2,
+      "answer": "সব চিকিৎসক শিক্ষিত",
+      "explanation": "প্রথম বক্তব্যে সব চিকিৎসক শিক্ষিত বলা হয়েছে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_839",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-23.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রহিম উত্তর দিকে ৫ কিমি গিয়ে ডানে ৩ কিমি গেল। সে শুরুস্থান থেকে কোন দিকে?",
+      "options": [
+        "উত্তর-পূর্ব",
+        "উত্তর-পশ্চিম",
+        "দক্ষিণ-পূর্ব",
+        "দক্ষিণ-পশ্চিম"
+      ],
+      "answerIndex": 0,
+      "answer": "উত্তর-পূর্ব",
+      "explanation": "উত্তরে গিয়ে ডানে ঘুরলে পূর্বে যায়; অবস্থান উত্তর-পূর্বে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_840",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-23.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বই : পড়া :: খাবার : ?",
+      "options": [
+        "রান্না",
+        "খাওয়া",
+        "কেনা",
+        "বিক্রি"
+      ],
+      "answerIndex": 1,
+      "answer": "খাওয়া",
+      "explanation": "বই পড়া হয়, খাবার খাওয়া হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_868",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-24.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রুবি মিতার চেয়ে বড়, মিতা লাবণীর চেয়ে বড়। সবচেয়ে ছোট কে?",
+      "options": [
+        "রুবি",
+        "মিতা",
+        "লাবণী",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answerIndex": 2,
+      "answer": "লাবণী",
+      "explanation": "রুবি > মিতা > লাবণী; তাই লাবণী সবচেয়ে ছোট।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_869",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-24.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "এক ব্যক্তি পূর্ব দিকে ৪ কিমি গিয়ে উত্তরে ৩ কিমি গেলেন। শুরুস্থান থেকে সরল দূরত্ব কত?",
+      "options": [
+        "৫ কিমি",
+        "৬ কিমি",
+        "৭ কিমি",
+        "৮ কিমি"
+      ],
+      "answerIndex": 0,
+      "answer": "৫ কিমি",
+      "explanation": "৩-৪-৫ সমকোণী ত্রিভুজ অনুযায়ী দূরত্ব ৫ কিমি।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_870",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-24.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "চোখ : দেখা :: কান : ?",
+      "options": [
+        "বলা",
+        "শোনা",
+        "গন্ধ",
+        "স্পর্শ"
+      ],
+      "answerIndex": 1,
+      "answer": "শোনা",
+      "explanation": "চোখ দিয়ে দেখা হয়, কান দিয়ে শোনা হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_898",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-25.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব পাখির ডানা আছে। পেঙ্গুইন একটি পাখি। প্রদত্ত তথ্য থেকে কোনটি নিশ্চিত?",
+      "options": [
+        "পেঙ্গুইন উড়তে পারে",
+        "পেঙ্গুইনের ডানা আছে",
+        "সব ডানাওয়ালা প্রাণী পাখি",
+        "পেঙ্গুইন স্তন্যপায়ী"
+      ],
+      "answerIndex": 1,
+      "answer": "পেঙ্গুইনের ডানা আছে",
+      "explanation": "প্রদত্ত সাধারণ নিয়মে পেঙ্গুইন পাখি হওয়ায় তার ডানা আছে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_899",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-25.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "এক ব্যক্তি দক্ষিণে ৬ কিমি গিয়ে বামে ৮ কিমি গেলেন। শুরুর স্থান থেকে সরল দূরত্ব কত?",
+      "options": [
+        "৮ কিমি",
+        "১০ কিমি",
+        "১২ কিমি",
+        "১৪ কিমি"
+      ],
+      "answerIndex": 1,
+      "answer": "১০ কিমি",
+      "explanation": "৬-৮-১০ সমকোণী ত্রিভুজে সরল দূরত্ব ১০ কিমি।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_900",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-25.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "কলম : লেখা :: ছুরি : ?",
+      "options": [
+        "কাটা",
+        "ধোয়া",
+        "মাপা",
+        "রং করা"
+      ],
+      "answerIndex": 0,
+      "answer": "কাটা",
+      "explanation": "কলম দিয়ে লেখা হয়, ছুরি দিয়ে কাটা হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_928",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-26.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। এ থেকে নিশ্চিতভাবে কোনটি বলা যায়?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "কোনো গোলাপ দ্রুত ঝরে না",
+        "উপরের কোনোটিই নিশ্চিত নয়"
+      ],
+      "answerIndex": 3,
+      "answer": "উপরের কোনোটিই নিশ্চিত নয়",
+      "explanation": "দ্রুত ঝরে যাওয়া ফুলগুলোর মধ্যে গোলাপ আছে কি না, তথ্য থেকে জানা যায় না।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_930",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-26.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সভায় প্রত্যেকে অন্য প্রত্যেকের সঙ্গে একবার করে করমর্দন করলে ৬ জনে মোট কতটি করমর্দন হবে?",
+      "options": [
+        "১২",
+        "১৫",
+        "১৮",
+        "৩০"
+      ],
+      "answerIndex": 1,
+      "answer": "১৫",
+      "explanation": "করমর্দনের সংখ্যা ৬×৫÷২ = ১৫।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_958",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-27.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "কিছু শিক্ষক লেখক। সব লেখক পাঠক। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব শিক্ষক পাঠক",
+        "কিছু শিক্ষক পাঠক",
+        "কোনো শিক্ষক পাঠক নন",
+        "সব পাঠক শিক্ষক"
+      ],
+      "answerIndex": 1,
+      "answer": "কিছু শিক্ষক পাঠক",
+      "explanation": "যে কিছু শিক্ষক লেখক, তারা সবাই পাঠক; তাই কিছু শিক্ষক পাঠক।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_960",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-27.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রহিম উত্তর দিকে ৫ কিমি গিয়ে ডানে ৩ কিমি গেল। সে শুরুর স্থান থেকে কোন দিকে আছে?",
+      "options": [
+        "উত্তর-পশ্চিম",
+        "দক্ষিণ-পূর্ব",
+        "উত্তর-পূর্ব",
+        "দক্ষিণ-পশ্চিম"
+      ],
+      "answerIndex": 2,
+      "answer": "উত্তর-পূর্ব",
+      "explanation": "উত্তরে গিয়ে ডানে গেলে পূর্বে; অবস্থান উত্তর-পূর্বে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
     }
   ],
   "laterBatchAudits": [
