@@ -3368,5 +3368,601 @@
       "explanation": "দূরত্ব = বেগ × সময় = ৬০ × ২.৫ = ১৫০ কিমি।",
       "classificationReason": "direct quantitative aptitude"
     }
+  ],
+  "laterBatchRecords": [
+    {
+      "id": "extra_426",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-11.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। এ থেকে নিশ্চিতভাবে কোনটি বলা যায়?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "কোনো গোলাপ ঝরে না",
+        "গোলাপ ফুল—এটুকুই নিশ্চিত"
+      ],
+      "answerIndex": 3,
+      "answer": "গোলাপ ফুল—এটুকুই নিশ্চিত",
+      "explanation": "দ্বিতীয় তথ্যটি গোলাপ সম্পর্কে নির্দিষ্ট করে কিছু বলে না; তাই শুধু প্রথম বক্তব্যটি নিশ্চিত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_428",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-11.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "আজ মঙ্গলবার হলে ১০০ দিন পর কী বার হবে?",
+      "options": [
+        "বুধবার",
+        "বৃহস্পতিবার",
+        "শুক্রবার",
+        "শনিবার"
+      ],
+      "answerIndex": 1,
+      "answer": "বৃহস্পতিবার",
+      "explanation": "১০০ কে ৭ দিয়ে ভাগ করলে ভাগশেষ ২; মঙ্গলবারের দুই দিন পর বৃহস্পতিবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_429",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-11.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সভায় ৮ জন প্রত্যেকে অন্য প্রত্যেকের সঙ্গে একবার করে করমর্দন করলে মোট করমর্দন কতটি?",
+      "options": [
+        "১৬",
+        "২৪",
+        "২৮",
+        "৩২"
+      ],
+      "answerIndex": 2,
+      "answer": "২৮",
+      "explanation": "প্রতিটি জোড়া একবার: ৮×৭÷২ = ২৮।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_430",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-11.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি কোনো সিদ্ধান্তের সব পূর্বশর্ত সত্য হয় এবং যুক্তির গঠন বৈধ হয়, তবে সিদ্ধান্তটি কী হবে?",
+      "options": [
+        "অবশ্যই সত্য",
+        "অবশ্যই মিথ্যা",
+        "অনিশ্চিত",
+        "শুধু সম্ভাব্য"
+      ],
+      "answerIndex": 0,
+      "answer": "অবশ্যই সত্য",
+      "explanation": "বৈধ অবরোহী যুক্তিতে সব পূর্বশর্ত সত্য হলে সিদ্ধান্তও সত্য হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_431",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-11.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ A একা ৬ দিনে এবং B একা ৩ দিনে করে। একসঙ্গে কাজটি কত দিনে করবে?",
+      "options": [
+        "১ দিন",
+        "২ দিন",
+        "৩ দিন",
+        "৪ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "২ দিন",
+      "explanation": "এক দিনে কাজের হার ১/৬+১/৩=১/২; পুরো কাজ শেষ হবে ২ দিনে।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_432",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-11.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "পাঁচজনের সারিতে করিম বাম দিক থেকে দ্বিতীয় এবং ডান দিক থেকে চতুর্থ। এ তথ্য থেকে কী বোঝা যায়?",
+      "options": [
+        "সারি ৫ জনের",
+        "সারি ৬ জনের",
+        "করিম মাঝখানে",
+        "তথ্য অসংগত"
+      ],
+      "answerIndex": 0,
+      "answer": "সারি ৫ জনের",
+      "explanation": "বাম থেকে দ্বিতীয় ও ডান থেকে চতুর্থ হলে মোট অবস্থান ২+৪−১=৫।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_465",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-12.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। এ থেকে কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "সব চিকিৎসক লেখক",
+        "কিছু চিকিৎসক লেখক",
+        "কোনো চিকিৎসক লেখক নন",
+        "সব চিকিৎসক শিক্ষিত"
+      ],
+      "answerIndex": 3,
+      "answer": "সব চিকিৎসক শিক্ষিত",
+      "explanation": "প্রথম বক্তব্য থেকেই নিশ্চিতভাবে বলা যায় সব চিকিৎসক শিক্ষিত; লেখক-সম্পর্কে নিশ্চিত সিদ্ধান্ত আসে না।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_466",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-12.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি ঘড়ি প্রতি ঘণ্টায় ৫ মিনিট এগিয়ে যায়। সকাল ৮টায় সঠিক সময়ে মিলিয়ে দিলে প্রকৃত দুপুর ১২টায় ঘড়িতে কত বাজবে?",
+      "options": [
+        "১২টা ১০ মিনিট",
+        "১২টা ১৫ মিনিট",
+        "১২টা ২০ মিনিট",
+        "১২টা ২৫ মিনিট"
+      ],
+      "answerIndex": 2,
+      "answer": "১২টা ২০ মিনিট",
+      "explanation": "৪ ঘণ্টায় ঘড়ি ৪×৫=২০ মিনিট এগোবে; তাই ঘড়িতে ১২টা ২০ মিনিট দেখাবে।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_467",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-12.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি নৌকা স্রোতের অনুকূলে ঘণ্টায় ১২ কিমি এবং প্রতিকূলে ঘণ্টায় ৮ কিমি চলে। স্থির পানিতে নৌকার বেগ কত?",
+      "options": [
+        "৮ কিমি/ঘণ্টা",
+        "৯ কিমি/ঘণ্টা",
+        "১০ কিমি/ঘণ্টা",
+        "১২ কিমি/ঘণ্টা"
+      ],
+      "answerIndex": 2,
+      "answer": "১০ কিমি/ঘণ্টা",
+      "explanation": "স্থির পানিতে বেগ = (অনুকূল বেগ + প্রতিকূল বেগ)÷২ = (১২+৮)÷২ = ১০ কিমি/ঘণ্টা।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_468",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-12.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "রবি পূর্ব দিকে ৫ কিমি, তারপর উত্তর দিকে ১২ কিমি গেল। শুরুর স্থান থেকে সরল দূরত্ব কত?",
+      "options": [
+        "১২ কিমি",
+        "১৩ কিমি",
+        "১৫ কিমি",
+        "১৭ কিমি"
+      ],
+      "answerIndex": 1,
+      "answer": "১৩ কিমি",
+      "explanation": "সমকোণী ত্রিভুজে দূরত্ব = √(৫²+১২²)=১৩ কিমি।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_469",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-12.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে BOOK লেখা হয় CPPL। একই নিয়মে FISH কীভাবে লেখা হবে?",
+      "options": [
+        "GJTI",
+        "GJSH",
+        "EHRG",
+        "GITH"
+      ],
+      "answerIndex": 0,
+      "answer": "GJTI",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসানো হয়েছে: F→G, I→J, S→T, H→I।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_470",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-12.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পরীক্ষায় পাশ করতে ৪০% নম্বর দরকার। পূর্ণমান ২৫০ হলে পাশ নম্বর কত?",
+      "options": [
+        "৮০",
+        "৯০",
+        "১০০",
+        "১১০"
+      ],
+      "answerIndex": 2,
+      "answer": "১০০",
+      "explanation": "পাশ নম্বর = ২৫০×৪০%=১০০।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_503",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-13.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "আজ বৃহস্পতিবার হলে আগামী পরশু কী বার হবে?",
+      "options": [
+        "শুক্রবার",
+        "শনিবার",
+        "রবিবার",
+        "সোমবার"
+      ],
+      "answerIndex": 1,
+      "answer": "শনিবার",
+      "explanation": "আজ বৃহস্পতিবার হলে আগামীকাল শুক্রবার এবং আগামী পরশু শনিবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_505",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-13.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি গতকাল বুধবার হয়, তবে আগামী পরশু কী বার?",
+      "options": [
+        "শুক্রবার",
+        "শনিবার",
+        "রবিবার",
+        "সোমবার"
+      ],
+      "answerIndex": 1,
+      "answer": "শনিবার",
+      "explanation": "গতকাল বুধবার হলে আজ বৃহস্পতিবার; আগামী পরশু শনিবার? Thursday থেকে tomorrow Friday, day after tomorrow Saturday. Wait correct option should Saturday.",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_506",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-13.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে CAT লেখা হয় DBU। একই নিয়মে DOG কী হবে?",
+      "options": [
+        "EPH",
+        "EOG",
+        "CNG",
+        "FPH"
+      ],
+      "answerIndex": 0,
+      "answer": "EPH",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসানো হয়েছে: D→E, O→P, G→H।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_507",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-13.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি গাড়ি ৬০ কিমি/ঘণ্টা বেগে ২.৫ ঘণ্টা চলে। মোট দূরত্ব কত?",
+      "options": [
+        "১২০ কিমি",
+        "১৩০ কিমি",
+        "১৫০ কিমি",
+        "১৮০ কিমি"
+      ],
+      "answerIndex": 2,
+      "answer": "১৫০ কিমি",
+      "explanation": "দূরত্ব = বেগ × সময় = ৬০×২.৫ = ১৫০ কিমি।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_508",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-13.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A, B-এর চেয়ে বড়; B, C-এর চেয়ে বড়; D, A-এর চেয়ে বড়। সবচেয়ে বড় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answerIndex": 3,
+      "answer": "D",
+      "explanation": "সম্পর্ক অনুযায়ী D>A>B>C; তাই D সবচেয়ে বড়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_536",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-14.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব A হলো B এবং সব B হলো C। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব C হলো A",
+        "সব A হলো C",
+        "কোনো A হলো C নয়",
+        "কিছু C হলো A নয়"
+      ],
+      "answerIndex": 1,
+      "answer": "সব A হলো C",
+      "explanation": "A-এর প্রতিটি সদস্য B এবং B-এর প্রতিটি সদস্য C হলে A-এর প্রতিটি সদস্য C।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_537",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-14.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি ঘড়ি ১৫ মিনিট ধীর। প্রকৃত সময় ১০টা ৩০ মিনিট হলে ঘড়িতে কত বাজবে?",
+      "options": [
+        "১০টা ১৫ মিনিট",
+        "১০টা ৩০ মিনিট",
+        "১০টা ৪৫ মিনিট",
+        "১১টা"
+      ],
+      "answerIndex": 0,
+      "answer": "১০টা ১৫ মিনিট",
+      "explanation": "ঘড়িটি ১৫ মিনিট পিছিয়ে, তাই ১০:৩০ থেকে ১৫ মিনিট বিয়োগ করলে ১০:১৫।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_538",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-14.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি শ্রেণিতে ৩০ জন শিক্ষার্থী। ১৮ জন ফুটবল এবং ১২ জন ক্রিকেট পছন্দ করে; ৫ জন উভয় খেলাই পছন্দ করে। অন্তত একটি খেলা পছন্দ করে কতজন?",
+      "options": [
+        "২৫",
+        "৩০",
+        "৩৫",
+        "২৩"
+      ],
+      "answerIndex": 0,
+      "answer": "২৫",
+      "explanation": "অন্তত একটি = ১৮+১২−৫ = ২৫ জন। প্রদত্ত শ্রেণিতে ৩০ জন থাকলেও ৫ জন কোনোটি পছন্দ করে না।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_539",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-14.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "এক ব্যক্তি উত্তর দিকে ৮ কিমি, তারপর পূর্ব দিকে ৬ কিমি গেলেন। শুরুর স্থান থেকে সরল দূরত্ব কত?",
+      "options": [
+        "১০ কিমি",
+        "১২ কিমি",
+        "১৪ কিমি",
+        "১৬ কিমি"
+      ],
+      "answerIndex": 0,
+      "answer": "১০ কিমি",
+      "explanation": "সমকোণী ত্রিভুজে দূরত্ব √(৮²+৬²)=√১০০=১০ কিমি।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_571",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-15.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব ডাক্তার শিক্ষিত। রফিক একজন ডাক্তার। সুতরাং কোন সিদ্ধান্তটি সঠিক?",
+      "options": [
+        "রফিক শিক্ষিত",
+        "সব শিক্ষিত ব্যক্তি ডাক্তার",
+        "রফিক শিক্ষক",
+        "কোনো সিদ্ধান্ত সম্ভব নয়"
+      ],
+      "answerIndex": 0,
+      "answer": "রফিক শিক্ষিত",
+      "explanation": "সব ডাক্তার শিক্ষিত এবং রফিক ডাক্তার; তাই রফিক শিক্ষিত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_573",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-15.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "এক ব্যক্তি দক্ষিণমুখী। তিনি বামে ঘুরলে কোন দিকে মুখ করবেন?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answerIndex": 0,
+      "answer": "পূর্ব",
+      "explanation": "দক্ষিণমুখী অবস্থায় বামে ঘুরলে পূর্ব দিকে মুখ হবে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_574",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-15.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি দলে ১২ জনের প্রত্যেকে প্রত্যেকের সঙ্গে একবার করে করমর্দন করলে মোট করমর্দন কতটি?",
+      "options": [
+        "৬০",
+        "৬৬",
+        "৭২",
+        "১৩২"
+      ],
+      "answerIndex": 1,
+      "answer": "৬৬",
+      "explanation": "প্রতিটি জোড়া একবার করমর্দন করে; সংখ্যা ১২×১১÷২=৬৬।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_613",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-16.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "কোনো কোনো শিক্ষক লেখক। সব লেখক পাঠক। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব শিক্ষক পাঠক",
+        "কোনো শিক্ষক পাঠক নন",
+        "কিছু শিক্ষক পাঠক",
+        "সব পাঠক শিক্ষক"
+      ],
+      "answerIndex": 2,
+      "answer": "কিছু শিক্ষক পাঠক",
+      "explanation": "যে কিছু শিক্ষক লেখক, তারা সবাই পাঠক; তাই কিছু শিক্ষক পাঠক।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_614",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-16.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে BOOK লেখা হয় CPPL। একই নিয়মে FISH কী হবে?",
+      "options": [
+        "GJTI",
+        "GJSH",
+        "EHRG",
+        "GJTH"
+      ],
+      "answerIndex": 0,
+      "answer": "GJTI",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসানো হয়েছে: F→G, I→J, S→T, H→I।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_615",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-16.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রিনা মিতার বোন। মিতা সুমনের মা। রিনা সুমনের কে হন?",
+      "options": [
+        "খালা",
+        "ফুফু",
+        "দাদি",
+        "বোন"
+      ],
+      "answerIndex": 0,
+      "answer": "খালা",
+      "explanation": "মিতা সুমনের মা এবং রিনা মিতার বোন; তাই রিনা সুমনের খালা।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_616",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-16.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি শ্রেণিতে ৪০ জনের মধ্যে ২২ জন বাংলা এবং ২৫ জন ইংরেজি পছন্দ করে। ১০ জন উভয় বিষয় পছন্দ করে। অন্তত একটি বিষয় পছন্দ করে কতজন?",
+      "options": [
+        "৩৫",
+        "৩৭",
+        "৪০",
+        "৪৭"
+      ],
+      "answerIndex": 1,
+      "answer": "৩৭",
+      "explanation": "অন্তত একটি = ২২+২৫−১০ = ৩৭ জন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_617",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-16.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "এক ব্যক্তি পূর্ব দিকে ৫ কিমি, তারপর উত্তর দিকে ১২ কিমি গেলেন। শুরুর স্থান থেকে সরল দূরত্ব কত?",
+      "options": [
+        "১২ কিমি",
+        "১৩ কিমি",
+        "১৫ কিমি",
+        "১৭ কিমি"
+      ],
+      "answerIndex": 1,
+      "answer": "১৩ কিমি",
+      "explanation": "পিথাগোরাসের সূত্রে দূরত্ব √(৫²+১২²)=√১৬৯=১৩ কিমি।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_649",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-17.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি নিশ্চিতভাবে সত্য?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "সব গোলাপ ফুল",
+        "কোনো ফুল গোলাপ নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রদত্ত তথ্য থেকে নিশ্চিতভাবে শুধু বলা যায়, সব গোলাপ ফুল।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_650",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-17.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: AZ, BY, CX, DW, পরের জোড়া কোনটি?",
+      "options": [
+        "EV",
+        "EU",
+        "FV",
+        "EX"
+      ],
+      "answerIndex": 0,
+      "answer": "EV",
+      "explanation": "প্রথম অক্ষর A, B, C, D-এর পর E; দ্বিতীয় অক্ষর Z, Y, X, W-এর পর V।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_651",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-17.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "পাঁচজন A, B, C, D, E সারিতে দাঁড়িয়েছে। A, B-এর আগে; B, C-এর আগে। কোনটি অবশ্যই সত্য?",
+      "options": [
+        "C, A-এর আগে",
+        "A, C-এর আগে",
+        "D, E-এর আগে",
+        "E, B-এর আগে"
+      ],
+      "answerIndex": 1,
+      "answer": "A, C-এর আগে",
+      "explanation": "A আগে B এবং B আগে C; তাই A অবশ্যই C-এর আগে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_653",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-17.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি ‘সব A হলো B’ এবং ‘কোনো B হলো C নয়’, তবে কোনটি সত্য?",
+      "options": [
+        "কিছু A হলো C",
+        "কোনো A হলো C নয়",
+        "সব C হলো A",
+        "কিছু B হলো C"
+      ],
+      "answerIndex": 1,
+      "answer": "কোনো A হলো C নয়",
+      "explanation": "A-এর সব সদস্য B-এর মধ্যে, আর B-এর কোনো সদস্য C নয়; তাই A ও C-এর কোনো সদস্য অভিন্ন নয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    }
   ]
 }
