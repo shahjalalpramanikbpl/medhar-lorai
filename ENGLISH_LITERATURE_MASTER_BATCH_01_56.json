@@ -7,14 +7,17 @@
     "batch_51_56_candidate": 12,
     "batch_51_56_exact_duplicates_removed": 3,
     "batch_51_56_unique": 9,
-    "consolidated_unique": 290,
+    "consolidated_unique": 285,
     "exact_duplicates_after_merge": 0,
-    "invalid_option_or_answer_structure": 0
+    "invalid_option_or_answer_structure": 0,
+    "final_reconciliation_duplicates_removed": 5,
+    "source_reviewed_candidates_before_final_dedup": 290,
+    "final_retained_reviewed_unique": 285
   },
-  "deduplication": "Exact full signature only: normalized category + normalized question + sorted normalized options + normalized correct answer. Similar wording with different option sets retained.",
+  "deduplication": "Exact full signature only: normalized category (category or c) + normalized question + sorted normalized options + normalized correct answer. Similar wording with different option sets retained. Final consolidated reconciliation found and removed five additional exact duplicate copies: extra_433, extra_471, extra_542, extra_619, extra_657. The earlier provisional count of 290 unique entries was corrected to 285 unique retained records.",
   "fact_check": {
-    "status": "ALL_RECORDS_SOURCE_CHECKED_PENDING_FINAL_RECONCILIATION",
-    "note": "All 290 retained English Literature records have now received source-based content review: expansion batches 01–56 (159 records) and base bank base_001–base_131 (131 records). This completes factual/answer/explanation review. Before LOCK, perform final consolidated master/runtime consistency and exact-duplicate/structure validation, then record the final LOCKED checkpoint."
+    "status": "ALL_RETAINED_RECORDS_SOURCE_CHECKED",
+    "note": "All 290 candidate English Literature records were source-reviewed (159 expansion + 131 base bank). Final full-signature reconciliation removed five exact duplicate copies, leaving 285 unique retained records. All 285 retained records have source-based content review coverage. Final runtime, duplicate and structural reconciliation passed; the subject may be marked LOCKED."
   },
   "records": [
     {
@@ -2916,23 +2919,6 @@
       "sourceUrl": ""
     },
     {
-      "id": "extra_433",
-      "batch": 11,
-      "c": "English Literature",
-      "q": "Who wrote the novel “Pride and Prejudice”?",
-      "o": [
-        "Charlotte Brontë",
-        "Jane Austen",
-        "George Eliot",
-        "Mary Shelley"
-      ],
-      "a": 1,
-      "e": "Jane Austen published Pride and Prejudice in 1813.",
-      "source": "Novel",
-      "sourceUrl": "",
-      "origin": "expansion"
-    },
-    {
       "id": "extra_434",
       "batch": 11,
       "c": "English Literature",
@@ -3013,23 +2999,6 @@
       ],
       "a": 1,
       "e": "Ernest Hemingway wrote The Old Man and the Sea, published in 1952.",
-      "source": "Novel",
-      "sourceUrl": "",
-      "origin": "expansion"
-    },
-    {
-      "id": "extra_471",
-      "batch": 12,
-      "c": "English Literature",
-      "q": "Who wrote the novel “Jane Eyre”?",
-      "o": [
-        "Emily Brontë",
-        "Charlotte Brontë",
-        "Anne Brontë",
-        "George Eliot"
-      ],
-      "a": 1,
-      "e": "Charlotte Brontë published Jane Eyre in 1847.",
       "source": "Novel",
       "sourceUrl": "",
       "origin": "expansion"
@@ -3290,23 +3259,6 @@
       "origin": "expansion"
     },
     {
-      "id": "extra_542",
-      "batch": 14,
-      "c": "English Literature",
-      "q": "Who wrote “Gulliver’s Travels”?",
-      "o": [
-        "Daniel Defoe",
-        "Jonathan Swift",
-        "Henry Fielding",
-        "Samuel Richardson"
-      ],
-      "a": 1,
-      "e": "Jonathan Swift wrote Gulliver’s Travels, first published in 1726.",
-      "source": "Satire",
-      "sourceUrl": "",
-      "origin": "expansion"
-    },
-    {
       "id": "extra_543",
       "batch": 14,
       "c": "English Literature",
@@ -3426,23 +3378,6 @@
       "origin": "expansion"
     },
     {
-      "id": "extra_619",
-      "batch": 16,
-      "c": "English Literature",
-      "q": "Who wrote the play “Doctor Faustus”?",
-      "o": [
-        "Christopher Marlowe",
-        "Ben Jonson",
-        "John Webster",
-        "Thomas Kyd"
-      ],
-      "a": 0,
-      "e": "Christopher Marlowe wrote The Tragical History of Doctor Faustus.",
-      "source": "Drama",
-      "sourceUrl": "",
-      "origin": "expansion"
-    },
-    {
       "id": "extra_620",
       "batch": 16,
       "c": "English Literature",
@@ -3507,23 +3442,6 @@
       "a": 0,
       "e": "John Milton wrote the epic poem Paradise Lost, first published in 1667.",
       "source": "Epic poetry",
-      "sourceUrl": "",
-      "origin": "expansion"
-    },
-    {
-      "id": "extra_657",
-      "batch": 17,
-      "c": "English Literature",
-      "q": "Who wrote “The Waste Land”?",
-      "o": [
-        "W. B. Yeats",
-        "T. S. Eliot",
-        "W. H. Auden",
-        "Robert Frost"
-      ],
-      "a": 1,
-      "e": "T. S. Eliot’s modernist poem The Waste Land was published in 1922.",
-      "source": "Poetry",
       "sourceUrl": "",
       "origin": "expansion"
     },
@@ -5446,5 +5364,44 @@
     ],
     "review_date": "2026-11-27",
     "overall_subject_status": "PROVISIONAL_PENDING_FINAL_RECONCILIATION"
+  },
+  "final_reconciliation": {
+    "status": "PASSED",
+    "date": "2026-11-27",
+    "reviewed_candidate_records": 290,
+    "final_unique_records": 285,
+    "base_bank_records": 131,
+    "expansion_records": 154,
+    "exact_duplicate_copies_removed": 5,
+    "remaining_exact_duplicate_groups": 0,
+    "malformed_records": 0,
+    "invalid_option_or_answer_structure": 0,
+    "base_bank_reviewed": 131,
+    "expansion_reviewed": 159,
+    "content_review_coverage": "All 290 candidate records were source-reviewed before final deduplication; the five removed records were exact copies of retained records.",
+    "runtime_duplicate_removals": [
+      {
+        "id": "extra_433",
+        "file": "job-prep-expansion-11.js"
+      },
+      {
+        "id": "extra_471",
+        "file": "job-prep-expansion-12.js"
+      },
+      {
+        "id": "extra_542",
+        "file": "job-prep-expansion-14.js"
+      },
+      {
+        "id": "extra_619",
+        "file": "job-prep-expansion-16.js"
+      },
+      {
+        "id": "extra_657",
+        "file": "job-prep-expansion-17.js"
+      }
+    ],
+    "runtime_base_alignment": "All 131 base-bank entries were fetched from live runtime source and matched the master at their mapped source locations.",
+    "runtime_expansion_alignment": "Expansion entries had already been checked against runtime source during batch audits; final duplicate copies were removed from the five corresponding runtime expansion files and re-fetched for verification."
   }
 }
