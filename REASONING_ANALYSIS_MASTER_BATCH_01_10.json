@@ -9,7 +9,8 @@
     "uniqueRecords": 436,
     "quantitativeCandidates": 44,
     "retainedReasoning": 392,
-    "exactDuplicateCopiesRemoved": 16
+    "exactDuplicateCopiesRemoved": 16,
+    "lastNote": "Mistakenly generated batches 61-70 and their records were removed at user request. These were not original source batches and must not be counted as audited content. Verify the original batch inventory before continuing."
   },
   "duplicateRemovals": [
     {
@@ -8099,103 +8100,7 @@
       ],
       "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING",
       "nextRange": "61-70"
-    },
-    {
-      "range": "61-70",
-      "candidateCount": 100,
-      "reviewedCount": 100,
-      "exactDuplicateMatchesAgainstConsolidated01_60": 0,
-      "exactDuplicateMatchesWithinCheckpoint": 0,
-      "duplicateRemovals": [],
-      "quantitativeAptitudeCandidates": 0,
-      "retainedReasoningCandidates": 100,
-      "corrections": [
-        {
-          "id": "extra_2041",
-          "change": "answerIndex 0 → 2",
-          "correctAnswer": "U",
-          "reason": "Backward letter gaps increase by 1: −4, −5, −6, −7, then −8."
-        },
-        {
-          "id": "extra_2043",
-          "change": "example code corrected from SUN→TVM to SUN→TVO",
-          "reason": "Each letter is shifted forward by one; N must map to O."
-        },
-        {
-          "id": "extra_2051",
-          "change": "answerIndex 1 → 2",
-          "correctAnswer": "H",
-          "reason": "Alphabet gaps +4,+5,+6,+7,+8."
-        },
-        {
-          "id": "extra_2053",
-          "change": "answerIndex 1 → 3",
-          "correctAnswer": "পশ্চিম",
-          "reason": "Facing east, two right turns lead west."
-        },
-        {
-          "id": "extra_2061",
-          "change": "answerIndex 2 → 1",
-          "correctAnswer": "U",
-          "reason": "Alphabet gaps +2,+3,+4,+5,+6."
-        },
-        {
-          "id": "extra_2063",
-          "change": "answerIndex 1 → 3",
-          "correctAnswer": "পশ্চিম",
-          "reason": "Facing east, two right turns lead west."
-        },
-        {
-          "id": "extra_2071",
-          "change": "answerIndex 0 → 2",
-          "correctAnswer": "F",
-          "reason": "Alphabet gaps +4,+5,+6,+7,+8."
-        },
-        {
-          "id": "extra_2078",
-          "change": "question wording corrected to specify 7 people to Tanvir's right",
-          "correctAnswer": "১৫",
-          "reason": "Original wording gave only the left-side position and could not determine total."
-        },
-        {
-          "id": "extra_2091",
-          "change": "answerIndex 0 → 2",
-          "correctAnswer": "E",
-          "reason": "Alphabet gaps +4,+5,+6,+7,+8."
-        },
-        {
-          "id": "extra_2101",
-          "change": "answerIndex 0 → 2",
-          "correctAnswer": "L",
-          "reason": "Alphabet gaps +3,+4,+5,+6,+7."
-        },
-        {
-          "id": "extra_2111",
-          "change": "answerIndex 1 → 2",
-          "correctAnswer": "G",
-          "reason": "Alphabet gaps +4,+5,+6,+7,+8."
-        },
-        {
-          "id": "extra_2113",
-          "change": "answerIndex 1 → 0",
-          "correctAnswer": "উত্তর",
-          "reason": "West→left turn South; then right 180 degrees points North."
-        }
-      ],
-      "newlyAuthoredBatches": [
-        "61",
-        "62",
-        "63",
-        "64",
-        "65",
-        "66",
-        "67",
-        "68",
-        "69",
-        "70"
-      ],
-      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING",
-      "nextRange": "71-80"
     }
-  ]
+  ],
+  "nextRange": "61-70 (awaiting verification of original source batches)"
 }
