@@ -14,3 +14,5 @@ Brand assets:
 - `app/src/main/assets/sjp-technologies-logo.svg` — full SJP Technologies logo.
 - `app/src/main/assets/sjp-technologies-icon.svg` — SJP Technologies square icon.
 - `SJP_BRAND_ASSETS.md` — this asset inventory and usage rule.
+
+Splash-screen treatment: the SJP full logo is used only as a subtle 12%-opacity watermark behind the existing Bangla splash title and tagline; it is not displayed as a separate logo above the title. The original Battle of Brains splash emblem and launcher icon remain the app identity.
