@@ -178,22 +178,6 @@ const additions=[
     "d": "মাঝারি"
   },
   {
-    "id": "extra_1110",
-    "c": "English Literature",
-    "q": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
-    "o": [
-      "Macbeth",
-      "Hamlet",
-      "Othello",
-      "King Lear"
-    ],
-    "a": 1,
-    "e": "Rosencrantz and Guildenstern appear in Shakespeare's Hamlet.",
-    "source": "Drama",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
     "id": "extra_1111",
     "c": "মানসিক দক্ষতা ও IQ",
     "q": "ধারাটির পরবর্তী সংখ্যা কত: ৩, ৮, ১৫, ২৪, ৩৫, ...?",
