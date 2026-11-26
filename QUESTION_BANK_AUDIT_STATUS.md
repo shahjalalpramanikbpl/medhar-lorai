@@ -598,3 +598,12 @@
 - Master: `ENGLISH_LITERATURE_AUDIT_MASTER_BATCH_11_20.json` (commit `520ec166a64e23aabac30c64193a5fced4320d7c`)।
 - রিপোর্ট: `ENGLISH_LITERATURE_AUDIT_BATCH_11_20.md` (commit `1d7e320f5f2ec780e3660ae0fa0f4ea1ec382cf4`)।
 - **NOT LOCKED:** ১১–২০-এর ৪৩টি প্রশ্নের পূর্ণ তথ্যসূত্রভিত্তিক fact-check এবং ০১–২০ consolidated master তৈরি বাকি।
+
+
+## English Literature — Consolidated Master 01–20 (২৭ নভেম্বর ২০২৬)
+- ০১–১০: 161 unique + ১১–২০: 43 unique = **204 unique records**।
+- Consolidated full-signature scan: duplicate ০; invalid option/answer structure ০; duplicate ID ০।
+- ১১–২০-এর meta/editorial explanation `extra_544`, `extra_723` সংশোধিত।
+- Master: `ENGLISH_LITERATURE_MASTER_BATCH_01_20.json` (commit `83eee170e0e407115273e38740ee5ca06d464495`)।
+- রিপোর্ট: `ENGLISH_LITERATURE_AUDIT_CONSOLIDATED_01_20.md` (commit `dcafd7a879b105b10aea0af661810e8ef21f9e5c`)।
+- **PROVISIONAL_MASTER_NOT_LOCKED:** পূর্ণ ২০৪ প্রশ্নের প্রতিটি তথ্য/ব্যাখ্যার উৎসভিত্তিক যাচাই এখনো শেষ হয়নি। ২১–৩০-এর আগে fact-check ও পরবর্তী গ্রুপের তুলনা বাকি।
