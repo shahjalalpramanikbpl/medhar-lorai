@@ -247,23 +247,7 @@ const additions=[
     "source": "আন্তর্জাতিক বিষয়াবলি — G20 2025",
     "sourceUrl": "https://g20.org/",
     "d": "মাঝারি"
-  },
-  {
-    "id": "extra_1420",
-    "c": "English Literature",
-    "q": "Who wrote the novel 'Pride and Prejudice'?",
-    "o": [
-      "Jane Austen",
-      "George Eliot",
-      "Virginia Woolf",
-      "Mary Shelley"
-    ],
-    "a": 0,
-    "e": "Jane Austen wrote Pride and Prejudice, first published in 1813.",
-    "source": "English Literature — Novel",
-    "d": "সহজ"
-  },
-  {
+  },{
     "id": "extra_1421",
     "c": "English Literature",
     "q": "'The Waste Land' is a landmark poem by which modernist poet?",
