@@ -354,24 +354,7 @@ const additions = [
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
     "sourceUrl": "",
     "d": "মাঝারি"
-  },
-  {
-    "id": "extra_819",
-    "c": "যুক্তি ও বিশ্লেষণ",
-    "q": "একটি ঘড়িতে ৩টা ৩০ মিনিটে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী ক্ষুদ্র কোণ কত?",
-    "o": [
-      "৬০°",
-      "৭৫°",
-      "৯০°",
-      "১০৫°"
-    ],
-    "a": 1,
-    "e": "৩:৩০-এ মিনিটের কাঁটা ১৮০° এবং ঘণ্টার কাঁটা ১০৫°; ব্যবধান ৭৫°।",
-    "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  }
-];
+  }];
 const bank=window.JOB_PREP_BANK;
 if(!Array.isArray(bank)) throw new Error('JOB_PREP_BANK পাওয়া যায়নি।');
 const norm=s=>String(s||'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
