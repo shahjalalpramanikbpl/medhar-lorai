@@ -668,3 +668,14 @@
 - এই ৩০টি expansion record-এর content review সম্পন্ন; কোনো প্রশ্ন/উত্তর পরিবর্তন প্রয়োজন হয়নি।
 - **সীমা:** মূল base bank-এর ১৩১টি প্রশ্ন এই checkpoint-এ অন্তর্ভুক্ত নয়। তাই পুরো ২৯০ প্রশ্নের মাস্টার এখনো **PROVISIONAL / NOT LOCKED**।
 - বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_01_10.md`; master metadata আপডেট করা হয়েছে।
+
+
+## English Literature — source-based content review, batches 11–20 (2026-11-27)
+- Expansion batches ১১–২০-এর retained English Literature প্রশ্ন **৪৩টি**—প্রশ্ন, সঠিক উত্তর ও ব্যাখ্যা উৎসভিত্তিকভাবে যাচাই করা হয়েছে।
+- নিশ্চিত factual error: **০**; ভুল answer key: **০**; runtime question/explanation correction: **০**।
+- `extra_544`-এর runtime explanation আগেই সংশোধিত ছিল; consolidated master-এ পুরোনো meta/editorial text থেকে যাওয়ায় master snapshot-এ সঠিক বিষয়ভিত্তিক ব্যাখ্যা sync করা হয়েছে।
+- আগের deduplication checkpoint-এ ৫০টি candidate থেকে ৭টি exact duplicate বাদ দিয়ে ৪৩টি retained record রাখা হয়েছিল।
+- এই checkpoint-এর ৪৩টি expansion record content review সম্পন্ন। মূল base bank অন্তর্ভুক্ত নয়।
+- Cumulative source-based review: ০১–১০-এর ৩০ + ১১–২০-এর ৪৩ + ৫১–৫৬-এর ৯ = **৮২/২৯০**; বাকি **২০৮**।
+- রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_11_20.md`; master metadata updated.
+- **English Literature overall: PROVISIONAL / NOT LOCKED** — সব ২৯০টি প্রশ্নের পূর্ণ যাচাই শেষ হয়নি।
