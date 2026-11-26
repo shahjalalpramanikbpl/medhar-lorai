@@ -14,7 +14,7 @@
   "deduplication": "Exact full signature only: normalized category + normalized question + sorted normalized options + normalized correct answer. Similar wording with different option sets retained.",
   "fact_check": {
     "status": "PARTIAL_SOURCE_BASED_REVIEW_COMPLETE",
-    "note": "Source-based content review completed for retained expansion records in batches 01–10 (30), 11–20 (43), 21–30 (23), 31–40 (26), and 51–56 (9). The 131 base-bank records and retained expansion records from batches 41–50 still require item-by-item content verification. The consolidated 290-record master remains provisional and must not be locked."
+    "note": "Source-based content review completed for retained expansion records in batches 01–10 (30), 11–20 (43), 21–30 (23), 31–40 (26), 41–50 (28), and 51–56 (9). The 131 base-bank records remain unverified. Total reviewed: 159/290; 131 remain. The consolidated master must remain provisional and must not be locked until every record is checked."
   },
   "records": [
     {
@@ -5245,5 +5245,15 @@
     "option_answer_index_mismatches": 0,
     "runtime_content_corrections": 0,
     "note": "All 26 retained English Literature expansion records from batches 31–40 were checked for factual accuracy, keyed answer, explanation, and answer-index alignment against authoritative literary, library, publisher, and institutional references. No confirmed errors or corrections were required."
+  },
+  "content_review_batches_41_50": {
+    "status": "CONTENT_CHECKED",
+    "checked_records": 28,
+    "confirmed_factual_errors": 0,
+    "incorrect_answer_keys": 0,
+    "explanation_corrections": 0,
+    "option_answer_index_mismatches": 0,
+    "runtime_content_corrections": 0,
+    "note": "All retained English Literature records from expansion batches 41–50 were reviewed for factual accuracy, keyed answers, explanations, and option/answer-index alignment against literary, library, publisher, and institutional sources. No confirmed errors or corrections were required."
   }
 }
