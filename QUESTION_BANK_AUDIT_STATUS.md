@@ -756,3 +756,11 @@
 - Content review coverage: expansion batches 01–56 = 159; base bank 001–131 = 131; all 285 retained unique questions covered by source-based review.
 - Final report: `ENGLISH_LITERATURE_FINAL_LOCK_REPORT.md`; master status set to `LOCKED_FINAL_285_UNIQUE_RECORDS`.
 - এই বিষয়টি LOCK করা হলো। ব্যবহারকারীর স্পষ্ট নির্দেশ ছাড়া পুনরায় খুলবে না।
+
+
+## Computer & ICT — Batch 01–10 checkpoint (২৭ নভেম্বর ২০২৬)
+- Base bank ১৫০ + প্রথম ১০ expansion batch থেকে ICT ৪২ = ১৯২ candidate entry পাওয়া যায়।
+- Canonical full-signature তুলনায় ৩টি হুবহু duplicate copy শনাক্ত ও runtime expansion থেকে বাদ: `extra_025`, `extra_141`, `extra_385`; তিনটিরই অনুপস্থিতি পুনরায় fetch করে যাচাই।
+- পুনরায় গণনা: ১৫০ base + ৩৯ expansion = **১৮৯ unique candidates**; exact duplicate group ০, malformed four-option/answer-index record ০।
+- এটি শুধু inventory/duplicate/structure checkpoint; ১৮৯টির factual accuracy ও answer/explanation review চলমান। **NOT LOCKED**।
+- বিস্তারিত: `COMPUTER_ICT_BATCH_01_10_PROGRESS.md`।
