@@ -402,22 +402,6 @@ const additions=[
     "d": ""
   },
   {
-    "id": "extra_542",
-    "c": "English Literature",
-    "q": "Who wrote “Gulliver’s Travels”?",
-    "o": [
-      "Daniel Defoe",
-      "Jonathan Swift",
-      "Henry Fielding",
-      "Samuel Richardson"
-    ],
-    "a": 1,
-    "e": "Jonathan Swift wrote Gulliver’s Travels, first published in 1726.",
-    "source": "Satire",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
     "id": "extra_543",
     "c": "English Literature",
     "q": "“The Raven” is a famous poem by which writer?",
