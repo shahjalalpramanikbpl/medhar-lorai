@@ -11,8 +11,8 @@ android {
         applicationId = "com.medhar.lorai"
         minSdk = 23
         targetSdk = 35
-        versionCode = 21
-        versionName = "3.0"
+        versionCode = 22
+        versionName = "3.1"
     }
 
     signingConfigs {
@@ -39,4 +39,22 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+}
+ 
+// Generate the in-app version label from the same Gradle version used by Android.
+val generatedAppVersionAssets = layout.buildDirectory.dir("generated/app-version/assets")
+android.sourceSets.getByName("main").assets.srcDir(generatedAppVersionAssets)
+val generateAppVersionAsset by tasks.registering {
+    val releaseName = android.defaultConfig.versionName ?: "0.0"
+    val outputFile = generatedAppVersionAssets.map { it.file("app-version.js") }
+    inputs.property("versionName", releaseName)
+    outputs.file(outputFile)
+    doLast {
+        val target = outputFile.get().asFile
+        target.parentFile.mkdirs()
+        target.writeText("window.ML_APP_VERSION = '${releaseName}';\\n")
+    }
+}
+tasks.named("preBuild").configure {
+    dependsOn(generateAppVersionAsset)
 }
