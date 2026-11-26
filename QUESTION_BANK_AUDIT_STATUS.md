@@ -709,3 +709,12 @@
 - Cumulative source-based review: ০১–১০-এর ৩০ + ১১–২০-এর ৪৩ + ২১–৩০-এর ২৩ + ৩১–৪০-এর ২৬ + ৪১–৫০-এর ২৮ + ৫১–৫৬-এর ৯ = **১৫৯/২৯০**; বাকি **১৩১টি**, সবই মূল base bank।
 - বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_41_50.md`; consolidated master metadata আপডেট।
 - **English Literature overall: PROVISIONAL / NOT LOCKED** — base bank-এর ১৩১টি প্রশ্নের item-by-item যাচাই এখনো বাকি।
+
+
+## English Literature — base-bank source-based content review 001–030 (2026-11-27)
+- মূল base bank-এর প্রথম **৩০টি** English Literature প্রশ্ন (base_001–base_030) প্রশ্ন, চারটি option, answer index, সঠিক উত্তর ও ব্যাখ্যাসহ যাচাই করা হয়েছে।
+- Live runtime file `app/src/main/assets/job-prep-suite.js`-এর source lines 86–115 পুনরায় fetch করে master-এর সঙ্গে মিলিয়ে দেখা হয়েছে; ৩০/৩০ record সম্পূর্ণ মিলে গেছে।
+- নিশ্চিত factual error: **০**; ভুল answer key: **০**; explanation correction: **০**; option/answer-index mismatch: **০**; runtime correction: **০**।
+- Cumulative source-based review: expansion batches 01–56-এর **১৫৯** + base-bank-এর **৩০** = **১৮৯/২৯০**; বাকি **১০১টি** base-bank প্রশ্ন।
+- বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BASE_001_030.md`; consolidated master metadata updated.
+- **English Literature overall: PROVISIONAL / NOT LOCKED** — বাকি ১০১টি base-bank প্রশ্ন যাচাই না হওয়া পর্যন্ত LOCK করা হবে না।
