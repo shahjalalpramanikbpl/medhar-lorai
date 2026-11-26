@@ -514,22 +514,6 @@ const additions=[
     "d": ""
   },
   {
-    "id": "extra_619",
-    "c": "English Literature",
-    "q": "Who wrote the play “Doctor Faustus”?",
-    "o": [
-      "Christopher Marlowe",
-      "Ben Jonson",
-      "John Webster",
-      "Thomas Kyd"
-    ],
-    "a": 0,
-    "e": "Christopher Marlowe wrote The Tragical History of Doctor Faustus.",
-    "source": "Drama",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
     "id": "extra_620",
     "c": "English Literature",
     "q": "Which poet is associated with the phrase “negative capability”?",
