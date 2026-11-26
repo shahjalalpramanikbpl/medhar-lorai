@@ -1,7 +1,7 @@
 {
   "schema": "medhar-lorai.reasoning-analysis-audit.v1",
   "createdAt": "2026-11-27",
-  "status": "REVALIDATION_IN_PROGRESS_NOT_LOCKED",
+  "status": "FINAL_REVALIDATION_PENDING_NOT_LOCKED",
   "inventory": {
     "baseUniqueAfterDuplicateRemoval": 142,
     "expansion01_10CandidatesReviewed": 44,
@@ -10,7 +10,7 @@
     "quantitativeCandidates": 44,
     "retainedReasoning": 252,
     "exactDuplicateCopiesRemoved": 16,
-    "lastNote": "Assistant-authored batches 57-60 and 61-70 were removed from repository and audit master at user direction. Original expansion files currently verified in main end at batch 56. Do not assume additional batches exist; verify original records/commit history before proceeding."
+    "lastNote": "GitHub history verified: the original expansion source inventory ends at batch 56. The parent commit immediately before the first assistant-authored batch-57 addition contains original expansion files 02-56 and the generic job-prep-expansion.js, with no batch 57 or later. Assistant-authored batches 57-60 and 61-70 have been removed from the current main branch and audit master. No further original reasoning expansion batches exist. Counts retained as recorded; subject remains NOT LOCKED pending final consistency validation."
   },
   "duplicateRemovals": [
     {
@@ -5548,9 +5548,10 @@
           "notes": "Existing files contain Bengali/English content, not reasoning-category candidates; locked subjects left unchanged."
         }
       ],
-      "status": "CHECKPOINT_REVIEWED_FOR_EXISTING_CONTENT_ONLY; SUBJECT_NOT_LOCKED; ORIGINAL_LATER_BATCH_INVENTORY_PENDING",
-      "nextRange": "57-66 (only if verified in original source inventory)"
+      "status": "ORIGINAL_SOURCE_INVENTORY_CONFIRMED_ENDS_AT_56; CHECKPOINT_REVIEWED_FOR_EXISTING_CONTENT_ONLY; SUBJECT_NOT_LOCKED_PENDING_FINAL_CONSISTENCY_VALIDATION",
+      "nextRange": "No original batch after 56; final consistency validation only",
+      "sourceInventoryConclusion": "Original source inventory verified from GitHub parent commit 273f719ae5dfc54ea9ebbae3e8f25698f0ea9276: expansion files 02-56 only; no original 57+."
     }
   ],
-  "nextRange": "57 onward — pending confirmation of original source batches"
+  "nextRange": "No further original expansion batches; complete final consistency validation, then decide LOCK status"
 }
