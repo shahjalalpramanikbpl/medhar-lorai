@@ -764,3 +764,10 @@
 - পুনরায় গণনা: ১৫০ base + ৩৯ expansion = **১৮৯ unique candidates**; exact duplicate group ০, malformed four-option/answer-index record ০।
 - এটি শুধু inventory/duplicate/structure checkpoint; ১৮৯টির factual accuracy ও answer/explanation review চলমান। **NOT LOCKED**।
 - বিস্তারিত: `COMPUTER_ICT_BATCH_01_10_PROGRESS.md`।
+
+
+## Computer & ICT — Batch 01–10 content review update (২৭ নভেম্বর ২০২৬)
+- ১৫০টি base + ৩৯টি retained expansion = **১৮৯টি** প্রশ্নের বিষয়বস্তু, উত্তরসূচি, ব্যাখ্যা ও অস্পষ্টতা পর্যালোচনা সম্পন্ন।
+- ৩টি হুবহু duplicate copy আগেই বাদ; চূড়ান্ত inventory-তে ০ duplicate group।
+- ১০২৪ byte বোঝাতে ব্যবহৃত “কিলোবাইট” শব্দটি তিনটি প্রশ্নে সংশোধন করে **কিবিবাইট (KiB)** করা হয়েছে; SI **kB = ১০০০ bytes** পার্থক্য ব্যাখ্যায় যোগ করা হয়েছে।
+- এই মুহূর্তে content review সম্পন্ন; consolidated master এবং final runtime reconciliation বাকি। **NOT LOCKED**। বিস্তারিত `COMPUTER_ICT_BATCH_01_10_PROGRESS.md`।
