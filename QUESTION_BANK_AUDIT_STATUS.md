@@ -746,3 +746,13 @@
 - Cumulative source-based review: expansion batches 01–56-এর **১৫৯** + base-bank-এর **১৩১** = **২৯০/২৯০**।
 - বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BASE_091_131.md`; consolidated master metadata updated.
 - সব ২৯০টি প্রশ্নের content review সম্পন্ন। **LOCK দেওয়ার আগে** final consolidated master/runtime consistency, exact-duplicate ও structural validation বাকি; তাই এখনই LOCKED বলা হচ্ছে না।
+
+
+## ENGLISH LITERATURE — FINAL LOCKED (2026-11-27)
+- **LOCKED_FINAL_285_UNIQUE_RECORDS**.
+- 290 candidate records source-reviewed: expansion 159 + base bank 131.
+- Final exact-signature reconciliation identified and removed **৫টি** exact duplicate copies from runtime and master; final retained bank = **২৮৫টি unique প্রশ্ন** (base 131 + expansion 154).
+- Final validation: remaining exact duplicate groups **০**; malformed records **০**; invalid four-option/answer-index structures **০**; all 131 base-bank runtime records matched the master; all five final duplicate runtime removals re-fetched and confirmed absent.
+- Content review coverage: expansion batches 01–56 = 159; base bank 001–131 = 131; all 285 retained unique questions covered by source-based review.
+- Final report: `ENGLISH_LITERATURE_FINAL_LOCK_REPORT.md`; master status set to `LOCKED_FINAL_285_UNIQUE_RECORDS`.
+- এই বিষয়টি LOCK করা হলো। ব্যবহারকারীর স্পষ্ট নির্দেশ ছাড়া পুনরায় খুলবে না।
