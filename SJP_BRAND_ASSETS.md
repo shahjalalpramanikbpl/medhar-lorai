@@ -1,19 +1,16 @@
-# SJP Technologies — Brand Integration Record
+# SJP Technologies — Play Store Brand Assets
 
-- Official brand: **SJP Technologies** (not SJB).
+- Official publisher/creator brand: **SJP Technologies**.
 - Slogan: **Innovating Ideas, Empowering Minds**.
-- Approved identity: option 6, blue/cyan digital globe with silver/cyan SJP monogram and orbit motif.
+- Approved identity: blue/cyan digital globe with silver/cyan SJP monogram and orbit motif.
 - Product: মেধার লড়াই — Battle of Brains.
-- In-app placement: branded launch splash, home-screen “Powered by SJP Technologies” footer, and Android launcher icon.
-- The app name and Battle of Brains hero artwork remain the primary product identity; SJP Technologies is the publisher/creator brand.
-- Build instruction: branding integration is complete; run the requested combined Android build without changing the app version.
+- App launcher icon: retain the original Battle of Brains icon. SJP branding must not replace the app icon.
+- In-app attribution: **Powered by SJP Technologies**, with the SJP icon at the bottom of the home screen.
+- Play Store registration assets are kept separately below for future store listing / publisher branding use.
 
-Version lock for this build:
-- versionCode: 24
-- versionName: 3.3
-- Do not modify either value.
+Version lock: versionCode 24; versionName 3.3. Do not change either value for this branding correction.
 
-Assets:
-- app/src/main/assets/sjp-technologies-logo.svg
-- app/src/main/assets/sjp-technologies-icon.svg
-- app/src/main/res/mipmap-anydpi/ic_launcher.xml
+Brand assets:
+- `app/src/main/assets/sjp-technologies-logo.svg` — full SJP Technologies logo.
+- `app/src/main/assets/sjp-technologies-icon.svg` — SJP Technologies square icon.
+- `SJP_BRAND_ASSETS.md` — this asset inventory and usage rule.
