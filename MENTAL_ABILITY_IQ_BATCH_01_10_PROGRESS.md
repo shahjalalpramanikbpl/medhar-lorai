@@ -76,3 +76,12 @@
 - দুই source content line-by-line তুলনায় পার্থক্য মাত্র **২টি line**: পুরোনো interstitial launcher logic এবং level-completion AdMob callback। ৩০০ প্রশ্নের generator/bank content-এ কোনো line difference পাওয়া যায়নি।
 - অতএব এটি question-content drift নয়; post-lock ad-integration change। Math ৩০০-question LOCK অক্ষত। IQ-এর ৯৮টি quantitative candidate Math-এর ৩০০ master-এর সঙ্গে exact duplicate collision ০; কিন্তু এগুলো যোগ করার জন্য Math module-এ পৃথক supplementary practice integration প্রয়োজন, যা এখনো করা হয়নি।
 - Classification master: `MENTAL_ABILITY_IQ_CLASSIFICATION_MASTER_BATCH_01_10.json` — ১৯২ record; proposed Math ৯৮, retain IQ ৯৪; status `CLASSIFICATION_REVIEWED_PENDING_RUNTIME_MIGRATION_NOT_LOCKED`।
+
+
+## পরিমাণগত দক্ষতা আলাদা অনুশীলন — ২৭ নভেম্বর ২০২৬
+- মানসিক দক্ষতা ও IQ-এর অডিটকৃত ১৯২টি অনন্য প্রশ্নের মধ্যে ৯৮টি শতকরা, গড়, লাভ-ক্ষতি, অনুপাত, বয়স/কাজ, গতি-দূরত্ব, সম্ভাবনা, বীজগণিত ও ক্ষেত্রফলভিত্তিক প্রশ্ন আলাদা **“পরিমাণগত দক্ষতা অনুশীলন”** বিভাগে স্থানান্তরের জন্য runtime-এ শ্রেণিবিন্যাস কোড যোগ করা হয়েছে।
+- IQ বিভাগে রাখার জন্য নির্ধারিত প্রশ্ন: **৯৪টি**।
+- মূল গণিতের ৩০ লেভেলের ৩০০ প্রশ্ন অপরিবর্তিত; নতুন ৯৮টি প্রশ্ন আলাদা অনুশীলন বিভাগে থাকবে, মূল গণিত ব্যাংকে মেশানো হয়নি।
+- নতুন বিভাগে ১০টি করে প্রশ্নের ধারাবাহিক লেভেল হবে; ৯৮ প্রশ্নে ৯টি পূর্ণ লেভেল ও শেষ লেভেলে ৮টি প্রশ্ন।
+- Runtime পরিবর্তন commits: `68d77f6`, `8f0c8c7`।
+- **এখনো LOCK নয়:** GitHub Actions-এ বাস্তব runtime count (৯৮/৯৪), malformed/duplicate validation, regression এবং release build সফলভাবে যাচাই হওয়ার পরই IQ বিভাগ চূড়ান্ত LOCK করা হবে।
