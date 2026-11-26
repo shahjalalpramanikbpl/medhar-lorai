@@ -830,3 +830,9 @@
 - Subject-fit classification: ৯৮টি Quantitative Aptitude/Math transfer candidate (৮৩ base + ১৫ expansion), ৯৪টি IQ/Reasoning retain candidate। ৯৮টির locked Math master-এ category বাদ দিয়ে exact duplicate collision ০।
 - Math master source SHA ও বর্তমান Math runtime SHA-তে অমিল; runtime-ও আলাদা generated ৩০-level system। তাই transfer integration ও source reconciliation বাকি; IQ **IN_PROGRESS / NOT LOCKED**।
 - বিস্তারিত: `MENTAL_ABILITY_IQ_BASE_CONTENT_REVIEW_001_150.md` এবং `MENTAL_ABILITY_IQ_BATCH_01_10_PROGRESS.md`।
+
+
+## ২৭ নভেম্বর ২০২৬ — Math source SHA discrepancy ব্যাখ্যা
+- Math LOCK master source এবং বর্তমান `math-levels.js`-এর SHA আলাদা; line-by-line তুলনায় মাত্র ২টি post-lock AdMob/interstitial integration line পরিবর্তিত। Math-এর ৩০০ প্রশ্নের generator/content অপরিবর্তিত পাওয়া গেছে।
+- IQ-এর ৯৮টি quantitative candidate-এর locked Math master-এ exact duplicate collision ০। Math ৩০০ প্রশ্নের LOCK অক্ষত রেখে ৯৮টি যুক্ত করতে আলাদা supplementary practice integration প্রয়োজন; এখনো runtime migration করা হয়নি।
+- IQ classification master: `MENTAL_ABILITY_IQ_CLASSIFICATION_MASTER_BATCH_01_10.json` (১৯২ records; Math candidate ৯৮; IQ retain ৯৪)। IQ এখনো **IN_PROGRESS / NOT LOCKED**।
