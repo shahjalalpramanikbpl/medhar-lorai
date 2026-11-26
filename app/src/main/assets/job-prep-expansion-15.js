@@ -489,22 +489,6 @@ const additions = [
     "sourceDate": "2026-10-29"
   },
   {
-    "id": "extra_580",
-    "c": "English Literature",
-    "q": "Who wrote the novel “Jane Eyre”?",
-    "o": [
-      "Emily Brontë",
-      "Charlotte Brontë",
-      "Anne Brontë",
-      "George Eliot"
-    ],
-    "a": 1,
-    "e": "Charlotte Brontë published Jane Eyre in 1847.",
-    "source": "Novel",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
     "id": "extra_581",
     "c": "English Literature",
     "q": "Who wrote the poem “Ode to a Nightingale”?",
