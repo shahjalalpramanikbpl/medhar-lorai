@@ -4,12 +4,17 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:usesCleartextTraffic="false"
         android:icon="@mipmap/ic_launcher"
 android:roundIcon="@mipmap/ic_launcher"
         android:allowBackup="true"
         android:label="মেধার লড়াই"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1476862328082201~9819521287" />
 
         <activity
             android:name=".MainActivity"
