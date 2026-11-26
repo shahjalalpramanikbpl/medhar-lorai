@@ -326,21 +326,7 @@ const additions=[
     "sourceUrl": "https://www.paralympic.org/paris-2024",
     "d": "সহজ"
   },
-  {
-    "id": "extra_1390",
-    "c": "English Literature",
-    "q": "Who wrote the novel 'Wuthering Heights'?",
-    "o": [
-      "Charlotte Brontë",
-      "Emily Brontë",
-      "Anne Brontë",
-      "George Eliot"
-    ],
-    "a": 1,
-    "e": "Wuthering Heights, published in 1847, is the only novel by Emily Brontë.",
-    "source": "English Literature — Novel",
-    "d": "সহজ"
-  },
+  
   {
     "id": "extra_1391",
     "c": "English Literature",
