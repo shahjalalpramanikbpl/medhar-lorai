@@ -5157,5 +5157,30 @@
       "https://www.janeaustensociety.org.uk/jane-austen/the-novels/pride-and-prejudice/",
       "https://www.poetryfoundation.org/poets/samuel-beckett"
     ]
+  },
+  "content_review_batches_01_10": {
+    "status": "CONTENT_CHECKED",
+    "checked_records": 30,
+    "confirmed_incorrect": 0,
+    "answer_key_corrections": 0,
+    "explanation_corrections": 0,
+    "scope": "Expansion batches 01-10 retained entries only; original base bank not included.",
+    "references": [
+      "British Library: Pride and Prejudice (1813)",
+      "Poetry Foundation: Paradise Lost; Soliloquy; Prufrock; Edmund Spenser",
+      "Folger Shakespeare Library: Hamlet, Othello, Merchant of Venice",
+      "Loughborough University: The Waste Land (1922, five sections)",
+      "Wellcome Collection/Oxford Bibliographies: Robinson Crusoe (1719)",
+      "Morgan Library: Keats 1819 odes",
+      "Orwell Foundation: Animal Farm (1945)",
+      "British Library: Rime of the Ancient Mariner (1798)",
+      "Library of Congress: Frankenstein (1818); Portrait of a Lady (1881)",
+      "Eton College Collections: Mayor of Casterbridge (1886)",
+      "Project Gutenberg: Moby-Dick opening",
+      "National Library of Ireland/James Joyce Tower: Portrait of the Artist (1916)",
+      "Abbey Theatre: Playboy of the Western World (1907)",
+      "Agatha Christie official site: Hercule Poirot",
+      "Cambridge University Press: Heart of Darkness (1902)"
+    ]
   }
 }
