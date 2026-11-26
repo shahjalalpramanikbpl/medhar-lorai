@@ -498,22 +498,6 @@ const additions=[
     "d": ""
   },
   {
-    "id": "extra_471",
-    "c": "English Literature",
-    "q": "Who wrote the novel “Jane Eyre”?",
-    "o": [
-      "Emily Brontë",
-      "Charlotte Brontë",
-      "Anne Brontë",
-      "George Eliot"
-    ],
-    "a": 1,
-    "e": "Charlotte Brontë published Jane Eyre in 1847.",
-    "source": "Novel",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
     "id": "extra_472",
     "c": "English Literature",
     "q": "“Paradise Lost” was written by which poet?",
