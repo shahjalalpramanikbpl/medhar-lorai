@@ -260,23 +260,7 @@ const additions=[
     "e": "জলবায়ু পরিবর্তনবিষয়ক COP হলো UNFCCC-এর সদস্য রাষ্ট্রগুলোর সম্মেলন।",
     "source": "সমসাময়িক জ্ঞান — জলবায়ু",
     "d": "মাঝারি"
-  },
-  {
-    "id": "extra_1632",
-    "c": "English Literature",
-    "q": "Who wrote the novel “Jane Eyre”?",
-    "o": [
-      "Emily Brontë",
-      "Charlotte Brontë",
-      "Anne Brontë",
-      "George Eliot"
-    ],
-    "a": 1,
-    "e": "Charlotte Brontë published “Jane Eyre” in 1847.",
-    "source": "English Literature — Novel",
-    "d": "সহজ"
-  },
-  {
+  },{
     "id": "extra_1633",
     "c": "English Literature",
     "q": "“The Canterbury Tales” was written by whom?",
@@ -290,23 +274,7 @@ const additions=[
     "e": "Geoffrey Chaucer wrote “The Canterbury Tales” in Middle English.",
     "source": "English Literature — Medieval Literature",
     "d": "সহজ"
-  },
-  {
-    "id": "extra_1634",
-    "c": "English Literature",
-    "q": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
-    "o": [
-      "Macbeth",
-      "Othello",
-      "Hamlet",
-      "King Lear"
-    ],
-    "a": 2,
-    "e": "Rosencrantz and Guildenstern appear in Shakespeare’s tragedy “Hamlet”.",
-    "source": "English Literature — Drama",
-    "d": "মাঝারি"
-  },
-  {
+  },{
     "id": "extra_1635",
     "c": "English Literature",
     "q": "Who wrote “A Tale of Two Cities”?",
