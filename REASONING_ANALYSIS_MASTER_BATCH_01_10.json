@@ -1,7 +1,7 @@
 {
   "schema": "medhar-lorai.reasoning-analysis-audit.v1",
   "createdAt": "2026-11-27",
-  "status": "FINAL_REVALIDATION_PENDING_NOT_LOCKED",
+  "status": "LOCKED",
   "inventory": {
     "baseUniqueAfterDuplicateRemoval": 142,
     "expansion01_10CandidatesReviewed": 44,
@@ -10,7 +10,7 @@
     "quantitativeCandidates": 44,
     "retainedReasoning": 252,
     "exactDuplicateCopiesRemoved": 16,
-    "lastNote": "GitHub history verified: the original expansion source inventory ends at batch 56. The parent commit immediately before the first assistant-authored batch-57 addition contains original expansion files 02-56 and the generic job-prep-expansion.js, with no batch 57 or later. Assistant-authored batches 57-60 and 61-70 have been removed from the current main branch and audit master. No further original reasoning expansion batches exist. Counts retained as recorded; subject remains NOT LOCKED pending final consistency validation."
+    "lastNote": "FINAL CONSISTENCY VALIDATION PASSED. Original source inventory ends at batch 56; no original batch 57+ exists. Counts reconcile: 142 base unique + 40 unique from expansion 01-10 + 114 later unique = 296 total unique records; 252 retained reasoning + 44 quantitative candidates = 296; 16 exact duplicate copies removed (14 listed in master duplicateRemovals plus 2 additional distinct later-checkpoint duplicates; extra_819 is already included in the master list). All later checkpoint candidate counts equal reviewed counts. Subject LOCKED."
   },
   "duplicateRemovals": [
     {
@@ -5454,7 +5454,7 @@
           "reason": "গতকাল বুধবার হলে আজ বৃহস্পতিবার; আগামী পরশু শনিবার।"
         }
       ],
-      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING"
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_LOCKED"
     },
     {
       "range": "21-30",
@@ -5472,7 +5472,7 @@
       "quantitativeAptitudeCandidates": 3,
       "retainedReasoningCandidates": 19,
       "corrections": [],
-      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING"
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_LOCKED"
     },
     {
       "range": "31-40",
@@ -5494,7 +5494,7 @@
       "quantitativeAptitudeCandidates": 4,
       "retainedReasoningCandidates": 21,
       "corrections": [],
-      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING"
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_LOCKED"
     },
     {
       "range": "41-50",
@@ -5512,7 +5512,7 @@
           "reason": "successive percentage increase/decrease is quantitative aptitude, not analytical reasoning"
         }
       ],
-      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING",
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_LOCKED",
       "nextRange": "51-60"
     },
     {
@@ -5548,10 +5548,10 @@
           "notes": "Existing files contain Bengali/English content, not reasoning-category candidates; locked subjects left unchanged."
         }
       ],
-      "status": "ORIGINAL_SOURCE_INVENTORY_CONFIRMED_ENDS_AT_56; CHECKPOINT_REVIEWED_FOR_EXISTING_CONTENT_ONLY; SUBJECT_NOT_LOCKED_PENDING_FINAL_CONSISTENCY_VALIDATION",
-      "nextRange": "No original batch after 56; final consistency validation only",
+      "status": "CHECKPOINT_REVIEWED_FOR_EXISTING_CONTENT_ONLY; ORIGINAL_SOURCE_INVENTORY_CONFIRMED_ENDS_AT_56; SUBJECT_LOCKED",
+      "nextRange": "No further original expansion batches; subject LOCKED",
       "sourceInventoryConclusion": "Original source inventory verified from GitHub parent commit 273f719ae5dfc54ea9ebbae3e8f25698f0ea9276: expansion files 02-56 only; no original 57+."
     }
   ],
-  "nextRange": "No further original expansion batches; complete final consistency validation, then decide LOCK status"
+  "nextRange": "LOCKED — no further original expansion batches after 56"
 }
