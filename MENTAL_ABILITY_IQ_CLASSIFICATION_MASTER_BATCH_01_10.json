@@ -5002,6 +5002,204 @@
       "answer": "২/৩",
       "explanation": "অনুকূল ফল ২, ৩, ৪, ৬—মোট ৪টি। সম্ভাবনা ৪/৬=২/৩।",
       "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_1111",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-31.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী সংখ্যা কত: ৩, ৮, ১৫, ২৪, ৩৫, ...?",
+      "options": [
+        "৪৬",
+        "৪৮",
+        "৫০",
+        "৫২"
+      ],
+      "answerIndex": 1,
+      "answer": "৪৮",
+      "explanation": "পার্থক্য ৫, ৭, ৯, ১১; পরের পার্থক্য ১৩। তাই ৩৫+১৩=৪৮।",
+      "classificationReason": "series / coding / ranking / spatial / relational logic"
+    },
+    {
+      "id": "extra_1112",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-31.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি কোডে CAT = 3-1-20 হলে DOG কী হবে?",
+      "options": [
+        "4-15-7",
+        "4-14-7",
+        "5-15-8",
+        "4-16-7"
+      ],
+      "answerIndex": 0,
+      "answer": "4-15-7",
+      "explanation": "ইংরেজি বর্ণমালায় D=4, O=15 এবং G=7।",
+      "classificationReason": "series / coding / ranking / spatial / relational logic"
+    },
+    {
+      "id": "extra_1113",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-31.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "৫টি মেশিন ৫ মিনিটে ৫টি পণ্য তৈরি করলে ১০০টি মেশিন ১০০টি পণ্য তৈরি করতে কত মিনিট লাগবে?",
+      "options": [
+        "৫",
+        "২০",
+        "১০০",
+        "১"
+      ],
+      "answerIndex": 0,
+      "answer": "৫",
+      "explanation": "প্রতি মেশিন ৫ মিনিটে একটি পণ্য তৈরি করে; তাই ১০০টি মেশিনও ৫ মিনিটে ১০০টি পণ্য তৈরি করবে।",
+      "classificationReason": "quantitative rate/probability"
+    },
+    {
+      "id": "extra_1114",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-31.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়ি প্রতি ঘণ্টায় ৫ মিনিট এগিয়ে যায়। সকাল ৮টায় ঠিক করা হলে প্রকৃত দুপুর ১২টায় ঘড়িতে কত বাজবে?",
+      "options": [
+        "১২টা ১০",
+        "১২টা ১৫",
+        "১২টা ২০",
+        "১২টা ২৫"
+      ],
+      "answerIndex": 2,
+      "answer": "১২টা ২০",
+      "explanation": "৪ ঘণ্টায় ২০ মিনিট এগোবে; তাই ঘড়িতে ১২টা ২০ মিনিট দেখাবে।",
+      "classificationReason": "series / coding / ranking / spatial / relational logic"
+    },
+    {
+      "id": "extra_1115",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-31.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি বাক্সে ৪টি লাল ও ৬টি নীল বল আছে। একটি বল দৈবভাবে তুললে লাল হওয়ার সম্ভাবনা কত?",
+      "options": [
+        "২/৫",
+        "৩/৫",
+        "১/২",
+        "২/৩"
+      ],
+      "answerIndex": 0,
+      "answer": "২/৫",
+      "explanation": "মোট ১০টি বলের মধ্যে লাল ৪টি; সম্ভাবনা ৪/১০=২/৫।",
+      "classificationReason": "quantitative rate/probability"
+    },
+    {
+      "id": "extra_1204",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-34.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরের সংখ্যা কত: ৪, ৯, ১৯, ৩৯, ৭৯, ...?",
+      "options": [
+        "১৫৭",
+        "১৫৮",
+        "১৫৯",
+        "১৬১"
+      ],
+      "answerIndex": 2,
+      "answer": "১৫৯",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণের সঙ্গে ১ যোগ করে: ৭৯×২+১ = ১৫৯।",
+      "classificationReason": "series / coding / ranking / spatial / relational logic"
+    },
+    {
+      "id": "extra_1205",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-34.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি কোডে BOOK লেখা হয় CPPL। একই নিয়মে PEN কীভাবে লেখা হবে?",
+      "options": [
+        "QFO",
+        "QEN",
+        "PFM",
+        "RFO"
+      ],
+      "answerIndex": 0,
+      "answer": "QFO",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর নেওয়া হয়েছে: P→Q, E→F, N→O; উত্তর QFO।",
+      "classificationReason": "series / coding / ranking / spatial / relational logic"
+    },
+    {
+      "id": "extra_1207",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-34.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি সারিতে করিম বাম দিক থেকে ৯ম এবং ডান দিক থেকে ১২তম। সারিতে মোট কতজন?",
+      "options": [
+        "১৯",
+        "২০",
+        "২১",
+        "২২"
+      ],
+      "answerIndex": 1,
+      "answer": "২০",
+      "explanation": "মোট সংখ্যা = বাম দিকের অবস্থান + ডান দিকের অবস্থান − ১ = ৯+১২−১ = ২০।",
+      "classificationReason": "series / coding / ranking / spatial / relational logic"
+    },
+    {
+      "id": "extra_1208",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-34.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "বেমানান সংখ্যাটি চিহ্নিত করুন: ১৬, ২৫, ৩৬, ৪৮, ৬৪।",
+      "options": [
+        "১৬",
+        "২৫",
+        "৪৮",
+        "৬৪"
+      ],
+      "answerIndex": 2,
+      "answer": "৪৮",
+      "explanation": "১৬, ২৫, ৩৬ ও ৬৪ পূর্ণবর্গ সংখ্যা; ৪৮ পূর্ণবর্গ নয়।",
+      "classificationReason": "series / coding / ranking / spatial / relational logic"
+    },
+    {
+      "id": "extra_1209",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-34.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "A হলো B-এর ভাই। B হলো C-এর মা। A-এর সঙ্গে C-এর সম্পর্ক কী?",
+      "options": [
+        "মামা",
+        "চাচা",
+        "ভাই",
+        "দাদা"
+      ],
+      "answerIndex": 0,
+      "answer": "মামা",
+      "explanation": "B-এর ভাই A; তাই C-এর মাতুল বা মামা হলেন A।",
+      "classificationReason": "series / coding / ranking / spatial / relational logic"
+    },
+    {
+      "id": "extra_1210",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-34.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘনকের সব পৃষ্ঠ রং করে ২৭টি সমান ছোট ঘনকে কাটা হলো। ঠিক দুটি পৃষ্ঠ রঙিন এমন ছোট ঘনক কয়টি?",
+      "options": [
+        "৮",
+        "১০",
+        "১২",
+        "১৬"
+      ],
+      "answerIndex": 2,
+      "answer": "১২",
+      "explanation": "প্রতিটি প্রান্তে কোণ বাদে ১টি করে ছোট ঘনক থাকে; ১২টি প্রান্তে মোট ১২টি।",
+      "classificationReason": "series / coding / ranking / spatial / relational logic"
     }
   ]
 }
