@@ -1,7 +1,7 @@
 {
   "schema": "medhar-lorai.iq-subject-classification.v1",
   "createdAt": "2026-11-27",
-  "status": "BATCH_01_10_CLASSIFICATION_MIGRATED_PENDING_FINAL_LOCK_AND_LATER_BATCH_AUDIT",
+  "status": "ALL_EXPANSION_CHECKPOINTS_REVIEWED_PENDING_9_RECORD_RUNTIME_RECONCILIATION_AND_FINAL_LOCK",
   "inventory": {
     "base": 150,
     "expansion": 42,
@@ -5684,5 +5684,23 @@
       "explanation": "মোট নম্বর ১০×৬০=৬০০; বাকিদের গড় (৬০০−৭৮)÷৯=৫৮।",
       "classificationReason": "direct quantitative aptitude"
     }
-  ]
+  ],
+  "finalReconciliation": {
+    "auditedExpansionBatches": "01-56",
+    "laterExpansionRecordsFoundAndReviewed": 110,
+    "laterQuantitativeCandidates": 47,
+    "laterRetainedIQCandidates": 63,
+    "initialMasterRecords": 192,
+    "initialMasterQuantitativeCandidates": 98,
+    "initialMasterRetainedIQCandidates": 94,
+    "totalConsolidatedRecords": 302,
+    "priorRuntimeExpectation": {
+      "iq": 213,
+      "quantitative": 98,
+      "total": 311
+    },
+    "discrepancy": 9,
+    "resolution": "NOT_YET_RESOLVED; do not lock or change runtime expectation until source/runtime inventory is reconciled",
+    "finalLockStatus": "NOT_LOCKED"
+  }
 }
