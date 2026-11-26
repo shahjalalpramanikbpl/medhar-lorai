@@ -1,7 +1,7 @@
 {
   "schema": "medhar-lorai.iq-subject-classification.v1",
   "createdAt": "2026-11-27",
-  "status": "ALL_EXPANSION_CHECKPOINTS_REVIEWED_PENDING_FINAL_CLASSIFICATION_RUNTIME_MIGRATION_AND_LOCK",
+  "status": "ALL_EXPANSION_CHECKPOINTS_REVIEWED_CLASSIFICATION_MIGRATED_PENDING_FINAL_VALIDATION_AND_LOCK",
   "inventory": {
     "base": 150,
     "expansion": 42,
@@ -48,17 +48,16 @@
   "runtimeIntegration": {
     "targetModule": "পরিমাণগত দক্ষতা অনুশীলন",
     "movedFrom": "মানসিক দক্ষতা ও IQ",
-    "proposedTransferCount": 98,
-    "retainedIQCount": 94,
+    "initialTransferCount": 98,
+    "additionalTransferCount": 46,
+    "totalQuantitativePracticeCount": 144,
+    "finalRetainedIQCount": 157,
     "mathCorePreserved": "300 questions / 30 levels",
-    "implementation": "job-prep-suite.js runtime signature matching; supplemental practice uses 10 questions per level; final level may contain fewer than 10",
-    "sourceCommit": "e42a2bd49457cf751f1d4435bcb918653ad7835a",
-    "validation": "Pending GitHub Actions bank validation, runtime counts and release regression checks",
-    "lockStatus": "NOT_LOCKED",
-    "movedToQuantitativePractice": 98,
-    "retainedInIQAtRuntime": 213,
-    "reviewedIQRetained": 94,
-    "laterBatchQuestionsPendingAudit": 119
+    "implementation": "job-prep-suite.js quantitativePracticeRecords expanded from 98 to 144; runtime signature matcher migrates exact question + option-set + correct-answer matches into supplemental practice",
+    "sourceCommit": "550d949487b3eea03af7c2cc98d7e371a1ee5e96",
+    "validatorCommit": "b9376d18053e122d22553854620c3a1732e1d4c1",
+    "validation": "Pending content validator execution; no Android Build run",
+    "lockStatus": "NOT_LOCKED_PENDING_FINAL_VALIDATION"
   },
   "records": [
     {
@@ -5684,7 +5683,8 @@
     "initialMaster": {
       "records": 192,
       "quantitativeCandidates": 98,
-      "retainedIQCandidates": 94
+      "retainedIQCandidates": 94,
+      "exactDuplicatesRemoved": 2
     },
     "laterExpansion": {
       "sourceCandidatesReviewed": 110,
@@ -5694,11 +5694,8 @@
       "retainedIQCandidates": 63
     },
     "consolidatedUniqueRecords": 301,
-    "currentRuntimeAfterInitialMigration": {
-      "quantitativePractice": 98,
-      "retainedIQ": 203
-    },
-    "finalTargetAfterAllClassifications": {
+    "totalExactDuplicateCopiesRemoved": 3,
+    "finalRuntimeTarget": {
       "quantitativePractice": 144,
       "retainedIQ": 157
     },
@@ -5707,7 +5704,7 @@
       "pendingLaterBatchQuestions": 119
     },
     "discrepancy": 0,
-    "resolution": "Previous validator expectation was stale; actual unique source inventory is 150 base + 42 initial unique expansion + 109 unique later expansion = 301. One exact duplicate (extra_680) was removed from expansion batch 18.",
-    "finalLockStatus": "NOT_LOCKED; migrate 46 new quantitative records and run final validation before lock"
+    "resolution": "Stale prior validator expectation corrected. One later exact duplicate extra_680 removed because its question and option set matched an existing quantitative practice item; option order alone did not make a distinct question.",
+    "finalLockStatus": "NOT_LOCKED_PENDING_FINAL_CONTENT_VALIDATION"
   }
 }
