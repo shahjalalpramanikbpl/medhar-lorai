@@ -52,7 +52,7 @@ val generateAppVersionAsset by tasks.registering {
     doLast {
         val target = outputFile.get().asFile
         target.parentFile.mkdirs()
-        target.writeText("window.ML_APP_VERSION = '${releaseName}';\\n")
+        target.writeText("window.ML_APP_VERSION = '${releaseName}';\n")
     }
 }
 tasks.named("preBuild").configure {
