@@ -1,7 +1,7 @@
 {
   "schema": "medhar-lorai.iq-subject-classification.v1",
   "createdAt": "2026-11-27",
-  "status": "CLASSIFICATION_REVIEWED_PENDING_RUNTIME_MIGRATION_NOT_LOCKED",
+  "status": "RUNTIME_MIGRATION_COMMITTED_PENDING_CI_VALIDATION_NOT_LOCKED",
   "inventory": {
     "base": 150,
     "expansion": 42,
@@ -40,8 +40,15 @@
     "exactCollisions": 0
   },
   "runtimeIntegration": {
-    "status": "PENDING",
-    "reason": "Math bank is a separate generated 30-level module; do not change IQ runtime category until a safe supplemental integration path is defined."
+    "targetModule": "পরিমাণগত দক্ষতা অনুশীলন",
+    "movedFrom": "মানসিক দক্ষতা ও IQ",
+    "proposedTransferCount": 98,
+    "retainedIQCount": 94,
+    "mathCorePreserved": "MATH_AUDIT_MASTER_BASELINE_300.json — ৩০০টি মূল প্রশ্ন ও ৩০ লেভেল অপরিবর্তিত",
+    "implementation": "job-prep-suite.js runtime signature matching; supplemental practice uses 10 questions per level; final level may contain fewer than 10",
+    "sourceCommit": "8f0c8c7a255800627c0f0f7aa855224fc0deec7d",
+    "validation": "Pending GitHub Actions bank validation, runtime counts and release regression checks",
+    "lockStatus": "NOT_LOCKED"
   },
   "records": [
     {
