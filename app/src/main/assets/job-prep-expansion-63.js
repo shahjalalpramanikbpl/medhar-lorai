@@ -27,7 +27,7 @@ window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
       "U",
       "V"
     ],
-    "a": 0,
+    "a": 2,
     "e": "পেছনে ব্যবধান ৪,৫,৬,৭; পরেরটি ৮। C থেকে ৮ ধাপ পেছালে U? হিসাব: C(3)-8=-5, ২৬ দিয়ে ঘুরে U(21)।",
     "source": "যুক্তি ও বিশ্লেষণ — বর্ণধারা",
     "sourceUrl": "",
