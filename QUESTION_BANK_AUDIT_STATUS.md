@@ -651,3 +651,12 @@
 - **Status: PROVISIONAL / NOT LOCKED.** Full item-by-item factual, keyed-answer and explanation verification remains pending.
 - Report: `ENGLISH_LITERATURE_AUDIT_BATCH_51_56.md`; master: `ENGLISH_LITERATURE_MASTER_BATCH_01_56.json`.
 - Next: complete source-based content verification of all 290 consolidated records; do not assume batches 57–60 exist.
+
+
+## English Literature — source-based content review, batches 51–56 (2026-11-27)
+- ৫১–৫৩ ব্যাচের retained English Literature প্রশ্ন **৯টি** authoritative literary/academic/library/publisher/author-society sources দিয়ে content-check করা হয়েছে।
+- নিশ্চিত factual error: **০**; ভুল answer key: **০**; explanation correction: **০**।
+- *Wuthering Heights* narrator প্রশ্নে Lockwood-কে outer/frame narrator হিসেবে সঠিক ধরা হয়েছে; explanation-এ Nelly Dean-এর প্রধান storyteller ভূমিকা স্পষ্ট আছে।
+- ৫৪–৫৬ ব্যাচে English Literature প্রশ্ন ছিল না।
+- এই ৯টি record-এর content review সম্পন্ন; তবে পূর্ণ ২৯০ প্রশ্নের English Literature master এখনো **PROVISIONAL / NOT LOCKED**। বাকি records-এর item-by-item verification চলবে।
+- বিস্তারিত: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_51_56.md`; master metadata update করা হয়েছে।
