@@ -284,23 +284,7 @@ const additions=[
     "e": "Ode to a Nightingale is a celebrated ode by John Keats.",
     "source": "English Literature — Romantic Poetry",
     "d": "সহজ"
-  },
-  {
-    "id": "extra_1544",
-    "c": "English Literature",
-    "q": "Who is the author of “Gulliver’s Travels”?",
-    "o": [
-      "Daniel Defoe",
-      "Jonathan Swift",
-      "Henry Fielding",
-      "Samuel Richardson"
-    ],
-    "a": 1,
-    "e": "Jonathan Swift wrote Gulliver’s Travels, published in 1726.",
-    "source": "English Literature — Satire",
-    "d": "সহজ"
-  },
-  {
+  },{
     "id": "extra_1545",
     "c": "English Literature",
     "q": "In which Shakespeare play does the character Prospero appear?",
