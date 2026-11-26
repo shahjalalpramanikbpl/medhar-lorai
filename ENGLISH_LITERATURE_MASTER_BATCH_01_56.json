@@ -3335,7 +3335,7 @@
         "Thomas Malory"
       ],
       "a": 0,
-      "e": "Geoffrey Chaucer wrote The Canterbury Tales; however, a question with this wording already exists in the bank.",
+      "e": "Geoffrey Chaucer wrote The Canterbury Tales in Middle English; the work is a collection of tales told by pilgrims.",
       "source": "Medieval literature",
       "sourceUrl": "",
       "origin": "expansion"
@@ -5181,6 +5181,29 @@
       "Abbey Theatre: Playboy of the Western World (1907)",
       "Agatha Christie official site: Hercule Poirot",
       "Cambridge University Press: Heart of Darkness (1902)"
+    ]
+  },
+  "content_review_batches_11_20": {
+    "status": "CONTENT_CHECKED",
+    "checked_records": 43,
+    "confirmed_incorrect": 0,
+    "answer_key_corrections": 0,
+    "explanation_corrections": 0,
+    "master_metadata_sync_corrections": 1,
+    "scope": "Retained English Literature expansion records from batches 11–20 only; the base bank and all other expansion batches are outside this checkpoint.",
+    "notes": [
+      "All 43 retained questions, keyed answers and explanations were source-checked.",
+      "No factual errors or incorrect answer keys were found.",
+      "Runtime explanation for extra_544 was already corrected in expansion batch 14; the consolidated master snapshot still held the former editorial/meta text, so this master record was synchronized to the corrected subject explanation.",
+      "Earlier duplicate-removal checkpoint removed 7 intra-group exact duplicate copies; the 43 retained records are the deduplicated set."
+    ],
+    "references": [
+      "Folger Shakespeare Library: Hamlet full text and play guide",
+      "Poetry Foundation: Paradise Lost; The Waste Land; Ode to a Nightingale; The Rime of the Ancient Mariner; Keats; Coleridge",
+      "Academy of American Poets: Negative Capability and Blank Verse",
+      "Folger Early Modern English Drama: Doctor Faustus (Christopher Marlowe)",
+      "British Library / institutional literary catalogues: Austen, Brontë, Dickens, Swift, Chaucer and related works",
+      "University/library/publisher records for Beckett, Hemingway, Harper Lee, Orwell, Poe, Conan Doyle, Twain, Dante and Wilde"
     ]
   }
 }
