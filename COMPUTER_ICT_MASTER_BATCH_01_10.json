@@ -1,0 +1,2657 @@
+{
+  "subject": "কম্পিউটার ও ICT",
+  "auditGroup": "Batch 01–10",
+  "status": "LOCKED_FINAL_189_UNIQUE_RECORDS",
+  "count": 189,
+  "duplicateGroups": 0,
+  "duplicateCopies": 0,
+  "malformedRecords": 0,
+  "records": [
+    {
+      "id": "base_001",
+      "category": "কম্পিউটার ও ICT",
+      "question": "CPU-এর পূর্ণরূপ কী?",
+      "options": [
+        "Central Processing Unit",
+        "Computer Primary Utility",
+        "Central Program User",
+        "Control Processing Utility"
+      ],
+      "answerIndex": 0,
+      "explanation": "CPU হলো Central Processing Unit; এটি নির্দেশনা প্রক্রিয়াকরণ করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_002",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি volatile memory?",
+      "options": [
+        "ROM",
+        "SSD",
+        "RAM",
+        "DVD"
+      ],
+      "answerIndex": 2,
+      "explanation": "RAM-এ বিদ্যুৎ সরবরাহ বন্ধ হলে তথ্য থাকে না।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_003",
+      "category": "কম্পিউটার ও ICT",
+      "question": "HTML মূলত কী কাজে ব্যবহৃত হয়?",
+      "options": [
+        "ওয়েবপেজের কাঠামো তৈরি",
+        "ডেটাবেস এনক্রিপশন",
+        "ভিডিও সম্পাদনা",
+        "অপারেটিং সিস্টেম তৈরি"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTML ওয়েবপেজের কাঠামো ও কনটেন্ট চিহ্নিত করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_004",
+      "category": "কম্পিউটার ও ICT",
+      "question": "১ বাইটে কত বিট?",
+      "options": [
+        "৪",
+        "৮",
+        "১৬",
+        "৩২"
+      ],
+      "answerIndex": 1,
+      "explanation": "এক বাইটে ৮ বিট থাকে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_005",
+      "category": "কম্পিউটার ও ICT",
+      "question": "URL-এর পূর্ণরূপ কী?",
+      "options": [
+        "Uniform Resource Locator",
+        "Universal Record Link",
+        "United Routing Language",
+        "Uniform Read Location"
+      ],
+      "answerIndex": 0,
+      "explanation": "URL হলো Uniform Resource Locator; ওয়েব রিসোর্সের ঠিকানা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_006",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে Copy করার শর্টকাট কোনটি?",
+      "options": [
+        "Ctrl+X",
+        "Ctrl+V",
+        "Ctrl+C",
+        "Ctrl+Z"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ctrl+C নির্বাচিত উপাদান কপি করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_007",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি অপারেটিং সিস্টেম?",
+      "options": [
+        "Python",
+        "Linux",
+        "HTML",
+        "SQL"
+      ],
+      "answerIndex": 1,
+      "explanation": "Linux একটি অপারেটিং সিস্টেম।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_008",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ফিশিং (Phishing) কী?",
+      "options": [
+        "ডেটা সংকোচন",
+        "প্রতারণার মাধ্যমে তথ্য চুরি",
+        "ফাইল ব্যাকআপ",
+        "নেটওয়ার্ক গতি বৃদ্ধি"
+      ],
+      "answerIndex": 1,
+      "explanation": "ফিশিং হলো ভুয়া বার্তা/সাইট দিয়ে পাসওয়ার্ড বা সংবেদনশীল তথ্য হাতিয়ে নেওয়ার কৌশল।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_009",
+      "category": "কম্পিউটার ও ICT",
+      "question": "IP-এর পূর্ণরূপ কী?",
+      "options": [
+        "Internet Protocol",
+        "Internal Program",
+        "Integrated Port",
+        "Information Process"
+      ],
+      "answerIndex": 0,
+      "explanation": "IP-এর পূর্ণরূপ Internet Protocol।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_010",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেসে টেবিলের প্রতিটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করে কোনটি?",
+      "options": [
+        "Foreign key",
+        "Primary key",
+        "Index page",
+        "Query"
+      ],
+      "answerIndex": 1,
+      "explanation": "Primary key প্রতিটি রেকর্ডের অনন্য পরিচয় নিশ্চিত করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_011",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের CPU-কে সাধারণত কী বলা হয়?",
+      "options": [
+        "কম্পিউটারের মস্তিষ্ক",
+        "স্থায়ী স্মৃতি",
+        "ইনপুট যন্ত্র",
+        "আউটপুট যন্ত্র"
+      ],
+      "answerIndex": 0,
+      "explanation": "CPU নির্দেশনা প্রক্রিয়াকরণ ও নিয়ন্ত্রণের প্রধান কাজ করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_012",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে ১ বাইট সমান কত বিট?",
+      "options": [
+        "৪",
+        "৮",
+        "১৬",
+        "৩২"
+      ],
+      "answerIndex": 1,
+      "explanation": "এক বাইটে ৮টি বিট থাকে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_013",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ই-মেইলে BCC ব্যবহারের উদ্দেশ্য কী?",
+      "options": [
+        "ফাইল সংকোচন",
+        "প্রাপকের ঠিকানা গোপন রাখা",
+        "বার্তা মুছে ফেলা",
+        "বার্তা অনুবাদ"
+      ],
+      "answerIndex": 1,
+      "explanation": "BCC-তে রাখা প্রাপকের ঠিকানা অন্য প্রাপকেরা দেখতে পান না।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_014",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি স্প্রেডশিট সফটওয়্যার?",
+      "options": [
+        "PowerPoint",
+        "Excel",
+        "Access",
+        "Paint"
+      ],
+      "answerIndex": 1,
+      "explanation": "Microsoft Excel স্প্রেডশিট তৈরি ও বিশ্লেষণে ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_015",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ফিশিং কী ধরনের সাইবার আক্রমণ?",
+      "options": [
+        "ভুয়া বার্তায় তথ্য হাতিয়ে নেওয়া",
+        "কম্পিউটার ঠান্ডা করা",
+        "ফাইল ব্যাকআপ",
+        "নেটওয়ার্কের গতি বাড়ানো"
+      ],
+      "answerIndex": 0,
+      "explanation": "ফিশিংয়ে প্রতারণামূলক বার্তা বা ওয়েবসাইট দিয়ে গোপন তথ্য নেওয়ার চেষ্টা করা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_016",
+      "category": "কম্পিউটার ও ICT",
+      "question": "LAN-এর পূর্ণরূপ কী?",
+      "options": [
+        "Large Area Network",
+        "Local Area Network",
+        "Long Access Node",
+        "Linked Analog Network"
+      ],
+      "answerIndex": 1,
+      "explanation": "LAN সীমিত ভৌগোলিক এলাকার নেটওয়ার্ক।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_017",
+      "category": "কম্পিউটার ও ICT",
+      "question": "HTML প্রধানত কী কাজে ব্যবহৃত হয়?",
+      "options": [
+        "ওয়েব পেজের কাঠামো তৈরি",
+        "ভিডিও সম্পাদনা",
+        "অ্যান্টিভাইরাস চালানো",
+        "ডেটাবেস এনক্রিপশন"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTML ওয়েব পেজের কাঠামো ও কনটেন্ট নির্ধারণ করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_018",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি ক্লাউড স্টোরেজের উদাহরণ?",
+      "options": [
+        "Google Drive",
+        "Calculator",
+        "Notepad",
+        "BIOS"
+      ],
+      "answerIndex": 0,
+      "explanation": "Google Drive অনলাইনে ফাইল সংরক্ষণ ও শেয়ার করতে দেয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_019",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেসে Primary Key-এর কাজ কী?",
+      "options": [
+        "রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করা",
+        "লেখার রং বদলানো",
+        "ফাইল প্রিন্ট করা",
+        "ইন্টারনেট সংযোগ দেওয়া"
+      ],
+      "answerIndex": 0,
+      "explanation": "Primary Key প্রতিটি রেকর্ডকে অনন্যভাবে শনাক্ত করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_020",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের কোন মেমোরি বিদ্যুৎ বন্ধ হলে সাধারণত তথ্য হারায়?",
+      "options": [
+        "ROM",
+        "RAM",
+        "SSD",
+        "ফ্ল্যাশ ড্রাইভ"
+      ],
+      "answerIndex": 1,
+      "explanation": "RAM অস্থায়ী বা volatile মেমোরি।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_021",
+      "category": "কম্পিউটার ও ICT",
+      "question": "দ্বিমিক সংখ্যা পদ্ধতির ভিত্তি কত?",
+      "options": [
+        "২",
+        "৮",
+        "১০",
+        "১৬"
+      ],
+      "answerIndex": 0,
+      "explanation": "বাইনারি পদ্ধতিতে ০ ও ১—এই দুই অঙ্ক ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_022",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি ওয়েব ব্রাউজার?",
+      "options": [
+        "Firefox",
+        "MySQL",
+        "Python",
+        "Linux Kernel"
+      ],
+      "answerIndex": 0,
+      "explanation": "Firefox ওয়েবসাইট দেখার ব্রাউজার।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_023",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটার ভাইরাস সাধারণত কী?",
+      "options": [
+        "ক্ষতিকর কোড বা প্রোগ্রাম",
+        "হার্ডওয়্যার সেন্সর",
+        "ডেটা কেবল",
+        "সার্চ ইঞ্জিন"
+      ],
+      "answerIndex": 0,
+      "explanation": "ভাইরাস নিজেকে ছড়িয়ে ফাইল বা সিস্টেমের ক্ষতি করতে পারে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_024",
+      "category": "কম্পিউটার ও ICT",
+      "question": "দ্বি-স্তরীয় যাচাইকরণে (2FA) কী যোগ হয়?",
+      "options": [
+        "অতিরিক্ত পরিচয় যাচাইয়ের ধাপ",
+        "দ্বিগুণ স্ক্রিন",
+        "দুটি অপারেটিং সিস্টেম",
+        "দুটি ই-মেইল ইনবক্স"
+      ],
+      "answerIndex": 0,
+      "explanation": "পাসওয়ার্ডের পাশাপাশি আরেকটি যাচাই উপাদান নিরাপত্তা বাড়ায়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_025",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নেটওয়ার্কে IP address-এর মূল কাজ কী?",
+      "options": [
+        "ডিভাইস/নেটওয়ার্ক ইন্টারফেস শনাক্ত করা",
+        "মনিটরের উজ্জ্বলতা বাড়ানো",
+        "ফাইল কমপ্রেস করা",
+        "ব্যাটারি চার্জ করা"
+      ],
+      "answerIndex": 0,
+      "explanation": "IP address নেটওয়ার্কে ডিভাইস বা ইন্টারফেস শনাক্ত ও রাউটিংয়ে সহায়তা করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_026",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোন প্রোটোকল নিরাপদ ওয়েব যোগাযোগে ব্যবহৃত হয়?",
+      "options": [
+        "HTTPS",
+        "FTP",
+        "SMTP",
+        "POP3"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTTPS হলো TLS-সুরক্ষিত HTTP যোগাযোগ।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_027",
+      "category": "কম্পিউটার ও ICT",
+      "question": "অ্যালগরিদম বলতে কী বোঝায়?",
+      "options": [
+        "সমস্যা সমাধানের ধাপে ধাপে নির্দেশনা",
+        "কম্পিউটারের যন্ত্রাংশ",
+        "এক ধরনের মনিটর",
+        "ডেটা কেবলের নাম"
+      ],
+      "answerIndex": 0,
+      "explanation": "অ্যালগরিদম নির্দিষ্ট সমস্যা সমাধানের সুনির্দিষ্ট ধাপসমষ্টি।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_028",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের অস্থায়ী মেমোরি কোনটি?",
+      "options": [
+        "RAM",
+        "ROM",
+        "SSD",
+        "DVD"
+      ],
+      "answerIndex": 0,
+      "explanation": "RAM-এ চলমান কাজের তথ্য অস্থায়ীভাবে থাকে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_029",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ই-মেইলে BCC-এর কাজ কী?",
+      "options": [
+        "প্রাপকের ঠিকানা অন্যদের কাছ থেকে গোপন রাখা",
+        "ফাইল সংযুক্ত করা",
+        "বার্তা মুছে ফেলা",
+        "বার্তা অনুবাদ করা"
+      ],
+      "answerIndex": 0,
+      "explanation": "BCC-তে রাখা প্রাপকের ঠিকানা অন্য প্রাপকেরা দেখতে পান না।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_030",
+      "category": "কম্পিউটার ও ICT",
+      "question": "বাইনারি সংখ্যা পদ্ধতিতে কোন দুটি অঙ্ক ব্যবহৃত হয়?",
+      "options": [
+        "০ ও ১",
+        "১ ও ২",
+        "০ ও ৯",
+        "২ ও ৮"
+      ],
+      "answerIndex": 0,
+      "explanation": "বাইনারি পদ্ধতির ভিত্তি ২; এতে ০ ও ১ ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_031",
+      "category": "কম্পিউটার ও ICT",
+      "question": "Spreadsheet-এ সারি ও কলামের ছেদকে কী বলে?",
+      "options": [
+        "Cell",
+        "Sheet",
+        "Table",
+        "Range"
+      ],
+      "answerIndex": 0,
+      "explanation": "সারি ও কলামের ছেদস্থলকে Cell বলা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_032",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের স্থায়ী নির্দেশনা সংরক্ষণে সাধারণত কোন মেমোরি ব্যবহৃত হয়?",
+      "options": [
+        "RAM",
+        "ROM",
+        "Cache",
+        "Register"
+      ],
+      "answerIndex": 1,
+      "explanation": "ROM-এ স্থায়ী বা firmware-জাতীয় নির্দেশনা সংরক্ষিত থাকে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_033",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি একটি প্রোগ্রামিং ভাষা?",
+      "options": [
+        "HTTP",
+        "Python",
+        "JPEG",
+        "DNS"
+      ],
+      "answerIndex": 1,
+      "explanation": "Python একটি উচ্চস্তরের সাধারণ-উদ্দেশ্য প্রোগ্রামিং ভাষা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_034",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নেটওয়ার্কে IP ঠিকানা মূলত কী শনাক্ত করে?",
+      "options": [
+        "ডিভাইস বা নেটওয়ার্ক ইন্টারফেস",
+        "ওয়েবসাইটের ডিজাইন",
+        "ফাইলের ধরন",
+        "প্রিন্টারের কালি"
+      ],
+      "answerIndex": 0,
+      "explanation": "IP address নেটওয়ার্কে ডিভাইস বা ইন্টারফেস শনাক্ত ও রাউটিংয়ে ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_035",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের CPU-তে গাণিতিক ও যৌক্তিক কাজ করে কোন অংশ?",
+      "options": [
+        "Control Unit",
+        "ALU",
+        "Register",
+        "Cache"
+      ],
+      "answerIndex": 1,
+      "explanation": "Arithmetic Logic Unit বা ALU গাণিতিক ও যৌক্তিক অপারেশন সম্পাদন করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_036",
+      "category": "কম্পিউটার ও ICT",
+      "question": "HTML-এর পূর্ণরূপ কী?",
+      "options": [
+        "HyperText Markup Language",
+        "High Transfer Machine Language",
+        "Hyperlink Text Management Language",
+        "Home Tool Markup Language"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTML-এর পূর্ণরূপ HyperText Markup Language; ওয়েবপেজের কাঠামো তৈরিতে ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_037",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের অস্থায়ী (volatile) মেমোরি কোনটি?",
+      "options": [
+        "ROM",
+        "SSD",
+        "RAM",
+        "DVD"
+      ],
+      "answerIndex": 2,
+      "explanation": "RAM-এ বিদ্যুৎ সরবরাহ বন্ধ হলে সাধারণত তথ্য থাকে না; তাই এটি volatile memory।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_038",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেসে তথ্যের সারিকে সাধারণত কী বলা হয়?",
+      "options": [
+        "Field",
+        "Record",
+        "Table heading",
+        "Query"
+      ],
+      "answerIndex": 1,
+      "explanation": "ডেটাবেস টেবিলের একটি সারি একটি record; কলামকে field বলা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_039",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ইন্টারনেটে নিরাপদ সংযোগে HTTPS-এর ‘S’ কী বোঝায়?",
+      "options": [
+        "System",
+        "Secure",
+        "Service",
+        "Server"
+      ],
+      "answerIndex": 1,
+      "explanation": "HTTPS-এর S হলো Secure; TLS-এর মাধ্যমে সংযোগ এনক্রিপ্ট করা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_040",
+      "category": "কম্পিউটার ও ICT",
+      "question": "স্প্রেডশিটে একটি সেল কী দিয়ে চিহ্নিত হয়?",
+      "options": [
+        "শুধু সারির নাম",
+        "শুধু কলামের নাম",
+        "কলাম অক্ষর ও সারি নম্বর",
+        "ফাইলের নাম"
+      ],
+      "answerIndex": 2,
+      "explanation": "যেমন B3 হলো B কলাম ও ৩ নম্বর সারির ছেদে থাকা সেল।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_041",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের স্থায়ী নির্দেশনা সংরক্ষণের জন্য সাধারণত কোন মেমোরি ব্যবহৃত হয়?",
+      "options": [
+        "RAM",
+        "Cache",
+        "ROM",
+        "Register"
+      ],
+      "answerIndex": 2,
+      "explanation": "ROM-এ ফার্মওয়্যারসহ স্থায়ী নির্দেশনা সংরক্ষণ করা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_042",
+      "category": "কম্পিউটার ও ICT",
+      "question": "HTTPS-এ ‘S’ দ্বারা কী বোঝায়?",
+      "options": [
+        "System",
+        "Secure",
+        "Server",
+        "Simple"
+      ],
+      "answerIndex": 1,
+      "explanation": "HTTPS হলো Hypertext Transfer Protocol Secure; এতে TLS দিয়ে সংযোগ সুরক্ষিত করা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_043",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি ওপেন-সোর্স ওয়েব ব্রাউজার প্রকল্প?",
+      "options": [
+        "Chromium",
+        "Internet Explorer",
+        "Safari",
+        "Edge"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chromium একটি ওপেন-সোর্স ব্রাউজার প্রকল্প, যার ওপর Chrome-সহ বিভিন্ন ব্রাউজার ভিত্তি করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_044",
+      "category": "কম্পিউটার ও ICT",
+      "question": "স্প্রেডশিটে একটি সেলের ঠিকানা সাধারণত কী দিয়ে গঠিত?",
+      "options": [
+        "সারি নম্বর ও কলাম অক্ষর",
+        "কলাম অক্ষর ও সারি নম্বর",
+        "শুধু শিটের নাম",
+        "ফাইলের নাম ও এক্সটেনশন"
+      ],
+      "answerIndex": 1,
+      "explanation": "স্প্রেডশিটে সেলের ঠিকানা সাধারণত কলাম অক্ষর এবং সারি নম্বর দিয়ে লেখা হয়, যেমন B3।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_045",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটার নেটওয়ার্কে DNS-এর প্রধান কাজ কী?",
+      "options": [
+        "ডোমেইন নামকে IP ঠিকানায় রূপান্তর",
+        "ফাইল সংকোচন",
+        "ইমেইল এনক্রিপশন",
+        "ছবি সম্পাদনা"
+      ],
+      "answerIndex": 0,
+      "explanation": "DNS ডোমেইন নামের জন্য সংশ্লিষ্ট IP ঠিকানা খুঁজে দেয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_046",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি দ্বিমিক সংখ্যা পদ্ধতির বৈধ অঙ্ক?",
+      "options": [
+        "০ ও ১",
+        "০ থেকে ৭",
+        "০ থেকে ৯",
+        "A থেকে F"
+      ],
+      "answerIndex": 0,
+      "explanation": "বাইনারি বা দ্বিমিক সংখ্যা পদ্ধতিতে কেবল ০ ও ১ ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_047",
+      "category": "কম্পিউটার ও ICT",
+      "question": "SQL-এ ডেটা অনুসন্ধানের জন্য কোন কমান্ড ব্যবহৃত হয়?",
+      "options": [
+        "SELECT",
+        "DELETE",
+        "UPDATE",
+        "DROP"
+      ],
+      "answerIndex": 0,
+      "explanation": "SELECT কমান্ড দিয়ে ডেটাবেস থেকে নির্দিষ্ট তথ্য অনুসন্ধান বা পুনরুদ্ধার করা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_048",
+      "category": "কম্পিউটার ও ICT",
+      "question": "দ্বি-স্তরীয় যাচাইকরণ (2FA) কী বাড়ায়?",
+      "options": [
+        "স্ক্রিনের উজ্জ্বলতা",
+        "অ্যাকাউন্টের নিরাপত্তা",
+        "ইন্টারনেটের গতি",
+        "ফাইলের আকার"
+      ],
+      "answerIndex": 1,
+      "explanation": "পাসওয়ার্ডের পাশাপাশি দ্বিতীয় প্রমাণ চাওয়ায় 2FA অননুমোদিত প্রবেশ কঠিন করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_049",
+      "category": "কম্পিউটার ও ICT",
+      "question": "অপারেটিং সিস্টেমের মূল ভূমিকা কী?",
+      "options": [
+        "শুধু ছবি আঁকা",
+        "হার্ডওয়্যার ও সফটওয়্যার সম্পদ পরিচালনা",
+        "শুধু ইন্টারনেট চালানো",
+        "শুধু ডেটা মুদ্রণ"
+      ],
+      "answerIndex": 1,
+      "explanation": "অপারেটিং সিস্টেম প্রসেসর, মেমোরি, ফাইল ও ইনপুট-আউটপুটসহ কম্পিউটার সম্পদ পরিচালনা করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_050",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ই-মেইলে সংযুক্ত ফাইলকে কী বলা হয়?",
+      "options": [
+        "Attachment",
+        "Protocol",
+        "Cookie",
+        "Domain"
+      ],
+      "answerIndex": 0,
+      "explanation": "ই-মেইলের সঙ্গে পাঠানো ফাইলকে attachment বলা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_051",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটার নেটওয়ার্কে LAN সাধারণত কোন পরিসর বোঝায়?",
+      "options": [
+        "বিশ্বব্যাপী নেটওয়ার্ক",
+        "স্থানীয় সীমিত এলাকার নেটওয়ার্ক",
+        "মহাকাশ যোগাযোগ",
+        "মোবাইল অপারেটর নেটওয়ার্ক"
+      ],
+      "answerIndex": 1,
+      "explanation": "LAN বা Local Area Network সাধারণত একটি কক্ষ, ভবন বা ক্যাম্পাসের মতো সীমিত এলাকায় ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_052",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি ক্লাউড স্টোরেজের উদাহরণ?",
+      "options": [
+        "Google Drive",
+        "BIOS",
+        "RAM",
+        "CPU"
+      ],
+      "answerIndex": 0,
+      "explanation": "Google Drive অনলাইনে ফাইল সংরক্ষণ ও ব্যবস্থাপনার ক্লাউড সেবা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_053",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে ‘ফায়ারওয়াল’-এর কাজ কী?",
+      "options": [
+        "স্ক্রিন পরিষ্কার করা",
+        "নেটওয়ার্ক ট্রাফিক নিয়ন্ত্রণ করে অননুমোদিত প্রবেশ ঠেকানো",
+        "ব্যাটারি চার্জ করা",
+        "ফাইলের নাম বদলানো"
+      ],
+      "answerIndex": 1,
+      "explanation": "ফায়ারওয়াল নির্ধারিত নিরাপত্তা নীতি অনুযায়ী নেটওয়ার্ক ট্রাফিক অনুমোদন বা ব্লক করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_054",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি একটি প্রোগ্রামিং ভাষা?",
+      "options": [
+        "HTTP",
+        "Python",
+        "JPEG",
+        "DNS"
+      ],
+      "answerIndex": 1,
+      "explanation": "Python একটি উচ্চস্তরের সাধারণ-উদ্দেশ্যের প্রোগ্রামিং ভাষা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_055",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের বাইনারি ১০১০-এর দশমিক মান কত?",
+      "options": [
+        "৮",
+        "৯",
+        "১০",
+        "১২"
+      ],
+      "answerIndex": 2,
+      "explanation": "বাইনারি ১০১০ = ১×৮ + ০×৪ + ১×২ + ০×১ = ১০।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_056",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ওয়েবপেজের কাঠামো তৈরির জন্য কোন markup language ব্যবহৃত হয়?",
+      "options": [
+        "HTML",
+        "SQL",
+        "Bash",
+        "C"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTML ওয়েবপৃষ্ঠার কাঠামো নির্ধারণ করে; CSS ও JavaScript-ও সাধারণত ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_057",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে তথ্যের ক্ষুদ্রতম একক কোনটি?",
+      "options": [
+        "বাইট",
+        "বিট",
+        "কিলোবাইট",
+        "নিবল"
+      ],
+      "answerIndex": 1,
+      "explanation": "বিট হলো তথ্যের ক্ষুদ্রতম মৌলিক একক; এর মান ০ বা ১।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_058",
+      "category": "কম্পিউটার ও ICT",
+      "question": "র‍্যানসমওয়্যার সাধারণত কী করে?",
+      "options": [
+        "ফাইল এনক্রিপ্ট করে মুক্তিপণ দাবি করে",
+        "মনিটরের রং বদলায়",
+        "ইন্টারনেটের গতি বাড়ায়",
+        "প্রিন্টারের কালি পূরণ করে"
+      ],
+      "answerIndex": 0,
+      "explanation": "র‍্যানসমওয়্যার ভুক্তভোগীর ফাইল বা সিস্টেমে প্রবেশাধিকার আটকে মুক্তিপণ দাবি করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_059",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ওয়েব পৃষ্ঠার কাঠামো তৈরিতে প্রধানত কোন ভাষা ব্যবহৃত হয়?",
+      "options": [
+        "HTML",
+        "SQL",
+        "Python",
+        "C"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTML ওয়েব পৃষ্ঠার কাঠামো ও কনটেন্ট নির্ধারণে ব্যবহৃত মার্কআপ ভাষা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_060",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে স্থায়ীভাবে তথ্য সংরক্ষণের উদাহরণ কোনটি?",
+      "options": [
+        "RAM",
+        "Cache",
+        "SSD",
+        "Register"
+      ],
+      "answerIndex": 2,
+      "explanation": "SSD হলো non-volatile storage; বিদ্যুৎ বন্ধ হলেও এতে তথ্য থাকে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_061",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি একটি অপারেটিং সিস্টেম?",
+      "options": [
+        "Oracle",
+        "Linux",
+        "MySQL",
+        "Apache"
+      ],
+      "answerIndex": 1,
+      "explanation": "Linux একটি অপারেটিং সিস্টেম।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_062",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ই-মেইল পাঠানোর জন্য ব্যবহৃত প্রোটোকল কোনটি?",
+      "options": [
+        "SMTP",
+        "FTP",
+        "HTTP",
+        "SNMP"
+      ],
+      "answerIndex": 0,
+      "explanation": "Simple Mail Transfer Protocol বা SMTP ই-মেইল পাঠানোর কাজে ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_063",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি প্রোগ্রামিং ভাষা?",
+      "options": [
+        "HTTP",
+        "Python",
+        "JPEG",
+        "DNS"
+      ],
+      "answerIndex": 1,
+      "explanation": "Python একটি উচ্চস্তরের সাধারণ-উদ্দেশ্য প্রোগ্রামিং ভাষা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_064",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে তথ্যের স্থায়ী সংরক্ষণে কোনটি ব্যবহৃত হয়?",
+      "options": [
+        "RAM",
+        "Cache",
+        "SSD",
+        "Register"
+      ],
+      "answerIndex": 2,
+      "explanation": "SSD হলো non-volatile storage; বিদ্যুৎ বন্ধ হলেও তথ্য থাকে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_065",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোন প্রোটোকল ই-মেইল পাঠাতে ব্যবহৃত হয়?",
+      "options": [
+        "SMTP",
+        "FTP",
+        "HTTP",
+        "SNMP"
+      ],
+      "answerIndex": 0,
+      "explanation": "SMTP (Simple Mail Transfer Protocol) ই-মেইল পাঠানোর জন্য ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_066",
+      "category": "কম্পিউটার ও ICT",
+      "question": "বাইনারি সংখ্যা পদ্ধতিতে ব্যবহৃত অঙ্ক কয়টি?",
+      "options": [
+        "২",
+        "৮",
+        "১০",
+        "১৬"
+      ],
+      "answerIndex": 0,
+      "explanation": "বাইনারি পদ্ধতিতে ০ ও ১—এই দুটি অঙ্ক ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_067",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ফিশিং (Phishing) বলতে কী বোঝায়?",
+      "options": [
+        "তথ্য চুরির প্রতারণামূলক প্রচেষ্টা",
+        "ডেটা সংকোচন",
+        "ফাইল ব্যাকআপ",
+        "নেটওয়ার্কের গতি বৃদ্ধি"
+      ],
+      "answerIndex": 0,
+      "explanation": "ফিশিংয়ে ভুয়া বার্তা বা ওয়েবসাইট দিয়ে সংবেদনশীল তথ্য হাতিয়ে নেওয়ার চেষ্টা করা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_068",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেজে একটি রেকর্ডের স্বতন্ত্র পরিচয় নিশ্চিত করতে কোন কী ব্যবহৃত হয়?",
+      "options": [
+        "Foreign key",
+        "Primary key",
+        "Candidate value",
+        "Index page"
+      ],
+      "answerIndex": 1,
+      "explanation": "Primary key প্রতিটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_069",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ই-মেইলে CC-এর পূর্ণরূপ কী?",
+      "options": [
+        "Computer Copy",
+        "Carbon Copy",
+        "Central Copy",
+        "Common Contact"
+      ],
+      "answerIndex": 1,
+      "explanation": "ই-মেইলে CC-এর অর্থ Carbon Copy।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_070",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের কোন মেমোরি volatile?",
+      "options": [
+        "ROM",
+        "SSD",
+        "RAM",
+        "DVD"
+      ],
+      "answerIndex": 2,
+      "explanation": "RAM-এ বিদ্যুৎ সরবরাহ বন্ধ হলে সংরক্ষিত অস্থায়ী তথ্য হারিয়ে যায়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_071",
+      "category": "কম্পিউটার ও ICT",
+      "question": "IPv4 ঠিকানার দৈর্ঘ্য কত বিট?",
+      "options": [
+        "১৬",
+        "৩২",
+        "৬৪",
+        "১২৮"
+      ],
+      "answerIndex": 1,
+      "explanation": "IPv4 ঠিকানা ৩২ বিটের; IPv6 ঠিকানা ১২৮ বিটের।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_072",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে ১ বাইটে কত বিট থাকে?",
+      "options": [
+        "৪",
+        "৮",
+        "১৬",
+        "৩২"
+      ],
+      "answerIndex": 1,
+      "explanation": "এক বাইট সমান ৮ বিট।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_073",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেজে SQL-এর প্রধান ব্যবহার কী?",
+      "options": [
+        "ছবি সম্পাদনা",
+        "ডেটা সংরক্ষণ ও অনুসন্ধান/পরিচালনা",
+        "ভিডিও সংকোচন",
+        "অপারেটিং সিস্টেম তৈরি"
+      ],
+      "answerIndex": 1,
+      "explanation": "SQL হলো relational database-এ তথ্য সংজ্ঞায়িত, অনুসন্ধান ও পরিবর্তনের ভাষা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_074",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি ওপেন-সোর্স ওয়েব ব্রাউজার?",
+      "options": [
+        "Mozilla Firefox",
+        "Microsoft Word",
+        "Adobe Photoshop",
+        "PowerPoint"
+      ],
+      "answerIndex": 0,
+      "explanation": "Mozilla Firefox একটি ওপেন-সোর্স ওয়েব ব্রাউজার।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_075",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের কোন অংশ গাণিতিক ও যৌক্তিক কাজ সম্পাদন করে?",
+      "options": [
+        "CU",
+        "ALU",
+        "RAM",
+        "ROM"
+      ],
+      "answerIndex": 1,
+      "explanation": "ALU বা Arithmetic Logic Unit গাণিতিক ও যৌক্তিক অপারেশন সম্পাদন করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_076",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি ক্লাউড স্টোরেজ সেবার উদাহরণ?",
+      "options": [
+        "Google Drive",
+        "BIOS",
+        "CPU",
+        "Bluetooth"
+      ],
+      "answerIndex": 0,
+      "explanation": "Google Drive ইন্টারনেটভিত্তিক ক্লাউড স্টোরেজ সেবা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_077",
+      "category": "কম্পিউটার ও ICT",
+      "question": "দ্বিমিক সংখ্যা পদ্ধতিতে কোন দুটি অঙ্ক ব্যবহৃত হয়?",
+      "options": [
+        "০ ও ১",
+        "১ ও ২",
+        "০ থেকে ৭",
+        "০ থেকে ৯"
+      ],
+      "answerIndex": 0,
+      "explanation": "Binary বা দ্বিমিক সংখ্যা পদ্ধতিতে শুধু ০ ও ১ ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_078",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের বাইনারি সংখ্যা পদ্ধতির ভিত্তি কত?",
+      "options": [
+        "২",
+        "৮",
+        "১০",
+        "১৬"
+      ],
+      "answerIndex": 0,
+      "explanation": "বাইনারি সংখ্যা পদ্ধতিতে ০ ও ১—দুটি অঙ্ক ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_079",
+      "category": "কম্পিউটার ও ICT",
+      "question": "বাইনারি সংখ্যা পদ্ধতির ভিত্তি কত?",
+      "options": [
+        "২",
+        "৮",
+        "১০",
+        "১৬"
+      ],
+      "answerIndex": 0,
+      "explanation": "বাইনারি সংখ্যা পদ্ধতিতে ০ ও ১—এই দুটি অঙ্ক ব্যবহৃত হয়; তাই ভিত্তি ২।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_080",
+      "category": "কম্পিউটার ও ICT",
+      "question": "এক বাইটে কত বিট থাকে?",
+      "options": [
+        "৮ বিট",
+        "৪ বিট",
+        "১৬ বিট",
+        "৩২ বিট"
+      ],
+      "answerIndex": 0,
+      "explanation": "এক বাইটে ৮ বিট থাকে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_081",
+      "category": "কম্পিউটার ও ICT",
+      "question": "HTML-এর প্রধান কাজ কী?",
+      "options": [
+        "ওয়েবপেজের কাঠামো তৈরি",
+        "ডেটাবেস এনক্রিপ্ট করা",
+        "অপারেটিং সিস্টেম পরিচালনা",
+        "নেটওয়ার্ক রাউটিং"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTML ওয়েবপেজের কাঠামো ও বিষয়বস্তু নির্ধারণে ব্যবহৃত মার্কআপ ভাষা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_082",
+      "category": "কম্পিউটার ও ICT",
+      "question": "RAM-কে Volatile Memory বলা হয় কেন?",
+      "options": [
+        "বিদ্যুৎ বন্ধ হলে এতে থাকা তথ্য হারায়",
+        "এতে তথ্য স্থায়ীভাবে সংরক্ষিত থাকে",
+        "এটি কেবল পড়ার জন্য ব্যবহৃত হয়",
+        "এটি অপটিক্যাল ডিস্ক"
+      ],
+      "answerIndex": 0,
+      "explanation": "RAM-এ থাকা তথ্য সাধারণত বিদ্যুৎ সরবরাহ বন্ধ হলে মুছে যায়; তাই এটি volatile memory।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_083",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে Undo করার শর্টকাট কী?",
+      "options": [
+        "Ctrl+Z",
+        "Ctrl+Y",
+        "Ctrl+C",
+        "Ctrl+V"
+      ],
+      "answerIndex": 0,
+      "explanation": "বেশিরভাগ ডেস্কটপ অ্যাপে Ctrl+Z সর্বশেষ কাজটি Undo করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_084",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ফিশিং কী?",
+      "options": [
+        "প্রতারণার মাধ্যমে সংবেদনশীল তথ্য চুরির কৌশল",
+        "কম্পিউটারের গতি বাড়ানোর পদ্ধতি",
+        "ফাইল সংকোচনের পদ্ধতি",
+        "নেটওয়ার্কের গতি পরিমাপ"
+      ],
+      "answerIndex": 0,
+      "explanation": "ফিশিংয়ে ভুয়া বার্তা বা ওয়েবসাইট ব্যবহার করে পাসওয়ার্ড, আর্থিক বা ব্যক্তিগত তথ্য হাতিয়ে নেওয়া হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_085",
+      "category": "কম্পিউটার ও ICT",
+      "question": "SQL মূলত কী কাজে ব্যবহৃত হয়?",
+      "options": [
+        "ডেটাবেসে তথ্য সংজ্ঞায়িত ও পরিচালনায়",
+        "ছবি সম্পাদনায়",
+        "ভিডিও স্ট্রিমিংয়ে",
+        "অপারেটিং সিস্টেম বুটে"
+      ],
+      "answerIndex": 0,
+      "explanation": "SQL হলো relational database-এর তথ্য query ও ব্যবস্থাপনার ভাষা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_086",
+      "category": "কম্পিউটার ও ICT",
+      "question": "Linux কী?",
+      "options": [
+        "অপারেটিং সিস্টেম",
+        "ওয়েব ব্রাউজার",
+        "ডেটাবেস টেবিল",
+        "প্রোগ্রামিং ফন্ট"
+      ],
+      "answerIndex": 0,
+      "explanation": "Linux একটি মুক্ত ও ওপেন-সোর্স অপারেটিং সিস্টেম কার্নেলভিত্তিক অপারেটিং সিস্টেম পরিবার।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_087",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে Undo করার প্রচলিত শর্টকাট কী?",
+      "options": [
+        "Ctrl+Z",
+        "Ctrl+Y",
+        "Ctrl+C",
+        "Ctrl+V"
+      ],
+      "answerIndex": 0,
+      "explanation": "বেশিরভাগ ডেস্কটপ অ্যাপে Ctrl+Z সর্বশেষ কাজ Undo করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_088",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের CPU-তে গাণিতিক ও যৌক্তিক কাজ সম্পাদন করে কোন অংশ?",
+      "options": [
+        "Control Unit",
+        "ALU",
+        "Cache",
+        "Register"
+      ],
+      "answerIndex": 1,
+      "explanation": "Arithmetic Logic Unit (ALU) গাণিতিক হিসাব ও যৌক্তিক তুলনা সম্পাদন করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_089",
+      "category": "কম্পিউটার ও ICT",
+      "question": "DNS-এর প্রধান কাজ কী?",
+      "options": [
+        "ওয়েবপেজ ডিজাইন",
+        "ডোমেইন নামকে IP ঠিকানায় রূপান্তর",
+        "ফাইল সংকোচন",
+        "ই-মেইল এনক্রিপ্ট"
+      ],
+      "answerIndex": 1,
+      "explanation": "DNS ডোমেইন নামের সঙ্গে সংশ্লিষ্ট IP ঠিকানা খুঁজে দেয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_090",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটার নেটওয়ার্কে LAN-এর পূর্ণরূপ কী?",
+      "options": [
+        "Large Access Network",
+        "Local Area Network",
+        "Long Area Node",
+        "Linked Application Network"
+      ],
+      "answerIndex": 1,
+      "explanation": "LAN-এর পূর্ণরূপ Local Area Network।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_091",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের কোন মেমোরি বিদ্যুৎ সংযোগ বিচ্ছিন্ন হলে তথ্য হারায়?",
+      "options": [
+        "ROM",
+        "ফ্ল্যাশ মেমোরি",
+        "RAM",
+        "SSD"
+      ],
+      "answerIndex": 2,
+      "explanation": "RAM হলো volatile বা অস্থায়ী মেমোরি; বিদ্যুৎ বন্ধ হলে এর তথ্য থাকে না।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_092",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ই-মেইল পাঠানোর জন্য ব্যবহৃত SMTP-এর পূর্ণরূপ কী?",
+      "options": [
+        "Simple Mail Transfer Protocol",
+        "Secure Message Text Program",
+        "System Mail Transport Process",
+        "Standard Message Transfer Program"
+      ],
+      "answerIndex": 0,
+      "explanation": "SMTP-এর পূর্ণরূপ Simple Mail Transfer Protocol; এটি ই-মেইল পাঠানোর প্রোটোকল।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_093",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেজে একটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করতে সাধারণত কোনটি ব্যবহৃত হয়?",
+      "options": [
+        "Foreign key",
+        "Primary key",
+        "Data type",
+        "Query"
+      ],
+      "answerIndex": 1,
+      "explanation": "Primary key প্রতিটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করে এবং একই টেবিলে এর মান অনন্য থাকে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_094",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি ওপেন-সোর্স অপারেটিং সিস্টেম?",
+      "options": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS"
+      ],
+      "answerIndex": 2,
+      "explanation": "Linux একটি বহুল ব্যবহৃত ওপেন-সোর্স অপারেটিং সিস্টেমের পরিবার।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_095",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের CPU-এর ALU অংশের প্রধান কাজ কী?",
+      "options": [
+        "তথ্য সংরক্ষণ",
+        "গাণিতিক ও যৌক্তিক কাজ",
+        "ছবি প্রদর্শন",
+        "নেটওয়ার্ক সংযোগ"
+      ],
+      "answerIndex": 1,
+      "explanation": "ALU বা Arithmetic Logic Unit গাণিতিক হিসাব ও যৌক্তিক তুলনা সম্পন্ন করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_096",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি ওয়েব পেজ তৈরির মার্কআপ ভাষা?",
+      "options": [
+        "HTML",
+        "SQL",
+        "Python",
+        "C"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTML-এর পূর্ণরূপ HyperText Markup Language; ওয়েব পেজের কাঠামো তৈরিতে ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_097",
+      "category": "কম্পিউটার ও ICT",
+      "question": "IPv4 ঠিকানা কত বিটের?",
+      "options": [
+        "১৬",
+        "৩২",
+        "৬৪",
+        "১২৮"
+      ],
+      "answerIndex": 1,
+      "explanation": "IPv4 ঠিকানা ৩২ বিটের; সাধারণত চারটি দশমিক অক্টেটে লেখা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_098",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে ফিশিং বলতে কী বোঝায়?",
+      "options": [
+        "ডেটা সংকোচন",
+        "প্রতারণার মাধ্যমে গোপন তথ্য হাতিয়ে নেওয়া",
+        "ফাইল মুছে ফেলা",
+        "হার্ডওয়্যার পরিষ্কার"
+      ],
+      "answerIndex": 1,
+      "explanation": "ফিশিং হলো ভুয়া বার্তা বা ওয়েবসাইটের মাধ্যমে পাসওয়ার্ডসহ সংবেদনশীল তথ্য নেওয়ার প্রতারণা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_099",
+      "category": "কম্পিউটার ও ICT",
+      "question": "স্প্রেডশিটে সারি ও কলামের ছেদস্থলকে কী বলা হয়?",
+      "options": [
+        "সেল",
+        "ওয়ার্কবুক",
+        "স্লাইড",
+        "ফিল্ড"
+      ],
+      "answerIndex": 0,
+      "explanation": "স্প্রেডশিটে একটি সারি ও একটি কলামের ছেদস্থল হলো সেল।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_100",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের বাইনারি সংখ্যা পদ্ধতিতে কোন দুটি অঙ্ক ব্যবহৃত হয়?",
+      "options": [
+        "০ ও ১",
+        "১ ও ২",
+        "০ ও ৯",
+        "২ ও ৮"
+      ],
+      "answerIndex": 0,
+      "explanation": "বাইনারি সংখ্যা পদ্ধতির ভিত্তি ২; এতে কেবল ০ এবং ১ ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_101",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের স্থায়ী ফার্মওয়্যার সাধারণত কোন মেমোরিতে সংরক্ষিত থাকে?",
+      "options": [
+        "RAM",
+        "ROM/Flash memory",
+        "Cache",
+        "Register"
+      ],
+      "answerIndex": 1,
+      "explanation": "ফার্মওয়্যার সাধারণত অ-উদ্বায়ী ROM বা ফ্ল্যাশ মেমোরিতে সংরক্ষিত থাকে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_102",
+      "category": "কম্পিউটার ও ICT",
+      "question": "এক কিবিবাইট (KiB) কত বাইট?",
+      "options": [
+        "১০০",
+        "৫১২",
+        "১০২৪",
+        "২০৪৮"
+      ],
+      "answerIndex": 2,
+      "explanation": "১ KiB = ১০২৪ বাইট। SI এককে ১ kB = ১০০০ বাইট; তাই KiB ও kB আলাদা একক।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_103",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে Ctrl+C শর্টকাটের কাজ কী?",
+      "options": [
+        "Paste",
+        "Cut",
+        "Copy",
+        "Undo"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ctrl+C নির্বাচিত লেখা বা ফাইল কপি করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_104",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের ম্যালওয়্যার বলতে কী বোঝায়?",
+      "options": [
+        "উপকারী সফটওয়্যার",
+        "ক্ষতিকর সফটওয়্যার",
+        "অপারেটিং সিস্টেম",
+        "ডেটাবেজ"
+      ],
+      "answerIndex": 1,
+      "explanation": "Malware হলো কম্পিউটার বা তথ্যের ক্ষতি, অননুমোদিত প্রবেশ বা বিঘ্ন ঘটানোর উদ্দেশ্যে তৈরি সফটওয়্যার।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_105",
+      "category": "কম্পিউটার ও ICT",
+      "question": "HTML-এ হাইপারলিংক তৈরির জন্য কোন ট্যাগ ব্যবহৃত হয়?",
+      "options": [
+        "<p>",
+        "<a>",
+        "<img>",
+        "<h1>"
+      ],
+      "answerIndex": 1,
+      "explanation": "HTML-এর anchor বা <a> ট্যাগ দিয়ে হাইপারলিংক তৈরি করা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_106",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে GUI-এর পূর্ণরূপ কী?",
+      "options": [
+        "General User Internet",
+        "Graphical User Interface",
+        "Global Utility Input",
+        "Graphic Unified Instruction"
+      ],
+      "answerIndex": 1,
+      "explanation": "GUI-এর পূর্ণরূপ Graphical User Interface; গ্রাফিক্যাল উপাদানের মাধ্যমে ব্যবহারকারী কম্পিউটার পরিচালনা করেন।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_107",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেজে প্রতিটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করতে কোন কী ব্যবহৃত হয়?",
+      "options": [
+        "Foreign key",
+        "Primary key",
+        "Candidate field",
+        "Secondary key"
+      ],
+      "answerIndex": 1,
+      "explanation": "Primary key টেবিলের প্রতিটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_108",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নেটওয়ার্কে DNS-এর প্রধান কাজ কী?",
+      "options": [
+        "ফাইল সংকুচিত করা",
+        "ডোমেইন নামকে IP ঠিকানায় রূপান্তর করা",
+        "ই-মেইল এনক্রিপ্ট করা",
+        "কম্পিউটার ঠান্ডা রাখা"
+      ],
+      "answerIndex": 1,
+      "explanation": "Domain Name System ডোমেইন নামের সঙ্গে সংশ্লিষ্ট IP ঠিকানা খুঁজে দেয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_109",
+      "category": "কম্পিউটার ও ICT",
+      "question": "URL-এর কোন অংশটি ওয়েবসাইটের ডোমেইন নাম নির্দেশ করে?",
+      "options": [
+        "https",
+        "example.com",
+        "/page/index",
+        "?id=10"
+      ],
+      "answerIndex": 1,
+      "explanation": "https://example.com/page-এ example.com হলো ডোমেইন নাম।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_110",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ই-মেইলে BCC-এর পূর্ণরূপ কী?",
+      "options": [
+        "Basic Carbon Copy",
+        "Blind Carbon Copy",
+        "Backup Carbon Copy",
+        "Binary Copy Code"
+      ],
+      "answerIndex": 1,
+      "explanation": "BCC-এর পূর্ণরূপ Blind Carbon Copy; এতে প্রাপকদের ঠিকানা অন্য প্রাপকেরা দেখতে পান না।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_111",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোন প্রোটোকল ওয়েব পেজ স্থানান্তরে ব্যবহৃত হয়?",
+      "options": [
+        "FTP",
+        "SMTP",
+        "HTTP",
+        "SNMP"
+      ],
+      "answerIndex": 2,
+      "explanation": "HTTP (Hypertext Transfer Protocol) ওয়েব ক্লায়েন্ট ও সার্ভারের মধ্যে তথ্য আদান-প্রদান করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_112",
+      "category": "কম্পিউটার ও ICT",
+      "question": "এক কিবিবাইট (KiB) কত বাইট?",
+      "options": [
+        "১০০০",
+        "১০২৪",
+        "২০৪৮",
+        "৫১২"
+      ],
+      "answerIndex": 1,
+      "explanation": "১ KiB = ১০২৪ বাইট। SI এককে ১ kB = ১০০০ বাইট; তাই KiB ও kB আলাদা একক।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_113",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ইন্টারনেটে ডোমেইন নামকে IP ঠিকানায় রূপান্তর করে কোন ব্যবস্থা?",
+      "options": [
+        "DNS",
+        "DHCP",
+        "HTML",
+        "SSH"
+      ],
+      "answerIndex": 0,
+      "explanation": "Domain Name System (DNS) ডোমেইন নামের সঙ্গে সংশ্লিষ্ট IP ঠিকানা খুঁজে দেয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_114",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি দ্বি-ফ্যাক্টর প্রমাণীকরণের উদাহরণ?",
+      "options": [
+        "শুধু পাসওয়ার্ড",
+        "পাসওয়ার্ড ও OTP",
+        "শুধু ব্যবহারকারীর নাম",
+        "শুধু ক্যাপচা"
+      ],
+      "answerIndex": 1,
+      "explanation": "পাসওয়ার্ডের সঙ্গে OTP ব্যবহার করলে দুটি পৃথক প্রমাণীকরণ উপাদান যুক্ত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_115",
+      "category": "কম্পিউটার ও ICT",
+      "question": "CSS প্রধানত কী কাজে ব্যবহৃত হয়?",
+      "options": [
+        "ওয়েবপেজের কাঠামো তৈরি",
+        "ওয়েবপেজের উপস্থাপন ও নকশা নির্ধারণ",
+        "ডেটাবেজ পরিচালনা",
+        "সার্ভার হার্ডওয়্যার নিয়ন্ত্রণ"
+      ],
+      "answerIndex": 1,
+      "explanation": "CSS দিয়ে HTML ডকুমেন্টের রং, ফন্ট, বিন্যাস ও দৃশ্যমান নকশা নির্ধারণ করা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_116",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের GUI-এর পূর্ণরূপ কী?",
+      "options": [
+        "General User Internet",
+        "Graphical User Interface",
+        "Global Utility Integration",
+        "Graphic Unit Input"
+      ],
+      "answerIndex": 1,
+      "explanation": "GUI-এর পূর্ণরূপ Graphical User Interface; এতে আইকন, মেনু ও উইন্ডোর মাধ্যমে ব্যবহার করা যায়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_117",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেজে SQL-এর পূর্ণরূপ কী?",
+      "options": [
+        "Structured Query Language",
+        "Standard Question Logic",
+        "System Quality Link",
+        "Sequential Queue Language"
+      ],
+      "answerIndex": 0,
+      "explanation": "SQL-এর পূর্ণরূপ Structured Query Language; relational database-এ তথ্য ব্যবস্থাপনায় ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_118",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটার নেটওয়ার্কে Firewall-এর প্রধান কাজ কী?",
+      "options": [
+        "মনিটরের উজ্জ্বলতা বাড়ানো",
+        "নেটওয়ার্ক ট্রাফিক নিয়ন্ত্রণ ও সুরক্ষা",
+        "ফাইল প্রিন্ট করা",
+        "ডেটা টাইপ করা"
+      ],
+      "answerIndex": 1,
+      "explanation": "Firewall নির্ধারিত নিরাপত্তা নীতি অনুযায়ী incoming ও outgoing network traffic পর্যবেক্ষণ ও নিয়ন্ত্রণ করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_119",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের BIOS-এর প্রধান কাজ কী?",
+      "options": [
+        "ইন্টারনেট ব্রাউজ করা",
+        "কম্পিউটার চালুর সময় হার্ডওয়্যার পরীক্ষা ও প্রাথমিক নির্দেশনা দেওয়া",
+        "ডকুমেন্ট সম্পাদনা",
+        "ছবি আঁকা"
+      ],
+      "answerIndex": 1,
+      "explanation": "BIOS/firmware কম্পিউটার চালুর সময় প্রাথমিক হার্ডওয়্যার পরীক্ষা ও boot প্রক্রিয়া শুরু করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_120",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি ওয়েব ব্রাউজার?",
+      "options": [
+        "Apache",
+        "Firefox",
+        "MySQL",
+        "Linux Kernel"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mozilla Firefox একটি ওয়েব ব্রাউজার।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_121",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে Ctrl+Z সাধারণত কী কাজ করে?",
+      "options": [
+        "Redo",
+        "Undo",
+        "Save",
+        "Print"
+      ],
+      "answerIndex": 1,
+      "explanation": "বেশির ভাগ অ্যাপে Ctrl+Z সর্বশেষ কাজটি Undo করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_122",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ইন্টারনেট প্রোটোকল IPv6 ঠিকানা কত বিটের?",
+      "options": [
+        "৩২",
+        "৬৪",
+        "৯৬",
+        "১২৮"
+      ],
+      "answerIndex": 3,
+      "explanation": "IPv6 ঠিকানা ১২৮ বিটের; IPv4 ঠিকানা ৩২ বিটের।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_123",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি প্রোগ্রামিং ভাষা?",
+      "options": [
+        "HTTP",
+        "Python",
+        "JPEG",
+        "DNS"
+      ],
+      "answerIndex": 1,
+      "explanation": "Python একটি উচ্চস্তরের সাধারণ-উদ্দেশ্য প্রোগ্রামিং ভাষা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_124",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের কোন অংশে BIOS/UEFI firmware সংরক্ষিত থাকে?",
+      "options": [
+        "RAM",
+        "মাদারবোর্ডের non-volatile memory chip",
+        "কীবোর্ড",
+        "মনিটর"
+      ],
+      "answerIndex": 1,
+      "explanation": "BIOS/UEFI firmware মাদারবোর্ডের non-volatile flash memory-তে সংরক্ষিত থাকে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_125",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি ক্লাউড স্টোরেজ সেবার উদাহরণ?",
+      "options": [
+        "Google Drive",
+        "Notepad",
+        "BIOS",
+        "Device Manager"
+      ],
+      "answerIndex": 0,
+      "explanation": "Google Drive অনলাইনে ফাইল সংরক্ষণ ও শেয়ার করার ক্লাউড স্টোরেজ সেবা।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_126",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটার নেটওয়ার্কে HTTPS-এর ‘S’ কী নির্দেশ করে?",
+      "options": [
+        "System",
+        "Secure",
+        "Server",
+        "Simple"
+      ],
+      "answerIndex": 1,
+      "explanation": "HTTPS-এর S হলো Secure; এটি TLS-এর মাধ্যমে সংযোগ এনক্রিপ্ট করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_127",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি ওপেন-সোর্স রিলেশনাল ডেটাবেজ ম্যানেজমেন্ট সিস্টেম?",
+      "options": [
+        "MySQL",
+        "Microsoft Word",
+        "PowerPoint",
+        "Photoshop"
+      ],
+      "answerIndex": 0,
+      "explanation": "MySQL একটি বহুল ব্যবহৃত relational database management system; এর Community Edition ওপেন-সোর্স।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_128",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি দ্বিমাত্রিক বারকোড?",
+      "options": [
+        "QR Code",
+        "ISBN",
+        "UPC-A",
+        "Code 39"
+      ],
+      "answerIndex": 0,
+      "explanation": "QR Code একটি two-dimensional matrix barcode।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_129",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে PDF-এর পূর্ণরূপ কী?",
+      "options": [
+        "Portable Document Format",
+        "Personal Data File",
+        "Printed Document Form",
+        "Program Data Format"
+      ],
+      "answerIndex": 0,
+      "explanation": "PDF-এর পূর্ণরূপ Portable Document Format।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_130",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে RAM-এর তথ্য সাধারণত কখন মুছে যায়?",
+      "options": [
+        "কম্পিউটার বন্ধ হলে",
+        "ফাইল সেভ করলে",
+        "প্রিন্ট করলে",
+        "ইন্টারনেট চালু করলে"
+      ],
+      "answerIndex": 0,
+      "explanation": "RAM volatile memory; বিদ্যুৎ সরবরাহ বন্ধ হলে এর অস্থায়ী তথ্য হারিয়ে যায়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_131",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে অপারেটিং সিস্টেমের মূল কাজ কোনটি?",
+      "options": [
+        "হার্ডওয়্যার ও সফটওয়্যার সম্পদ পরিচালনা",
+        "শুধু ছবি সম্পাদনা",
+        "শুধু ইন্টারনেট সংযোগ",
+        "বিদ্যুৎ সরবরাহ"
+      ],
+      "answerIndex": 0,
+      "explanation": "অপারেটিং সিস্টেম প্রসেস, মেমোরি, ফাইল ও ডিভাইসসহ কম্পিউটারের সম্পদ পরিচালনা করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_132",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি ওপেন-সোর্স অপারেটিং সিস্টেমের উদাহরণ?",
+      "options": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "iOS"
+      ],
+      "answerIndex": 1,
+      "explanation": "Linux kernel-ভিত্তিক বহু অপারেটিং সিস্টেম ওপেন-সোর্স লাইসেন্সে প্রকাশিত।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_133",
+      "category": "কম্পিউটার ও ICT",
+      "question": "একটি byte-এ সাধারণত কত bit থাকে?",
+      "options": [
+        "৪",
+        "৮",
+        "১৬",
+        "৩২"
+      ],
+      "answerIndex": 1,
+      "explanation": "এক byte সমান ৮ bit।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_134",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের CPU-এর ALU অংশের কাজ কী?",
+      "options": [
+        "গাণিতিক ও যৌক্তিক অপারেশন",
+        "ফাইল সংরক্ষণ",
+        "ছবি প্রদর্শন",
+        "নেটওয়ার্ক সংযোগ"
+      ],
+      "answerIndex": 0,
+      "explanation": "ALU-এর পূর্ণরূপ Arithmetic Logic Unit; এটি গাণিতিক ও যৌক্তিক কাজ করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_135",
+      "category": "কম্পিউটার ও ICT",
+      "question": "HTML-এ hyperlink তৈরিতে কোন tag ব্যবহৃত হয়?",
+      "options": [
+        "<p>",
+        "<a>",
+        "<h1>",
+        "<img>"
+      ],
+      "answerIndex": 1,
+      "explanation": "HTML-এর anchor tag <a> দিয়ে hyperlink তৈরি করা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_136",
+      "category": "কম্পিউটার ও ICT",
+      "question": "HTML-এ ছবি যুক্ত করার tag কোনটি?",
+      "options": [
+        "<picturefile>",
+        "<img>",
+        "<src>",
+        "<image>"
+      ],
+      "answerIndex": 1,
+      "explanation": "HTML-এ <img> tag দিয়ে ছবি যুক্ত করা হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_137",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেজে Primary Key-এর বৈশিষ্ট্য কোনটি?",
+      "options": [
+        "একই মান একাধিকবার থাকতে পারে",
+        "প্রতিটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করে",
+        "শুধু ছবি রাখে",
+        "ডেটা এনক্রিপ্ট করে"
+      ],
+      "answerIndex": 1,
+      "explanation": "Primary key প্রতিটি row বা record-কে uniquely identify করে এবং NULL হতে পারে না।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_138",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটার নেটওয়ার্কে DNS-এর কাজ কী?",
+      "options": [
+        "ডোমেইন নামকে IP ঠিকানায় রূপান্তর",
+        "ফাইল সংকুচিত",
+        "পাসওয়ার্ড তৈরি",
+        "ওয়েবপেজ ডিজাইন"
+      ],
+      "answerIndex": 0,
+      "explanation": "DNS domain name-কে সংশ্লিষ্ট IP address-এ resolve করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_139",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ইন্টারনেটে ওয়েবপেজ স্থানান্তরে সাধারণত কোন প্রোটোকল ব্যবহৃত হয়?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "SSH"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTTP হলো ওয়েবের hypertext transfer protocol; HTTPS হলো এর সুরক্ষিত সংস্করণ।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_140",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ই-মেইল পাঠানোর জন্য কোন প্রোটোকল ব্যবহৃত হয়?",
+      "options": [
+        "SMTP",
+        "POP3",
+        "IMAP",
+        "SNMP"
+      ],
+      "answerIndex": 0,
+      "explanation": "SMTP হলো ই-মেইল পাঠানো ও mail server-গুলোর মধ্যে relay করার প্রোটোকল।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_141",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ই-মেইল সার্ভার থেকে বার্তা গ্রহণে কোন প্রোটোকল ব্যবহৃত হয়?",
+      "options": [
+        "SMTP",
+        "POP3",
+        "HTTP",
+        "SSH"
+      ],
+      "answerIndex": 1,
+      "explanation": "POP3 হলো mail server থেকে ই-মেইল ডাউনলোড/গ্রহণের প্রোটোকল।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_142",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি স্প্রেডশিট সফটওয়্যার?",
+      "options": [
+        "Microsoft Excel",
+        "Microsoft Access",
+        "PowerPoint",
+        "Notepad"
+      ],
+      "answerIndex": 0,
+      "explanation": "Microsoft Excel সারি-কলামভিত্তিক spreadsheet তৈরি ও বিশ্লেষণে ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_143",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে .pptx ফাইল সাধারণত কোন সফটওয়্যারের?",
+      "options": [
+        "Word",
+        "Excel",
+        "PowerPoint",
+        "Access"
+      ],
+      "answerIndex": 2,
+      "explanation": ".pptx হলো Microsoft PowerPoint presentation-এর প্রচলিত ফাইল ফরম্যাট।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_144",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি দুই-ধাপ যাচাইকরণ (2FA)-এর উদাহরণ?",
+      "options": [
+        "শুধু পাসওয়ার্ড",
+        "পাসওয়ার্ডের সঙ্গে OTP",
+        "শুধু ব্যবহারকারীর নাম",
+        "শুধু ই-মেইল ঠিকানা"
+      ],
+      "answerIndex": 1,
+      "explanation": "পাসওয়ার্ডের পাশাপাশি OTP বা security key চাওয়া দুই-ধাপ যাচাইকরণের উদাহরণ।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_145",
+      "category": "কম্পিউটার ও ICT",
+      "question": "Ransomware কী ধরনের ক্ষতিকর সফটওয়্যার?",
+      "options": [
+        "ফাইল এনক্রিপ্ট/লক করে মুক্তিপণ দাবি করে",
+        "কম্পিউটার ঠান্ডা রাখে",
+        "ডেটা ব্যাকআপ করে",
+        "ওয়েবসাইট অনুবাদ করে"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ransomware সাধারণত ফাইল এনক্রিপ্ট বা সিস্টেম লক করে অর্থ দাবি করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_146",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি শক্তিশালী পাসওয়ার্ডের ভালো বৈশিষ্ট্য?",
+      "options": [
+        "নাম ও জন্মতারিখ",
+        "একই পাসওয়ার্ড সবখানে",
+        "দীর্ঘ ও অনন্য পাসফ্রেজ",
+        "12345678"
+      ],
+      "answerIndex": 2,
+      "explanation": "দীর্ঘ, অনন্য এবং অনুমান করা কঠিন পাসফ্রেজ নিরাপত্তা বাড়ায়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_147",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে SSD-এর প্রধান সুবিধা কোনটি?",
+      "options": [
+        "চলন্ত যন্ত্রাংশ বেশি",
+        "সাধারণত HDD-এর চেয়ে দ্রুত ডেটা অ্যাক্সেস",
+        "শুধু RAM হিসেবে কাজ",
+        "বিদ্যুৎ ছাড়া অনন্তকাল চলে"
+      ],
+      "answerIndex": 1,
+      "explanation": "SSD flash memory ব্যবহার করে এবং সাধারণত HDD-এর তুলনায় দ্রুত read/write করে।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_148",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি কৃত্রিম বুদ্ধিমত্তার (AI) একটি সাধারণ প্রয়োগ?",
+      "options": [
+        "ভাষা অনুবাদ",
+        "কাগজের ওজন মাপা",
+        "বিদ্যুৎ উৎপাদন",
+        "কেবল টাইপিং"
+      ],
+      "answerIndex": 0,
+      "explanation": "AI-ভিত্তিক ব্যবস্থা স্বয়ংক্রিয় ভাষা অনুবাদে ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_149",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি ইন্টারনেটের মাধ্যমে ফাইল স্থানান্তরের প্রোটোকল?",
+      "options": [
+        "FTP",
+        "HTML",
+        "CSS",
+        "JPEG"
+      ],
+      "answerIndex": 0,
+      "explanation": "FTP-এর পূর্ণরূপ File Transfer Protocol; নেটওয়ার্কে ফাইল স্থানান্তরে ব্যবহৃত হয়।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "base_150",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে GUI-তে ‘Icon’ বলতে কী বোঝায়?",
+      "options": [
+        "গ্রাফিক প্রতীক বা চিহ্ন",
+        "একটি প্রোগ্রামিং ভাষা",
+        "ডেটাবেজ সার্ভার",
+        "নেটওয়ার্ক কেবল"
+      ],
+      "answerIndex": 0,
+      "explanation": "Icon হলো কোনো অ্যাপ, ফাইল বা কমান্ডের প্রতিনিধিত্বকারী ছোট গ্রাফিক চিহ্ন।",
+      "source": "Main question bank"
+    },
+    {
+      "id": "extra_021",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের CPU-তে ALU-এর প্রধান কাজ কী?",
+      "options": [
+        "গাণিতিক ও যৌক্তিক কাজ করা",
+        "তথ্য স্থায়ীভাবে সংরক্ষণ",
+        "ছবি প্রিন্ট করা",
+        "ইন্টারনেট সংযোগ দেওয়া"
+      ],
+      "answerIndex": 0,
+      "explanation": "ALU বা Arithmetic Logic Unit গাণিতিক গণনা ও যৌক্তিক অপারেশন সম্পাদন করে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js"
+    },
+    {
+      "id": "extra_022",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি অপারেটিং সিস্টেম?",
+      "options": [
+        "Linux",
+        "Oracle Database",
+        "Python",
+        "HTML"
+      ],
+      "answerIndex": 0,
+      "explanation": "Linux একটি অপারেটিং সিস্টেম; Python ভাষা এবং HTML মার্কআপ ভাষা।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js"
+    },
+    {
+      "id": "extra_023",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ওয়েব ঠিকানায় HTTPS-এর ‘S’ কী নির্দেশ করে?",
+      "options": [
+        "System",
+        "Secure",
+        "Server",
+        "Source"
+      ],
+      "answerIndex": 1,
+      "explanation": "HTTPS হলো HTTP-এর নিরাপদ সংস্করণ; S দ্বারা Secure বোঝায়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js"
+    },
+    {
+      "id": "extra_024",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেজে প্রাইমারি কী-এর কাজ কী?",
+      "options": [
+        "রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করা",
+        "ফাইল সংকুচিত করা",
+        "পাসওয়ার্ড এনক্রিপ্ট করা",
+        "নেটওয়ার্কের গতি বাড়ানো"
+      ],
+      "answerIndex": 0,
+      "explanation": "প্রাইমারি কী টেবিলের প্রতিটি রেকর্ডকে অনন্যভাবে শনাক্ত করে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js"
+    },
+    {
+      "id": "extra_061",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের CPU-এর পূর্ণরূপ কী?",
+      "options": [
+        "Central Processing Unit",
+        "Computer Primary Utility",
+        "Central Program Upload",
+        "Core Power Unit"
+      ],
+      "answerIndex": 0,
+      "explanation": "CPU-এর পূর্ণরূপ Central Processing Unit; এটি নির্দেশনা প্রক্রিয়াকরণ করে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-02.js"
+    },
+    {
+      "id": "extra_063",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ইন্টারনেটে ওয়েবপৃষ্ঠার ঠিকানাকে কী বলা হয়?",
+      "options": [
+        "URL",
+        "HTML",
+        "HTTP",
+        "ISP"
+      ],
+      "answerIndex": 0,
+      "explanation": "URL বা Uniform Resource Locator ওয়েবের কোনো রিসোর্সের ঠিকানা নির্দেশ করে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-02.js"
+    },
+    {
+      "id": "extra_065",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ফিশিং (Phishing) কী?",
+      "options": [
+        "ডেটা সংকোচন পদ্ধতি",
+        "প্রতারণার মাধ্যমে গোপন তথ্য হাতিয়ে নেওয়া",
+        "ফাইল ব্যাকআপ",
+        "নেটওয়ার্কের গতি পরীক্ষা"
+      ],
+      "answerIndex": 1,
+      "explanation": "ফিশিং হলো ভুয়া বার্তা বা ওয়েবসাইটের মাধ্যমে পাসওয়ার্ডসহ সংবেদনশীল তথ্য চুরির কৌশল।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-02.js"
+    },
+    {
+      "id": "extra_101",
+      "category": "কম্পিউটার ও ICT",
+      "question": "HTML মূলত কী কাজে ব্যবহৃত হয়?",
+      "options": [
+        "ওয়েবপৃষ্ঠার কাঠামো তৈরিতে",
+        "ছবি সম্পাদনায়",
+        "অ্যান্টিভাইরাস চালাতে",
+        "ডেটাবেজ এনক্রিপ্ট করতে"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTML ওয়েবপৃষ্ঠার কাঠামো ও কনটেন্ট চিহ্নিত করার মার্কআপ ভাষা।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js"
+    },
+    {
+      "id": "extra_102",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ই-মেইলে BCC ব্যবহারের উদ্দেশ্য কী?",
+      "options": [
+        "বার্তা মুছে ফেলা",
+        "প্রাপকদের ঠিকানা অন্য প্রাপকদের কাছ থেকে গোপন রাখা",
+        "ফাইল সংকোচন",
+        "বার্তা অনুবাদ"
+      ],
+      "answerIndex": 1,
+      "explanation": "BCC-তে রাখা প্রাপকদের ঠিকানা সাধারণত অন্য প্রাপকেরা দেখতে পান না।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js"
+    },
+    {
+      "id": "extra_103",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি অপারেটিং সিস্টেম?",
+      "options": [
+        "Linux",
+        "Oracle",
+        "Python",
+        "HTML"
+      ],
+      "answerIndex": 0,
+      "explanation": "Linux একটি অপারেটিং সিস্টেম।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js"
+    },
+    {
+      "id": "extra_104",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেজে প্রাইমারি কী-এর প্রধান বৈশিষ্ট্য কী?",
+      "options": [
+        "একই মান বহুবার থাকতে পারে",
+        "রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করে",
+        "শুধু ছবি রাখে",
+        "সারণি মুছে দেয়"
+      ],
+      "answerIndex": 1,
+      "explanation": "প্রাইমারি কী প্রতিটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করে এবং NULL হতে পারে না।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js"
+    },
+    {
+      "id": "extra_105",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটার নেটওয়ার্কে IP address কী শনাক্ত করতে সাহায্য করে?",
+      "options": [
+        "নেটওয়ার্কে ডিভাইস বা ইন্টারফেস",
+        "মনিটরের রং",
+        "কিবোর্ডের ভাষা",
+        "ফাইলের ধরন"
+      ],
+      "answerIndex": 0,
+      "explanation": "IP address একটি নেটওয়ার্কে ডিভাইস/নেটওয়ার্ক ইন্টারফেসকে শনাক্ত ও রাউট করতে ব্যবহৃত হয়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js"
+    },
+    {
+      "id": "extra_142",
+      "category": "কম্পিউটার ও ICT",
+      "question": "HTTPS-এ ‘S’ দ্বারা কী বোঝায়?",
+      "options": [
+        "System",
+        "Secure",
+        "Service",
+        "Server"
+      ],
+      "answerIndex": 1,
+      "explanation": "HTTPS হলো HTTP-এর নিরাপদ সংস্করণ; S দ্বারা Secure বোঝায়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js"
+    },
+    {
+      "id": "extra_143",
+      "category": "কম্পিউটার ও ICT",
+      "question": "স্প্রেডশিটে সারি ও কলামের ছেদকে কী বলা হয়?",
+      "options": [
+        "সেল",
+        "ওয়ার্কবুক",
+        "চার্ট",
+        "ফর্মুলা"
+      ],
+      "answerIndex": 0,
+      "explanation": "স্প্রেডশিটে row ও column-এর ছেদস্থলকে cell বলা হয়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js"
+    },
+    {
+      "id": "extra_145",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটা ব্যাকআপের মূল উদ্দেশ্য কী?",
+      "options": [
+        "কম্পিউটার দ্রুত করা",
+        "তথ্য হারালে পুনরুদ্ধার করা",
+        "স্ক্রিনের উজ্জ্বলতা বাড়ানো",
+        "ভাইরাস তৈরি করা"
+      ],
+      "answerIndex": 1,
+      "explanation": "ব্যাকআপের উদ্দেশ্য হলো মূল তথ্য নষ্ট বা হারিয়ে গেলে কপি থেকে পুনরুদ্ধার করা।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js"
+    },
+    {
+      "id": "extra_179",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেজে প্রাইমারি কী-এর বৈশিষ্ট্য কোনটি?",
+      "options": [
+        "একই মান একাধিকবার থাকতে পারে",
+        "শুধু ফাঁকা মান রাখে",
+        "প্রতিটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করে",
+        "কেবল ছবি সংরক্ষণ করে"
+      ],
+      "answerIndex": 2,
+      "explanation": "Primary key একটি টেবিলের প্রতিটি রেকর্ডকে uniquely শনাক্ত করে; এর মান অনন্য ও NULL নয়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-05.js"
+    },
+    {
+      "id": "extra_180",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি ওপেন-সোর্স অপারেটিং সিস্টেমের উদাহরণ?",
+      "options": [
+        "Microsoft Windows",
+        "macOS",
+        "GNU/Linux",
+        "iOS"
+      ],
+      "answerIndex": 2,
+      "explanation": "GNU/Linux-এর সোর্স কোড উন্মুক্ত লাইসেন্সে পাওয়া যায় এবং পরিবর্তন ও বিতরণ করা যায়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-05.js"
+    },
+    {
+      "id": "extra_181",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে ‘ক্যাশ মেমোরি’ ব্যবহারের মূল উদ্দেশ্য কী?",
+      "options": [
+        "বিদ্যুৎ সরবরাহ করা",
+        "প্রায়শ ব্যবহৃত ডেটা দ্রুত সরবরাহ করা",
+        "ফাইল স্থায়ীভাবে মুছে ফেলা",
+        "মনিটরের রেজল্যুশন বাড়ানো"
+      ],
+      "answerIndex": 1,
+      "explanation": "ক্যাশ মেমোরি CPU-র কাছে ঘনঘন ব্যবহৃত ডেটা রেখে গড় মেমোরি অ্যাক্সেস সময় কমায়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-05.js"
+    },
+    {
+      "id": "extra_182",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ফিশিং (Phishing) কী ধরনের সাইবার আক্রমণ?",
+      "options": [
+        "কম্পিউটারের গতি বাড়ানো",
+        "প্রতারণার মাধ্যমে গোপন তথ্য হাতিয়ে নেওয়া",
+        "ডেটা সংকুচিত করা",
+        "নেটওয়ার্কের তার পরীক্ষা করা"
+      ],
+      "answerIndex": 1,
+      "explanation": "ফিশিংয়ে ভুয়া বার্তা বা ওয়েবসাইট দিয়ে পাসওয়ার্ড ও আর্থিক তথ্যের মতো সংবেদনশীল তথ্য চুরি করা হয়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-05.js"
+    },
+    {
+      "id": "extra_218",
+      "category": "কম্পিউটার ও ICT",
+      "question": "নিচের কোনটি একটি রিলেশনাল ডেটাবেজ ম্যানেজমেন্ট সিস্টেম?",
+      "options": [
+        "MySQL",
+        "Photoshop",
+        "PowerPoint",
+        "VLC"
+      ],
+      "answerIndex": 0,
+      "explanation": "MySQL একটি বহুল ব্যবহৃত relational database management system (RDBMS)।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-06.js"
+    },
+    {
+      "id": "extra_219",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে বাইনারি সংখ্যা পদ্ধতির ভিত্তি কত?",
+      "options": [
+        "২",
+        "৮",
+        "১০",
+        "১৬"
+      ],
+      "answerIndex": 0,
+      "explanation": "বাইনারি সংখ্যা পদ্ধতিতে কেবল ০ ও ১ ব্যবহৃত হয়; তাই ভিত্তি ২।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-06.js"
+    },
+    {
+      "id": "extra_222",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে ROM-এর বৈশিষ্ট্য কোনটি?",
+      "options": [
+        "বিদ্যুৎ বন্ধ হলে তথ্য সাধারণত মুছে যায়",
+        "এটি কেবল অস্থায়ী ক্যাশ",
+        "বিদ্যুৎ বন্ধ হলেও সংরক্ষিত তথ্য থাকে",
+        "এটি ইনপুট ডিভাইস"
+      ],
+      "answerIndex": 2,
+      "explanation": "ROM non-volatile memory; বিদ্যুৎ না থাকলেও এর সংরক্ষিত তথ্য অক্ষুণ্ণ থাকে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-06.js"
+    },
+    {
+      "id": "extra_256",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের অপারেটিং সিস্টেমের প্রধান ভূমিকা কী?",
+      "options": [
+        "শুধু লেখা টাইপ করা",
+        "হার্ডওয়্যার ও সফটওয়্যার সম্পদ পরিচালনা করা",
+        "শুধু ছবি আঁকা",
+        "ইন্টারনেটের গতি বাড়ানো"
+      ],
+      "answerIndex": 1,
+      "explanation": "অপারেটিং সিস্টেম প্রসেসর, মেমোরি, ফাইল ও ইনপুট-আউটপুটসহ সিস্টেম সম্পদ পরিচালনা করে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js"
+    },
+    {
+      "id": "extra_257",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ইউনিকোডের মূল উদ্দেশ্য কী?",
+      "options": [
+        "ছবির মান বাড়ানো",
+        "বিভিন্ন ভাষার অক্ষরের জন্য মানসম্মত কোড নির্ধারণ",
+        "ইন্টারনেটের গতি বাড়ানো",
+        "ফাইল কমপ্রেস করা"
+      ],
+      "answerIndex": 1,
+      "explanation": "Unicode বিভিন্ন ভাষা ও লিপির অক্ষরকে একক মানসম্মত কোড পয়েন্টে প্রকাশ করে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js"
+    },
+    {
+      "id": "extra_261",
+      "category": "কম্পিউটার ও ICT",
+      "question": "স্প্রেডশিটে SUM() ফাংশনের কাজ কী?",
+      "options": [
+        "গড় নির্ণয়",
+        "সংখ্যার যোগফল নির্ণয়",
+        "সর্বোচ্চ মান খোঁজা",
+        "শর্ত পরীক্ষা"
+      ],
+      "answerIndex": 1,
+      "explanation": "SUM() নির্দিষ্ট সেল বা সংখ্যার যোগফল গণনা করে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js"
+    },
+    {
+      "id": "extra_262",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি দ্বি-স্তরীয় প্রমাণীকরণের (2FA) উদাহরণ?",
+      "options": [
+        "শুধু পাসওয়ার্ড",
+        "পাসওয়ার্ডের সঙ্গে এককালীন কোড",
+        "দুটি একই পাসওয়ার্ড",
+        "শুধু ব্যবহারকারীর নাম"
+      ],
+      "answerIndex": 1,
+      "explanation": "2FA-তে দুটি ভিন্ন ধরনের প্রমাণ লাগে; যেমন পাসওয়ার্ড এবং ফোনে পাওয়া এককালীন কোড।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js"
+    },
+    {
+      "id": "extra_295",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারে HTTPS সংযোগে তথ্য সুরক্ষায় সাধারণত কোন প্রযুক্তি ব্যবহৃত হয়?",
+      "options": [
+        "TLS",
+        "Telnet",
+        "FTP",
+        "SMTP"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTTPS সাধারণত TLS ব্যবহার করে ক্লায়েন্ট ও সার্ভারের মধ্যে তথ্য এনক্রিপ্ট করে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-08.js"
+    },
+    {
+      "id": "extra_296",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি ইনপুট ডিভাইস?",
+      "options": [
+        "প্রিন্টার",
+        "মনিটর",
+        "স্ক্যানার",
+        "স্পিকার"
+      ],
+      "answerIndex": 2,
+      "explanation": "স্ক্যানার কাগজের লেখা বা ছবি ডিজিটাল ডেটা হিসেবে কম্পিউটারে প্রবেশ করায়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-08.js"
+    },
+    {
+      "id": "extra_297",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটারের ১ বাইটে কত বিট থাকে?",
+      "options": [
+        "৪",
+        "৮",
+        "১৬",
+        "৩২"
+      ],
+      "answerIndex": 1,
+      "explanation": "এক বাইটে ৮ বিট থাকে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-08.js"
+    },
+    {
+      "id": "extra_298",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোন ধরনের সফটওয়্যার কম্পিউটারকে ক্ষতিকর সফটওয়্যার থেকে সুরক্ষায় সাহায্য করে?",
+      "options": [
+        "অ্যান্টিভাইরাস",
+        "কম্পাইলার",
+        "ওয়ার্ড প্রসেসর",
+        "মিডিয়া প্লেয়ার"
+      ],
+      "answerIndex": 0,
+      "explanation": "অ্যান্টিভাইরাস সফটওয়্যার পরিচিত ম্যালওয়্যার শনাক্ত, প্রতিরোধ বা অপসারণে সহায়তা করে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-08.js"
+    },
+    {
+      "id": "extra_299",
+      "category": "কম্পিউটার ও ICT",
+      "question": "সার্ভারে থাকা ই-মেইল একাধিক ডিভাইসে সিঙ্ক রেখে অ্যাক্সেস করতে কোন প্রোটোকল ব্যবহৃত হয়?",
+      "options": [
+        "SMTP",
+        "IMAP",
+        "HTTP",
+        "SSH"
+      ],
+      "answerIndex": 1,
+      "explanation": "IMAP সার্ভারে থাকা ই-মেইল সিঙ্ক ও অ্যাক্সেস করতে ব্যবহৃত হয়; POP3-ও ই-মেইল গ্রহণে ব্যবহৃত হয়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-08.js"
+    },
+    {
+      "id": "extra_340",
+      "category": "কম্পিউটার ও ICT",
+      "question": "CPU-তে গাণিতিক ও যৌক্তিক কাজ সম্পাদন করে কোন অংশ?",
+      "options": [
+        "Control Unit",
+        "ALU",
+        "RAM",
+        "Cache"
+      ],
+      "answerIndex": 1,
+      "explanation": "ALU গাণিতিক হিসাব ও যৌক্তিক তুলনা সম্পাদন করে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-09.js"
+    },
+    {
+      "id": "extra_341",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ওয়েবপেজ আদান-প্রদানে কোন প্রোটোকল ব্যবহৃত হয়?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "POP3"
+      ],
+      "answerIndex": 0,
+      "explanation": "HTTP হলো ওয়েবের হাইপারটেক্সট আদান-প্রদানের মৌলিক প্রোটোকল।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-09.js"
+    },
+    {
+      "id": "extra_342",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ডেটাবেজে প্রতিটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করে কোন কী?",
+      "options": [
+        "Foreign Key",
+        "Primary Key",
+        "Candidate Value",
+        "Duplicate Key"
+      ],
+      "answerIndex": 1,
+      "explanation": "Primary Key টেবিলের প্রতিটি রেকর্ডকে অনন্যভাবে শনাক্ত করে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-09.js"
+    },
+    {
+      "id": "extra_343",
+      "category": "কম্পিউটার ও ICT",
+      "question": "এক কিবিবাইট (KiB) কত বাইট?",
+      "options": [
+        "১০০০",
+        "১০২৪",
+        "১০২৮",
+        "২০৪৮"
+      ],
+      "answerIndex": 1,
+      "explanation": "১ KiB = ১০২৪ বাইট। SI এককে ১ kB = ১০০০ বাইট; তাই KiB ও kB আলাদা একক।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-09.js"
+    },
+    {
+      "id": "extra_344",
+      "category": "কম্পিউটার ও ICT",
+      "question": "চলমান প্রোগ্রাম ও ব্যবহৃত ডেটা সাময়িকভাবে রাখে কোন মেমোরি?",
+      "options": [
+        "ROM",
+        "RAM",
+        "DVD",
+        "SSD"
+      ],
+      "answerIndex": 1,
+      "explanation": "RAM হলো ভোলাটাইল মেমোরি, যেখানে চলমান প্রোগ্রাম ও ডেটা সাময়িকভাবে থাকে।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-09.js"
+    },
+    {
+      "id": "extra_382",
+      "category": "কম্পিউটার ও ICT",
+      "question": "ই-মেইল পাঠানোর জন্য সাধারণত কোন প্রোটোকল ব্যবহৃত হয়?",
+      "options": [
+        "SMTP",
+        "IMAP",
+        "HTTP",
+        "SNMP"
+      ],
+      "answerIndex": 0,
+      "explanation": "SMTP (Simple Mail Transfer Protocol) ই-মেইল পাঠানোর কাজে ব্যবহৃত হয়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-10.js"
+    },
+    {
+      "id": "extra_383",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কম্পিউটার নেটওয়ার্কে IP-এর পূর্ণরূপ কী?",
+      "options": [
+        "Internet Process",
+        "Internal Protocol",
+        "Internet Protocol",
+        "Integrated Program"
+      ],
+      "answerIndex": 2,
+      "explanation": "IP-এর পূর্ণরূপ Internet Protocol; এটি নেটওয়ার্কে ডেটা প্যাকেটের ঠিকানা ও রাউটিংয়ে ব্যবহৃত হয়।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-10.js"
+    },
+    {
+      "id": "extra_384",
+      "category": "কম্পিউটার ও ICT",
+      "question": "কোনটি ওপেন-সোর্স অপারেটিং সিস্টেমের উদাহরণ?",
+      "options": [
+        "Microsoft Windows",
+        "Linux",
+        "macOS",
+        "iOS"
+      ],
+      "answerIndex": 1,
+      "explanation": "Linux একটি বহুল ব্যবহৃত ওপেন-সোর্স অপারেটিং সিস্টেম কার্নেল ও তার ওপর ভিত্তি করে গড়া ডিস্ট্রিবিউশনসমূহের পরিবার।",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-10.js"
+    }
+  ]
+}
