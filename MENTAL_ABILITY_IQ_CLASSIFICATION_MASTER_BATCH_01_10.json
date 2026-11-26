@@ -4505,6 +4505,258 @@
       "answer": "১০",
       "explanation": "মোট জোড়া ৫×৪÷২ = ১০টি।",
       "classificationReason": "series / coding / clock-calendar / combinatorial reasoning"
+    },
+    {
+      "id": "extra_815",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-22.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পণ্যের দাম ২০% কমিয়ে পরে ২০% বাড়ানো হলো। শেষ দাম মূল দামের তুলনায়—",
+      "options": [
+        "৪% কম",
+        "৪% বেশি",
+        "সমান",
+        "৮% কম"
+      ],
+      "answerIndex": 0,
+      "answer": "৪% কম",
+      "explanation": "১০০ থেকে ২০% কমে ৮০; ৮০-এর ২০% বাড়লে ৯৬, অর্থাৎ ৪% কম।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_816",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-22.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "সব গোলাপ ফুল",
+        "কোনো ফুল গোলাপ নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রথম বক্তব্য থেকেই সব গোলাপ ফুল—এটি নিশ্চিতভাবে সত্য।",
+      "classificationReason": "series / coding / ranking / clock-calendar / logical / combinatorial reasoning"
+    },
+    {
+      "id": "extra_817",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-22.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ ৬ জনে ১২ দিনে করলে একই হারে ৮ জনে কত দিনে করবে?",
+      "options": [
+        "৮ দিন",
+        "৯ দিন",
+        "১০ দিন",
+        "১৬ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৯ দিন",
+      "explanation": "মোট কাজ ৬×১২=৭২ জন-দিন; ৭২÷৮=৯ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_835",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-23.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারা: ৩, ৮, ১৫, ২৪, ৩৫, পরের সংখ্যা কত?",
+      "options": [
+        "৪৬",
+        "৪৮",
+        "৫০",
+        "৫২"
+      ],
+      "answerIndex": 1,
+      "answer": "৪৮",
+      "explanation": "পার্থক্য ৫, ৭, ৯, ১১; পরের পার্থক্য ১৩, তাই ৪৮।",
+      "classificationReason": "series / coding / ranking / clock-calendar / logical / combinatorial reasoning"
+    },
+    {
+      "id": "extra_836",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-23.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি সংখ্যার ২৫% হলো ৪৫। সংখ্যাটি কত?",
+      "options": [
+        "১২০",
+        "১৫০",
+        "১৮০",
+        "২০০"
+      ],
+      "answerIndex": 2,
+      "answer": "১৮০",
+      "explanation": "সংখ্যাটি ৪৫÷০.২৫ = ১৮০।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_837",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-23.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ঘড়িতে ৬টা বাজলে দুই কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "৯০°",
+        "১২০°",
+        "১৮০°",
+        "২৭০°"
+      ],
+      "answerIndex": 2,
+      "answer": "১৮০°",
+      "explanation": "৬টায় ঘণ্টা ও মিনিটের কাঁটা বিপরীত দিকে থাকে; কোণ ১৮০°।",
+      "classificationReason": "series / coding / ranking / clock-calendar / logical / combinatorial reasoning"
+    },
+    {
+      "id": "extra_866",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-24.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি শ্রেণিতে ৩০ জনের ৬০% ছাত্রী। ছাত্রীর সংখ্যা কত?",
+      "options": [
+        "১২",
+        "১৫",
+        "১৮",
+        "২০"
+      ],
+      "answerIndex": 2,
+      "answer": "১৮",
+      "explanation": "৩০-এর ৬০% = ১৮।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_867",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-24.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ঘড়িতে ৯টা বাজলে ঘণ্টা ও মিনিটের কাঁটার ক্ষুদ্র কোণ কত?",
+      "options": [
+        "৯০°",
+        "১২০°",
+        "১৮০°",
+        "২৭০°"
+      ],
+      "answerIndex": 0,
+      "answer": "৯০°",
+      "explanation": "৯টায় কাঁটা দুটির ক্ষুদ্র কোণ ৯০°।",
+      "classificationReason": "series / coding / ranking / clock-calendar / logical / combinatorial reasoning"
+    },
+    {
+      "id": "extra_896",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-25.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি ঘড়ি প্রতি ঘণ্টায় ৫ মিনিট পিছিয়ে যায়। ৬ ঘণ্টায় কত মিনিট পিছোবে?",
+      "options": [
+        "২০",
+        "২৫",
+        "৩০",
+        "৩৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০",
+      "explanation": "প্রতি ঘণ্টায় ৫ মিনিট, ৬ ঘণ্টায় ৩০ মিনিট।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_897",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-25.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি দলে ৮ জনের প্রত্যেকে প্রত্যেকের সঙ্গে একবার করমর্দন করলে মোট কতবার করমর্দন হবে?",
+      "options": [
+        "১৬",
+        "২৪",
+        "২৮",
+        "৩২"
+      ],
+      "answerIndex": 2,
+      "answer": "২৮",
+      "explanation": "করমর্দনের সংখ্যা ৮×৭÷২ = ২৮।",
+      "classificationReason": "series / coding / ranking / clock-calendar / logical / combinatorial reasoning"
+    },
+    {
+      "id": "extra_926",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-26.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "একটি ঘড়িতে ৩টা ৩০ মিনিটে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী ক্ষুদ্রতম কোণ কত?",
+      "options": [
+        "৬০°",
+        "৭৫°",
+        "৯০°",
+        "১০৫°"
+      ],
+      "answerIndex": 1,
+      "answer": "৭৫°",
+      "explanation": "৩:৩০-এ মিনিটের কাঁটা ১৮০° এবং ঘণ্টার কাঁটা ১০৫° অবস্থানে; ব্যবধান ৭৫°।",
+      "classificationReason": "series / coding / ranking / clock-calendar / logical / combinatorial reasoning"
+    },
+    {
+      "id": "extra_927",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-26.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "যদি CAT = ২৪ এবং DOG = ২৬ হয় (অক্ষরের অবস্থানসংখ্যার যোগফল), তবে BAT = কত?",
+      "options": [
+        "২১",
+        "২৩",
+        "২৫",
+        "২৭"
+      ],
+      "answerIndex": 1,
+      "answer": "২৩",
+      "explanation": "B(2)+A(1)+T(20)=২৩।",
+      "classificationReason": "series / coding / ranking / clock-calendar / logical / combinatorial reasoning"
+    },
+    {
+      "id": "extra_956",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-27.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী সংখ্যা নির্ণয় করুন: ১, ৪, ৯, ১৬, ২৫, ...",
+      "options": [
+        "৩০",
+        "৩৪",
+        "৩৬",
+        "৪৯"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৬",
+      "explanation": "এগুলো ১², ২², ৩², ৪², ৫²; পরেরটি ৬²=৩৬।",
+      "classificationReason": "series / coding / ranking / clock-calendar / logical / combinatorial reasoning"
+    },
+    {
+      "id": "extra_957",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-27.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি শ্রেণিতে ৪০ জনের মধ্যে ২৪ জন ছেলে। মেয়ের শতকরা হার কত?",
+      "options": [
+        "৩৫%",
+        "৪০%",
+        "৪৫%",
+        "৬০%"
+      ],
+      "answerIndex": 1,
+      "answer": "৪০%",
+      "explanation": "মেয়ে ১৬ জন; (১৬÷৪০)×১০০=৪০%।",
+      "classificationReason": "direct quantitative aptitude"
     }
   ]
 }
