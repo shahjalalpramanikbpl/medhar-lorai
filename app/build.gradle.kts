@@ -39,8 +39,9 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+    implementation("com.google.android.gms:play-services-ads:24.9.0")
 }
- 
+
 // Generate the in-app version label from the same Gradle version used by Android.
 val generatedAppVersionAssets = layout.buildDirectory.dir("generated/app-version/assets")
 android.sourceSets.getByName("main").assets.srcDir(generatedAppVersionAssets)
