@@ -780,3 +780,12 @@
 - তথ্যগত ও ব্যাখ্যা পর্যালোচনা সম্পন্ন; ১০২৪ byte-কে KiB নামে নির্ভুল করা হয়েছে ৩টি প্রশ্নে।
 - Master: `COMPUTER_ICT_MASTER_BATCH_01_10.json` — commit `aa7e179edc0f134aef2b81bf4816250d702d63a2`।
 - Final validation re-fetch: master/runtime inventory মিলে গেছে; duplicate ০, malformed ০। বিস্তারিত `COMPUTER_ICT_BATCH_01_10_PROGRESS.md`।
+
+
+## ২৭ নভেম্বর ২০২৬ — মানসিক দক্ষতা ও IQ অডিট শুরু
+- প্রথম ১০টি expansion ফাইল এবং মূল runtime bank থেকে ৫৪টি IQ/মানসিক দক্ষতা প্রশ্নের প্রাথমিক বিষয়বস্তু পর্যালোচনা শুরু/সম্পন্ন: ১০টি base + ৪৪টি expansion candidate।
+- প্রাথমিক গাণিতিক ও যুক্তিগত পুনর্গণনায় নিশ্চিত ভুল answer key পাওয়া যায়নি।
+- `extra_070`-এর ১৫° উত্তর সঠিক, তবে ব্যাখ্যার ভাষা পরিষ্কার করা বাকি।
+- কিছু percentage/average/speed-distance/area প্রশ্নের বিষয়-উপযোগিতা পুনর্বিবেচনা বাকি।
+- পূর্ণ canonical duplicate reconciliation ও master এখনো তৈরি হয়নি; তাই বিষয়টি IN_PROGRESS, LOCKED নয়।
+- বিস্তারিত: `MENTAL_ABILITY_IQ_BATCH_01_10_PROGRESS.md`।
