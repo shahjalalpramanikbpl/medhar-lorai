@@ -13,8 +13,8 @@
   },
   "deduplication": "Exact full signature only: normalized category + normalized question + sorted normalized options + normalized correct answer. Similar wording with different option sets retained.",
   "fact_check": {
-    "status": "PARTIAL_SOURCE_BASED_REVIEW_COMPLETE",
-    "note": "Source-based content review completed for expansion records in batches 01–56 (159 records) and base-bank records base_001–base_090 (90 records). Total reviewed: 249/290; 41 base-bank records remain unverified. The consolidated master must remain provisional and must not be locked until every record is checked."
+    "status": "ALL_RECORDS_SOURCE_CHECKED_PENDING_FINAL_RECONCILIATION",
+    "note": "All 290 retained English Literature records have now received source-based content review: expansion batches 01–56 (159 records) and base bank base_001–base_131 (131 records). This completes factual/answer/explanation review. Before LOCK, perform final consolidated master/runtime consistency and exact-duplicate/structure validation, then record the final LOCKED checkpoint."
   },
   "records": [
     {
@@ -5390,5 +5390,61 @@
     ],
     "review_date": "2026-11-27",
     "overall_subject_status": "PROVISIONAL_NOT_LOCKED"
+  },
+  "content_review_base_091_131": {
+    "status": "CONTENT_CHECKED",
+    "scope": "Final base-bank records base_091 through base_131; runtime source lines 1264–1305",
+    "checked_records": 41,
+    "confirmed_factual_errors": 0,
+    "incorrect_answer_keys": 0,
+    "explanation_corrections": 0,
+    "option_answer_index_mismatches": 0,
+    "runtime_content_corrections": 0,
+    "runtime_alignment": "All 41 live runtime Q() records re-fetched at mapped source lines and matched master question, options, answer index, and explanation.",
+    "reviewed_ids": [
+      "base_091",
+      "base_092",
+      "base_093",
+      "base_094",
+      "base_095",
+      "base_096",
+      "base_097",
+      "base_098",
+      "base_099",
+      "base_100",
+      "base_101",
+      "base_102",
+      "base_103",
+      "base_104",
+      "base_105",
+      "base_106",
+      "base_107",
+      "base_108",
+      "base_109",
+      "base_110",
+      "base_111",
+      "base_112",
+      "base_113",
+      "base_114",
+      "base_115",
+      "base_116",
+      "base_117",
+      "base_118",
+      "base_119",
+      "base_120",
+      "base_121",
+      "base_122",
+      "base_123",
+      "base_124",
+      "base_125",
+      "base_126",
+      "base_127",
+      "base_128",
+      "base_129",
+      "base_130",
+      "base_131"
+    ],
+    "review_date": "2026-11-27",
+    "overall_subject_status": "PROVISIONAL_PENDING_FINAL_RECONCILIATION"
   }
 }
