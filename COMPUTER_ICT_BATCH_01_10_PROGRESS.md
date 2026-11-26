@@ -1,39 +1,48 @@
-# Computer & ICT — Batch 01–10 Progress Checkpoint
+# Computer & ICT — Batch 01–10 Audit Checkpoint
 
 তারিখ: ২৭ নভেম্বর ২০২৬  
-অবস্থা: **IN_PROGRESS — NOT LOCKED**
+অবস্থা: **CONTENT REVIEWED — FINAL LOCK VALIDATION PENDING**
 
-## Source inventory
-- মূল runtime file `app/src/main/assets/job-prep-suite.js`: **১৫০টি** Computer & ICT base question.
-- Expansion batch 01–10: প্রাথমিকভাবে **৪২টি** Computer & ICT candidate entry.
-- মোট প্রাথমিক candidate: **১৯২টি**।
-- Canonical exact-signature comparison-এ ৩টি duplicate copy পাওয়া যায়:
-  - `extra_025` — base bank-এর `base_079)-এর হুবহু duplicate.
-  - `extra_141` — base bank-এর `base_075)-এর হুবহু duplicate.
-  - `extra_385` — base bank-এর `base_105)-এর হুবহু duplicate.
-- তিনটি duplicate copy expansion runtime file থেকে বাদ দেওয়া হয়েছে; আগের base entry রাখা হয়েছে।
-- বাদ দেওয়া entry-গুলোর runtime file পুনরায় fetch করে অনুপস্থিতি যাচাই করা হয়েছে।
-- পুনরায় গণনায়: **১৫০ base + ৩৯ expansion = ১৮৯ unique candidates**।
-- পুনরায় canonical signature check: exact duplicate group **০**, duplicate copy **০**।
-- ১৮৯টির চারটি option এবং answer index কাঠামোগত পরীক্ষা: malformed record **০**।
+## Inventory and duplicate reconciliation
+- Base runtime bank: **১৫০** Computer & ICT questions.
+- Expansion batches 01–10: initially **৪২** ICT entries.
+- Initial candidate total: **১৯২**.
+- Exact duplicate copies removed from expansion runtime:
+  - `extra_025` — duplicate of base_079.
+  - `extra_141` — duplicate of base_075.
+  - `extra_385` — duplicate of base_105.
+- All three removed IDs were re-fetched and verified absent.
+- Post-cleanup inventory: **১৫০ base + ৩৯ expansion = ১৮৯ unique candidates**.
+- Canonical exact-signature check: **০ duplicate groups / ০ duplicate copies**.
+- Structure check: all ১৮৯ records have four options and a valid answer index; malformed records **০**.
 
-## Duplicate policy
-শুধু category + normalized question + sorted normalized options + correct answer একই হলে duplicate হিসেবে বাদ। ভিন্ন wording, ভিন্ন example বা ভিন্ন option set থাকলে রাখা হয়েছে।
+## Content review
+- Reviewed the full set of ১৫০ base questions and ৩৯ retained expansion questions for factual correctness, answer key, explanation quality, ambiguous wording and usefulness for competitive-job preparation.
+- Verified key computer architecture, binary/byte, RAM/ROM, ALU, networking and protocol facts against authoritative educational/technical references.
+- One terminology precision issue was identified and corrected in three questions: the binary quantity of 1024 bytes is now named **কিবিবাইট (KiB)**, explicitly distinguished from SI **কিলোবাইট (kB = 1000 bytes)**:
+  - Base bank: two questions (previously used “কিলোবাইট” for 1024 bytes).
+  - Expansion: `extra_343`.
+- Other reviewed answer keys and explanations: no additional confirmed factual error identified in this pass. Similar-topic questions with different wording or option sets were retained under the user's duplicate policy.
 
-## Content audit status
-এটি কেবল source inventory, exact-duplicate cleanup এবং option/answer-index structure checkpoint। ১৮৯টি প্রশ্নের তথ্যগত সত্যতা, উত্তরসূচি, ব্যাখ্যা, ambiguous wording এবং current relevance-এর পূর্ণ বিষয়বস্তু-পর্যালোচনা এখনো চলমান। তাই এই পর্যায়ে **LOCKED ঘোষণা করা হয়নি** এবং কোনো প্রশ্নের factual accuracy সম্পর্কে সামগ্রিক PASS দাবি করা হচ্ছে না।
-
-## Source snapshots
-- Base file SHA at checkpoint: `8114bfeb65c49dfed0af037f71d5b1fe5c661e1a`
-- Duplicate-removal commits:
+## Corrections committed
+- Base source correction: `1ff716ff9ef811389ae22ac2f575a473ebbbcedd`
+- Expansion `extra_343` correction: `12dfb66921ff27b8e79247645ccf364d1a96ca7b`
+- Exact duplicate removals:
   - `fd5b35dcc1309e6bb4d1dc00340abe7309d58569`
   - `04df44538190bc0f169c94e1281e7ee11bd3f656`
   - `19f5fb4c702d14ee0abbf55ee8161aa71733d3c6`
-- Re-fetch verification: all three removed IDs absent.
-- Post-cleanup expansion file hashes recorded in GitHub history.
 
-## Next
-1. ১৮৯টি প্রশ্নের factual review ও source verification সম্পন্ন করা।
-2. ভুল উত্তর/ব্যাখ্যা/অস্পষ্ট প্রশ্ন থাকলে প্রমাণসহ সংশোধন।
-3. Base 1–10 group master তৈরি ও final full-signature/structure/runtime validation।
-4. সব পরীক্ষায় PASS হলে তবেই `LOCKED` status commit।
+## Sources consulted
+- OpenStax, Introduction to Computer Science — computer systems, CPU/ALU, RAM, bits and bytes.
+- NCBI Bookshelf, Reference Guide on Computer Science — binary encoding, CPU and networking fundamentals.
+- Stanford CS101 — HTML, HTTP, URLs and web client/server.
+- Technical standards/educational reference on IPv4/IPv6, HTTPS/TLS, SMTP, IMAP, FTP and DNS.
+
+## Final lock gate — still pending
+Before marking this group LOCKED:
+1. Re-fetch all current runtime sources after edits.
+2. Re-run exact-signature duplicate scan and four-option/answer-index validation against the final files.
+3. Generate the consolidated Batch 01–10 master and final audit report.
+4. Commit the final LOCKED state only after those checks pass.
+
+**Current decision: content review completed; final master/runtime reconciliation pending. NOT LOCKED YET.**
