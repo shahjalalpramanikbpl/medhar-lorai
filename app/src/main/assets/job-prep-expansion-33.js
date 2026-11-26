@@ -21,9 +21,9 @@ const additions=[
 {id:"extra_1173",c:"সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান",q:"২০২৫ সালের ICC Champions Trophy-তে ভারতের শিরোপা জয়টি ছিল এই প্রতিযোগিতায় তাদের কততম শিরোপা?",o:["প্রথম","দ্বিতীয়","তৃতীয়","চতুর্থ"],a:2,e:"২০২৫ সালের জয়ের মাধ্যমে ভারত Champions Trophy-তে তৃতীয়বার শিরোপা অর্জন করে।",source:"ICC — Champions Trophy 2025",sourceUrl:"https://www.icc-cricket.com/tournaments/champions-trophy-2025",d:"কঠিন"},
 
 {id:"extra_1174",c:"English Literature",q:"Who wrote the novel 'Pride and Prejudice'?",o:["Charlotte Brontë","Jane Austen","George Eliot","Emily Brontë"],a:1,e:"Jane Austen published Pride and Prejudice in 1813.",source:"English Novel",d:"সহজ"},
-{id:"extra_1175",c:"English Literature",q:"Who is the author of 'The Waste Land'?",o:["W. B. Yeats","T. S. Eliot","W. H. Auden","Ezra Pound"],a:1,e:"T. S. Eliot published the modernist poem The Waste Land in 1922.",source:"Modern Poetry",d:"সহজ"},
+
 {id:"extra_1176",c:"English Literature",q:"'The Canterbury Tales' was written by whom?",o:["John Milton","Geoffrey Chaucer","William Langland","Edmund Spenser"],a:1,e:"Geoffrey Chaucer wrote The Canterbury Tales in Middle English.",source:"Middle English Literature",d:"মাঝারি"},
-{id:"extra_1177",c:"English Literature",q:"Which Shakespeare play features the characters Rosencrantz and Guildenstern?",o:["Macbeth","Hamlet","Othello","King Lear"],a:1,e:"Rosencrantz and Guildenstern appear in Shakespeare's tragedy Hamlet.",source:"Shakespearean Drama",d:"মাঝারি"},
+
 {id:"extra_1178",c:"English Literature",q:"Who wrote 'Animal Farm'?",o:["Aldous Huxley","George Orwell","H. G. Wells","D. H. Lawrence"],a:1,e:"George Orwell's allegorical novella Animal Farm was published in 1945.",source:"Modern English Fiction",d:"সহজ"},
 {id:"extra_1179",c:"English Literature",q:"Which literary period is John Milton most commonly associated with?",o:["The Romantic Age","The Victorian Age","The Puritan Age","The Modern Age"],a:2,e:"John Milton is a major poet of the seventeenth-century Puritan or Commonwealth period.",source:"History of English Literature",d:"কঠিন"},
 
