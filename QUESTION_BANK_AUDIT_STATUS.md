@@ -789,3 +789,13 @@
 - কিছু percentage/average/speed-distance/area প্রশ্নের বিষয়-উপযোগিতা পুনর্বিবেচনা বাকি।
 - পূর্ণ canonical duplicate reconciliation ও master এখনো তৈরি হয়নি; তাই বিষয়টি IN_PROGRESS, LOCKED নয়।
 - বিস্তারিত: `MENTAL_ABILITY_IQ_BATCH_01_10_PROGRESS.md`।
+
+
+## ২৭ নভেম্বর ২০২৬ — মানসিক দক্ষতা ও IQ: ব্যাচ ০১–১০ অডিট অগ্রগতি
+- প্রকৃত source inventory পুনরায় গণনা: মূল runtime ১৫০ + expansion ১–১০-এর ৪৪ = ১৯৪টি প্রশ্ন।
+- সব ১৯৪টি record parse; চারটি option ও answer index কাঠামোগতভাবে বৈধ।
+- মূল ব্যাংক ও expansion মিলিয়ে normalized exact-signature scan-এ duplicate group ০।
+- Expansion ১–১০-এর ৪৪টি প্রশ্নের answer/explanation review হয়েছে।
+- extra_070-এর ৬:৩০ clock-angle explanation পরিষ্কার করা হয়েছে; ক্ষুদ্রতর কোণ ১৫°।
+- মূল ১৫০টির পূর্ণ content audit এবং expansion-এর near-duplicate/relevance review বাকি। তাই IN_PROGRESS, LOCKED নয়।
+- বিস্তারিত: MENTAL_ABILITY_IQ_BATCH_01_10_PROGRESS.md।
