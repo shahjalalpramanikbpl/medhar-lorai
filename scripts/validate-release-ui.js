@@ -23,8 +23,10 @@ const checks = [
   ['launcher icon resource', fs.existsSync('app/src/main/res/mipmap-anydpi/ic_launcher.xml')],
   ['manifest launcher icon mapping', manifest.includes('android:icon="@mipmap/ic_launcher"') && manifest.includes('android:roundIcon="@mipmap/ic_launcher"')],
   ['package id unchanged', gradle.includes('applicationId = "com.medhar.lorai"')],
-  ['release version defined', /versionCode\\s*=\\s*22/.test(gradle) && /versionName\\s*=\\s*\"3\\.1\"/.test(gradle)],\n  ['quiz screen has working in-app return', html.includes('id=\"quizBackHome\"') && html.includes(\"$('quizBackHome').onclick=\")],\n  ['footer version is generated from Gradle metadata', html.includes('src=\"app-version.js\"') && html.includes('id=\"appVersionLabel\"') && gradle.includes('generateAppVersionAsset') && gradle.includes('val releaseName = android.defaultConfig.versionName')],\n  ['stale hardcoded footer version removed', !html.includes('সংস্করণ ২.৪')]
-,
+  ['release version defined', /versionCode\s*=\s*22/.test(gradle) && /versionName\s*=\s*"3\.1"/.test(gradle)],
+  ['quiz screen has working in-app return', html.includes('id="quizBackHome"') && html.includes("$('quizBackHome').onclick=")],
+  ['footer version is generated from Gradle metadata', html.includes('src="app-version.js"') && html.includes('id="appVersionLabel"') && gradle.includes('generateAppVersionAsset') && gradle.includes('val releaseName = android.defaultConfig.versionName')],
+  ['stale hardcoded footer version removed', !html.includes('সংস্করণ ২.৪')],
   ['approved commit build trigger', workflow.includes("startsWith(github.event.head_commit.message, 'BUILD:')") && workflow.includes(':assembleRelease')]
 ];
 let failed = false;
