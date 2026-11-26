@@ -433,22 +433,6 @@ const additions=[
     "sourceUrl": "",
     "d": ""
   },
-  {
-    "id": "extra_657",
-    "c": "English Literature",
-    "q": "Who wrote “The Waste Land”?",
-    "o": [
-      "W. B. Yeats",
-      "T. S. Eliot",
-      "W. H. Auden",
-      "Robert Frost"
-    ],
-    "a": 1,
-    "e": "T. S. Eliot’s modernist poem The Waste Land was published in 1922.",
-    "source": "Poetry",
-    "sourceUrl": "",
-    "d": ""
-  }
 ];
 const bank=window.JOB_PREP_BANK||(window.JOB_PREP_BANK=[]);
 const norm=s=>String(s||'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
