@@ -1,0 +1,3173 @@
+{
+  "schema": "medhar-lorai.reasoning-analysis-audit.v1",
+  "createdAt": "2026-11-27",
+  "status": "BATCH_01_10_BASE_AND_EXPANSION_PARTIAL_MASTER_PENDING_BATCH_08_10_AND_FINAL_AUDIT",
+  "inventory": {
+    "baseUniqueAfterDuplicateRemoval": 142,
+    "expansion01_07Unique": 29,
+    "uniqueRecords": 171,
+    "quantitativeCandidates": 25,
+    "retainedReasoning": 146,
+    "exactDuplicateCopiesRemoved": 12
+  },
+  "duplicateRemovals": [
+    {
+      "id": "base_002",
+      "duplicateOf": "IQ master base_017"
+    },
+    {
+      "id": "base_013",
+      "duplicateOf": "IQ master extra_762"
+    },
+    {
+      "id": "base_018",
+      "duplicateOf": "IQ master base_015"
+    },
+    {
+      "id": "base_049",
+      "duplicateOf": "IQ master extra_998"
+    },
+    {
+      "id": "base_055",
+      "duplicateOf": "IQ master base_088"
+    },
+    {
+      "id": "base_056",
+      "duplicateOf": "IQ master base_012"
+    },
+    {
+      "id": "base_066",
+      "duplicateOf": "IQ master extra_423"
+    },
+    {
+      "id": "base_071",
+      "duplicateOf": "IQ master extra_1382"
+    },
+    {
+      "id": "base_078",
+      "duplicateOf": "IQ master extra_421"
+    },
+    {
+      "id": "extra_072",
+      "duplicateOf": "IQ master extra_1382"
+    },
+    {
+      "id": "extra_194",
+      "duplicateOf": "IQ master extra_713"
+    },
+    {
+      "id": "extra_271",
+      "duplicateOf": "IQ master extra_532"
+    },
+    {
+      "id": "extra_353",
+      "duplicateOf": "IQ master extra_816"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "base_067",
+      "change": "answerIndex 2 → 3",
+      "correctAnswer": "A",
+      "reason": "T(20)+7=27; after Z the alphabet wraps to A."
+    },
+    {
+      "id": "base_079",
+      "change": "option/answer clarified to চাচা",
+      "correctAnswer": "চাচা",
+      "reason": "A is C's brother and C is D's father; A is D's paternal uncle."
+    },
+    {
+      "id": "base_129",
+      "change": "answerIndex 1 → 2",
+      "correctAnswer": "O",
+      "reason": "C,F,I,L,O advances by three letters."
+    },
+    {
+      "id": "extra_230",
+      "change": "answerIndex 1 → 2",
+      "correctAnswer": "৮",
+      "reason": "2x+5=21 gives x=8."
+    }
+  ],
+  "records": [
+    {
+      "id": "base_001",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "কারণ: বৃষ্টি হয়েছে। ফল: রাস্তা ভিজে গেছে। সবচেয়ে যুক্তিসঙ্গত সম্পর্ক কোনটি?",
+      "options": [
+        "কারণ-ফল",
+        "বিপরীত সম্পর্ক",
+        "সম্পর্ক নেই",
+        "একই অর্থ"
+      ],
+      "answerIndex": 0,
+      "answer": "কারণ-ফল",
+      "explanation": "বৃষ্টি রাস্তা ভেজার একটি স্বাভাবিক কারণ হতে পারে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_003",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব ডাক্তার শিক্ষিত। রহিম ডাক্তার। কোন সিদ্ধান্ত সঠিক?",
+      "options": [
+        "রহিম শিক্ষিত",
+        "সব শিক্ষিত ব্যক্তি ডাক্তার",
+        "রহিম শিক্ষক",
+        "কোনোটিই নয়"
+      ],
+      "answerIndex": 0,
+      "answer": "রহিম শিক্ষিত",
+      "explanation": "সাধারণ নিয়মে রহিম ডাক্তার হলে তিনি শিক্ষিত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_004",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ ৬ জনে ১২ দিনে করে। একই হারে ৯ জনে কত দিনে করবে?",
+      "options": [
+        "৬ দিন",
+        "৮ দিন",
+        "৯ দিন",
+        "১৮ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৮ দিন",
+      "explanation": "মোট কাজ ৬×১২=৭২ জন-দিন; ৭২÷৯=৮ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_005",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "দক্ষিণমুখী দাঁড়িয়ে ডানে ঘুরলে কোন দিকে মুখ হবে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answerIndex": 1,
+      "answer": "পশ্চিম",
+      "explanation": "দক্ষিণমুখী অবস্থায় ডান দিক হলো পশ্চিম।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_006",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "কোনটি শক্তিশালী যুক্তি: “সড়কে হেলমেট পরা উচিত”?",
+      "options": [
+        "হেলমেট দেখতে সুন্দর",
+        "হেলমেট মাথার আঘাতের ঝুঁকি কমায়",
+        "অনেকে পরে না",
+        "দাম বেশি"
+      ],
+      "answerIndex": 1,
+      "answer": "হেলমেট মাথার আঘাতের ঝুঁকি কমায়",
+      "explanation": "নিরাপত্তা ও আঘাতের ঝুঁকি কমানোই প্রাসঙ্গিক ও শক্তিশালী যুক্তি।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_007",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে ১=A, ২=B, ৩=C হলে ৪-১-৩ কী?",
+      "options": [
+        "DAB",
+        "DAC",
+        "DBA",
+        "CAB"
+      ],
+      "answerIndex": 1,
+      "answer": "DAC",
+      "explanation": "৪=D, ১=A, ৩=C; তাই DAC হওয়া উচিত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_008",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বই : পড়া :: খাবার : ?",
+      "options": [
+        "রান্না",
+        "খাওয়া",
+        "কেনা",
+        "দেখা"
+      ],
+      "answerIndex": 1,
+      "answer": "খাওয়া",
+      "explanation": "বই পড়া হয়; খাবার খাওয়া হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_009",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি ঘরে ৪ কোণে ৪টি বিড়াল। প্রতিটি বিড়াল ৩টি বিড়াল দেখে। মোট বিড়াল কত?",
+      "options": [
+        "৪",
+        "৮",
+        "১২",
+        "১৬"
+      ],
+      "answerIndex": 0,
+      "answer": "৪",
+      "explanation": "চার কোণে একটি করে বিড়াল থাকলে প্রত্যেকটি বাকি তিনটিকে দেখে; মোট ৪টি।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_010",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "আজ বুধবার হলে ১০০ দিন পরে কী বার?",
+      "options": [
+        "বৃহস্পতিবার",
+        "শুক্রবার",
+        "শনিবার",
+        "রবিবার"
+      ],
+      "answerIndex": 1,
+      "answer": "শুক্রবার",
+      "explanation": "১০০÷৭ ভাগশেষ ২; বুধবারের ২ দিন পরে শুক্রবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_011",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: ৩, ৬, ১২, ২৪, __। পরের সংখ্যা কত?",
+      "options": [
+        "৩৬",
+        "৪২",
+        "৪৮",
+        "৫৪"
+      ],
+      "answerIndex": 2,
+      "answer": "৪৮",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণ; ২৪×২=৪৮।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_012",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "সব গোলাপ ফুল",
+        "কোনো ফুল ঝরে যায় না"
+      ],
+      "answerIndex": 2,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রথম বক্তব্য থেকেই সব গোলাপ ফুল—এটি নিশ্চিত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_014",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A, C, F, J, O, __ ধারায় পরের অক্ষর কোনটি?",
+      "options": [
+        "T",
+        "U",
+        "V",
+        "W"
+      ],
+      "answerIndex": 1,
+      "answer": "U",
+      "explanation": "অক্ষরগুলোর ব্যবধান +২,+৩,+৪,+৫; পরেরটি +৬, তাই U।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_015",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রহিম করিমের চেয়ে লম্বা, করিম জামালের চেয়ে লম্বা। সবচেয়ে খাটো কে?",
+      "options": [
+        "রহিম",
+        "করিম",
+        "জামাল",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answerIndex": 2,
+      "answer": "জামাল",
+      "explanation": "রহিম > করিম > জামাল; তাই জামাল সবচেয়ে খাটো।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_016",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি সংখ্যার ২০% হলো ৩০। সংখ্যাটি কত?",
+      "options": [
+        "১০০",
+        "১২০",
+        "১৫০",
+        "১৮০"
+      ],
+      "answerIndex": 2,
+      "answer": "১৫০",
+      "explanation": "সংখ্যা = ৩০÷০.২০ = ১৫০।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_017",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: ১, ৪, ৯, ১৬, ২৫, __। পরের সংখ্যা কত?",
+      "options": [
+        "৩০",
+        "৩৪",
+        "৩৬",
+        "৪৯"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৬",
+      "explanation": "এগুলো ১², ২², ৩², ৪², ৫²; পরেরটি ৬²=৩৬।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_019",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি বাক্সে ৫টি লাল ও ৫টি নীল বল আছে। না দেখে অন্তত কয়টি তুললে একই রঙের ২টি নিশ্চিত হবে?",
+      "options": [
+        "২",
+        "৩",
+        "৫",
+        "৬"
+      ],
+      "answerIndex": 1,
+      "answer": "৩",
+      "explanation": "দুই রঙের একটি করে তোলার পর তৃতীয়টি যেকোনো রঙের হলেও জোড়া হবে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_020",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বই : পড়া :: খাবার : __",
+      "options": [
+        "রান্না",
+        "খাওয়া",
+        "কেনা",
+        "বিক্রি"
+      ],
+      "answerIndex": 1,
+      "answer": "খাওয়া",
+      "explanation": "বই পড়া হয়; খাবার খাওয়া হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_021",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: ২, ৫, ১০, ১৭, ২৬, __। পরের সংখ্যা কত?",
+      "options": [
+        "৩৫",
+        "৩৬",
+        "৩৭",
+        "৩৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৭",
+      "explanation": "পার্থক্য ৩,৫,৭,৯; পরের পার্থক্য ১১, তাই ৩৭।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_022",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সারিতে মিতা বাম দিক থেকে ৭ম এবং ডান দিক থেকে ৯ম। সারিতে মোট কতজন?",
+      "options": [
+        "১৪",
+        "১৫",
+        "১৬",
+        "১৭"
+      ],
+      "answerIndex": 1,
+      "answer": "১৫",
+      "explanation": "মোট = ৭+৯−১ = ১৫ জন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_023",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। কোনো শিক্ষিত ব্যক্তি অজ্ঞ নয়। কোনটি অনুসরণ করে?",
+      "options": [
+        "কোনো চিকিৎসক অজ্ঞ নয়",
+        "সব শিক্ষিত ব্যক্তি চিকিৎসক",
+        "কিছু চিকিৎসক অশিক্ষিত",
+        "সব অজ্ঞ ব্যক্তি চিকিৎসক"
+      ],
+      "answerIndex": 0,
+      "answer": "কোনো চিকিৎসক অজ্ঞ নয়",
+      "explanation": "চিকিৎসকেরা শিক্ষিত এবং শিক্ষিত কেউ অজ্ঞ নয়; তাই কোনো চিকিৎসক অজ্ঞ নন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_024",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ ৪ জনে ৬ দিনে করে। একই হারে ৮ জনে কাজটি কত দিনে করবে?",
+      "options": [
+        "২ দিন",
+        "৩ দিন",
+        "৪ দিন",
+        "১২ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৩ দিন",
+      "explanation": "মোট কাজ ৪×৬=২৪ জন-দিন; ৮ জনে ২৪÷৮=৩ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_025",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "কোন সংখ্যাটি অন্যগুলোর থেকে ভিন্ন?",
+      "options": [
+        "১৬",
+        "২৫",
+        "৩৬",
+        "৪৮"
+      ],
+      "answerIndex": 3,
+      "answer": "৪৮",
+      "explanation": "১৬, ২৫ ও ৩৬ পূর্ণবর্গ; ৪৮ পূর্ণবর্গ নয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_026",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি CAT = ২৪ (অক্ষরের অবস্থান যোগফল), তবে DOG = কত?",
+      "options": [
+        "২৪",
+        "২৫",
+        "২৬",
+        "২৭"
+      ],
+      "answerIndex": 2,
+      "answer": "২৬",
+      "explanation": "D=৪, O=১৫, G=৭; যোগফল ২৬।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_027",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি দৌড়ে আপনি দ্বিতীয় অবস্থানে থাকা ব্যক্তিকে অতিক্রম করলেন। এখন আপনার অবস্থান কত?",
+      "options": [
+        "প্রথম",
+        "দ্বিতীয়",
+        "তৃতীয়",
+        "চতুর্থ"
+      ],
+      "answerIndex": 1,
+      "answer": "দ্বিতীয়",
+      "explanation": "দ্বিতীয় ব্যক্তিকে অতিক্রম করলে আপনি তার অবস্থান—দ্বিতীয়—নেবেন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_028",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: ৮১, ২৭, ৯, ৩, __। পরের সংখ্যা কত?",
+      "options": [
+        "০",
+        "১",
+        "২",
+        "৬"
+      ],
+      "answerIndex": 1,
+      "answer": "১",
+      "explanation": "প্রতিটি পদ ৩ দিয়ে ভাগ হচ্ছে; ৩÷৩=১।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_029",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "পাঁচটি মেশিন পাঁচ মিনিটে পাঁচটি পণ্য বানায়। ১০০টি মেশিন ১০০টি পণ্য বানাতে কত মিনিট লাগবে?",
+      "options": [
+        "৫",
+        "২০",
+        "১০০",
+        "৫০০"
+      ],
+      "answerIndex": 0,
+      "answer": "৫",
+      "explanation": "প্রতি মেশিন ৫ মিনিটে ১টি পণ্য বানায়; ১০০টি মেশিন একসঙ্গে ৫ মিনিটেই ১০০টি বানাবে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_030",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বছরের কোন মাসে ২৮ দিন থাকে?",
+      "options": [
+        "শুধু ফেব্রুয়ারি",
+        "ফেব্রুয়ারি ও মার্চ",
+        "সব মাসে",
+        "কোনোটিতেই নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "সব মাসে",
+      "explanation": "প্রতিটি মাসেই অন্তত ২৮ দিন থাকে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_031",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: ৩, ৬, ১২, ২৪, ... পরের সংখ্যা কত?",
+      "options": [
+        "৪৮",
+        "৩৬",
+        "৪২",
+        "৫৪"
+      ],
+      "answerIndex": 0,
+      "answer": "৪৮",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণ; তাই ২৪×২=৪৮।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_032",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: ২, ৫, ১০, ১৭, ২৬, ... পরের সংখ্যা কত?",
+      "options": [
+        "৩৭",
+        "৩৫",
+        "৩৬",
+        "৩৯"
+      ],
+      "answerIndex": 0,
+      "answer": "৩৭",
+      "explanation": "পার্থক্য ৩, ৫, ৭, ৯; পরের পার্থক্য ১১, তাই ২৬+১১=৩৭।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_033",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "সব গোলাপ ফুল",
+        "সব ফুল গোলাপ",
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কোনো গোলাপ ফুল নয়"
+      ],
+      "answerIndex": 0,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রদত্ত প্রথম বাক্য থেকেই নিশ্চিত যে সব গোলাপ ফুল।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_034",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A, C, F, J, O, ... ধারার পরের অক্ষর কী?",
+      "options": [
+        "U",
+        "T",
+        "V",
+        "W"
+      ],
+      "answerIndex": 0,
+      "answer": "U",
+      "explanation": "অক্ষরগুলোর অবস্থান ১, ৩, ৬, ১০, ১৫; পার্থক্য ২,৩,৪,৫, পরেরটি ৬; ২১তম অক্ষর U।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_035",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি শ্রেণিতে রাহিম বাম দিক থেকে ৮ম এবং ডান দিক থেকে ১২তম। মোট শিক্ষার্থী কত?",
+      "options": [
+        "১৯",
+        "২০",
+        "১৮",
+        "২১"
+      ],
+      "answerIndex": 0,
+      "answer": "১৯",
+      "explanation": "মোট = ৮+১২−১ = ১৯ জন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_036",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি CAT-কে DBU লেখা হয়, তবে DOG কীভাবে লেখা হবে?",
+      "options": [
+        "EPH",
+        "EOG",
+        "DPH",
+        "FQI"
+      ],
+      "answerIndex": 0,
+      "answer": "EPH",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসানো হয়েছে: D→E, O→P, G→H।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_037",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কাজ ৫ জনে ১০ দিনে করে। একই হারে ১০ জনে কত দিনে করবে?",
+      "options": [
+        "৫ দিন",
+        "১০ দিন",
+        "১৫ দিন",
+        "২০ দিন"
+      ],
+      "answerIndex": 0,
+      "answer": "৫ দিন",
+      "explanation": "কাজের পরিমাণ স্থির; লোক দ্বিগুণ হলে সময় অর্ধেক, অর্থাৎ ৫ দিন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_038",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। রহিম একজন চিকিৎসক। কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "রহিম শিক্ষিত",
+        "সব শিক্ষিত ব্যক্তি চিকিৎসক",
+        "রহিম শিক্ষক",
+        "কোনো চিকিৎসক শিক্ষিত নন"
+      ],
+      "answerIndex": 0,
+      "answer": "রহিম শিক্ষিত",
+      "explanation": "প্রথম বক্তব্য ও রহিমের পরিচয় থেকে নিশ্চিতভাবে বলা যায় রহিম শিক্ষিত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_039",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সারিতে করিম বাম দিক থেকে ৭ম এবং ডান দিক থেকে ৯ম। সারিতে মোট কতজন?",
+      "options": [
+        "১৪",
+        "১৫",
+        "১৬",
+        "১৭"
+      ],
+      "answerIndex": 1,
+      "answer": "১৫",
+      "explanation": "মোট = ৭+৯−১ = ১৫ জন; করিমকে দুইবার গণনা করা হয়েছে বলে ১ বিয়োগ।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_040",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A, B-এর চেয়ে লম্বা এবং B, C-এর চেয়ে লম্বা। সবচেয়ে খাটো কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answerIndex": 2,
+      "answer": "C",
+      "explanation": "A>B এবং B>C, তাই C সবচেয়ে খাটো।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_041",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। রিনা একজন চিকিৎসক। সুতরাং—",
+      "options": [
+        "রিনা শিক্ষিত",
+        "সব শিক্ষিত ব্যক্তি চিকিৎসক",
+        "রিনা শিক্ষক",
+        "কোনো সিদ্ধান্ত সম্ভব নয়"
+      ],
+      "answerIndex": 0,
+      "answer": "রিনা শিক্ষিত",
+      "explanation": "সাধারণ বিবৃতি ও রিনার পরিচয় থেকে সরাসরি সিদ্ধান্ত: রিনা শিক্ষিত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_042",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সারিতে করিম বাম দিক থেকে ১২তম এবং ডান দিক থেকে ৯ম। সারিতে মোট কতজন?",
+      "options": [
+        "১৯",
+        "২০",
+        "২১",
+        "২২"
+      ],
+      "answerIndex": 1,
+      "answer": "২০",
+      "explanation": "মোট = ১২+৯−১ = ২০ জন; করিমকে দুইবার গণনা করা হয়েছিল বলে ১ বিয়োগ।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_043",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বেমানানটি চিহ্নিত করুন: ১৬, ২৫, ৩৬, ৪৯, ৬৩",
+      "options": [
+        "১৬",
+        "২৫",
+        "৪৯",
+        "৬৩"
+      ],
+      "answerIndex": 3,
+      "answer": "৬৩",
+      "explanation": "১৬, ২৫, ৩৬ ও ৪৯ পূর্ণবর্গ; ৬৩ পূর্ণবর্গ নয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_044",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি SOUTH-কে TPVUI লেখা হয়, তবে NORTH কীভাবে লেখা হবে?",
+      "options": [
+        "OPSUI",
+        "OPSTI",
+        "NPSUI",
+        "OQSTI"
+      ],
+      "answerIndex": 0,
+      "answer": "OPSUI",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসানো হয়েছে: N→O, O→P, R→S, T→U, H→I।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_045",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: ৩, ৮, ১৫, ২৪, ৩৫, পরের সংখ্যা কত?",
+      "options": [
+        "৪৪",
+        "৪৬",
+        "৪৮",
+        "৫০"
+      ],
+      "answerIndex": 2,
+      "answer": "৪৮",
+      "explanation": "পার্থক্য ৫, ৭, ৯, ১১; পরের পার্থক্য ১৩। তাই ৩৫+১৩=৪৮।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_046",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পণ্যের দাম ২০০ টাকা। ১০% ছাড়ের পর দাম কত?",
+      "options": [
+        "১৭০ টাকা",
+        "১৮০ টাকা",
+        "১৯০ টাকা",
+        "১৯৫ টাকা"
+      ],
+      "answerIndex": 1,
+      "answer": "১৮০ টাকা",
+      "explanation": "২০০ টাকার ১০% হলো ২০ টাকা; ছাড়ের পর দাম ২০০−২০=১৮০ টাকা।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_047",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি শ্রেণিতে ৪০ জন শিক্ষার্থীর ২৫% অনুপস্থিত। উপস্থিত কতজন?",
+      "options": [
+        "১০",
+        "২০",
+        "৩০",
+        "৩৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০",
+      "explanation": "অনুপস্থিত ৪০×২৫%=১০ জন; উপস্থিত ৪০−১০=৩০ জন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_048",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: A, C, F, J, O, পরের অক্ষর কোনটি?",
+      "options": [
+        "T",
+        "U",
+        "V",
+        "W"
+      ],
+      "answerIndex": 1,
+      "answer": "U",
+      "explanation": "অক্ষরগুলোর অবস্থান ১, ৩, ৬, ১০, ১৫; পার্থক্য ২, ৩, ৪, ৫। পরের অবস্থান ২১ = U।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_050",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "আজ বুধবার হলে ১০০ দিন পরে কী বার হবে?",
+      "options": [
+        "বৃহস্পতিবার",
+        "শুক্রবার",
+        "শনিবার",
+        "রবিবার"
+      ],
+      "answerIndex": 1,
+      "answer": "শুক্রবার",
+      "explanation": "১০০ কে ৭ দিয়ে ভাগ করলে ভাগশেষ ২; বুধবারের দুই দিন পরে শুক্রবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_051",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি সংখ্যার দ্বিগুণের সঙ্গে ৭ যোগ করলে ২৫ হয়। সংখ্যাটি কত?",
+      "options": [
+        "৭",
+        "৮",
+        "৯",
+        "১০"
+      ],
+      "answerIndex": 2,
+      "answer": "৯",
+      "explanation": "২x+৭=২৫; ২x=১৮; x=৯।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_052",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব পাখির ডানা আছে। পেঙ্গুইন পাখি। নিশ্চিত সিদ্ধান্ত কোনটি?",
+      "options": [
+        "পেঙ্গুইন উড়তে পারে",
+        "পেঙ্গুইনের ডানা আছে",
+        "সব ডানাওয়ালা প্রাণী পাখি",
+        "পেঙ্গুইন স্তন্যপায়ী"
+      ],
+      "answerIndex": 1,
+      "answer": "পেঙ্গুইনের ডানা আছে",
+      "explanation": "প্রদত্ত সাধারণ বিবৃতি অনুযায়ী পেঙ্গুইন পাখি হওয়ায় তার ডানা আছে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_053",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ ৬ জন শ্রমিক ১০ দিনে করে। একই হারে ১২ জন শ্রমিক কাজটি কত দিনে করবে?",
+      "options": [
+        "৩ দিন",
+        "৫ দিন",
+        "৬ দিন",
+        "৮ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৫ দিন",
+      "explanation": "মোট কাজ ৬×১০=৬০ শ্রমিক-দিন; ১২ জনে সময় ৬০÷১২=৫ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_054",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: ৫, ১০, ২০, ৪০, পরের সংখ্যা কত?",
+      "options": [
+        "৫০",
+        "৬০",
+        "৭০",
+        "৮০"
+      ],
+      "answerIndex": 3,
+      "answer": "৮০",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণ; তাই ৪০×২=৮০।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_057",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি দলে ১২ জন পুরুষ ও ৮ জন নারী আছেন। নারীর শতকরা হার কত?",
+      "options": [
+        "৩০%",
+        "৩৫%",
+        "৪০%",
+        "৬০%"
+      ],
+      "answerIndex": 2,
+      "answer": "৪০%",
+      "explanation": "মোট ২০ জন; নারী ৮ জন। শতকরা হার = ৮÷২০×১০০ = ৪০%।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_058",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি গতকাল রবিবার হয়, তবে আগামীকাল কী বার?",
+      "options": [
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার",
+        "বৃহস্পতিবার"
+      ],
+      "answerIndex": 1,
+      "answer": "মঙ্গলবার",
+      "explanation": "গতকাল রবিবার হলে আজ সোমবার; আগামীকাল মঙ্গলবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_059",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য ৮ মিটার ও প্রস্থ ৫ মিটার। ক্ষেত্রফল কত?",
+      "options": [
+        "১৩ বর্গমিটার",
+        "২৬ বর্গমিটার",
+        "৪০ বর্গমিটার",
+        "৮০ বর্গমিটার"
+      ],
+      "answerIndex": 2,
+      "answer": "৪০ বর্গমিটার",
+      "explanation": "আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ = ৮×৫ = ৪০ বর্গমিটার।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_060",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বেমানান সংখ্যাটি বেছে নিন: ২, ৩, ৫, ৯, ১১।",
+      "options": [
+        "২",
+        "৫",
+        "৯",
+        "১১"
+      ],
+      "answerIndex": 2,
+      "answer": "৯",
+      "explanation": "২, ৩, ৫ ও ১১ মৌলিক সংখ্যা; ৯ যৌগিক সংখ্যা।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_061",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি ঘড়ি প্রতি ঘণ্টায় ৫ মিনিট পিছিয়ে যায়। ৬ ঘণ্টায় মোট কত মিনিট পিছোবে?",
+      "options": [
+        "২০",
+        "২৫",
+        "৩০",
+        "৩৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০",
+      "explanation": "প্রতি ঘণ্টায় ৫ মিনিট হলে ৬ ঘণ্টায় ৫×৬=৩০ মিনিট পিছোবে।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_062",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজের অর্ধেক ৪ দিনে শেষ হয়। একই গতিতে পুরো কাজ শেষ হতে কত দিন লাগবে?",
+      "options": [
+        "৬",
+        "৮",
+        "১০",
+        "১২"
+      ],
+      "answerIndex": 1,
+      "answer": "৮",
+      "explanation": "একই গতিতে অর্ধেক কাজ ৪ দিনে হলে পুরো কাজের সময় ৪×২=৮ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_063",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সারিতে রিনা বাম দিক থেকে ৮ম এবং ডান দিক থেকে ১৩তম। সারিতে মোট কতজন?",
+      "options": [
+        "১৯",
+        "২০",
+        "২১",
+        "২২"
+      ],
+      "answerIndex": 1,
+      "answer": "২০",
+      "explanation": "মোট = বাম দিকের অবস্থান + ডান দিকের অবস্থান − ১ = ৮+১৩−১ = ২০।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_064",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A, C, F, J, O ধারার পরের অক্ষর কোনটি?",
+      "options": [
+        "T",
+        "U",
+        "V",
+        "W"
+      ],
+      "answerIndex": 1,
+      "answer": "U",
+      "explanation": "অক্ষরগুলোর ব্যবধান ২, ৩, ৪, ৫; পরের ব্যবধান ৬। O-এর পর ছয় ধাপ U।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_065",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ ৬ জন শ্রমিক ৮ দিনে করে। একই হারে ১২ জন শ্রমিক কাজটি কত দিনে করবে?",
+      "options": [
+        "২ দিন",
+        "৪ দিন",
+        "৬ দিন",
+        "৮ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৪ দিন",
+      "explanation": "মোট কাজ ৬×৮=৪৮ শ্রমিক-দিন; ১২ জনে সময় ৪৮÷১২=৪ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_067",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বর্ণধারা: B, E, I, N, T—পরের অক্ষর কোনটি?",
+      "options": [
+        "X",
+        "Y",
+        "Z",
+        "A"
+      ],
+      "answerIndex": 3,
+      "answer": "A",
+      "explanation": "অক্ষর-ব্যবধান +৩,+৪,+৫,+৬; পরের +৭। T-এর অবস্থান ২০; ২০+৭=২৭, ২৬-এর পর আবার A, তাই উত্তর A।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_068",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি কোনো কোডে BOOK = CPPL হয়, তবে PEN = ?",
+      "options": [
+        "QFO",
+        "QEN",
+        "PFM",
+        "RFO"
+      ],
+      "answerIndex": 0,
+      "answer": "QFO",
+      "explanation": "প্রতিটি অক্ষর এক ধাপ এগিয়েছে: P→Q, E→F, N→O।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_069",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রবি পূর্বদিকে ৫ কিমি গিয়ে ডানে ৩ কিমি গেল। শুরুস্থান থেকে সে কোন দিকে?",
+      "options": [
+        "উত্তর-পূর্ব",
+        "দক্ষিণ-পূর্ব",
+        "উত্তর-পশ্চিম",
+        "দক্ষিণ-পশ্চিম"
+      ],
+      "answerIndex": 1,
+      "answer": "দক্ষিণ-পূর্ব",
+      "explanation": "পূর্বে গিয়ে ডানে মানে দক্ষিণে; অবস্থান দক্ষিণ-পূর্বে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_070",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব স্তন্যপায়ী প্রাণী উষ্ণ রক্তবিশিষ্ট। তিমি স্তন্যপায়ী। নিশ্চিত সিদ্ধান্ত কোনটি?",
+      "options": [
+        "তিমি মাছ",
+        "তিমি উষ্ণ রক্তবিশিষ্ট",
+        "সব উষ্ণ রক্তবিশিষ্ট প্রাণী তিমি",
+        "তিমি ডিম পাড়ে"
+      ],
+      "answerIndex": 1,
+      "answer": "তিমি উষ্ণ রক্তবিশিষ্ট",
+      "explanation": "তিমি স্তন্যপায়ী হওয়ায় প্রদত্ত নিয়ম অনুযায়ী উষ্ণ রক্তবিশিষ্ট।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_072",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি CAT-কে DBU লেখা হয়, তবে DOG-কে কী লেখা হবে? (প্রতিটি অক্ষরের পরের অক্ষর)",
+      "options": [
+        "EPH",
+        "EOG",
+        "FPH",
+        "DPH"
+      ],
+      "answerIndex": 0,
+      "answer": "EPH",
+      "explanation": "D→E, O→P, G→H; তাই EPH।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_073",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: AZ, BY, CX, DW, পরের জোড়াটি কী?",
+      "options": [
+        "EV",
+        "FU",
+        "EX",
+        "EW"
+      ],
+      "answerIndex": 0,
+      "answer": "EV",
+      "explanation": "প্রথম অক্ষর A,B,C,D থেকে এগোয়; দ্বিতীয় অক্ষর Z,Y,X,W থেকে উল্টো ক্রমে কমে—তাই EV।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_074",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে BOOK লেখা হয় CPPL। একই নিয়মে PEN কী হবে?",
+      "options": [
+        "QFO",
+        "ODM",
+        "QEN",
+        "RFO"
+      ],
+      "answerIndex": 0,
+      "answer": "QFO",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসানো হয়েছে: P→Q, E→F, N→O।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_075",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। নিচের কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "সব গোলাপ ফুল",
+        "কোনো ফুল গোলাপ নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রথম বক্তব্য থেকেই নিশ্চিতভাবে বলা যায় সব গোলাপ ফুল; অন্য সিদ্ধান্তগুলো নিশ্চিত নয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_076",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারা: ৩, ৯, ২৭, ৮১, পরের সংখ্যা কত?",
+      "options": [
+        "১৬২",
+        "১৮৯",
+        "২৪৩",
+        "৩২৪"
+      ],
+      "answerIndex": 2,
+      "answer": "২৪৩",
+      "explanation": "প্রতিটি পদ আগের পদের ৩ গুণ; ৮১×৩=২৪৩।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_077",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সারিতে রিনা বাম দিক থেকে ৮ম এবং ডান দিক থেকে ১১তম। সারিতে মোট কতজন?",
+      "options": [
+        "১৭",
+        "১৮",
+        "১৯",
+        "২০"
+      ],
+      "answerIndex": 1,
+      "answer": "১৮",
+      "explanation": "মোট = বাম দিকের অবস্থান + ডান দিকের অবস্থান − ১ = ৮+১১−১=১৮।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_079",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A হলো B-এর ভাই। B হলো C-এর বোন। C হলো D-এর বাবা। A-এর সঙ্গে D-এর সম্পর্ক কী?",
+      "options": [
+        "চাচা",
+        "মামা",
+        "ভাই",
+        "দাদা"
+      ],
+      "answerIndex": 0,
+      "answer": "চাচা",
+      "explanation": "A হলো C-এর ভাই এবং C হলো D-এর বাবা; তাই A, D-এর চাচা।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_080",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি ঘড়ি প্রতি ঘণ্টায় ৫ মিনিট এগিয়ে যায়। ৬ ঘণ্টায় কত মিনিট এগোবে?",
+      "options": [
+        "২০",
+        "২৫",
+        "৩০",
+        "৩৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০",
+      "explanation": "প্রতি ঘণ্টায় ৫ মিনিট হলে ৬ ঘণ্টায় ৫×৬=৩০ মিনিট এগোবে।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_081",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে SUN লেখা হয় TVO। একই নিয়মে MOON কী হবে?",
+      "options": [
+        "NPPO",
+        "NPPM",
+        "LPPO",
+        "NQPO"
+      ],
+      "answerIndex": 0,
+      "answer": "NPPO",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসালে M→N, O→P, O→P, N→O; তাই NPPO।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_082",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "সব চিকিৎসক লেখক",
+        "কিছু চিকিৎসক লেখক",
+        "সব চিকিৎসক শিক্ষিত",
+        "কোনো লেখক শিক্ষিত নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "সব চিকিৎসক শিক্ষিত",
+      "explanation": "প্রথম বক্তব্য অনুযায়ী সব চিকিৎসক শিক্ষিত—এটাই নিশ্চিত সিদ্ধান্ত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_083",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। তাহলে সব গোলাপ কী?",
+      "options": [
+        "ফুল",
+        "গাছ",
+        "ফল",
+        "পাতা"
+      ],
+      "answerIndex": 0,
+      "answer": "ফুল",
+      "explanation": "প্রদত্ত বক্তব্য অনুযায়ী গোলাপের প্রতিটি সদস্যই ফুলের শ্রেণিভুক্ত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_084",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A, C, E, G, পরবর্তী অক্ষর কী?",
+      "options": [
+        "I",
+        "H",
+        "J",
+        "K"
+      ],
+      "answerIndex": 0,
+      "answer": "I",
+      "explanation": "প্রতিবার একটি অক্ষর বাদ দিয়ে পরের অক্ষর নেওয়া হয়েছে: A, C, E, G, I।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_085",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "AZ, BY, CX, DW, পরবর্তী জোড়া কী?",
+      "options": [
+        "EV",
+        "FU",
+        "EW",
+        "FV"
+      ],
+      "answerIndex": 0,
+      "answer": "EV",
+      "explanation": "প্রথম অক্ষর A থেকে ক্রমান্বয়ে এগোয়, দ্বিতীয় অক্ষর Z থেকে পিছোয়; পরের জোড়া EV।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_086",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "BOOK শব্দের প্রতিটি অক্ষর ইংরেজি বর্ণমালায় এক ধাপ এগোলে কী হবে?",
+      "options": [
+        "CPPL",
+        "CQQM",
+        "CPPM",
+        "DPPM"
+      ],
+      "answerIndex": 0,
+      "answer": "CPPL",
+      "explanation": "B→C, O→P, O→P এবং K→L; ফলে CPPL।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_087",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সোমবারের তিন দিন পর কী বার?",
+      "options": [
+        "বৃহস্পতিবার",
+        "বুধবার",
+        "শুক্রবার",
+        "শনিবার"
+      ],
+      "answerIndex": 0,
+      "answer": "বৃহস্পতিবার",
+      "explanation": "সোমবারের পর মঙ্গলবার, বুধবার, বৃহস্পতিবার—তিন দিন পর বৃহস্পতিবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_088",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "৪, ৮, ১৬, ৩২, পরবর্তী সংখ্যা কত?",
+      "options": [
+        "৬৪",
+        "৪৮",
+        "৫৬",
+        "৭২"
+      ],
+      "answerIndex": 0,
+      "answer": "৬৪",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণ; ৩২ × ২ = ৬৪।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_089",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "১০, ২০, ৩০, ৪০, পরবর্তী সংখ্যা কত?",
+      "options": [
+        "৫০",
+        "৪৫",
+        "৫৫",
+        "৬০"
+      ],
+      "answerIndex": 0,
+      "answer": "৫০",
+      "explanation": "প্রতিটি ধাপে ১০ যোগ হচ্ছে; পরের সংখ্যা ৫০।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_090",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "১, ৪, ৯, ১৬, ২৫, পরবর্তী সংখ্যা কত?",
+      "options": [
+        "৩৬",
+        "৩০",
+        "৩৫",
+        "৪৯"
+      ],
+      "answerIndex": 0,
+      "answer": "৩৬",
+      "explanation": "এগুলো যথাক্রমে ১², ২², ৩², ৪², ৫²; পরেরটি ৬² = ৩৬।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_091",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "উত্তর দিকে মুখ করে ডানে ঘুরলে কোন দিকে মুখ হবে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "দক্ষিণ",
+        "উত্তর"
+      ],
+      "answerIndex": 0,
+      "answer": "পূর্ব",
+      "explanation": "উত্তরমুখী অবস্থান থেকে ডানদিকে ঘুরলে পূর্বমুখী হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_092",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একজন ব্যক্তি পূর্ব দিকে ৫ কিমি গিয়ে ডানে ঘুরল। এখন সে কোন দিকে যাচ্ছে?",
+      "options": [
+        "দক্ষিণ",
+        "উত্তর",
+        "পশ্চিম",
+        "পূর্ব"
+      ],
+      "answerIndex": 0,
+      "answer": "দক্ষিণ",
+      "explanation": "পূর্বমুখী অবস্থান থেকে ডানে ঘুরলে দক্ষিণ দিকে যায়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_093",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব পাখির ডানা আছে। কাক একটি পাখি। প্রদত্ত যুক্তি অনুযায়ী কাকের কী আছে?",
+      "options": [
+        "ডানা",
+        "পাখনা",
+        "শিং",
+        "খুর"
+      ],
+      "answerIndex": 0,
+      "answer": "ডানা",
+      "explanation": "প্রদত্ত সাধারণ বক্তব্যে সব পাখির ডানা আছে; কাক পাখি, তাই কাকের ডানা আছে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_094",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "BOOK শব্দের প্রতিটি অক্ষর এক ধাপ এগোলে কী হবে?",
+      "options": [
+        "CPPL",
+        "CQQM",
+        "CPPM",
+        "DPPM"
+      ],
+      "answerIndex": 0,
+      "answer": "CPPL",
+      "explanation": "B→C, O→P, O→P, K→L; ফলে CPPL।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_095",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "পূর্ব দিকে মুখ করে ডানে ঘুরলে কোন দিকে যাওয়া হবে?",
+      "options": [
+        "দক্ষিণ",
+        "উত্তর",
+        "পশ্চিম",
+        "পূর্ব"
+      ],
+      "answerIndex": 0,
+      "answer": "দক্ষিণ",
+      "explanation": "পূর্বমুখী অবস্থান থেকে ডানে ঘুরলে দক্ষিণ হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_096",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি পূরণ করুন: ১, ৪, ৯, ১৬, ২৫, ?",
+      "options": [
+        "৩০",
+        "৩৪",
+        "৩৬",
+        "৪৯"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৬",
+      "explanation": "ধারাটি ক্রমিক পূর্ণবর্গ: ১², ২², ৩², ৪², ৫²; পরেরটি ৬²=৩৬।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_097",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সারিতে রাহিম বাম দিক থেকে ৮ম এবং ডান দিক থেকে ১৩তম। সারিতে মোট কতজন?",
+      "options": [
+        "১৯",
+        "২০",
+        "২১",
+        "২২"
+      ],
+      "answerIndex": 1,
+      "answer": "২০",
+      "explanation": "মোট = বাম দিকের অবস্থান + ডান দিকের অবস্থান − ১ = ৮ + ১৩ − ১ = ২০।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_098",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ঘড়িতে ঠিক ৩টা বাজলে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "৬০°",
+        "৭৫°",
+        "৯০°",
+        "১২০°"
+      ],
+      "answerIndex": 2,
+      "answer": "৯০°",
+      "explanation": "৩টায় মিনিটের কাঁটা ১২-তে এবং ঘণ্টার কাঁটা ৩-এ থাকে; তাদের মধ্যবর্তী কোণ ৯০°।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_099",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "৫টি কলমের দাম ৬০ টাকা হলে ৮টি কলমের দাম কত?",
+      "options": [
+        "৮৪ টাকা",
+        "৯০ টাকা",
+        "৯৬ টাকা",
+        "১০০ টাকা"
+      ],
+      "answerIndex": 2,
+      "answer": "৯৬ টাকা",
+      "explanation": "একটি কলমের দাম ৬০÷৫=১২ টাকা; ৮টির দাম ১২×৮=৯৬ টাকা।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_100",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ ৬ জনে ১০ দিনে করলে একই হারে ১২ জনে কত দিনে করবে?",
+      "options": [
+        "৩ দিন",
+        "৫ দিন",
+        "৬ দিন",
+        "৮ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৫ দিন",
+      "explanation": "মোট কাজ ৬×১০=৬০ জন-দিন; ১২ জনে সময় ৬০÷১২=৫ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_101",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ঘড়িতে ৬টা বাজলে ঘণ্টা ও মিনিটের কাঁটার ক্ষুদ্রতর কোণ কত?",
+      "options": [
+        "৯০°",
+        "১২০°",
+        "১৮০°",
+        "২৭০°"
+      ],
+      "answerIndex": 2,
+      "answer": "১৮০°",
+      "explanation": "৬টায় মিনিটের কাঁটা ১২-তে এবং ঘণ্টার কাঁটা ৬-এ; ক্ষুদ্রতর কোণ ১৮০°।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_102",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি শ্রেণিতে ৪০ জন শিক্ষার্থীর ৬০% মেয়ে। ছেলের সংখ্যা কত?",
+      "options": [
+        "১২",
+        "১৬",
+        "২০",
+        "২৪"
+      ],
+      "answerIndex": 1,
+      "answer": "১৬",
+      "explanation": "মেয়ে ৪০×৬০%=২৪ জন; ছেলে ৪০−২৪=১৬ জন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_103",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "দুটি সংখ্যার অনুপাত ৩:৫ এবং যোগফল ৬৪। বড় সংখ্যাটি কত?",
+      "options": [
+        "২৪",
+        "৩২",
+        "৪০",
+        "৪৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৪০",
+      "explanation": "মোট অংশ ৮; প্রতি অংশ ৬৪÷৮=৮। বড় সংখ্যা ৫×৮=৪০।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_104",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য ১২ সেমি ও প্রস্থ ৭ সেমি হলে ক্ষেত্রফল কত?",
+      "options": [
+        "১৯ বর্গসেমি",
+        "৩৮ বর্গসেমি",
+        "৭২ বর্গসেমি",
+        "৮৪ বর্গসেমি"
+      ],
+      "answerIndex": 3,
+      "answer": "৮৪ বর্গসেমি",
+      "explanation": "আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ = ১২×৭ = ৮৪ বর্গসেমি।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_105",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বছরটি অধিবর্ষ হলে ফেব্রুয়ারি মাসে কয় দিন থাকে?",
+      "options": [
+        "২৮",
+        "২৯",
+        "৩০",
+        "৩১"
+      ],
+      "answerIndex": 1,
+      "answer": "২৯",
+      "explanation": "অধিবর্ষে ফেব্রুয়ারি মাসে ২৯ দিন থাকে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_106",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি ঘড়িতে ৪টা ২০ মিনিটে ঘণ্টা ও মিনিটের কাঁটার ক্ষুদ্রতর কোণ কত?",
+      "options": [
+        "০°",
+        "১০°",
+        "২০°",
+        "৩০°"
+      ],
+      "answerIndex": 1,
+      "answer": "১০°",
+      "explanation": "মিনিটের কাঁটা ১২০° এবং ঘণ্টার কাঁটা ১৩০° অবস্থানে থাকে; পার্থক্য ১০°।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_107",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটির পরের সংখ্যা কত: ২, ৫, ১০, ১৭, ২৬, ...?",
+      "options": [
+        "৩৫",
+        "৩৬",
+        "৩৭",
+        "৩৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৭",
+      "explanation": "পার্থক্যগুলো ৩, ৫, ৭, ৯; পরের পার্থক্য ১১, তাই ২৬+১১=৩৭।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_108",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A হলো B-এর ভাই। B হলো C-এর মা। A, C-এর কী হন?",
+      "options": [
+        "বাবা",
+        "মামা",
+        "চাচা",
+        "দাদা"
+      ],
+      "answerIndex": 1,
+      "answer": "মামা",
+      "explanation": "মায়ের ভাই শিশুর মামা হন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_109",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সারিতে করিম সামনে থেকে ১২তম এবং পেছন থেকে ৯ম। সারিতে মোট কতজন?",
+      "options": [
+        "১৯",
+        "২০",
+        "২১",
+        "২২"
+      ],
+      "answerIndex": 1,
+      "answer": "২০",
+      "explanation": "মোট = সামনে থেকে অবস্থান + পেছন থেকে অবস্থান − ১ = ১২+৯−১ = ২০।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_110",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি সম্পূর্ণ করুন: ১, ৪, ৯, ১৬, ২৫, ?",
+      "options": [
+        "৩০",
+        "৩৪",
+        "৩৬",
+        "৪৯"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৬",
+      "explanation": "এগুলো যথাক্রমে ১², ২², ৩², ৪², ৫²; পরেরটি ৬²=৩৬।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_111",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে SUN-কে TVO লেখা হলে MOON কী হবে?",
+      "options": [
+        "NPPO",
+        "NPPM",
+        "LPPO",
+        "NQPO"
+      ],
+      "answerIndex": 0,
+      "answer": "NPPO",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসালে M→N, O→P, O→P, N→O; অর্থাৎ NPPO।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_112",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি সম্পূর্ণ করুন: ৫, ১১, ২৩, ৪৭, ?",
+      "options": [
+        "৮৯",
+        "৯৩",
+        "৯৫",
+        "৯৭"
+      ],
+      "answerIndex": 2,
+      "answer": "৯৫",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণের সঙ্গে ১ যোগ: ৫→১১→২৩→৪৭→৯৫।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_113",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি সব পাখির ডানা থাকে এবং পেঙ্গুইন পাখি হয়, তবে নিশ্চিত সিদ্ধান্ত কোনটি?",
+      "options": [
+        "সব পেঙ্গুইন উড়তে পারে",
+        "পেঙ্গুইনের ডানা আছে",
+        "কোনো পেঙ্গুইন পাখি নয়",
+        "সব ডানাওয়ালা প্রাণী পাখি"
+      ],
+      "answerIndex": 1,
+      "answer": "পেঙ্গুইনের ডানা আছে",
+      "explanation": "প্রদত্ত বক্তব্য থেকে পেঙ্গুইন পাখি এবং সব পাখির ডানা আছে—তাই পেঙ্গুইনের ডানা আছে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_114",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ঘড়িতে ৬টা বাজলে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "৯০°",
+        "১২০°",
+        "১৮০°",
+        "২৭০°"
+      ],
+      "answerIndex": 2,
+      "answer": "১৮০°",
+      "explanation": "৬টায় মিনিটের কাঁটা ১২-তে এবং ঘণ্টার কাঁটা ৬-এ থাকে; কোণ ১৮০°।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_115",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সারিতে করিম সামনে থেকে ১২তম এবং পেছন থেকে ৮ম। মোট কতজন?",
+      "options": [
+        "১৮",
+        "১৯",
+        "২০",
+        "২১"
+      ],
+      "answerIndex": 1,
+      "answer": "১৯",
+      "explanation": "মোট = ১২+৮−১ = ১৯ জন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_116",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "চোখ : দেখা :: কান : ?",
+      "options": [
+        "বলা",
+        "শোনা",
+        "গন্ধ নেওয়া",
+        "স্পর্শ"
+      ],
+      "answerIndex": 1,
+      "answer": "শোনা",
+      "explanation": "চোখ দিয়ে দেখা হয়, কান দিয়ে শোনা হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_117",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি সম্পূর্ণ করুন: ৮১, ২৭, ৯, ৩, ?",
+      "options": [
+        "০",
+        "১",
+        "২",
+        "৬"
+      ],
+      "answerIndex": 1,
+      "answer": "১",
+      "explanation": "প্রতিটি পদ আগের পদকে ৩ দিয়ে ভাগ করে পাওয়া: ৮১, ২৭, ৯, ৩, ১।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_118",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি SOUTH-কে TPVUI লেখা হয়, তবে NORTH কীভাবে লেখা হবে?",
+      "options": [
+        "OPSUI",
+        "OPSTI",
+        "NPSUI",
+        "OPSUIF"
+      ],
+      "answerIndex": 0,
+      "answer": "OPSUI",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর বসানো হয়েছে: N→O, O→P, R→S, T→U, H→I; তাই OPSUI।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_119",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি আজ শুক্রবার হয়, ১০০ দিন পর কী বার হবে?",
+      "options": [
+        "শনিবার",
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার"
+      ],
+      "answerIndex": 1,
+      "answer": "রবিবার",
+      "explanation": "১০০÷৭ করলে ভাগশেষ ২; শুক্রবারের দুই দিন পর রবিবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_120",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বর্ণমালার ক্রমে M-এর পর তৃতীয় অক্ষর কোনটি?",
+      "options": [
+        "O",
+        "P",
+        "Q",
+        "R"
+      ],
+      "answerIndex": 1,
+      "answer": "P",
+      "explanation": "M-এর পর N, O, P; তৃতীয় অক্ষর P।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_121",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি ঘরে ৪টি কোণ আছে। প্রতিটি কোণে একটি করে বিড়াল বসে আছে। প্রতিটি বিড়ালের সামনে ৩টি বিড়াল। মোট বিড়াল কতটি?",
+      "options": [
+        "৩",
+        "৪",
+        "৮",
+        "১২"
+      ],
+      "answerIndex": 1,
+      "answer": "৪",
+      "explanation": "চারটি কোণে চারটি বিড়াল; প্রতিটি অন্য তিনটিকে দেখতে পায়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_122",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি সম্পূর্ণ করুন: ২, ৫, ১০, ১৭, ২৬, ?",
+      "options": [
+        "৩৫",
+        "৩৬",
+        "৩৭",
+        "৩৮"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৭",
+      "explanation": "পার্থক্য ৩, ৫, ৭, ৯; পরের পার্থক্য ১১, তাই ২৬+১১=৩৭।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_123",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি দলে ১৮ জন ফুটবল এবং ১২ জন ক্রিকেট খেলে; ৫ জন উভয় খেলাই খেলে। অন্তত একটি খেলে কতজন?",
+      "options": [
+        "২৫",
+        "৩০",
+        "৩৫",
+        "৪০"
+      ],
+      "answerIndex": 0,
+      "answer": "২৫",
+      "explanation": "অন্তত একটি = ১৮+১২−৫ = ২৫ জন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_124",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বর্ণমালায় Z-এর ঠিক আগের অক্ষর কোনটি?",
+      "options": [
+        "X",
+        "W",
+        "Y",
+        "V"
+      ],
+      "answerIndex": 2,
+      "answer": "Y",
+      "explanation": "ইংরেজি বর্ণমালায় Y হলো Z-এর ঠিক আগের অক্ষর।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_125",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি ঘড়িতে ৯টা বাজলে ঘণ্টা ও মিনিটের কাঁটার ক্ষুদ্র কোণ কত?",
+      "options": [
+        "৯০°",
+        "১২০°",
+        "১৮০°",
+        "২৭০°"
+      ],
+      "answerIndex": 0,
+      "answer": "৯০°",
+      "explanation": "৯টায় মিনিটের কাঁটা ১২-তে ও ঘণ্টার কাঁটা ৯-এ; ক্ষুদ্র কোণ ৯০°।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_126",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বীজ : গাছ :: ডিম : ?",
+      "options": [
+        "পাখি",
+        "ছানা",
+        "বাসা",
+        "পালক"
+      ],
+      "answerIndex": 1,
+      "answer": "ছানা",
+      "explanation": "বীজ থেকে গাছ জন্মায়; ডিম থেকে ছানা বের হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_127",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি সম্পূর্ণ করুন: ৪, ৯, ১৯, ৩৯, ৭৯, ?",
+      "options": [
+        "১৫৮",
+        "১৫৯",
+        "১৬০",
+        "১৬১"
+      ],
+      "answerIndex": 1,
+      "answer": "১৫৯",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণের সঙ্গে ১ যোগ: ৭৯×২+১=১৫৯।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_128",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি পরিবারের প্রত্যেকে অন্তত একটি ভাষা জানে। ২০ জন বাংলা, ১২ জন ইংরেজি এবং ৫ জন উভয় ভাষা জানে। মোট সদস্য কত?",
+      "options": [
+        "২৫",
+        "২৭",
+        "৩২",
+        "৩৭"
+      ],
+      "answerIndex": 0,
+      "answer": "২৫",
+      "explanation": "অন্তত একটি ভাষা জানা সদস্য = ২০+১২−৫ = ২৭।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_129",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বর্ণমালায় C, F, I, L, পরের অক্ষর কোনটি?",
+      "options": [
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "answerIndex": 2,
+      "answer": "O",
+      "explanation": "প্রতিবার তিন অক্ষর এগিয়েছে: C, F, I, L, O; তাই সঠিক উত্তর O।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_130",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি সম্পূর্ণ করুন: ৩, ৬, ১১, ১৮, ২৭, ?",
+      "options": [
+        "৩৬",
+        "৩৭",
+        "৩৮",
+        "৩৯"
+      ],
+      "answerIndex": 2,
+      "answer": "৩৮",
+      "explanation": "পার্থক্যগুলো ৩, ৫, ৭, ৯; পরের পার্থক্য ১১, তাই ২৭+১১=৩৮।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_131",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি A=1, B=2, ... Z=26 হয়, তবে BAD শব্দের অক্ষরগুলোর যোগফল কত?",
+      "options": [
+        "৬",
+        "৭",
+        "৮",
+        "৯"
+      ],
+      "answerIndex": 1,
+      "answer": "৭",
+      "explanation": "B=2, A=1, D=4; যোগফল ৭।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_132",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি পরিবারে বাবা, মা ও ৩ সন্তান আছে। প্রত্যেক সন্তানের একজন করে ভাই আছে। পরিবারে মোট সন্তান কত?",
+      "options": [
+        "২",
+        "৩",
+        "৪",
+        "৫"
+      ],
+      "answerIndex": 1,
+      "answer": "৩",
+      "explanation": "প্রশ্নে ৩ সন্তান আছে; প্রত্যেকের একজন ভাই বলতে একই ভাইকে বোঝায়। তাই সন্তান মোট ৩ জন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_133",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি সম্পূর্ণ করুন: ২, ৬, ১৮, ৫৪, ?",
+      "options": [
+        "১০৮",
+        "১২৬",
+        "১৬২",
+        "২১৬"
+      ],
+      "answerIndex": 2,
+      "answer": "১৬২",
+      "explanation": "প্রতিটি পদ আগের পদের ৩ গুণ; ৫৪×৩=১৬২।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_134",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি সম্পূর্ণ করুন: ১, ১, ২, ৩, ৫, ৮, ?",
+      "options": [
+        "১১",
+        "১২",
+        "১৩",
+        "১৫"
+      ],
+      "answerIndex": 2,
+      "answer": "১৩",
+      "explanation": "ফিবোনাচ্চি ধারায় পরের পদ আগের দুই পদের যোগফল; ৫+৮=১৩।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_135",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "কোনটি অন্যগুলোর থেকে ভিন্ন?",
+      "options": [
+        "বর্গ",
+        "ত্রিভুজ",
+        "বৃত্ত",
+        "ঘনক"
+      ],
+      "answerIndex": 3,
+      "answer": "ঘনক",
+      "explanation": "ঘনক ত্রিমাত্রিক; অন্য তিনটি সমতল জ্যামিতিক আকৃতি।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_136",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "কলম : লেখা :: ছুরি : ?",
+      "options": [
+        "কাটা",
+        "ধোয়া",
+        "পড়া",
+        "মাপা"
+      ],
+      "answerIndex": 0,
+      "answer": "কাটা",
+      "explanation": "কলম দিয়ে লেখা হয়; ছুরি দিয়ে কাটা হয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_137",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি সব গোলাপ ফুল হয় এবং কিছু ফুল লাল হয়, তবে নিশ্চিতভাবে কোনটি সত্য?",
+      "options": [
+        "সব গোলাপ লাল",
+        "কিছু গোলাপ লাল",
+        "সব গোলাপ ফুল",
+        "কোনো ফুল লাল নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রদত্ত তথ্যে কেবল নিশ্চিত যে সব গোলাপ ফুল; লাল ফুলের সঙ্গে গোলাপের সম্পর্ক নিশ্চিত নয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_138",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সারিতে রাহিম বাম দিক থেকে ৮ম এবং ডান দিক থেকে ১১তম। সারিতে মোট কতজন?",
+      "options": [
+        "১৭",
+        "১৮",
+        "১৯",
+        "২০"
+      ],
+      "answerIndex": 1,
+      "answer": "১৮",
+      "explanation": "মোট = ৮+১১−১ = ১৮ জন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_139",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "আজ বুধবার হলে ৪৫ দিন পর কী বার হবে?",
+      "options": [
+        "শুক্রবার",
+        "শনিবার",
+        "রবিবার",
+        "সোমবার"
+      ],
+      "answerIndex": 1,
+      "answer": "শনিবার",
+      "explanation": "৪৫÷৭ ভাগশেষ ৩; বুধবারের ৩ দিন পর শনিবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_140",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বর্ণমালার ক্রমে P-এর পর পঞ্চম অক্ষর কোনটি?",
+      "options": [
+        "T",
+        "U",
+        "V",
+        "W"
+      ],
+      "answerIndex": 1,
+      "answer": "U",
+      "explanation": "P-এর পর Q, R, S, T, U; পঞ্চম অক্ষর U।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_141",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি ঘড়িতে ৬টা ৩০ মিনিটে ঘণ্টা ও মিনিটের কাঁটার ক্ষুদ্র কোণ কত?",
+      "options": [
+        "১৫°",
+        "৩০°",
+        "৪৫°",
+        "৬০°"
+      ],
+      "answerIndex": 0,
+      "answer": "১৫°",
+      "explanation": "৬:৩০-এ মিনিটের কাঁটা ১৮০° এবং ঘণ্টার কাঁটা ১৯৫°; পার্থক্য ১৫°।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_142",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি শ্রেণিতে ২৫ জন বাংলা, ১৭ জন ইংরেজি পড়ে এবং ৮ জন উভয় বিষয় পড়ে। অন্তত একটি বিষয় পড়ে কতজন?",
+      "options": [
+        "৩৪",
+        "৩৮",
+        "৪২",
+        "৫০"
+      ],
+      "answerIndex": 0,
+      "answer": "৩৪",
+      "explanation": "অন্তত একটি = ২৫+১৭−৮ = ৩৪ জন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_143",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি সম্পূর্ণ করুন: ৭, ১৪, ২৮, ৫৬, ?",
+      "options": [
+        "৮৪",
+        "৯৮",
+        "১১২",
+        "১২৬"
+      ],
+      "answerIndex": 2,
+      "answer": "১১২",
+      "explanation": "প্রতিটি পদ দ্বিগুণ; ৫৬×২=১১২।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_144",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি ‘সব A হলো B’ এবং ‘সব B হলো C’, তবে কোনটি অবশ্যই সত্য?",
+      "options": [
+        "সব C হলো A",
+        "সব A হলো C",
+        "কোনো A হলো C নয়",
+        "কিছু B হলো A নয়"
+      ],
+      "answerIndex": 1,
+      "answer": "সব A হলো C",
+      "explanation": "A-এর প্রতিটি উপাদান B এবং B-এর প্রতিটি উপাদান C হলে সব A-ই C।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_145",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সারিতে মিতা বাম থেকে ১২তম এবং ডান থেকে ৯ম। মোট কতজন?",
+      "options": [
+        "১৯",
+        "২০",
+        "২১",
+        "২২"
+      ],
+      "answerIndex": 1,
+      "answer": "২০",
+      "explanation": "মোট = ১২+৯−১ = ২০ জন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_146",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ঘড়িতে ৩টা ১৫ মিনিটে ঘণ্টা ও মিনিটের কাঁটার ক্ষুদ্র কোণ কত?",
+      "options": [
+        "০°",
+        "৭.৫°",
+        "১৫°",
+        "২২.৫°"
+      ],
+      "answerIndex": 1,
+      "answer": "৭.৫°",
+      "explanation": "মিনিটের কাঁটা ৯০°; ঘণ্টার কাঁটা ৯৭.৫°; পার্থক্য ৭.৫°।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_147",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি গত পরশু রবিবার হয়, তবে আগামীকাল কী বার?",
+      "options": [
+        "মঙ্গলবার",
+        "বুধবার",
+        "বৃহস্পতিবার",
+        "শুক্রবার"
+      ],
+      "answerIndex": 1,
+      "answer": "বুধবার",
+      "explanation": "গত পরশু রবিবার হলে আজ মঙ্গলবার; আগামীকাল বুধবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_148",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি সম্পূর্ণ করুন: ১২, ১৫, ২১, ৩০, ৪২, ?",
+      "options": [
+        "৫৪",
+        "৫৭",
+        "৬০",
+        "৬৩"
+      ],
+      "answerIndex": 1,
+      "answer": "৫৭",
+      "explanation": "পার্থক্য ৩, ৬, ৯, ১২; পরের পার্থক্য ১৫, তাই ৪২+১৫=৫৭।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_149",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ধারাটি সম্পূর্ণ করুন: ৬৪, ৩২, ১৬, ৮, ?",
+      "options": [
+        "২",
+        "৩",
+        "৪",
+        "৬"
+      ],
+      "answerIndex": 2,
+      "answer": "৪",
+      "explanation": "প্রতিটি পদ আগের পদকে ২ দিয়ে ভাগ; ৮÷২=৪।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "base_150",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি বাক্সে ৫টি লাল ও ৫টি নীল বল আছে। না দেখে একটি বল তুললে লাল পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "১/৫",
+        "১/৪",
+        "১/২",
+        "৩/৫"
+      ],
+      "answerIndex": 2,
+      "answer": "১/২",
+      "explanation": "সম্ভাবনা = লাল বল ৫টি ÷ মোট ১০টি = ১/২।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "base_151",
+      "sourceFile": "app/src/main/assets/job-prep-suite.js",
+      "sourceType": "base",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পণ্যের ক্রয়মূল্য ৫০০ টাকা এবং বিক্রয়মূল্য ৬০০ টাকা হলে লাভের হার কত?",
+      "options": [
+        "১০%",
+        "১৫%",
+        "২০%",
+        "২৫%"
+      ],
+      "answerIndex": 2,
+      "answer": "২০%",
+      "explanation": "লাভ = ৬০০−৫০০ = ১০০ টাকা; লাভের হার = (১০০÷৫০০)×১০০ = ২০%।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_031",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। নিচের কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "সব গোলাপ ফুল",
+        "কোনো ফুল গোলাপ নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "সব গোলাপ ফুল",
+      "explanation": "প্রথম বক্তব্য থেকে ‘সব গোলাপ ফুল’ সরাসরি নিশ্চিত; অন্য সিদ্ধান্তগুলো নিশ্চিত নয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_032",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সভায় ৮ জন প্রত্যেকে অন্য প্রত্যেকের সঙ্গে একবার করে করমর্দন করল। মোট করমর্দন কত?",
+      "options": [
+        "২৪",
+        "২৮",
+        "৩২",
+        "৫৬"
+      ],
+      "answerIndex": 1,
+      "answer": "২৮",
+      "explanation": "করমর্দনের সংখ্যা ৮ জনের জোড়া = ৮×৭÷২ = ২৮।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_033",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A হলো B-এর বোন, B হলো C-এর বাবা। A-এর সঙ্গে C-এর সম্পর্ক কী?",
+      "options": [
+        "মা",
+        "ফুফু/পিসি",
+        "বোন",
+        "দাদি"
+      ],
+      "answerIndex": 1,
+      "answer": "ফুফু/পিসি",
+      "explanation": "B-এর বোন A; তাই A হলো B-এর সন্তানের ফুফু বা পিসি।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_034",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সংখ্যা ৪ দিয়ে ভাগ করলে ভাগশেষ ৩। সংখ্যাটির সঙ্গে ১ যোগ করলে কোন সংখ্যা দিয়ে নিঃশেষে বিভাজ্য হবে?",
+      "options": [
+        "২",
+        "৩",
+        "৪",
+        "৫"
+      ],
+      "answerIndex": 2,
+      "answer": "৪",
+      "explanation": "সংখ্যাটি ৪k+৩; ১ যোগ করলে ৪k+৪ হয়, যা ৪ দিয়ে বিভাজ্য।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_035",
+      "sourceFile": "app/src/main/assets/job-prep-expansion.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ ৬ জনে ১০ দিনে করে। একই হারে ১২ জনে কাজটি কত দিনে করবে?",
+      "options": [
+        "৩",
+        "৫",
+        "৬",
+        "৮"
+      ],
+      "answerIndex": 1,
+      "answer": "৫",
+      "explanation": "মোট কাজ ৬×১০=৬০ জন-দিন; ১২ জনে সময় ৬০÷১২=৫ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_071",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-02.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রহিম করিমের ভাই। করিম সুমনের বাবা। রহিমের সঙ্গে সুমনের সম্পর্ক কী?",
+      "options": [
+        "চাচা",
+        "মামা",
+        "ভাই",
+        "দাদা"
+      ],
+      "answerIndex": 0,
+      "answer": "চাচা",
+      "explanation": "রহিম করিমের ভাই এবং করিম সুমনের বাবা; তাই রহিম সুমনের চাচা।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_073",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-02.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি সব A হলো B এবং কোনো B হলো না C, তবে কোনটি সত্য?",
+      "options": [
+        "কিছু A হলো C",
+        "কোনো A হলো C নয়",
+        "সব C হলো A",
+        "কিছু B হলো C"
+      ],
+      "answerIndex": 1,
+      "answer": "কোনো A হলো C নয়",
+      "explanation": "A-এর সব সদস্য B-এর অন্তর্ভুক্ত, আর B ও C বিচ্ছিন্ন; তাই A ও C-ও বিচ্ছিন্ন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_074",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-02.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে CAT লেখা হয় DBU। একই নিয়মে DOG লেখা হবে—",
+      "options": [
+        "EPH",
+        "EOG",
+        "FPH",
+        "DPH"
+      ],
+      "answerIndex": 0,
+      "answer": "EPH",
+      "explanation": "প্রতিটি অক্ষর বর্ণমালায় এক ধাপ এগিয়েছে: D→E, O→P, G→H।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_075",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-02.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "উত্তরমুখী হয়ে দাঁড়িয়ে ডানে, পরে আবার ডানে ঘুরলে কোন দিকে মুখ থাকবে?",
+      "options": [
+        "উত্তর",
+        "দক্ষিণ",
+        "পূর্ব",
+        "পশ্চিম"
+      ],
+      "answerIndex": 1,
+      "answer": "দক্ষিণ",
+      "explanation": "উত্তর থেকে ডানে পূর্ব, আবার ডানে দক্ষিণ।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_111",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: সব চিকিৎসক শিক্ষিত। রফিক একজন চিকিৎসক। সিদ্ধান্ত কী?",
+      "options": [
+        "রফিক শিক্ষিত",
+        "রফিক শিক্ষক",
+        "সব শিক্ষিত ব্যক্তি চিকিৎসক",
+        "রফিক ছাত্র"
+      ],
+      "answerIndex": 0,
+      "answer": "রফিক শিক্ষিত",
+      "explanation": "সাধারণ বক্তব্যের শ্রেণিতে রফিক চিকিৎসক হওয়ায় তিনি শিক্ষিত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_112",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে BOOK লেখা হয় CPPL। একই নিয়মে TREE লেখা হবে—",
+      "options": [
+        "USFF",
+        "USDD",
+        "SQFF",
+        "UQFF"
+      ],
+      "answerIndex": 0,
+      "answer": "USFF",
+      "explanation": "প্রতিটি অক্ষর এক ধাপ এগিয়েছে: T→U, R→S, E→F, E→F।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_113",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সোমবারের ৪৫ দিন পর কী বার হবে?",
+      "options": [
+        "মঙ্গলবার",
+        "বুধবার",
+        "বৃহস্পতিবার",
+        "শুক্রবার"
+      ],
+      "answerIndex": 2,
+      "answer": "বৃহস্পতিবার",
+      "explanation": "৪৫÷৭ করলে ভাগশেষ ৩; সোমবারের ৩ দিন পর বৃহস্পতিবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_114",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A, C, F, J, O, পরের অক্ষর কোনটি?",
+      "options": [
+        "T",
+        "U",
+        "V",
+        "W"
+      ],
+      "answerIndex": 1,
+      "answer": "U",
+      "explanation": "অক্ষরগুলোর ব্যবধান +২, +৩, +৪, +৫; পরের ব্যবধান +৬, তাই O-এর পর U।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_115",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-03.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি ঘরে ৪টি কোণ। প্রতিটি কোণে একটি করে বিড়াল বসে আছে; প্রতিটি বিড়াল অন্য তিনটিকে দেখে। মোট বিড়াল কয়টি?",
+      "options": [
+        "৩",
+        "৪",
+        "৮",
+        "১২"
+      ],
+      "answerIndex": 1,
+      "answer": "৪",
+      "explanation": "চারটি কোণে চারটি বিড়াল; প্রত্যেকটি বাকি তিনটিকে দেখতে পারে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_151",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি গতকাল রবিবার হয়, তবে পরশু কী বার?",
+      "options": [
+        "মঙ্গলবার",
+        "বুধবার",
+        "বৃহস্পতিবার",
+        "শুক্রবার"
+      ],
+      "answerIndex": 1,
+      "answer": "বুধবার",
+      "explanation": "গতকাল রবিবার হলে আজ সোমবার; পরশু বুধবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_152",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি শ্রেণিতে ৩০ জন। ১৮ জন বাংলা এবং ২০ জন ইংরেজি পছন্দ করে; সবাই অন্তত একটি পছন্দ করে। উভয় বিষয় পছন্দ করে কতজন?",
+      "options": [
+        "৬",
+        "৮",
+        "১০",
+        "১২"
+      ],
+      "answerIndex": 1,
+      "answer": "৮",
+      "explanation": "অন্তর্ভুক্তি-বর্জন সূত্রে ১৮+২০−৩০=৮ জন উভয় বিষয় পছন্দ করে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_153",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বর্ণের ক্রমে ‘MANGO’ শব্দের অক্ষরগুলো সাজালে প্রথম অক্ষর কোনটি?",
+      "options": [
+        "A",
+        "G",
+        "M",
+        "N"
+      ],
+      "answerIndex": 0,
+      "answer": "A",
+      "explanation": "বর্ণানুক্রমে A, G, M, N, O; তাই প্রথম অক্ষর A।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_154",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রবি পূর্বদিকে ৫ মিটার, তারপর উত্তরে ৩ মিটার হাঁটল। শুরুর স্থান থেকে সে কোন দিকে?",
+      "options": [
+        "উত্তর-পূর্ব",
+        "উত্তর-পশ্চিম",
+        "দক্ষিণ-পূর্ব",
+        "দক্ষিণ-পশ্চিম"
+      ],
+      "answerIndex": 0,
+      "answer": "উত্তর-পূর্ব",
+      "explanation": "পূর্ব ও উত্তর—দুই দিকেই অগ্রসর হওয়ায় অবস্থান উত্তর-পূর্বে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_155",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-04.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "কোনটি অন্যগুলোর থেকে আলাদা: ১৬, ২৫, ৩৬, ৪৮, ৬৪?",
+      "options": [
+        "১৬",
+        "২৫",
+        "৪৮",
+        "৬৪"
+      ],
+      "answerIndex": 2,
+      "answer": "৪৮",
+      "explanation": "১৬, ২৫, ৩৬ ও ৬৪ পূর্ণবর্গ; ৪৮ পূর্ণবর্গ নয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_192",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-05.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ A একা ৬ দিনে এবং B একা ৩ দিনে করতে পারে। একসঙ্গে কাজটি কত দিনে করবে?",
+      "options": [
+        "১ দিন",
+        "২ দিন",
+        "৩ দিন",
+        "৪ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "২ দিন",
+      "explanation": "প্রতিদিন যৌথ কাজের হার ১/৬+১/৩=১/২; তাই সময় ২ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_193",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-05.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: ‘যদি বৃষ্টি হয়, মাঠ ভিজবে।’ মাঠ ভেজেনি। যুক্তিগতভাবে কী সিদ্ধান্ত আসে?",
+      "options": [
+        "বৃষ্টি হয়েছে",
+        "বৃষ্টি হয়নি",
+        "বৃষ্টি হলেও মাঠ শুকনো থাকতে পারে",
+        "কোনো সিদ্ধান্ত সম্ভব নয়"
+      ],
+      "answerIndex": 1,
+      "answer": "বৃষ্টি হয়নি",
+      "explanation": "শর্তাধীন যুক্তিতে মাঠ না ভেজা থেকে বৃষ্টি হয়নি সিদ্ধান্তটি আসে (modus tollens)।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_230",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-06.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি সংখ্যার দ্বিগুণের সঙ্গে ৫ যোগ করলে ২১ হয়। সংখ্যাটি কত?",
+      "options": [
+        "৬",
+        "৭",
+        "৮",
+        "৯"
+      ],
+      "answerIndex": 2,
+      "answer": "৮",
+      "explanation": "২x+৫=২১; সুতরাং ২x=১৬ এবং x=৮।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_231",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-06.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি ট্রেন ৬০ কিমি/ঘণ্টা বেগে ৩০ মিনিট চলে। কত দূরত্ব অতিক্রম করে?",
+      "options": [
+        "২০ কিমি",
+        "২৫ কিমি",
+        "৩০ কিমি",
+        "৬০ কিমি"
+      ],
+      "answerIndex": 2,
+      "answer": "৩০ কিমি",
+      "explanation": "৩০ মিনিট = ০.৫ ঘণ্টা; দূরত্ব = ৬০×০.৫ = ৩০ কিমি।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_232",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-06.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "পাঁচজনের সারিতে করিম বাম দিক থেকে তৃতীয়। ডান দিক থেকে তার অবস্থান কত?",
+      "options": [
+        "দ্বিতীয়",
+        "তৃতীয়",
+        "চতুর্থ",
+        "পঞ্চম"
+      ],
+      "answerIndex": 1,
+      "answer": "তৃতীয়",
+      "explanation": "ডান দিকের অবস্থান = ৫−৩+১ = ৩; অর্থাৎ তৃতীয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_233",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-06.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি সব A হলো B এবং কোনো B-ই C না হয়, তবে কোনটি অবশ্যই সত্য?",
+      "options": [
+        "কিছু A হলো C",
+        "কোনো A-ই C নয়",
+        "সব C হলো A",
+        "কিছু B হলো A নয়"
+      ],
+      "answerIndex": 1,
+      "answer": "কোনো A-ই C নয়",
+      "explanation": "A-এর প্রতিটি সদস্য B-এর অন্তর্ভুক্ত এবং কোনো B-ই C নয়; তাই কোনো A-ই C হতে পারে না।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_268",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব পাখির ডানা আছে। পেঙ্গুইন পাখি। সুতরাং কোন সিদ্ধান্তটি সঠিক?",
+      "options": [
+        "পেঙ্গুইন উড়তে পারে",
+        "পেঙ্গুইনের ডানা আছে",
+        "সব ডানাওয়ালা প্রাণী পাখি",
+        "পেঙ্গুইন স্তন্যপায়ী"
+      ],
+      "answerIndex": 1,
+      "answer": "পেঙ্গুইনের ডানা আছে",
+      "explanation": "পেঙ্গুইন পাখি এবং সব পাখির ডানা আছে—তাই পেঙ্গুইনের ডানা আছে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_269",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি দোকানে সব কলম নীল বাক্সে রাখা হয়। একটি বস্তু নীল বাক্সে নেই। নিশ্চিতভাবে কী বলা যায়?",
+      "options": [
+        "বস্তুটি কলম",
+        "বস্তুটি কলম নয়",
+        "বস্তুটি লাল",
+        "বস্তুটি ভাঙা"
+      ],
+      "answerIndex": 1,
+      "answer": "বস্তুটি কলম নয়",
+      "explanation": "সব কলম নীল বাক্সে থাকলে নীল বাক্সের বাইরে থাকা বস্তু কলম হতে পারে না।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_270",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ ৪ জন শ্রমিক ৬ দিনে করে। একই হারে ৮ জন শ্রমিক কাজটি কত দিনে করবে?",
+      "options": [
+        "২ দিন",
+        "৩ দিন",
+        "৪ দিন",
+        "১২ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৩ দিন",
+      "explanation": "মোট কাজ ৪×৬=২৪ শ্রমিক-দিন; ৮ জনে সময় ২৪÷৮=৩ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_272",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-07.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রবি পূর্বদিকে ৫ কিমি গেল, তারপর ডানে ঘুরে ৩ কিমি গেল। এখন সে শুরুর স্থান থেকে কোন দিকে?",
+      "options": [
+        "উত্তর-পূর্ব",
+        "দক্ষিণ-পূর্ব",
+        "উত্তর-পশ্চিম",
+        "দক্ষিণ-পশ্চিম"
+      ],
+      "answerIndex": 1,
+      "answer": "দক্ষিণ-পূর্ব",
+      "explanation": "পূর্বমুখী অবস্থায় ডানে ঘুরলে দক্ষিণে যায়; তাই অবস্থান দক্ষিণ-পূর্বে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    }
+  ]
+}
