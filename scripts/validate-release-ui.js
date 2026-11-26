@@ -23,7 +23,7 @@ const checks = [
   ['launcher icon resource', fs.existsSync('app/src/main/res/mipmap-anydpi/ic_launcher.xml')],
   ['manifest launcher icon mapping', manifest.includes('android:icon="@mipmap/ic_launcher"') && manifest.includes('android:roundIcon="@mipmap/ic_launcher"')],
   ['package id unchanged', gradle.includes('applicationId = "com.medhar.lorai"')],
-  ['release version defined', /versionCode\s*=\s*22/.test(gradle) && /versionName\s*=\s*"3\.1"/.test(gradle)],,
+  ['release version defined', /versionCode\s*=\s*23/.test(gradle) && /versionName\s*=\s*"3\.2"/.test(gradle)],
   ['hero metrics are opaque same-size live controls', html.includes('class="hero-stat-live hero-points-live"') && html.includes('class="hero-stat-live hero-level-live"') && html.includes('class="hero-stat-live hero-questions-live"') && html.includes('hero-stat-label') && html.includes('hero-stat-value')],
   ['hero spark animation uses moving spark elements without orbit rings', html.includes('brainSparkTravelA') && html.includes('brainSparkTravelE') && !html.includes('hero-brain-orbit') && !html.includes('hero-trophy-orbit')],
   ['trophy has its own-axis rotation animation', html.includes('hero-trophy-spin') && html.includes('trophyOwnAxisSpin') && html.includes('rotateY(360deg)')],
