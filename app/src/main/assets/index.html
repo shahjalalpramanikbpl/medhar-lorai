@@ -445,7 +445,18 @@ button.job-prep-hero .job-prep-arrow{color:#fff!important;text-shadow:0 1px 3px 
  .home-hero-image-card:before,.home-hero-image-card:after,.home-hero-banner-image{animation:none!important}
 }
 
-</style></head><body><section id="launchSplash" aria-label="মেধার লড়াই"><div class="splash-inner"><div class="splash-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M13 30 50 13 87 30 50 47Z" fill="#f6c85f" stroke="#fff0b5" stroke-width="3" stroke-linejoin="round"/><path d="M27 43v21c13 11 33 11 46 0V43L50 54Z" fill="#fff" stroke="#b8d8ff" stroke-width="3" stroke-linejoin="round"/><path d="M87 31v28" stroke="#ffd875" stroke-width="4" stroke-linecap="round"/><circle cx="87" cy="63" r="5" fill="#ffd875"/><path d="M50 55 27 44" stroke="#d69a31" stroke-width="2"/></svg></div><div class="splash-name">মেধার লড়াই</div><div class="splash-tagline">খেলুন-শিখুন-এগিয়ে যান</div><div class="splash-loader" aria-hidden="true"></div></div></section><script>(function(){var splash=document.getElementById('launchSplash');if(splash){setTimeout(function(){splash.classList.add('is-hidden');setTimeout(function(){splash.remove();},600);},2300);}})();</script><main class="wrap">
+
+/* SJP Technologies official brand integration */
+#launchSplash .splash-mark{width:min(88vw,390px);height:auto;margin:0 auto 16px;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;animation:none}
+#launchSplash .splash-mark img{display:block;width:100%;height:auto;filter:drop-shadow(0 12px 28px #0008)}
+#launchSplash .splash-name{font-size:clamp(28px,7vw,38px);margin-top:4px}
+#launchSplash .splash-tagline{margin-top:14px;font-size:clamp(14px,4vw,19px)}
+.home-bottom .sjp-powered{display:inline-flex;align-items:center;gap:6px;letter-spacing:0;color:#c7edff;font-weight:800;white-space:nowrap}
+.home-bottom .sjp-powered img{width:23px;height:23px;display:block;filter:drop-shadow(0 2px 5px #0008)}
+.home-bottom .sjp-powered b{font-size:10px}
+@media(max-width:520px){.home-bottom{justify-content:center}.home-bottom .sjp-powered{flex-basis:100%;justify-content:center;margin-top:3px}}
+
+</style></head><body><section id="launchSplash" aria-label="মেধার লড়াই"><div class="splash-inner"><div class="splash-mark"><img src="sjp-technologies-logo.svg" alt="SJP Technologies — Innovating Ideas, Empowering Minds"></div><div class="splash-name">মেধার লড়াই</div><div class="splash-tagline">খেলুন-শিখুন-এগিয়ে যান</div><div class="splash-loader" aria-hidden="true"></div></div></section><script>(function(){var splash=document.getElementById('launchSplash');if(splash){setTimeout(function(){splash.classList.add('is-hidden');setTimeout(function(){splash.remove();},600);},2300);}})();</script><main class="wrap">
 <section id="home" class="home-screen">
 <div class="home-hero-controls"><button class="secondary tiny" id="langBtn">English</button><button class="secondary tiny hidden" id="adminBtn" aria-hidden="true">অ্যাডমিন প্যানেল</button></div><div class="home-hero-card home-hero-image-card" id="homeHeroCard">
 <img class="home-hero-banner-image" src="battle-of-brains-hero.webp" alt="Battle of Brains — মেধার লড়াই">
@@ -465,7 +476,7 @@ button.job-prep-hero .job-prep-arrow{color:#fff!important;text-shadow:0 1px 3px 
 <button class="home-action menu-account" id="accountBtn"><span>☁️</span><b>অনলাইন অ্যাকাউন্ট</b></button><button class="home-action menu-profile" id="profileBtn"><span>👤</span><b>আমার প্রোফাইল</b></button>
 <button class="home-action menu-progress" id="progressBtn"><span>📈</span><b>আমার অগ্রগতি</b></button><button class="home-action menu-badge" id="badgeBtn"><span>🏅</span><b>ব্যাজ ও অর্জন</b></button>
 <button class="home-action menu-leader" id="leaderBtn"><span>🥇</span><b>লিডার বোর্ড</b></button><button class="home-action menu-rules" id="rulesBtn"><span>📖</span><b>খেলার নিয়ম</b></button>
-</div><div class="home-bottom"><span>💡 প্রতিটি সঠিক উত্তরই এক ধাপ এগিয়ে</span><span>OFFLINE EDITION</span></div></section>
+</div><div class="home-bottom"><span>💡 প্রতিটি সঠিক উত্তরই এক ধাপ এগিয়ে</span><span>OFFLINE EDITION</span><span class="sjp-powered"><img src="sjp-technologies-icon.svg" alt=""><b>Powered by SJP Technologies</b></span></div></section>
 <section class="card hidden" id="featurePanel"><div class="row"><h2 id="featureTitle">ফিচার</h2><button class="secondary tiny" id="featureBack">ফিরে যান</button></div><div id="featureBody"></div></section>
 <section class="card hidden" id="game"><div class="row game-topbar"><h2>Quiz Challenge</h2><button type="button" class="secondary tiny" id="quizBackHome">হোমে ফিরুন</button></div><div class="stats"><div class="stat"><b id="points">0</b><small id="pointsLabel">মোট পয়েন্ট</small></div><div class="stat"><b id="level">1</b><small id="levelLabel">লেভেল</small></div><div class="stat"><b id="streak">0</b><small id="streakLabel">ধারাবাহিক সঠিক</small></div></div><div class="progress"><div class="bar" id="bar"></div></div><div class="muted" id="category"></div><div class="question" id="question"></div><div class="answers" id="answers"></div><div class="feedback" id="feedback" aria-live="polite"></div><div class="row"><small id="counter"></small><div class="row"><button id="confirmAnswer" class="hidden">উত্তর নিশ্চিত করুন</button><button id="next" class="hidden">পরের প্রশ্ন</button></div></div></section>
 <section class="card hidden" id="result"><h2 id="resultHeading">রাউন্ড শেষ!</h2><p id="resultText"></p><div class="row"><button id="again">আবার খেলুন</button><button class="secondary" id="backHome">হোমে ফিরুন</button></div></section>
