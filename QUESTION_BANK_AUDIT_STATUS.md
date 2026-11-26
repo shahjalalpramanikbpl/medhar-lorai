@@ -771,3 +771,12 @@
 - ৩টি হুবহু duplicate copy আগেই বাদ; চূড়ান্ত inventory-তে ০ duplicate group।
 - ১০২৪ byte বোঝাতে ব্যবহৃত “কিলোবাইট” শব্দটি তিনটি প্রশ্নে সংশোধন করে **কিবিবাইট (KiB)** করা হয়েছে; SI **kB = ১০০০ bytes** পার্থক্য ব্যাখ্যায় যোগ করা হয়েছে।
 - এই মুহূর্তে content review সম্পন্ন; consolidated master এবং final runtime reconciliation বাকি। **NOT LOCKED**। বিস্তারিত `COMPUTER_ICT_BATCH_01_10_PROGRESS.md`।
+
+
+## Computer & ICT — Batch 01–10 FINAL LOCK (২৭ নভেম্বর ২০২৬)
+- **LOCKED_FINAL_189_UNIQUE_RECORDS** — ১৫০টি base + ৩৯টি expansion = ১৮৯টি যাচাইকৃত প্রশ্ন।
+- ৩টি হুবহু duplicate copy বাদ; final exact duplicate group ০।
+- চারটি অপশন/answer-index structural validation-এ malformed ০।
+- তথ্যগত ও ব্যাখ্যা পর্যালোচনা সম্পন্ন; ১০২৪ byte-কে KiB নামে নির্ভুল করা হয়েছে ৩টি প্রশ্নে।
+- Master: `COMPUTER_ICT_MASTER_BATCH_01_10.json` — commit `aa7e179edc0f134aef2b81bf4816250d702d63a2`।
+- Final validation re-fetch: master/runtime inventory মিলে গেছে; duplicate ০, malformed ০। বিস্তারিত `COMPUTER_ICT_BATCH_01_10_PROGRESS.md`।
