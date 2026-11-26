@@ -3690,6 +3690,17 @@
       "retainedIQCandidates": 10,
       "corrections": [],
       "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; FINAL_CLASSIFICATION_AND_RUNTIME_MIGRATION_PENDING"
+    },
+    {
+      "range": "51-56",
+      "candidateCount": 4,
+      "reviewedCount": 4,
+      "exactDuplicateMatchesAgainstConsolidated01_50": 0,
+      "exactDuplicateMatchesWithinCheckpoint": 0,
+      "quantitativeAptitudeCandidates": 3,
+      "retainedIQCandidates": 1,
+      "corrections": [],
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; FINAL_MASTER_RECONCILIATION_PENDING"
     }
   ],
   "laterBatchRecords": [
@@ -5600,6 +5611,78 @@
       "answer": "২ দিন",
       "explanation": "দৈনিক কাজের হার ১/৬ + ১/৩ = ১/২; তাই পুরো কাজ শেষ হবে ২ দিনে।",
       "classificationReason": "work-rate quantitative aptitude"
+    },
+    {
+      "id": "extra_1745",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-52.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ ৬ জন শ্রমিক ১২ দিনে করলে একই হারে ৮ জন শ্রমিক কাজটি কত দিনে করবে?",
+      "options": [
+        "৮ দিন",
+        "৯ দিন",
+        "১০ দিন",
+        "১৬ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "৯ দিন",
+      "explanation": "মোট কাজ ৬×১২=৭২ শ্রমিক-দিন; ৮ জনে সময় ৭২÷৮=৯ দিন।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_1746",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-52.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "মানসিক দক্ষতা ও IQ",
+      "question": "ধারাটির পরবর্তী পদ নির্ণয় করুন: ১, ৪, ১০, ২২, ৪৬, ...",
+      "options": [
+        "৮৮",
+        "৯০",
+        "৯২",
+        "৯৪"
+      ],
+      "answerIndex": 3,
+      "answer": "৯৪",
+      "explanation": "প্রতিটি পদ আগের পদের দ্বিগুণের সঙ্গে ২ যোগ: ৪৬×২+২=৯৪।",
+      "classificationReason": "number-series reasoning"
+    },
+    {
+      "id": "extra_1775",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-53.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পণ্যের দাম ২০% বাড়িয়ে পরে ২০% কমানো হলো। মূল দামের তুলনায় চূড়ান্ত দাম কত?",
+      "options": [
+        "সমান",
+        "৪% কম",
+        "৪% বেশি",
+        "৮% কম"
+      ],
+      "answerIndex": 1,
+      "answer": "৪% কম",
+      "explanation": "ধরা যাক মূল দাম ১০০; ২০% বাড়লে ১২০, এরপর ২০% কমলে ৯৬। অর্থাৎ ৪% কম।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_1776",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-53.js",
+      "sourceType": "expansion",
+      "originalCategory": "মানসিক দক্ষতা ও IQ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি শ্রেণিতে ১০ জন শিক্ষার্থীর গড় নম্বর ৬০। একজনের নম্বর ৭৮ হলে বাকিদের গড় কত?",
+      "options": [
+        "৫৬",
+        "৫৮",
+        "৬০",
+        "৬২"
+      ],
+      "answerIndex": 1,
+      "answer": "৫৮",
+      "explanation": "মোট নম্বর ১০×৬০=৬০০; বাকিদের গড় (৬০০−৭৮)÷৯=৫৮।",
+      "classificationReason": "direct quantitative aptitude"
     }
   ]
 }
