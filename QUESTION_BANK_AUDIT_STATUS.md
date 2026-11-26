@@ -821,3 +821,12 @@
 - আগের interim ১১৬ base/১৬০ total গণনা incomplete parser-এর কারণে হয়েছিল; double-quote Q() format-এর ৩৪টি record বাদ পড়েছিল।
 - উভয় quote format পুনরায় গুনে main runtime-এ **১৫০ base**, expansion batch ০১–১০-এ **৪৪**, মোট **১৯৪টি** source record নিশ্চিত।
 - আগের interim count বাতিল; কোনো runtime question move/edit হয়নি। Subject classification ও content audit চলমান; **IN_PROGRESS / NOT LOCKED**।
+
+
+## ২৭ নভেম্বর ২০২৬ — Mental Ability & IQ: base review, duplicate cleanup ও subject classification
+- ১৫০টি base IQ প্রশ্নের item-by-item answer/explanation review সম্পন্ন; `base_024`-এর ভুল answer key ১৮০০ থেকে ২১৬০-এ সংশোধন ও runtime re-fetch-এ verify।
+- Expansion-এর ২টি exact duplicate runtime থেকে বাদ: `extra_026` (duplicate `base_051`) এবং `extra_345` (duplicate `base_055`)।
+- বর্তমান inventory **১৯২ unique** (১৫০ base + ৪২ expansion); malformed ০; exact duplicate group ০।
+- Subject-fit classification: ৯৮টি Quantitative Aptitude/Math transfer candidate (৮৩ base + ১৫ expansion), ৯৪টি IQ/Reasoning retain candidate। ৯৮টির locked Math master-এ category বাদ দিয়ে exact duplicate collision ০।
+- Math master source SHA ও বর্তমান Math runtime SHA-তে অমিল; runtime-ও আলাদা generated ৩০-level system। তাই transfer integration ও source reconciliation বাকি; IQ **IN_PROGRESS / NOT LOCKED**।
+- বিস্তারিত: `MENTAL_ABILITY_IQ_BASE_CONTENT_REVIEW_001_150.md` এবং `MENTAL_ABILITY_IQ_BATCH_01_10_PROGRESS.md`।
