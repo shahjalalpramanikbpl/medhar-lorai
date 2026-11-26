@@ -33,3 +33,11 @@
 
 ## Duplicate policy
 ব্যবহারকারীর নীতি: হুবহু একই প্রশ্নের অতিরিক্ত কপি বাদ; ভিন্ন উদাহরণ বা ভিন্ন option set থাকলে প্রশ্ন রাখা হবে। Similar topic মাত্রেই duplicate নয়।
+
+
+## ব্যবহারকারীর নির্দেশে যুক্ত — চূড়ান্ত বিষয়ভিত্তিক শ্রেণিবিন্যাস (২৭ নভেম্বর ২০২৬)
+- LOCK দেওয়ার আগে অন্য বাকি content/answer/explanation/near-duplicate audit-এর সঙ্গেই সব ১৯৪টি প্রশ্নের subject-fit classification সম্পন্ন করতে হবে।
+- শতকরা, গড়, লাভ-ক্ষতি, ছাড়, বেগ-দূরত্ব, ক্ষেত্রফল ইত্যাদি প্রশ্ন চাকরির পরীক্ষায় প্রয়োজনীয় হলেও কেবল এই কারণে Mental Ability & IQ-তে রাখা যাবে না।
+- প্রতিটি প্রশ্নের মূল দক্ষতা/প্রশ্নের ধরন দেখে শ্রেণিবিন্যাস হবে: যুক্তি, pattern, series, coding, analytical reasoning, puzzle, clock/calendar, spatial বা logical problem-solving হলে Mental Ability & IQ; সরাসরি arithmetic/quantitative aptitude হলে গণিত/পরিমাণগত দক্ষতার উপযুক্ত শ্রেণিতে চিহ্নিত হবে।
+- কোনো প্রশ্নকে স্বয়ংক্রিয়ভাবে বাদ দেওয়া হবে না। ভিন্ন subject-এ স্থানান্তরের প্রস্তাব থাকলে সংশ্লিষ্ট locked subject master-এর সঙ্গে exact-signature মিলিয়ে এবং নতুন সংযোজন হিসেবে আলাদা validation করে তবেই runtime পরিবর্তন করা যাবে।
+- Classification ফল, স্থানান্তর/রাখার সংখ্যা এবং প্রয়োজনীয় runtime পরিবর্তন master ও final report-এ নথিভুক্ত হবে। এই কাজ শেষ না হওয়া পর্যন্ত Mental Ability & IQ **IN_PROGRESS / NOT LOCKED** থাকবে।
