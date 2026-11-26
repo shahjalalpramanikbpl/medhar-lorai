@@ -316,23 +316,7 @@ const additions=[
     "e": "Elizabeth Bennet is the central heroine of Jane Austen’s “Pride and Prejudice”.",
     "source": "English Literature — Novel and Character",
     "d": "সহজ"
-  },
-  {
-    "id": "extra_1694",
-    "c": "English Literature",
-    "q": "Who wrote “The Waste Land”?",
-    "o": [
-      "W. B. Yeats",
-      "T. S. Eliot",
-      "Ezra Pound",
-      "W. H. Auden"
-    ],
-    "a": 1,
-    "e": "T. S. Eliot published the modernist poem “The Waste Land” in 1922.",
-    "source": "English Literature — Modern Poetry",
-    "d": "সহজ"
-  },
-  {
+  },{
     "id": "extra_1695",
     "c": "English Literature",
     "q": "“Doctor Faustus” is a play traditionally attributed to which dramatist?",
