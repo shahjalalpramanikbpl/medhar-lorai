@@ -116,8 +116,9 @@ class MainActivity : Activity() {
         }
     }
 
-    private fun bannerUnitId(): String =
-        if (USE_TEST_AD_UNITS) TEST_BANNER_ID else LIVE_BANNER_HOME
+    private fun bannerUnitId(screen: String): String =
+        if (USE_TEST_AD_UNITS) TEST_BANNER_ID
+        else if (screen == "result") LIVE_BANNER_RESULT else LIVE_BANNER_HOME
 
     private fun showBanner(screen: String) {
         runOnUiThread {
@@ -125,7 +126,7 @@ class MainActivity : Activity() {
             if (screen != "home" && screen != "result") return@runOnUiThread
 
             val adView = AdView(this).apply {
-                adUnitId = bannerUnitId()
+                adUnitId = bannerUnitId(screen)
                 setAdSize(AdSize.BANNER)
                 adListener = object : AdListener() {
                     override fun onAdLoaded() {
