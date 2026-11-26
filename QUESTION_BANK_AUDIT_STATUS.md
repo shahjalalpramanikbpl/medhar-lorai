@@ -807,3 +807,11 @@
 - কোনো প্রশ্ন কেবল বিষয় আলাদা বলে বাদ নয়; ভিন্ন subject-এ স্থানান্তরের আগে সংশ্লিষ্ট locked master-এর সঙ্গে duplicate check এবং নতুন সংযোজনের validation আবশ্যক।
 - শ্রেণিবিন্যাস, প্রয়োজনীয় স্থানান্তর ও final reconciliation শেষ না হওয়া পর্যন্ত Mental Ability & IQ **IN_PROGRESS / NOT LOCKED**।
 - বিস্তারিত নির্দেশনা: `MENTAL_ABILITY_IQ_BATCH_01_10_PROGRESS.md`।
+
+
+## ২৭ নভেম্বর ২০২৬ — Mental Ability & IQ classification শুরু; source inventory reconciliation pending
+- LOCK-এর আগে subject-fit classification audit-এর অংশ হিসেবে শুরু হয়েছে।
+- পুনরায় source scan-এ main suite-এ exact IQ category-র ১১৬টি Q() record এবং expansion ০১–১০-এ ৪৪টি JSON record পাওয়া গেছে। পূর্বের ১৫০ base count-এর সঙ্গে ৩৪টির অমিল; যাচাই না হওয়া পর্যন্ত ১৫০ confirmed নয়।
+- সরাসরি শতকরা/ছাড়/লাভ-ক্ষতি, গড়, গতি-দূরত্ব, কাজ-সময়, সম্ভাব্যতা, LCM/HCF এবং ক্ষেত্রফল/পরিসীমার formula-based প্রশ্নগুলো Quantitative Aptitude/Math-এর জন্য প্রাথমিকভাবে flag করা হয়েছে। কোনো runtime category এখনো বদলানো হয়নি।
+- source count discrepancy, item-wise audit, boundary-case classification, Math master duplicate check ও final reconciliation বাকি। **IN_PROGRESS / NOT LOCKED**।
+- বিস্তারিত: `MENTAL_ABILITY_IQ_BATCH_01_10_PROGRESS.md`।
