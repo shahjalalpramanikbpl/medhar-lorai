@@ -660,3 +660,11 @@
 - ৫৪–৫৬ ব্যাচে English Literature প্রশ্ন ছিল না।
 - এই ৯টি record-এর content review সম্পন্ন; তবে পূর্ণ ২৯০ প্রশ্নের English Literature master এখনো **PROVISIONAL / NOT LOCKED**। বাকি records-এর item-by-item verification চলবে।
 - বিস্তারিত: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_51_56.md`; master metadata update করা হয়েছে।
+
+
+## English Literature — source-based content review, batches 01–10 (2026-11-27)
+- Expansion batches 01–10-এর retained প্রশ্ন **৩০টি**—প্রশ্ন, সঠিক উত্তর ও ব্যাখ্যা প্রামাণ্য সাহিত্য/লাইব্রেরি/বিশ্ববিদ্যালয়/প্রকাশনা সূত্রে যাচাই করা হয়েছে।
+- নিশ্চিত ভুল: **০**; ভুল answer key: **০**; explanation correction: **০**।
+- এই ৩০টি expansion record-এর content review সম্পন্ন; কোনো প্রশ্ন/উত্তর পরিবর্তন প্রয়োজন হয়নি।
+- **সীমা:** মূল base bank-এর ১৩১টি প্রশ্ন এই checkpoint-এ অন্তর্ভুক্ত নয়। তাই পুরো ২৯০ প্রশ্নের মাস্টার এখনো **PROVISIONAL / NOT LOCKED**।
+- বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_CONTENT_REVIEW_BATCH_01_10.md`; master metadata আপডেট করা হয়েছে।
