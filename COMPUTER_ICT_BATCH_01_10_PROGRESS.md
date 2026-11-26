@@ -1,7 +1,7 @@
 # Computer & ICT — Batch 01–10 Audit Checkpoint
 
 তারিখ: ২৭ নভেম্বর ২০২৬  
-অবস্থা: **CONTENT REVIEWED — FINAL LOCK VALIDATION PENDING**
+অবস্থা: **LOCKED_FINAL_189_UNIQUE_RECORDS**
 
 ## Inventory and duplicate reconciliation
 - Base runtime bank: **১৫০** Computer & ICT questions.
