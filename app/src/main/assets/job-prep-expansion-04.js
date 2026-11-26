@@ -485,22 +485,6 @@ const additions = [
     "d": "মাঝারি"
   },
   {
-    "id": "extra_156",
-    "c": "English Literature",
-    "q": "Who wrote “Wuthering Heights”?",
-    "o": [
-      "Emily Brontë",
-      "Charlotte Brontë",
-      "Anne Brontë",
-      "George Eliot"
-    ],
-    "a": 0,
-    "e": "Emily Brontë wrote the novel Wuthering Heights, published in 1847.",
-    "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
     "id": "extra_157",
     "c": "English Literature",
     "q": "“The Rime of the Ancient Mariner” was written by—",
@@ -512,38 +496,6 @@ const additions = [
     ],
     "a": 1,
     "e": "Samuel Taylor Coleridge wrote the poem The Rime of the Ancient Mariner.",
-    "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
-    "id": "extra_158",
-    "c": "English Literature",
-    "q": "Who wrote “A Tale of Two Cities”?",
-    "o": [
-      "Charles Dickens",
-      "Thomas Hardy",
-      "George Eliot",
-      "William Thackeray"
-    ],
-    "a": 0,
-    "e": "Charles Dickens published A Tale of Two Cities in 1859.",
-    "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
-    "id": "extra_159",
-    "c": "English Literature",
-    "q": "“Ulysses” is a novel by—",
-    "o": [
-      "James Joyce",
-      "D. H. Lawrence",
-      "Virginia Woolf",
-      "Joseph Conrad"
-    ],
-    "a": 0,
-    "e": "James Joyce wrote the modernist novel Ulysses, published in book form in 1922.",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
     "sourceUrl": "",
     "d": "মাঝারি"
