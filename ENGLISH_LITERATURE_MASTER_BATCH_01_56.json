@@ -5205,5 +5205,35 @@
       "British Library / institutional literary catalogues: Austen, Brontë, Dickens, Swift, Chaucer and related works",
       "University/library/publisher records for Beckett, Hemingway, Harper Lee, Orwell, Poe, Conan Doyle, Twain, Dante and Wilde"
     ]
+  },
+  "content_review_batches_21_30": {
+    "status": "CONTENT_CHECKED",
+    "checked_records": 23,
+    "confirmed_incorrect": 0,
+    "answer_key_corrections": 0,
+    "explanation_corrections": 0,
+    "scope": "Retained English Literature expansion records from batches 21–30 only; excludes the original base bank and other expansion groups.",
+    "notes": [
+      "All 23 retained records were checked for literary fact accuracy, correct answer selection, explanation accuracy, and answer-index alignment.",
+      "No confirmed factual errors, wrong answer keys, or explanation errors were found.",
+      "The batch 29 and batch 30 Things Fall Apart questions both correctly identify Chinua Achebe; both were retained because the question wording/options differ.",
+      "The batch 23, 24, 25, 26, 27, 28, and 30 entries were checked against institutional literary references, publisher/library catalogues, and primary-text/poetry references."
+    ],
+    "references": [
+      "Jane Austen's House: Pride and Prejudice first edition (1813)",
+      "Poetry Foundation and Loughborough University: Paradise Lost by John Milton; 1667 publication and blank verse",
+      "British Library Archives and Manuscripts: Geoffrey Chaucer, The Canterbury Tales manuscripts",
+      "Poetry Foundation / Academy of American Poets: The Waste Land by T. S. Eliot (1922)",
+      "Folger Shakespeare Library: Hamlet and Rosencrantz and Guildenstern",
+      "British Library Archives and Manuscripts: Jane Eyre by Charlotte Brontë (1847)",
+      "Stanford Discovering Dickens: A Tale of Two Cities, London and Paris during the French Revolution",
+      "Ernest Hemingway official site / Pulitzer Prize: The Old Man and the Sea",
+      "Folger Early Modern English Drama: Doctor Faustus by Christopher Marlowe",
+      "Penguin Random House / Oxford University Press: Middlemarch by George Eliot",
+      "African Union Library: Things Fall Apart by Chinua Achebe (1958)",
+      "Poetry Foundation / Keats Foundation: Ode to a Nightingale by John Keats",
+      "The National Archives: Shakespeare and the Bard epithet",
+      "Poetry Foundation: Alexander Pope and the Augustan Age"
+    ]
   }
 }
