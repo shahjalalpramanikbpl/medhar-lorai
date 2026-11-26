@@ -4,8 +4,8 @@
   "status": "PROVISIONAL_MASTER_NOT_LOCKED_CONTENT_SOURCE_REVIEW_PENDING",
   "counts": {
     "batch_01_20_unique": 204,
-    "batch_21_30_english_before_dedup": 23,
-    "batch_21_30_exact_duplicates_removed": 0,
+    "batch_21_30_english_before_dedup": 29,
+    "batch_21_30_exact_duplicates_removed": 6,
     "batch_21_30_unique": 23,
     "consolidated_unique": 227,
     "exact_duplicates_after_merge": 0,
