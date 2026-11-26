@@ -33,7 +33,7 @@ const additions=[
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_661",
     "c": "বাংলা ভাষা ও সাহিত্য",
     "q": "‘আবার আসিব ফিরে’ কবিতাটি কার রচনা?",
@@ -49,7 +49,7 @@ const additions=[
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_663",
     "c": "বাংলা ভাষা ও সাহিত্য",
     "q": "‘ধূসর পাণ্ডুলিপি’ কাব্যগ্রন্থের কবি কে?",
@@ -353,7 +353,7 @@ const additions=[
     "sourceUrl": "",
     "d": ""
   },
-      {
+  {
     "id": "extra_684",
     "c": "যুক্তি ও বিশ্লেষণ",
     "q": "যদি আজ বুধবার হয়, তবে ১০০ দিন পরে কী বার হবে?",
@@ -369,7 +369,7 @@ const additions=[
     "sourceUrl": "",
     "d": ""
   },
-    {
+  {
     "id": "extra_686",
     "c": "যুক্তি ও বিশ্লেষণ",
     "q": "সব চিকিৎসক শিক্ষিত। করিম একজন চিকিৎসক। কোন সিদ্ধান্তটি যৌক্তিকভাবে সঠিক?",
@@ -398,38 +398,6 @@ const additions=[
     "a": 2,
     "e": "ঘনকের ৬টি তল, ৮টি শীর্ষবিন্দু এবং ১২টি ধার থাকে।",
     "source": "স্থানিক যুক্তি",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
-    "id": "extra_688",
-    "c": "English Literature",
-    "q": "Who wrote the novel “Jane Eyre”?",
-    "o": [
-      "Emily Brontë",
-      "Charlotte Brontë",
-      "Anne Brontë",
-      "George Eliot"
-    ],
-    "a": 1,
-    "e": "Charlotte Brontë published Jane Eyre in 1847.",
-    "source": "Novel",
-    "sourceUrl": "",
-    "d": ""
-  },
-  {
-    "id": "extra_689",
-    "c": "English Literature",
-    "q": "Who wrote “Gulliver’s Travels”?",
-    "o": [
-      "Daniel Defoe",
-      "Jonathan Swift",
-      "Henry Fielding",
-      "Samuel Richardson"
-    ],
-    "a": 1,
-    "e": "Jonathan Swift’s satirical prose work Gulliver’s Travels was published in 1726.",
-    "source": "Satire",
     "sourceUrl": "",
     "d": ""
   },
