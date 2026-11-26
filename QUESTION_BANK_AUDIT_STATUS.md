@@ -563,3 +563,12 @@
 - পরিবর্তিত ফাইল: `app/src/main/assets/index.html`; commit: `2a7be827b8493c07452ef14aec624bac159384ba`।
 - **LOCK scope:** বর্তমান অ্যাপের হিরো কার্ডে অ্যানিমেশনের গতি ও আচরণ LOCK। ব্যবহারকারীর আপলোড করা পূর্ণ ব্যানার-ইমেজটি অ্যাপে প্রতিস্থাপন/এম্বেড করা হয়নি; তাই সেই নির্দিষ্ট আর্টওয়ার্ক-প্রতিস্থাপনকে সম্পন্ন বা LOCKED বলা হচ্ছে না।
 - CI ও বাস্তব ডিভাইস ভিজ্যুয়াল টেস্ট এই পরিবর্তনের জন্য এখনো চালানো হয়নি।
+
+
+## English Literature — সম্প্রসারণ ব্যাচ ১–১০ (২৭ নভেম্বর ২০২৬)
+- GitHub-এর expansion batch ১–১০ থেকে English Literature-এর **৩৬টি প্রশ্ন** শনাক্ত করে প্রশ্ন, অপশন, keyed answer ও explanation পর্যালোচনা সম্পন্ন।
+- ফল: ৩৬/৩৬ সঠিক; malformed/অবৈধ answer index ০; নিশ্চিত ভুল ০।
+- canonical full-signature exact duplicate ০; একই সাহিত্যকর্ম/লেখক নিয়ে ৭টি near-repeat pair আছে, কিন্তু প্রশ্নের wording/option structure আলাদা—নির্ধারিত নীতি অনুযায়ী রাখা হয়েছে।
+- কোনো প্রশ্ন সংশোধন বা duplicate অপসারণ করা হয়নি।
+- বিস্তারিত রিপোর্ট: `ENGLISH_LITERATURE_AUDIT_BATCH_01_10.md` (commit `b1f988598ae732668dcce755ad12971391d297fd`)।
+- **অবস্থা: batch ১–১০ content review complete; consolidated ১–১০ master এখনো তৈরি/LOCK হয়নি।** পরবর্তী ১১–২০ ব্যাচের আগে এই রিপোর্ট ও source snapshot পুনরায় যাচাই করতে হবে।
