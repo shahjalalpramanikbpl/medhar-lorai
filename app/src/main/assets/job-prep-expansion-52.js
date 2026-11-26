@@ -321,23 +321,7 @@ window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
     "e": "জাতিসংঘের ২০২৫ সালের আন্তর্জাতিক নারী দিবসের থিম ছিল ‘For ALL women and girls: Rights. Equality. Empowerment.’",
     "source": "সমসাময়িক বিশ্ব — আন্তর্জাতিক নারী দিবস ২০২৫",
     "d": "মাঝারি"
-  },
-  {
-    "id": "extra_1752",
-    "c": "English Literature",
-    "q": "Who wrote the novel ‘Middlemarch’?",
-    "o": [
-      "Jane Austen",
-      "George Eliot",
-      "Emily Brontë",
-      "Virginia Woolf"
-    ],
-    "a": 1,
-    "e": "Middlemarch: A Study of Provincial Life was written by George Eliot, the pen name of Mary Ann Evans.",
-    "source": "English Literature — Victorian Novel",
-    "d": "সহজ"
-  },
-  {
+  },{
     "id": "extra_1753",
     "c": "English Literature",
     "q": "In Shakespeare’s ‘Macbeth’, who is the king of Scotland at the beginning of the play?",
