@@ -63,6 +63,12 @@
     {
       "id": "extra_353",
       "duplicateOf": "IQ master extra_816"
+    },
+    {
+      "id": "extra_819",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-22.js",
+      "duplicateOf": "IQ master extra_712",
+      "reason": "Same 3:30 clock-angle question, identical option set and correct answer."
     }
   ],
   "corrections": [
@@ -4395,6 +4401,150 @@
       "answer": "উত্তর-পূর্ব",
       "explanation": "উত্তরে গিয়ে ডানে গেলে পূর্বে; অবস্থান উত্তর-পূর্বে।",
       "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_1001",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-28.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। কোনটি নিশ্চিত?",
+      "options": [
+        "সব চিকিৎসক লেখক",
+        "কিছু চিকিৎসক লেখক",
+        "সব লেখক চিকিৎসক",
+        "সব চিকিৎসক শিক্ষিত"
+      ],
+      "answerIndex": 3,
+      "answer": "সব চিকিৎসক শিক্ষিত",
+      "explanation": "প্রথম বক্তব্য অনুযায়ী সব চিকিৎসক শিক্ষিত—এটাই নিশ্চিত সিদ্ধান্ত।",
+      "classificationReason": "logical / analytical / series / coding / family / spatial reasoning"
+    },
+    {
+      "id": "extra_1003",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-28.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A, B-এর বোন। B, C-এর বাবা। A-এর সঙ্গে C-এর সম্পর্ক কী?",
+      "options": [
+        "মা",
+        "ফুফু/পিসি",
+        "বোন",
+        "দাদি"
+      ],
+      "answerIndex": 1,
+      "answer": "ফুফু/পিসি",
+      "explanation": "B-এর বোন A; তাই C-এর পিতৃ-পক্ষের ফুফু/পিসি।",
+      "classificationReason": "logical / analytical / series / coding / family / spatial reasoning"
+    },
+    {
+      "id": "extra_1004",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-28.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি কাজ ৬ জন শ্রমিক ১০ দিনে করে। একই হারে ১২ জন শ্রমিক কাজটি কত দিনে করবে?",
+      "options": [
+        "৩ দিন",
+        "৪ দিন",
+        "৫ দিন",
+        "৬ দিন"
+      ],
+      "answerIndex": 2,
+      "answer": "৫ দিন",
+      "explanation": "মোট কাজ ৬×১০=৬০ শ্রমিক-দিন; ১২ জনে সময় ৬০÷১২=৫ দিন।",
+      "classificationReason": "work-rate quantitative aptitude"
+    },
+    {
+      "id": "extra_1048",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-29.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: সব কলম লেখার উপকরণ। কিছু লেখার উপকরণ নীল। কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "সব কলম নীল",
+        "কিছু কলম নীল",
+        "সব কলম লেখার উপকরণ",
+        "কোনো লেখার উপকরণ কলম নয়"
+      ],
+      "answerIndex": 2,
+      "answer": "সব কলম লেখার উপকরণ",
+      "explanation": "প্রদত্ত প্রথম বক্তব্য অনুযায়ী সব কলম লেখার উপকরণ।",
+      "classificationReason": "logical / analytical / series / coding / family / spatial reasoning"
+    },
+    {
+      "id": "extra_1050",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-29.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "A হলো B-এর ভাই; C হলো A-এর মা; D হলো C-এর বাবা। D, B-এর কে হন?",
+      "options": [
+        "দাদা",
+        "নানা",
+        "মামা",
+        "চাচা"
+      ],
+      "answerIndex": 1,
+      "answer": "নানা",
+      "explanation": "C হলো B-এর মা এবং D হলো C-এর বাবা; তাই D, B-এর নানা।",
+      "classificationReason": "logical / analytical / series / coding / family / spatial reasoning"
+    },
+    {
+      "id": "extra_1051",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-29.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে TABLE লেখা হয় UBCMF। একই নিয়মে CHAIR কী হবে?",
+      "options": [
+        "DIBJS",
+        "DIBJR",
+        "DHBJS",
+        "DIBIS"
+      ],
+      "answerIndex": 0,
+      "answer": "DIBJS",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর: C→D, H→I, A→B, I→J, R→S।",
+      "classificationReason": "logical / analytical / series / coding / family / spatial reasoning"
+    },
+    {
+      "id": "extra_1088",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-30.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: সব কবি সৃজনশীল। কিছু শিক্ষক কবি। সিদ্ধান্ত কোনটি অবশ্যই সত্য?",
+      "options": [
+        "সব শিক্ষক সৃজনশীল",
+        "কিছু শিক্ষক সৃজনশীল",
+        "কোনো শিক্ষক সৃজনশীল নন",
+        "সব সৃজনশীল ব্যক্তি কবি"
+      ],
+      "answerIndex": 1,
+      "answer": "কিছু শিক্ষক সৃজনশীল",
+      "explanation": "যে কিছু শিক্ষক কবি, তারা সবাই সৃজনশীল; তাই কিছু শিক্ষক সৃজনশীল—এটি অবশ্যই সত্য।",
+      "classificationReason": "logical / analytical / series / coding / family / spatial reasoning"
+    },
+    {
+      "id": "extra_1090",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-30.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "ঘড়িতে ৩টা ৩০ মিনিটে ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী ক্ষুদ্রতর কোণ কত?",
+      "options": [
+        "৬০°",
+        "৭৫°",
+        "৯০°",
+        "১০৫°"
+      ],
+      "answerIndex": 1,
+      "answer": "৭৫°",
+      "explanation": "মিনিটের কাঁটা ১৮০° এবং ঘণ্টার কাঁটা ১০৫° অবস্থানে; পার্থক্য ৭৫°।",
+      "classificationReason": "logical / analytical / series / coding / family / spatial reasoning"
     }
   ],
   "laterBatchAudits": [
@@ -4421,6 +4571,24 @@
           "reason": "গতকাল বুধবার হলে আজ বৃহস্পতিবার; আগামী পরশু শনিবার।"
         }
       ],
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING"
+    },
+    {
+      "range": "21-30",
+      "candidateCount": 23,
+      "reviewedCount": 23,
+      "exactDuplicateMatchesAgainstConsolidated01_20": 0,
+      "exactDuplicateMatchesAgainstLockedIQAndMath": 1,
+      "exactDuplicateMatchesWithinCheckpoint": 0,
+      "duplicateRemovals": [
+        {
+          "id": "extra_819",
+          "duplicateOf": "IQ master extra_712"
+        }
+      ],
+      "quantitativeAptitudeCandidates": 3,
+      "retainedReasoningCandidates": 19,
+      "corrections": [],
       "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING"
     }
   ]
