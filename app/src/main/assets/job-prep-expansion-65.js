@@ -27,7 +27,7 @@ window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
       "V",
       "W"
     ],
-    "a": 2,
+    "a": 1,
     "e": "ব্যবধান +২,+৩,+৪,+৫; পরেরটি +৬। O-এর পর ছয় ধাপ U? O(15)+6=U(21).",
     "source": "যুক্তি ও বিশ্লেষণ — বর্ণধারা",
     "sourceUrl": "",
@@ -60,7 +60,7 @@ window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
       "পশ্চিম"
     ],
     "a": 3,
-    "e": "উত্তর→পূর্ব→উত্তর→পশ্চিম।",
+    "e": "পূর্ব থেকে ডানে দক্ষিণ; আবার ডানে পশ্চিম।",
     "source": "যুক্তি ও বিশ্লেষণ — দিক নির্ণয়",
     "sourceUrl": "",
     "d": "মাঝারি"
