@@ -259,22 +259,6 @@ const additions=[
     "d": "মাঝারি"
   },
   {
-    "id": "extra_964",
-    "c": "English Literature",
-    "q": "Who wrote “The Old Man and the Sea”?",
-    "o": [
-      "William Faulkner",
-      "Ernest Hemingway",
-      "John Steinbeck",
-      "F. Scott Fitzgerald"
-    ],
-    "a": 1,
-    "e": "Ernest Hemingway wrote the novella The Old Man and the Sea.",
-    "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
     "id": "extra_965",
     "c": "English Literature",
     "q": "“Paradise Lost” is an epic poem by—",
@@ -286,22 +270,6 @@ const additions=[
     ],
     "a": 0,
     "e": "John Milton published Paradise Lost in the seventeenth century.",
-    "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  },
-  {
-    "id": "extra_966",
-    "c": "English Literature",
-    "q": "Who is the author of “Gulliver’s Travels”?",
-    "o": [
-      "Daniel Defoe",
-      "Jonathan Swift",
-      "Henry Fielding",
-      "Samuel Richardson"
-    ],
-    "a": 1,
-    "e": "Jonathan Swift wrote Gulliver’s Travels.",
     "source": "স্বীকৃত পাঠ্যপুস্তক ও প্রামাণ্য সাধারণ জ্ঞান",
     "sourceUrl": "",
     "d": "মাঝারি"
