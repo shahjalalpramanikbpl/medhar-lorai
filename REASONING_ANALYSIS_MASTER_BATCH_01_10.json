@@ -1,14 +1,15 @@
 {
   "schema": "medhar-lorai.reasoning-analysis-audit.v1",
   "createdAt": "2026-11-27",
-  "status": "BATCH_01_10_BASE_AND_EXPANSION_PARTIAL_MASTER_PENDING_BATCH_08_10_AND_FINAL_AUDIT",
+  "status": "BATCH_01_10_REVIEWED_PENDING_LATER_EXPANSION_BATCHES",
   "inventory": {
     "baseUniqueAfterDuplicateRemoval": 142,
-    "expansion01_07Unique": 29,
-    "uniqueRecords": 171,
-    "quantitativeCandidates": 25,
-    "retainedReasoning": 146,
-    "exactDuplicateCopiesRemoved": 12
+    "expansion01_10CandidatesReviewed": 44,
+    "expansion01_10UniqueAfterDuplicateRemoval": 40,
+    "uniqueRecords": 182,
+    "quantitativeCandidates": 30,
+    "retainedReasoning": 152,
+    "exactDuplicateCopiesRemoved": 13
   },
   "duplicateRemovals": [
     {
@@ -3168,6 +3169,204 @@
       "answer": "দক্ষিণ-পূর্ব",
       "explanation": "পূর্বমুখী অবস্থায় ডানে ঘুরলে দক্ষিণে যায়; তাই অবস্থান দক্ষিণ-পূর্বে।",
       "classificationReason": "logical / analytical / series / coding / ranking / clock-calendar / spatial reasoning"
+    },
+    {
+      "id": "extra_307",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-8.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "কোনো কোনো বই উপন্যাস। সব উপন্যাস সাহিত্যকর্ম। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব বই সাহিত্যকর্ম",
+        "কোনো বই সাহিত্যকর্ম নয়",
+        "কিছু বই সাহিত্যকর্ম",
+        "সব সাহিত্যকর্ম বই"
+      ],
+      "answerIndex": 2,
+      "answer": "কিছু বই সাহিত্যকর্ম",
+      "explanation": "যে কিছু বই উপন্যাস এবং সব উপন্যাস সাহিত্যকর্ম, তাই কিছু বই সাহিত্যকর্ম।",
+      "classificationReason": "logical / analytical / series / direction / relational reasoning"
+    },
+    {
+      "id": "extra_308",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-8.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি গাড়ি ঘণ্টায় ৭২ কিমি বেগে চলে। ২৫ সেকেন্ডে কত দূরত্ব অতিক্রম করবে?",
+      "options": [
+        "৪০০ মিটার",
+        "৪৫০ মিটার",
+        "৫০০ মিটার",
+        "৫৫০ মিটার"
+      ],
+      "answerIndex": 2,
+      "answer": "৫০০ মিটার",
+      "explanation": "৭২ কিমি/ঘণ্টা = ২০ মিটার/সেকেন্ড; ২৫ সেকেন্ডে দূরত্ব ২০×২৫=৫০০ মিটার।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_309",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-8.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পণ্যের দাম ২৫% বাড়লে আগের দামে ফিরতে নতুন দাম কত শতাংশ কমাতে হবে?",
+      "options": [
+        "২০%",
+        "২৫%",
+        "৩০%",
+        "৩৩⅓%"
+      ],
+      "answerIndex": 0,
+      "answer": "২০%",
+      "explanation": "মূল দাম ১০০ হলে নতুন দাম ১২৫; ১০০-তে ফিরতে কমাতে হবে ২৫/১২৫×১০০ = ২০%।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_310",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-8.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একজন ব্যক্তি উত্তরমুখী হয়ে দাঁড়িয়ে বামে, তারপর আবার বামে ঘুরলেন। এখন তিনি কোন দিকে মুখ করে আছেন?",
+      "options": [
+        "উত্তর",
+        "দক্ষিণ",
+        "পূর্ব",
+        "পশ্চিম"
+      ],
+      "answerIndex": 1,
+      "answer": "দক্ষিণ",
+      "explanation": "উত্তর থেকে বামে পশ্চিম, আবার বামে দক্ষিণ।",
+      "classificationReason": "logical / analytical / series / direction / relational reasoning"
+    },
+    {
+      "id": "extra_350",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-9.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। কোন সিদ্ধান্তটি নিশ্চিত?",
+      "options": [
+        "সব লেখক চিকিৎসক",
+        "কিছু চিকিৎসক লেখক",
+        "সব চিকিৎসক শিক্ষিত",
+        "কোনো শিক্ষিত ব্যক্তি চিকিৎসক নন"
+      ],
+      "answerIndex": 2,
+      "answer": "সব চিকিৎসক শিক্ষিত",
+      "explanation": "প্রথম বক্তব্য থেকেই নিশ্চিতভাবে বলা যায়, সব চিকিৎসক শিক্ষিত।",
+      "classificationReason": "logical / analytical / series / direction / relational reasoning"
+    },
+    {
+      "id": "extra_351",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-9.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "রাহিম করিমের চেয়ে লম্বা, করিম সালামের চেয়ে লম্বা। সবচেয়ে খাটো কে?",
+      "options": [
+        "রাহিম",
+        "করিম",
+        "সালাম",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answerIndex": 2,
+      "answer": "সালাম",
+      "explanation": "উচ্চতার ক্রম রাহিম > করিম > সালাম; তাই সালাম সবচেয়ে খাটো।",
+      "classificationReason": "logical / analytical / series / direction / relational reasoning"
+    },
+    {
+      "id": "extra_352",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-9.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "A একা ৬ দিনে এবং B একা ৩ দিনে একটি কাজ করে। একসঙ্গে কত দিনে করবে?",
+      "options": [
+        "১ দিন",
+        "২ দিন",
+        "৩ দিন",
+        "৪ দিন"
+      ],
+      "answerIndex": 1,
+      "answer": "২ দিন",
+      "explanation": "এক দিনের কাজের হার ১/৬+১/৩=১/২; তাই পুরো কাজ শেষ হবে ২ দিনে।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_390",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-10.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি বাক্সে ৫টি লাল, ৪টি নীল ও ৩টি সবুজ বল আছে। না দেখে অন্তত একটি নীল বল নিশ্চিত পেতে সর্বোচ্চ কতটি বল তুলতে হবে?",
+      "options": [
+        "৫",
+        "৮",
+        "৯",
+        "১০"
+      ],
+      "answerIndex": 2,
+      "answer": "৯",
+      "explanation": "সবচেয়ে খারাপ ক্ষেত্রে আগে ৫টি লাল ও ৩টি সবুজ উঠতে পারে; এরপর ৯ম বলটি নিশ্চিত নীল হবে।",
+      "classificationReason": "logical / analytical / series / direction / relational reasoning"
+    },
+    {
+      "id": "extra_391",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-10.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি পণ্যের দাম ২০% বাড়িয়ে পরে নতুন দামের ২০% কমানো হলো। শেষ দাম মূল দামের তুলনায় কেমন?",
+      "options": [
+        "সমান",
+        "৪% কম",
+        "৪% বেশি",
+        "২% কম"
+      ],
+      "answerIndex": 1,
+      "answer": "৪% কম",
+      "explanation": "মূল দাম ১০০ হলে বাড়িয়ে ১২০, পরে ২০% কমে ৯৬; অর্থাৎ ৪% কম।",
+      "classificationReason": "direct quantitative aptitude"
+    },
+    {
+      "id": "extra_392",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-10.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব A হলো B এবং কোনো B হলো না C। নিচের কোন সিদ্ধান্তটি সঠিক?",
+      "options": [
+        "কিছু A হলো C",
+        "কোনো A হলো C নয়",
+        "সব C হলো A",
+        "কিছু B হলো C"
+      ],
+      "answerIndex": 1,
+      "answer": "কোনো A হলো C নয়",
+      "explanation": "A-এর সব সদস্য B-এর মধ্যে এবং B ও C বিচ্ছিন্ন; তাই কোনো A-ই C নয়।",
+      "classificationReason": "logical / analytical / series / direction / relational reasoning"
+    },
+    {
+      "id": "extra_393",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-10.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "পরিমাণগত দক্ষতা অনুশীলন",
+      "question": "একটি ট্রেন ৬০ কিমি/ঘণ্টা বেগে ২.৫ ঘণ্টা চলে। কত দূরত্ব অতিক্রম করে?",
+      "options": [
+        "১২০ কিমি",
+        "১৩০ কিমি",
+        "১৫০ কিমি",
+        "১৮০ কিমি"
+      ],
+      "answerIndex": 2,
+      "answer": "১৫০ কিমি",
+      "explanation": "দূরত্ব = বেগ × সময় = ৬০ × ২.৫ = ১৫০ কিমি।",
+      "classificationReason": "direct quantitative aptitude"
     }
   ]
 }
