@@ -386,6 +386,44 @@ body {
   border-radius:22px;
 }
 
+
+/* FIX: supplied raster hero had replaced legacy live-stat nodes; guard missing legacy nodes so menu setup continues. */
+/* Slow, visible motion accents over the supplied artwork without editing its lettering or composition. */
+.home-hero-image-card{position:relative;isolation:isolate}
+.home-hero-image-card:before{
+ content:"✦";position:absolute;z-index:4;pointer-events:none;
+ left:18%;top:22%;width:62px;height:62px;border:1px dashed #baf7ffb8;border-radius:50%;
+ display:grid;place-items:start center;padding-top:0;
+ color:#fff3a6;font-size:18px;font-weight:900;
+ text-shadow:0 0 5px #fff,0 0 13px #20dfff,0 0 20px #ffdb55;
+ box-shadow:0 0 12px #24dfff55,inset 0 0 12px #24dfff22;
+ animation:heroBrainSparkOrbit 18s linear infinite;
+}
+.home-hero-image-card:after{
+ content:"";position:absolute;z-index:4;pointer-events:none;
+ right:14%;top:22%;width:78px;height:78px;border-radius:50%;
+ border:2px solid transparent;border-top-color:#ffe28c;border-bottom-color:#ffcf55;
+ box-shadow:0 0 10px #ffc84d66,inset 0 0 10px #ffc84d22;
+ animation:heroTrophyHaloTurn 32s linear infinite;
+}
+.home-hero-banner-image{animation:heroArtworkGlow 9s ease-in-out infinite}
+@keyframes heroBrainSparkOrbit{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes heroTrophyHaloTurn{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes heroArtworkGlow{0%,100%{filter:brightness(1) saturate(1)}50%{filter:brightness(1.045) saturate(1.06)}}
+/* High-contrast career-preparation button: saturated teal-blue with crisp white copy. */
+button.job-prep-hero{
+ background:linear-gradient(115deg,#18d8c8 0%,#0b9fc9 54%,#1266c4 100%)!important;
+ color:#fff!important;border:2px solid #c4fff7!important;
+ box-shadow:0 7px 0 #064d79,0 13px 24px #0008,inset 0 2px 0 #ffffffb0!important;
+ text-shadow:0 1px 3px #063b60!important;
+}
+button.job-prep-hero .job-prep-copy b{color:#fff!important;text-shadow:0 1px 3px #06466d!important}
+button.job-prep-hero .job-prep-copy small{color:#f1ffff!important;text-shadow:0 1px 2px #06466d!important;font-weight:750!important}
+button.job-prep-hero .job-prep-arrow{color:#fff!important;text-shadow:0 1px 3px #06466d!important}
+@media(prefers-reduced-motion:reduce){
+ .home-hero-image-card:before,.home-hero-image-card:after,.home-hero-banner-image{animation:none!important}
+}
+
 </style></head><body><section id="launchSplash" aria-label="মেধার লড়াই"><div class="splash-inner"><div class="splash-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M13 30 50 13 87 30 50 47Z" fill="#f6c85f" stroke="#fff0b5" stroke-width="3" stroke-linejoin="round"/><path d="M27 43v21c13 11 33 11 46 0V43L50 54Z" fill="#fff" stroke="#b8d8ff" stroke-width="3" stroke-linejoin="round"/><path d="M87 31v28" stroke="#ffd875" stroke-width="4" stroke-linecap="round"/><circle cx="87" cy="63" r="5" fill="#ffd875"/><path d="M50 55 27 44" stroke="#d69a31" stroke-width="2"/></svg></div><div class="splash-name">মেধার লড়াই</div><div class="splash-tagline">খেলুন-শিখুন-এগিয়ে যান</div><div class="splash-loader" aria-hidden="true"></div></div></section><script>(function(){var splash=document.getElementById('launchSplash');if(splash){setTimeout(function(){splash.classList.add('is-hidden');setTimeout(function(){splash.remove();},600);},2300);}})();</script><main class="wrap">
 <section id="home" class="home-screen">
 <div class="home-hero-controls"><button class="secondary tiny" id="langBtn">English</button><button class="secondary tiny hidden" id="adminBtn" aria-hidden="true">অ্যাডমিন প্যানেল</button></div><div class="home-hero-card home-hero-image-card"><img class="home-hero-banner-image" src="battle-of-brains-hero.webp" alt="Battle of Brains — মেধার লড়াই"></div>
@@ -714,7 +752,7 @@ function applyHomeLanguage(){
  const isBn=lang==='bn';
  const setText=(selector,bn,en)=>{const el=document.querySelector(selector);if(el)el.textContent=isBn?bn:en};
  $('langBtn').textContent=isBn?'English':'বাংলা';
- $('intro').textContent=isBn?'জ্ঞানচর্চা ও চাকরির প্রস্তুতি—একই প্ল্যাটফর্মে':'Knowledge building and job preparation—all in one platform';
+ const intro=$('intro');if(intro)intro.textContent=isBn?'জ্ঞানচর্চা ও চাকরির প্রস্তুতি—একই প্ল্যাটফর্মে':'Knowledge building and job preparation—all in one platform';
  setText('#startBtn .entry-copy b','কুইজ খেলা শুরু করুন','Start Quiz');
  setText('#startBtn .entry-copy small','খেলুন · শিখুন · এগিয়ে যান','Play · Learn · Grow');
  const labels={
@@ -739,7 +777,7 @@ function applyHomeLanguage(){
 }
 $('langBtn').onclick=()=>{lang=lang==='bn'?'en':'bn';localStorage.setItem('ml_lang',lang);applyHomeLanguage();if(!$('game').classList.contains('hidden'))render()};
 applyHomeLanguage();
-function updateHome(){ $('homePoints').textContent=bnDigits(Number(points.toFixed(2))); $('homeLevel').textContent=bnDigits(level); $('homeQuestions').textContent=bnDigits(questions.length); }
+function updateHome(){const p=$('homePoints'),l=$('homeLevel'),q=$('homeQuestions');if(p)p.textContent=bnDigits(Number(points.toFixed(2)));if(l)l.textContent=bnDigits(level);if(q)q.textContent=bnDigits(questions.length);}
 $('rulesBtn').onclick=()=>alert('প্রতি লেভেলে ১০টি প্রশ্ন থাকবে। সঠিক উত্তরে +১ পয়েন্ট, ভুল উত্তরে −০.২৫ পয়েন্ট। প্রতিটি প্রশ্নের উত্তর বেছে নিয়ে পরের প্রশ্নে যান।');
 $('leaderBtn').onclick=()=>panel('লিডারবোর্ড','<div class="notice">এটি এই ডিভাইসের স্থানীয় র‍্যাংকিং। সব খেলোয়াড়ের অনলাইন র‍্যাংকিংয়ের জন্য কেন্দ্রীয় সার্ভার সংযোগ প্রয়োজন।</div><h3>বর্তমান খেলোয়াড়</h3><div class="qitem">১. '+profile.name+' — '+bnDigits(points.toFixed(2))+' পয়েন্ট</div><p>দৈনিক / সাপ্তাহিক / মাসিক বৈশ্বিক র‍্যাংকিং সার্ভার যুক্ত হলে সক্রিয় হবে।</p>');
 $('progressBtn').onclick=()=>{const total=progress.correct+progress.wrong,rate=total?Math.round(progress.correct/total*100):0;panel('আমার অগ্রগতি','<div class="stats"><div class="stat"><b>'+bnDigits(points.toFixed(2))+'</b><small>মোট পয়েন্ট</small></div><div class="stat"><b>'+bnDigits(level)+'</b><small>বর্তমান লেভেল</small></div><div class="stat"><b>'+bnDigits(progress.rounds)+'</b><small>সম্পন্ন রাউন্ড</small></div></div><div class="grid"><div class="qitem">✅ সঠিক উত্তর: <b>'+bnDigits(progress.correct)+'</b></div><div class="qitem">❌ ভুল উত্তর: <b>'+bnDigits(progress.wrong)+'</b></div><div class="qitem">🎯 সঠিক উত্তরের হার: <b>'+bnDigits(rate)+'%</b></div><div class="qitem">📚 মোট প্রশ্ন: <b>'+bnDigits(questions.length)+'</b></div></div><h3>বিষয়ভিত্তিক সঠিক উত্তর</h3>'+Object.entries(progress.category||{}).map(([k,v])=>'<div class="qitem">'+k+' — '+bnDigits(v)+'</div>').join('')+'<h3>সাম্প্রতিক খেলার ইতিহাস</h3>'+(progress.history||[]).slice(0,10).map(h=>'<div class="qitem">'+h.date+' · লেভেল '+bnDigits(h.level)+' · '+bnDigits(Number(h.score).toFixed(2))+' পয়েন্ট</div>').join('')+'<p class="muted">এই পরিসংখ্যান এই ডিভাইসে সংরক্ষিত।</p>')};
