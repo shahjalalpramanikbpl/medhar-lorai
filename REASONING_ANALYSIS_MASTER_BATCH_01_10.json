@@ -3963,6 +3963,213 @@
       "answer": "কোনো A হলো C নয়",
       "explanation": "A-এর সব সদস্য B-এর মধ্যে, আর B-এর কোনো সদস্য C নয়; তাই A ও C-এর কোনো সদস্য অভিন্ন নয়।",
       "classificationReason": "logical / analytical / series / coding / ranking / spatial reasoning"
+    },
+    {
+      "id": "extra_684",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-18.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "যদি আজ বুধবার হয়, তবে ১০০ দিন পরে কী বার হবে?",
+      "options": [
+        "বৃহস্পতিবার",
+        "শুক্রবার",
+        "শনিবার",
+        "রবিবার"
+      ],
+      "answerIndex": 1,
+      "answer": "শুক্রবার",
+      "explanation": "১০০÷৭ করলে ভাগশেষ ২; বুধবারের দুই দিন পর শুক্রবার।",
+      "classificationReason": "logical / analytical / series / coding / ranking / calendar reasoning"
+    },
+    {
+      "id": "extra_686",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-18.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। করিম একজন চিকিৎসক। কোন সিদ্ধান্তটি যৌক্তিকভাবে সঠিক?",
+      "options": [
+        "করিম শিক্ষিত",
+        "করিম শিক্ষক",
+        "সব শিক্ষিত চিকিৎসক",
+        "করিম চিকিৎসক নন"
+      ],
+      "answerIndex": 0,
+      "answer": "করিম শিক্ষিত",
+      "explanation": "সব চিকিৎসক শিক্ষিত এবং করিম চিকিৎসক; সুতরাং করিম শিক্ষিত।",
+      "classificationReason": "logical / analytical / series / coding / ranking / calendar reasoning"
+    },
+    {
+      "id": "extra_687",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-18.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি ঘনকের কয়টি ধার (edge) থাকে?",
+      "options": [
+        "৬",
+        "৮",
+        "১২",
+        "১৬"
+      ],
+      "answerIndex": 2,
+      "answer": "১২",
+      "explanation": "ঘনকের ৬টি তল, ৮টি শীর্ষবিন্দু এবং ১২টি ধার থাকে।",
+      "classificationReason": "logical / analytical / series / coding / ranking / calendar reasoning"
+    },
+    {
+      "id": "extra_716",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-19.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব চিকিৎসক শিক্ষিত। কিছু শিক্ষিত ব্যক্তি লেখক। এ থেকে নিশ্চিতভাবে কোনটি বলা যায়?",
+      "options": [
+        "সব চিকিৎসক লেখক",
+        "কিছু চিকিৎসক লেখক",
+        "কোনো চিকিৎসক লেখক নন",
+        "নিশ্চিতভাবে চিকিৎসক ও লেখকের মিল প্রমাণিত নয়"
+      ],
+      "answerIndex": 3,
+      "answer": "নিশ্চিতভাবে চিকিৎসক ও লেখকের মিল প্রমাণিত নয়",
+      "explanation": "দুটি শ্রেণির তথ্য থেকে চিকিৎসক ও লেখকের মধ্যে সম্পর্ক নিশ্চিত হয় না।",
+      "classificationReason": "logical / analytical / series / coding / ranking / calendar reasoning"
+    },
+    {
+      "id": "extra_717",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-19.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি কোডে CAT লেখা হয় DBU। একই নিয়মে DOG কীভাবে লেখা হবে?",
+      "options": [
+        "EPH",
+        "EOG",
+        "FPH",
+        "CNG"
+      ],
+      "answerIndex": 0,
+      "answer": "EPH",
+      "explanation": "প্রতিটি অক্ষরের পরের অক্ষর নেওয়া হয়েছে: D→E, O→P, G→H।",
+      "classificationReason": "logical / analytical / series / coding / ranking / calendar reasoning"
+    },
+    {
+      "id": "extra_719",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-19.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সারিতে মিতা সামনে থেকে ৮ম এবং পেছন থেকে ১৩তম। সারিতে মোট কতজন?",
+      "options": [
+        "১৯",
+        "২০",
+        "২১",
+        "২২"
+      ],
+      "answerIndex": 1,
+      "answer": "২০",
+      "explanation": "মোট = ৮ + ১৩ − ১ = ২০ জন।",
+      "classificationReason": "logical / analytical / series / coding / ranking / calendar reasoning"
+    },
+    {
+      "id": "extra_720",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-19.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: ‘সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়।’ কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "কোনো গোলাপ দ্রুত ঝরে না",
+        "উপরের কোনোটিই নিশ্চিত নয়"
+      ],
+      "answerIndex": 3,
+      "answer": "উপরের কোনোটিই নিশ্চিত নয়",
+      "explanation": "দ্রুত ঝরে যাওয়া ফুলগুলো গোলাপ কি না বলা হয়নি; তাই কোনো সিদ্ধান্তই নিশ্চিত নয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / calendar reasoning"
+    },
+    {
+      "id": "extra_765",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-20.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "সব গোলাপ ফুল। কিছু ফুল দ্রুত ঝরে যায়। এ থেকে নিশ্চিতভাবে কোনটি বলা যায়?",
+      "options": [
+        "সব গোলাপ দ্রুত ঝরে যায়",
+        "কিছু গোলাপ দ্রুত ঝরে যায়",
+        "কোনো গোলাপ দ্রুত ঝরে না",
+        "গোলাপ ফুল"
+      ],
+      "answerIndex": 3,
+      "answer": "গোলাপ ফুল",
+      "explanation": "প্রদত্ত প্রথম বক্তব্য থেকেই নিশ্চিত যে গোলাপ ফুল; অন্য সম্পর্কটি নিশ্চিত নয়।",
+      "classificationReason": "logical / analytical / series / coding / ranking / calendar reasoning"
+    },
+    {
+      "id": "extra_767",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-20.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "একটি সভায় ৮ জন প্রত্যেকে প্রত্যেকের সঙ্গে একবার পরিচিত হলে পরিচয়ের জোড়া কতটি?",
+      "options": [
+        "১৬",
+        "২৮",
+        "৩২",
+        "৫৬"
+      ],
+      "answerIndex": 1,
+      "answer": "২৮",
+      "explanation": "৮ জনের জোড়ার সংখ্যা ৮×৭÷২ = ২৮।",
+      "classificationReason": "logical / analytical / series / coding / ranking / calendar reasoning"
+    },
+    {
+      "id": "extra_768",
+      "sourceFile": "app/src/main/assets/job-prep-expansion-20.js",
+      "sourceType": "expansion",
+      "originalCategory": "যুক্তি ও বিশ্লেষণ",
+      "targetCategory": "যুক্তি ও বিশ্লেষণ",
+      "question": "বক্তব্য: সব A হলো B এবং সব B হলো C। কোন সিদ্ধান্তটি অবশ্যই সত্য?",
+      "options": [
+        "সব C হলো A",
+        "সব A হলো C",
+        "কোনো A হলো C নয়",
+        "কিছু C হলো A"
+      ],
+      "answerIndex": 1,
+      "answer": "সব A হলো C",
+      "explanation": "A-এর প্রতিটি সদস্য B এবং B-এর প্রতিটি সদস্য C হওয়ায় সব A হলো C।",
+      "classificationReason": "logical / analytical / series / coding / ranking / calendar reasoning"
+    }
+  ],
+  "laterBatchAudits": [
+    {
+      "range": "11-20",
+      "candidateCount": 43,
+      "reviewedCount": 43,
+      "exactDuplicateMatchesAgainstConsolidated01_10": 0,
+      "exactDuplicateMatchesAgainstLockedIQAndMath": 0,
+      "exactDuplicateMatchesWithinCheckpoint": 0,
+      "quantitativeAptitudeCandidates": 9,
+      "retainedReasoningCandidates": 34,
+      "corrections": [
+        {
+          "id": "extra_503",
+          "change": "malformed question stem replaced with 'আজ বৃহস্পতিবার হলে আগামী পরশু কী বার হবে?'",
+          "correctAnswer": "শনিবার",
+          "reason": "Options and explanation were calendar-based; the original stem incorrectly contained a rose syllogism."
+        },
+        {
+          "id": "extra_505",
+          "change": "answerIndex 2 → 1",
+          "correctAnswer": "শনিবার",
+          "reason": "গতকাল বুধবার হলে আজ বৃহস্পতিবার; আগামী পরশু শনিবার।"
+        }
+      ],
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; LATER_BATCH_AUDIT_PENDING"
     }
   ]
 }
