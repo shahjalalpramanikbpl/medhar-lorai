@@ -1,7 +1,7 @@
 {
   "schema": "medhar-lorai.iq-subject-classification.v1",
   "createdAt": "2026-11-27",
-  "status": "ALL_EXPANSION_CHECKPOINTS_REVIEWED_PENDING_9_RECORD_RUNTIME_RECONCILIATION_AND_FINAL_LOCK",
+  "status": "ALL_EXPANSION_CHECKPOINTS_REVIEWED_PENDING_FINAL_CLASSIFICATION_RUNTIME_MIGRATION_AND_LOCK",
   "inventory": {
     "base": 150,
     "expansion": 42,
@@ -5687,20 +5687,31 @@
   ],
   "finalReconciliation": {
     "auditedExpansionBatches": "01-56",
-    "laterExpansionRecordsFoundAndReviewed": 110,
-    "laterQuantitativeCandidates": 47,
-    "laterRetainedIQCandidates": 63,
-    "initialMasterRecords": 192,
-    "initialMasterQuantitativeCandidates": 98,
-    "initialMasterRetainedIQCandidates": 94,
-    "totalConsolidatedRecords": 302,
-    "priorRuntimeExpectation": {
-      "iq": 213,
-      "quantitative": 98,
-      "total": 311
+    "initialMaster": {
+      "records": 192,
+      "quantitativeCandidates": 98,
+      "retainedIQCandidates": 94
     },
-    "discrepancy": 9,
-    "resolution": "NOT_YET_RESOLVED; do not lock or change runtime expectation until source/runtime inventory is reconciled",
-    "finalLockStatus": "NOT_LOCKED"
+    "laterExpansion": {
+      "recordsFoundAndReviewed": 110,
+      "quantitativeCandidates": 47,
+      "retainedIQCandidates": 63
+    },
+    "consolidatedUniqueRecords": 302,
+    "currentRuntimeAfterInitialMigration": {
+      "quantitativePractice": 98,
+      "retainedIQ": 204
+    },
+    "finalTargetAfterAllClassifications": {
+      "quantitativePractice": 145,
+      "retainedIQ": 157
+    },
+    "previousValidatorExpectation": {
+      "retainedIQ": 213,
+      "pendingLaterBatchQuestions": 119
+    },
+    "discrepancy": 0,
+    "resolution": "Previous validator expectation was stale by 9; source inventory is 150 base + 42 unique initial expansion + 110 later expansion = 302 unique records. Validator now expects 204 IQ before the additional 47 quantitative candidates are migrated.",
+    "finalLockStatus": "NOT_LOCKED; final runtime migration and final validation still pending"
   }
 }
