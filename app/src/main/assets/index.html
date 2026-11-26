@@ -387,25 +387,32 @@ body {
 }
 
 
-/* Visible DOM-based hero motion: explicit elements render reliably above the supplied raster banner. */
+/* Hero card: independent moving spark points and an actual trophy layer; no orbit rings. */
 .home-hero-image-card{position:relative!important;isolation:isolate!important}
 .home-hero-image-card>.home-hero-banner-image{position:relative;z-index:1}
-.hero-motion-layer{position:absolute;inset:0;z-index:3;pointer-events:none;overflow:hidden}
-.hero-orbit{position:absolute;display:block;border-radius:50%;box-sizing:border-box;pointer-events:none}
-.hero-brain-orbit{left:7%;top:15%;width:20%;aspect-ratio:1;border:1.5px dashed #b9f8ff;box-shadow:0 0 9px #21dfff88,inset 0 0 8px #21dfff44;animation:brainSparkOrbit 18s linear infinite}
-.hero-trophy-orbit{right:8%;top:15%;width:20%;aspect-ratio:1;border:2px solid transparent;border-top-color:#ffe58c;border-bottom-color:#ffcf55;box-shadow:0 0 12px #ffc84d88,inset 0 0 9px #ffc84d33;animation:trophySlowOrbit 32s linear infinite}
-.hero-orbit i{position:absolute;left:50%;top:-7px;transform:translateX(-50%);font-style:normal;font-size:clamp(10px,2.7vw,18px);line-height:1;color:#fff4a8;text-shadow:0 0 5px #fff,0 0 12px #21dfff,0 0 18px #ffcf55}
-.hero-trophy-orbit i{color:#ffe48a;text-shadow:0 0 5px #fff,0 0 12px #ffbe38}
-@keyframes brainSparkOrbit{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
-@keyframes trophySlowOrbit{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
-.hero-stat-live{position:absolute;z-index:5;top:84%;bottom:auto;height:9.5%;width:24%;padding:0;border:0!important;border-radius:9px;background:transparent!important;box-shadow:none!important;color:#fff!important;display:flex;align-items:flex-end;justify-content:center;cursor:pointer;font:900 clamp(14px,3.8vw,23px)/1 system-ui,sans-serif;text-shadow:0 2px 2px #5b2600,0 0 5px #ffd84d,0 0 9px #000}
-.hero-stat-live:active{transform:translateY(1px);filter:brightness(1.2)}
-.hero-points-live{left:13.5%}
-.hero-level-live{left:38%}
-.hero-questions-live{left:64.5%}
-.hero-stat-live span{display:block;max-width:95%;white-space:nowrap;overflow:hidden;text-overflow:clip;padding:0 2px 3px}
-@media(max-width:380px){.hero-stat-live{font-size:13px}}
-@media(prefers-reduced-motion:reduce){.hero-orbit{animation-duration:60s!important}}
+.hero-motion-layer{position:absolute;inset:0;z-index:4;pointer-events:none;overflow:hidden}
+.hero-spark{position:absolute;left:0;top:0;display:block;color:#fff7a8;font-style:normal;font-size:clamp(10px,2.7vw,18px);line-height:1;text-shadow:0 0 4px #fff,0 0 9px #21dfff,0 0 15px #ffcf55;will-change:transform,opacity;animation-timing-function:ease-in-out;animation-iteration-count:infinite}
+.spark-a{left:7%;top:23%;animation:brainSparkTravelA 5.8s infinite}
+.spark-b{left:11%;top:18%;animation:brainSparkTravelB 6.6s -1.4s infinite}
+.spark-c{left:18%;top:25%;animation:brainSparkTravelC 5.2s -2.1s infinite}
+.spark-d{left:9%;top:39%;animation:brainSparkTravelD 6.1s -3s infinite}
+.spark-e{left:22%;top:35%;animation:brainSparkTravelE 7s -2.6s infinite}
+@keyframes brainSparkTravelA{0%,100%{transform:translate(0,0) scale(.65);opacity:.35}25%{transform:translate(5vw,-2vh) scale(1.15);opacity:1}55%{transform:translate(13vw,5vh) scale(.8);opacity:.8}80%{transform:translate(5vw,11vh) scale(1);opacity:1}}
+@keyframes brainSparkTravelB{0%,100%{transform:translate(0,0) scale(.7);opacity:.4}30%{transform:translate(10vw,3vh) scale(1.1);opacity:1}65%{transform:translate(15vw,12vh) scale(.75);opacity:.6}85%{transform:translate(3vw,8vh) scale(1);opacity:1}}
+@keyframes brainSparkTravelC{0%,100%{transform:translate(0,0) scale(.6);opacity:.35}35%{transform:translate(-5vw,7vh) scale(1.1);opacity:1}70%{transform:translate(-12vw,12vh) scale(.8);opacity:.75}}
+@keyframes brainSparkTravelD{0%,100%{transform:translate(0,0) scale(.7);opacity:.35}30%{transform:translate(9vw,-7vh) scale(1.1);opacity:1}60%{transform:translate(16vw,-1vh) scale(.8);opacity:.8}85%{transform:translate(6vw,-9vh) scale(1);opacity:1}}
+@keyframes brainSparkTravelE{0%,100%{transform:translate(0,0) scale(.65);opacity:.4}30%{transform:translate(-8vw,-7vh) scale(1.15);opacity:1}60%{transform:translate(-16vw,-2vh) scale(.8);opacity:.7}85%{transform:translate(-5vw,4vh) scale(1);opacity:1}}
+.hero-trophy-spin{position:absolute;z-index:3;left:72.4%;top:10.5%;width:22.7%;height:46.6%;background-image:url('battle-of-brains-hero.webp');background-repeat:no-repeat;background-size:440% 215%;background-position:-319% -23%;clip-path:polygon(13% 7%,24% 2%,76% 2%,89% 8%,98% 20%,94% 47%,83% 64%,69% 75%,65% 91%,63% 99%,34% 99%,32% 88%,19% 75%,7% 58%,1% 34%);transform-style:preserve-3d;backface-visibility:hidden;transform-origin:50% 50%;animation:trophyOwnAxisSpin 9s linear infinite;filter:drop-shadow(0 2px 5px #ffcf55aa)}
+@keyframes trophyOwnAxisSpin{0%{transform:perspective(600px) rotateY(0deg)}25%{transform:perspective(600px) rotateY(90deg)}50%{transform:perspective(600px) rotateY(180deg)}75%{transform:perspective(600px) rotateY(270deg)}100%{transform:perspective(600px) rotateY(360deg)}}
+.hero-stat-live{position:absolute;z-index:6;top:76.8%;height:17.4%;width:21.6%;padding:3px 5px;border:2px solid #ffffffd9!important;border-radius:14px!important;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;cursor:pointer;color:#fff!important;text-align:center;box-shadow:0 4px 0 #07163e,0 7px 13px #0009,inset 0 1px 0 #ffffffb0!important;text-shadow:0 1px 3px #07163e!important;overflow:hidden}
+.hero-stat-live:active{transform:translateY(1px);filter:brightness(1.12)}
+.hero-points-live{left:15.2%;background:linear-gradient(145deg,#1b8ff2,#0751bd 65%,#063a8c)!important}
+.hero-level-live{left:39.2%;background:linear-gradient(145deg,#c03cff,#7020c6 65%,#42117d)!important}
+.hero-questions-live{left:63.2%;background:linear-gradient(145deg,#28db8b,#079b62 65%,#05663f)!important}
+.hero-stat-label{display:block;max-width:100%;font:800 clamp(9px,2.5vw,15px)/1.15 system-ui,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hero-stat-value{display:block;max-width:100%;font:1000 clamp(16px,4.3vw,25px)/1.05 system-ui,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:380px){.hero-stat-live{padding:2px 2px;border-radius:10px!important}.hero-stat-label{font-size:clamp(8px,2.3vw,10px)}.hero-stat-value{font-size:clamp(13px,3.8vw,17px)}}
+@media(prefers-reduced-motion:reduce){.hero-spark,.hero-trophy-spin{animation-duration:60s!important}}
 /* High-contrast career-preparation button: saturated teal-blue with crisp white copy. */
 button.job-prep-hero{
  background:linear-gradient(115deg,#18d8c8 0%,#0b9fc9 54%,#1266c4 100%)!important;
@@ -424,10 +431,13 @@ button.job-prep-hero .job-prep-arrow{color:#fff!important;text-shadow:0 1px 3px 
 <section id="home" class="home-screen">
 <div class="home-hero-controls"><button class="secondary tiny" id="langBtn">English</button><button class="secondary tiny hidden" id="adminBtn" aria-hidden="true">অ্যাডমিন প্যানেল</button></div><div class="home-hero-card home-hero-image-card" id="homeHeroCard">
 <img class="home-hero-banner-image" src="battle-of-brains-hero.webp" alt="Battle of Brains — মেধার লড়াই">
-<div class="hero-motion-layer" aria-hidden="true"><span class="hero-orbit hero-brain-orbit"><i>✦</i></span><span class="hero-orbit hero-trophy-orbit"><i>✦</i></span></div>
-<button type="button" class="hero-stat-live hero-points-live" id="heroPointsBtn" aria-label="মোট পয়েন্ট দেখুন"><span id="homePoints">০</span></button>
-<button type="button" class="hero-stat-live hero-level-live" id="heroLevelBtn" aria-label="বর্তমান লেভেল দেখুন"><span id="homeLevel">১</span></button>
-<button type="button" class="hero-stat-live hero-questions-live" id="heroQuestionsBtn" aria-label="প্রশ্ন ভান্ডার খুলুন"><span id="homeQuestions">০</span></button>
+<div class="hero-motion-layer" aria-hidden="true">
+<span class="hero-spark spark-a">✦</span><span class="hero-spark spark-b">✧</span><span class="hero-spark spark-c">✦</span><span class="hero-spark spark-d">✧</span><span class="hero-spark spark-e">✦</span>
+<span class="hero-trophy-spin" aria-hidden="true"></span>
+</div>
+<button type="button" class="hero-stat-live hero-points-live" id="heroPointsBtn" aria-label="মোট পয়েন্ট দেখুন"><span class="hero-stat-label">⭐ মোট পয়েন্ট</span><span class="hero-stat-value" id="homePoints">০</span></button>
+<button type="button" class="hero-stat-live hero-level-live" id="heroLevelBtn" aria-label="বর্তমান লেভেল দেখুন"><span class="hero-stat-label">🏆 বর্তমান লেভেল</span><span class="hero-stat-value" id="homeLevel">১</span></button>
+<button type="button" class="hero-stat-live hero-questions-live" id="heroQuestionsBtn" aria-label="প্রশ্নের ভান্ডার খুলুন"><span class="hero-stat-label">📚 প্রশ্নের ভান্ডার</span><span class="hero-stat-value" id="homeQuestions">০</span></button>
 </div>
 <div class="home-entry-grid"><button id="startBtn" class="home-entry-btn quiz-entry"><span class="entry-icon">🎯</span><span class="entry-copy"><b>Quiz Challenge</b><small>খেলুন · শিখুন · এগিয়ে যান</small></span><span class="entry-arrow">›</span></button><div class="home-featured" id="homeFeatured"></div></div>
 
