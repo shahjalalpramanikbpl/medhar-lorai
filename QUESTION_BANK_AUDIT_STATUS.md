@@ -799,3 +799,11 @@
 - extra_070-এর ৬:৩০ clock-angle explanation পরিষ্কার করা হয়েছে; ক্ষুদ্রতর কোণ ১৫°।
 - মূল ১৫০টির পূর্ণ content audit এবং expansion-এর near-duplicate/relevance review বাকি। তাই IN_PROGRESS, LOCKED নয়।
 - বিস্তারিত: MENTAL_ABILITY_IQ_BATCH_01_10_PROGRESS.md।
+
+
+## ২৭ নভেম্বর ২০২৬ — Mental Ability & IQ: final subject-classification instruction
+- ব্যবহারকারীর নির্দেশ: LOCK-এর আগে content/answer/explanation/near-duplicate audit-এর সঙ্গে সব প্রশ্নের বিষয়ভিত্তিক শ্রেণিবিন্যাস করতে হবে।
+- শতকরা, গড়, লাভ-ক্ষতি, ছাড়, বেগ-দূরত্ব ও ক্ষেত্রফলভিত্তিক প্রশ্ন চাকরির পরীক্ষায় উপযোগী হলেও সবগুলো Mental Ability & IQ-এর উপযুক্ত নয়; প্রশ্নের মূল দক্ষতা অনুযায়ী Mental Ability & IQ বনাম গণিত/পরিমাণগত দক্ষতা আলাদা করতে হবে।
+- কোনো প্রশ্ন কেবল বিষয় আলাদা বলে বাদ নয়; ভিন্ন subject-এ স্থানান্তরের আগে সংশ্লিষ্ট locked master-এর সঙ্গে duplicate check এবং নতুন সংযোজনের validation আবশ্যক।
+- শ্রেণিবিন্যাস, প্রয়োজনীয় স্থানান্তর ও final reconciliation শেষ না হওয়া পর্যন্ত Mental Ability & IQ **IN_PROGRESS / NOT LOCKED**।
+- বিস্তারিত নির্দেশনা: `MENTAL_ABILITY_IQ_BATCH_01_10_PROGRESS.md`।
