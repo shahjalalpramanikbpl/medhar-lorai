@@ -186,13 +186,14 @@ class MainActivity : Activity() {
         )
     }
 
-    // Count every answered question across all quiz modules. Show one interstitial
-    // after each 10 answered questions; never display an ad while a question is active.
-    private fun onQuestionAnswered() {
+    // Called only after a module's complete question level/test is finished.
+    // Each module keeps its own completion counter; ads never interrupt questions.
+    private fun onQuizLevelCompleted(moduleId: String) {
+        val safeModule = moduleId.replace(Regex("[^A-Za-z0-9_-]"), "_")
         val prefs = getSharedPreferences("admob_frequency", MODE_PRIVATE)
-        val answered = prefs.getInt("answered_questions", 0) + 1
-        prefs.edit().putInt("answered_questions", answered).apply()
-        if (answered % 10 != 0) return
+        val key = "completed_levels_$safeModule"
+        val completed = prefs.getInt(key, 0) + 1
+        prefs.edit().putInt(key, completed).apply()
 
         val ad = interstitialAd ?: run {
             loadInterstitial()
@@ -290,8 +291,8 @@ class MainActivity : Activity() {
         }
 
         @JavascriptInterface
-        fun onQuestionAnswered() {
-            this@MainActivity.onQuestionAnswered()
+        fun onQuizLevelCompleted(moduleId: String) {
+            this@MainActivity.onQuizLevelCompleted(moduleId)
         }
     }
 
