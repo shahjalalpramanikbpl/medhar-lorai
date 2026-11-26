@@ -656,24 +656,7 @@ const additions=[
     "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
     "sourceUrl": "",
     "d": "মাঝারি"
-  },
-  {
-    "id": "extra_1065",
-    "c": "English Literature",
-    "q": "Who wrote the play 'Waiting for Godot'?",
-    "o": [
-      "Harold Pinter",
-      "Samuel Beckett",
-      "Oscar Wilde",
-      "George Bernard Shaw"
-    ],
-    "a": 1,
-    "e": "Samuel Beckett wrote 'Waiting for Godot'.",
-    "source": "প্রামাণ্য পাঠ্যপুস্তক ও স্বীকৃত তথ্যসূত্র",
-    "sourceUrl": "",
-    "d": "মাঝারি"
-  }
-];
+  }];
 const bank=window.JOB_PREP_BANK;
 if(!Array.isArray(bank)) throw new Error('JOB_PREP_BANK পাওয়া যায়নি।');
 const norm=s=>String(s||'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
