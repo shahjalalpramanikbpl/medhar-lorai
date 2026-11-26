@@ -3637,5 +3637,26 @@
       "difficulty": "",
       "classificationReason": "শতকরা/লাভ-ক্ষতি/ছাড়"
     }
+  ],
+  "laterBatchAudits": [
+    {
+      "range": "11-20",
+      "candidateCount": 47,
+      "reviewedCount": 47,
+      "exactDuplicateMatchesAgainstBatch01_10": 0,
+      "exactDuplicateMatchesWithinCheckpoint": 0,
+      "quantitativeAptitudeCandidates": 26,
+      "retainedIQCandidates": 21,
+      "corrections": [
+        {
+          "id": "extra_680",
+          "sourceFile": "app/src/main/assets/job-prep-expansion-18.js",
+          "answerIndex": "2 → 1",
+          "correctAnswer": "১২",
+          "reason": "৮০-এর ১৫% = ১২; option index 1."
+        }
+      ],
+      "status": "CHECKPOINT_REVIEWED; SUBJECT_NOT_LOCKED; FINAL_CLASSIFICATION_AND_RUNTIME_MIGRATION_PENDING"
+    }
   ]
 }
