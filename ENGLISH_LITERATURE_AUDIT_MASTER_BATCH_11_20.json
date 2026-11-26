@@ -1,0 +1,742 @@
+{
+  "title": "English Literature expansion group 11-20 audit master",
+  "date": "2026-11-27",
+  "status": "GROUP_11_20_REVIEWED_NOT_LOCKED_PENDING_FACT_CHECK_AND_GROUP_MERGE",
+  "counts": {
+    "records_before_dedup": 50,
+    "exact_duplicate_records_removed": 7,
+    "records_after_dedup": 43,
+    "exact_duplicates_against_master_01_10": 0,
+    "exact_duplicates_within_group_after_cleanup": 0
+  },
+  "batchCounts": {
+    "11": 6,
+    "12": 8,
+    "13": 6,
+    "14": 5,
+    "15": 4,
+    "16": 5,
+    "17": 2,
+    "18": 3,
+    "19": 4,
+    "20": 0
+  },
+  "dedupPolicy": "Exact full signature only: normalized category + normalized question + sorted normalized options + normalized correct answer. Same wording with a different option set is retained under the user's rule.",
+  "removed": [
+    "extra_580",
+    "extra_654",
+    "extra_656",
+    "extra_688",
+    "extra_689",
+    "extra_721",
+    "extra_724"
+  ],
+  "crossComparison": {
+    "master": "ENGLISH_LITERATURE_MASTER_BASELINE_01_10.json",
+    "masterUniqueCount": 161,
+    "fullSignatureMatches": 0,
+    "sameQuestionTextDifferentOptionSetsRetained": 22
+  },
+  "records": [
+    {
+      "id": "extra_433",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "Who wrote the novel “Pride and Prejudice”?",
+      "o": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "George Eliot",
+        "Mary Shelley"
+      ],
+      "a": 1,
+      "e": "Jane Austen published Pride and Prejudice in 1813.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_434",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "“The Waste Land” is a poem by whom?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "John Keats"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot's modernist poem The Waste Land was published in 1922.",
+      "source": "Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_435",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "Who is the author of “Gulliver’s Travels”?",
+      "o": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Henry Fielding",
+        "Samuel Richardson"
+      ],
+      "a": 1,
+      "e": "Jonathan Swift wrote Gulliver’s Travels, published in 1726.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_436",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+      "o": [
+        "Macbeth",
+        "Hamlet",
+        "Othello",
+        "King Lear"
+      ],
+      "a": 1,
+      "e": "Rosencrantz and Guildenstern appear in Shakespeare’s Hamlet.",
+      "source": "Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_437",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "Who wrote “A Tale of Two Cities”?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "William Thackeray",
+        "George Orwell"
+      ],
+      "a": 0,
+      "e": "A Tale of Two Cities is a historical novel by Charles Dickens, published in 1859.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_438",
+      "batch": 11,
+      "c": "English Literature",
+      "q": "“The Old Man and the Sea” was written by whom?",
+      "o": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "William Faulkner"
+      ],
+      "a": 1,
+      "e": "Ernest Hemingway wrote The Old Man and the Sea, published in 1952.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_471",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Who wrote the novel “Jane Eyre”?",
+      "o": [
+        "Emily Brontë",
+        "Charlotte Brontë",
+        "Anne Brontë",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Charlotte Brontë published Jane Eyre in 1847.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_472",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "“Paradise Lost” was written by which poet?",
+      "o": [
+        "John Milton",
+        "Alexander Pope",
+        "William Blake",
+        "John Dryden"
+      ],
+      "a": 0,
+      "e": "John Milton's epic poem Paradise Lost was first published in 1667.",
+      "source": "Epic poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_473",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Who is the author of “Wuthering Heights”?",
+      "o": [
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "Jane Austen",
+        "Mary Shelley"
+      ],
+      "a": 1,
+      "e": "Emily Brontë wrote Wuthering Heights, published in 1847.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_474",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Which literary work begins with the line “Call me Ishmael”?",
+      "o": [
+        "Moby-Dick",
+        "The Scarlet Letter",
+        "Robinson Crusoe",
+        "Treasure Island"
+      ],
+      "a": 0,
+      "e": "“Call me Ishmael” is the famous opening line of Herman Melville's Moby-Dick.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_475",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Who wrote “The Canterbury Tales”?",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Gower",
+        "Thomas More",
+        "Edmund Spenser"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote The Canterbury Tales in Middle English.",
+      "source": "Medieval literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_476",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Which novel features the character Atticus Finch?",
+      "o": [
+        "Of Mice and Men",
+        "To Kill a Mockingbird",
+        "The Great Gatsby",
+        "Lord of the Flies"
+      ],
+      "a": 1,
+      "e": "Atticus Finch is a central character in Harper Lee's To Kill a Mockingbird.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_477",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "Who wrote the play “Waiting for Godot”?",
+      "o": [
+        "Samuel Beckett",
+        "Harold Pinter",
+        "Oscar Wilde",
+        "George Bernard Shaw"
+      ],
+      "a": 0,
+      "e": "Samuel Beckett wrote the absurdist play Waiting for Godot.",
+      "source": "Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_478",
+      "batch": 12,
+      "c": "English Literature",
+      "q": "“Ode to a Nightingale” is a poem by whom?",
+      "o": [
+        "William Wordsworth",
+        "John Keats",
+        "Percy Bysshe Shelley",
+        "Lord Byron"
+      ],
+      "a": 1,
+      "e": "John Keats wrote the ode in 1819.",
+      "source": "Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_509",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "Who wrote the novel “Pride and Prejudice”?",
+      "o": [
+        "Jane Austen",
+        "George Eliot",
+        "Mary Shelley",
+        "Virginia Woolf"
+      ],
+      "a": 0,
+      "e": "Jane Austen wrote Pride and Prejudice, first published in 1813.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_510",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "Who is the author of “The Old Man and the Sea”?",
+      "o": [
+        "William Faulkner",
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "F. Scott Fitzgerald"
+      ],
+      "a": 1,
+      "e": "Ernest Hemingway wrote the novella The Old Man and the Sea.",
+      "source": "Novella",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_511",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "“The Rime of the Ancient Mariner” was written by whom?",
+      "o": [
+        "William Wordsworth",
+        "Lord Byron",
+        "S. T. Coleridge",
+        "John Keats"
+      ],
+      "a": 2,
+      "e": "Samuel Taylor Coleridge wrote the poem, first published in 1798.",
+      "source": "Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_512",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "Which Shakespearean play features the characters Rosencrantz and Guildenstern?",
+      "o": [
+        "Macbeth",
+        "Hamlet",
+        "Othello",
+        "King Lear"
+      ],
+      "a": 1,
+      "e": "Rosencrantz and Guildenstern appear in Shakespeare's tragedy Hamlet.",
+      "source": "Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_513",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "Who wrote “A Tale of Two Cities”?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "George Orwell",
+        "H. G. Wells"
+      ],
+      "a": 0,
+      "e": "Charles Dickens published A Tale of Two Cities in 1859.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_514",
+      "batch": 13,
+      "c": "English Literature",
+      "q": "Which poet wrote “The Waste Land”?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Robert Frost"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot's The Waste Land was published in 1922.",
+      "source": "Modern poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_540",
+      "batch": 14,
+      "c": "English Literature",
+      "q": "Who wrote the play “The Importance of Being Earnest”?",
+      "o": [
+        "George Bernard Shaw",
+        "Oscar Wilde",
+        "William Shakespeare",
+        "J. M. Synge"
+      ],
+      "a": 1,
+      "e": "Oscar Wilde wrote the comedy The Importance of Being Earnest, first performed in 1895.",
+      "source": "Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_541",
+      "batch": 14,
+      "c": "English Literature",
+      "q": "Which novel was written by George Orwell?",
+      "o": [
+        "Brave New World",
+        "Nineteen Eighty-Four",
+        "The Trial",
+        "Lord Jim"
+      ],
+      "a": 1,
+      "e": "George Orwell wrote Nineteen Eighty-Four, published in 1949.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_542",
+      "batch": 14,
+      "c": "English Literature",
+      "q": "Who wrote “Gulliver’s Travels”?",
+      "o": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Henry Fielding",
+        "Samuel Richardson"
+      ],
+      "a": 1,
+      "e": "Jonathan Swift wrote Gulliver’s Travels, first published in 1726.",
+      "source": "Satire",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_543",
+      "batch": 14,
+      "c": "English Literature",
+      "q": "“The Raven” is a famous poem by which writer?",
+      "o": [
+        "Edgar Allan Poe",
+        "Walt Whitman",
+        "Robert Browning",
+        "William Blake"
+      ],
+      "a": 0,
+      "e": "Edgar Allan Poe published “The Raven” in 1845.",
+      "source": "Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_544",
+      "batch": 14,
+      "c": "English Literature",
+      "q": "Who is the author of “The Canterbury Tales”?",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Milton",
+        "William Langland",
+        "Thomas Malory"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote The Canterbury Tales; however, a question with this wording already exists in the bank.",
+      "source": "Medieval literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_581",
+      "batch": 15,
+      "c": "English Literature",
+      "q": "Who wrote the poem “Ode to a Nightingale”?",
+      "o": [
+        "John Keats",
+        "Percy Bysshe Shelley",
+        "William Wordsworth",
+        "Lord Byron"
+      ],
+      "a": 0,
+      "e": "John Keats wrote “Ode to a Nightingale” in 1819.",
+      "source": "Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_582",
+      "batch": 15,
+      "c": "English Literature",
+      "q": "Which writer created the fictional detective Sherlock Holmes?",
+      "o": [
+        "Agatha Christie",
+        "Arthur Conan Doyle",
+        "Wilkie Collins",
+        "G. K. Chesterton"
+      ],
+      "a": 1,
+      "e": "Sir Arthur Conan Doyle created Sherlock Holmes.",
+      "source": "Detective fiction",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_583",
+      "batch": 15,
+      "c": "English Literature",
+      "q": "Who wrote “Paradise Lost”?",
+      "o": [
+        "John Milton",
+        "Geoffrey Chaucer",
+        "Alexander Pope",
+        "John Dryden"
+      ],
+      "a": 0,
+      "e": "John Milton's epic poem Paradise Lost was first published in 1667.",
+      "source": "Epic poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_584",
+      "batch": 15,
+      "c": "English Literature",
+      "q": "Which novel begins with the line “Call me Ishmael”?",
+      "o": [
+        "Moby-Dick",
+        "Treasure Island",
+        "Robinson Crusoe",
+        "The Scarlet Letter"
+      ],
+      "a": 0,
+      "e": "“Call me Ishmael” is the famous opening of Herman Melville's Moby-Dick.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_618",
+      "batch": 16,
+      "c": "English Literature",
+      "q": "Who wrote the novel “Wuthering Heights”?",
+      "o": [
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "Anne Brontë",
+        "George Eliot"
+      ],
+      "a": 1,
+      "e": "Emily Brontë wrote Wuthering Heights, published in 1847.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_619",
+      "batch": 16,
+      "c": "English Literature",
+      "q": "Who wrote the play “Doctor Faustus”?",
+      "o": [
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "John Webster",
+        "Thomas Kyd"
+      ],
+      "a": 0,
+      "e": "Christopher Marlowe wrote The Tragical History of Doctor Faustus.",
+      "source": "Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_620",
+      "batch": 16,
+      "c": "English Literature",
+      "q": "Which poet is associated with the phrase “negative capability”?",
+      "o": [
+        "William Blake",
+        "John Keats",
+        "William Wordsworth",
+        "Alexander Pope"
+      ],
+      "a": 1,
+      "e": "John Keats used the term “negative capability” in a letter written in 1817.",
+      "source": "Literary criticism",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_621",
+      "batch": 16,
+      "c": "English Literature",
+      "q": "Who wrote “The Adventures of Tom Sawyer”?",
+      "o": [
+        "Mark Twain",
+        "Jack London",
+        "Herman Melville",
+        "Nathaniel Hawthorne"
+      ],
+      "a": 0,
+      "e": "Mark Twain wrote The Adventures of Tom Sawyer, published in 1876.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_622",
+      "batch": 16,
+      "c": "English Literature",
+      "q": "Who is the author of “The Divine Comedy”?",
+      "o": [
+        "Dante Alighieri",
+        "Petrarch",
+        "Giovanni Boccaccio",
+        "Virgil"
+      ],
+      "a": 0,
+      "e": "Dante Alighieri wrote the epic poem The Divine Comedy.",
+      "source": "Epic poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_655",
+      "batch": 17,
+      "c": "English Literature",
+      "q": "Who is the author of “Paradise Lost”?",
+      "o": [
+        "John Milton",
+        "Geoffrey Chaucer",
+        "John Donne",
+        "Edmund Spenser"
+      ],
+      "a": 0,
+      "e": "John Milton wrote the epic poem Paradise Lost, first published in 1667.",
+      "source": "Epic poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_657",
+      "batch": 17,
+      "c": "English Literature",
+      "q": "Who wrote “The Waste Land”?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Robert Frost"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot’s modernist poem The Waste Land was published in 1922.",
+      "source": "Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_690",
+      "batch": 18,
+      "c": "English Literature",
+      "q": "Which literary period is most closely associated with William Wordsworth and Samuel Taylor Coleridge?",
+      "o": [
+        "Neoclassical",
+        "Romantic",
+        "Victorian",
+        "Modernist"
+      ],
+      "a": 1,
+      "e": "Wordsworth and Coleridge are major figures of the English Romantic movement.",
+      "source": "Literary periods",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_691",
+      "batch": 18,
+      "c": "English Literature",
+      "q": "Who wrote the tragedy “Othello”?",
+      "o": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "John Milton",
+        "Ben Jonson"
+      ],
+      "a": 1,
+      "e": "Othello is one of William Shakespeare’s major tragedies.",
+      "source": "Drama",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_692",
+      "batch": 18,
+      "c": "English Literature",
+      "q": "Who wrote the novel “Great Expectations”?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "George Eliot",
+        "William Thackeray"
+      ],
+      "a": 0,
+      "e": "Charles Dickens wrote Great Expectations, first published in serial form in 1860–61.",
+      "source": "Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_722",
+      "batch": 19,
+      "c": "English Literature",
+      "q": "“Paradise Lost” is primarily written in which poetic form?",
+      "o": [
+        "Heroic couplets",
+        "Blank verse",
+        "Terza rima",
+        "Free verse"
+      ],
+      "a": 1,
+      "e": "John Milton composed “Paradise Lost” in unrhymed iambic pentameter, known as blank verse.",
+      "source": "Poetry",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_723",
+      "batch": 19,
+      "c": "English Literature",
+      "q": "Who is the author of “The Canterbury Tales”?",
+      "o": [
+        "Geoffrey Chaucer",
+        "John Milton",
+        "William Blake",
+        "Thomas Hardy"
+      ],
+      "a": 0,
+      "e": "Geoffrey Chaucer wrote “The Canterbury Tales” in Middle English.",
+      "source": "Medieval Literature",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_725",
+      "batch": 19,
+      "c": "English Literature",
+      "q": "Who wrote “A Tale of Two Cities”?",
+      "o": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "Daniel Defoe",
+        "Oscar Wilde"
+      ],
+      "a": 0,
+      "e": "Charles Dickens published “A Tale of Two Cities” in 1859.",
+      "source": "English Novel",
+      "sourceUrl": ""
+    },
+    {
+      "id": "extra_726",
+      "batch": 19,
+      "c": "English Literature",
+      "q": "“The Waste Land” was written by whom?",
+      "o": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Dylan Thomas"
+      ],
+      "a": 1,
+      "e": "T. S. Eliot’s modernist poem “The Waste Land” was published in 1922.",
+      "source": "Modern Poetry",
+      "sourceUrl": ""
+    }
+  ],
+  "source_snapshot": {
+    "app/src/main/assets/job-prep-expansion-11.js": "0b7c94e72a66e1d2f549397814baf48036dc5a60",
+    "app/src/main/assets/job-prep-expansion-12.js": "8df5c65a3d42754a603e40ba1a360d9fecc13d2d",
+    "app/src/main/assets/job-prep-expansion-13.js": "ee4e5e3eb46b8e827640ae5d9afbaab13aaac0fc",
+    "app/src/main/assets/job-prep-expansion-14.js": "ccc40f9b7e78d22566363e890c837536035141bc",
+    "app/src/main/assets/job-prep-expansion-15.js": "b72380b800a87202395614462aa3a0bfa6940158",
+    "app/src/main/assets/job-prep-expansion-16.js": "d092d98c393add343bab2fd5694f583b2996938b",
+    "app/src/main/assets/job-prep-expansion-17.js": "499794563e4d06660d869c7c3a837f1930065475",
+    "app/src/main/assets/job-prep-expansion-18.js": "2559b9e9a08e755bca9d9f6e70bcb179db8f1115",
+    "app/src/main/assets/job-prep-expansion-19.js": "1c840a6e056486b8fa6ecc569a6335a934785872",
+    "app/src/main/assets/job-prep-expansion-20.js": "272bb18e732f5d83901825a2838bcb5771f2fc64"
+  }
+}
