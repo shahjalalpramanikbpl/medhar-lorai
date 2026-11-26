@@ -244,23 +244,7 @@ window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
     "e": "তৃতীয় জাতিসংঘ মহাসাগর সম্মেলন ২০২৫ সালের জুনে ফ্রান্সের নিসে অনুষ্ঠিত হয়।",
     "source": "সমসাময়িক বিশ্ব — UN Ocean Conference 2025",
     "d": "মাঝারি"
-  },
-  {
-    "id": "extra_1722",
-    "c": "English Literature",
-    "q": "Who wrote the play ‘The Importance of Being Earnest’?",
-    "o": [
-      "George Bernard Shaw",
-      "Oscar Wilde",
-      "John Galsworthy",
-      "Samuel Beckett"
-    ],
-    "a": 1,
-    "e": "Oscar Wilde wrote this comedy of manners, first performed in 1895.",
-    "source": "English Literature — Drama",
-    "d": "সহজ"
-  },
-  {
+  },{
     "id": "extra_1723",
     "c": "English Literature",
     "q": "‘Paradise Lost’ is primarily written in which poetic form?",
@@ -274,23 +258,7 @@ window.EXTRA_JOB_QUESTIONS = (window.EXTRA_JOB_QUESTIONS || []).concat([
     "e": "John Milton composed Paradise Lost in unrhymed iambic pentameter, known as blank verse.",
     "source": "English Literature — Poetry",
     "d": "মাঝারি"
-  },
-  {
-    "id": "extra_1724",
-    "c": "English Literature",
-    "q": "Which novel begins with the famous line ‘Call me Ishmael’?",
-    "o": [
-      "Moby-Dick",
-      "The Old Man and the Sea",
-      "Treasure Island",
-      "Robinson Crusoe"
-    ],
-    "a": 0,
-    "e": "‘Call me Ishmael’ is the opening line of Herman Melville’s Moby-Dick.",
-    "source": "English Literature — Novel",
-    "d": "সহজ"
-  },
-  {
+  },{
     "id": "extra_1725",
     "c": "English Literature",
     "q": "Who is the author of ‘A Tale of Two Cities’?",
