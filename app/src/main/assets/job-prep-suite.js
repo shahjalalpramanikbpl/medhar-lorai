@@ -1377,16 +1377,34 @@ Q('সাম্প্রতিক ঘটনা ও সমসাময়িক জ�
 Q('বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান','স্বাধীন বাংলাদেশের প্রথম জাতীয় পতাকার নকশাকার কে?',['কামরুল হাসান','শিব নারায়ণ দাস','জয়নুল আবেদিন','হামিদুর রহমান'],1,'স্বাধীন বাংলাদেশের প্রথম জাতীয় পতাকার নকশা করেন শিব নারায়ণ দাস।','','','সহজ'),
 Q('যুক্তি ও বিশ্লেষণ','একটি পণ্যের ক্রয়মূল্য ৫০০ টাকা এবং বিক্রয়মূল্য ৬০০ টাকা হলে লাভের হার কত?',['১০%','১৫%','২০%','২৫%'],2,'লাভ = ৬০০−৫০০ = ১০০ টাকা; লাভের হার = (১০০÷৫০০)×১০০ = ২০%।','','','সহজ'),
 );
+window.JOB_PREP_RAW_BASE_BANK=bank.slice();
 
-// Legacy ML_CONTENT remains in the main quiz; only audited question masters enter Job Preparation.
-const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
-const auditedLegacyCategory={"বাংলা":"বাংলা ভাষা ও সাহিত্য","English":"English"};
-const auditedLegacyKeys=new Set(bank.map(q=>norm(q.c)+"|"+norm(q.q)+"|"+(q.o||[]).map(norm).sort().join("|")+"|"+norm((q.o||[])[q.a])));
-(window.ML_CONTENT?.questions||[]).forEach(q=>{
- const c=auditedLegacyCategory[q.c];if(!c||!q.q||!Array.isArray(q.o)||q.o.length!==4||!Number.isInteger(q.a))return;
- const key=norm(c)+"|"+norm(q.q)+"|"+q.o.map(norm).sort().join("|")+"|"+norm(q.o[q.a]);
- if(auditedLegacyKeys.has(key))return;
- auditedLegacyKeys.add(key);bank.push(Q(c,q.q,q.o,q.a,"সঠিক উত্তর: "+q.o[q.a]+".","","",q.d||"সহজ"));
+const mappedCategory={
+ 'বাংলাদেশ বিষয়াবলি':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'আন্তর্জাতিক বিষয়াবলি':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'আন্তর্জাতিক':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'সাধারণ জ্ঞান':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'ভূগোল':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'ইতিহাস':'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান',
+ 'বিজ্ঞান':'সাধারণ বিজ্ঞান',
+ 'পরিবেশ':'সাধারণ বিজ্ঞান',
+ 'প্রযুক্তি':'কম্পিউটার ও ICT',
+ 'সাহিত্য':'বাংলা ভাষা ও সাহিত্য'
+};
+const norm=s=>String(s||'').normalize('NFKC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
+const questionKey=(q,c=q.c)=>{
+ const category=c||q.c,raw=String(q.q||''),options=(q.o||[]).map(norm).sort().join('|'),answer=norm(q.o&&q.o[q.a]);
+ return norm(category)+'|'+norm(raw)+'|'+options+'|'+answer;
+}
+window.JOB_PREP_QUESTION_KEY=questionKey;
+const uniqueBankKeys=new Set(),uniqueBank=[];
+for(const q of bank){const k=norm(q.c)+'|'+questionKey(q,q.c);if(!uniqueBankKeys.has(k)){uniqueBankKeys.add(k);uniqueBank.push(q)}}
+bank.length=0;bank.push(...uniqueBank);
+const existingKeys=new Set(bank.map(q=>norm(q.c)+'|'+questionKey(q,q.c)));
+(window.ML_CONTENT?.questions||[]).forEach((q,i)=>{
+ const c=mappedCategory[q.c];if(!c||!Array.isArray(q.o)||q.o.length!==4)return;
+ const key=norm(c)+'|'+questionKey(q,c);if(existingKeys.has(key))return;existingKeys.add(key);
+ bank.push(Q(c,q.q,q.o,q.a,'সঠিক উত্তর: '+q.o[q.a]+'.','','',q.d||'সহজ'));
 });
 const englishQuizQuestions=bank.filter(q=>q.c==='English');
 if(window.ML_CONTENT?.questions){
