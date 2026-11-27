@@ -1,49 +1,117 @@
-# Battle of Brains Official Website — Project Plan
+# Battle of Brains — Official Website Specification & Execution Plan
 
-Date: 2026-11-27
+তারিখ: ২৭ নভেম্বর ২০২৬  
+প্রকল্প: **Battle of Brains — Official Website**  
+বাংলা নাম: **মেধার লড়াই**  
+ব্র্যান্ডিং: **Powered By SJP Technologies**
 
-## User-approved scope
-Create a free official website for the Android app “মেধার লড়াই (Battle of Brains)”, branded “Powered By SJP Technologies”.
+## ১. প্রকল্পের লক্ষ্য
+মেধার লড়াই Android অ্যাপের জন্য একটি সুন্দর, মোবাইল-উপযোগী অফিসিয়াল ওয়েবসাইট তৈরি করা। ওয়েবসাইটে সাধারণ দর্শক অ্যাপ সম্পর্কে জানতে ও APK ডাউনলোড করতে পারবেন; অনুমোদিত অ্যাডমিন আলাদা লগইন করে অ্যাপের সমর্থিত অনলাইন ডেটা ও কনটেন্ট পরিচালনা করবেন।
 
-## Public website
-- Responsive Bengali-first landing page for mobile and desktop.
-- App overview, key features, and the ten Job Preparation subjects.
-- Prominent APK download button pointing to the verified v3.3.1 release:
+## ২. সবার জন্য উন্মুক্ত ওয়েবসাইট
+
+### ২.১ হোমপেজ ও পরিচিতি
+- মেধার লড়াইয়ের আকর্ষণীয় হোমপেজ।
+- আসল অ্যাপের লোগো/ব্র্যান্ডিং ব্যবহার।
+- শিরোনাম: **Battle of Brains — Official Website**
+- ব্র্যান্ড লাইন: **Powered By SJP Technologies**
+- অ্যাপের উদ্দেশ্য ও সংক্ষিপ্ত পরিচিতি।
+
+### ২.২ অ্যাপের বৈশিষ্ট্য
+- অ্যাপের প্রধান ফিচারগুলোর পরিচিতি।
+- চাকরির প্রস্তুতির ১০টি বিষয়:
+  ১. বাংলা
+  ২. English
+  ৩. বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান
+  ৪. সাধারণ বিজ্ঞান
+  ৫. গণিত
+  ৬. কম্পিউটার ও ICT
+  ৭. মানসিক দক্ষতা ও IQ
+  ৮. English Literature
+  ৯. যুক্তি ও বিশ্লেষণ
+  ১০. সাম্প্রতিক ঘটনা
+- অ্যাপের আসল স্ক্রিনশট/ছবি ব্যবহার; কাল্পনিক UI বা ফিচার দেখানো যাবে না।
+
+### ২.৩ APK ডাউনলোড
+- বর্তমান **৩.৩.১ ভার্সনের** APK ডাউনলোড বাটন।
+- যাচাইকৃত ডাউনলোড ঠিকানা:
   https://github.com/shahjalalpramanikbpl/medhar-lorai/releases/download/app-v3.3.1/medhar-lorai-3.3.1.apk
-- Usage/rules, announcements, and contact section.
-- Use the actual user-provided app home-screen and promotional poster assets when available; do not invent app screenshots or redraw the SJP Technologies logo.
+- ডাউনলোডের আগে ভার্সন ও ইনস্টল-সংক্রান্ত সংক্ষিপ্ত নির্দেশনা।
 
-## Admin area
-- Separate authenticated admin sign-in.
-- Manage question bank: add, edit, delete, and review subject-wise counts.
-- Review users, online activity, and leaderboard.
-- Publish announcements and app update information.
-- Admin-only operations must be protected by Firebase Authentication and Firestore Security Rules / trusted backend checks. Never expose admin credentials or privileged service keys in browser code.
+### ২.৪ সহায়ক তথ্য
+- অ্যাপ ব্যবহারের নিয়ম।
+- যোগাযোগের ব্যবস্থা।
+- অ্যাপ আপডেট, নতুন ঘোষণা ও গুরুত্বপূর্ণ নোটিশ।
 
-## Free-first implementation constraints
-- No paid AI credits, paid hosting, paid domain, or paid promotion.
-- Prefer GitHub Pages for static public hosting and Firebase Spark/free-tier services where suitable.
-- Explain any free-tier quota, availability, or required user action honestly. Do not silently enable paid billing.
-- If a requested control cannot be safely or reliably implemented on the free tier, explain the limitation before claiming it is complete.
+## ৩. আলাদা অ্যাডমিন কন্ট্রোল প্যানেল
 
-## Integration and safety
-- Preserve the existing Android app, Firebase project, authentication, Firestore collections/rules, question banks, and current release.
-- Inspect existing repository and Firebase integration before changing anything.
-- Build the public website separately from the Android app source where practical.
-- Do not change Android app version or create a new APK unless explicitly requested.
-- Keep the user's Facebook promotion on hold until the website is complete, tested, and published.
+### ৩.১ নিরাপদ প্রবেশ
+- সাধারণ ওয়েবসাইট থেকে আলাদা অ্যাডমিন লগইন।
+- কেবল অনুমোদিত অ্যাডমিনই কন্ট্রোল প্যানেলে প্রবেশ করতে পারবেন।
+- অ্যাডমিন অনুমতি Firebase Authentication এবং উপযুক্ত Firestore Security Rules/বিশ্বস্ত backend দিয়ে যাচাই করতে হবে।
 
-## Work sequence
-1. Audit repository structure, current Firebase configuration/authentication, Firestore collections and security rules, and GitHub Pages availability.
-2. Create responsive public website with verified APK link and brand assets.
-3. Create separate admin login and protected dashboard.
-4. Connect only to existing Firebase services after verifying the current schema and permissions.
-5. Test public pages, download link, authentication, role enforcement, and admin actions.
-6. Publish the website using free hosting and provide the public URL.
-7. Only after successful publication, prepare Facebook promotion.
+### ৩.২ প্রশ্নব্যাংক ব্যবস্থাপনা
+- প্রশ্ন যোগ করা।
+- বিদ্যমান প্রশ্ন সংশোধন করা।
+- প্রশ্ন মুছে ফেলা।
+- বিষয়ভিত্তিক প্রশ্নসংখ্যা ও মোট প্রশ্নব্যাংকের হিসাব দেখা।
+- পরিবর্তনের আগে/পরে ডেটা যাচাই এবং ভুলে ডেটা হারানো ঠেকানোর ব্যবস্থা।
 
-## Working style requested by user
-- Work in clear, sequential checkpoints.
-- Be fast and result-oriented; avoid unnecessary detours and repeated questions.
-- Report exactly what is complete, what remains, and any genuine blocker.
-- Never claim deployment, integration, or testing succeeded until verified.
+### ৩.৩ ব্যবহারকারী ও কার্যক্রম
+- ব্যবহারকারীর তথ্য/তালিকা দেখা—যতটুকু বর্তমান Firebase ডেটা ও গোপনীয়তা নীতি অনুমোদন করে।
+- অনলাইন কার্যক্রম বা appPresence পর্যবেক্ষণ।
+- অপ্রয়োজনীয় ব্যক্তিগত তথ্য প্রকাশ নয়।
+
+### ৩.৪ লিডারবোর্ড
+- লিডারবোর্ড পর্যবেক্ষণ।
+- অনুমোদিত প্রয়োজনীয় নিয়ন্ত্রণ।
+- স্কোর/রেকর্ড পরিবর্তনের ক্ষমতা কেবল স্পষ্টভাবে অনুমোদিত ও নিরাপদ নীতির অধীনে।
+
+### ৩.৫ ঘোষণা ও আপডেট
+- অ্যাডমিন থেকে নতুন ঘোষণা প্রকাশ।
+- অ্যাপের নতুন ভার্সন ও আপডেট-সংক্রান্ত তথ্য প্রকাশ/সংশোধন।
+
+## ৪. Android অ্যাপ ও Firebase সংযোগ
+- বিদ্যমান Firebase প্রকল্প, Authentication, Firestore collections, rules এবং অ্যাপের বর্তমান কার্যপ্রণালী আগে পরীক্ষা করতে হবে।
+- ওয়েবসাইটের পরিবর্তন যেন বর্তমান Android অ্যাপ, প্রশ্নব্যাংক, লগইন, লিডারবোর্ড বা ব্যবহারকারীর ডেটা নষ্ট না করে।
+- ওয়েবসাইট থেকে কোনো নিয়ন্ত্রণ কার্যকর হবে কেবল সংশ্লিষ্ট অ্যাপ/Backend সেই ডেটা ব্যবহার করলে। প্রয়োজন হলে Android অ্যাপের সঙ্গে সামঞ্জস্যপূর্ণ ছোট কোড পরিবর্তন আলাদা করে পরিকল্পনা ও পরীক্ষা করতে হবে।
+- Firebase Admin SDK/service account secret কখনো browser-side JavaScript বা public repository-তে রাখা যাবে না।
+- অ্যাডমিন অধিকার শুধু লুকানো বাটন দিয়ে নয়, server-side/Firestore rules দিয়ে সুরক্ষিত করতে হবে।
+
+## ৫. বিনা খরচে বাস্তবায়নের শর্ত
+- ব্যবহারকারীর কাছ থেকে কোনো অর্থ নেওয়া হবে না; paid AI credits, paid domain, paid hosting বা paid promotion ব্যবহার করা হবে না।
+- Public static website-এর জন্য GitHub Pages অগ্রাধিকার।
+- Firebase-এর Spark/free tier-এর মধ্যে সম্ভব হলে বিদ্যমান Firebase ব্যবহার।
+- Free tier-এর সীমা, কোনো feature-এর অক্ষমতা বা অতিরিক্ত ব্যবহারজনিত সম্ভাব্য খরচ থাকলে আগে জানাতে হবে; ব্যবহারকারীর অনুমতি ছাড়া billing upgrade নয়।
+- সম্পূর্ণ বিনামূল্যে সম্ভব নয় এমন কোনো কাজকে বিনামূল্যে সম্পন্ন হয়েছে বলে দাবি করা যাবে না।
+
+## ৬. কাজের ধাপ ও যাচাই
+
+| ধাপ | কাজ | সম্পন্ন হওয়ার শর্ত |
+|---|---|---|
+| ১ | GitHub repository, Firebase config, Auth, Firestore collections/rules ও hosting পরীক্ষা | বর্তমান কাঠামো ও নিরাপত্তার লিখিত সংক্ষিপ্ত audit |
+| ২ | Public website তৈরি | মোবাইল/ডেস্কটপে হোমপেজ, ফিচার, ১০ বিষয়, নিয়ম, যোগাযোগ, ঘোষণা ও APK link ঠিকমতো কাজ |
+| ৩ | Admin login ও dashboard তৈরি | কেবল অনুমোদিত অ্যাডমিন প্রবেশ করতে পারেন |
+| ৪ | প্রশ্নব্যাংক, ব্যবহারকারী, presence, leaderboard, announcement সংযোগ | প্রতিটি কাজ বাস্তব ডেটায় পরীক্ষা; অননুমোদিত অ্যাক্সেস বন্ধ |
+| ৫ | Regression ও security পরীক্ষা | Android app-এর বিদ্যমান কাজ/ডেটা অক্ষত; public download link ও admin actions যাচাইকৃত |
+| ৬ | বিনামূল্যের hosting-এ প্রকাশ | কার্যকর public website URL প্রদান |
+| ৭ | Facebook প্রচারের প্রস্তুতি | ওয়েবসাইট প্রকাশ ও যাচাই শেষ হওয়ার পরই প্রচার শুরু |
+
+## ৭. অপরিবর্তনীয় নির্দেশনা
+- বর্তমান Android app version **৩.৩.১** অপরিবর্তিত থাকবে; ব্যবহারকারী আলাদা অনুমতি না দিলে নতুন APK/version তৈরি নয়।
+- বিদ্যমান Firebase project বা security rules-এ পরিবর্তনের আগে পূর্ণ audit ও backup/rollback পরিকল্পনা।
+- আসল SJP Technologies logo-ই ব্যবহার করতে হবে; logo পুনরায় আঁকা বা “Powered By” লেখার পরিবর্তন নয়।
+- ব্যবহারকারী ওয়েবসাইট প্রস্তুত, পরীক্ষা ও প্রকাশ না হওয়া পর্যন্ত Facebook প্রচার শুরু করবেন না।
+- কাজ ধাপে ধাপে, দ্রুত ও অপ্রয়োজনীয় ঘোরপ্যাঁচ ছাড়া করতে হবে।
+- প্রতিটি checkpoint-এ কী সম্পন্ন, কী বাকি এবং প্রকৃত বাধা কী—স্পষ্টভাবে জানাতে হবে।
+- পরীক্ষা বা deployment বাস্তবে সফল না হলে সফল হয়েছে বলে দাবি করা যাবে না।
+
+## ৮. বর্তমান অবস্থা
+- [x] প্রকল্পের পরিধি ও প্রয়োজনীয় ফিচার সাজানো।
+- [x] বিনামূল্যের hosting/সেবা ব্যবহারের নীতি নির্ধারণ।
+- [ ] Repository ও Firebase-এর পূর্ণ audit।
+- [ ] Public website।
+- [ ] Admin panel ও নিরাপদ permission।
+- [ ] Firebase integration ও পরীক্ষা।
+- [ ] Free hosting deployment।
+- [ ] Website live হওয়ার পর Facebook promotion।
