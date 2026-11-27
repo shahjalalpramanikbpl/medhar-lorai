@@ -194,3 +194,11 @@ Sources: UNFCCC COP31 official pages; United Nations COP31 closing update; UNEP/
 - মোট item-wise factual review **১২৫/১২৫ সম্পন্ন**। তবে ২০২৫ সালের কয়েকটি ঘটনা (বিশেষত ১২১–১২৫) এখন পুরোনো; freshness/replacement flag। পূর্ণ normalized question+option-set duplicate comparison এখনো final gate; তাই বিষয় **IN_PROGRESS / NOT LOCKED**। Runtime edit হয়নি।
 
 Sources: South African Government G20 Presidency; UN General Assembly 80th session/2025 calendar; Japan Cabinet Office Expo 2025; UNEP 2025 UN Ocean Conference; Brazilian Government/official COP30 pages.
+
+
+## Final normalized duplicate & structure audit — ২৭ নভেম্বর ২০২৬
+- Runtime source `job-prep-suite.js` থেকে exact category-এর ১২৫টি Q() record source-order-এ parse করা হয়েছে; ১২৫/১২৫ parse সফল। চারটি option, ০–৩ answer index, source URL এবং date field-এর structural scan-এ failure **০**।
+- Normalized signature: প্রশ্নের NFKC/whitespace-normalized text + চারটি option-এর normalized set (option order উপেক্ষা করে) মিলিয়ে সব ১২৫টির cross-record comparison। **Exact duplicate group ০; duplicate copy ০**। একই প্রশ্নের text কিন্তু ভিন্ন option set-ও পাওয়া যায়নি।
+- এই ফলাফল শুধু এই exact Recent Affairs category-এর ১২৫ record-এর মধ্যে; অন্য subject-এর সঙ্গে cross-category duplicate claim নয়।
+- Factual review ১২৫/১২৫ সম্পন্ন, কিন্তু **LOCK gate এখনো বন্ধ**: প্রায় ৩০টি স্থায়ী বার্ষিক দিবস/evergreen তথ্য সাম্প্রতিক ঘটনা হিসেবে অনুপযুক্ত; ২০২৫ সালের কিছু event ২০২৬ সালের শেষভাগে stale; এবং আগের checkpoint-এ flag করা Q35 explanation, Q60 date option, Q93 wording-এর runtime correction এখনো প্রয়োগ হয়নি। ব্যবহারকারীর অনুমতি ছাড়া প্রশ্ন মুছে/অন্য category-তে সরানো হয়নি। তাই **IN_PROGRESS / NOT LOCKED** রাখা হলো।
+- Runtime source অপরিবর্তিত: SHA `d8ce4584068188bb6e3f79e67631d6e778d4b731`।
