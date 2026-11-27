@@ -202,3 +202,15 @@ Sources: South African Government G20 Presidency; UN General Assembly 80th sessi
 - এই ফলাফল শুধু এই exact Recent Affairs category-এর ১২৫ record-এর মধ্যে; অন্য subject-এর সঙ্গে cross-category duplicate claim নয়।
 - Factual review ১২৫/১২৫ সম্পন্ন, কিন্তু **LOCK gate এখনো বন্ধ**: প্রায় ৩০টি স্থায়ী বার্ষিক দিবস/evergreen তথ্য সাম্প্রতিক ঘটনা হিসেবে অনুপযুক্ত; ২০২৫ সালের কিছু event ২০২৬ সালের শেষভাগে stale; এবং আগের checkpoint-এ flag করা Q35 explanation, Q60 date option, Q93 wording-এর runtime correction এখনো প্রয়োগ হয়নি। ব্যবহারকারীর অনুমতি ছাড়া প্রশ্ন মুছে/অন্য category-তে সরানো হয়নি। তাই **IN_PROGRESS / NOT LOCKED** রাখা হলো।
 - Runtime source অপরিবর্তিত: SHA `d8ce4584068188bb6e3f79e67631d6e778d4b731`।
+
+
+## 🔒 চূড়ান্ত সমাপ্তি — সাম্প্রতিক ঘটনা (২৭ নভেম্বর ২০২৬)
+- পূর্বের ১২৫টি প্রশ্নের item-wise fact-check সম্পন্ন করে পুরোনো/অনুপযুক্ত অংশ হালনাগাদ করা হয়েছে। **৩০টি স্থায়ী বার্ষিক দিবস/evergreen প্রশ্ন** এবং **২০২৫ সালের ২৯টি পুরোনো event প্রশ্ন** বাদ দিয়ে ২০২৬ সালের যাচাইকৃত বাংলাদেশ ও আন্তর্জাতিক ঘটনা দিয়ে প্রতিস্থাপন করা হয়েছে; মোট **৫৯টি প্রশ্ন প্রতিস্থাপন**।
+- নতুন/হালনাগাদ বিষয়গুলোর মধ্যে রয়েছে: ২০২৬ সালের ২৬তম মন্ত্রিসভা বৈঠক ও অনুমোদিত আইন, ২০২৭ ছুটির প্রস্তাব, FDI প্রণোদনা নীতিমালা, সংসদীয় কমিটির সভা, GDP rebasing FY2026, তৈরি পোশাকশ্রমিকদের নতুন মজুরি, COP31, ২০২৬ Nobel laureates এবং সংসদে জানানো শিক্ষক-শূন্যপদের তথ্য।
+- পূর্বের নির্দিষ্ট সংশোধন: Q35 COP31-এর প্রকৃত সমাপ্তি ২২ নভেম্বর ও চুক্তিতে ঐকমত্য না হওয়ার ব্যাখ্যা; Q60 UNGA High-Level Week ২২–২৮ সেপ্টেম্বর; Q93 GDP লক্ষ্যমাত্রার তুলনা FY2025–26-এর ৫.৫% বনাম FY2026–27-এর ৬.৫%—সংশোধিত।
+- পূর্ণ runtime audit: exact category **১২৫টি** Q() record; সবগুলোতে ৪টি option, বৈধ answer index (০–৩), source URL ও date field আছে। Structural failure **০**। normalized question + option-set signature (option order উপেক্ষা করে) দিয়ে ১২৫টির পূর্ণ cross-check: exact duplicate group **০**, duplicate copy **০**।
+- পুরোনো ২০২৫ event/বার্ষিক দিবস প্রশ্ন আর রাখা হয়নি। সব ১২৫টি প্রশ্নের runtime source update সম্পন্ন এবং নিচের source SHA-তে যাচাই করা হয়েছে।
+- Runtime source blob SHA: `d486a2c6b2f63a3bd2cf8df9789e5dfe6e55f6e6`।
+- **STATUS: 🔒 LOCKED — সাম্প্রতিক ঘটনা: ১২৫টি প্রশ্ন।**
+
+Sources used for refreshed items: Bangladesh Government Press November 2026 gazette; Bangladesh Parliament press releases; BSS 2 and 18 November reports; TBS 11 November GDP rebasing report; Reuters 25 November garment wage report; UNFCCC/COP31 coverage; Nobel Prize 2026 schedule and Karolinska Institutet/AP reports.
