@@ -26,3 +26,14 @@
 5. সংশোধন/duplicate removal শেষে master ও runtime count reconcile করে final LOCK।
 
 **এই প্রতিবেদন শুধু structural inventory checkpoint; factual audit বা LOCK-এর দাবি নয়।**
+
+## Checkpoint 01–10 — item-wise factual check (২৭ নভেম্বর ২০২৬)
+প্রথম ১০টি source-order প্রশ্নের তথ্য, উত্তরসূচি ও ব্যাখ্যা সরকারি গেজেট/BSS-এর সঙ্গে মিলিয়ে দেখা হয়েছে:
+- ১: আনোয়ার ইব্রাহিমের সফর ৭–৮ ডিসেম্বর ২০২৬ — সরকারি গেজেটে নিশ্চিত।
+- ২–৫: ২০২৬ সনের ১১১–১১৪ নম্বর আইন ও নাম — ২২ নভেম্বরের সরকারি গেজেটের তালিকার সঙ্গে নিশ্চিত।
+- ৬–৯: মাধ্যমিক/কারিগরি শিক্ষাপ্রতিষ্ঠানের শিক্ষক শূন্যপদ, পূরণকৃত পদ — ১৮ নভেম্বরের সংসদীয় তথ্য ও BSS প্রতিবেদনের সঙ্গে নিশ্চিত।
+- ১০: ৫০তম BCS-এর মৌখিক পরীক্ষা সম্পন্ন — BSS প্রতিবেদনে নিশ্চিত।
+- এই ১০টি প্রশ্নে ভুল answer index শনাক্ত হয়নি। একই গেজেট বা সংসদীয় প্রতিবেদনের একাধিক পৃথক পরিসংখ্যান/আইন নিয়ে প্রশ্ন আছে; প্রশ্ন ও option set হুবহু এক নয় বলে exact-copy নীতিতে রাখা হয়েছে।
+- Checkpoint 01–10 factual check: **10/10 verified**. পরবর্তী ১১–২০ checkpoint বাকি; তাই subject এখনো **IN_PROGRESS / NOT LOCKED**।
+
+Sources: Bangladesh Government Press extraordinary gazette (22-Nov-2026), BSS JS Session report (18-Nov-2026).
