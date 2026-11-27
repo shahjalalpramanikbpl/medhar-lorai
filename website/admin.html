@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#07162e"><title>Admin Portal | Battle of Brains</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#07162e,#132f50);color:#f6f9ff;font-family:system-ui,'Noto Sans Bengali',sans-serif;min-height:100vh}.wrap{width:min(1050px,94%);margin:auto;padding:28px 0}.card{background:#102945;border:1px solid #365a7c;border-radius:18px;padding:22px;box-shadow:0 14px 35px #0005;margin:16px 0}h1{margin:0 0 8px;font-size:28px}h2{font-size:21px;margin:0 0 14px}.muted{color:#b9cce0}label{display:block;margin:13px 0 5px}input{width:100%;padding:13px;border-radius:10px;border:1px solid #557493;background:#071a30;color:white;font-size:16px}button{border:0;border-radius:10px;padding:12px 17px;font-weight:800;background:#f2c66b;color:#17243a;margin:12px 8px 0 0}button.secondary{background:#365775;color:#fff}.hidden{display:none!important}.status{padding:12px;border-radius:10px;background:#071b30;color:#bfe9df;margin-top:12px;overflow-wrap:anywhere}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat{background:#183959;padding:17px;border-radius:14px}.stat b{display:block;font-size:26px;color:#f5d38c}.stat span{font-size:13px;color:#c3d5e8}table{width:100%;border-collapse:collapse;font-size:14px}td,th{text-align:left;padding:10px;border-bottom:1px solid #34516e;overflow-wrap:anywhere}th{color:#f5d38c}.tablewrap{overflow:auto}.bar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.danger{color:#ffb6b6}@media(max-width:650px){.stats{grid-template-columns:repeat(2,1fr)}.card{padding:16px}}
+</style></head><body><main class="wrap">
+<header class="bar"><div><div class="muted">BATTLE OF BRAINS · SECURE AREA</div><h1>মেধার লড়াই — অ্যাডমিন প্যানেল</h1></div><a href="./" class="muted">← ওয়েবসাইটে ফিরুন</a></header>
+<section id="login" class="card"><h2>অ্যাডমিন লগইন</h2><p class="muted">শুধু নির্ধারিত Firebase অ্যাডমিন অ্যাকাউন্ট প্রবেশ করতে পারবে। পাসওয়ার্ড এই সাইটে সংরক্ষণ করা হয় না।</p><label for="email">অ্যাডমিন ইমেইল</label><input id="email" type="email" autocomplete="username" placeholder="Email"><label for="password">পাসওয়ার্ড</label><input id="password" type="password" autocomplete="current-password" placeholder="Firebase password"><button id="loginBtn">নিরাপদ লগইন</button><div id="loginStatus" class="status" aria-live="polite">Firebase Authentication-এর মাধ্যমে যাচাই হবে।</div></section>
+<section id="dashboard" class="hidden">
+<div class="card bar"><div><h2>অ্যাডমিন ড্যাশবোর্ড</h2><div id="who" class="muted"></div></div><button id="logout" class="secondary">লগআউট</button></div>
+<div class="stats"><div class="stat"><b id="qcount">—</b><span>কেন্দ্রীয় প্রশ্ন</span></div><div class="stat"><b id="installs">—</b><span>ইনস্টল রেকর্ড</span></div><div class="stat"><b id="users">—</b><span>নিবন্ধিত ব্যবহারকারী</span></div><div class="stat"><b id="online">—</b><span>সাম্প্রতিক অনলাইন</span></div></div>
+<div class="card"><div class="bar"><h2>লিডারবোর্ড</h2><button id="refresh">তথ্য রিফ্রেশ</button></div><div class="tablewrap"><table><thead><tr><th>#</th><th>নাম</th><th>পয়েন্ট</th><th>লেভেল</th></tr></thead><tbody id="board"></tbody></table></div><div id="dashStatus" class="status">ডেটা লোড হচ্ছে…</div></div>
+<div class="card"><h2>প্রশ্নব্যাংক</h2><p class="muted">কেন্দ্রীয় প্রশ্নব্যাংকের প্রকাশিত মেটাডেটা এবং বিষয়ভিত্তিক সারাংশ দেখানো হবে। প্রশ্ন সম্পাদনা/প্রকাশের বাটন এই পোর্টালে এখনো সক্রিয় করা হয়নি; Firebase-এর লাইভ মালিকানা ও Rules পুনরায় যাচাই না করে কোনো ডেটা পরিবর্তন করা হবে না।</p><div id="subjects" class="tablewrap"></div></div>
+<div class="card"><h2>নিরাপত্তা অবস্থা</h2><p id="security" class="muted">Firebase UID যাচাই করা হয়েছে। Firestore Rules প্রতিটি অনুরোধে আবার অনুমতি যাচাই করে।</p></div>
+</section>
+</main>
+<script src="../app/src/main/assets/firebase-config.js"></script>
+<script>
+'use strict';
+const OWNER_UID='TIEU9BdlVFcj2LzwoGKI2BOd2tR2';
+const $=id=>document.getElementById(id);
+let session=null;
+const config=window.ML_FIREBASE_CONFIG||{};
+function showLogin(msg){$('login').classList.remove('hidden');$('dashboard').classList.add('hidden');$('loginStatus').textContent=msg||'Firebase Authentication-এর মাধ্যমে যাচাই হবে।'}
+function showDash(){ $('login').classList.add('hidden');$('dashboard').classList.remove('hidden');$('who').textContent='অনুমোদিত অ্যাডমিন UID: '+session.uid+' · '+(session.email||'');}
+async function authLogin(){
+ const email=$('email').value.trim(),password=$('password').value;
+ if(!email||!password){$('loginStatus').textContent='ইমেইল ও পাসওয়ার্ড দিন।';return}
+ $('loginBtn').disabled=true;$('loginStatus').textContent='Firebase যাচাই চলছে…';
+ try{
+  const r=await fetch('https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key='+encodeURIComponent(config.apiKey),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,password,returnSecureToken:true})});
+  const d=await r.json();if(!r.ok)throw Error(d.error?.message||'LOGIN_FAILED');
+  if(d.localId!==OWNER_UID)throw Error('এই অ্যাকাউন্টটি অ্যাডমিন হিসেবে অনুমোদিত নয়।');
+  session={uid:d.localId,email:d.email,idToken:d.idToken,refreshToken:d.refreshToken,expiresAt:Date.now()+Number(d.expiresIn||3600)*1000};
+  sessionStorage.setItem('ml_admin_session',JSON.stringify(session));showDash();await loadDashboard();
+ }catch(e){session=null;sessionStorage.removeItem('ml_admin_session');showLogin('লগইন ব্যর্থ: '+e.message)}
+ finally{$('loginBtn').disabled=false}
+}
+async function token(){
+ if(!session)throw Error('সেশন নেই');
+ if(session.expiresAt>Date.now()+60000)return session.idToken;
+ const r=await fetch('https://securetoken.googleapis.com/v1/token?key='+encodeURIComponent(config.apiKey),{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'grant_type=refresh_token&refresh_token='+encodeURIComponent(session.refreshToken)});
+ const d=await r.json();if(!r.ok)throw Error(d.error?.message||'TOKEN_REFRESH_FAILED');
+ session.idToken=d.id_token;session.refreshToken=d.refresh_token;session.expiresAt=Date.now()+Number(d.expires_in||3600)*1000;sessionStorage.setItem('ml_admin_session',JSON.stringify(session));return session.idToken;
+}
+async function db(path,publicRead=false){
+ const h=publicRead?{}:{Authorization:'Bearer '+await token()};
+ const r=await fetch('https://firestore.googleapis.com/v1/projects/'+encodeURIComponent(config.projectId)+'/databases/(default)/documents/'+path,{headers:h});
+ const d=await r.json();if(!r.ok)throw Error(d.error?.message||'FIRESTORE_READ_FAILED');return d;
+}
+async function allDocs(collection){let page='',out=[];do{const d=await db(collection+'?pageSize=1000'+(page?'&pageToken='+encodeURIComponent(page):''));out.push(...(d.documents||[]));page=d.nextPageToken||'';}while(page&&out.length<50000);return out;}
+function value(f,k){return f?.[k]?.stringValue??f?.[k]?.integerValue??f?.[k]?.doubleValue??''}
+async function loadDashboard(){
+ $('dashStatus').textContent='Firebase থেকে তথ্য আনা হচ্ছে…';
+ try{
+  const [meta,installs,users,presence,board]=await Promise.all([
+   db('publicQuestionBank/meta',true).catch(()=>null),allDocs('appInstalls'),allDocs('registeredUsers'),allDocs('appPresence'),db('leaderboard?pageSize=50&orderBy=points%20desc',true).catch(()=>({documents:[]}))
+  ]);
+  const count=Number(value(meta?.fields,'count')||0),chunks=Number(value(meta?.fields,'chunks')||0);
+  $('qcount').textContent=count.toLocaleString('bn-BD');$('installs').textContent=installs.length.toLocaleString('bn-BD');$('users').textContent=users.length.toLocaleString('bn-BD');
+  const cutoff=Date.now()-120000,online=presence.filter(x=>Date.parse(x.fields?.lastSeen?.timestampValue||'')>=cutoff).length;$('online').textContent=online.toLocaleString('bn-BD');
+  $('board').innerHTML=(board.documents||[]).map((d,i)=>'<tr><td>'+(i+1)+'</td><td>'+String(value(d.fields,'displayName')||'খেলোয়াড়').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))+'</td><td>'+value(d.fields,'points')+'</td><td>'+value(d.fields,'level')+'</td></tr>').join('')||'<tr><td colspan="4">এখনো কোনো রেকর্ড নেই।</td></tr>';
+  let rows='<p class="muted">কেন্দ্রীয় প্রশ্নব্যাংক: '+count.toLocaleString('bn-BD')+' প্রশ্ন · '+chunks.toLocaleString('bn-BD')+'টি chunk</p>';
+  if(meta?.fields?.format?.stringValue!=='medhar-lorai-central-bank-v1')rows='<p class="danger">কেন্দ্রীয় প্রশ্নব্যাংকের meta ডেটা পাওয়া যায়নি বা format মেলেনি।</p>';
+  $('subjects').innerHTML=rows;
+  $('dashStatus').textContent='সফলভাবে তথ্য আনা হয়েছে। অনলাইন গণনা ২ মিনিটের heartbeat ধরে করা হয়েছে।';
+ }catch(e){$('dashStatus').textContent='তথ্য আনা যায়নি: '+e.message+' — Firestore Rules/অ্যাডমিন অনুমতি যাচাই প্রয়োজন।'}
+}
+$('loginBtn').onclick=authLogin;$('password').addEventListener('keydown',e=>{if(e.key==='Enter')authLogin()});$('refresh').onclick=loadDashboard;
+$('logout').onclick=()=>{session=null;sessionStorage.removeItem('ml_admin_session');showLogin('নিরাপদভাবে লগআউট করা হয়েছে।')};
+try{const saved=JSON.parse(sessionStorage.getItem('ml_admin_session')||'null');if(saved?.uid===OWNER_UID&&saved?.idToken&&saved.expiresAt>Date.now()){session=saved;showDash();loadDashboard()}else showLogin()}catch(e){showLogin()}
+</script></body></html>
