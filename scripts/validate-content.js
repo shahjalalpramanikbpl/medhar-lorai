@@ -85,7 +85,10 @@ if (bengaliSubjectQuestions.length !== 406) errors.push("Locked Bengali subject 
 if (englishGrammar.length !== 463) errors.push("Locked English grammar/vocabulary bank must remain exactly 463 questions.");
 if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank must contain at least 50 questions.");
 if (new Set(englishGrammar.map(questionSignature)).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains exact duplicate questions.");
-if (new Set(subjectBank.map(questionSignature)).size !== subjectBank.length) errors.push("Subject bank contains exact duplicate questions.");
+const subjectSignatureGroups = new Map();
+for (const x of subjectBank) { const key = questionSignature(x); if (!subjectSignatureGroups.has(key)) subjectSignatureGroups.set(key, []); subjectSignatureGroups.get(key).push({id:x.id,c:x.c,q:x.q}); }
+const duplicateSubjectGroups = [...subjectSignatureGroups.values()].filter(group => group.length > 1);
+if (duplicateSubjectGroups.length) { errors.push("Subject bank contains exact duplicate questions: " + duplicateSubjectGroups.length + " groups."); console.error("Exact duplicate subject groups:", JSON.stringify(duplicateSubjectGroups.slice(0,30))); }
 if (subjectBank.length < 480 || subjectNames.size < 9) errors.push("Subject bank must contain at least 480 questions across 9 non-math sections.");
 // All audited non-math sections must retain at least 125 questions; exact LOCKED counts are checked after quantitative classification.
 for (const name of subjectNames) { const count = subjectBank.filter(x => x.c === name).length; if (count < 125) errors.push("Audited subject " + name + " has fewer than 125 questions: " + count + "."); }
