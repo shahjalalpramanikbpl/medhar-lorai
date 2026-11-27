@@ -113,3 +113,22 @@ source-order records ৪১–৫০-এর প্রশ্ন, তারিখ,
 - Checkpoint 41–50: **১০টি item reviewed**। মোট source-order item-wise review: **৫০/১২৫**। Subject **IN_PROGRESS / NOT LOCKED**।
 
 Source: United Nations, *2026 Calendar of Selected United Nations Events* — https://www.un.org/en/node/238917
+
+
+## Checkpoint 51–60 — item-wise factual check (২৭ নভেম্বর ২০২৬)
+source-order records ৫১–৬০-এর প্রশ্ন, option, answer index, ব্যাখ্যা, date ও cited source যাচাই:
+- ৫১: World Refugee Day ২০ জুন—তারিখ সঠিক; তবে এটি প্রতি বছরের স্থায়ী আন্তর্জাতিক দিবস, সাম্প্রতিক ঘটনা নয়। **Reclassify/replace flag**।
+- ৫২: FY2026–27 জাতীয় বাজেটের আকার ৯.৩৮ লাখ কোটি টাকা—সঠিক।
+- ৫৩: বাজেট পাস ৩০ জুন ২০২৬—সঠিক।
+- ৫৪: অর্থমন্ত্রী আমির খসরু মাহমুদ চৌধুরী ১১ জুন বাজেট প্রস্তাব উপস্থাপন করেন—সঠিক।
+- ৫৫: GDP প্রবৃদ্ধির লক্ষ্য ৬.৫%—সঠিক।
+- ৫৬: মূল্যস্ফীতি কমানোর লক্ষ্য ৭.৫%—সঠিক।
+- ৫৭: রাজস্ব আয়ের লক্ষ্যমাত্রা ৬.৯৫ লাখ কোটি টাকা—সঠিক; ৩০ জুনের চূড়ান্ত বাজেট প্রতিবেদন দিয়ে যাচাই।
+- ৫৮: ADP ৩ লাখ কোটি টাকা—সঠিক।
+- ৫৯: ব্যক্তিগত করদাতার করমুক্ত আয়সীমা ৪ লাখ টাকা—Finance Bill-এর সংশোধনীসহ চূড়ান্ত অনুমোদনের পর সঠিক; প্রাথমিক বাজেট প্রস্তাবে ৩.৭৫ লাখ ছিল।
+- ৬০: UNGA High-Level Week-এর প্রশ্নে উত্তর ২১–২৮ সেপ্টেম্বর দেওয়া হয়েছে; UN-এর ২০২৬ ক্যালেন্ডার অনুযায়ী সময়সীমা **২২–২৮ সেপ্টেম্বর**। তাই প্রশ্নের option-এ তারিখ ভুল; সঠিক option **২২–২৮ সেপ্টেম্বর** দিয়ে প্রতিস্থাপন এবং ব্যাখ্যা সংশোধন প্রয়োজন। বর্তমান answer index-কে সঠিক বলা যাবে না যতক্ষণ option সংশোধিত না হয়।
+- ৫২–৫৯-এর আটটি বাজেট-প্রশ্নে তথ্য ও উত্তর সঠিক; একই বাজেট উৎস ব্যবহৃত হলেও প্রশ্ন/option set আলাদা, তাই exact-copy duplicate নয়।
+- Checkpoint 51–60: ১০টি item reviewed; ৫১ reclassify/replace flag, ৬০ factual option/date correction। মোট source-order item-wise review: **৬০/১২৫**।
+- Source inventory-তে এখনও ১২৫টি record রয়েছে; অতএব ৫১–৬০-কে শেষ batch বলা যাবে না। ৬১–১২৫-এর ৬৫টি record এখনও item-wise audit বাকি। পূর্ণ normalized question+option-set master comparison-ও pending। Subject **IN_PROGRESS / NOT LOCKED**।
+
+Sources: BSS FY27 budget highlights; bdnews24.com final budget approval report (30-Jun-2026); The Business Standard final budget details (30-Jun-2026); Bangladesh NBR FY2026–27 budget speech; United Nations 2026 calendar and 81st UNGA schedule.
