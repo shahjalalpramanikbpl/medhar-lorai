@@ -968,3 +968,43 @@
 - **১২৫টি প্রশ্ন চূড়ান্ত**। ৩০টি বার্ষিক দিবস/evergreen ও ২০২৫ সালের ২৯টি পুরোনো event প্রশ্ন বাদ দিয়ে ২০২৬ সালের যাচাইকৃত ঘটনা দিয়ে মোট ৫৯টি প্রশ্ন প্রতিস্থাপন করা হয়েছে। Q35, Q60, Q93 সংশোধিত।
 - ১২৫/১২৫ structural PASS: ৪টি option, বৈধ answer index, source URL/date; structural error ০। normalized question+option-set comparison: exact duplicate ০, duplicate copy ০।
 - Runtime source SHA: `d486a2c6b2f63a3bd2cf8df9789e5dfe6e55f6e6`। **🔒 LOCKED**। বিস্তারিত `RECENT_AFFAIRS_AUDIT_PROGRESS.md`-এ।
+
+
+---
+
+## 🔒 চূড়ান্ত অ্যাপ-ইন্টিগ্রেশন সমন্বয় — ২৭ নভেম্বর ২০২৬
+
+আগের অন্তর্বর্তী runtime সংখ্যার পরিবর্তে নিচের সমন্বিত, ডুপ্লিকেট-মুক্ত হিসাবই অ্যাপের চূড়ান্ত প্রশ্নব্যাংক হিসেবে প্রযোজ্য।
+
+### ১০টি মূল বিষয়
+| বিষয় | চূড়ান্ত ইউনিক প্রশ্ন |
+|---|---:|
+| বাংলা | ৪০৬ |
+| English | ৪৬৩ |
+| বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান | ২৩১ |
+| সাধারণ বিজ্ঞান | ২৪৮ |
+| গণিত | ৩০০ (৩০ লেভেল; আলাদা Math bank) |
+| কম্পিউটার ও ICT | ১৮৯ |
+| মানসিক দক্ষতা ও IQ | ১৫৫ |
+| English Literature | ২৮৫ |
+| যুক্তি ও বিশ্লেষণ | ২৫২ |
+| সাম্প্রতিক ঘটনা | ১২৫ |
+
+**আলাদা পরিমাণগত দক্ষতা অনুশীলন:** ১৮৮টি — IQ master থেকে ১৪৪ এবং Reasoning master থেকে ৪৪টি। এগুলো সংশ্লিষ্ট master-এর ভেতর থেকে আলাদা practice category-তে শ্রেণিবদ্ধ; আলাদা করে দ্বিগুণ গণনা করা হয়নি।
+
+### চূড়ান্ত ডুপ্লিকেট সমন্বয়
+- GK base ও expansion master তুলনায় ৫টি হুবহু একই প্রশ্নের অতিরিক্ত কপি বাদ; base কপি রাখা হয়েছে।
+- IQ master-এ ২টি হুবহু একই ঘড়ির-কোণ প্রশ্নের অতিরিক্ত কপি বাদ; প্রথম/base কপি রাখা হয়েছে।
+- মোট অতিরিক্ত কপি বাদ: **৭টি**।
+- একই তথ্যের ভিন্ন প্রশ্ন বা ভিন্ন option set বাদ দেওয়া হয়নি।
+
+### অ্যাপে সংযুক্ত চূড়ান্ত হিসাব
+- Job Preparation runtime bank: **২,৫৪২টি ইউনিক প্রশ্ন** (পরিমাণগত অনুশীলনসহ)।
+- Math bank: **৩০০টি**।
+- সম্মিলিত ইউনিক কনটেন্ট: **২,৮৪২টি**।
+- job-prep-locked-masters.js-এ চূড়ান্ত audited master সংযুক্ত; পুরোনো সাধারণ কুইজ ব্যাংক মূল Quiz-এর জন্য অক্ষত রাখা হয়েছে।
+- Content validation: PASS; legacy/Firebase regression: PASS; release UI smoke checks: **২৪/২৪ PASS**।
+- একই অ্যাপ ও package com.medhar.lorai বজায়; শুধু আপডেট ইনস্টল সমর্থনে versionCode 25, versionName 3.3.1। বিদ্যমান signing configuration বজায়।
+- এই ধাপে হোমপেজ/ব্যাকগ্রাউন্ডের নতুন visual redesign করা হয়নি।
+
+**অবস্থা: ১০টি বিষয় ও audited master integration LOCKED; signed release APK build-এর জন্য প্রস্তুত।**
