@@ -208,10 +208,10 @@ else {
   const lockedCounts = {
     "বাংলা ভাষা ও সাহিত্য": 406,
     "English": 463,
-    "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান": 236,
+    "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান": 231,
     "সাধারণ বিজ্ঞান": 248,
     "কম্পিউটার ও ICT": 189,
-    "মানসিক দক্ষতা ও IQ": 157,
+    "মানসিক দক্ষতা ও IQ": 155,
     "English Literature": 285,
     "যুক্তি ও বিশ্লেষণ": 252,
     "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান": 125,
@@ -221,7 +221,7 @@ else {
     const actual = subjectBank.filter(x => x.c === name).length;
     if (actual !== expected) errors.push("LOCKED subject " + name + " must contain " + expected + " questions; found " + actual + ".");
   }
-  if (subjectBank.length !== 2549) errors.push("Audited non-math runtime bank must contain exactly 2,549 records; found " + subjectBank.length + ".");
-  console.log("Locked non-math master total:", subjectBank.length, "| Math levels:", math.length, "| Combined content:", subjectBank.length + math.length);
+  if (subjectBank.length !== 2542) errors.push("Audited non-math runtime bank must contain exactly 2,542 unique records; found " + subjectBank.length + ".");
+  console.log("Locked non-math master total:", subjectBank.length, "| Math levels:", math.length, "| Combined content:", subjectBank.length + math.length, "| exact duplicate copies removed:", sandbox.window.JOB_PREP_LOCKED_DUPLICATE_COPIES_REMOVED);
 }
 if (errors.length) { console.error(errors.slice(0, 50).join("\n")); process.exit(1); }
