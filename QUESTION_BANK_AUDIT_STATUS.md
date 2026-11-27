@@ -893,7 +893,7 @@
 
 ## ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: অডিট অগ্রগতি (২৭ নভেম্বর ২০২৬)
 - পূর্ণ runtime scan-এ exact category `সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান`-এর **১২৫টি** Q() record পাওয়া গেছে; আগের ১৫০ সংখ্যাটি ভুল গণনা হিসেবে সংশোধিত।
-- প্রথম ৩০টি source-order record item-wise review হয়েছে: ৩০টি উত্তর যাচাইকৃত; ২৩–২৪ evergreen প্রশ্ন হওয়ায় reclassify/replace flag, runtime edit এখনো হয়নি।
+- প্রথম ৪০টি source-order record item-wise review হয়েছে: ৩১–৪০-এর সব তথ্য যাচাই; ৩৫ নম্বরের ব্যাখ্যা সংশোধন এবং ৪০ নম্বর evergreen দিবসের তথ্য হওয়ায় reclassify/replace flag। runtime edit এখনো হয়নি।
 - পূর্ণ normalized question+option-set duplicate comparison ও বাকি ৯৫টির factual review বাকি। **IN_PROGRESS / NOT LOCKED**।
 - বিস্তারিত: `RECENT_AFFAIRS_AUDIT_PROGRESS.md`।
 
