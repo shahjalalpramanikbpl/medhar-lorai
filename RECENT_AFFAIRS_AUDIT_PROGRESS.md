@@ -147,3 +147,12 @@ Sources: BSS FY27 budget highlights; bdnews24.com final budget approval report (
 - Q75–80: ২০২৫ সালের পদার্থ, রসায়ন, চিকিৎসা, অর্থনীতি নোবেলজয়ী এবং রসায়ন/পদার্থ পুরস্কারের স্বীকৃতির বিষয়—সবই Nobel Prize-এর official 2025 তালিকার সঙ্গে মিলে গেছে; ভুল answer index ০।
 - এই checkpoint-এ দৃশ্যমান হুবহু প্রশ্ন-অপশন duplicate পাওয়া যায়নি; পূর্ণ normalized master comparison এখনও বাকি। Runtime edit করা হয়নি।
 - মোট item-wise review: **৮০/১২৫**; বাকি **৪৫টি (৮১–১২৫)**। **IN_PROGRESS / NOT LOCKED**।
+
+
+### Checkpoint 81–90 — ২৭ নভেম্বর ২০২৬
+- source-order ৮১–৯০: **১০/১০ তথ্য, উত্তরসূচি ও ব্যাখ্যা যাচাই**। Q81–84: ২০২৫ সালের চিকিৎসাবিজ্ঞান/অর্থনীতি নোবেল, ১০ ডিসেম্বর পুরস্কার প্রদান এবং মোট ১৪ জন laureate—Nobel Prize-এর official তালিকা/বার্ষিক প্রতিবেদনে নিশ্চিত।
+- Q85–90: FY2026–27 বাজেটের আকার ৯.৩৮ লাখ কোটি, উন্নয়ন ব্যয় ৩.১৬ লাখ কোটি, Health Services Division ৪৯৩.৮৭ বিলিয়ন, Secondary & Higher Education Division ৫৭৩.০২ বিলিয়ন, করমুক্ত আয়সীমা ৪ লাখ এবং উন্নয়ন ব্যয়ের অনুপাত ৩৩.৭০%—চূড়ান্ত বাজেট প্রতিবেদন ও সরকারি বাজেট নথির সঙ্গে মিলে গেছে।
+- ভুল answer index: **০টি**। ৮১–৮৪ নোবেল এবং ৮৫–৯০ বাজেটের প্রশ্নগুলো আগের নোবেল/বাজেট প্রশ্নের বিষয়-সংশ্লিষ্ট হলেও ভিন্ন প্রশ্ন ও option set; দৃশ্যমান exact-copy পাওয়া যায়নি।
+- মোট item-wise review: **৯০/১২৫**; বাকি **৩৫টি (৯১–১২৫)**। পূর্ণ normalized question+option-set master comparison এখনও বাকি; তাই **IN_PROGRESS / NOT LOCKED**। Runtime পরিবর্তন করা হয়নি।
+
+Sources: NobelPrize.org, All Nobel Prizes and Annual Report 2025; bdnews24.com final FY2026–27 budget report; Bangladesh Customs/NBR official FY2026–27 budget speech.
