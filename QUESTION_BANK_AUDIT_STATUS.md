@@ -962,3 +962,9 @@
 - সাম্প্রতিক ঘটনা category-এর **১২৫/১২৫** record parse/structure check PASS; ৪ option, valid answer index, source URL/date—ত্রুটি ০।
 - প্রশ্ন + normalized option-set signature দিয়ে ১২৫টির পূর্ণ তুলনা: **exact duplicate ০, duplicate copy ০**।
 - তবু **NOT LOCKED**: বার্ষিক দিবস/evergreen item ও ২০২৫ সালের পুরোনো ঘটনার freshness/category-fit flag এবং Q35 explanation, Q60 date option, Q93 wording-এর runtime correction বাকি। অনুমতি ছাড়া প্রশ্ন সরানো/বদলানো হয়নি। Runtime source SHA অপরিবর্তিত।
+
+
+### 🔒 ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: LOCKED (২৭ নভেম্বর ২০২৬)
+- **১২৫টি প্রশ্ন চূড়ান্ত**। ৩০টি বার্ষিক দিবস/evergreen ও ২০২৫ সালের ২৯টি পুরোনো event প্রশ্ন বাদ দিয়ে ২০২৬ সালের যাচাইকৃত ঘটনা দিয়ে মোট ৫৯টি প্রশ্ন প্রতিস্থাপন করা হয়েছে। Q35, Q60, Q93 সংশোধিত।
+- ১২৫/১২৫ structural PASS: ৪টি option, বৈধ answer index, source URL/date; structural error ০। normalized question+option-set comparison: exact duplicate ০, duplicate copy ০।
+- Runtime source SHA: `d486a2c6b2f63a3bd2cf8df9789e5dfe6e55f6e6`। **🔒 LOCKED**। বিস্তারিত `RECENT_AFFAIRS_AUDIT_PROGRESS.md`-এ।
