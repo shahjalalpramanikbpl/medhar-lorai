@@ -176,3 +176,13 @@ Sources: bdnews24.com FY2026–27 budget report; Bangladesh NBR/Finance Division
 - মোট item-wise review **১১০/১২৫**; বাকি **১৫টি (১১১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**।
 
 Sources: United Nations, 2026 Calendar of Selected UN Events; UNFCCC, About COP31 / COP31 official conference page.
+
+
+### Checkpoint 111–120 — ২৭ নভেম্বর ২০২৬
+- source-order ১১১–১২০: **১০/১০ তথ্য ও answer index যাচাই**। ১১১: Chris Bowen ছিলেন COP31 President of Negotiations; ১১২: COP31 Antalya, Türkiye-তে; ১১৩: প্রস্তাবিত Antalya Pact-এ ঐকমত্য হয়নি; ১১৪: COP32 ২০২৭ সালে Addis Ababa-তে হওয়ার কথা—UN/UNFCCC এবং COP31-পরবর্তী UN বিবৃতিতে নিশ্চিত।
+- ১১৫: ২০২৫ UN Ocean Conference Nice, France; ১১৬: Expo 2025-এর আয়োজক Japan; ১১৭: ২০২৫ G20 Leaders’ Summit South Africa; ১১৮–১১৯: ২০২৫ BRICS Summit Brazil-এ, জুলাইয়ে; ১২০: ২০২৫ UN Ocean Conference ছিল তৃতীয় সম্মেলন—UN/UNEP, Japan government, G20 South Africa এবং BRICS official programme-এ নিশ্চিত।
+- ভুল answer index: **০টি**। Q115 ও Q120 একই সম্মেলন নিয়ে হলেও প্রশ্ন/option set আলাদা; exact-copy duplicate নয়।
+- Q115–১২০-এর ঘটনাগুলো ২০২৫ সালের; ২০২৬ সালের শেষভাগে এগুলোর freshness তুলনামূলক কম—replacement/আপডেটের জন্য flag। Runtime edit হয়নি। পূর্ণ normalized question+option-set comparison pending।
+- মোট item-wise review **১২০/১২৫**; বাকি **৫টি (১২১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**।
+
+Sources: UNFCCC COP31 official pages; United Nations COP31 closing update; UNEP/UN 2025 Ocean Conference; Japan Cabinet Office/Expo 2025; G20 South Africa official summit records; BRICS Brazil official summit programme.
