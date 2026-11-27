@@ -15,3 +15,9 @@ The repository workflow `.github/workflows/deploy-website.yml` publishes this di
 
 ## Scope
 Public information and APK download only. No Firebase admin actions are exposed in this public page. Admin functionality will be built separately after Firebase owner UID and authorization are verified.
+
+## Admin portal status
+- `admin.html` provides Firebase email/password sign-in and checks the exact owner UID already hard-coded in the app's Firestore rules.
+- It reads usage records and leaderboard only; Firestore Rules remain the actual authorization boundary.
+- Question editing/publishing is intentionally not exposed yet. Live Firebase Auth ownership and deployed rules have not been independently verified, and no rules or data were changed.
+- The portal stores the short-lived session in sessionStorage and never stores the password.
