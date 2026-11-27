@@ -18,6 +18,6 @@ Public information and APK download only. No Firebase admin actions are exposed 
 
 ## Admin portal status
 - `admin.html` provides Firebase email/password sign-in and checks the exact owner UID already hard-coded in the app's Firestore rules.
-- It reads usage records and leaderboard only; Firestore Rules remain the actual authorization boundary.
+- It reads usage records, leaderboard, and (when published) the central question-bank chunks; it now calculates subject-wise counts from each question's `c` field and checks the loaded total against metadata. Firestore Rules remain the actual authorization boundary.
 - Question editing/publishing is intentionally not exposed yet. Live Firebase Auth ownership and deployed rules have not been independently verified, and no rules or data were changed.
 - The portal stores the short-lived session in sessionStorage and never stores the password.
