@@ -24,8 +24,9 @@ Repository access: admin/push available to connected GitHub account.
    - App logo: `app_icon.png`, Library ID `file_00000000109c8208b5b7558b0e2f7e8b`
    - Full SJP logo: `SJP_Technologies_Main_Logo.png`, Library ID `file_0000000089f88208be2ab8f10622f98d`
    The SJP globe is mandatory. These source files have not yet been copied into the website repository.
-7. GitHub code search returned no matches for Firebase initialization/configuration or workflow deployment keywords. This is not proof that Firebase is absent; code search indexing may be unavailable/incomplete.
-8. Root lookups for `firebase.json`, `database.rules.json`, and `package.json` were not found in the prior inspection. No Firebase Hosting deployment configuration was verified.
+7. Firebase web configuration is present at `app/src/main/assets/firebase-config.js` for project `medhar-lorai` (public web API key/projectId/appId identifiers). It is included by the Android WebView quiz page. The Android app uses Firestore REST calls from JavaScript; the native wrapper loads `file:///android_asset/index.html`.
+8. The app assets page references `publicQuestionBank`, `leaderboard`, `appPresence`, `appInstalls`, and `registeredUsers`. Admin usage statistics read `appInstalls`, `registeredUsers`, and `appPresence`; current Firestore Rules only allow the configured owner UID to read these collections.
+9. GitHub code search indexing returned no results, but direct repository file inspection found Firebase config and Firebase REST integration. No Firebase Hosting config was verified. GitHub Pages deployment is being prepared separately.
 
 ## Risks / blockers before Firebase-connected admin work
 
@@ -49,8 +50,8 @@ Repository access: admin/push available to connected GitHub account.
 - [x] Existing offline prototype identified and protected from overwrite.
 - [x] Firestore rules reviewed; no changes made.
 - [x] Brand register reviewed; original asset IDs identified.
-- [ ] Android Firebase initialization and schema fully verified.
-- [ ] Firebase Console/Auth owner and live rules independently verified.
+- [x] Android WebView Firebase config and REST collection usage inspected from repository source.
+- [ ] Firebase Console/Auth owner and live deployed rules independently verified.
 - [ ] Original logo files copied and visually checked in website assets.
 - [ ] Separate public website built and tested.
 - [ ] Admin panel security model implemented and tested.
