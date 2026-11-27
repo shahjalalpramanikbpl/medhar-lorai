@@ -201,9 +201,9 @@ else {
   const movedQuantitative = subjectBank.filter(x => x.c === "পরিমাণগত দক্ষতা অনুশীলন").length;
   const retainedIq = subjectBank.filter(x => x.c === "মানসিক দক্ষতা ও IQ").length;
   if (movedQuantitative !== 188) errors.push("Quantitative practice must contain exactly 188 reviewed questions (144 IQ + 44 reasoning); found " + movedQuantitative + ".");
-  if (retainedIq !== 157) errors.push("Mental Ability & IQ must retain exactly 157 reviewed IQ questions; found " + retainedIq + ".");
+  if (retainedIq !== 155) errors.push("Mental Ability & IQ must retain exactly 155 unique IQ questions after two exact duplicate copies were removed; found " + retainedIq + ".");
   if (math.length !== 300 || levels.length !== 30) errors.push("Quantitative migration must not alter the locked 300-question/30-level Math core.");
-  console.log("Quantitative practice:", movedQuantitative, "| IQ retained:", retainedIq, "(final classified master: 188 quantitative + 157 IQ) | Math core:", math.length, "/", levels.length);
+  console.log("Quantitative practice:", movedQuantitative, "| IQ retained:", retainedIq, "(final runtime after exact dedup: 188 quantitative + 155 IQ) | Math core:", math.length, "/", levels.length);
   console.log("Final subject breakdown:", JSON.stringify(Object.fromEntries([...new Set(subjectBank.map(x => x.c))].sort().map(name => [name, subjectBank.filter(x => x.c === name).length]))));
   const lockedCounts = {
     "বাংলা ভাষা ও সাহিত্য": 406,
