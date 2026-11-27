@@ -951,3 +951,8 @@
 ### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 111–120 (২৭ নভেম্বর ২০২৬)
 - source-order ১১১–১২০: **১০/১০ তথ্য ও answer index যাচাই**; ভুল index ০। COP31-এর আলোচনার সভাপতি Chris Bowen, স্থান Antalya, প্রস্তাবিত Antalya Pact-এ ঐকমত্য না হওয়া ও COP32 Addis Ababa—UNFCCC/UN সূত্রে নিশ্চিত। ২০২৫ UN Ocean Conference Nice-এ, Expo Japan-এ, G20 South Africa-তে, BRICS Brazil-এ জুলাইয়ে এবং Ocean Conference তৃতীয় সম্মেলন—সরকারি/আয়োজক সূত্রে নিশ্চিত।
 - Q115–১২০ ২০২৫ সালের পুরোনো ইভেন্ট; freshness review flag। Q115/Q120 exact duplicate নয়। Runtime edit হয়নি; পূর্ণ normalized comparison pending। মোট review **১২০/১২৫**; বাকি **৫টি (১২১–১২৫)**। **IN_PROGRESS / NOT LOCKED**।
+
+
+### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 121–125 (২৭ নভেম্বর ২০২৬)
+- শেষ source-order group ১২১–১২৫: **৫/৫ তথ্য ও answer index যাচাই**; ভুল index ০। G20 Presidency South Africa, ৮০তম UNGA সাধারণ বিতর্ক সেপ্টেম্বর, Ocean Conference host France, Expo 2025 সমাপ্তি ১৩ অক্টোবর এবং COP30 host city Belém-এর Pará/Amazon অবস্থান সরকারি/UN সূত্রে নিশ্চিত।
+- ২০২৫ সালের পুরোনো ইভেন্টগুলো freshness/replacement flag। মোট factual review **১২৫/১২৫**; পূর্ণ normalized duplicate comparison বাকি। **IN_PROGRESS / NOT LOCKED**।
