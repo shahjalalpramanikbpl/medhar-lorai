@@ -189,12 +189,13 @@ if (!rulesCheck.includes("match /appPresence/{uid}") || !rulesCheck.includes("re
 // Verify the IQ-to-quantitative runtime classification after every expansion has loaded.
 if (typeof sandbox.window.JOB_PREP_APPLY_QUANTITATIVE !== "function") errors.push("Quantitative classification hook is missing.");
 else {
-  sandbox.window.JOB_PREP_APPLY_QUANTITATIVE();
+  vm.runInNewContext("window.JOB_PREP_APPLY_QUANTITATIVE()", sandbox);
   const movedQuantitative = subjectBank.filter(x => x.c === "পরিমাণগত দক্ষতা অনুশীলন").length;
   const retainedIq = subjectBank.filter(x => x.c === "মানসিক দক্ষতা ও IQ").length;
   if (movedQuantitative !== 144) errors.push("Quantitative practice must contain exactly 144 reviewed questions; found " + movedQuantitative + ".");
   if (retainedIq !== 157) errors.push("Mental Ability & IQ must retain exactly 157 reviewed IQ questions after moving 144 quantitative items; found " + retainedIq + ".");
   if (math.length !== 300 || levels.length !== 30) errors.push("Quantitative migration must not alter the locked 300-question/30-level Math core.");
   console.log("Quantitative practice:", movedQuantitative, "| IQ retained:", retainedIq, "(final classified master: 144 quantitative + 157 IQ) | Math core:", math.length, "/", levels.length);
+  console.log("Final subject breakdown:", JSON.stringify(Object.fromEntries([...new Set(subjectBank.map(x => x.c))].sort().map(name => [name, subjectBank.filter(x => x.c === name).length]))));
 }
 if (errors.length) { console.error(errors.slice(0, 50).join("\n")); process.exit(1); }
