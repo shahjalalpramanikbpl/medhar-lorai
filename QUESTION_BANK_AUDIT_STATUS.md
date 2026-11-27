@@ -883,6 +883,8 @@
 - এই ক্রম ব্যবহারকারীর স্পষ্ট নির্দেশ; ৯ নম্বরের পর ১০ নম্বর বাদ দেওয়া, ভুলে যাওয়া বা অন্য বিষয়ে চলে যাওয়া যাবে না।
 - কাজের নীতি: অপ্রয়োজনীয় পুনরায় শুরু/প্যাঁচ নয়; আগের GitHub master ও checkpoint দেখে সরাসরি বাকি কাজ এগোবে। অনুমান করে LOCK বা প্রশ্নসংখ্যা ঘোষণা করা যাবে না।
 
+
+Checkpoint 11–20 সম্পন্ন: ১০/১০ তথ্যগতভাবে যাচাইকৃত। প্রথম ২০টি source-order record যাচাই হয়েছে। Runtime exact category Q() scan-এ ১২৫টি পাওয়া যাচ্ছে, আগের ১৫০ inventory-র সঙ্গে অমিল; পূর্ণ inventory reconcile বাকি। বিষয় IN_PROGRESS / NOT LOCKED।
 ## ৯ নম্বর বিষয় — যুক্তি ও বিশ্লেষণ: চূড়ান্ত অবস্থা সংশোধন (২৭ নভেম্বর ২০২৬)
 - আগের `REASONING_ANALYSIS_BATCH_01_10_PROGRESS.md`-এর ১৮২ unique/NOT LOCKED তথ্যটি interim checkpoint; বর্তমান অবস্থা নয়।
 - কর্তৃত্বপূর্ণ consolidated master `REASONING_ANALYSIS_MASTER_BATCH_01_10.json` পুনরায় যাচাই: **LOCKED — ২৯৬ unique record** (২৫২ যুক্তি ও বিশ্লেষণ + ৪৪ পরিমাণগত দক্ষতা)।
