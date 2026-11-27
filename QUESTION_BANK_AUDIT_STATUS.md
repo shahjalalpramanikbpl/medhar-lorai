@@ -922,3 +922,9 @@
 - source-order ৬১–৭০: **১০/১০ যাচাই**; ভুল answer index ০। Q63 AI for Good Global Summit-এর জেনেভা এবং Q69-এর ITU আয়োজক-তথ্য ITU official source-এ নিশ্চিত; অন্যান্য তারিখ UN 2026 calendar-এ মেলে।
 - Q65, Q66, Q67, Q68, Q70 বার্ষিক স্থায়ী দিবস—reclassify/replace flag।
 - মোট review **৭০/১২৫**; বাকি **৫৫টি**। পূর্ণ normalized question+option-set duplicate master check বাকি; **IN_PROGRESS / NOT LOCKED**। বিস্তারিত RECENT_AFFAIRS_AUDIT_PROGRESS.md।
+
+
+### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 71–80 (২৭ নভেম্বর ২০২৬)
+- source-order ৭১–৮০: **১০/১০ যাচাই**; ভুল answer index ০। ৭৫–৮০-এর ২০২৫ Nobel laureate/award facts official Nobel Prize list-এ নিশ্চিত।
+- Q71–74 চারটি বার্ষিক আন্তর্জাতিক দিবস—reclassify/replace flag।
+- মোট review **৮০/১২৫**; বাকি **৪৫টি**। পূর্ণ normalized question+option-set duplicate master check বাকি; **IN_PROGRESS / NOT LOCKED**। বিস্তারিত RECENT_AFFAIRS_AUDIT_PROGRESS.md।
