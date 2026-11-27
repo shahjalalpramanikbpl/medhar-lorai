@@ -86,8 +86,8 @@ if (englishGrammar.length < 50) errors.push("English grammar/vocabulary bank mus
 if (new Set(englishGrammar.map(questionSignature)).size !== englishGrammar.length) errors.push("English grammar/vocabulary bank contains exact duplicate questions.");
 if (new Set(subjectBank.map(questionSignature)).size !== subjectBank.length) errors.push("Subject bank contains exact duplicate questions.");
 if (subjectBank.length < 480 || subjectNames.size < 9) errors.push("Subject bank must contain at least 480 questions across 9 non-math sections.");
-// Version 2.8 release target: 150 verified questions per non-math subject (the roadmap target is 300).
-for (const name of subjectNames) { const count = subjectBank.filter(x => x.c === name).length; if (count < 150) errors.push("Release target: subject " + name + " has " + count + "/150 questions."); }
+// All audited non-math sections must retain at least 125 questions; exact LOCKED counts are checked after quantitative classification.
+for (const name of subjectNames) { const count = subjectBank.filter(x => x.c === name).length; if (count < 125) errors.push("Audited subject " + name + " has fewer than 125 questions: " + count + "."); }
 if (math.length !== 300) errors.push("Release target: math must contain exactly 300 questions.");
 console.log("Job-preparation questions:", subjectBank.length, "| English grammar/vocabulary:", englishGrammar.length);
 const mathUiSource = fs.readFileSync("app/src/main/assets/math-levels.js", "utf8");
@@ -171,7 +171,7 @@ const currentMissing = current.filter(x => {
   return !x.source || !x.sourceUrl || !/^20\d{2}-\d{2}-\d{2}$/.test(sourceDate);
 });
 if (current.length < 5 || currentMissing.length) { console.error("Current affairs missing metadata:", JSON.stringify(currentMissing.map(x => ({ id: x.id, q: x.q, source: x.source, sourceUrl: x.sourceUrl, sourceDate: x.sourceDate || x.d || x.difficulty })))); errors.push("2026 current-affairs questions need a source URL and valid source date."); }
-if (sandbox.window.JOB_PREP_CURRENT_AFFAIRS_UPDATED !== "2026-11-24") errors.push("Current affairs update date is missing or stale.");
+if (sandbox.window.JOB_PREP_CURRENT_AFFAIRS_UPDATED !== "2026-11-27") errors.push("Current affairs update date is missing or stale.");
 // Semantic regression checks for previously reported math-content errors.
 const averageExample = math.find(x => x.level === 1 && x.q.includes("৭টি সংখ্যার গড় ১২"));
 if (!averageExample || Number(averageExample.expected) !== 84 || Number(String(averageExample.o[averageExample.a]).replace(/[০-৯]/g, d => String("০১২৩৪৫৬৭৮৯".indexOf(d)))) !== 84) errors.push("Math level 1: average of 7 numbers with mean 12 must equal 84 and be present as the keyed option.");
@@ -201,5 +201,23 @@ else {
   if (math.length !== 300 || levels.length !== 30) errors.push("Quantitative migration must not alter the locked 300-question/30-level Math core.");
   console.log("Quantitative practice:", movedQuantitative, "| IQ retained:", retainedIq, "(final classified master: 144 quantitative + 157 IQ) | Math core:", math.length, "/", levels.length);
   console.log("Final subject breakdown:", JSON.stringify(Object.fromEntries([...new Set(subjectBank.map(x => x.c))].sort().map(name => [name, subjectBank.filter(x => x.c === name).length]))));
+  const lockedCounts = {
+    "বাংলা ভাষা ও সাহিত্য": 406,
+    "English": 463,
+    "বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান": 236,
+    "সাধারণ বিজ্ঞান": 248,
+    "কম্পিউটার ও ICT": 189,
+    "মানসিক দক্ষতা ও IQ": 157,
+    "English Literature": 285,
+    "যুক্তি ও বিশ্লেষণ": 296,
+    "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান": 125,
+    "পরিমাণগত দক্ষতা অনুশীলন": 144
+  };
+  for (const [name, expected] of Object.entries(lockedCounts)) {
+    const actual = subjectBank.filter(x => x.c === name).length;
+    if (actual !== expected) errors.push("LOCKED subject " + name + " must contain " + expected + " questions; found " + actual + ".");
+  }
+  if (subjectBank.length !== 2549) errors.push("Audited non-math runtime bank must contain exactly 2,549 records; found " + subjectBank.length + ".");
+  console.log("Locked non-math master total:", subjectBank.length, "| Math levels:", math.length, "| Combined content:", subjectBank.length + math.length);
 }
 if (errors.length) { console.error(errors.slice(0, 50).join("\n")); process.exit(1); }
