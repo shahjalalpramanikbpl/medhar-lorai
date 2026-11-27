@@ -916,3 +916,9 @@
 - ৫১: World Refugee Day বার্ষিক স্থায়ী দিবস; reclassify/replace flag।
 - ৬০: UNGA High-Level Week-এর option-এ ২১–২৮ সেপ্টেম্বর ভুল; UN-এর সঠিক সময়সীমা ২২–২৮ সেপ্টেম্বর। option ও explanation correction pending।
 - মোট review **৬০/১২৫**; আরও **৬৫টি** raw record (৬১–১২৫) item-wise review বাকি; normalized full master duplicate check pending। তাই ৫১–৬০ শেষ source batch নয়; বিষয় **IN_PROGRESS / NOT LOCKED**। বিস্তারিত `RECENT_AFFAIRS_AUDIT_PROGRESS.md`।
+
+
+### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 61–70 (২৭ নভেম্বর ২০২৬)
+- source-order ৬১–৭০: **১০/১০ যাচাই**; ভুল answer index ০। Q63 AI for Good Global Summit-এর জেনেভা এবং Q69-এর ITU আয়োজক-তথ্য ITU official source-এ নিশ্চিত; অন্যান্য তারিখ UN 2026 calendar-এ মেলে।
+- Q65, Q66, Q67, Q68, Q70 বার্ষিক স্থায়ী দিবস—reclassify/replace flag।
+- মোট review **৭০/১২৫**; বাকি **৫৫টি**। পূর্ণ normalized question+option-set duplicate master check বাকি; **IN_PROGRESS / NOT LOCKED**। বিস্তারিত RECENT_AFFAIRS_AUDIT_PROGRESS.md।
