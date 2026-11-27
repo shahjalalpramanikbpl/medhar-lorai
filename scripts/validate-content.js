@@ -62,6 +62,7 @@ const expansionFiles = fs.readdirSync(assetDir)
 for (const file of expansionFiles) {
   vm.runInNewContext(fs.readFileSync(path.join(assetDir, file), "utf8"), sandbox, { filename: file });
 }
+vm.runInNewContext(fs.readFileSync(path.join(assetDir, "job-prep-locked-masters.js"), "utf8"), sandbox, { filename: "job-prep-locked-masters.js" });
 const math = sandbox.window.ML_MATH_BANK || [];
 const mathAuditMaster = JSON.parse(fs.readFileSync("MATH_AUDIT_MASTER_BASELINE_300.json", "utf8"));
 const mathReplacementIds = new Set(mathAuditMaster.replacementReview?.replacements || []);
@@ -196,10 +197,10 @@ else {
   for (const x of subjectBank) if (x.c === "মানসিক দক্ষতা ও IQ" && quantitativeKeys.has(quantitativeKey(x))) x.c = "পরিমাণগত দক্ষতা অনুশীলন";
   const movedQuantitative = subjectBank.filter(x => x.c === "পরিমাণগত দক্ষতা অনুশীলন").length;
   const retainedIq = subjectBank.filter(x => x.c === "মানসিক দক্ষতা ও IQ").length;
-  if (movedQuantitative !== 144) errors.push("Quantitative practice must contain exactly 144 reviewed questions; found " + movedQuantitative + ".");
-  if (retainedIq !== 157) errors.push("Mental Ability & IQ must retain exactly 157 reviewed IQ questions after moving 144 quantitative items; found " + retainedIq + ".");
+  if (movedQuantitative !== 188) errors.push("Quantitative practice must contain exactly 188 reviewed questions (144 IQ + 44 reasoning); found " + movedQuantitative + ".");
+  if (retainedIq !== 157) errors.push("Mental Ability & IQ must retain exactly 157 reviewed IQ questions; found " + retainedIq + ".");
   if (math.length !== 300 || levels.length !== 30) errors.push("Quantitative migration must not alter the locked 300-question/30-level Math core.");
-  console.log("Quantitative practice:", movedQuantitative, "| IQ retained:", retainedIq, "(final classified master: 144 quantitative + 157 IQ) | Math core:", math.length, "/", levels.length);
+  console.log("Quantitative practice:", movedQuantitative, "| IQ retained:", retainedIq, "(final classified master: 188 quantitative + 157 IQ) | Math core:", math.length, "/", levels.length);
   console.log("Final subject breakdown:", JSON.stringify(Object.fromEntries([...new Set(subjectBank.map(x => x.c))].sort().map(name => [name, subjectBank.filter(x => x.c === name).length]))));
   const lockedCounts = {
     "বাংলা ভাষা ও সাহিত্য": 406,
@@ -209,9 +210,9 @@ else {
     "কম্পিউটার ও ICT": 189,
     "মানসিক দক্ষতা ও IQ": 157,
     "English Literature": 285,
-    "যুক্তি ও বিশ্লেষণ": 296,
+    "যুক্তি ও বিশ্লেষণ": 252,
     "সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান": 125,
-    "পরিমাণগত দক্ষতা অনুশীলন": 144
+    "পরিমাণগত দক্ষতা অনুশীলন": 188
   };
   for (const [name, expected] of Object.entries(lockedCounts)) {
     const actual = subjectBank.filter(x => x.c === name).length;
