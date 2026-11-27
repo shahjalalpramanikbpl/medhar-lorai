@@ -93,3 +93,23 @@ source-order records ৩১–৪০ যাচাই:
 - Checkpoint 31–40: **১০টি item reviewed**; ৩৫ explanation correction, ৪০ reclassify/replace flag। মোট source-order item reviewed: **৪০/১২৫**।
 
 Sources: NobelPrize.org; BRICS Brazil official Rio Declaration; UN General Assembly 81st session schedule; UNFCCC/United Nations COP31 outcomes; World Economic Forum Annual Meeting 2026.
+
+
+## Checkpoint 41–50 — item-wise factual check (২৭ নভেম্বর ২০২৬)
+source-order records ৪১–৫০-এর প্রশ্ন, তারিখ, উত্তরসূচি, ব্যাখ্যা ও উৎস যাচাই:
+- ৪১: World Oceans Day — ৮ জুন; ২০২৬ UN calendar-এ নিশ্চিত।
+- ৪২: World Population Day — ১১ জুলাই; UN calendar-এ নিশ্চিত।
+- ৪৩: World Teachers’ Day — ৫ অক্টোবর; UN calendar-এ নিশ্চিত।
+- ৪৪: World Food Day — ১৬ অক্টোবর; UN calendar-এ নিশ্চিত।
+- ৪৫: World Science Day for Peace and Development — ১০ নভেম্বর; UN calendar-এ নিশ্চিত।
+- ৪৬: World Wildlife Day — ৩ মার্চ; UN calendar-এ নিশ্চিত।
+- ৪৭: International Day of Forests — ২১ মার্চ; UN calendar-এ নিশ্চিত।
+- ৪৮: World Water Day — ২২ মার্চ; UN calendar-এ নিশ্চিত।
+- ৪৯: World Meteorological Day — ২৩ মার্চ; UN calendar-এ নিশ্চিত।
+- ৫০: International Day of Zero Waste — ৩০ মার্চ; UN calendar-এ নিশ্চিত।
+- ১০টির উত্তরসূচি/তারিখে ভুল পাওয়া যায়নি; ব্যাখ্যাগুলোও ঘোষিত দিবসের তারিখের সঙ্গে সামঞ্জস্যপূর্ণ। একই ২০২৬ UN calendar URL ব্যবহার করা হয়েছে এবং পৃষ্ঠায় এই দশটি দিবসের তারিখ পাওয়া যায়।
+- **বিষয়-উপযোগিতা:** এগুলো সবই প্রতি বছর নির্দিষ্ট দিনে পালিত স্থায়ী আন্তর্জাতিক দিবস; ২০২৬ সালের নতুন ঘটনা/এককালীন সাম্প্রতিক ঘটনা নয়। তাই ১০টিই “সাম্প্রতিক ঘটনা” থেকে reclassify/replace করার জন্য flag করা হলো। এগুলোকে সাধারণ জ্ঞান/গুরুত্বপূর্ণ দিবস বিভাগে রাখা যেতে পারে; ব্যবহারকারীর অনুমতি ছাড়া runtime থেকে সরানো হয়নি।
+- এই checkpoint-এ দৃশ্যমান হুবহু প্রশ্ন+option-set duplicate পাওয়া যায়নি। তবে পূর্ণ normalized master comparison এখনো তৈরি হয়নি; তাই global duplicate-free দাবি করা হচ্ছে না।
+- Checkpoint 41–50: **১০টি item reviewed**। মোট source-order item-wise review: **৫০/১২৫**। Subject **IN_PROGRESS / NOT LOCKED**।
+
+Source: United Nations, *2026 Calendar of Selected United Nations Events* — https://www.un.org/en/node/238917
