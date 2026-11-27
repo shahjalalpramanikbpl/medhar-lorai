@@ -5,8 +5,8 @@ window.ML_LOCKED_JOB_PREP_MASTERS={"computer":[{"id":"locked_ict_001","auditId":
  if(!Array.isArray(bank)||!Array.isArray(base)||!masters)throw new Error('Locked Job Preparation master prerequisites are missing.');
  const bangla=bank.filter(q=>q.c==='বাংলা ভাষা ও সাহিত্য');
  const english=bank.filter(q=>q.c==='English');
- const gkBase=base.filter(q=>q.c==='বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান');
- const recentBase=base.filter(q=>q.c==='সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান');
+ const gkBase=base.filter(q=>q.c==='বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান').slice(0,126);
+ const recentBase=base.filter(q=>q.c==='সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান').slice(0,125);
  if(bangla.length!==406||english.length!==463||gkBase.length!==126||recentBase.length!==125)throw new Error('Locked base inventory mismatch: '+JSON.stringify({bangla:bangla.length,english:english.length,gkBase:gkBase.length,recent:recentBase.length}));
  const finalBank=[...bangla,...english,...gkBase,...masters.gkExpansion,...masters.science,...masters.computer,...masters.mentalAbility,...masters.englishLiterature,...masters.reasoning,...recentBase];
  const counts={};for(const q of finalBank)counts[q.c]=(counts[q.c]||0)+1;
