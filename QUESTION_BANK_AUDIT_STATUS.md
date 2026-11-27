@@ -928,3 +928,9 @@
 - source-order ৭১–৮০: **১০/১০ যাচাই**; ভুল answer index ০। ৭৫–৮০-এর ২০২৫ Nobel laureate/award facts official Nobel Prize list-এ নিশ্চিত।
 - Q71–74 চারটি বার্ষিক আন্তর্জাতিক দিবস—reclassify/replace flag।
 - মোট review **৮০/১২৫**; বাকি **৪৫টি**। পূর্ণ normalized question+option-set duplicate master check বাকি; **IN_PROGRESS / NOT LOCKED**। বিস্তারিত RECENT_AFFAIRS_AUDIT_PROGRESS.md।
+
+
+### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 81–90 (২৭ নভেম্বর ২০২৬)
+- source-order ৮১–৯০: ১০/১০ তথ্য, উত্তরসূচি ও ব্যাখ্যা যাচাই; ভুল answer index ০। ২০২৫ নোবেল তথ্য NobelPrize.org এবং FY2026–27 বাজেটের ছয়টি তথ্য চূড়ান্ত বাজেট প্রতিবেদন/সরকারি বাজেট নথিতে নিশ্চিত।
+- দৃশ্যমান exact-copy duplicate পাওয়া যায়নি; পূর্ণ normalized question+option-set master comparison এখনও বাকি।
+- মোট item-wise review **৯০/১২৫**; বাকি **৩৫টি (৯১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**। বিস্তারিত RECENT_AFFAIRS_AUDIT_PROGRESS.md।
