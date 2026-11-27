@@ -132,3 +132,11 @@ source-order records ৫১–৬০-এর প্রশ্ন, option, answer i
 - Source inventory-তে এখনও ১২৫টি record রয়েছে; অতএব ৫১–৬০-কে শেষ batch বলা যাবে না। ৬১–১২৫-এর ৬৫টি record এখনও item-wise audit বাকি। পূর্ণ normalized question+option-set master comparison-ও pending। Subject **IN_PROGRESS / NOT LOCKED**।
 
 Sources: BSS FY27 budget highlights; bdnews24.com final budget approval report (30-Jun-2026); The Business Standard final budget details (30-Jun-2026); Bangladesh NBR FY2026–27 budget speech; United Nations 2026 calendar and 81st UNGA schedule.
+
+
+### Checkpoint 61–70 — ২৭ নভেম্বর ২০২৬
+- source-order ৬১–৭০: ১০/১০ item যাচাই। Q61 CSW70-এর ৯–২০ মার্চ; Q62 ECOSOC Youth Forum ১৪–১৬ এপ্রিল; Q63 AI for Good Global Summit জেনেভা; Q64 UNGA 81 শুরু ৮ সেপ্টেম্বর; Q65 South-South Cooperation Day ১২ সেপ্টেম্বর; Q66 Ozone Layer Day ১৬ সেপ্টেম্বর; Q67 UN Day ২৪ অক্টোবর; Q68 Persons with Disabilities Day ৩ ডিসেম্বর; Q69 AI for Good আয়োজক ITU; Q70 World Cities Day ৩১ অক্টোবর।
+- Q63-এর city, Q69-এর organizer এবং summit-এর ৭–১০ জুলাইয়ের সময় ITU official source-এও মিলে গেছে। Q61–68/70-এর তারিখ United Nations 2026 calendar-এ মেলে।
+- Q65, Q66, Q67, Q68 ও Q70 বার্ষিক স্থায়ী দিবস; সাম্প্রতিক ঘটনা হিসেবে মানানসই নয়—reclassify/replace flag। Q68-এর ৩ ডিসেম্বর ২০২৬ তারিখ ভবিষ্যৎ নির্ধারিত observance, ভুল নয়।
+- এই checkpoint-এ ভুল answer index পাওয়া যায়নি। Q61–70-এর মধ্যে দৃশ্যমান হুবহু প্রশ্ন-অপশন duplicate পাওয়া যায়নি; পূর্ণ normalized master comparison এখনও বাকি। Runtime edit করা হয়নি।
+- মোট item-wise review: **৭০/১২৫**; বাকি **৫৫টি (৭১–১২৫)**। **IN_PROGRESS / NOT LOCKED**।
