@@ -14,7 +14,7 @@ const checks = [
   ['ten colorful home shortcuts', html.includes('home-primary-actions') && ['vaultBtn','iqBtn','wordBtn','dailyBtn','accountBtn','profileBtn','progressBtn','badgeBtn','leaderBtn','rulesBtn'].every(id => html.includes('id="'+id+'"'))],
   ['career-preparation mount point', html.includes('id="homeFeatured"')],
   ['career-preparation button wiring', suite.includes("btn.id='jobPrepBtn'") && suite.includes('window.openJobPrep')],
-  ['all app scripts loaded', ['content-bank.js','career-prep.js','math-levels.js','job-prep-suite.js','firebase-config.js'].every(x => html.includes('src="'+x+'"'))],
+  ['all app scripts loaded', ['content-bank.js','career-prep.js','math-levels.js','job-prep-suite.js','job-prep-locked-masters.js','firebase-config.js'].every(x => html.includes('src="'+x+'"'))],
   ['existing home feature controls retained', ['rulesBtn','leaderBtn','progressBtn','profileBtn','accountBtn','dailyBtn','iqBtn','vaultBtn','badgeBtn','wordBtn'].every(id => html.includes('id="'+id+'"'))],
   ['first-launch install analytics', html.includes('async function trackAppInstall') && html.includes('accounts:signUp?key=') && html.includes("appInstalls/")],
   ['registered account analytics', html.includes('async function trackRegisteredAccount') && html.includes("registeredUsers/") && html.includes('await trackRegisteredAccount()')],
