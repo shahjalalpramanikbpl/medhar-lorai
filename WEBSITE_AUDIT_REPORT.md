@@ -52,7 +52,17 @@ Repository access: admin/push available to connected GitHub account.
 - [x] Brand register reviewed; original asset IDs identified.
 - [x] Android WebView Firebase config and REST collection usage inspected from repository source.
 - [ ] Firebase Console/Auth owner and live deployed rules independently verified.
-- [ ] Original logo files copied and visually checked in website assets.
-- [ ] Separate public website built and tested.
-- [ ] Admin panel security model implemented and tested.
+- [ ] Primary full SJP Technologies logo copied into the deployable website artifact and visually checked. The original Library file has been materialized locally, but this GitHub file workflow cannot directly upload binary image bytes; no substitute/recreated logo has been used.
+- [x] Separate public website landing page and GitHub Pages workflow added under `website/`; existing offline prototype `index.html` preserved.
+- [x] Separate Firebase UID-gated admin sign-in/dashboard added. It is read-only for now: usage records and leaderboard are displayed; no Firestore data/rules mutations are exposed.
+- [ ] Website browser QA and GitHub Pages deployment confirmation pending. Pages settings cannot be enabled/verified through the available GitHub actions here.
+- [ ] Firebase Console/Auth owner and live deployed rules independently verified.
 - [ ] Free hosting configured and live.
+
+## Website implementation checkpoint (2026-11-27)
+- Public site: `website/index.html`; the app icon is loaded from the original repository root asset via raw GitHub URL.
+- Admin portal: `website/admin.html`; Firebase email/password login is accepted only for the owner UID already referenced in repository Firestore Rules. The page uses sessionStorage for its short-lived token session and does not persist the password.
+- Firebase web client identifiers: copied to `website/firebase-config.js`; these are public client identifiers, not service-account secrets.
+- Deployment workflow: `.github/workflows/deploy-website.yml` uploads the `website/` directory to GitHub Pages.
+- No Firestore rules, user data, question-bank documents, Android source, or APK release were changed.
+- Outstanding: add the exact full SJP Technologies logo asset (with globe), configure/verify Pages in repository Settings, test live sign-in and Firestore reads, then implement question CRUD only after confirming live Auth owner UID and deployed rules.
