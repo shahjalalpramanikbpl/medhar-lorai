@@ -934,3 +934,9 @@
 - source-order ৮১–৯০: ১০/১০ তথ্য, উত্তরসূচি ও ব্যাখ্যা যাচাই; ভুল answer index ০। ২০২৫ নোবেল তথ্য NobelPrize.org এবং FY2026–27 বাজেটের ছয়টি তথ্য চূড়ান্ত বাজেট প্রতিবেদন/সরকারি বাজেট নথিতে নিশ্চিত।
 - দৃশ্যমান exact-copy duplicate পাওয়া যায়নি; পূর্ণ normalized question+option-set master comparison এখনও বাকি।
 - মোট item-wise review **৯০/১২৫**; বাকি **৩৫টি (৯১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**। বিস্তারিত RECENT_AFFAIRS_AUDIT_PROGRESS.md।
+
+
+### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 91–100 (২৭ নভেম্বর ২০২৬)
+- source-order ৯১–১০০: ১০/১০ তথ্য ও answer index যাচাই; ভুল index ০। Q91–93 বাজেট তথ্য সঠিক; Q93-এ তুলনার ভিত্তি “আগের অর্থবছরের লক্ষ্যমাত্রা” করে স্পষ্ট করা উচিত। Q94–96 ও Q98-এর ২০২৬ UN event date/location সঠিক। Q97, Q99, Q100 বার্ষিক স্থায়ী দিবস—reclassify/replace flag।
+- দৃশ্যমান exact-copy duplicate নেই; পূর্ণ normalized question+option-set comparison pending।
+- মোট item-wise review **১০০/১২৫**; বাকি **২৫টি (১০১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**। বিস্তারিত RECENT_AFFAIRS_AUDIT_PROGRESS.md।
