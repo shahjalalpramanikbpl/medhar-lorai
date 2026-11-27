@@ -23,7 +23,7 @@ const checks = [
   ['launcher icon resource', fs.existsSync('app/src/main/res/mipmap-anydpi/ic_launcher.xml')],
   ['manifest launcher icon mapping', manifest.includes('android:icon="@mipmap/ic_launcher"') && manifest.includes('android:roundIcon="@mipmap/ic_launcher"')],
   ['package id unchanged', gradle.includes('applicationId = "com.medhar.lorai"')],
-  ['release version defined', /versionCode\s*=\s*24/.test(gradle) && /versionName\s*=\s*"3\.3"/.test(gradle)],
+  ['release version defined', /versionCode\s*=\s*25/.test(gradle) && /versionName\s*=\s*"3\.3\.1"/.test(gradle)],
   ['hero live buttons fully cover baked banner labels with opaque backgrounds', html.includes('top:74.8%!important') && html.includes('height:22%!important') && html.includes('width:22.8%!important') && html.includes('background-blend-mode:normal!important') && html.includes('z-index:12!important')],
   ['hero metrics are opaque same-size live controls', html.includes('class="hero-stat-live hero-points-live"') && html.includes('class="hero-stat-live hero-level-live"') && html.includes('class="hero-stat-live hero-questions-live"') && html.includes('hero-stat-label') && html.includes('hero-stat-value')],
   ['hero spark animation uses moving spark elements without orbit rings', html.includes('brainSparkTravelA') && html.includes('brainSparkTravelE') && !html.includes('hero-brain-orbit') && !html.includes('hero-trophy-orbit')],
