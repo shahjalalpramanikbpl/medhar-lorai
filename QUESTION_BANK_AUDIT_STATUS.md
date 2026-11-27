@@ -903,3 +903,9 @@
 - মোট item-wise verified: প্রথম ২০টি record।
 - Inventory reconciliation-এ exact category string-এর Q() call **১২৫টি**, আগের structural report-এর ১৫০টির সঙ্গে অমিল; পূর্ণ inventory পুনর্মিলন বাকি।
 - বিষয় **IN_PROGRESS / NOT LOCKED**। বিস্তারিত `RECENT_AFFAIRS_AUDIT_PROGRESS.md`-এ।
+
+
+### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 41–50 (২৭ নভেম্বর ২০২৬)
+- source-order records ৪১–৫০-এর ১০টি প্রশ্নের তারিখ/উত্তর/ব্যাখ্যা United Nations-এর ২০২৬ calendar-এর সঙ্গে যাচাই: **১০/১০ তথ্য সঠিক**; ভুল answer index **০**।
+- দশটিই বার্ষিক পুনরাবৃত্ত আন্তর্জাতিক দিবস, নতুন/এককালীন সাম্প্রতিক ঘটনা নয়; সব ১০টি reclassify/replace-এর জন্য flag। ব্যবহারকারীর অনুমতি ছাড়া runtime থেকে বাদ/পরিবর্তন করা হয়নি।
+- মোট item-wise review **৫০/১২৫**; full normalized question+option-set master comparison ও বাকি ৭৫টির review pending। **IN_PROGRESS / NOT LOCKED**। বিস্তারিত: `RECENT_AFFAIRS_AUDIT_PROGRESS.md`।
