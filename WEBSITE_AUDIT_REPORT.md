@@ -76,3 +76,11 @@ Repository access: admin/push available to connected GitHub account.
 - Inline admin JavaScript syntax check: PASS.
 - Commit: `33f26cd6cef46da27cb15e737c23aabf3b1c40f1`.
 - Live Firebase data and the deployed Pages site remain unverified; subject counts will only appear after a valid central bank is available and the admin's live read permissions work.
+
+
+## 2026-11-27 — Deployment readiness re-check
+- Confirmed the existing GitHub Actions workflow already has `workflow_dispatch` and deploys only the `website/` directory.
+- Repository permissions report admin access for the connected GitHub integration, but the available GitHub actions do not expose Pages configuration or workflow-dispatch operations.
+- Latest website source and admin source are committed. No workflow run is currently confirmed for the latest website/admin changes.
+- Original primary SJP globe logo file is now present in the working container at `/mnt/data/website_brand_assets/SJP_Technologies_Main_Logo.png` (1070×860 PNG, 894,843 bytes). Uploading binary assets through the currently available GitHub actions remains unsupported; therefore it has not been committed to `website/assets/` and the site is not launch-ready.
+- Pages enablement and live Firebase validation remain outstanding. No live deployment, Firebase write, or Firestore Rules change was performed.
