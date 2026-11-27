@@ -11,8 +11,8 @@ android {
         applicationId = "com.medhar.lorai"
         minSdk = 23
         targetSdk = 35
-        versionCode = 24
-        versionName = "3.3"
+        versionCode = 25
+        versionName = "3.3.1"
     }
 
     signingConfigs {
