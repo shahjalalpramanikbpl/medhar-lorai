@@ -882,3 +882,10 @@
 ২. **তারপরই ১০ নম্বর: সাম্প্রতিক ঘটনা** — ৯ নম্বর সম্পন্ন ও LOCK হওয়ার আগে এই বিষয়ে কাজ শুরু করা যাবে না। সাম্প্রতিক তথ্যের তারিখ ও নির্ভরযোগ্য উৎস যাচাই করে একইভাবে audit ও LOCK করতে হবে।
 - এই ক্রম ব্যবহারকারীর স্পষ্ট নির্দেশ; ৯ নম্বরের পর ১০ নম্বর বাদ দেওয়া, ভুলে যাওয়া বা অন্য বিষয়ে চলে যাওয়া যাবে না।
 - কাজের নীতি: অপ্রয়োজনীয় পুনরায় শুরু/প্যাঁচ নয়; আগের GitHub master ও checkpoint দেখে সরাসরি বাকি কাজ এগোবে। অনুমান করে LOCK বা প্রশ্নসংখ্যা ঘোষণা করা যাবে না।
+
+## ৯ নম্বর বিষয় — যুক্তি ও বিশ্লেষণ: চূড়ান্ত অবস্থা সংশোধন (২৭ নভেম্বর ২০২৬)
+- আগের `REASONING_ANALYSIS_BATCH_01_10_PROGRESS.md`-এর ১৮২ unique/NOT LOCKED তথ্যটি interim checkpoint; বর্তমান অবস্থা নয়।
+- কর্তৃত্বপূর্ণ consolidated master `REASONING_ANALYSIS_MASTER_BATCH_01_10.json` পুনরায় যাচাই: **LOCKED — ২৯৬ unique record** (২৫২ যুক্তি ও বিশ্লেষণ + ৪৪ পরিমাণগত দক্ষতা)।
+- ১৬টি exact duplicate copy বাদ; remaining duplicate ০। Source inventory batch ৫৬-এ শেষ; ৫৭+ original batch নেই।
+- Progress report reconciliation commit: `b9d5beee08dc84f35a525a43a1f80a819fad14be`।
+- **পরবর্তী কাজের ক্রম: এখন ১০ নম্বর “সাম্প্রতিক ঘটনা” শুরু হবে।** ৯ নম্বর সম্পন্ন ও LOCKED; ১০ নম্বর বাদ নয়।
