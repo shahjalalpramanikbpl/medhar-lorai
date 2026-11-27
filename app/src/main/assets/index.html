@@ -575,6 +575,8 @@ button.job-prep-hero .job-prep-arrow{color:#fff!important;text-shadow:0 1px 3px 
 </script>
 <script src="app-version.js"></script>
 <script>
+// All job-preparation base/expansion scripts are loaded above; classify the audited quantitative set before the UI reads the bank.
+if (typeof window.JOB_PREP_APPLY_QUANTITATIVE === 'function') window.JOB_PREP_APPLY_QUANTITATIVE();
 const defaults=[
   {
     "c": "সাধারণ জ্ঞান",
