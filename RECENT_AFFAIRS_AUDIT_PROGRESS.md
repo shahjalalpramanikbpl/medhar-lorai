@@ -77,3 +77,19 @@ source-order records ২১–৩০ যাচাই:
 - ১২৫টির পূর্ণ normalized question+option-set duplicate master comparison এবং remaining ৯৫টি item-এর factual review বাকি; তাই **IN_PROGRESS / NOT LOCKED**।
 
 Sources: Bangladesh Gazette 17-Nov-2026; BSS 17-Nov-2026; Bangladesh Gazette 02-Nov-2026; UN SDGs; UNFPA; UNEP; UNFCCC; United Nations 2025 calendar; Nobel Peace Prize official announcement.
+
+
+## Checkpoint 31–40 — item-wise factual check (২৭ নভেম্বর ২০২৬)
+source-order records ৩১–৪০ যাচাই:
+- ৩১: ২০২৫ সালের সাহিত্যে নোবেল—László Krasznahorkai; NobelPrize.org-এ নিশ্চিত।
+- ৩২: ১৭তম BRICS Summit—রিও ডি জেনেইরো, ৬–৭ জুলাই ২০২৫; BRICS-এর নিজস্ব ঘোষণায় নিশ্চিত।
+- ৩৩: জাতিসংঘের ৮১তম সাধারণ পরিষদের অধিবেশন শুরু ৮ সেপ্টেম্বর ২০২৬; UN-এর সূচিতে নিশ্চিত।
+- ৩৪: ৮১তম অধিবেশনের সাধারণ বিতর্ক শুরু ২২ সেপ্টেম্বর ২০২৬; UN-এর সূচিতে নিশ্চিত।
+- ৩৫–৩৮: COP31 তুরস্কের আন্তালিয়ায় অনুষ্ঠিত; সম্মেলন ৯ নভেম্বর শুরু হয়ে ২২ নভেম্বর সমাপ্ত; Antalya Pact/সামগ্রিক cover decision-এ ঐকমত্য হয়নি। ৩৫–৩৮-এর উত্তর সঠিক। ৩৫-এর ব্যাখ্যায় নির্ধারিত ৯–২০ নভেম্বর সময়সীমা লেখা আছে, কিন্তু বাস্তবে সম্মেলন ২২ নভেম্বর পর্যন্ত গড়ায়—ব্যাখ্যায় এই অতিরিক্ত তথ্য যোগ করে সংশোধন প্রয়োজন।
+- ৩৯: World Economic Forum Annual Meeting ২০২৬, দাভোস-ক্লোস্টার্স, ১৯–২৩ জানুয়ারি; WEF-এর নিজস্ব পৃষ্ঠায় নিশ্চিত।
+- ৪০: World Environment Day ৫ জুন—তথ্য সঠিক, কিন্তু এটি বার্ষিক স্থায়ী দিবসের তথ্য; সাম্প্রতিক ঘটনা নয়। **সাধারণ জ্ঞানে reclassify/replace flag** করা হলো।
+- ভুল answer index: **০টি শনাক্ত**। ৩৫-এর explanation update এবং ৪০-এর category suitability flag করা হয়েছে; runtime এখনো সম্পাদিত হয়নি।
+- ৩১–৪০-এর মধ্যে এবং আগের ১–৩০ master-এর সঙ্গে দৃশ্যমান exact question+option-set copy পাওয়া যায়নি; COP31/UNGA-র একাধিক প্রশ্ন ভিন্ন তথ্য/option set জিজ্ঞাসা করে, তাই duplicate নয়।
+- Checkpoint 31–40: **১০টি item reviewed**; ৩৫ explanation correction, ৪০ reclassify/replace flag। মোট source-order item reviewed: **৪০/১২৫**।
+
+Sources: NobelPrize.org; BRICS Brazil official Rio Declaration; UN General Assembly 81st session schedule; UNFCCC/United Nations COP31 outcomes; World Economic Forum Annual Meeting 2026.
