@@ -54,3 +54,26 @@ source-order অনুযায়ী ১১–২০ নম্বর ১০টি 
 বর্তমান runtime ফাইলে category-র exact string `সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান` দিয়ে Q() call গুনলে **১২৫টি** পাওয়া যাচ্ছে; আগের structural report-এ **১৫০টি** বলা হয়েছিল। তাই ১৫০-কে আপাতত নিশ্চিত চূড়ান্ত source count ধরা হচ্ছে না। পরবর্তী ধাপে category alias/অন্য data structure-সহ পূর্ণ inventory পুনর্মিলন করা হবে। এই discrepancy-র কারণে subject **IN_PROGRESS / NOT LOCKED** থাকবে।
 
 Sources: Bangladesh Government Press Gazette 13-Nov-2026; 16-Nov-2026; 12-Nov-2026; Bangladesh Parliament; BSS 23-Nov-2026; UNB 23-Nov-2026.
+
+
+## Checkpoint 21–30 — item-wise factual check (২৭ নভেম্বর ২০২৬)
+source-order records ২১–৩০ যাচাই:
+- ২১: ১৬৪ কিশোরগঞ্জ-৩ আসন শূন্য ঘোষণার গেজেট—সঠিক।
+- ২২: সিটি কর্পোরেশন এলাকায় ই-রিকশা চলাচল বিধিমালা ২০২৬ স্থানীয় সরকার বিভাগের অধীনে—সঠিক।
+- ২৩–২৪: SDG-এর ২০৩০ সময়সীমা ও বিশ্ব জনসংখ্যা দিবস ১১ জুলাই—উত্তর সঠিক, কিন্তু এগুলো evergreen সাধারণ জ্ঞান; সাম্প্রতিক ঘটনা নয়। উভয়ের date field-এ ২০২৬-১১-২৪ বসানোও event date নয়। **দুটি item reclassify/replace করার জন্য flag করা হলো; এখনো runtime থেকে বাদ/পরিবর্তন করা হয়নি।**
+- ২৫: ২০২৫ UN Ocean Conference—নিস, ফ্রান্স; সঠিক।
+- ২৬: COP30—ব্রাজিলের বেলেম; সঠিক।
+- ২৭: World Expo 2025—ওসাকা; সঠিক।
+- ২৮: ৮০তম UNGA High-Level Week—২৩–২৯ সেপ্টেম্বর ২০২৫; সঠিক।
+- ২৯: ২০২৫ International Year of Glaciers’ Preservation; সঠিক।
+- ৩০: ২০২৫ Nobel Peace Prize—Maria Corina Machado; সঠিক।
+- ভুল উত্তরসূচি: **০টি শনাক্ত**; ২৩–২৪-এর শ্রেণিবিন্যাস/তারিখ metadata issue আলাদা করে flag।
+- Checkpoint 21–30: ১০টি যাচাই; ৮টি current affairs হিসেবে গ্রহণযোগ্য, ২টি evergreen reclassify/replace flag। মোট item-wise review: **৩০টি**।
+
+### Source inventory reconciliation
+- সম্পূর্ণ runtime file পুনরায় scan: exact category string `সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান`-এর Q() call **১২৫টি**। “সাম্প্রতিক” শব্দযুক্ত অন্য category string নেই।
+- আগের ১৫০ সংখ্যাটি এই source-এ সমর্থিত নয়; আগের inventory report-এর ১৫০-কে **ভুল গণনা** হিসেবে সংশোধন করা হলো। এখনকার যাচাইকৃত raw count ১২৫ (duplicate/eligibility review শেষে final retained count নয়)।
+- source blob SHA অপরিবর্তিত: `d8ce4584068188bb6e3f79e67631d6e778d4b731`।
+- ১২৫টির পূর্ণ normalized question+option-set duplicate master comparison এবং remaining ৯৫টি item-এর factual review বাকি; তাই **IN_PROGRESS / NOT LOCKED**।
+
+Sources: Bangladesh Gazette 17-Nov-2026; BSS 17-Nov-2026; Bangladesh Gazette 02-Nov-2026; UN SDGs; UNFPA; UNEP; UNFCCC; United Nations 2025 calendar; Nobel Peace Prize official announcement.
