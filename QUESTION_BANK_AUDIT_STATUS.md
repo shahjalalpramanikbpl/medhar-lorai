@@ -909,3 +909,10 @@
 - source-order records ৪১–৫০-এর ১০টি প্রশ্নের তারিখ/উত্তর/ব্যাখ্যা United Nations-এর ২০২৬ calendar-এর সঙ্গে যাচাই: **১০/১০ তথ্য সঠিক**; ভুল answer index **০**।
 - দশটিই বার্ষিক পুনরাবৃত্ত আন্তর্জাতিক দিবস, নতুন/এককালীন সাম্প্রতিক ঘটনা নয়; সব ১০টি reclassify/replace-এর জন্য flag। ব্যবহারকারীর অনুমতি ছাড়া runtime থেকে বাদ/পরিবর্তন করা হয়নি।
 - মোট item-wise review **৫০/১২৫**; full normalized question+option-set master comparison ও বাকি ৭৫টির review pending। **IN_PROGRESS / NOT LOCKED**। বিস্তারিত: `RECENT_AFFAIRS_AUDIT_PROGRESS.md`।
+
+
+### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 51–60 (২৭ নভেম্বর ২০২৬)
+- source-order records ৫১–৬০: ১০টি item reviewed। ৫২–৫৯-এর আটটি FY2026–27 বাজেট-সংক্রান্ত প্রশ্ন সঠিক।
+- ৫১: World Refugee Day বার্ষিক স্থায়ী দিবস; reclassify/replace flag।
+- ৬০: UNGA High-Level Week-এর option-এ ২১–২৮ সেপ্টেম্বর ভুল; UN-এর সঠিক সময়সীমা ২২–২৮ সেপ্টেম্বর। option ও explanation correction pending।
+- মোট review **৬০/১২৫**; আরও **৬৫টি** raw record (৬১–১২৫) item-wise review বাকি; normalized full master duplicate check pending। তাই ৫১–৬০ শেষ source batch নয়; বিষয় **IN_PROGRESS / NOT LOCKED**। বিস্তারিত `RECENT_AFFAIRS_AUDIT_PROGRESS.md`।
