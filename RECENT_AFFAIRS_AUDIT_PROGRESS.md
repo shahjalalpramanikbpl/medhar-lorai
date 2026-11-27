@@ -186,3 +186,11 @@ Sources: United Nations, 2026 Calendar of Selected UN Events; UNFCCC, About COP3
 - মোট item-wise review **১২০/১২৫**; বাকি **৫টি (১২১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**।
 
 Sources: UNFCCC COP31 official pages; United Nations COP31 closing update; UNEP/UN 2025 Ocean Conference; Japan Cabinet Office/Expo 2025; G20 South Africa official summit records; BRICS Brazil official summit programme.
+
+
+### Checkpoint 121–125 — ২৭ নভেম্বর ২০২৬ (শেষ source-order group)
+- source-order ১২১–১২৫: **৫/৫ তথ্য ও answer index যাচাই**। ১২১: ২০২৫ সালে G20 Presidency—South Africa; ১২২: ৮০তম UNGA সাধারণ বিতর্ক—সেপ্টেম্বর ২০২৫ (২৩–২৯ সেপ্টেম্বরের মধ্যে নির্ধারিত অধিবেশন); ১২৩: ২০২৫ UN Ocean Conference-এর আয়োজক দেশ France; ১২৪: Expo 2025 Osaka সমাপ্তি ১৩ অক্টোবর; ১২৫: COP30-এর বেলেম শহর ব্রাজিলের Pará রাজ্যে, Amazon অঞ্চলের প্রবেশদ্বার/অংশ—সরকারি South Africa/UN/Japan/Brazil সূত্রে নিশ্চিত।
+- ভুল answer index: **০টি**। ১২৩ ও ১১৫ একই conference-কে ভিন্নভাবে জিজ্ঞাসা করে; ১২৪ ও ১১৬ Expo-র আলাদা তথ্য; ১২১ ও ১১৭ G20 presidency বনাম summit-host—এগুলো exact-copy duplicate নয়।
+- মোট item-wise factual review **১২৫/১২৫ সম্পন্ন**। তবে ২০২৫ সালের কয়েকটি ঘটনা (বিশেষত ১২১–১২৫) এখন পুরোনো; freshness/replacement flag। পূর্ণ normalized question+option-set duplicate comparison এখনো final gate; তাই বিষয় **IN_PROGRESS / NOT LOCKED**। Runtime edit হয়নি।
+
+Sources: South African Government G20 Presidency; UN General Assembly 80th session/2025 calendar; Japan Cabinet Office Expo 2025; UNEP 2025 UN Ocean Conference; Brazilian Government/official COP30 pages.
