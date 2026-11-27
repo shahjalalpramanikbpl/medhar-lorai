@@ -66,3 +66,13 @@ Repository access: admin/push available to connected GitHub account.
 - Deployment workflow: `.github/workflows/deploy-website.yml` uploads the `website/` directory to GitHub Pages.
 - No Firestore rules, user data, question-bank documents, Android source, or APK release were changed.
 - Outstanding: add the exact full SJP Technologies logo asset (with globe), configure/verify Pages in repository Settings, test live sign-in and Firestore reads, then implement question CRUD only after confirming live Auth owner UID and deployed rules.
+
+
+## 2026-11-27 — Admin dashboard subject-count checkpoint
+- Updated `website/admin.html` to read the published central question-bank chunks using the existing public-read path.
+- Added a subject-wise count table using the question schema's `c` field (the same schema used by the Android app's `validateCloudQuestionBank`).
+- Added consistency validation: loaded question count must match the published metadata count before displaying the breakdown.
+- No Firestore writes, rule changes, or Android app changes were made.
+- Inline admin JavaScript syntax check: PASS.
+- Commit: `33f26cd6cef46da27cb15e737c23aabf3b1c40f1`.
+- Live Firebase data and the deployed Pages site remain unverified; subject counts will only appear after a valid central bank is available and the admin's live read permissions work.
