@@ -946,3 +946,8 @@
 - আগের checkpoint note-এ parser-এর কারণে ভুল record-এর বিবরণ ঢুকেছিল; সেটি সংশোধন করে runtime-এর category-নির্দিষ্ট ১২৫টি Q() call থেকে সঠিক source-order ১০১–১১০ পুনরায় যাচাই করা হয়েছে।
 - ১০/১০ তথ্য ও answer index সঠিক: Clean Energy Day ২৬ জানুয়ারি, Education Day ২৪ জানুয়ারি, Wetlands Day ২ ফেব্রুয়ারি, Multilateralism Day ২৪ এপ্রিল, CSocD64 শেষ ১১ ফেব্রুয়ারি, HNPW জেনেভা+অনলাইন, ACUNS Lisbon, UNGA 81 উদ্বোধন ৮ সেপ্টেম্বর, COP31 ৯–২০ নভেম্বর, COP31 President nominee Murat Kurum।
 - ১০১–১০৪ বার্ষিক স্থায়ী দিবস; reclassify/replace flag। দৃশ্যমান exact-copy duplicate নেই; full normalized comparison pending। Runtime edit হয়নি। মোট review **১১০/১২৫**; বাকি **১৫টি (১১১–১২৫)**। **IN_PROGRESS / NOT LOCKED**।
+
+
+### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 111–120 (২৭ নভেম্বর ২০২৬)
+- source-order ১১১–১২০: **১০/১০ তথ্য ও answer index যাচাই**; ভুল index ০। COP31-এর আলোচনার সভাপতি Chris Bowen, স্থান Antalya, প্রস্তাবিত Antalya Pact-এ ঐকমত্য না হওয়া ও COP32 Addis Ababa—UNFCCC/UN সূত্রে নিশ্চিত। ২০২৫ UN Ocean Conference Nice-এ, Expo Japan-এ, G20 South Africa-তে, BRICS Brazil-এ জুলাইয়ে এবং Ocean Conference তৃতীয় সম্মেলন—সরকারি/আয়োজক সূত্রে নিশ্চিত।
+- Q115–১২০ ২০২৫ সালের পুরোনো ইভেন্ট; freshness review flag। Q115/Q120 exact duplicate নয়। Runtime edit হয়নি; পূর্ণ normalized comparison pending। মোট review **১২০/১২৫**; বাকি **৫টি (১২১–১২৫)**। **IN_PROGRESS / NOT LOCKED**।
