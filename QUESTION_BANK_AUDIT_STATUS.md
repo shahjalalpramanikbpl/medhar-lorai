@@ -940,3 +940,9 @@
 - source-order ৯১–১০০: ১০/১০ তথ্য ও answer index যাচাই; ভুল index ০। Q91–93 বাজেট তথ্য সঠিক; Q93-এ তুলনার ভিত্তি “আগের অর্থবছরের লক্ষ্যমাত্রা” করে স্পষ্ট করা উচিত। Q94–96 ও Q98-এর ২০২৬ UN event date/location সঠিক। Q97, Q99, Q100 বার্ষিক স্থায়ী দিবস—reclassify/replace flag।
 - দৃশ্যমান exact-copy duplicate নেই; পূর্ণ normalized question+option-set comparison pending।
 - মোট item-wise review **১০০/১২৫**; বাকি **২৫টি (১০১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**। বিস্তারিত RECENT_AFFAIRS_AUDIT_PROGRESS.md।
+
+
+### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 101–110 (২৭ নভেম্বর ২০২৬)
+- source-order ১০১–১১০: **১০/১০ তথ্য/answer index যাচাই**; ভুল index ০। ২০২৫ সালের নোবেলজয়ী, পুরস্কারের বিষয়, ১০ ডিসেম্বর অনুষ্ঠান ও ১৪ জন laureate Nobel Foundation-এর Annual Report 2025-এ নিশ্চিত; FY2026–27 বাজেট ৯.৩৮ লাখ কোটি টাকা সরকারি বাজেট নথি ও BSS-এ নিশ্চিত।
+- দৃশ্যমান exact-copy duplicate নেই; পূর্ণ normalized question+option-set master comparison pending। Runtime edit হয়নি।
+- মোট item-wise review **১১০/১২৫**; বাকি **১৫টি (১১১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**। বিস্তারিত `RECENT_AFFAIRS_AUDIT_PROGRESS.md`-এ।
