@@ -942,7 +942,7 @@
 - মোট item-wise review **১০০/১২৫**; বাকি **২৫টি (১০১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**। বিস্তারিত RECENT_AFFAIRS_AUDIT_PROGRESS.md।
 
 
-### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 101–110 (২৭ নভেম্বর ২০২৬)
-- source-order ১০১–১১০: **১০/১০ তথ্য/answer index যাচাই**; ভুল index ০। ২০২৫ সালের নোবেলজয়ী, পুরস্কারের বিষয়, ১০ ডিসেম্বর অনুষ্ঠান ও ১৪ জন laureate Nobel Foundation-এর Annual Report 2025-এ নিশ্চিত; FY2026–27 বাজেট ৯.৩৮ লাখ কোটি টাকা সরকারি বাজেট নথি ও BSS-এ নিশ্চিত।
-- দৃশ্যমান exact-copy duplicate নেই; পূর্ণ normalized question+option-set master comparison pending। Runtime edit হয়নি।
-- মোট item-wise review **১১০/১২৫**; বাকি **১৫টি (১১১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**। বিস্তারিত `RECENT_AFFAIRS_AUDIT_PROGRESS.md`-এ।
+### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 101–110 (২৭ নভেম্বর ২০২৬; source-order পুনর্মিলিত)
+- আগের checkpoint note-এ parser-এর কারণে ভুল record-এর বিবরণ ঢুকেছিল; সেটি সংশোধন করে runtime-এর category-নির্দিষ্ট ১২৫টি Q() call থেকে সঠিক source-order ১০১–১১০ পুনরায় যাচাই করা হয়েছে।
+- ১০/১০ তথ্য ও answer index সঠিক: Clean Energy Day ২৬ জানুয়ারি, Education Day ২৪ জানুয়ারি, Wetlands Day ২ ফেব্রুয়ারি, Multilateralism Day ২৪ এপ্রিল, CSocD64 শেষ ১১ ফেব্রুয়ারি, HNPW জেনেভা+অনলাইন, ACUNS Lisbon, UNGA 81 উদ্বোধন ৮ সেপ্টেম্বর, COP31 ৯–২০ নভেম্বর, COP31 President nominee Murat Kurum।
+- ১০১–১০৪ বার্ষিক স্থায়ী দিবস; reclassify/replace flag। দৃশ্যমান exact-copy duplicate নেই; full normalized comparison pending। Runtime edit হয়নি। মোট review **১১০/১২৫**; বাকি **১৫টি (১১১–১২৫)**। **IN_PROGRESS / NOT LOCKED**।
