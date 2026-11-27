@@ -892,10 +892,9 @@
 
 
 ## ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: অডিট অগ্রগতি (২৭ নভেম্বর ২০২৬)
-- বর্তমান runtime `job-prep-suite.js`-এ ক্যাটাগরি `সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান`-এর **১৫০টি** Q() record শনাক্ত; আগের ১২৫ সংখ্যা ভুল ছিল।
-- ১৫০/১৫০-এ তারিখ pattern, source URL ও explanation field আছে; ৪-option/answer-index structural scan-এ malformed ০।
-- question-text-only exact duplicate scan-এ ০ match; এটি option-set master comparison নয়।
-- এখনো factual item-by-item verification, source identity check, ১০-ব্যাচ consolidated comparison ও final runtime/master reconciliation বাকি। কোনো প্রশ্ন edit/delete হয়নি। **IN_PROGRESS / NOT LOCKED**।
+- পূর্ণ runtime scan-এ exact category `সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান`-এর **১২৫টি** Q() record পাওয়া গেছে; আগের ১৫০ সংখ্যাটি ভুল গণনা হিসেবে সংশোধিত।
+- প্রথম ৩০টি source-order record item-wise review হয়েছে: ৩০টি উত্তর যাচাইকৃত; ২৩–২৪ evergreen প্রশ্ন হওয়ায় reclassify/replace flag, runtime edit এখনো হয়নি।
+- পূর্ণ normalized question+option-set duplicate comparison ও বাকি ৯৫টির factual review বাকি। **IN_PROGRESS / NOT LOCKED**।
 - বিস্তারিত: `RECENT_AFFAIRS_AUDIT_PROGRESS.md`।
 
 
