@@ -140,3 +140,10 @@ Sources: BSS FY27 budget highlights; bdnews24.com final budget approval report (
 - Q65, Q66, Q67, Q68 ও Q70 বার্ষিক স্থায়ী দিবস; সাম্প্রতিক ঘটনা হিসেবে মানানসই নয়—reclassify/replace flag। Q68-এর ৩ ডিসেম্বর ২০২৬ তারিখ ভবিষ্যৎ নির্ধারিত observance, ভুল নয়।
 - এই checkpoint-এ ভুল answer index পাওয়া যায়নি। Q61–70-এর মধ্যে দৃশ্যমান হুবহু প্রশ্ন-অপশন duplicate পাওয়া যায়নি; পূর্ণ normalized master comparison এখনও বাকি। Runtime edit করা হয়নি।
 - মোট item-wise review: **৭০/১২৫**; বাকি **৫৫টি (৭১–১২৫)**। **IN_PROGRESS / NOT LOCKED**।
+
+
+### Checkpoint 71–80 — ২৭ নভেম্বর ২০২৬
+- source-order ৭১–৮০: ১০/১০ তথ্য ও answer key যাচাই। Q71–74 যথাক্রমে ২৫ নভেম্বর, ২০ ফেব্রুয়ারি, ১১ ফেব্রুয়ারি ও ২২ মে—তারিখ সঠিক; চারটিই বার্ষিক আন্তর্জাতিক দিবস, তাই reclassify/replace flag।
+- Q75–80: ২০২৫ সালের পদার্থ, রসায়ন, চিকিৎসা, অর্থনীতি নোবেলজয়ী এবং রসায়ন/পদার্থ পুরস্কারের স্বীকৃতির বিষয়—সবই Nobel Prize-এর official 2025 তালিকার সঙ্গে মিলে গেছে; ভুল answer index ০।
+- এই checkpoint-এ দৃশ্যমান হুবহু প্রশ্ন-অপশন duplicate পাওয়া যায়নি; পূর্ণ normalized master comparison এখনও বাকি। Runtime edit করা হয়নি।
+- মোট item-wise review: **৮০/১২৫**; বাকি **৪৫টি (৮১–১২৫)**। **IN_PROGRESS / NOT LOCKED**।
