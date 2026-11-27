@@ -9,10 +9,16 @@ window.ML_LOCKED_JOB_PREP_MASTERS={"computer":[{"id":"locked_ict_001","auditId":
  const recentBase=base.filter(q=>q.c==='সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান').slice(0,125);
  if(bangla.length!==406||english.length!==463||gkBase.length!==126||recentBase.length!==125)throw new Error('Locked base inventory mismatch: '+JSON.stringify({bangla:bangla.length,english:english.length,gkBase:gkBase.length,recent:recentBase.length}));
  const finalBank=[...bangla,...english,...gkBase,...masters.gkExpansion,...masters.science,...masters.computer,...masters.mentalAbility,...masters.englishLiterature,...masters.reasoning,...recentBase];
- const counts={};for(const q of finalBank)counts[q.c]=(counts[q.c]||0)+1;
- const expected={'বাংলা ভাষা ও সাহিত্য':406,'English':463,'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান':236,'সাধারণ বিজ্ঞান':248,'কম্পিউটার ও ICT':189,'মানসিক দক্ষতা ও IQ':157,'পরিমাণগত দক্ষতা অনুশীলন':188,'English Literature':285,'যুক্তি ও বিশ্লেষণ':252,'সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান':125};
+ const norm=s=>String(s??'').normalize('NFC').replace(/\\s+/g,' ').trim().toLocaleLowerCase('bn');
+ const signature=q=>norm(q.c)+'|'+norm(q.q)+'|'+(q.o||[]).map(norm).sort().join('|')+'|'+norm((q.o||[])[q.a]);
+ const seen=new Set(),uniqueBank=[];
+ for(const q of finalBank){const key=signature(q);if(!seen.has(key)){seen.add(key);uniqueBank.push(q);}}
+ const duplicateCopies=finalBank.length-uniqueBank.length;
+ const counts={};for(const q of uniqueBank)counts[q.c]=(counts[q.c]||0)+1;
+ const expected={'বাংলা ভাষা ও সাহিত্য':406,'English':463,'বাংলাদেশ ও আন্তর্জাতিক সাধারণ জ্ঞান':231,'সাধারণ বিজ্ঞান':248,'কম্পিউটার ও ICT':189,'মানসিক দক্ষতা ও IQ':155,'পরিমাণগত দক্ষতা অনুশীলন':188,'English Literature':285,'যুক্তি ও বিশ্লেষণ':252,'সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান':125};
  for(const [name,n] of Object.entries(expected))if(counts[name]!==n)throw new Error('Locked subject '+name+' expected '+n+', got '+(counts[name]||0));
- if(finalBank.length!==2549)throw new Error('Locked Job Preparation bank total must be 2549, got '+finalBank.length);
- bank.splice(0,bank.length,...finalBank);
- window.JOB_PREP_LOCKED_SUBJECT_COUNTS=counts;window.JOB_PREP_LOCKED_TOTAL=bank.length;
+ if(duplicateCopies!==7)throw new Error('Expected seven exact cross-master duplicate copies to remove, got '+duplicateCopies);
+ if(uniqueBank.length!==2542)throw new Error('Locked Job Preparation bank total must be 2542, got '+uniqueBank.length);
+ bank.splice(0,bank.length,...uniqueBank);
+ window.JOB_PREP_LOCKED_SUBJECT_COUNTS=counts;window.JOB_PREP_LOCKED_TOTAL=bank.length;window.JOB_PREP_LOCKED_DUPLICATE_COPIES_REMOVED=duplicateCopies;
 })();
