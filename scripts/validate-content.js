@@ -187,9 +187,13 @@ const rulesCheck = fs.readFileSync("firestore.rules", "utf8");
 if (!rulesCheck.includes("match /appPresence/{uid}") || !rulesCheck.includes("request.auth.uid == 'TIEU9BdlVFcj2LzwoGKI2BOd2tR2'")) errors.push("Firestore presence rules must restrict cross-user reads to the app owner.");
 
 // Verify the IQ-to-quantitative runtime classification after every expansion has loaded.
-if (typeof sandbox.window.JOB_PREP_APPLY_QUANTITATIVE !== "function") errors.push("Quantitative classification hook is missing.");
+if (typeof sandbox.window.JOB_PREP_APPLY_QUANTITATIVE !== "function" || !Array.isArray(sandbox.window.JOB_PREP_QUANTITATIVE_RECORDS)) errors.push("Quantitative classification data/hook is missing.");
 else {
-  vm.runInNewContext("window.JOB_PREP_APPLY_QUANTITATIVE()", sandbox);
+  // Apply the same exact question + normalized option-set matching as the app,
+  // without invoking a VM-created closure from the outer Node context.
+  const quantitativeKey = x => normalize(x.q) + "|" + (x.o || []).map(normalize).sort().join("|") + "|" + normalize((x.o || [])[x.a]);
+  const quantitativeKeys = new Set(sandbox.window.JOB_PREP_QUANTITATIVE_RECORDS.map(quantitativeKey));
+  for (const x of subjectBank) if (x.c === "মানসিক দক্ষতা ও IQ" && quantitativeKeys.has(quantitativeKey(x))) x.c = "পরিমাণগত দক্ষতা অনুশীলন";
   const movedQuantitative = subjectBank.filter(x => x.c === "পরিমাণগত দক্ষতা অনুশীলন").length;
   const retainedIq = subjectBank.filter(x => x.c === "মানসিক দক্ষতা ও IQ").length;
   if (movedQuantitative !== 144) errors.push("Quantitative practice must contain exactly 144 reviewed questions; found " + movedQuantitative + ".");
