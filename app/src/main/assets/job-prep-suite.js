@@ -1379,6 +1379,7 @@ Q('যুক্তি ও বিশ্লেষণ','একটি পণ্য�
 );
 
 // Legacy ML_CONTENT remains in the main quiz; only audited question masters enter Job Preparation.
+const norm=s=>String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('bn');
 const englishQuizQuestions=bank.filter(q=>q.c==='English');
 if(window.ML_CONTENT?.questions){
  const seenEnglish=new Set(window.ML_CONTENT.questions.filter(q=>q.c==='English').map(q=>norm(q.q)+'|'+norm(q.o&&q.o[q.a])));
