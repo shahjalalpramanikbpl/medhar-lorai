@@ -956,3 +956,9 @@
 ### ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: Checkpoint 121–125 (২৭ নভেম্বর ২০২৬)
 - শেষ source-order group ১২১–১২৫: **৫/৫ তথ্য ও answer index যাচাই**; ভুল index ০। G20 Presidency South Africa, ৮০তম UNGA সাধারণ বিতর্ক সেপ্টেম্বর, Ocean Conference host France, Expo 2025 সমাপ্তি ১৩ অক্টোবর এবং COP30 host city Belém-এর Pará/Amazon অবস্থান সরকারি/UN সূত্রে নিশ্চিত।
 - ২০২৫ সালের পুরোনো ইভেন্টগুলো freshness/replacement flag। মোট factual review **১২৫/১২৫**; পূর্ণ normalized duplicate comparison বাকি। **IN_PROGRESS / NOT LOCKED**।
+
+
+### ১০ নম্বর বিষয় — পূর্ণ normalized duplicate audit (২৭ নভেম্বর ২০২৬)
+- সাম্প্রতিক ঘটনা category-এর **১২৫/১২৫** record parse/structure check PASS; ৪ option, valid answer index, source URL/date—ত্রুটি ০।
+- প্রশ্ন + normalized option-set signature দিয়ে ১২৫টির পূর্ণ তুলনা: **exact duplicate ০, duplicate copy ০**।
+- তবু **NOT LOCKED**: বার্ষিক দিবস/evergreen item ও ২০২৫ সালের পুরোনো ঘটনার freshness/category-fit flag এবং Q35 explanation, Q60 date option, Q93 wording-এর runtime correction বাকি। অনুমতি ছাড়া প্রশ্ন সরানো/বদলানো হয়নি। Runtime source SHA অপরিবর্তিত।
