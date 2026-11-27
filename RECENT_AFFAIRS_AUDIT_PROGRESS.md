@@ -156,3 +156,13 @@ Sources: BSS FY27 budget highlights; bdnews24.com final budget approval report (
 - মোট item-wise review: **৯০/১২৫**; বাকি **৩৫টি (৯১–১২৫)**। পূর্ণ normalized question+option-set master comparison এখনও বাকি; তাই **IN_PROGRESS / NOT LOCKED**। Runtime পরিবর্তন করা হয়নি।
 
 Sources: NobelPrize.org, All Nobel Prizes and Annual Report 2025; bdnews24.com final FY2026–27 budget report; Bangladesh Customs/NBR official FY2026–27 budget speech.
+
+
+### Checkpoint 91–100 — ২৭ নভেম্বর ২০২৬
+- source-order ৯১–১০০: **১০/১০ তথ্য ও answer index যাচাই**। Q91: FY2026–27-এ ঋণের সুদে ১.২৭ ট্রিলিয়ন টাকা বরাদ্দ; Q92: করমুক্ত আয়সীমা বৃদ্ধির সংশোধনী Finance Bill 2026; Q93: GDP growth target ৬.৫%, আগের FY2025–26 target ৫.৫%-এর চেয়ে বেশি—বাজেট প্রতিবেদন দিয়ে নিশ্চিত। Q93-এর প্রশ্নে তুলনার ভিত্তি স্পষ্ট করতে wording-এ “আগের অর্থবছরের লক্ষ্যমাত্রা” বলা উচিত।
+- Q94: 64th Commission for Social Development, New York, 2–11 February; Q95: 29th Commission on Science and Technology for Development, Geneva, 20–24 April; Q96: 1951 Refugee Convention-এর 75তম বার্ষিকী 28 July; Q98: HLPF 6–10 July—UN 2026 calendar-এ মেলে।
+- Q97 World Youth Day/International Youth Day 12 August, Q99 World Day for Cultural Diversity 21 May, Q100 World Day to Combat Desertification and Drought 17 June—তারিখ সঠিক, তবে এগুলো বার্ষিক স্থায়ী observance; সাম্প্রতিক ঘটনা ব্যাংকে reclassify/replace flag।
+- ভুল answer index: **০টি**। দৃশ্যমান exact-copy duplicate নেই; পূর্ণ normalized question+option-set master comparison এখনও pending। Runtime edit হয়নি।
+- মোট item-wise review: **১০০/১২৫**; বাকি **২৫টি (১০১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**।
+
+Sources: bdnews24.com FY2026–27 budget report; Bangladesh NBR/Finance Division budget documents; United Nations 2026 Calendar of Selected UN Events.
