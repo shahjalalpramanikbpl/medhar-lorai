@@ -60,7 +60,27 @@ async function loadDashboard(){
   const cutoff=Date.now()-120000,online=presence.filter(x=>Date.parse(x.fields?.lastSeen?.timestampValue||'')>=cutoff).length;$('online').textContent=online.toLocaleString('bn-BD');
   $('board').innerHTML=(board.documents||[]).map((d,i)=>'<tr><td>'+(i+1)+'</td><td>'+String(value(d.fields,'displayName')||'খেলোয়াড়').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))+'</td><td>'+value(d.fields,'points')+'</td><td>'+value(d.fields,'level')+'</td></tr>').join('')||'<tr><td colspan="4">এখনো কোনো রেকর্ড নেই।</td></tr>';
   let rows='<p class="muted">কেন্দ্রীয় প্রশ্নব্যাংক: '+count.toLocaleString('bn-BD')+' প্রশ্ন · '+chunks.toLocaleString('bn-BD')+'টি chunk</p>';
-  if(meta?.fields?.format?.stringValue!=='medhar-lorai-central-bank-v1')rows='<p class="danger">কেন্দ্রীয় প্রশ্নব্যাংকের meta ডেটা পাওয়া যায়নি বা format মেলেনি।</p>';
+  if(meta?.fields?.format?.stringValue!=='medhar-lorai-central-bank-v1') {
+   rows+='<p class="danger">কেন্দ্রীয় প্রশ্নব্যাংকের meta ডেটা পাওয়া যায়নি বা format মেলেনি।</p>';
+  } else {
+   const subjectCounts={}; let loaded=0;
+   for(let i=0;i<chunks;i++){
+    const id='chunk_'+String(i).padStart(3,'0');
+    const part=await db('publicQuestionBank/'+id,true);
+    const payload=part.fields?.payload?.stringValue;
+    if(typeof payload!=='string')throw Error('প্রশ্নব্যাংকের '+id+' পাওয়া যায়নি।');
+    const questions=JSON.parse(payload);
+    if(!Array.isArray(questions))throw Error('প্রশ্নব্যাংকের '+id+'-এর তথ্য সঠিক নয়।');
+    for(const q of questions){
+     const subject=String(q?.c||'অনির্ধারিত').trim()||'অনির্ধারিত';
+     subjectCounts[subject]=(subjectCounts[subject]||0)+1; loaded++;
+    }
+   }
+   if(loaded!==count)throw Error('প্রশ্নের মোট সংখ্যা meta-এর সঙ্গে মেলেনি।');
+   rows+='<div class="tablewrap"><table><thead><tr><th>বিষয়</th><th>প্রশ্নসংখ্যা</th></tr></thead><tbody>'+
+    Object.entries(subjectCounts).sort((a,b)=>a[0].localeCompare(b[0],'bn')).map(([name,n])=>'<tr><td>'+name.replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]))+'</td><td>'+n.toLocaleString('bn-BD')+'</td></tr>').join('')+
+    '</tbody></table></div>';
+  }
   $('subjects').innerHTML=rows;
   $('dashStatus').textContent='সফলভাবে তথ্য আনা হয়েছে। অনলাইন গণনা ২ মিনিটের heartbeat ধরে করা হয়েছে।';
  }catch(e){$('dashStatus').textContent='তথ্য আনা যায়নি: '+e.message+' — Firestore Rules/অ্যাডমিন অনুমতি যাচাই প্রয়োজন।'}
