@@ -889,3 +889,11 @@
 - ১৬টি exact duplicate copy বাদ; remaining duplicate ০। Source inventory batch ৫৬-এ শেষ; ৫৭+ original batch নেই।
 - Progress report reconciliation commit: `b9d5beee08dc84f35a525a43a1f80a819fad14be`।
 - **পরবর্তী কাজের ক্রম: এখন ১০ নম্বর “সাম্প্রতিক ঘটনা” শুরু হবে।** ৯ নম্বর সম্পন্ন ও LOCKED; ১০ নম্বর বাদ নয়।
+
+
+## ১০ নম্বর বিষয় — সাম্প্রতিক ঘটনা: অডিট অগ্রগতি (২৭ নভেম্বর ২০২৬)
+- বর্তমান runtime `job-prep-suite.js`-এ ক্যাটাগরি `সাম্প্রতিক ঘটনা ও সমসাময়িক জ্ঞান`-এর **১৫০টি** Q() record শনাক্ত; আগের ১২৫ সংখ্যা ভুল ছিল।
+- ১৫০/১৫০-এ তারিখ pattern, source URL ও explanation field আছে; ৪-option/answer-index structural scan-এ malformed ০।
+- question-text-only exact duplicate scan-এ ০ match; এটি option-set master comparison নয়।
+- এখনো factual item-by-item verification, source identity check, ১০-ব্যাচ consolidated comparison ও final runtime/master reconciliation বাকি। কোনো প্রশ্ন edit/delete হয়নি। **IN_PROGRESS / NOT LOCKED**।
+- বিস্তারিত: `RECENT_AFFAIRS_AUDIT_PROGRESS.md`।
