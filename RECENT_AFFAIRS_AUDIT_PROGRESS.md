@@ -168,10 +168,11 @@ Sources: NobelPrize.org, All Nobel Prizes and Annual Report 2025; bdnews24.com f
 Sources: bdnews24.com FY2026–27 budget report; Bangladesh NBR/Finance Division budget documents; United Nations 2026 Calendar of Selected UN Events.
 
 
-### Checkpoint 101–110 — ২৭ নভেম্বর ২০২৬
-- source-order ১০১–১১০: **১০/১০ তথ্য, উত্তরসূচি ও ব্যাখ্যা যাচাই**। ১০১: ২০২৫ রসায়ন নোবেল—Susumu Kitagawa, Richard Robson ও Omar M. Yaghi; ১০২: চিকিৎসাবিজ্ঞান—Mary E. Brunkow, Fred Ramsdell ও Shimon Sakaguchi; ১০৩: অর্থনীতি—Joel Mokyr, Philippe Aghion ও Peter Howitt; ১০৪: রসায়ন পুরস্কারের বিষয় metal-organic frameworks; ১০৫: পদার্থবিজ্ঞানে electric circuit-এ macroscopic quantum tunnelling ও energy quantisation; ১০৬: চিকিৎসাবিজ্ঞানে peripheral immune tolerance; ১০৭: অর্থনীতিতে innovation-driven economic growth; ১০৮: পুরস্কার প্রদান অনুষ্ঠান ১০ ডিসেম্বর ২০২৫; ১০৯: মোট ১৪ জন laureate; ১১০: FY2026–27 জাতীয় বাজেট ৯.৩৮ লাখ কোটি টাকা।
-- Nobel Prize Foundation-এর ২০২৫ Annual Report এবং সরকারি Finance Division/NBR budget speech ও BSS/Parliament budget report-এ তথ্যগুলো নিশ্চিত। ভুল answer index: **০টি**।
-- এই দশকে দৃশ্যমান হুবহু প্রশ্ন+option-set duplicate পাওয়া যায়নি; তবে Nobel-এর একই বছরের বিভিন্ন বিভাগ/পুরস্কার-উদ্দেশ্য নিয়ে আলাদা প্রশ্ন হওয়ায় সেগুলো duplicate নয়। পূর্ণ normalized master comparison এখনও বাকি।
-- মোট item-wise review: **১১০/১২৫**; বাকি **১৫টি (১১১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**। Runtime edit করা হয়নি।
+### Checkpoint 101–110 — ২৭ নভেম্বর ২০২৬ (source-order পুনর্মিলন)
+- আগের checkpoint note-এ parser-এর কারণে ভুল করে ১০১–১১০-এর বদলে অন্য ১০টি record-এর বিবরণ ঢুকে গিয়েছিল; সেটি বাতিল। runtime-এর category-নির্দিষ্ট Q() call ১২৫টি ধরে পুনরায় source-order parse করে সঠিক ১০১–১১০ যাচাই করা হয়েছে।
+- ১০১: International Day of Clean Energy—২৬ জানুয়ারি; ১০২: International Day of Education—২৪ জানুয়ারি; ১০৩: World Wetlands Day—২ ফেব্রুয়ারি; ১০৪: International Day of Multilateralism and Diplomacy for Peace—২৪ এপ্রিল; ১০৫: 64th Commission for Social Development-এর শেষ তারিখ ১১ ফেব্রুয়ারি; ১০৬: Humanitarian Networks and Partnerships Week—জেনেভা ও অনলাইন; ১০৭: ACUNS Annual Meeting—লিসবন; ১০৮: UNGA 81st session উদ্বোধন—৮ সেপ্টেম্বর; ১০৯: COP31-এর নির্ধারিত সময় ৯–২০ নভেম্বর; ১১০: COP31 President nominee—Murat Kurum।
+- UN-এর ২০২৬ Calendar এবং UNFCCC-এর COP31 official page-এ তথ্য/তারিখ/স্থান নিশ্চিত। সব answer index সঠিক; ভুল index **০টি**।
+- এই দশকের কয়েকটি প্রশ্ন বার্ষিক আন্তর্জাতিক দিবস (১০১–১০৪); এগুলো সাম্প্রতিক ঘটনা নয়, reclassify/replace flag। বাকি প্রশ্নগুলো ২০২৬ সালের নির্দিষ্ট অধিবেশন/সম্মেলন। দৃশ্যমান exact-copy duplicate নেই; full normalized master comparison pending। Runtime edit হয়নি।
+- মোট item-wise review **১১০/১২৫**; বাকি **১৫টি (১১১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**।
 
-Sources: Nobel Foundation, Annual Report 2025; Bangladesh Finance Division/NBR FY2026–27 Budget Speech; BSS, “President authenticates national budget for FY27”; bdnews24.com, “Bangladesh approves Tk 9.38 trillion budget for FY2026–27”.
+Sources: United Nations, 2026 Calendar of Selected UN Events; UNFCCC, About COP31 / COP31 official conference page.
