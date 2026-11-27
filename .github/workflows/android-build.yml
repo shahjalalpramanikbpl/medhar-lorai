@@ -1,4 +1,4 @@
-name: Android build and release check
+name: Android signed release APK
 
 on:
   push:
@@ -52,7 +52,7 @@ jobs:
           printf '%s' "$ANDROID_KEYSTORE_BASE64" | base64 --decode > app/release-key.jks
           test -s app/release-key.jks
 
-      - name: Build debug and signed release APKs
+      - name: Build signed release APK only
         if: github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'BUILD:')
         env:
           ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
@@ -63,16 +63,7 @@ jobs:
           test -n "$ANDROID_KEYSTORE_PASSWORD"
           test -n "$ANDROID_KEY_ALIAS"
           test -n "$ANDROID_KEY_PASSWORD"
-          gradle --no-daemon :app:assembleDebug :app:assembleRelease :app:bundleRelease
-
-      - name: Upload debug APK
-        if: github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'BUILD:')
-        uses: actions/upload-artifact@v4
-        with:
-          name: medhar-lorai-debug-apk
-          path: app/build/outputs/apk/debug/*.apk
-          if-no-files-found: error
-          retention-days: 14
+          gradle --no-daemon :app:assembleRelease
 
       - name: Upload signed release APK
         if: github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'BUILD:')
@@ -83,11 +74,3 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-      - name: Upload Play Store Android App Bundle
-        if: github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'BUILD:')
-        uses: actions/upload-artifact@v4
-        with:
-          name: medhar-lorai-play-store-aab
-          path: app/build/outputs/bundle/release/*.aab
-          if-no-files-found: error
-          retention-days: 30
