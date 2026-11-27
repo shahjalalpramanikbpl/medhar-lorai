@@ -166,3 +166,12 @@ Sources: NobelPrize.org, All Nobel Prizes and Annual Report 2025; bdnews24.com f
 - মোট item-wise review: **১০০/১২৫**; বাকি **২৫টি (১০১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**।
 
 Sources: bdnews24.com FY2026–27 budget report; Bangladesh NBR/Finance Division budget documents; United Nations 2026 Calendar of Selected UN Events.
+
+
+### Checkpoint 101–110 — ২৭ নভেম্বর ২০২৬
+- source-order ১০১–১১০: **১০/১০ তথ্য, উত্তরসূচি ও ব্যাখ্যা যাচাই**। ১০১: ২০২৫ রসায়ন নোবেল—Susumu Kitagawa, Richard Robson ও Omar M. Yaghi; ১০২: চিকিৎসাবিজ্ঞান—Mary E. Brunkow, Fred Ramsdell ও Shimon Sakaguchi; ১০৩: অর্থনীতি—Joel Mokyr, Philippe Aghion ও Peter Howitt; ১০৪: রসায়ন পুরস্কারের বিষয় metal-organic frameworks; ১০৫: পদার্থবিজ্ঞানে electric circuit-এ macroscopic quantum tunnelling ও energy quantisation; ১০৬: চিকিৎসাবিজ্ঞানে peripheral immune tolerance; ১০৭: অর্থনীতিতে innovation-driven economic growth; ১০৮: পুরস্কার প্রদান অনুষ্ঠান ১০ ডিসেম্বর ২০২৫; ১০৯: মোট ১৪ জন laureate; ১১০: FY2026–27 জাতীয় বাজেট ৯.৩৮ লাখ কোটি টাকা।
+- Nobel Prize Foundation-এর ২০২৫ Annual Report এবং সরকারি Finance Division/NBR budget speech ও BSS/Parliament budget report-এ তথ্যগুলো নিশ্চিত। ভুল answer index: **০টি**।
+- এই দশকে দৃশ্যমান হুবহু প্রশ্ন+option-set duplicate পাওয়া যায়নি; তবে Nobel-এর একই বছরের বিভিন্ন বিভাগ/পুরস্কার-উদ্দেশ্য নিয়ে আলাদা প্রশ্ন হওয়ায় সেগুলো duplicate নয়। পূর্ণ normalized master comparison এখনও বাকি।
+- মোট item-wise review: **১১০/১২৫**; বাকি **১৫টি (১১১–১২৫)**। বিষয় **IN_PROGRESS / NOT LOCKED**। Runtime edit করা হয়নি।
+
+Sources: Nobel Foundation, Annual Report 2025; Bangladesh Finance Division/NBR FY2026–27 Budget Speech; BSS, “President authenticates national budget for FY27”; bdnews24.com, “Bangladesh approves Tk 9.38 trillion budget for FY2026–27”.
