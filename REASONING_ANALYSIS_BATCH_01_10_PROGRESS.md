@@ -37,3 +37,16 @@ Quantitative practice-এ ৩০টি প্রশ্ন আলাদা চি
 
 ## পরবর্তী ধাপ
 ব্যাচ ১১–২০-কে consolidated ০১–১০ master-এর সঙ্গে তুলনা করে একই ১০-ব্যাচ নিয়মে অডিট চলবে। Reasoning subject এখনো **NOT LOCKED**।
+
+## চূড়ান্ত master reconciliation — ২৭ নভেম্বর ২০২৬
+আগের এই checkpoint রিপোর্টের ১৮২ unique/NOT LOCKED অবস্থা interim এবং পুরোনো। সর্বশেষ কর্তৃত্বপূর্ণ consolidated master `REASONING_ANALYSIS_MASTER_BATCH_01_10.json` পুনরায় fetch করে দেখা হয়েছে; এতে পরবর্তী সব checkpoint ১১–২০, ২১–৩০, ৩১–৪০, ৪১–৫০ এবং বিদ্যমান source ৫১–৫৬-এর ফলও একীভূত।
+
+- **চূড়ান্ত বিষয়: LOCKED — ২৯৬টি unique record।**
+- ১৪২ base unique + expansion ০১–১০-এর ৪০ unique + পরবর্তী checkpoint-এর ১১৪ unique = ২৯৬।
+- চূড়ান্ত শ্রেণিবিন্যাস: **যুক্তি ও বিশ্লেষণ ২৫২টি** + **পরিমাণগত দক্ষতা ৪৪টি** = ২৯৬।
+- Exact duplicate copy অপসারণ: **১৬টি**; final master-এর ভেতরে exact duplicate অবশিষ্ট: ০।
+- ১১–২০: ৪৩/৪৩ reviewed; ২১–৩০: ২৩ candidate, ১টি IQ master duplicate বাদ; ৩১–৪০: ২৭ candidate, ২টি IQ duplicate বাদ; ৪১–৫০: ১৯/১৯ reviewed, ১টি quantitative হিসেবে পুনঃশ্রেণিবদ্ধ; বিদ্যমান source ৫১–৫৩: ৫টি reviewed। ৫৪–৫৬-এ reasoning candidate ছিল না।
+- মূল source inventory batch ৫৬-এ শেষ; ৫৭ বা তার পরের কোনো original reasoning batch নেই। ৫১–৬০ কেবল checkpoint range label; ৫৪–৬০-এ অতিরিক্ত source batch ধরে নেওয়া হয়নি।
+- **Content audit LOCKED.** এটি Android release/build sign-off নয়; আলাদা release validation প্রয়োজন হতে পারে।
+
+চূড়ান্ত master-এর `status=LOCKED`, `inventory.lastNote` এবং `laterBatchAudits`-এ উপরোক্ত হিসাব সংরক্ষিত। আগের interim সংখ্যাগুলোকে বর্তমান status হিসেবে ব্যবহার করা যাবে না।
