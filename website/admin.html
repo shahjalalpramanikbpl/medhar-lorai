@@ -139,7 +139,8 @@ $('importBank').onclick=async()=>{const file=$('importBankFile').files?.[0];if(!
 async function publishQBank(){
  if(!session||session.uid!==OWNER_UID)throw Error('শুধু নির্ধারিত মালিকের Firebase অ্যাকাউন্ট প্রকাশ করতে পারবে।');
  validateQBank(qBank);
- if(!qDirty)throw Error('প্রকাশ করার মতো নতুন পরিবর্তন নেই।');\n await saveBankVersion(qBankOriginal,'প্রকাশের আগে স্বয়ংক্রিয় ব্যাকআপ');
+ if(!qDirty)throw Error('প্রকাশ করার মতো নতুন পরিবর্তন নেই।');
+ await saveBankVersion(qBankOriginal,'প্রকাশের আগে স্বয়ংক্রিয় ব্যাকআপ');
  const oldChunks=Math.ceil(qBankOriginal.length/QB_SIZE),newChunks=Math.ceil(qBank.length/QB_SIZE),writes=[];
  for(let i=0;i<newChunks;i++){
   const id='chunk_'+String(i).padStart(3,'0'),payload=JSON.stringify(qBank.slice(i*QB_SIZE,(i+1)*QB_SIZE));
