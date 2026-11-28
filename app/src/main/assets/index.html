@@ -974,7 +974,8 @@ async function applyRemoteAppControl(){
   if(f.maintenanceEnabled?.booleanValue===true){const cover=document.createElement('div');cover.id='remoteMaintenanceCover';cover.style.cssText='position:fixed;inset:0;z-index:99999;display:grid;place-items:center;padding:24px;background:linear-gradient(145deg,#07162e,#183b5b);color:#fff;text-align:center';const msg=String(f.maintenanceText?.stringValue||'অ্যাপটি উন্নত করার কাজ চলছে। অনুগ্রহ করে কিছুক্ষণ পর আবার চেষ্টা করুন।');const box=document.createElement('div');box.style.cssText='max-width:520px;background:#102945;border:1px solid #d8b96e;border-radius:22px;padding:28px;box-shadow:0 18px 50px #0008';const h=document.createElement('h2');h.textContent='সাময়িক রক্ষণাবেক্ষণ';const p=document.createElement('p');p.style.lineHeight='1.8';p.textContent=msg;const icon=document.createElement('div');icon.style.fontSize='48px';icon.textContent='🛠️';const foot=document.createElement('small');foot.textContent='Battle of Brains · মেধার লড়াই';box.append(icon,h,p,foot);cover.append(box);document.body.append(cover);}
  }catch(e){/* Remote control is optional; offline users continue normally. */}
 }
-\nasync function loadCentralQuestionBank(showStatus=false){
+
+async function loadCentralQuestionBank(showStatus=false){
  const status=$('centralQuestionsStatus');
  try{
   const meta=await publicFirestoreGet(centralBankPath('meta')),f=meta.fields||{};
