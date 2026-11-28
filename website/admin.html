@@ -63,7 +63,8 @@ function validateQBank(list){
  const seen=new Set();
  for(const q of list){
   if(!q||typeof q.c!=='string'||!q.c.trim()||q.c.length>80||typeof q.q!=='string'||!q.q.trim()||q.q.length>1200||!Array.isArray(q.o)||q.o.length!==4||q.o.some(x=>typeof x!=='string'||!x.trim()||x.length>300)||![0,1,2,3].includes(Number(q.a))||!['সহজ','মাঝারি','কঠিন'].includes(q.d))throw Error('কোনো প্রশ্নের বিষয়/প্রশ্ন/চারটি অপশন/সঠিক উত্তর/কঠিনতা সঠিক নয়।');
-  const norm=v=>String(v??'').normalize('NFC').toLocaleLowerCase('bn').replace(/\s+/g,' ').trim();\n  const key=norm(q.q)+'||'+q.o.map(norm).sort().join('||');
+  const norm=v=>String(v??'').normalize('NFC').toLocaleLowerCase('bn').replace(/\s+/g,' ').trim();
+  const key=norm(q.q)+'||'+q.o.map(norm).sort().join('||');
   if(seen.has(key))throw Error('একই প্রশ্নের পুনরাবৃত্তি পাওয়া গেছে: '+q.q);seen.add(key);
  }
  return list;
