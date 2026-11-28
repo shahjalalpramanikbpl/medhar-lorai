@@ -9,7 +9,7 @@
 <div class="card bar"><div><h2>অ্যাডমিন ড্যাশবোর্ড</h2><div id="who" class="muted"></div></div><button id="logout" class="secondary">লগআউট</button></div>
 <div class="stats"><div class="stat"><b id="qcount">—</b><span>কেন্দ্রীয় প্রশ্ন</span></div><div class="stat"><b id="installs">—</b><span>ইনস্টল রেকর্ড</span></div><div class="stat"><b id="users">—</b><span>নিবন্ধিত ব্যবহারকারী</span></div><div class="stat"><b id="online">—</b><span>সাম্প্রতিক অনলাইন</span></div></div>
 <div class="card"><div class="bar"><h2>লিডারবোর্ড</h2><button id="refresh">তথ্য রিফ্রেশ</button></div><div class="tablewrap"><table><thead><tr><th>#</th><th>নাম</th><th>পয়েন্ট</th><th>লেভেল</th></tr></thead><tbody id="board"></tbody></table></div><div id="dashStatus" class="status">ডেটা লোড হচ্ছে…</div></div>
-<div class="card"><h2>প্রশ্নব্যাংক</h2><p class="muted">কেন্দ্রীয় প্রশ্নব্যাংকের প্রকাশিত মেটাডেটা এবং বিষয়ভিত্তিক সারাংশ দেখানো হবে। প্রশ্ন সম্পাদনা/প্রকাশের বাটন এই পোর্টালে এখনো সক্রিয় করা হয়নি; Firebase-এর লাইভ মালিকানা ও Rules পুনরায় যাচাই না করে কোনো ডেটা পরিবর্তন করা হবে না।</p><div id="subjects" class="tablewrap"></div></div>
+<div class="card"><div class="bar"><h2>কেন্দ্রীয় প্রশ্নব্যাংক ব্যবস্থাপনা</h2><div><button id="loadBank" class="secondary">লাইভ প্রশ্ন আনুন</button><button id="exportBank" class="secondary">ব্যাকআপ ডাউনলোড</button></div></div><p class="muted">লাইভ Firebase প্রশ্নব্যাংক লোড করে প্রশ্ন যোগ, সম্পাদনা ও মুছে ফেলুন। পরিবর্তন প্রথমে এই প্যানেলে প্রস্তুত হবে; “সব পরিবর্তন প্রকাশ” চাপার আগে কেন্দ্রীয় ব্যাংকে কিছুই বদলাবে না।</p><div id="bankStatus" class="status">প্রথমে লাইভ প্রশ্নব্যাংক আনুন।</div><div class="stats" style="margin:14px 0"><div class="stat"><b id="bankTotal">—</b><span>প্রশ্ন</span></div><div class="stat"><b id="bankSubjects">—</b><span>বিষয়</span></div><div class="stat"><b id="bankChanges">০</b><span>অপ্রকাশিত পরিবর্তন</span></div><div class="stat"><b id="bankState">—</b><span>অবস্থা</span></div></div><h3>প্রশ্ন যোগ / সম্পাদনা</h3><form id="bankForm"><input type="hidden" id="bankEditId"><label for="bankCategory">বিষয়</label><input id="bankCategory" maxlength="80" placeholder="যেমন: গণিত" required><label for="bankDifficulty">কঠিনতা</label><select id="bankDifficulty" style="width:100%;padding:13px;border-radius:10px;background:#071a30;color:white;border:1px solid #557493"><option>সহজ</option><option selected>মাঝারি</option><option>কঠিন</option></select><label for="bankQuestion">প্রশ্ন</label><textarea id="bankQuestion" maxlength="1200" rows="3" required style="width:100%;padding:13px;border-radius:10px;background:#071a30;color:white;border:1px solid #557493"></textarea><div class="stats" style="grid-template-columns:repeat(2,1fr)"><div><label>অপশন ১</label><input class="bankOption" maxlength="300" required></div><div><label>অপশন ২</label><input class="bankOption" maxlength="300" required></div><div><label>অপশন ৩</label><input class="bankOption" maxlength="300" required></div><div><label>অপশন ৪</label><input class="bankOption" maxlength="300" required></div></div><label for="bankCorrect">সঠিক উত্তর</label><select id="bankCorrect" style="width:100%;padding:13px;border-radius:10px;background:#071a30;color:white;border:1px solid #557493"><option value="0">অপশন ১</option><option value="1">অপশন ২</option><option value="2">অপশন ৩</option><option value="3">অপশন ৪</option></select><button type="submit" id="bankSave">প্রশ্ন তালিকায় যোগ করুন</button><button type="button" id="bankCancel" class="secondary">ফর্ম পরিষ্কার</button></form><hr style="border-color:#365a7c;margin:22px 0"><div class="bar"><h3>প্রশ্নের তালিকা</h3><input id="bankSearch" style="max-width:300px" placeholder="প্রশ্ন / বিষয় খুঁজুন"></div><div class="tablewrap"><table><thead><tr><th>#</th><th>বিষয় ও প্রশ্ন</th><th>কঠিনতা</th><th>কাজ</th></tr></thead><tbody id="bankRows"><tr><td colspan="4">প্রশ্ন লোড করা হয়নি।</td></tr></tbody></table></div><div class="bar"><button id="bankPrev" class="secondary">আগের ৪০টি</button><span id="bankPage" class="muted">পৃষ্ঠা ০</span><button id="bankNext" class="secondary">পরের ৪০টি</button></div><button id="publishBank" style="background:#27b98a;color:#06271e">সব পরিবর্তন কেন্দ্রীয় ব্যাংকে প্রকাশ করুন</button><div id="subjects" class="tablewrap" style="margin-top:18px"></div></div>
 <div class="card"><h2>নিরাপত্তা অবস্থা</h2><p id="security" class="muted">Firebase UID যাচাই করা হয়েছে। Firestore Rules প্রতিটি অনুরোধে আবার অনুমতি যাচাই করে।</p></div>
 </section>
 </main>
@@ -49,6 +49,79 @@ async function db(path,publicRead=false){
 }
 async function allDocs(collection){let page='',out=[];do{const d=await db(collection+'?pageSize=1000'+(page?'&pageToken='+encodeURIComponent(page):''));out.push(...(d.documents||[]));page=d.nextPageToken||'';}while(page&&out.length<50000);return out;}
 function value(f,k){return f?.[k]?.stringValue??f?.[k]?.integerValue??f?.[k]?.doubleValue??''}
+
+// Central question-bank editor: Firestore owner UID rules remain the final authority.
+const QB_SIZE=80, QB_PAGE=40;
+let qBank=[],qBankOriginal=[],qPage=0,qDirty=false;
+const esc=s=>String(s??'').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+const bn=n=>Number(n||0).toLocaleString('bn-BD');
+function qBankStats(){const subjects=new Set(qBank.map(q=>q.c));$('bankTotal').textContent=bn(qBank.length);$('bankSubjects').textContent=bn(subjects.size);$('bankChanges').textContent=qDirty?'আছে':'০';$('bankState').textContent=qDirty?'সম্পাদিত':'সিঙ্ক';}
+function markQDirty(){qDirty=JSON.stringify(qBank)!==JSON.stringify(qBankOriginal);qBankStats();renderQBank();}
+function clearQForm(){$('bankForm').reset();$('bankEditId').value='';$('bankDifficulty').value='মাঝারি';$('bankCorrect').value='0';$('bankSave').textContent='প্রশ্ন তালিকায় যোগ করুন'}
+function validateQBank(list){
+ if(!Array.isArray(list)||!list.length||list.length>5000)throw Error('প্রশ্ন ১–৫০০০টির মধ্যে হতে হবে।');
+ const seen=new Set();
+ for(const q of list){
+  if(!q||typeof q.c!=='string'||!q.c.trim()||q.c.length>80||typeof q.q!=='string'||!q.q.trim()||q.q.length>1200||!Array.isArray(q.o)||q.o.length!==4||q.o.some(x=>typeof x!=='string'||!x.trim()||x.length>300)||![0,1,2,3].includes(Number(q.a))||!['সহজ','মাঝারি','কঠিন'].includes(q.d))throw Error('কোনো প্রশ্নের বিষয়/প্রশ্ন/চারটি অপশন/সঠিক উত্তর/কঠিনতা সঠিক নয়।');
+  const key=q.q.normalize('NFC').toLocaleLowerCase('bn').replace(/\s+/g,' ').trim();
+  if(seen.has(key))throw Error('একই প্রশ্নের পুনরাবৃত্তি পাওয়া গেছে: '+q.q);seen.add(key);
+ }
+ return list;
+}
+async function loadQBank(){
+ $('bankStatus').textContent='Firestore থেকে কেন্দ্রীয় প্রশ্নব্যাংক আনা হচ্ছে…';
+ try{
+  const meta=await db('publicQuestionBank/meta',true),f=meta.fields||{};
+  if(f.format?.stringValue!=='medhar-lorai-central-bank-v1')throw Error('কেন্দ্রীয় প্রশ্নব্যাংকের format মেলেনি।');
+  const count=Number(f.count?.integerValue||0),chunks=Number(f.chunks?.integerValue||0);
+  if(!count||count>5000||chunks!==Math.ceil(count/QB_SIZE)||chunks>63)throw Error('প্রশ্নব্যাংকের মেটাডেটা অসম্পূর্ণ।');
+  const bank=[];
+  for(let i=0;i<chunks;i++){
+   const d=await db('publicQuestionBank/chunk_'+String(i).padStart(3,'0'),true);
+   const payload=d.fields?.payload?.stringValue;if(typeof payload!=='string')throw Error('Chunk '+i+' পাওয়া যায়নি।');
+   const part=JSON.parse(payload);if(!Array.isArray(part))throw Error('Chunk '+i+' ভুল ফরম্যাটে আছে।');bank.push(...part);
+  }
+  if(bank.length!==count)throw Error('প্রশ্নসংখ্যা মেটাডেটার সঙ্গে মেলেনি।');
+  qBank=validateQBank(bank).map(q=>({...q,id:String(q.id||('admin_'+crypto.randomUUID()))}));
+  qBankOriginal=JSON.parse(JSON.stringify(qBank));qDirty=false;qPage=0;
+  $('bankStatus').textContent='লাইভ প্রশ্নব্যাংক লোড হয়েছে। '+bn(count)+'টি প্রশ্ন সম্পাদনার জন্য প্রস্তুত।';
+  qBankStats();renderQBank();renderSubjectSummary(qBank);
+ }catch(e){$('bankStatus').textContent='লোড ব্যর্থ: '+e.message}
+}
+function renderSubjectSummary(bank){const counts={};bank.forEach(q=>counts[q.c]=(counts[q.c]||0)+1);$('subjects').innerHTML='<h3>বিষয়ভিত্তিক সারাংশ</h3><table><thead><tr><th>বিষয়</th><th>প্রশ্ন</th></tr></thead><tbody>'+Object.entries(counts).sort((a,b)=>a[0].localeCompare(b[0],'bn')).map(([s,n])=>'<tr><td>'+esc(s)+'</td><td>'+bn(n)+'</td></tr>').join('')+'</tbody></table>'}
+function renderQBank(){
+ const term=$('bankSearch').value.trim().toLocaleLowerCase('bn');
+ const filtered=qBank.map((q,i)=>({q,i})).filter(x=>(x.q.c+' '+x.q.q).toLocaleLowerCase('bn').includes(term));
+ const pages=Math.max(1,Math.ceil(filtered.length/QB_PAGE));qPage=Math.min(qPage,pages-1);
+ $('bankRows').innerHTML=filtered.slice(qPage*QB_PAGE,(qPage+1)*QB_PAGE).map(({q,i})=>'<tr><td>'+bn(i+1)+'</td><td><strong>'+esc(q.c)+'</strong><br>'+esc(q.q)+'<br><small class="muted">সঠিক: '+esc(q.o[q.a])+'</small></td><td>'+esc(q.d)+'</td><td><button class="secondary" data-edit="'+i+'">সম্পাদনা</button><button class="danger" data-delete="'+i+'">মুছুন</button></td></tr>').join('')||'<tr><td colspan="4">কোনো প্রশ্ন পাওয়া যায়নি।</td></tr>';
+ $('bankPage').textContent='পৃষ্ঠা '+bn(qPage+1)+' / '+bn(pages)+' · মোট '+bn(filtered.length);
+ $('bankRows').querySelectorAll('[data-edit]').forEach(b=>b.onclick=()=>editQ(Number(b.dataset.edit)));
+ $('bankRows').querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>{const i=Number(b.dataset.delete);if(!confirm('এই প্রশ্নটি তালিকা থেকে মুছবেন? প্রকাশ না করা পর্যন্ত লাইভে পরিবর্তন হবে না।'))return;qBank.splice(i,1);markQDirty()});
+ qBankStats();
+}
+function editQ(i){const q=qBank[i];$('bankEditId').value=q.id;$('bankCategory').value=q.c;$('bankDifficulty').value=q.d;$('bankQuestion').value=q.q;document.querySelectorAll('.bankOption').forEach((el,n)=>el.value=q.o[n]);$('bankCorrect').value=String(q.a);$('bankSave').textContent='পরিবর্তন তালিকায় রাখুন';$('bankForm').scrollIntoView({behavior:'smooth'})}
+$('bankForm').onsubmit=e=>{e.preventDefault();const opts=[...document.querySelectorAll('.bankOption')].map(x=>x.value.trim());const q={id:$('bankEditId').value||('admin_'+crypto.randomUUID()),c:$('bankCategory').value.trim(),d:$('bankDifficulty').value,q:$('bankQuestion').value.trim(),o:opts,a:Number($('bankCorrect').value)};try{const i=qBank.findIndex(x=>x.id===q.id);const next=qBank.slice();if(i>=0)next[i]=q;else next.push(q);validateQBank(next);qBank=next;clearQForm();markQDirty();$('bankStatus').textContent='প্রশ্নটি স্থানীয় সম্পাদনা তালিকায় রাখা হয়েছে। প্রকাশ করতে নিচের সবুজ বাটন চাপুন।'}catch(err){$('bankStatus').textContent='সংরক্ষণ করা যায়নি: '+err.message}};
+$('bankCancel').onclick=clearQForm;$('bankSearch').oninput=()=>{qPage=0;renderQBank()};
+$('bankPrev').onclick=()=>{qPage=Math.max(0,qPage-1);renderQBank()};$('bankNext').onclick=()=>{qPage++;renderQBank()};
+$('loadBank').onclick=loadQBank;
+$('exportBank').onclick=()=>{if(!qBank.length){$('bankStatus').textContent='আগে প্রশ্নব্যাংক লোড করুন।';return}const blob=new Blob([JSON.stringify({format:'medhar-lorai-central-bank-backup-v1',createdAt:new Date().toISOString(),questions:qBank},null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='medhar-lorai-question-bank-backup.json';a.click();URL.revokeObjectURL(url)};
+async function publishQBank(){
+ if(!session||session.uid!==OWNER_UID)throw Error('শুধু নির্ধারিত মালিকের Firebase অ্যাকাউন্ট প্রকাশ করতে পারবে।');
+ validateQBank(qBank);
+ if(!qDirty)throw Error('প্রকাশ করার মতো নতুন পরিবর্তন নেই।');
+ const oldChunks=Math.ceil(qBankOriginal.length/QB_SIZE),newChunks=Math.ceil(qBank.length/QB_SIZE),writes=[];
+ for(let i=0;i<newChunks;i++){
+  const id='chunk_'+String(i).padStart(3,'0'),payload=JSON.stringify(qBank.slice(i*QB_SIZE,(i+1)*QB_SIZE));
+  writes.push({update:{name:'projects/'+config.projectId+'/databases/(default)/documents/publicQuestionBank/'+id,fields:{index:{integerValue:String(i)},payload:{stringValue:payload},updatedAt:{timestampValue:new Date().toISOString()}}}});
+ }
+ for(let i=newChunks;i<oldChunks;i++)writes.push({delete:'projects/'+config.projectId+'/databases/(default)/documents/publicQuestionBank/chunk_'+String(i).padStart(3,'0')});
+ writes.push({update:{name:'projects/'+config.projectId+'/databases/(default)/documents/publicQuestionBank/meta',fields:{format:{stringValue:'medhar-lorai-central-bank-v1'},count:{integerValue:String(qBank.length)},chunks:{integerValue:String(newChunks)},updatedAt:{timestampValue:new Date().toISOString()},publishedBy:{stringValue:session.uid}}}});
+ const r=await fetch('https://firestore.googleapis.com/v1/projects/'+encodeURIComponent(config.projectId)+'/databases/(default)/documents:commit',{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+await token()},body:JSON.stringify({writes})});
+ const d=await r.json();if(!r.ok)throw Error(d.error?.message||'Firestore প্রকাশ ব্যর্থ');
+ qBankOriginal=JSON.parse(JSON.stringify(qBank));qDirty=false;qBankStats();$('bankStatus').textContent='প্রকাশ সফল! '+bn(qBank.length)+'টি প্রশ্ন কেন্দ্রীয় Firebase ব্যাংকে সংরক্ষিত হয়েছে। সব পরিবর্তন একই atomic commit-এ সম্পন্ন হয়েছে।';renderSubjectSummary(qBank);
+}
+$('publishBank').onclick=async()=>{if(!qDirty){$('bankStatus').textContent='কোনো নতুন পরিবর্তন নেই।';return}if(!confirm('আপনি '+bn(qBank.length)+'টি প্রশ্নের সম্পূর্ণ তালিকা সব ব্যবহারকারীর জন্য প্রকাশ করতে চান? আগে ব্যাকআপ ডাউনলোড করে নিন।'))return;$('publishBank').disabled=true;$('bankStatus').textContent='নিরাপদভাবে Firebase-এ প্রকাশ হচ্ছে…';try{await publishQBank()}catch(e){$('bankStatus').textContent='প্রকাশ ব্যর্থ: '+e.message+' · Firebase Rules ও মালিকের UID যাচাই করুন।'}finally{$('publishBank').disabled=false}};
+
 async function loadDashboard(){
  $('dashStatus').textContent='Firebase থেকে তথ্য আনা হচ্ছে…';
  try{
@@ -87,5 +160,6 @@ async function loadDashboard(){
 }
 $('loginBtn').onclick=authLogin;$('password').addEventListener('keydown',e=>{if(e.key==='Enter')authLogin()});$('refresh').onclick=loadDashboard;
 $('logout').onclick=()=>{session=null;sessionStorage.removeItem('ml_admin_session');showLogin('নিরাপদভাবে লগআউট করা হয়েছে।')};
+$('loadBank').addEventListener('click',loadQBank);
 try{const saved=JSON.parse(sessionStorage.getItem('ml_admin_session')||'null');if(saved?.uid===OWNER_UID&&saved?.idToken&&saved.expiresAt>Date.now()){session=saved;showDash();loadDashboard()}else showLogin()}catch(e){showLogin()}
 </script></body></html>
