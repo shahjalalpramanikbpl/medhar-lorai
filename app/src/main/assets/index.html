@@ -967,7 +967,14 @@ async function publicFirestoreGet(path){
  const url='https://firestore.googleapis.com/v1/projects/'+encodeURIComponent(cloudConfig.projectId)+'/databases/(default)/documents/'+path;
  const res=await fetch(url);const data=await res.json();if(!res.ok)throw Error(data.error?.message||'PUBLIC_BANK_READ_FAILED');return data;
 }
-async function loadCentralQuestionBank(showStatus=false){
+
+async function applyRemoteAppControl(){
+ try{const d=await publicFirestoreGet('appConfig/control'),f=d.fields||{};
+  if(f.noticeEnabled?.booleanValue===true&&String(f.noticeText?.stringValue||'').trim()){let n=document.getElementById('remoteAppNotice');if(!n){n=document.createElement('div');n.id='remoteAppNotice';n.style.cssText='position:relative;z-index:1000;margin:0 auto 12px;max-width:780px;padding:12px 15px;border-radius:12px;background:#f5d58b;color:#26364a;font-weight:750;line-height:1.5;box-shadow:0 5px 18px #0005';document.body.prepend(n)}n.textContent='📢 '+f.noticeText.stringValue;}
+  if(f.maintenanceEnabled?.booleanValue===true){const cover=document.createElement('div');cover.id='remoteMaintenanceCover';cover.style.cssText='position:fixed;inset:0;z-index:99999;display:grid;place-items:center;padding:24px;background:linear-gradient(145deg,#07162e,#183b5b);color:#fff;text-align:center';const msg=String(f.maintenanceText?.stringValue||'অ্যাপটি উন্নত করার কাজ চলছে। অনুগ্রহ করে কিছুক্ষণ পর আবার চেষ্টা করুন।');const box=document.createElement('div');box.style.cssText='max-width:520px;background:#102945;border:1px solid #d8b96e;border-radius:22px;padding:28px;box-shadow:0 18px 50px #0008';const h=document.createElement('h2');h.textContent='সাময়িক রক্ষণাবেক্ষণ';const p=document.createElement('p');p.style.lineHeight='1.8';p.textContent=msg;const icon=document.createElement('div');icon.style.fontSize='48px';icon.textContent='🛠️';const foot=document.createElement('small');foot.textContent='Battle of Brains · মেধার লড়াই';box.append(icon,h,p,foot);cover.append(box);document.body.append(cover);}
+ }catch(e){/* Remote control is optional; offline users continue normally. */}
+}
+\nasync function loadCentralQuestionBank(showStatus=false){
  const status=$('centralQuestionsStatus');
  try{
   const meta=await publicFirestoreGet(centralBankPath('meta')),f=meta.fields||{};
@@ -1114,7 +1121,7 @@ async function showCloudLeaderboard(){
   $('cloudBoardRows').innerHTML=docs.map((d,i)=>{const f=d.fields||{},nm=cloudEsc(f.displayName?.stringValue||'খেলোয়াড়'),pt=Number(f.points?.doubleValue??f.points?.integerValue??0),lv=f.level?.integerValue||'১';return '<div class="qitem">'+bnDigits(i+1)+'. <b>'+nm+'</b><br>⭐ '+bnDigits(pt.toFixed(2))+' পয়েন্ট · লেভেল '+cloudEsc(lv)+'</div>'}).join('');
  }catch(e){$('cloudBoardStatus').textContent='লিডারবোর্ড লোড হয়নি: '+cloudEsc(cloudError(e));}
 }
-syncAdminButton();
+syncAdminButton();\napplyRemoteAppControl();
  if(cloudSession?.uid){trackRegisteredAccount().catch(()=>{});startPresence();}
 trackAppInstall().catch(()=>{});
 wireCloudQuestionBackup();
