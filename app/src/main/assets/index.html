@@ -1122,7 +1122,8 @@ async function showCloudLeaderboard(){
   $('cloudBoardRows').innerHTML=docs.map((d,i)=>{const f=d.fields||{},nm=cloudEsc(f.displayName?.stringValue||'খেলোয়াড়'),pt=Number(f.points?.doubleValue??f.points?.integerValue??0),lv=f.level?.integerValue||'১';return '<div class="qitem">'+bnDigits(i+1)+'. <b>'+nm+'</b><br>⭐ '+bnDigits(pt.toFixed(2))+' পয়েন্ট · লেভেল '+cloudEsc(lv)+'</div>'}).join('');
  }catch(e){$('cloudBoardStatus').textContent='লিডারবোর্ড লোড হয়নি: '+cloudEsc(cloudError(e));}
 }
-syncAdminButton();\napplyRemoteAppControl();
+syncAdminButton();
+applyRemoteAppControl();
  if(cloudSession?.uid){trackRegisteredAccount().catch(()=>{});startPresence();}
 trackAppInstall().catch(()=>{});
 wireCloudQuestionBackup();
