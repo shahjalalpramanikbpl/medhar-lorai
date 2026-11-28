@@ -59,7 +59,7 @@ function qBankStats(){const subjects=new Set(qBank.map(q=>q.c));$('bankTotal').t
 function markQDirty(){qDirty=JSON.stringify(qBank)!==JSON.stringify(qBankOriginal);qBankStats();renderQBank();}
 function clearQForm(){$('bankForm').reset();$('bankEditId').value='';$('bankDifficulty').value='মাঝারি';$('bankCorrect').value='0';$('bankSave').textContent='প্রশ্ন তালিকায় যোগ করুন'}
 function validateQBank(list){
- if(!Array.isArray(list)||!list.length||list.length>5000)throw Error('প্রশ্ন ১–৫০০০টির মধ্যে হতে হবে।');
+ if(!Array.isArray(list)||!list.length||list.length>2000)throw Error('প্রশ্ন ১–২০০০টির মধ্যে হতে হবে।');
  const seen=new Set();
  for(const q of list){
   if(!q||typeof q.c!=='string'||!q.c.trim()||q.c.length>80||typeof q.q!=='string'||!q.q.trim()||q.q.length>1200||!Array.isArray(q.o)||q.o.length!==4||q.o.some(x=>typeof x!=='string'||!x.trim()||x.length>300)||![0,1,2,3].includes(Number(q.a))||!['সহজ','মাঝারি','কঠিন'].includes(q.d))throw Error('কোনো প্রশ্নের বিষয়/প্রশ্ন/চারটি অপশন/সঠিক উত্তর/কঠিনতা সঠিক নয়।');
@@ -82,7 +82,7 @@ async function loadQBank(){
    const part=JSON.parse(payload);if(!Array.isArray(part))throw Error('Chunk '+i+' ভুল ফরম্যাটে আছে।');bank.push(...part);
   }
   if(bank.length!==count)throw Error('প্রশ্নসংখ্যা মেটাডেটার সঙ্গে মেলেনি।');
-  qBank=validateQBank(bank).map(q=>({...q,id:String(q.id||('admin_'+crypto.randomUUID()))}));
+  qBank=validateQBank(bank.map(q=>({...q,d:['সহজ','মাঝারি','কঠিন'].includes(q.d)?q.d:'সহজ'}))).map(q=>({...q,id:String(q.id||('admin_'+crypto.randomUUID()))}));
   qBankOriginal=JSON.parse(JSON.stringify(qBank));qDirty=false;qPage=0;
   $('bankStatus').textContent='লাইভ প্রশ্নব্যাংক লোড হয়েছে। '+bn(count)+'টি প্রশ্ন সম্পাদনার জন্য প্রস্তুত।';
   qBankStats();renderQBank();renderSubjectSummary(qBank);
@@ -160,6 +160,5 @@ async function loadDashboard(){
 }
 $('loginBtn').onclick=authLogin;$('password').addEventListener('keydown',e=>{if(e.key==='Enter')authLogin()});$('refresh').onclick=loadDashboard;
 $('logout').onclick=()=>{session=null;sessionStorage.removeItem('ml_admin_session');showLogin('নিরাপদভাবে লগআউট করা হয়েছে।')};
-$('loadBank').addEventListener('click',loadQBank);
 try{const saved=JSON.parse(sessionStorage.getItem('ml_admin_session')||'null');if(saved?.uid===OWNER_UID&&saved?.idToken&&saved.expiresAt>Date.now()){session=saved;showDash();loadDashboard()}else showLogin()}catch(e){showLogin()}
 </script></body></html>
